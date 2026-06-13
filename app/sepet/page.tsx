@@ -53,7 +53,7 @@ export default function CartPage() {
                     src={item.image}
                     alt={item.name}
                     fill
-                    className="object-contain p-1"
+                    className="object-cover"
                     unoptimized
                   />
                 )}
