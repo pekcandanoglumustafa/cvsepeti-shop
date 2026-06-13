@@ -21,7 +21,7 @@ export default function ProductsPage() {
       <div className="flex gap-2 overflow-x-auto pb-4 mb-6 border-b border-[var(--line)]">
         <Link
           href="/urunler"
-          className="tag-stencil text-xs whitespace-nowrap px-3 py-2 rounded-md bg-[var(--gold)] text-white"
+          className="tag-stencil text-xs whitespace-nowrap px-3 py-2 bg-[var(--ink)] text-[var(--paper)]"
         >
           Tümü
         </Link>
@@ -29,7 +29,7 @@ export default function ProductsPage() {
           <Link
             key={c}
             href={`/kategori/${categorySlug(c)}`}
-            className="tag-stencil text-xs whitespace-nowrap px-3 py-2 rounded-md border border-[var(--line)] text-[var(--ink-soft)] hover:border-[var(--gold)] hover:text-[var(--gold)] transition-colors"
+            className="tag-stencil text-xs whitespace-nowrap px-3 py-2 border border-[var(--line)] hover:border-[var(--ink)] transition-colors"
           >
             {c}
           </Link>

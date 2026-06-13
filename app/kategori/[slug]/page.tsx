@@ -45,7 +45,7 @@ export default async function CategoryPage({
       <div className="flex gap-2 overflow-x-auto pb-4 mb-6 border-b border-[var(--line)]">
         <Link
           href="/urunler"
-          className="tag-stencil text-xs whitespace-nowrap px-3 py-2 rounded-md border border-[var(--line)] text-[var(--ink-soft)] hover:border-[var(--gold)] hover:text-[var(--gold)] transition-colors"
+          className="tag-stencil text-xs whitespace-nowrap px-3 py-2 border border-[var(--line)] hover:border-[var(--ink)] transition-colors"
         >
           Tümü
         </Link>
@@ -53,10 +53,10 @@ export default async function CategoryPage({
           <Link
             key={c}
             href={`/kategori/${categorySlug(c)}`}
-            className={`tag-stencil text-xs whitespace-nowrap px-3 py-2 rounded-md transition-colors ${
+            className={`tag-stencil text-xs whitespace-nowrap px-3 py-2 transition-colors ${
               c === cat
-                ? "bg-[var(--gold)] text-white"
-                : "border border-[var(--line)] text-[var(--ink-soft)] hover:border-[var(--gold)] hover:text-[var(--gold)]"
+                ? "bg-[var(--ink)] text-[var(--paper)]"
+                : "border border-[var(--line)] hover:border-[var(--ink)]"
             }`}
           >
             {c}

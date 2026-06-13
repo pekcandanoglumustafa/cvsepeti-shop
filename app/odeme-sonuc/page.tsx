@@ -19,7 +19,7 @@ function Result() {
   if (status === "success") {
     return (
       <main className="max-w-xl mx-auto px-4 py-24 text-center">
-        <CheckCircle2 className="mx-auto text-[var(--gold)]" size={64} />
+        <CheckCircle2 className="mx-auto text-[var(--safety-orange)]" size={64} />
         <h1 className="font-display text-3xl font-bold mt-6">
           Siparişiniz Alındı
         </h1>
@@ -33,7 +33,7 @@ function Result() {
         </p>
         <Link
           href="/urunler"
-          className="inline-flex items-center gap-2 mt-8 bg-[var(--gold)] text-white px-6 py-3.5 font-display tag-stencil text-sm rounded-md hover:bg-[var(--gold-dark)] transition-colors"
+          className="inline-flex items-center gap-2 mt-8 bg-[var(--ink)] text-[var(--paper)] px-6 py-3.5 font-display tag-stencil text-sm hover:bg-[var(--safety-orange)] transition-colors"
         >
           Alışverişe Devam Et <ArrowRight size={18} />
         </Link>
@@ -53,7 +53,7 @@ function Result() {
       </p>
       <Link
         href="/odeme"
-        className="inline-flex items-center gap-2 mt-8 bg-[var(--gold)] text-white px-6 py-3.5 font-display tag-stencil text-sm rounded-md hover:bg-[var(--gold-dark)] transition-colors"
+        className="inline-flex items-center gap-2 mt-8 bg-[var(--ink)] text-[var(--paper)] px-6 py-3.5 font-display tag-stencil text-sm hover:bg-[var(--safety-orange)] transition-colors"
       >
         Tekrar Dene <ArrowRight size={18} />
       </Link>

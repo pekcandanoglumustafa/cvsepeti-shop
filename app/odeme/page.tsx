@@ -103,7 +103,7 @@ export default function CheckoutPage() {
         <h1 className="font-display text-2xl sm:text-3xl font-bold mb-6">
           Güvenli Ödeme
         </h1>
-        <div className="border border-[var(--line)] bg-[var(--surface)] rounded-lg p-4">
+        <div className="border border-[var(--line)] bg-white p-4">
           <div id="iyzico-form-container" />
         </div>
       </main>
@@ -123,14 +123,14 @@ export default function CheckoutPage() {
               <label className="block text-sm font-medium mb-1.5">Ad</label>
               <input
                 required name="name" value={form.name} onChange={handleChange}
-                className="w-full border border-[var(--line)] bg-[var(--surface)] text-[var(--text)] rounded-md px-3 py-2.5 focus:outline-none focus:border-[var(--gold)]"
+                className="w-full border border-[var(--line)] px-3 py-2.5 focus:outline-none focus:border-[var(--ink)]"
               />
             </div>
             <div>
               <label className="block text-sm font-medium mb-1.5">Soyad</label>
               <input
                 required name="surname" value={form.surname} onChange={handleChange}
-                className="w-full border border-[var(--line)] bg-[var(--surface)] text-[var(--text)] rounded-md px-3 py-2.5 focus:outline-none focus:border-[var(--gold)]"
+                className="w-full border border-[var(--line)] px-3 py-2.5 focus:outline-none focus:border-[var(--ink)]"
               />
             </div>
           </div>
@@ -140,7 +140,7 @@ export default function CheckoutPage() {
               <label className="block text-sm font-medium mb-1.5">E-posta</label>
               <input
                 required type="email" name="email" value={form.email} onChange={handleChange}
-                className="w-full border border-[var(--line)] bg-[var(--surface)] text-[var(--text)] rounded-md px-3 py-2.5 focus:outline-none focus:border-[var(--gold)]"
+                className="w-full border border-[var(--line)] px-3 py-2.5 focus:outline-none focus:border-[var(--ink)]"
               />
             </div>
             <div>
@@ -148,7 +148,7 @@ export default function CheckoutPage() {
               <input
                 required name="phone" value={form.phone} onChange={handleChange}
                 placeholder="05XXXXXXXXX"
-                className="w-full border border-[var(--line)] bg-[var(--surface)] text-[var(--text)] rounded-md px-3 py-2.5 focus:outline-none focus:border-[var(--gold)]"
+                className="w-full border border-[var(--line)] px-3 py-2.5 focus:outline-none focus:border-[var(--ink)]"
               />
             </div>
           </div>
@@ -158,7 +158,7 @@ export default function CheckoutPage() {
             <input
               required name="identityNumber" value={form.identityNumber} onChange={handleChange}
               maxLength={11}
-              className="w-full border border-[var(--line)] bg-[var(--surface)] text-[var(--text)] rounded-md px-3 py-2.5 focus:outline-none focus:border-[var(--gold)]"
+              className="w-full border border-[var(--line)] px-3 py-2.5 focus:outline-none focus:border-[var(--ink)]"
             />
           </div>
 
@@ -167,7 +167,7 @@ export default function CheckoutPage() {
             <textarea
               required name="address" value={form.address} onChange={handleChange}
               rows={3}
-              className="w-full border border-[var(--line)] bg-[var(--surface)] text-[var(--text)] rounded-md px-3 py-2.5 focus:outline-none focus:border-[var(--gold)] resize-none"
+              className="w-full border border-[var(--line)] px-3 py-2.5 focus:outline-none focus:border-[var(--ink)] resize-none"
             />
           </div>
 
@@ -176,7 +176,7 @@ export default function CheckoutPage() {
               <label className="block text-sm font-medium mb-1.5">Şehir</label>
               <select
                 name="city" value={form.city} onChange={handleChange}
-                className="w-full border border-[var(--line)] bg-[var(--surface)] text-[var(--text)] rounded-md px-3 py-2.5 focus:outline-none focus:border-[var(--gold)]"
+                className="w-full border border-[var(--line)] px-3 py-2.5 focus:outline-none focus:border-[var(--ink)]"
               >
                 {cities.map((c) => (
                   <option key={c} value={c}>{c}</option>
@@ -187,13 +187,13 @@ export default function CheckoutPage() {
               <label className="block text-sm font-medium mb-1.5">Posta Kodu</label>
               <input
                 required name="zip" value={form.zip} onChange={handleChange}
-                className="w-full border border-[var(--line)] bg-[var(--surface)] text-[var(--text)] rounded-md px-3 py-2.5 focus:outline-none focus:border-[var(--gold)]"
+                className="w-full border border-[var(--line)] px-3 py-2.5 focus:outline-none focus:border-[var(--ink)]"
               />
             </div>
           </div>
 
           {error && (
-            <p className="text-sm text-red-600 bg-red-50 border border-red-200 rounded-md px-3 py-2">
+            <p className="text-sm text-red-600 bg-red-50 border border-red-200 px-3 py-2">
               {error}
             </p>
           )}
@@ -201,7 +201,7 @@ export default function CheckoutPage() {
           <button
             type="submit"
             disabled={loading}
-            className="flex items-center justify-center gap-2 bg-[var(--gold)] text-white py-4 font-display tag-stencil text-sm rounded-md hover:bg-[var(--gold-dark)] transition-colors disabled:opacity-50"
+            className="flex items-center justify-center gap-2 bg-[var(--ink)] text-[var(--paper)] py-4 font-display tag-stencil text-sm hover:bg-[var(--safety-orange)] transition-colors disabled:opacity-50"
           >
             <Lock size={16} />
             {loading ? "Yönlendiriliyor..." : "iyzico ile Güvenli Ödemeye Geç"}
@@ -213,7 +213,7 @@ export default function CheckoutPage() {
           </p>
         </form>
 
-        <div className="border border-[var(--line)] bg-[var(--surface)] rounded-lg p-6 h-fit sticky top-24">
+        <div className="border border-[var(--line)] bg-white p-6 h-fit sticky top-24">
           <h2 className="font-display tag-stencil text-sm mb-4">Sipariş Özeti</h2>
           <div className="flex flex-col gap-2 mb-4 text-sm">
             {items.map((i) => (
@@ -226,9 +226,9 @@ export default function CheckoutPage() {
           <div className="hazard-stripe-thin mb-4" />
           <div className="flex justify-between font-display text-xl font-bold mb-2">
             <span>Toplam</span>
-            <span className="text-[var(--gold)]">{formatPrice(total())}</span>
+            <span className="text-[var(--safety-orange-dark)]">{formatPrice(total())}</span>
           </div>
-          <Link href="/sepet" className="text-sm text-[var(--ink-soft)] hover:text-[var(--gold)]">
+          <Link href="/sepet" className="text-sm text-[var(--ink-soft)] hover:text-[var(--safety-orange)]">
             Sepete dön
           </Link>
         </div>

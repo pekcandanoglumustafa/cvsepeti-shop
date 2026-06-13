@@ -32,11 +32,11 @@ export default function AddToCart({ product }: { product: Product }) {
   return (
     <div className="flex flex-col gap-4">
       <div className="flex items-center gap-3">
-        <div className="flex items-center border border-[var(--line)] rounded-md">
+        <div className="flex items-center border border-[var(--ink)]">
           <button
             type="button"
             onClick={() => setQty((q) => Math.max(1, q - 1))}
-            className="p-3 hover:bg-[var(--surface-2)] transition-colors"
+            className="p-3 hover:bg-[var(--paper-deep)] transition-colors"
             aria-label="Azalt"
           >
             <Minus size={16} />
@@ -47,7 +47,7 @@ export default function AddToCart({ product }: { product: Product }) {
           <button
             type="button"
             onClick={() => setQty((q) => Math.min(product.stock || 99, q + 1))}
-            className="p-3 hover:bg-[var(--surface-2)] transition-colors"
+            className="p-3 hover:bg-[var(--paper-deep)] transition-colors"
             aria-label="Arttır"
           >
             <Plus size={16} />
@@ -65,7 +65,7 @@ export default function AddToCart({ product }: { product: Product }) {
           type="button"
           onClick={handleAdd}
           disabled={outOfStock}
-          className="flex-1 flex items-center justify-center gap-2 bg-[var(--gold)] text-white py-4 font-display tag-stencil text-sm rounded-md hover:bg-[var(--gold-dark)] transition-colors disabled:opacity-40 disabled:cursor-not-allowed"
+          className="flex-1 flex items-center justify-center gap-2 bg-[var(--ink)] text-[var(--paper)] py-4 font-display tag-stencil text-sm hover:bg-[var(--safety-orange)] transition-colors disabled:opacity-40 disabled:cursor-not-allowed"
         >
           {added ? <Check size={18} /> : <ShoppingCart size={18} />}
           {added ? "Sepete Eklendi" : "Sepete Ekle"}
@@ -77,7 +77,7 @@ export default function AddToCart({ product }: { product: Product }) {
             router.push("/sepet");
           }}
           disabled={outOfStock}
-          className="flex-1 flex items-center justify-center gap-2 border-2 border-[var(--gold)] text-[var(--gold)] py-4 font-display tag-stencil text-sm rounded-md hover:bg-[var(--gold)] hover:text-[var(--ink)] transition-colors disabled:opacity-40 disabled:cursor-not-allowed"
+          className="flex-1 flex items-center justify-center gap-2 border-2 border-[var(--ink)] py-4 font-display tag-stencil text-sm hover:bg-[var(--ink)] hover:text-[var(--paper)] transition-colors disabled:opacity-40 disabled:cursor-not-allowed"
         >
           Hemen Al
         </button>
