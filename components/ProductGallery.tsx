@@ -21,7 +21,7 @@ export default function ProductGallery({
             src={imgs[active]}
             alt={name}
             fill
-            className="object-cover scale-110"
+            className="object-contain p-4"
             unoptimized
             priority
           />

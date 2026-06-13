@@ -53,7 +53,7 @@ export default function CartPage() {
                     src={item.image}
                     alt={item.name}
                     fill
-                    className="object-cover scale-110"
+                    className="object-contain p-1"
                     unoptimized
                   />
                 )}
