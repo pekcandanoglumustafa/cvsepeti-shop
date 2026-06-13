@@ -46,14 +46,14 @@ export default function CartPage() {
             >
               <Link
                 href={`/urun/${item.slug}`}
-                className="relative w-20 h-20 sm:w-24 sm:h-24 shrink-0 bg-[var(--paper-deep)]"
+                className="relative w-20 h-20 sm:w-24 sm:h-24 shrink-0 bg-white border border-[var(--line)] overflow-hidden"
               >
                 {item.image && (
                   <Image
                     src={item.image}
                     alt={item.name}
                     fill
-                    className="object-cover"
+                    className="object-cover scale-110"
                     unoptimized
                   />
                 )}

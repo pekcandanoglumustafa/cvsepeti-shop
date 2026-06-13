@@ -9,14 +9,14 @@ export default function ProductCard({ product }: { product: Product }) {
       href={`/urun/${product.slug}`}
       className="group flex flex-col bg-white border border-[var(--line)] hover:border-[var(--ink)] transition-colors"
     >
-      <div className="relative aspect-square bg-[var(--paper-deep)] overflow-hidden">
+      <div className="relative aspect-square bg-white overflow-hidden">
         {img ? (
           <Image
             src={img}
             alt={product.name}
             fill
             sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
-            className="object-cover group-hover:scale-105 transition-transform duration-300"
+            className="object-cover scale-110 group-hover:scale-[1.18] transition-transform duration-300"
             unoptimized
           />
         ) : (

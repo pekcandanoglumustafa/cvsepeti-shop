@@ -15,13 +15,13 @@ export default function ProductGallery({
 
   return (
     <div>
-      <div className="relative aspect-square bg-[var(--paper-deep)] border border-[var(--line)] overflow-hidden">
+      <div className="relative aspect-square bg-white border border-[var(--line)] overflow-hidden">
         {imgs[active] ? (
           <Image
             src={imgs[active]}
             alt={name}
             fill
-            className="object-cover"
+            className="object-cover scale-110"
             unoptimized
             priority
           />
