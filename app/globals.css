@@ -1,14 +1,20 @@
 @import "tailwindcss";
 
 :root {
-  --ink: #1E2128;
-  --ink-soft: #3A3F4B;
-  --paper: #F4F2ED;
-  --paper-deep: #E7E3DA;
-  --safety-orange: #E8590C;
-  --safety-orange-dark: #C24A09;
-  --safety-yellow: #FFD23F;
-  --line: #D8D4CB;
+  --ink: #10141C;
+  --ink-soft: #9aa5b8;
+  --surface: #161B26;
+  --surface-2: #1f2530;
+  --paper: #10141C;
+  --paper-deep: #1f2530;
+  --gold: #D4AF37;
+  --gold-dark: #B8962E;
+  --safety-orange: #D4AF37;
+  --safety-orange-dark: #B8962E;
+  --safety-yellow: #D4AF37;
+  --line: #2a3140;
+  --text: #E7EAF0;
+  --text-soft: #cfd5e0;
 }
 
 * {
@@ -20,8 +26,8 @@ html {
 }
 
 body {
-  background: var(--paper);
-  color: var(--ink);
+  background: var(--ink);
+  color: var(--text);
 }
 
 .font-display {
@@ -34,27 +40,15 @@ body {
   font-family: ui-sans-serif, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 }
 
-/* Signature hazard stripe divider */
+/* Signature divider: thin gold line */
 .hazard-stripe {
-  height: 10px;
-  background: repeating-linear-gradient(
-    135deg,
-    var(--safety-orange) 0px,
-    var(--safety-orange) 18px,
-    var(--ink) 18px,
-    var(--ink) 36px
-  );
+  height: 2px;
+  background: var(--gold);
 }
 
 .hazard-stripe-thin {
-  height: 5px;
-  background: repeating-linear-gradient(
-    135deg,
-    var(--safety-yellow) 0px,
-    var(--safety-yellow) 12px,
-    var(--ink) 12px,
-    var(--ink) 24px
-  );
+  height: 1px;
+  background: var(--line);
 }
 
 .tag-stencil {

@@ -38,7 +38,7 @@ export default function ProductGallery({
               key={i}
               onClick={() => setActive(i)}
               className={`relative w-16 h-16 sm:w-20 sm:h-20 shrink-0 border-2 transition-colors ${
-                i === active ? "border-[var(--safety-orange)]" : "border-[var(--line)]"
+                i === active ? "border-[var(--gold)]" : "border-[var(--line)]"
               }`}
             >
               <Image src={img} alt={`${name} ${i + 1}`} fill className="object-cover" unoptimized />

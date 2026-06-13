@@ -23,34 +23,34 @@ function LinkedinIconSvg() {
 
 export default function Footer() {
   return (
-    <footer className="bg-[var(--ink)] text-[var(--paper)] mt-20">
+    <footer className="bg-[var(--surface)] text-[var(--text)] border-t border-[var(--line)] mt-20">
       <div className="hazard-stripe" />
       <div className="max-w-7xl mx-auto px-4 py-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
         <div>
           <h3 className="font-display text-2xl font-bold mb-3">
-            CV<span className="text-[var(--safety-orange)]">SEPETİ</span>
+            CV<span className="text-[var(--gold)]">SEPETİ</span>
           </h3>
-          <p className="text-sm text-[var(--paper-deep)] leading-relaxed">
+          <p className="text-sm text-[var(--ink-soft)] leading-relaxed">
             Trafik güvenliği, su yalıtımı ve iş güvenliği malzemeleri konusunda
             geniş ürün kataloğu sunuyoruz.
           </p>
         </div>
 
         <div>
-          <h4 className="tag-stencil text-sm mb-4 text-[var(--safety-orange)]">
+          <h4 className="tag-stencil text-sm mb-4 text-[var(--gold)]">
             Hızlı Bağlantılar
           </h4>
-          <ul className="space-y-2 text-sm text-[var(--paper-deep)]">
-            <li><Link href="/urunler" className="hover:text-white">Tüm Ürünler</Link></li>
-            <li><Link href="/sepet" className="hover:text-white">Sepetim</Link></li>
+          <ul className="space-y-2 text-sm text-[var(--ink-soft)]">
+            <li><Link href="/urunler" className="hover:text-[var(--gold)]">Tüm Ürünler</Link></li>
+            <li><Link href="/sepet" className="hover:text-[var(--gold)]">Sepetim</Link></li>
           </ul>
         </div>
 
         <div>
-          <h4 className="tag-stencil text-sm mb-4 text-[var(--safety-orange)]">
+          <h4 className="tag-stencil text-sm mb-4 text-[var(--gold)]">
             İletişim
           </h4>
-          <ul className="space-y-3 text-sm text-[var(--paper-deep)]">
+          <ul className="space-y-3 text-sm text-[var(--ink-soft)]">
             <li className="flex items-start gap-2">
               <MapPin size={16} className="mt-0.5 shrink-0" />
               <span>Konya Teknokent</span>
@@ -61,7 +61,7 @@ export default function Footer() {
             </li>
             <li className="flex items-start gap-2">
               <Mail size={16} className="mt-0.5 shrink-0" />
-              <a href="mailto:mustafa@cvsepeti.com" className="hover:text-white">
+              <a href="mailto:mustafa@cvsepeti.com" className="hover:text-[var(--gold)]">
                 mustafa@cvsepeti.com
               </a>
             </li>
@@ -69,7 +69,7 @@ export default function Footer() {
         </div>
 
         <div>
-          <h4 className="tag-stencil text-sm mb-4 text-[var(--safety-orange)]">
+          <h4 className="tag-stencil text-sm mb-4 text-[var(--gold)]">
             Bizi Takip Edin
           </h4>
           <div className="flex gap-3">
@@ -77,7 +77,7 @@ export default function Footer() {
               href="https://www.instagram.com/cvsepetii/"
               target="_blank"
               rel="noopener noreferrer"
-              className="w-10 h-10 flex items-center justify-center border border-[var(--paper-deep)] rounded-sm hover:bg-[var(--safety-orange)] hover:border-[var(--safety-orange)] transition-colors"
+              className="w-10 h-10 flex items-center justify-center border border-[var(--line)] rounded-sm hover:bg-[var(--gold)] hover:border-[var(--gold)] hover:text-[var(--ink)] transition-colors"
               aria-label="Instagram"
             >
               <InstagramIcon />
@@ -86,18 +86,18 @@ export default function Footer() {
               href="https://www.linkedin.com/company/cv-sepeti/"
               target="_blank"
               rel="noopener noreferrer"
-              className="w-10 h-10 flex items-center justify-center border border-[var(--paper-deep)] rounded-sm hover:bg-[var(--safety-orange)] hover:border-[var(--safety-orange)] transition-colors"
+              className="w-10 h-10 flex items-center justify-center border border-[var(--line)] rounded-sm hover:bg-[var(--gold)] hover:border-[var(--gold)] hover:text-[var(--ink)] transition-colors"
               aria-label="LinkedIn"
             >
               <LinkedinIconSvg />
             </a>
           </div>
-          <p className="text-xs text-[var(--paper-deep)] mt-6">
+          <p className="text-xs text-[var(--ink-soft)] mt-6">
             Ödemeleriniz iyzico güvencesiyle korunmaktadır.
           </p>
         </div>
       </div>
-      <div className="border-t border-[#3A3F4B] py-4 text-center text-xs text-[var(--paper-deep)]">
+      <div className="border-t border-[var(--line)] py-4 text-center text-xs text-[var(--ink-soft)]">
         © {new Date().getFullYear()} CV Sepeti. Tüm hakları saklıdır.
       </div>
     </footer>

@@ -23,7 +23,7 @@ export default function CartPage() {
         </p>
         <Link
           href="/urunler"
-          className="inline-flex items-center gap-2 bg-[var(--ink)] text-[var(--paper)] px-6 py-3.5 font-display tag-stencil text-sm hover:bg-[var(--safety-orange)] transition-colors"
+          className="inline-flex items-center gap-2 bg-[var(--gold)] text-[var(--ink)] px-6 py-3.5 font-display tag-stencil text-sm rounded-md hover:bg-[var(--gold-dark)] transition-colors"
         >
           Ürünleri Keşfet <ArrowRight size={18} />
         </Link>
@@ -42,7 +42,7 @@ export default function CartPage() {
           {items.map((item) => (
             <div
               key={item.slug}
-              className="flex gap-4 border border-[var(--line)] bg-white p-4"
+              className="flex gap-4 border border-[var(--line)] bg-[var(--surface)] rounded-lg p-4"
             >
               <Link
                 href={`/urun/${item.slug}`}
@@ -61,18 +61,18 @@ export default function CartPage() {
               <div className="flex-1 flex flex-col">
                 <Link
                   href={`/urun/${item.slug}`}
-                  className="font-medium text-sm sm:text-base hover:text-[var(--safety-orange)] line-clamp-2"
+                  className="font-medium text-sm sm:text-base hover:text-[var(--gold)] line-clamp-2"
                 >
                   {item.name}
                 </Link>
-                <span className="font-display font-semibold text-[var(--safety-orange-dark)] mt-1">
+                <span className="font-display font-semibold text-[var(--gold)] mt-1">
                   {formatPrice(item.price)}
                 </span>
                 <div className="mt-auto flex items-center justify-between">
-                  <div className="flex items-center border border-[var(--ink)]">
+                  <div className="flex items-center border border-[var(--line)] rounded-md">
                     <button
                       onClick={() => setQty(item.slug, item.qty - 1)}
-                      className="p-2 hover:bg-[var(--paper-deep)]"
+                      className="p-2 hover:bg-[var(--surface-2)]"
                       aria-label="Azalt"
                     >
                       <Minus size={14} />
@@ -82,7 +82,7 @@ export default function CartPage() {
                     </span>
                     <button
                       onClick={() => setQty(item.slug, item.qty + 1)}
-                      className="p-2 hover:bg-[var(--paper-deep)]"
+                      className="p-2 hover:bg-[var(--surface-2)]"
                       aria-label="Arttır"
                     >
                       <Plus size={14} />
@@ -90,7 +90,7 @@ export default function CartPage() {
                   </div>
                   <button
                     onClick={() => remove(item.slug)}
-                    className="text-[var(--ink-soft)] hover:text-[var(--safety-orange)] p-2"
+                    className="text-[var(--ink-soft)] hover:text-[var(--gold)] p-2"
                     aria-label="Kaldır"
                   >
                     <Trash2 size={18} />
@@ -104,7 +104,7 @@ export default function CartPage() {
           ))}
         </div>
 
-        <div className="border border-[var(--line)] bg-white p-6 h-fit sticky top-24">
+        <div className="border border-[var(--line)] bg-[var(--surface)] rounded-lg p-6 h-fit sticky top-24">
           <h2 className="font-display tag-stencil text-sm mb-4">
             Sipariş Özeti
           </h2>
@@ -119,19 +119,19 @@ export default function CartPage() {
           <div className="hazard-stripe-thin mb-4" />
           <div className="flex justify-between font-display text-xl font-bold mb-6">
             <span>Toplam</span>
-            <span className="text-[var(--safety-orange-dark)]">
+            <span className="text-[var(--gold)]">
               {formatPrice(total())}
             </span>
           </div>
           <Link
             href="/odeme"
-            className="flex items-center justify-center gap-2 w-full bg-[var(--ink)] text-[var(--paper)] py-4 font-display tag-stencil text-sm hover:bg-[var(--safety-orange)] transition-colors"
+            className="flex items-center justify-center gap-2 w-full bg-[var(--gold)] text-[var(--ink)] py-4 font-display tag-stencil text-sm rounded-md hover:bg-[var(--gold-dark)] transition-colors"
           >
             Ödemeye Geç <ArrowRight size={18} />
           </Link>
           <Link
             href="/urunler"
-            className="flex items-center justify-center mt-3 text-sm text-[var(--ink-soft)] hover:text-[var(--safety-orange)]"
+            className="flex items-center justify-center mt-3 text-sm text-[var(--ink-soft)] hover:text-[var(--gold)]"
           >
             Alışverişe devam et
           </Link>

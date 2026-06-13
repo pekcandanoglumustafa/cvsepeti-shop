@@ -14,14 +14,14 @@ export default function Header() {
 
   return (
     <header className="sticky top-0 z-50 bg-[var(--paper)]">
-      <div className="bg-[var(--ink)] text-[var(--paper)] text-xs sm:text-sm">
+      <div className="bg-[var(--surface)] text-[var(--text-soft)] text-xs sm:text-sm border-b border-[var(--line)]">
         <div className="max-w-7xl mx-auto px-4 py-2 flex items-center justify-between gap-2">
           <span className="tag-stencil tracking-wider">
             Fiyatlarımıza kargo dahildir
           </span>
           <a
             href="tel:05076584245"
-            className="flex items-center gap-1.5 hover:text-[var(--safety-orange)] transition-colors"
+            className="flex items-center gap-1.5 hover:text-[var(--gold)] transition-colors"
           >
             <Phone size={14} />
             <span>0 507 658 42 45</span>
@@ -31,14 +31,14 @@ export default function Header() {
 
       <div className="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between gap-4">
         <Link href="/" className="font-display text-2xl sm:text-3xl font-bold tracking-tight">
-          CV<span className="text-[var(--safety-orange)]">SEPETİ</span>
+          CV<span className="text-[var(--gold)]">SEPETİ</span>
         </Link>
 
         <nav className="hidden lg:flex items-center gap-6 font-display tag-stencil text-sm">
-          <Link href="/" className="hover:text-[var(--safety-orange)] transition-colors">
+          <Link href="/" className="hover:text-[var(--gold)] transition-colors">
             Ana Sayfa
           </Link>
-          <Link href="/urunler" className="hover:text-[var(--safety-orange)] transition-colors">
+          <Link href="/urunler" className="hover:text-[var(--gold)] transition-colors">
             Tüm Ürünler
           </Link>
         </nav>
@@ -46,12 +46,12 @@ export default function Header() {
         <div className="flex items-center gap-3">
           <Link
             href="/sepet"
-            className="relative flex items-center gap-2 bg-[var(--ink)] text-[var(--paper)] px-3 sm:px-4 py-2 rounded-sm font-display tag-stencil text-sm hover:bg-[var(--safety-orange)] transition-colors"
+            className="relative flex items-center gap-2 bg-[var(--gold)] text-[var(--ink)] px-3 sm:px-4 py-2 rounded-md font-display tag-stencil text-sm hover:bg-[var(--gold-dark)] transition-colors"
           >
             <ShoppingCart size={18} />
             <span className="hidden sm:inline">Sepet</span>
             {mounted && count > 0 && (
-              <span className="absolute -top-2 -right-2 bg-[var(--safety-orange)] text-white text-xs w-5 h-5 rounded-full flex items-center justify-center font-bold">
+              <span className="absolute -top-2 -right-2 bg-[var(--text)] text-[var(--ink)] text-xs w-5 h-5 rounded-full flex items-center justify-center font-bold">
                 {count}
               </span>
             )}
@@ -67,7 +67,7 @@ export default function Header() {
       </div>
 
       {open && (
-        <div className="lg:hidden border-t border-[var(--line)] bg-[var(--paper)] px-4 py-4">
+        <div className="lg:hidden border-t border-[var(--line)] bg-[var(--surface)] px-4 py-4">
           <div className="flex flex-col gap-3 font-display tag-stencil text-sm">
             <Link href="/" onClick={() => setOpen(false)}>
               Ana Sayfa
@@ -84,7 +84,7 @@ export default function Header() {
                 key={c}
                 href={`/kategori/${categorySlug(c)}`}
                 onClick={() => setOpen(false)}
-                className="text-[var(--ink-soft)] hover:text-[var(--safety-orange)]"
+                className="text-[var(--ink-soft)] hover:text-[var(--gold)]"
               >
                 {c}
               </Link>
@@ -95,13 +95,13 @@ export default function Header() {
 
       <div className="hazard-stripe-thin" />
 
-      <div className="hidden lg:block bg-white border-b border-[var(--line)]">
+      <div className="hidden lg:block bg-[var(--surface)] border-b border-[var(--line)]">
         <div className="max-w-7xl mx-auto px-4 py-2 flex items-center gap-6 overflow-x-auto text-xs">
           {categories.map((c) => (
             <Link
               key={c}
               href={`/kategori/${categorySlug(c)}`}
-              className="tag-stencil whitespace-nowrap text-[var(--ink-soft)] hover:text-[var(--safety-orange)] transition-colors"
+              className="tag-stencil whitespace-nowrap text-[var(--ink-soft)] hover:text-[var(--gold)] transition-colors"
             >
               {c}
             </Link>

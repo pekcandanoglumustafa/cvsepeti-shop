@@ -25,8 +25,8 @@ export default function Home() {
   return (
     <main>
       {/* HERO */}
-      <section className="relative bg-[var(--ink)] text-[var(--paper)] overflow-hidden">
-        <div className="absolute inset-0 opacity-20">
+      <section className="relative bg-[var(--ink)] text-[var(--text)] overflow-hidden">
+        <div className="absolute inset-0 opacity-10">
           <Image
             src="https://images.unsplash.com/photo-1620339414148-b5bcbee96e30?auto=format&fit=crop&w=1920&q=80"
             alt=""
@@ -37,14 +37,14 @@ export default function Home() {
           />
         </div>
         <div className="relative max-w-7xl mx-auto px-4 py-20 sm:py-28">
-          <span className="tag-stencil text-[var(--safety-orange)] text-sm">
+          <span className="tag-stencil text-[var(--gold)] text-sm">
             Konya Teknokent · Yerli Üretim
           </span>
           <h1 className="font-display text-4xl sm:text-6xl font-bold mt-4 max-w-3xl leading-tight">
             Yolda, Çatıda ve Sahada{" "}
-            <span className="text-[var(--safety-orange)]">Güvenlik</span> Bizim İşimiz
+            <span className="text-[var(--gold)]">Güvenlik</span> Bizim İşimiz
           </h1>
-          <p className="mt-5 max-w-xl text-[var(--paper-deep)] text-base sm:text-lg">
+          <p className="mt-5 max-w-xl text-[var(--ink-soft)] text-base sm:text-lg">
             Trafik uyarı levhaları, ikaz ürünleri, su yalıtım membranları ve iş
             güvenliği ekipmanlarında 237 ürünlük geniş katalog. Hızlı kargo,
             güvenli online ödeme.
@@ -52,7 +52,7 @@ export default function Home() {
           <div className="mt-8 flex flex-wrap gap-4">
             <Link
               href="/urunler"
-              className="flex items-center gap-2 bg-[var(--safety-orange)] text-white px-6 py-3.5 font-display tag-stencil text-sm hover:bg-[var(--safety-orange-dark)] transition-colors"
+              className="flex items-center gap-2 bg-[var(--gold)] text-[var(--ink)] px-6 py-3.5 font-display tag-stencil text-sm rounded-md hover:bg-[var(--gold-dark)] transition-colors"
             >
               Tüm Ürünleri Gör <ArrowRight size={18} />
             </Link>
@@ -62,18 +62,18 @@ export default function Home() {
       </section>
 
       {/* TRUST BAR */}
-      <section className="bg-white border-b border-[var(--line)]">
+      <section className="bg-[var(--surface)] border-b border-[var(--line)]">
         <div className="max-w-7xl mx-auto px-4 py-6 grid grid-cols-2 sm:grid-cols-4 gap-6 text-sm">
           <div className="flex items-center gap-3">
-            <Truck className="text-[var(--safety-orange)]" size={28} />
+            <Truck className="text-[var(--gold)]" size={28} />
             <span>Hızlı Kargo</span>
           </div>
           <div className="flex items-center gap-3">
-            <Lock className="text-[var(--safety-orange)]" size={28} />
+            <Lock className="text-[var(--gold)]" size={28} />
             <span>iyzico Güvenli Ödeme</span>
           </div>
           <div className="flex items-center gap-3">
-            <ShieldCheck className="text-[var(--safety-orange)]" size={28} />
+            <ShieldCheck className="text-[var(--gold)]" size={28} />
             <span>237+ Ürün Çeşidi</span>
           </div>
         </div>
@@ -93,7 +93,7 @@ export default function Home() {
               <Link
                 key={cat}
                 href={`/kategori/${categorySlug(cat)}`}
-                className="relative group h-56 overflow-hidden border border-[var(--line)] bg-white"
+                className="relative group h-56 overflow-hidden border border-[var(--line)] bg-[var(--surface)] rounded-lg"
               >
                 {img && (
                   <Image
@@ -126,7 +126,7 @@ export default function Home() {
           </h2>
           <Link
             href="/urunler"
-            className="tag-stencil text-sm text-[var(--safety-orange-dark)] hover:underline flex items-center gap-1"
+            className="tag-stencil text-sm text-[var(--gold)] hover:underline flex items-center gap-1"
           >
             Tümü <ArrowRight size={14} />
           </Link>
