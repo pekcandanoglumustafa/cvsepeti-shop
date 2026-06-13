@@ -23,7 +23,7 @@ function LinkedinIconSvg() {
 
 export default function Footer() {
   return (
-    <footer className="bg-[var(--surface)] text-[var(--text)] border-t border-[var(--line)] mt-20">
+    <footer className="bg-[var(--surface-2)] text-[var(--text)] border-t border-[var(--line)] mt-20">
       <div className="hazard-stripe" />
       <div className="max-w-7xl mx-auto px-4 py-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
         <div>
@@ -77,7 +77,7 @@ export default function Footer() {
               href="https://www.instagram.com/cvsepetii/"
               target="_blank"
               rel="noopener noreferrer"
-              className="w-10 h-10 flex items-center justify-center border border-[var(--line)] rounded-sm hover:bg-[var(--gold)] hover:border-[var(--gold)] hover:text-[var(--ink)] transition-colors"
+              className="w-10 h-10 flex items-center justify-center border border-[var(--line)] rounded-full bg-white hover:bg-[var(--gold)] hover:border-[var(--gold)] hover:text-white transition-colors"
               aria-label="Instagram"
             >
               <InstagramIcon />
@@ -86,7 +86,7 @@ export default function Footer() {
               href="https://www.linkedin.com/company/cv-sepeti/"
               target="_blank"
               rel="noopener noreferrer"
-              className="w-10 h-10 flex items-center justify-center border border-[var(--line)] rounded-sm hover:bg-[var(--gold)] hover:border-[var(--gold)] hover:text-[var(--ink)] transition-colors"
+              className="w-10 h-10 flex items-center justify-center border border-[var(--line)] rounded-full bg-white hover:bg-[var(--gold)] hover:border-[var(--gold)] hover:text-white transition-colors"
               aria-label="LinkedIn"
             >
               <LinkedinIconSvg />

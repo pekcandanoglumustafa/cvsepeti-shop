@@ -25,40 +25,43 @@ export default function Home() {
   return (
     <main>
       {/* HERO */}
-      <section className="relative bg-[var(--ink)] text-[var(--text)] overflow-hidden">
-        <div className="absolute inset-0 opacity-10">
-          <Image
-            src="https://images.unsplash.com/photo-1620339414148-b5bcbee96e30?auto=format&fit=crop&w=1920&q=80"
-            alt=""
-            fill
-            className="object-cover"
-            unoptimized
-            priority
-          />
-        </div>
-        <div className="relative max-w-7xl mx-auto px-4 py-20 sm:py-28">
-          <span className="tag-stencil text-[var(--gold)] text-sm">
-            Konya Teknokent · Yerli Üretim
-          </span>
-          <h1 className="font-display text-4xl sm:text-6xl font-bold mt-4 max-w-3xl leading-tight">
-            Yolda, Çatıda ve Sahada{" "}
-            <span className="text-[var(--gold)]">Güvenlik</span> Bizim İşimiz
-          </h1>
-          <p className="mt-5 max-w-xl text-[var(--ink-soft)] text-base sm:text-lg">
-            Trafik uyarı levhaları, ikaz ürünleri, su yalıtım membranları ve iş
-            güvenliği ekipmanlarında 237 ürünlük geniş katalog. Hızlı kargo,
-            güvenli online ödeme.
-          </p>
-          <div className="mt-8 flex flex-wrap gap-4">
-            <Link
-              href="/urunler"
-              className="flex items-center gap-2 bg-[var(--gold)] text-[var(--ink)] px-6 py-3.5 font-display tag-stencil text-sm rounded-md hover:bg-[var(--gold-dark)] transition-colors"
-            >
-              Tüm Ürünleri Gör <ArrowRight size={18} />
-            </Link>
+      <section className="relative overflow-hidden">
+        <div className="max-w-7xl mx-auto px-4 pt-10 sm:pt-14">
+          <div className="relative bg-[var(--surface-2)] rounded-2xl overflow-hidden">
+            <div className="absolute inset-0 opacity-[0.08]">
+              <Image
+                src="https://images.unsplash.com/photo-1620339414148-b5bcbee96e30?auto=format&fit=crop&w=1920&q=80"
+                alt=""
+                fill
+                className="object-cover"
+                unoptimized
+                priority
+              />
+            </div>
+            <div className="relative px-6 sm:px-12 py-16 sm:py-24">
+              <span className="tag-stencil text-[var(--gold)] text-sm font-medium">
+                Konya Teknokent · Yerli Üretim
+              </span>
+              <h1 className="font-display text-4xl sm:text-6xl font-bold mt-4 max-w-3xl leading-tight text-[var(--text)]">
+                Yolda, Çatıda ve Sahada{" "}
+                <span className="text-[var(--gold)]">Güvenlik</span> Bizim İşimiz
+              </h1>
+              <p className="mt-5 max-w-xl text-[var(--ink-soft)] text-base sm:text-lg">
+                Trafik uyarı levhaları, ikaz ürünleri, su yalıtım membranları ve iş
+                güvenliği ekipmanlarında 237 ürünlük geniş katalog. Hızlı kargo,
+                güvenli online ödeme.
+              </p>
+              <div className="mt-8 flex flex-wrap gap-4">
+                <Link
+                  href="/urunler"
+                  className="flex items-center gap-2 bg-[var(--gold)] text-white px-6 py-3.5 font-display tag-stencil text-sm rounded-full hover:bg-[var(--gold-dark)] transition-colors"
+                >
+                  Tüm Ürünleri Gör <ArrowRight size={18} />
+                </Link>
+              </div>
+            </div>
           </div>
         </div>
-        <div className="hazard-stripe" />
       </section>
 
       {/* TRUST BAR */}

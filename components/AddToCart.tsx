@@ -65,7 +65,7 @@ export default function AddToCart({ product }: { product: Product }) {
           type="button"
           onClick={handleAdd}
           disabled={outOfStock}
-          className="flex-1 flex items-center justify-center gap-2 bg-[var(--gold)] text-[var(--ink)] py-4 font-display tag-stencil text-sm rounded-md hover:bg-[var(--gold-dark)] transition-colors disabled:opacity-40 disabled:cursor-not-allowed"
+          className="flex-1 flex items-center justify-center gap-2 bg-[var(--gold)] text-white py-4 font-display tag-stencil text-sm rounded-md hover:bg-[var(--gold-dark)] transition-colors disabled:opacity-40 disabled:cursor-not-allowed"
         >
           {added ? <Check size={18} /> : <ShoppingCart size={18} />}
           {added ? "Sepete Eklendi" : "Sepete Ekle"}

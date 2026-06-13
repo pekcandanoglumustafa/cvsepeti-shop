@@ -193,7 +193,7 @@ export default function CheckoutPage() {
           </div>
 
           {error && (
-            <p className="text-sm text-[var(--gold)] bg-[var(--surface)] border border-[var(--line)] rounded-md px-3 py-2">
+            <p className="text-sm text-red-600 bg-red-50 border border-red-200 rounded-md px-3 py-2">
               {error}
             </p>
           )}
@@ -201,7 +201,7 @@ export default function CheckoutPage() {
           <button
             type="submit"
             disabled={loading}
-            className="flex items-center justify-center gap-2 bg-[var(--gold)] text-[var(--ink)] py-4 font-display tag-stencil text-sm rounded-md hover:bg-[var(--gold-dark)] transition-colors disabled:opacity-50"
+            className="flex items-center justify-center gap-2 bg-[var(--gold)] text-white py-4 font-display tag-stencil text-sm rounded-md hover:bg-[var(--gold-dark)] transition-colors disabled:opacity-50"
           >
             <Lock size={16} />
             {loading ? "Yönlendiriliyor..." : "iyzico ile Güvenli Ödemeye Geç"}

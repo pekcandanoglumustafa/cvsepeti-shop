@@ -55,7 +55,7 @@ export default async function CategoryPage({
             href={`/kategori/${categorySlug(c)}`}
             className={`tag-stencil text-xs whitespace-nowrap px-3 py-2 rounded-md transition-colors ${
               c === cat
-                ? "bg-[var(--gold)] text-[var(--ink)]"
+                ? "bg-[var(--gold)] text-white"
                 : "border border-[var(--line)] text-[var(--ink-soft)] hover:border-[var(--gold)] hover:text-[var(--gold)]"
             }`}
           >

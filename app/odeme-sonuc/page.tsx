@@ -33,7 +33,7 @@ function Result() {
         </p>
         <Link
           href="/urunler"
-          className="inline-flex items-center gap-2 mt-8 bg-[var(--gold)] text-[var(--ink)] px-6 py-3.5 font-display tag-stencil text-sm rounded-md hover:bg-[var(--gold-dark)] transition-colors"
+          className="inline-flex items-center gap-2 mt-8 bg-[var(--gold)] text-white px-6 py-3.5 font-display tag-stencil text-sm rounded-md hover:bg-[var(--gold-dark)] transition-colors"
         >
           Alışverişe Devam Et <ArrowRight size={18} />
         </Link>
@@ -53,7 +53,7 @@ function Result() {
       </p>
       <Link
         href="/odeme"
-        className="inline-flex items-center gap-2 mt-8 bg-[var(--gold)] text-[var(--ink)] px-6 py-3.5 font-display tag-stencil text-sm rounded-md hover:bg-[var(--gold-dark)] transition-colors"
+        className="inline-flex items-center gap-2 mt-8 bg-[var(--gold)] text-white px-6 py-3.5 font-display tag-stencil text-sm rounded-md hover:bg-[var(--gold-dark)] transition-colors"
       >
         Tekrar Dene <ArrowRight size={18} />
       </Link>

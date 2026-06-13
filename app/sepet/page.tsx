@@ -23,7 +23,7 @@ export default function CartPage() {
         </p>
         <Link
           href="/urunler"
-          className="inline-flex items-center gap-2 bg-[var(--gold)] text-[var(--ink)] px-6 py-3.5 font-display tag-stencil text-sm rounded-md hover:bg-[var(--gold-dark)] transition-colors"
+          className="inline-flex items-center gap-2 bg-[var(--gold)] text-white px-6 py-3.5 font-display tag-stencil text-sm rounded-md hover:bg-[var(--gold-dark)] transition-colors"
         >
           Ürünleri Keşfet <ArrowRight size={18} />
         </Link>
@@ -125,7 +125,7 @@ export default function CartPage() {
           </div>
           <Link
             href="/odeme"
-            className="flex items-center justify-center gap-2 w-full bg-[var(--gold)] text-[var(--ink)] py-4 font-display tag-stencil text-sm rounded-md hover:bg-[var(--gold-dark)] transition-colors"
+            className="flex items-center justify-center gap-2 w-full bg-[var(--gold)] text-white py-4 font-display tag-stencil text-sm rounded-md hover:bg-[var(--gold-dark)] transition-colors"
           >
             Ödemeye Geç <ArrowRight size={18} />
           </Link>

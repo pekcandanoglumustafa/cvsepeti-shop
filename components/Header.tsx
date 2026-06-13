@@ -46,12 +46,12 @@ export default function Header() {
         <div className="flex items-center gap-3">
           <Link
             href="/sepet"
-            className="relative flex items-center gap-2 bg-[var(--gold)] text-[var(--ink)] px-3 sm:px-4 py-2 rounded-md font-display tag-stencil text-sm hover:bg-[var(--gold-dark)] transition-colors"
+            className="relative flex items-center gap-2 bg-[var(--gold)] text-white px-3 sm:px-4 py-2 rounded-md font-display tag-stencil text-sm hover:bg-[var(--gold-dark)] transition-colors"
           >
             <ShoppingCart size={18} />
             <span className="hidden sm:inline">Sepet</span>
             {mounted && count > 0 && (
-              <span className="absolute -top-2 -right-2 bg-[var(--text)] text-[var(--ink)] text-xs w-5 h-5 rounded-full flex items-center justify-center font-bold">
+              <span className="absolute -top-2 -right-2 bg-[var(--ink)] text-white text-xs w-5 h-5 rounded-full flex items-center justify-center font-bold">
                 {count}
               </span>
             )}

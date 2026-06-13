@@ -21,7 +21,7 @@ export default function ProductsPage() {
       <div className="flex gap-2 overflow-x-auto pb-4 mb-6 border-b border-[var(--line)]">
         <Link
           href="/urunler"
-          className="tag-stencil text-xs whitespace-nowrap px-3 py-2 rounded-md bg-[var(--gold)] text-[var(--ink)]"
+          className="tag-stencil text-xs whitespace-nowrap px-3 py-2 rounded-md bg-[var(--gold)] text-white"
         >
           Tümü
         </Link>

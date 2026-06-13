@@ -1,20 +1,20 @@
 @import "tailwindcss";
 
 :root {
-  --ink: #10141C;
-  --ink-soft: #9aa5b8;
-  --surface: #161B26;
-  --surface-2: #1f2530;
-  --paper: #10141C;
-  --paper-deep: #1f2530;
-  --gold: #D4AF37;
-  --gold-dark: #B8962E;
-  --safety-orange: #D4AF37;
-  --safety-orange-dark: #B8962E;
-  --safety-yellow: #D4AF37;
-  --line: #2a3140;
-  --text: #E7EAF0;
-  --text-soft: #cfd5e0;
+  --ink: #1A1A1A;
+  --ink-soft: #6b7280;
+  --surface: #ffffff;
+  --surface-2: #F7F7F5;
+  --paper: #ffffff;
+  --paper-deep: #F7F7F5;
+  --gold: #FF6B35;
+  --gold-dark: #E2531F;
+  --safety-orange: #FF6B35;
+  --safety-orange-dark: #E2531F;
+  --safety-yellow: #FF6B35;
+  --line: #E9E7E1;
+  --text: #1A1A1A;
+  --text-soft: #6b7280;
 }
 
 * {
@@ -26,7 +26,7 @@ html {
 }
 
 body {
-  background: var(--ink);
+  background: var(--paper);
   color: var(--text);
 }
 
@@ -53,7 +53,7 @@ body {
 
 .tag-stencil {
   font-family: var(--font-display), sans-serif;
-  letter-spacing: 0.12em;
+  letter-spacing: 0.04em;
   text-transform: uppercase;
 }
 
