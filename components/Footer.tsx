@@ -31,8 +31,8 @@ export default function Footer() {
             CV<span className="text-[var(--safety-orange)]">SEPETİ</span>
           </h3>
           <p className="text-sm text-[var(--paper-deep)] leading-relaxed">
-            Trafik güvenliği, su yalıtımı ve iş güvenliği malzemeleri ile
-            havacılık tipi ALDIS sinyal lambaları sunuyoruz.
+            Trafik güvenliği, su yalıtımı ve iş güvenliği malzemeleri konusunda
+            geniş ürün kataloğu sunuyoruz.
           </p>
         </div>
 
@@ -43,7 +43,6 @@ export default function Footer() {
           <ul className="space-y-2 text-sm text-[var(--paper-deep)]">
             <li><Link href="/urunler" className="hover:text-white">Tüm Ürünler</Link></li>
             <li><Link href="/sepet" className="hover:text-white">Sepetim</Link></li>
-            <li><Link href="/hava-aldis" className="hover:text-white">Hava ALDIS</Link></li>
           </ul>
         </div>
 

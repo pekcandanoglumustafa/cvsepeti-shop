@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { ArrowRight, ShieldCheck, Truck, Lock, Plane } from "lucide-react";
+import { ArrowRight, ShieldCheck, Truck, Lock } from "lucide-react";
 import { allProducts, categories, categorySlug } from "@/lib/products";
 import ProductCard from "@/components/ProductCard";
 
@@ -66,12 +66,6 @@ export default function Home() {
             >
               Tüm Ürünleri Gör <ArrowRight size={18} />
             </Link>
-            <Link
-              href="/hava-aldis"
-              className="flex items-center gap-2 border-2 border-[var(--paper)] px-6 py-3.5 font-display tag-stencil text-sm hover:bg-[var(--paper)] hover:text-[var(--ink)] transition-colors"
-            >
-              ALDIS Sinyal Lambası
-            </Link>
           </div>
         </div>
         <div className="hazard-stripe" />
@@ -90,11 +84,7 @@ export default function Home() {
           </div>
           <div className="flex items-center gap-3">
             <ShieldCheck className="text-[var(--safety-orange)]" size={28} />
-            <span>Kamu İhale Referansları</span>
-          </div>
-          <div className="flex items-center gap-3">
-            <Plane className="text-[var(--safety-orange)]" size={28} />
-            <span>%100 Yerli ALDIS</span>
+            <span>237+ Ürün Çeşidi</span>
           </div>
         </div>
       </section>
@@ -148,41 +138,6 @@ export default function Home() {
           {featured.map((p) => (
             <ProductCard key={p.slug} product={p} />
           ))}
-        </div>
-      </section>
-
-      {/* ALDIS BANNER */}
-      <section className="relative bg-[var(--ink)] text-[var(--paper)] overflow-hidden">
-        <div className="max-w-7xl mx-auto px-4 py-16 grid sm:grid-cols-2 gap-10 items-center">
-          <div>
-            <span className="tag-stencil text-[var(--safety-orange)] text-sm">
-              T.C. Sahil Güvenlik Komutanlığı için üretildi
-            </span>
-            <h2 className="font-display text-3xl sm:text-4xl font-bold mt-3 leading-tight">
-              %100 Türk IP56 Hava ALDIS Sinyal Lambası
-            </h2>
-            <p className="mt-4 text-[var(--paper-deep)]">
-              Yıllarca ithalat tekelinde tutulan kritik hava seyir güvenlik
-              cihazını, tamamen yerli kaynaklarla üretip Türk Ordusu'nun
-              hizmetine sunuyoruz. Yeşil-Kırmızı-Beyaz ışık kodları ile hava
-              kuleleri ve hava araçları arasında güvenli iletişim sağlar.
-            </p>
-            <Link
-              href="/hava-aldis"
-              className="inline-flex items-center gap-2 mt-6 bg-[var(--safety-orange)] text-white px-6 py-3.5 font-display tag-stencil text-sm hover:bg-[var(--safety-orange-dark)] transition-colors"
-            >
-              Detaylı Bilgi <ArrowRight size={18} />
-            </Link>
-          </div>
-          <div className="relative h-64 sm:h-80 border border-[#3A3F4B]">
-            <Image
-              src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,h=796,fit=crop/YBg473MrO1cZj0bv/chatgpt-image-5-agiu-2025-15_01_16-dOqDL24Ra6hNoBkw.png"
-              alt="ALDIS Hava Sinyal Lambası"
-              fill
-              className="object-cover"
-              unoptimized
-            />
-          </div>
         </div>
       </section>
     </main>

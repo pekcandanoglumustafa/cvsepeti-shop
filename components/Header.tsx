@@ -41,9 +41,6 @@ export default function Header() {
           <Link href="/urunler" className="hover:text-[var(--safety-orange)] transition-colors">
             Tüm Ürünler
           </Link>
-          <Link href="/hava-aldis" className="hover:text-[var(--safety-orange)] transition-colors">
-            ALDIS
-          </Link>
         </nav>
 
         <div className="flex items-center gap-3">
@@ -77,9 +74,6 @@ export default function Header() {
             </Link>
             <Link href="/urunler" onClick={() => setOpen(false)}>
               Tüm Ürünler
-            </Link>
-            <Link href="/hava-aldis" onClick={() => setOpen(false)}>
-              ALDIS
             </Link>
             <div className="hazard-stripe-thin my-2" />
             <p className="text-xs text-[var(--ink-soft)] normal-case font-body tracking-normal mb-1">
