@@ -17,7 +17,7 @@ export default function Header() {
       <div className="bg-[var(--ink)] text-[var(--paper)] text-xs sm:text-sm">
         <div className="max-w-7xl mx-auto px-4 py-2 flex items-center justify-between gap-2">
           <span className="tag-stencil tracking-wider">
-            Fiyatlarımıza kargo dahil değildir
+            Fiyatlarımıza kargo dahildir
           </span>
           <a
             href="tel:05076584245"

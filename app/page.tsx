@@ -4,6 +4,11 @@ import { ArrowRight, ShieldCheck, Truck, Lock } from "lucide-react";
 import { allProducts, categories, categorySlug, productsByCategory } from "@/lib/products";
 import ProductCard from "@/components/ProductCard";
 
+const categoryHeroOverride: Record<string, string> = {
+  "Dikme & Panel Sistemleri":
+    "https://cdn.dsmcdn.com/ty1904/prod/QC_PREP/20260510/14/5cd6297e-9e5b-31f7-ad7d-2f932253f1f3/1_org_zoom.jpg",
+};
+
 export default function Home() {
   const featured = allProducts.filter((p) => p.images.length > 0).slice(0, 8);
   const mainCategories = categories.filter((c) =>
@@ -83,7 +88,7 @@ export default function Home() {
           {mainCategories.map((cat) => {
             const products = productsByCategory(cat);
             const withImg = products.find((p) => p.images.length > 0) || products[0];
-            const img = withImg?.images[0];
+            const img = categoryHeroOverride[cat] || withImg?.images[0];
             return (
               <Link
                 key={cat}
