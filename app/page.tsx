@@ -5,20 +5,31 @@ import { allProducts, categories, categorySlug } from "@/lib/products";
 import ProductCard from "@/components/ProductCard";
 
 const categoryHero: Record<string, string> = {
-  "Uyarı ve Yönlendirme Levhası":
+  "Trafik Uyarı Levhaları":
     "https://images.unsplash.com/photo-1620339414148-b5bcbee96e30?auto=format&fit=crop&w=600&q=80",
-  "İkaz Ürünü":
+  "Trafik Konisi & Duba":
     "https://images.unsplash.com/photo-1620389523785-bdbe8bfc03c0?auto=format&fit=crop&w=600&q=80",
   "Yalıtım Malzemesi":
     "https://images.unsplash.com/photo-1632934604188-2240a8e7fec3?auto=format&fit=crop&w=600&q=80",
-  "İş Eldiveni":
+  "Dikme & Panel Sistemleri":
     "https://images.unsplash.com/photo-1581094288338-2314dddb7ece?auto=format&fit=crop&w=600&q=80",
+  "Delinatör":
+    "https://images.unsplash.com/photo-1597250304751-22b3a374f9d8?auto=format&fit=crop&w=600&q=80",
+  "Yol İşaretleme & Kasis":
+    "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?auto=format&fit=crop&w=600&q=80",
 };
 
 export default function Home() {
   const featured = allProducts.filter((p) => p.images.length > 0).slice(0, 8);
   const mainCategories = categories.filter((c) =>
-    ["Uyarı ve Yönlendirme Levhası", "İkaz Ürünü", "Yalıtım Malzemesi", "İş Eldiveni"].includes(c)
+    [
+      "Trafik Uyarı Levhaları",
+      "Trafik Konisi & Duba",
+      "Yalıtım Malzemesi",
+      "Dikme & Panel Sistemleri",
+      "Yol İşaretleme & Kasis",
+      "Delinatör",
+    ].includes(c)
   );
 
   return (
@@ -93,12 +104,12 @@ export default function Home() {
         <h2 className="font-display text-2xl sm:text-3xl font-bold mb-6">
           Kategoriler
         </h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
           {mainCategories.map((cat) => (
             <Link
               key={cat}
               href={`/kategori/${categorySlug(cat)}`}
-              className="relative group h-44 overflow-hidden border border-[var(--line)]"
+              className="relative group h-56 overflow-hidden border border-[var(--line)]"
             >
               <Image
                 src={categoryHero[cat]}
@@ -133,7 +144,7 @@ export default function Home() {
             Tümü <ArrowRight size={14} />
           </Link>
         </div>
-        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
+        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-3 xl:grid-cols-4 gap-4">
           {featured.map((p) => (
             <ProductCard key={p.slug} product={p} />
           ))}
