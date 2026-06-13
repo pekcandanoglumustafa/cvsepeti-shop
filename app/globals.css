@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --ink: #1E2128;
+  --ink-soft: #3A3F4B;
+  --paper: #F4F2ED;
+  --paper-deep: #E7E3DA;
+  --safety-orange: #E8590C;
+  --safety-orange-dark: #C24A09;
+  --safety-yellow: #FFD23F;
+  --line: #D8D4CB;
+}
+
+* {
+  border-color: var(--line);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+}
+
+.font-display {
+  font-family: "Arial Narrow", "Oswald", Impact, ui-sans-serif, system-ui, sans-serif;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+body {
+  font-family: ui-sans-serif, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+/* Signature hazard stripe divider */
+.hazard-stripe {
+  height: 10px;
+  background: repeating-linear-gradient(
+    135deg,
+    var(--safety-orange) 0px,
+    var(--safety-orange) 18px,
+    var(--ink) 18px,
+    var(--ink) 36px
+  );
+}
+
+.hazard-stripe-thin {
+  height: 5px;
+  background: repeating-linear-gradient(
+    135deg,
+    var(--safety-yellow) 0px,
+    var(--safety-yellow) 12px,
+    var(--ink) 12px,
+    var(--ink) 24px
+  );
+}
+
+.tag-stencil {
+  font-family: var(--font-display), sans-serif;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.line-clamp-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
