@@ -12,16 +12,18 @@ export default function ProductGallery({
 }) {
   const [active, setActive] = useState(0);
   const imgs = images.length > 0 ? images : [""];
+  const isZyro = imgs[active]?.includes("zyrosite.com");
+  const bgClass = isZyro ? "bg-[#1a1a1a]" : "bg-[#f5f5f5]";
 
   return (
     <div>
-      <div className="relative aspect-square bg-white border border-[var(--line)] overflow-hidden">
+      <div className={`relative aspect-square ${bgClass} border border-[var(--line)] overflow-hidden`}>
         {imgs[active] ? (
           <Image
             src={imgs[active]}
             alt={name}
             fill
-            className="object-cover"
+            className="object-contain p-6"
             unoptimized
             priority
           />
@@ -39,9 +41,9 @@ export default function ProductGallery({
               onClick={() => setActive(i)}
               className={`relative w-16 h-16 sm:w-20 sm:h-20 shrink-0 border-2 transition-colors ${
                 i === active ? "border-[var(--safety-orange)]" : "border-[var(--line)]"
-              }`}
+              } bg-[#f5f5f5]`}
             >
-              <Image src={img} alt={`${name} ${i + 1}`} fill className="object-cover" unoptimized />
+              <Image src={img} alt={`${name} ${i + 1}`} fill className="object-contain p-1" unoptimized />
             </button>
           ))}
         </div>

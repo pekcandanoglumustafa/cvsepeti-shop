@@ -4,19 +4,23 @@ import { Product, formatPrice } from "@/lib/products";
 
 export default function ProductCard({ product }: { product: Product }) {
   const img = product.images[0];
+  // Zyro görselleri (membranlar) koyu arka plan, Trendyol görselleri gri arka plan
+  const isZyro = img?.includes("zyrosite.com");
+  const bgClass = isZyro ? "bg-[#1a1a1a]" : "bg-[#f5f5f5]";
+
   return (
     <Link
       href={`/urun/${product.slug}`}
       className="group flex flex-col bg-white border border-[var(--line)] hover:border-[var(--ink)] transition-colors"
     >
-      <div className="relative aspect-square bg-white overflow-hidden">
+      <div className={`relative aspect-square ${bgClass} overflow-hidden`}>
         {img ? (
           <Image
             src={img}
             alt={product.name}
             fill
             sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
-            className="object-cover group-hover:scale-105 transition-transform duration-300"
+            className="object-contain p-3 group-hover:scale-105 transition-transform duration-300"
             unoptimized
           />
         ) : (

@@ -4,6 +4,7 @@ const nextConfig: NextConfig = {
   serverExternalPackages: ["iyzipay"],
   images: {
     remotePatterns: [
+      { protocol: "https", hostname: "cdn.zyrosite.com" },
       { protocol: "https", hostname: "cdn.dsmcdn.com" },
       { protocol: "https", hostname: "assets.zyrosite.com" },
       { protocol: "https", hostname: "images.unsplash.com" },
