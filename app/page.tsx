@@ -1,140 +1,139 @@
 import Link from "next/link";
-import Image from "next/image";
-import { ArrowRight, ShieldCheck, Truck, Lock } from "lucide-react";
-import { allProducts, categories, categorySlug, productsByCategory } from "@/lib/products";
+import { allProducts, categories, categorySlug } from "@/lib/products";
 import ProductCard from "@/components/ProductCard";
 
-const categoryHeroOverride: Record<string, string> = {
-  "Dikme & Panel Sistemleri":
-    "https://cdn.dsmcdn.com/ty1904/prod/QC_PREP/20260510/14/5cd6297e-9e5b-31f7-ad7d-2f932253f1f3/1_org_zoom.jpg",
+const categoryEmoji: Record<string, string> = {
+  "Trafik Konisi & Duba": "🚧",
+  "Trafik Uyarı Levhaları": "🚦",
+  "Yalıtım Malzemesi": "🏗️",
+  "Yol İşaretleme & Kasis": "🛑",
+  "Dikme & Panel Sistemleri": "⚠️",
+  "Delinatör": "🔶",
+  "İş Güvenliği Ekipmanları": "🦺",
+  "Güvenlik Bariyeri & Aynası": "🪞",
+  "Araç Stoperi": "🚗",
+  "Elektrikçi Eldiveni": "⚡",
 };
 
 export default function Home() {
-  const featured = allProducts.filter((p) => p.images.length > 0).slice(0, 8);
-  const mainCategories = categories.filter((c) =>
-    [
-      "Trafik Uyarı Levhaları",
-      "Trafik Konisi & Duba",
-      "Yalıtım Malzemesi",
-      "Dikme & Panel Sistemleri",
-      "Yol İşaretleme & Kasis",
-      "Delinatör",
-    ].includes(c)
-  );
+  const featured = allProducts.filter((p) => p.images[0]).slice(0, 8);
+  const membranes = allProducts.filter((p) => p.category === "Yalıtım Malzemesi").slice(0, 4);
+  const cones = allProducts.filter((p) => p.category === "Trafik Konisi & Duba" && p.images[0]).slice(0, 4);
 
   return (
     <main>
-      {/* HERO */}
-      <section className="relative bg-[var(--ink)] text-[var(--paper)] overflow-hidden">
-        <div className="absolute inset-0 opacity-20">
-          <Image
-            src="https://images.unsplash.com/photo-1620339414148-b5bcbee96e30?auto=format&fit=crop&w=1920&q=80"
-            alt=""
-            fill
-            className="object-cover"
-            unoptimized
-            priority
-          />
-        </div>
-        <div className="relative max-w-7xl mx-auto px-4 py-20 sm:py-28">
-          <span className="tag-stencil text-[var(--safety-orange)] text-sm">
-            Konya Teknokent · Yerli Üretim
-          </span>
-          <h1 className="font-display text-4xl sm:text-6xl font-bold mt-4 max-w-3xl leading-tight">
-            Yolda, Çatıda ve Sahada{" "}
-            <span className="text-[var(--safety-orange)]">Güvenlik</span> Bizim İşimiz
-          </h1>
-          <p className="mt-5 max-w-xl text-[var(--paper-deep)] text-base sm:text-lg">
-            Trafik uyarı levhaları, ikaz ürünleri, su yalıtım membranları ve iş
-            güvenliği ekipmanlarında 237 ürünlük geniş katalog. Hızlı kargo,
-            güvenli online ödeme.
+      {/* Hero */}
+      <section style={{ background: "var(--off-white)", padding: "80px 20px" }}>
+        <div style={{ maxWidth: 980, margin: "0 auto", textAlign: "center" }}>
+          <p style={{ fontSize: 17, color: "var(--orange)", fontWeight: 600, marginBottom: 8 }}>
+            Trafik & Güvenlik Ekipmanları
           </p>
-          <div className="mt-8 flex flex-wrap gap-4">
-            <Link
-              href="/urunler"
-              className="flex items-center gap-2 bg-[var(--safety-orange)] text-white px-6 py-3.5 font-display tag-stencil text-sm hover:bg-[var(--safety-orange-dark)] transition-colors"
-            >
-              Tüm Ürünleri Gör <ArrowRight size={18} />
+          <h1 style={{ fontSize: "clamp(40px, 7vw, 72px)", fontWeight: 700, letterSpacing: "-0.025em", lineHeight: 1.08, color: "var(--text)", marginBottom: 16 }}>
+            Güvenliği ciddiye alın.
+          </h1>
+          <p style={{ fontSize: 21, color: "var(--text-secondary)", maxWidth: 560, margin: "0 auto 32px", lineHeight: 1.4 }}>
+            Trafik malzemeleri, su yalıtım membranları, uyarı sistemleri. 246 ürün, hızlı kargo.
+          </p>
+          <div style={{ display: "flex", gap: 12, justifyContent: "center", flexWrap: "wrap" }}>
+            <Link href="/urunler" style={{ background: "var(--text)", color: "#fff", padding: "14px 28px", borderRadius: 980, fontSize: 17, fontWeight: 500, textDecoration: "none", transition: "background .2s" }}>
+              Alışverişe başla
             </Link>
-          </div>
-        </div>
-        <div className="hazard-stripe" />
-      </section>
-
-      {/* TRUST BAR */}
-      <section className="bg-white border-b border-[var(--line)]">
-        <div className="max-w-7xl mx-auto px-4 py-6 grid grid-cols-2 sm:grid-cols-4 gap-6 text-sm">
-          <div className="flex items-center gap-3">
-            <Truck className="text-[var(--safety-orange)]" size={28} />
-            <span>Hızlı Kargo</span>
-          </div>
-          <div className="flex items-center gap-3">
-            <Lock className="text-[var(--safety-orange)]" size={28} />
-            <span>iyzico Güvenli Ödeme</span>
-          </div>
-          <div className="flex items-center gap-3">
-            <ShieldCheck className="text-[var(--safety-orange)]" size={28} />
-            <span>237+ Ürün Çeşidi</span>
+            <a href="tel:05076584245" style={{ background: "transparent", color: "var(--blue)", padding: "14px 28px", borderRadius: 980, fontSize: 17, fontWeight: 500, textDecoration: "none" }}>
+              Bizi ara →
+            </a>
           </div>
         </div>
       </section>
 
-      {/* CATEGORY GRID */}
-      <section className="max-w-7xl mx-auto px-4 py-14">
-        <h2 className="font-display text-2xl sm:text-3xl font-bold mb-6">
+      {/* Category grid */}
+      <section style={{ maxWidth: 980, margin: "0 auto", padding: "64px 20px" }}>
+        <h2 style={{ fontSize: 28, fontWeight: 700, letterSpacing: "-0.015em", marginBottom: 24, color: "var(--text)" }}>
           Kategoriler
         </h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-          {mainCategories.map((cat) => {
-            const products = productsByCategory(cat);
-            const withImg = products.find((p) => p.images.length > 0) || products[0];
-            const img = categoryHeroOverride[cat] || withImg?.images[0];
-            return (
-              <Link
-                key={cat}
-                href={`/kategori/${categorySlug(cat)}`}
-                className="relative group h-56 overflow-hidden border border-[var(--line)] bg-white"
-              >
-                {img && (
-                  <Image
-                    src={img}
-                    alt={cat}
-                    fill
-                    className="object-cover scale-105 group-hover:scale-[1.12] transition-transform duration-300"
-                    unoptimized
-                  />
-                )}
-                <div className="absolute inset-0 bg-[var(--ink)]/40 group-hover:bg-[var(--ink)]/55 transition-colors" />
-                <div className="absolute bottom-0 left-0 p-4">
-                  <span className="font-display tag-stencil text-white text-base">
-                    {cat}
-                  </span>
-                </div>
-              </Link>
-            );
-          })}
+        <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(140px, 1fr))", gap: 12 }}>
+          {categories.map((c) => (
+            <Link
+              key={c}
+              href={`/kategori/${categorySlug(c)}`}
+              style={{
+                background: "var(--off-white)",
+                borderRadius: 14,
+                padding: "20px 16px",
+                textDecoration: "none",
+                color: "var(--text)",
+                display: "flex",
+                flexDirection: "column",
+                gap: 8,
+                transition: "background .2s",
+              }}
+            >
+              <span style={{ fontSize: 28 }}>{categoryEmoji[c] || "📦"}</span>
+              <span style={{ fontSize: 13, fontWeight: 500, lineHeight: 1.3 }}>{c}</span>
+            </Link>
+          ))}
         </div>
       </section>
 
-      <div className="hazard-stripe-thin" />
-
-      {/* FEATURED PRODUCTS */}
-      <section className="max-w-7xl mx-auto px-4 py-14">
-        <div className="flex items-center justify-between mb-6">
-          <h2 className="font-display text-2xl sm:text-3xl font-bold">
-            Öne Çıkan Ürünler
-          </h2>
-          <Link
-            href="/urunler"
-            className="tag-stencil text-sm text-[var(--safety-orange-dark)] hover:underline flex items-center gap-1"
-          >
-            Tümü <ArrowRight size={14} />
-          </Link>
+      {/* Featured */}
+      <section style={{ maxWidth: 980, margin: "0 auto", padding: "0 20px 64px" }}>
+        <div style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline", marginBottom: 24 }}>
+          <h2 style={{ fontSize: 28, fontWeight: 700, letterSpacing: "-0.015em", color: "var(--text)" }}>Öne çıkanlar</h2>
+          <Link href="/urunler" style={{ fontSize: 17, color: "var(--blue)", textDecoration: "none" }}>Tümünü gör</Link>
         </div>
-        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-3 xl:grid-cols-4 gap-4">
+        <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(220px, 1fr))", gap: 20 }}>
           {featured.map((p) => (
-            <ProductCard key={p.slug} product={p} />
+            <ProductCard key={p.id} product={p} />
           ))}
+        </div>
+      </section>
+
+      {/* Membranes */}
+      {membranes.length > 0 && (
+        <section style={{ background: "var(--off-white)", padding: "64px 20px" }}>
+          <div style={{ maxWidth: 980, margin: "0 auto" }}>
+            <div style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline", marginBottom: 24 }}>
+              <h2 style={{ fontSize: 28, fontWeight: 700, letterSpacing: "-0.015em", color: "var(--text)" }}>Su Yalıtım Membranları</h2>
+              <Link href="/kategori/yalitim-malzemesi" style={{ fontSize: 17, color: "var(--blue)", textDecoration: "none" }}>Tümünü gör</Link>
+            </div>
+            <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(220px, 1fr))", gap: 20 }}>
+              {membranes.map((p) => (
+                <ProductCard key={p.id} product={p} />
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
+
+      {/* Cones */}
+      {cones.length > 0 && (
+        <section style={{ maxWidth: 980, margin: "0 auto", padding: "64px 20px" }}>
+          <div style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline", marginBottom: 24 }}>
+            <h2 style={{ fontSize: 28, fontWeight: 700, letterSpacing: "-0.015em", color: "var(--text)" }}>Trafik Konileri & Dubalar</h2>
+            <Link href="/kategori/trafik-konisi-duba" style={{ fontSize: 17, color: "var(--blue)", textDecoration: "none" }}>Tümünü gör</Link>
+          </div>
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(220px, 1fr))", gap: 20 }}>
+            {cones.map((p) => (
+              <ProductCard key={p.id} product={p} />
+            ))}
+          </div>
+        </section>
+      )}
+
+      {/* CTA banner */}
+      <section style={{ background: "var(--text)", color: "#fff", padding: "64px 20px", textAlign: "center" }}>
+        <div style={{ maxWidth: 560, margin: "0 auto" }}>
+          <h2 style={{ fontSize: 36, fontWeight: 700, letterSpacing: "-0.015em", marginBottom: 12 }}>
+            Toplu sipariş için iletişime geçin.
+          </h2>
+          <p style={{ fontSize: 17, color: "rgba(255,255,255,0.7)", marginBottom: 28 }}>
+            Belediyeler, inşaat şirketleri ve kurumsal müşteriler için özel fiyat.
+          </p>
+          <a
+            href="https://wa.me/905076584245"
+            style={{ display: "inline-block", background: "#fff", color: "var(--text)", padding: "14px 28px", borderRadius: 980, fontSize: 17, fontWeight: 500, textDecoration: "none" }}
+          >
+            WhatsApp'tan yaz
+          </a>
         </div>
       </section>
     </main>

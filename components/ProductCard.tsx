@@ -1,51 +1,68 @@
+"use client";
+
 import Link from "next/link";
 import Image from "next/image";
-import { Product, formatPrice } from "@/lib/products";
+import { useState } from "react";
+import { Product } from "@/lib/products";
+
+function formatPrice(n: number) {
+  return new Intl.NumberFormat("tr-TR", { style: "currency", currency: "TRY", maximumFractionDigits: 0 }).format(n);
+}
 
 export default function ProductCard({ product }: { product: Product }) {
   const img = product.images[0];
-  // Zyro görselleri (membranlar) koyu arka plan, Trendyol görselleri gri arka plan
-  const isZyro = img?.includes("zyrosite.com");
-  const bgClass = isZyro ? "bg-[#1a1a1a]" : "bg-[#f5f5f5]";
+  const [hovered, setHovered] = useState(false);
 
   return (
     <Link
       href={`/urun/${product.slug}`}
-      className="group flex flex-col bg-white border border-[var(--line)] hover:border-[var(--ink)] transition-colors"
+      style={{ textDecoration: "none", color: "inherit", display: "flex", flexDirection: "column" }}
+      onMouseEnter={() => setHovered(true)}
+      onMouseLeave={() => setHovered(false)}
     >
-      <div className={`relative aspect-square ${bgClass} overflow-hidden`}>
+      {/* Image container */}
+      <div
+        style={{
+          background: "var(--off-white)",
+          borderRadius: 18,
+          overflow: "hidden",
+          aspectRatio: "1 / 1",
+          position: "relative",
+          marginBottom: 12,
+        }}
+      >
         {img ? (
           <Image
             src={img}
             alt={product.name}
             fill
             sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
-            className="object-contain p-3 group-hover:scale-105 transition-transform duration-300"
+            style={{ objectFit: "contain", padding: 20, transition: "transform 0.4s ease", transform: hovered ? "scale(1.04)" : "scale(1)" }}
             unoptimized
           />
         ) : (
-          <div className="w-full h-full flex items-center justify-center text-[var(--ink-soft)] text-sm">
+          <div style={{ width: "100%", height: "100%", display: "flex", alignItems: "center", justifyContent: "center", color: "var(--text-tertiary)", fontSize: 13 }}>
             Görsel yok
           </div>
         )}
-        <span className="absolute top-2 left-2 bg-[var(--ink)] text-[var(--paper)] text-[10px] tag-stencil px-2 py-1">
-          {product.category}
-        </span>
         {product.stock <= 0 && (
-          <span className="absolute inset-0 bg-black/50 flex items-center justify-center text-white tag-stencil text-sm">
-            Stokta Yok
-          </span>
+          <div style={{ position: "absolute", inset: 0, background: "rgba(255,255,255,0.7)", display: "flex", alignItems: "center", justifyContent: "center" }}>
+            <span style={{ fontSize: 13, color: "var(--text-secondary)", fontWeight: 500 }}>Stokta Yok</span>
+          </div>
         )}
       </div>
-      <div className="p-3 flex flex-col gap-1.5 flex-1">
-        <h3 className="text-sm font-medium leading-snug line-clamp-2 min-h-[2.5rem]">
+
+      {/* Info */}
+      <div style={{ flex: 1 }}>
+        <p style={{ fontSize: 11, color: "var(--text-tertiary)", marginBottom: 3, textTransform: "uppercase", letterSpacing: "0.06em", fontWeight: 500 }}>
+          {product.category}
+        </p>
+        <p style={{ fontSize: 14, color: "var(--text)", lineHeight: 1.4, display: "-webkit-box", WebkitLineClamp: 2, WebkitBoxOrient: "vertical", overflow: "hidden", marginBottom: 4 }}>
           {product.name}
-        </h3>
-        <div className="mt-auto flex items-center justify-between pt-1">
-          <span className="font-display text-lg font-semibold text-[var(--safety-orange-dark)]">
-            {formatPrice(product.price)}
-          </span>
-        </div>
+        </p>
+        <p style={{ fontSize: 14, color: "var(--text-secondary)", fontWeight: 500 }}>
+          {formatPrice(product.price)}
+        </p>
       </div>
     </Link>
   );
