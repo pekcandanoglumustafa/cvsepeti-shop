@@ -37,7 +37,7 @@ export default function ProductCard({ product }: { product: Product }) {
             alt={product.name}
             fill
             sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
-            style={{ objectFit: "contain", padding: 20, transition: "transform 0.4s ease", transform: hovered ? "scale(1.04)" : "scale(1)" }}
+            style={{ objectFit: "cover", transition: "transform 0.4s ease", transform: hovered ? "scale(1.04)" : "scale(1)" }}
             unoptimized
           />
         ) : (
