@@ -94,3 +94,18 @@ a { color: inherit; }
   padding: 3px 8px;
   border-radius: 4px;
 }
+
+/* Category marquee animation */
+@keyframes catmarquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+.cat-marquee-track {
+  display: flex;
+  gap: 10px;
+  width: max-content;
+  animation: catmarquee 30s linear infinite;
+}
+.cat-marquee-track:hover {
+  animation-play-state: paused;
+}
