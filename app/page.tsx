@@ -24,13 +24,23 @@ const stats = [
 
 const marqueeItems = [
   "🚧 Trafik Konisi", "🔶 Delinatör", "🏗️ Su Yalıtımı", "🚗 Araç Stoperi",
-  "🦺 İş Güvenliği", "🪞 Güvenlik Aynası", "⚠️ Uyarı Levhası", "✈️ ALDIS Havacılık",
-  "🚧 Trafik Konisi", "🔶 Delinatör", "🏗️ Su Yalıtımı", "🚗 Araç Stoperi",
-  "🦺 İş Güvenliği", "🪞 Güvenlik Aynası", "⚠️ Uyarı Levhası", "✈️ ALDIS Havacılık",
+  "🦺 İş Güvenliği", "🪞 Güvenlik Aynası", "⚠️ Uyarı Levhası", "🚧 Trafik Konisi", "🔶 Delinatör", "🏗️ Su Yalıtımı", "🚗 Araç Stoperi",
+  "🦺 İş Güvenliği", "🪞 Güvenlik Aynası", "⚠️ Uyarı Levhası", "🚗 Araç Stoperi",
 ];
 
 export default function Home() {
-  const featured = allProducts.filter((p) => p.images[0]).slice(0, 8);
+  // Kategori dengeli öne çıkan ürünler: her kategoriden 1 ürün, max 8
+  const featured = (() => {
+    const seen = new Set<string>();
+    const picked: typeof allProducts = [];
+    for (const p of allProducts) {
+      if (p.images[0] && !seen.has(p.category) && picked.length < 8) {
+        seen.add(p.category);
+        picked.push(p);
+      }
+    }
+    return picked;
+  })();
   const membranes = allProducts.filter((p) => p.category === "Yalıtım Malzemesi").slice(0, 4);
   const cones = allProducts.filter((p) => p.category === "Trafik Konisi & Duba" && p.images[0]).slice(0, 4);
 
