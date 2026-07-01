@@ -163,6 +163,26 @@ export default function Home() {
         </section>
       )}
 
+      {/* ─── SEO CONTENT ─── */}
+      <section style={{ background: "#fff", borderTop: "1px solid var(--border)", padding: "40px 0" }}>
+        <div className="container">
+          <h2 style={{ fontSize: 17, fontWeight: 800, color: "var(--text)", marginBottom: 12 }}>
+            Trafik Güvenliği ve Yalıtım Ürünlerinde Güvenilir Adres
+          </h2>
+          <div style={{ fontSize: 14, color: "var(--text-secondary)", lineHeight: 1.8, maxWidth: 820 }}>
+            <p style={{ marginBottom: 12 }}>
+              CV Sepeti, Konya Teknokent bünyesinde faaliyet gösteren, <strong>trafik konisi</strong>, <strong>delinatör</strong>, <strong>trafik uyarı levhaları</strong>, <strong>su yalıtım membranı</strong> ve <strong>iş güvenliği ekipmanları</strong> alanında uzmanlaşmış bir teknoloji firmasıdır. Belediyeler, inşaat firmaları, şantiyeler ve kurumsal alıcılar için CE ve TSE belgeli ürünler sunuyoruz.
+            </p>
+            <p style={{ marginBottom: 12 }}>
+              Ürün gamımızda <strong>trafik dubası</strong>, <strong>kasis ve yol butonu</strong>, <strong>güvenlik aynası</strong>, <strong>araç stoperi</strong>, <strong>dikme ve panel sistemleri</strong>, <strong>elektrikçi eldiveni</strong> ve bitümlü <strong>su yalıtım membranları</strong> bulunmaktadır. Tüm ürünlerimiz yerli üretim olup Türkiye'nin her yerine hızlı kargo ile gönderilmektedir.
+            </p>
+            <p>
+              Toplu siparişlerde özel fiyatlandırma, kurumsal fatura ve iyzico altyapısı ile güvenli ödeme imkânı sağlıyoruz. Sorularınız için WhatsApp üzerinden 7/24 bize ulaşabilirsiniz.
+            </p>
+          </div>
+        </div>
+      </section>
+
       <style>{`
         @media (max-width: 640px) {
           .hero-grid { grid-template-columns: 1fr !important; }

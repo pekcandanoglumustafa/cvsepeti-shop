@@ -12,7 +12,27 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   const product = getProduct(slug);
-  return { title: product ? `${product.name} | CV Sepeti` : "Ürün | CV Sepeti" };
+  if (!product) return { title: "Ürün | CV Sepeti" };
+
+  const desc = `${product.name} - ${new Intl.NumberFormat("tr-TR", { style: "currency", currency: "TRY", maximumFractionDigits: 0 }).format(product.price)}. ${product.category} kategorisinde. CE belgeli, hızlı kargo, kurumsal fatura. CV Sepeti güvencesiyle.`;
+
+  return {
+    title: product.name,
+    description: desc,
+    alternates: { canonical: `https://www.cvsepeti.org/urun/${product.slug}` },
+    openGraph: {
+      title: product.name,
+      description: desc,
+      type: "website",
+      url: `https://www.cvsepeti.org/urun/${product.slug}`,
+      images: product.images[0] ? [{ url: product.images[0], alt: product.name }] : [],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: product.name,
+      description: desc,
+    },
+  };
 }
 function formatPrice(n: number) {
   return new Intl.NumberFormat("tr-TR", { style: "currency", currency: "TRY", maximumFractionDigits: 0 }).format(n);
@@ -26,7 +46,39 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
   const description = cleanDescription(product.name, product.description);
   const related = allProducts.filter((p) => p.category === product.category && p.slug !== product.slug && p.images[0]).slice(0, 4);
 
+  const productSchema = {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    name: product.name,
+    description: description || product.name,
+    image: product.images,
+    category: product.category,
+    brand: { "@type": "Brand", name: "CV Sepeti" },
+    offers: {
+      "@type": "Offer",
+      url: `https://www.cvsepeti.org/urun/${product.slug}`,
+      priceCurrency: "TRY",
+      price: product.price,
+      availability: product.stock > 0 ? "https://schema.org/InStock" : "https://schema.org/OutOfStock",
+      seller: { "@type": "Organization", name: "CV Sepeti" },
+      itemCondition: "https://schema.org/NewCondition",
+    },
+  };
+
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Ana Sayfa", item: "https://www.cvsepeti.org" },
+      { "@type": "ListItem", position: 2, name: product.category, item: `https://www.cvsepeti.org/kategori/${categorySlug(product.category)}` },
+      { "@type": "ListItem", position: 3, name: product.name, item: `https://www.cvsepeti.org/urun/${product.slug}` },
+    ],
+  };
+
   return (
+    <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(productSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
     <main style={{ padding: "20px 0 48px" }}>
       <div className="container">
         {/* Breadcrumb */}
@@ -113,5 +165,6 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
         }
       `}</style>
     </main>
+    </>
   );
 }

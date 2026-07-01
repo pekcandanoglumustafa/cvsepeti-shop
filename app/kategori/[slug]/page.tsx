@@ -10,7 +10,18 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   const cat = categories.find((c) => categorySlug(c) === slug);
-  return { title: cat ? `${cat} | CV Sepeti` : "Kategori | CV Sepeti" };
+  if (!cat) return { title: "Kategori | CV Sepeti" };
+  const count = allProducts.filter((p) => p.category === cat).length;
+  return {
+    title: `${cat} - ${count} Ürün Uygun Fiyat`,
+    description: `${cat} kategorisinde ${count} ürün. CE & TSE belgeli, hızlı kargo, kurumsal fatura ve toplu sipariş imkanı. CV Sepeti güvencesiyle en uygun fiyatlar.`,
+    alternates: { canonical: `https://www.cvsepeti.org/kategori/${slug}` },
+    openGraph: {
+      title: `${cat} | CV Sepeti`,
+      description: `${count} ${cat.toLowerCase()} ürünü uygun fiyatlarla.`,
+      url: `https://www.cvsepeti.org/kategori/${slug}`,
+    },
+  };
 }
 
 export default async function KategoriPage({ params }: { params: Promise<{ slug: string }> }) {
