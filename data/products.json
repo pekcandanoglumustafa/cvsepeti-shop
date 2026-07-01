@@ -11,7 +11,7 @@
       "https://cdn.dsmcdn.com/ty1912/prod/QC_PREP/20260513/20/cd0c8a11-67d7-3db2-88c5-a5238d045a7e/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1893/prod/QC_PREP/20260513/20/2c6787b7-29f9-3ec9-b784-20b00b93cae6/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -21,14 +21,14 @@
     "slug": "1-kv-izole",
     "name": "1 Kv Izole",
     "category": "İş Güvenliği Ekipmanları",
-    "price": 1755.0,
+    "price": 1755,
     "description": "1 Kv Izole Halı 1000V İzole Halı (Yalıtkan Paspas) - 3 mm Kalınlık İş güvenliği standartlarına tam uyumlu olarak üretilen ON 100 1000V İzole Halı, elektrik panoları ve yüksek gerilim alanlarında çalışan personelin güvenliğini sağlamak için tasarlanmıştır.; Dayanıklı kauçuk yapısı ve yüksek yalıtım kapasitesi ile riskli çalışma ortamlarında maksimum koruma sunar.; Teknik Özellikler Ürün Adı: 1000V İzole Halı (Yalıtkan Paspas) Ürün Kodu: ON 100 Kullanım Voltajı: 1000V (Class 0) Kalınlık: 3 mm Renk: Siyah Kalite Standartları: ISO 9001:2015 belgeli üretim Ürün Standartları: EN 61111 ve EN 60243-1 normlarına uygundur Öne Çıkan Özellikler Esnek Ölçü Seçenekleri: Standart olarak 120 cm ene ve 20 metre boya kadar üretilmekle birlikte, ihtiyaca göre özel ölçülerde üretim yapılabilmektedir.; Yerli Üretim: Türkiye'de üretilmiştir ve yüksek kalite standartlarını karşılar.; Maksimum Güvenlik: Elektrik çarpması riskini minimize eder, panoların önünde ve trafo merkezlerinde kullanım için idealdir.;",
     "stock": 750,
     "images": [
       "https://cdn.dsmcdn.com/ty1942/prod/QC_PREP/20260513/20/a4446189-1599-3e77-a43a-9485541ebd67/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1920/prod/QC_PREP/20260513/20/2ee63f4b-5401-3752-962b-b09668fb196c/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -45,7 +45,7 @@
       "https://cdn.dsmcdn.com/ty1930/prod/QC_PREP/20260511/22/745e0c32-6278-35c7-a39f-476aec56281c/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1935/prod/QC_PREP/20260511/22/e35c4c9d-cd15-3f48-b141-f8b7525c5048/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": "",
@@ -60,10 +60,9 @@
     "description": "Engelli Tabelası/dikdörtgen Uyarı Levhası ZT357 – Engelli Tabelası/Dikdörtgen Uyarı Levhası Ürün Özellikleri • Materyal: PPC • Yükseklik: 40 cm • Taban Ölçüsü: 34 cm • Ağırlık: 650 gr ± 50 gr • Renk: Beyaz • Reflektif: Yok Kullanım Alanları • Engelli park ve geçiş noktalarında yönlendirme ikazı olarak • Kamu ve özel tesis giriş-çıkışlarında ayrılmış yol veya alanlarda • Geçici etkinlik veya inşaat sahalarında engelli erişim güzergâhı belirtmede • Trafik güvenliği ve erişilebilirlik gerektiren tüm alanlarda Avantajlar • Evrensel engelli simgesi ile net iletişim • Hafif, taşınması ve kurulumu kolay • Darbe ve dış etkenlere dayanıklı PPC malzeme • Standart taban ölçüsüyle zahmetsiz uyum 🛒 Hemen sipariş verin, güvenlik ve reklam çözümlerinizi bir arada sunun!",
     "stock": 750,
     "images": [
-      "https://cdn.dsmcdn.com/ty1914/prod/QC_PREP/20260513/20/a729acda-783b-341b-a6a7-2e7b35140c29/1_org_zoom.jpg",
-      "https://cdn.dsmcdn.com/ty1935/prod/QC_PREP/20260513/20/a8d343df-c924-38c4-819b-5ca8ce9c808e/1_org_zoom.jpg"
+      "/images/zt357-engelli-tabelasi.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -82,7 +81,7 @@
       "https://cdn.dsmcdn.com/ty1911/prod/QC_PREP/20260512/13/c3f1aecd-4ebe-349e-8397-1e34a89ad11b/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1904/prod/QC_PREP/20260512/13/715aa10c-4599-37e8-93bf-ef1d750ed5e6/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": "",
@@ -100,7 +99,7 @@
       "https://cdn.dsmcdn.com/ty1919/prod/QC_PREP/20260511/23/c8cdabeb-fdeb-3f88-ad7c-523b7500b6ab/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1931/prod/QC_PREP/20260511/23/6c753a3c-6029-3361-9847-afbe16d41529/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": "",
@@ -111,13 +110,13 @@
     "slug": "membran-c3000-su-yalitim-membrani-34-kg-10m",
     "name": "MEMBRAN C3000 Su Yalıtım Membranı(34 kg 10M²)",
     "category": "Yalıtım Malzemesi",
-    "price": 4203.0,
+    "price": 4203,
     "description": "Has Membran C3000 Su Yalıtım Membranı(34 kg 10M²) Has Membran C3000 – Güçlendirilmiş Su Yalıtım Performansı Has Membran C3000, profesyonel su yalıtımı uygulamaları için geliştirilmiş, yüksek mukavemetli bitümlü bir yalıtım membranıdır.; Güçlendirilmiş yapısı sayesinde çatı, teras, bodrum gibi suya maruz kalan tüm alanlarda uzun süreli koruma sağlar.; 🌟 Öne Çıkan Özellikler: 🔧 1. Takviyeli Dayanıklılık C3000, içeriğindeki özel fiberglas takviyeli taşıyıcı katman sayesinde sıcaklık farklarına, çatlamalara ve dış etkilere karşı direnç gösterir.; Hem darbelere hem de mekanik yüklere karşı mukavemeti yüksektir.; 🏠 2. Uygulama Esnekliği Eğimli ve düz çatılarda, teraslarda, otopark üstü alanlarda ve bodrum perde duvarlarında rahatlıkla uygulanabilir.; Alevle yapıştırma yöntemiyle hızlı montaj imkânı sunar.; 🇹🇷 3. Yerli Üretim &amp; Belgelendirme Has Membran C3000, Türkiye’de ISO 9001 ve TSE belgelerine sahip tesislerde üretilir.; Kalite, güvenilirlik ve sürdürülebilir üretim anlayışıyla sunulur.; ♻️ 4. Çevre Dostu C3000, çevreye duyarlı ham maddelerle üretilmiş olup karbon ayak izini azaltma hedefiyle tasarlanmıştır.;",
     "stock": 750,
     "images": [
       "https://cdn.dsmcdn.com/ty1936/prod/QC_PREP/20260511/23/8a404312-b178-369a-bfdf-47eb00d6ee5f/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": "",
@@ -128,14 +127,14 @@
     "slug": "membran-c2000-su-yalitim-membrani-30-kg-10m",
     "name": "MEMBRAN C2000 Su Yalıtım Membranı(30 kg 10M²)",
     "category": "Yalıtım Malzemesi",
-    "price": 4194.0,
+    "price": 4194,
     "description": "Has Membran C2000 Su Yalıtım Membranı(30 kg 10M²) Has Membran C2000 – Üstün Su Yalıtımı Performansı ve Yerli Kalite Yapı projelerinizde uzun ömürlü ve güvenilir bir su yalıtımı çözümü arıyorsanız, Has Membran C2000 beklentilerinizi fazlasıyla karşılar.; Gelişmiş formülü ve endüstriyel dayanıklılığıyla üretilen bu membran, çatıdan bodrum katına kadar geniş bir uygulama alanı sunar.; 💎 Ürünün Öne Çıkan Özellikleri: ✅ 1. Maksimum Dayanıklılık Has C2000, içinde barındırdığı özel fiberglass takviyeli katman sayesinde deformasyona karşı dirençlidir.; Bu sayede ürün, çatlama, yırtılma ve dış etkenlere karşı uzun yıllar boyunca koruma sağlar.; 🇹🇷 2. Yerli ve Belgeli Üretim ISO 9001 ve TSE standartlarına uygun tesislerde yerli üretim olarak sunulan HasMembran C2000, kalite ve güvenilirliği belgelenmiş bir tercihtir.; 🌱 3. Çevreye Saygılı Teknoloji Sürdürülebilir üretim anlayışıyla geliştirilen ürün, çevre dostu içerikler kullanılarak üretilmiştir.; Hem yapınızı hem de doğayı korur.; 🛠️ 4. Geniş Uygulama Alanı Çatılar, teraslar, ıslak hacimler ve bodrum katları gibi farklı alanlarda rahatlıkla uygulanabilir.; Hem konut hem de ticari projelerde kullanıma uygundur.;",
     "stock": 750,
     "images": [
       "https://cdn.dsmcdn.com/ty1910/prod/QC_PREP/20260512/13/b36c2377-6d5e-3a6c-8db0-258e12408cb9/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1914/prod/QC_PREP/20260512/13/af3da4d9-0cce-3b1c-a874-b77a403d9200/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": "",
@@ -146,7 +145,7 @@
     "slug": "membran-p4000-su-yalitim-membrani-44-kg-10m",
     "name": "MEMBRAN P4000 Su Yalıtım Membranı(44 kg 10M²)",
     "category": "Yalıtım Malzemesi",
-    "price": 5760.0,
+    "price": 5760,
     "description": "Membran",
     "stock": 750,
     "images": [
@@ -154,7 +153,7 @@
       "https://cdn.dsmcdn.com/ty1897/prod/QC_PREP/20260512/13/d65c9af3-9747-3bd7-893d-229d9167a3c1/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1939/prod/QC_PREP/20260512/13/040b9990-caca-3eb3-b1e7-b14f15450e3b/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": "",
@@ -165,14 +164,14 @@
     "slug": "membran-c2000-su-yalitim-membrani-25-kg-10m",
     "name": "MEMBRAN C2000 Su Yalıtım Membranı(25 kg 10M²)",
     "category": "Yalıtım Malzemesi",
-    "price": 3474.0,
+    "price": 3474,
     "description": "Has Membran C2000 Su Yalıtım Membranı(25 kg 10M²) Has Membran C2000 – Üstün Su Yalıtımı Performansı ve Yerli Kalite Yapı projelerinizde uzun ömürlü ve güvenilir bir su yalıtımı çözümü arıyorsanız, Has Membran C2000 beklentilerinizi fazlasıyla karşılar.; Gelişmiş formülü ve endüstriyel dayanıklılığıyla üretilen bu membran, çatıdan bodrum katına kadar geniş bir uygulama alanı sunar.; 💎 Ürünün Öne Çıkan Özellikleri: ✅ 1. Maksimum Dayanıklılık Has C2000, içinde barındırdığı özel fiberglass takviyeli katman sayesinde deformasyona karşı dirençlidir.; Bu sayede ürün, çatlama, yırtılma ve dış etkenlere karşı uzun yıllar boyunca koruma sağlar.; 🇹🇷 2. Yerli ve Belgeli Üretim ISO 9001 ve TSE standartlarına uygun tesislerde yerli üretim olarak sunulan HasMembran C2000, kalite ve güvenilirliği belgelenmiş bir tercihtir.; 🌱 3. Çevreye Saygılı Teknoloji Sürdürülebilir üretim anlayışıyla geliştirilen ürün, çevre dostu içerikler kullanılarak üretilmiştir.; Hem yapınızı hem de doğayı korur.; 🛠️ 4. Geniş Uygulama Alanı Çatılar, teraslar, ıslak hacimler ve bodrum katları gibi farklı alanlarda rahatlıkla uygulanabilir.; Hem konut hem de ticari projelerde kullanıma uygundur.;",
     "stock": 750,
     "images": [
       "https://cdn.dsmcdn.com/ty1927/prod/QC_PREP/20260512/12/6c9fa4ac-f5f6-3f74-9e0c-e86b1d2bfd10/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1902/prod/QC_PREP/20260512/12/9e9d7600-9509-3ebb-aa13-7c958c9679e3/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": "",
@@ -183,7 +182,7 @@
     "slug": "membran-p3000-20-su-yalitim-membrani-42-kg-10-m",
     "name": "MEMBRAN P3000-20 Su Yalıtım Membranı(42 kg 10 M²)",
     "category": "Yalıtım Malzemesi",
-    "price": 5625.0,
+    "price": 5625,
     "description": "Has Membran P3000-20 Su Yalıtım Membranı(42 kg 10 M²) Has Membran P3000-20 – Soğuk İklimlere Uyumlu Su Yalıtım Membranı Has Membran P3000 -20, özellikle düşük sıcaklıkların ve zorlu hava koşullarının hâkim olduğu bölgelerde üstün göstermesi için tasarlanmış, yüksek elastikiyete sahip, profesyonel bir bitümlü su yalıtım çözümüdür.; ❄️ Soğuk Havalarda Yüksek Esneklik P3000 -20, -20°C'ye kadar elastikiyetini kaybetmeyen özel formülüyle, donma riski bulunan çatılar, teraslar ve dış cephelerde çatlama ve kopma yapmadan uzun yıllar işlevini sürdürür.; 💧 Mükemmel Su Yalıtımı Katmanlı yapısı ve yüksek yapışma özelliği sayesinde suyu tamamen dışarıda tutar.; Sızdırmazlık gücüyle yapılarınızın temelini ve çatısını korur.; 🧱 Güçlü Mekanik Dayanım Yırtılmalara, darbelere ve dış ortam etkilerine karşı dirençlidir.; Uzun ömürlü koruma sağlar, bakım ihtiyacını en aza indirir.; 🏗️ Geniş Uygulama Alanı Düz ve eğimli çatılarda Soğuk iklim bölgelerinde yer alan konut ve endüstriyel yapılarda Bodrum, perde duvar, teras ve su deposu izolasyonlarında Otel, okul, fabrika ve kentsel dönüşüm projelerinde ✅ Belgelendirilmiş Kalite TSE ve ISO 9001 belgelerine sahip üretim altyapısıyla sunulan P3000 -20, hem yerli üretim güvencesi hem de uluslararası kalite standartlarına sahiptir.;",
     "stock": 750,
     "images": [
@@ -191,7 +190,7 @@
       "https://cdn.dsmcdn.com/ty1920/prod/QC_PREP/20260512/12/2434c765-5641-30ed-b78b-b3516bbab0d0/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1936/prod/QC_PREP/20260512/12/30269f6a-8ee3-359c-9bf8-ff167a2df862/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": "",
@@ -202,7 +201,7 @@
     "slug": "membran-p4000-20-su-yalitim-membrani-44-kg-10m",
     "name": "MEMBRAN P4000-20 Su Yalıtım Membranı(44 kg 10M²)",
     "category": "Yalıtım Malzemesi",
-    "price": 5850.0,
+    "price": 5850,
     "description": "Has Membran P4000-20 Su Yalıtım Membranı(44 kg 10M²) Has Membran P4000 -20 – Zorlu Koşullarda Maksimum Koruma Has Membran P4000 -20, aşırı soğuk hava koşulları ve yüksek gerektiren yapı projeleri için özel olarak geliştirilmiş, ileri teknolojiye sahip bir bitümlü su yalıtım membranıdır.; -20°C’ye kadar esnekliğini koruyarak yapılarınızı her mevsim güvenle sarar.; ❄️ Soğuk Havalarda Yüksek Dayanım P4000 -20, özel elastomerik bileşimi sayesinde düşük sıcaklıklarda bile çatlama, kırılma veya büzüşme yapmaz.; Kış aylarında uygulama kolaylığı sağlar, iş gücü ve zaman kaybını önler.; 💧 Üstün Su Geçirmezlik Çift katmanlı yapısıyla maksimum sızdırmazlık sağlayan P4000 -20, temelden çatıya kadar her yapıda tam koruma sunar.; Suya ve neme karşı tam kalkan görevi görerek yapının ömrünü uzatır.; 🌞 UV ve Dış Etken Direnci Yoğun güneş ışığı, don, kar ve kimyasal etkilere karşı yüksek direnç gösterir.; İlk günkü performansını uzun yıllar korur.; 🧱 Geniş Uygulama Alanı Soğuk iklim bölgelerinde bulunan konut ve ticari yapılar Düz ve eğimli çatılar Teraslar, bodrum duvarları ve perde betonlar Endüstriyel tesis çatıları Kar yükü ve sıcaklık farkı yüksek bölgeler ✅ Belgelendirilmiş Kalite ve Yerli Üretim TSE ve ISO 9001 kalite belgelerine sahip olan P4000 -20, Türkiye'de yerli üretim güvencesiyle sunulur.; Hem kamu projelerinde hem de özel sektörde güvenle tercih edilir.;",
     "stock": 750,
     "images": [
@@ -210,7 +209,7 @@
       "https://cdn.dsmcdn.com/ty1908/prod/QC_PREP/20260512/12/9a6e5501-5aa1-3b85-a36b-540c94d0aa06/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1898/prod/QC_PREP/20260512/12/b2a01005-e51f-3773-969d-652283beeac2/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": "",
@@ -221,14 +220,14 @@
     "slug": "membran-c3000-20-membran-su-yalitim-membrani-34-kg-10-m",
     "name": "MEMBRAN C3000-20 Membran Su Yalıtım Membranı(34 kg 10 M²)",
     "category": "Yalıtım Malzemesi",
-    "price": 4356.0,
+    "price": 4356,
     "description": "Has Membran C3000-20 Membran Su Yalıtım Membranı(34 kg 10 M²) C3000 -20 Membran: Zorlu Kış Koşulları İçin Maksimum Dayanım C3000 -20 Membran, Has Membran güvencesiyle geliştirilen ve düşük sıcaklıklara dayanıklılığı artırılmış özel formülasyonu sayesinde -20°C'ye kadar esnekliğini koruyabilen yüksek performanslı su yalıtım örtüsüdür.; Özellikle soğuk iklim bölgeleri için tasarlanmış bu ürün, çatılardan temellere kadar birçok alanda uzun ömürlü ve güvenilir izolasyon sağlar.; ✅ Ürün Özellikleri: ❄️ Düşük Sıcaklık Dayanımı (-20°C): Soğuk hava koşullarında bile çatlamaz, kırılmaz ve elastik yapısını korur.; Don olaylarının yoğun yaşandığı bölgelerde mükemmel uyum sağlar.; 💧 Yüksek Su Geçirmezlik Performansı: Yapılarda su sızıntılarını önler, nemin neden olduğu hasarları engeller.; 🛠️ Kolay Uygulama: Rulo formu sayesinde kısa sürede uygulanabilir; işçilik maliyetini düşürür.; 🧱 Güçlü Mekanik Dayanım: Yapıya zarar verebilecek fiziksel etkilere karşı dirençlidir, uzun ömürlüdür.; 🏗️ Geniş Kullanım Alanı: Çatılar, temeller, otoparklar, teraslar ve restorasyon projelerinde rahatlıkla kullanılabilir.; 🔎 Neden C3000 -20 Tercih Edilmeli? Zorlu hava koşullarında dahi elastikiyetini ve işlevselliğini kaybetmez Sıfırın altındaki sıcaklıklarda bile yüksek sunar Yapınızı hem suya hem de dona karşı korur Uzun vadeli maliyet tasarrufu sağlar",
     "stock": 750,
     "images": [
       "https://cdn.dsmcdn.com/ty1904/prod/QC_PREP/20260512/12/62c4161c-18af-3ed6-bec0-a5fef136d833/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1934/prod/QC_PREP/20260512/12/7207e347-51eb-3c43-ad48-149a0e455c01/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": "",
@@ -239,7 +238,7 @@
     "slug": "hasproof-membran-3-5-mm-su-yalitim-membrani-42kg-10m",
     "name": "Hasproof Membran 3.5 mm Su Yalıtım MEMBRANI(42KG 10M²)",
     "category": "Yalıtım Malzemesi",
-    "price": 8325.0,
+    "price": 8325,
     "description": "Hasproof Membran 3.5 mm Su Yalıtım MEMBRANI(42KG 10M²) HASPROOF Membran – Temel Altı için Maksimum Koruma, Akıllı Su Yalıtımı HASPROOF Membran, özellikle temel altı ve zemin yalıtım uygulamaları için geliştirilmiş, yüksek performanslı ve uzun ömürlü bir su yalıtım örtüsüdür.; SBS (Styrene-Butadiene-Styrene) esaslı yapısı ve polyester keçe taşıyıcılı modifiye bitüm teknolojisi sayesinde betonarme yapılarla mükemmel bütünleşme sağlar.; Üst yüzeyinde yer alan özel mineral kaplama ise hem mekanik mukavemetini artırır hem de uygulama sürecinde maksimum güvenlik sunar.; Temel Özellikler ve Avantajlar ✅ Beton Öncesi Uygulama Kolaylığı Beton dökümünden önce uygulanabilen yapısıyla yapısal bütünlük sağlar, zaman ve işçilikten tasarruf ettirir.; ✅ Tam Yüzeye Yapışma Hidratasyon ısısıyla birlikte dökülen beton, membrana kalıcı olarak yapışır.; Bu sayede su kaçaklarını ve zemin hareketlerinden kaynaklı ayrışmaları önler.; ✅ Yüksek Basınç Direnci 11,5 bar’a kadar dayanım gücü ile temelinize maksimum güvenlik sağlar.; ✅ Zorlu Koşullara Uyum Tuzlu su, kimyasal temas ve agresif zemin etkilerine karşı yüksek dirençlidir.; Bu sayede deniz kıyısı veya zorlu zeminlerde bile güvenle kullanılabilir.; ✅ %100 Yerli Üretim – Global Uyum Türkiye'de üretilen HASPROOF, uluslararası standartlara uygundur ve enjeksiyon gereksinimlerini ortadan kaldırarak maliyet avantajı sunar.; ✅ Ekonomik ve Hızlı Kurulum Kendinden yapışkanlı yapısı sayesinde ekstra koruma betonu ihtiyacını ortadan kaldırır, iş gücü ve zaman tasarrufu sağlar.; Nerelerde Kullanılır? Temel altı yalıtım uygulamaları Betonarme perde duvarlar Su depoları ve bodrum duvarları Deniz kenarı veya tuzlu suya maruz kalan bölgeler Agresif zemin koşulları bulunan alanlar",
     "stock": 750,
     "images": [
@@ -247,7 +246,7 @@
       "https://cdn.dsmcdn.com/ty1893/prod/QC_PREP/20260512/00/6f147d01-a94e-3613-94f4-e53a24a6212b/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1924/prod/QC_PREP/20260512/00/204f39e0-c075-378a-adc9-4c2adee0e2d8/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": "",
@@ -258,14 +257,14 @@
     "slug": "membran-c3000-20-membran-su-yalitim-membrani-30-kg-10m",
     "name": "MEMBRAN C3000 -20 Membran Su Yalıtım Membranı(30 kg 10M²)",
     "category": "Yalıtım Malzemesi",
-    "price": 4014.0,
+    "price": 4014,
     "description": "Has Membran C3000 -20 Membran Su Yalıtım Membranı(30 kg 10M²) C3000 -20 Membran: Zorlu Kış Koşulları İçin Maksimum Dayanım C3000 -20 Membran, Has Membran güvencesiyle geliştirilen ve düşük sıcaklıklara dayanıklılığı artırılmış özel formülasyonu sayesinde -20°C'ye kadar esnekliğini koruyabilen yüksek performanslı su yalıtım örtüsüdür.; Özellikle soğuk iklim bölgeleri için tasarlanmış bu ürün, çatılardan temellere kadar birçok alanda uzun ömürlü ve güvenilir izolasyon sağlar.; ✅ Ürün Özellikleri: ❄️ Düşük Sıcaklık Dayanımı (-20°C): Soğuk hava koşullarında bile çatlamaz, kırılmaz ve elastik yapısını korur.; Don olaylarının yoğun yaşandığı bölgelerde mükemmel uyum sağlar.; 💧 Yüksek Su Geçirmezlik Performansı: Yapılarda su sızıntılarını önler, nemin neden olduğu hasarları engeller.; 🛠️ Kolay Uygulama: Rulo formu sayesinde kısa sürede uygulanabilir; işçilik maliyetini düşürür.; 🧱 Güçlü Mekanik Dayanım: Yapıya zarar verebilecek fiziksel etkilere karşı dirençlidir, uzun ömürlüdür.; 🏗️ Geniş Kullanım Alanı: Çatılar, temeller, otoparklar, teraslar ve restorasyon projelerinde rahatlıkla kullanılabilir.; 🔎 Neden C3000 -20 Tercih Edilmeli? Zorlu hava koşullarında dahi elastikiyetini ve işlevselliğini kaybetmez Sıfırın altındaki sıcaklıklarda bile yüksek sunar Yapınızı hem suya hem de dona karşı korur Uzun vadeli maliyet tasarrufu sağlar",
     "stock": 750,
     "images": [
       "https://cdn.dsmcdn.com/ty1920/prod/QC_PREP/20260512/00/be6d19a8-0c33-3a96-a840-9caae8acccc1/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1900/prod/QC_PREP/20260512/00/62833632-7f91-355e-9083-0aa02615ff42/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": "",
@@ -276,7 +275,7 @@
     "slug": "membran-p4000-20-su-yalitim-membrani-52-kg-10m",
     "name": "MEMBRAN P4000-20 Su Yalıtım Membranı(52 kg 10M²)",
     "category": "Yalıtım Malzemesi",
-    "price": 6255.0,
+    "price": 6255,
     "description": "Has Membran P4000-20 Su Yalıtım Membranı(52 kg 10M²) Has Membran P4000 -20 – Zorlu Koşullarda Maksimum Koruma Has Membran P4000 -20, aşırı soğuk hava koşulları ve yüksek gerektiren yapı projeleri için özel olarak geliştirilmiş, ileri teknolojiye sahip bir bitümlü su yalıtım membranıdır.; -20°C’ye kadar esnekliğini koruyarak yapılarınızı her mevsim güvenle sarar.; ❄️ Soğuk Havalarda Yüksek Dayanım P4000 -20, özel elastomerik bileşimi sayesinde düşük sıcaklıklarda bile çatlama, kırılma veya büzüşme yapmaz.; Kış aylarında uygulama kolaylığı sağlar, iş gücü ve zaman kaybını önler.; 💧 Üstün Su Geçirmezlik Çift katmanlı yapısıyla maksimum sızdırmazlık sağlayan P4000 -20, temelden çatıya kadar her yapıda tam koruma sunar.; Suya ve neme karşı tam kalkan görevi görerek yapının ömrünü uzatır.; 🌞 UV ve Dış Etken Direnci Yoğun güneş ışığı, don, kar ve kimyasal etkilere karşı yüksek direnç gösterir.; İlk günkü performansını uzun yıllar korur.; 🧱 Geniş Uygulama Alanı Soğuk iklim bölgelerinde bulunan konut ve ticari yapılar Düz ve eğimli çatılar Teraslar, bodrum duvarları ve perde betonlar Endüstriyel tesis çatıları Kar yükü ve sıcaklık farkı yüksek bölgeler ✅ Belgelendirilmiş Kalite ve Yerli Üretim TSE ve ISO 9001 kalite belgelerine sahip olan P4000 -20, Türkiye'de yerli üretim güvencesiyle sunulur.; Hem kamu projelerinde hem de özel sektörde güvenle tercih edilir.;",
     "stock": 750,
     "images": [
@@ -284,7 +283,7 @@
       "https://cdn.dsmcdn.com/ty1939/prod/QC_PREP/20260512/00/23562d78-b28d-3e86-8ecf-605e49639427/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1906/prod/QC_PREP/20260512/00/e2a9f82e-32ba-3749-8198-367d09b34c32/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": "",
@@ -302,7 +301,7 @@
       "https://cdn.dsmcdn.com/ty1937/prod/QC_PREP/20260512/00/a0da6122-476a-3c1f-a8af-b3222c42e936/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1918/prod/QC_PREP/20260512/00/9c4c54cb-b2ed-3e47-a0ea-12762658f140/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": "",
@@ -313,7 +312,7 @@
     "slug": "membran-p3000-su-yalitim-membrani-34-kg-10m",
     "name": "MEMBRAN P3000 Su Yalıtım Membranı(34 kg 10M²)",
     "category": "Yalıtım Malzemesi",
-    "price": 4950.0,
+    "price": 4950,
     "description": "Has Membran P3000 Su Yalıtım Membranı(34 kg 10M²) Has Membran P3000 – Su, Isı ve Ses İzolasyonunda Üstün Has Membran P3000, yapı sektörünün profesyonel yalıtım ihtiyaçlarına özel geliştirilmiş, çok katmanlı ve dayanıklı bir bitümlü su yalıtım çözümüdür.; Hem iç hem dış mekanlarda güvenle kullanılabilir, yapılarınızda maksimum kuruluk ve konfor sağlar.; 🔧 P3000’in Başlıca Avantajları: 💧 1. Etkin Su Geçirmezlik P3000, yüksek yapışma gücü ve sızdırmazlık kabiliyeti sayesinde suyu tamamen dışarıda tutar.; Özellikle çatı, teras ve temellerde su yalıtımı için ideal bir kalkan görevi görür.; 🔇 2. Isı ve Ses İzolasyonu Bir Arada Yalnızca suya karşı değil, ısı ve ses izolasyonu açısından da güçlü bir sunar.; Yaşam ve çalışma alanlarında sessizlik ve termal konfor sağlar.; ⏳ 3. Uzun Ömürlü Yapı Koruması Kalın yapısı, elastik formülü ve UV dayanımı sayesinde yıllarca deformasyon olmadan işlevini sürdürür.; Projelerinize uzun ömürlü güvenlik kazandırır.; 🛠️ 4. Geniş Uygulama Alanı Çatılar, döşemeler, perde duvarlar, otopark üstleri ve zemin altı izolasyon gibi pek çok alanda kullanılabilir.; Yapıştırma ve kaynak teknikleriyle kolay montaj sağlar.; ♻️ 5. Ekolojik Üretim HasMembran P3000, çevreye duyarlı malzeme ve yöntemlerle üretilir.; Sürdürülebilirlik prensipleriyle uyumludur ve yapıların çevresel etkisini minimize eder.;",
     "stock": 750,
     "images": [
@@ -321,7 +320,7 @@
       "https://cdn.dsmcdn.com/ty1892/prod/QC_PREP/20260512/00/679549fc-24c2-3a16-8bd7-b48c05cb203f/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1933/prod/QC_PREP/20260512/00/5e7389d0-a8db-3f34-9989-53b3b776a245/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": "",
@@ -332,7 +331,7 @@
     "slug": "membran-p3000-20-su-yalitim-membrani-34-kg-10m",
     "name": "MEMBRAN P3000-20 Su Yalıtım Membranı(34 kg 10M²)",
     "category": "Yalıtım Malzemesi",
-    "price": 4950.0,
+    "price": 4950,
     "description": "Has Membran P3000-20 Su Yalıtım Membranı(34 kg 10M²) Has Membran P3000 -20 – Soğuk İklimlere Uyumlu Su Yalıtım Membranı Has Membran P3000 -20, özellikle düşük sıcaklıkların ve zorlu hava koşullarının hâkim olduğu bölgelerde üstün göstermesi için tasarlanmış, yüksek elastikiyete sahip, profesyonel bir bitümlü su yalıtım çözümüdür.; ❄️ Soğuk Havalarda Yüksek Esneklik P3000 -20, -20°C'ye kadar elastikiyetini kaybetmeyen özel formülüyle, donma riski bulunan çatılar, teraslar ve dış cephelerde çatlama ve kopma yapmadan uzun yıllar işlevini sürdürür.; 💧 Mükemmel Su Yalıtımı Katmanlı yapısı ve yüksek yapışma özelliği sayesinde suyu tamamen dışarıda tutar.; Sızdırmazlık gücüyle yapılarınızın temelini ve çatısını korur.; 🧱 Güçlü Mekanik Dayanım Yırtılmalara, darbelere ve dış ortam etkilerine karşı dirençlidir.; Uzun ömürlü koruma sağlar, bakım ihtiyacını en aza indirir.; 🏗️ Geniş Uygulama Alanı Düz ve eğimli çatılarda Soğuk iklim bölgelerinde yer alan konut ve endüstriyel yapılarda Bodrum, perde duvar, teras ve su deposu izolasyonlarında Otel, okul, fabrika ve kentsel dönüşüm projelerinde ✅ Belgelendirilmiş Kalite TSE ve ISO 9001 belgelerine sahip üretim altyapısıyla sunulan P3000 -20, hem yerli üretim güvencesi hem de uluslararası kalite standartlarına sahiptir.;",
     "stock": 750,
     "images": [
@@ -340,7 +339,7 @@
       "https://cdn.dsmcdn.com/ty1896/prod/QC_PREP/20260512/00/6325c7d7-0fe6-3759-a93d-b2ae403cbf1e/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1907/prod/QC_PREP/20260512/00/287d7cfd-91a1-3441-af08-766cd4d94e52/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": "",
@@ -351,7 +350,7 @@
     "slug": "membran-p3000-su-yalitim-membrani-42-kg-10m",
     "name": "MEMBRAN P3000 Su Yalıtım Membranı(42 kg 10M²)",
     "category": "Yalıtım Malzemesi",
-    "price": 5625.0,
+    "price": 5625,
     "description": "Has Membran P3000 Su Yalıtım Membranı(42 kg 10M²) Has Membran P3000 – Su, Isı ve Ses İzolasyonunda Üstün Has Membran P3000, yapı sektörünün profesyonel yalıtım ihtiyaçlarına özel geliştirilmiş, çok katmanlı ve dayanıklı bir bitümlü su yalıtım çözümüdür.; Hem iç hem dış mekanlarda güvenle kullanılabilir, yapılarınızda maksimum kuruluk ve konfor sağlar.; 🔧 P3000’in Başlıca Avantajları: 💧 1. Etkin Su Geçirmezlik P3000, yüksek yapışma gücü ve sızdırmazlık kabiliyeti sayesinde suyu tamamen dışarıda tutar.; Özellikle çatı, teras ve temellerde su yalıtımı için ideal bir kalkan görevi görür.; 🔇 2. Isı ve Ses İzolasyonu Bir Arada Yalnızca suya karşı değil, ısı ve ses izolasyonu açısından da güçlü bir sunar.; Yaşam ve çalışma alanlarında sessizlik ve termal konfor sağlar.; ⏳ 3. Uzun Ömürlü Yapı Koruması Kalın yapısı, elastik formülü ve UV dayanımı sayesinde yıllarca deformasyon olmadan işlevini sürdürür.; Projelerinize uzun ömürlü güvenlik kazandırır.; 🛠️ 4. Geniş Uygulama Alanı Çatılar, döşemeler, perde duvarlar, otopark üstleri ve zemin altı izolasyon gibi pek çok alanda kullanılabilir.; Yapıştırma ve kaynak teknikleriyle kolay montaj sağlar.; ♻️ 5. Ekolojik Üretim HasMembran P3000, çevreye duyarlı malzeme ve yöntemlerle üretilir.; Sürdürülebilirlik prensipleriyle uyumludur ve yapıların çevresel etkisini minimize eder.;",
     "stock": 750,
     "images": [
@@ -359,7 +358,7 @@
       "https://cdn.dsmcdn.com/ty1937/prod/QC_PREP/20260512/00/00f3b869-f6f7-38a8-b3c0-451d0b3e4843/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1932/prod/QC_PREP/20260512/00/04355d2a-21bb-3bbb-b9bc-21f5fe2b4358/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": "",
@@ -370,14 +369,14 @@
     "slug": "membran-c3000-su-yalitim-membrani-42-kg-10m",
     "name": "MEMBRAN C3000 Su Yalıtım Membranı(42 kg 10M²)",
     "category": "Yalıtım Malzemesi",
-    "price": 4824.0,
+    "price": 4824,
     "description": "Has Membran C3000 Su Yalıtım Membranı(42 kg 10M²) Has Membran C3000 – Güçlendirilmiş Su Yalıtım Performansı Has Membran C3000, profesyonel su yalıtımı uygulamaları için geliştirilmiş, yüksek mukavemetli bitümlü bir yalıtım membranıdır.; Güçlendirilmiş yapısı sayesinde çatı, teras, bodrum gibi suya maruz kalan tüm alanlarda uzun süreli koruma sağlar.; 🌟 Öne Çıkan Özellikler: 🔧 1. Takviyeli Dayanıklılık C3000, içeriğindeki özel fiberglas takviyeli taşıyıcı katman sayesinde sıcaklık farklarına, çatlamalara ve dış etkilere karşı direnç gösterir.; Hem darbelere hem de mekanik yüklere karşı mukavemeti yüksektir.; 🏠 2. Uygulama Esnekliği Eğimli ve düz çatılarda, teraslarda, otopark üstü alanlarda ve bodrum perde duvarlarında rahatlıkla uygulanabilir.; Alevle yapıştırma yöntemiyle hızlı montaj imkânı sunar.; 🇹🇷 3. Yerli Üretim &amp; Belgelendirme Has Membran C3000, Türkiye’de ISO 9001 ve TSE belgelerine sahip tesislerde üretilir.; Kalite, güvenilirlik ve sürdürülebilir üretim anlayışıyla sunulur.; ♻️ 4. Çevre Dostu C3000, çevreye duyarlı ham maddelerle üretilmiş olup karbon ayak izini azaltma hedefiyle tasarlanmıştır.;",
     "stock": 750,
     "images": [
       "https://cdn.dsmcdn.com/ty1940/prod/QC_PREP/20260511/23/256f4818-46bb-3081-9766-00c5d1e38e59/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1926/prod/QC_PREP/20260511/23/e513d63a-f372-3cb1-ac47-046e682852b4/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": "",
@@ -396,7 +395,7 @@
       "https://cdn.dsmcdn.com/ty1914/prod/QC_PREP/20260511/23/e331c6ff-c74c-3461-865c-5e4024c6301b/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1936/prod/QC_PREP/20260511/23/d3f94bcf-7e38-3436-b219-9fc7a68955d5/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": "",
@@ -407,14 +406,14 @@
     "slug": "membran-c3000-su-yalitim-membrani-20-kg-10m",
     "name": "MEMBRAN C3000 Su Yalıtım Membranı(20 kg 10M²)",
     "category": "Yalıtım Malzemesi",
-    "price": 3150.0,
+    "price": 3150,
     "description": "Has Membran C3000 Su Yalıtım Membranı(20 kg 10M²) Has Membran C3000 – Güçlendirilmiş Su Yalıtım Performansı Has Membran C3000, profesyonel su yalıtımı uygulamaları için geliştirilmiş, yüksek mukavemetli bitümlü bir yalıtım membranıdır.; Güçlendirilmiş yapısı sayesinde çatı, teras, bodrum gibi suya maruz kalan tüm alanlarda uzun süreli koruma sağlar.; 🌟 Öne Çıkan Özellikler: 🔧 1. Takviyeli Dayanıklılık C3000, içeriğindeki özel fiberglas takviyeli taşıyıcı katman sayesinde sıcaklık farklarına, çatlamalara ve dış etkilere karşı direnç gösterir.; Hem darbelere hem de mekanik yüklere karşı mukavemeti yüksektir.; 🏠 2. Uygulama Esnekliği Eğimli ve düz çatılarda, teraslarda, otopark üstü alanlarda ve bodrum perde duvarlarında rahatlıkla uygulanabilir.; Alevle yapıştırma yöntemiyle hızlı montaj imkânı sunar.; 🇹🇷 3. Yerli Üretim &amp; Belgelendirme Has Membran C3000, Türkiye’de ISO 9001 ve TSE belgelerine sahip tesislerde üretilir.; Kalite, güvenilirlik ve sürdürülebilir üretim anlayışıyla sunulur.; ♻️ 4. Çevre Dostu C3000, çevreye duyarlı ham maddelerle üretilmiş olup karbon ayak izini azaltma hedefiyle tasarlanmıştır.;",
     "stock": 750,
     "images": [
       "https://cdn.dsmcdn.com/ty1915/prod/QC_PREP/20260511/23/e536a8d1-ad31-33ff-af80-c4ff747d7a2a/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1904/prod/QC_PREP/20260511/23/e3bb6a9c-0912-3b6a-a9e5-2e369e08cb0e/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": "",
@@ -425,7 +424,7 @@
     "slug": "membran-p3000-20-su-yalitim-membrani-30-kg-10m",
     "name": "MEMBRAN P3000-20 Su Yalıtım Membranı(30 kg 10M²)",
     "category": "Yalıtım Malzemesi",
-    "price": 4815.0,
+    "price": 4815,
     "description": "Has Membran P3000-20 Su Yalıtım Membranı(30 kg 10M²) Has Membran P3000 -20 – Soğuk İklimlere Uyumlu Su Yalıtım Membranı Has Membran P3000 -20, özellikle düşük sıcaklıkların ve zorlu hava koşullarının hâkim olduğu bölgelerde üstün göstermesi için tasarlanmış, yüksek elastikiyete sahip, profesyonel bir bitümlü su yalıtım çözümüdür.; ❄️ Soğuk Havalarda Yüksek Esneklik P3000 -20, -20°C'ye kadar elastikiyetini kaybetmeyen özel formülüyle, donma riski bulunan çatılar, teraslar ve dış cephelerde çatlama ve kopma yapmadan uzun yıllar işlevini sürdürür.; 💧 Mükemmel Su Yalıtımı Katmanlı yapısı ve yüksek yapışma özelliği sayesinde suyu tamamen dışarıda tutar.; Sızdırmazlık gücüyle yapılarınızın temelini ve çatısını korur.; 🧱 Güçlü Mekanik Dayanım Yırtılmalara, darbelere ve dış ortam etkilerine karşı dirençlidir.; Uzun ömürlü koruma sağlar, bakım ihtiyacını en aza indirir.; 🏗️ Geniş Uygulama Alanı Düz ve eğimli çatılarda Soğuk iklim bölgelerinde yer alan konut ve endüstriyel yapılarda Bodrum, perde duvar, teras ve su deposu izolasyonlarında Otel, okul, fabrika ve kentsel dönüşüm projelerinde ✅ Belgelendirilmiş Kalite TSE ve ISO 9001 belgelerine sahip üretim altyapısıyla sunulan P3000 -20, hem yerli üretim güvencesi hem de uluslararası kalite standartlarına sahiptir.;",
     "stock": 750,
     "images": [
@@ -433,7 +432,7 @@
       "https://cdn.dsmcdn.com/ty1915/prod/QC_PREP/20260511/23/3b6aa8d2-d7f2-3bac-ad9b-5b2e4a261adf/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1921/prod/QC_PREP/20260511/23/a39d4693-9124-3a21-b0d5-7d0f5aea9530/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": "",
@@ -444,7 +443,7 @@
     "slug": "membran-via-su-yalitim-membrani-52-kg-10m",
     "name": "MEMBRAN Vıa Su Yalıtım Membranı(52 kg 10M²)",
     "category": "Yalıtım Malzemesi",
-    "price": 6417.0,
+    "price": 6417,
     "description": "Has Membran Vıa Su Yalıtım Membranı(52 kg 10M²) HasMembran VIA – Viyadükler İçin Yüksek Performanslı Su Yalıtım Membranı HasMembran VIA, köprüler ve viyadükler gibi ağır yapısal yüklere maruz kalan mühendislik projeleri için özel olarak geliştirilmiş, yüksek dayanımlı bir su yalıtım çözümüdür.; Her türlü hava koşuluna karşı üstün direnç sunan bu özel membran, altyapı projelerinizin uzun ömürlü olmasına katkı sağlar.; 🔍 Ürün Avantajları: Yüksek Su Geçirmezlik: Yağmur, kar, don gibi dış etkenlere karşı etkili bir koruma sağlayarak yapı yüzeyine su girişini tamamen engeller.; Uzun Ömürlü Koruma: Zamanla aşınmayan yapısı sayesinde yıllar boyunca güvenilir sunar.; Özellikle köprü ve viyadüklerde kritik koruma sağlar.; Yapısal Esneklik: Betonarme yapıların doğal hareketlerine uyum sağlayarak yüzeyde çatlak oluşumlarını engeller.; Hızlı ve Pratik Uygulama: Kolay uygulanabilir formu sayesinde iş gücünden ve zamandan tasarruf sağlar.; Büyük altyapı projelerinde montaj sürecini kısaltır.; Geniş Kullanım Alanı: Sadece viyadükler değil; köprüler, otoyol kenarı yapılar, depo çatıları ve benzeri yüksek mühendislik yapılarında da kullanılabilir.; Neden HasMembran VIA? 🔧 Uzun vadeli yatırım koruması sağlar 🏗️ Mühendislik projelerinde maksimum güvenlik sunar 🌧️ Aşırı hava koşullarına karşı dirençlidir ⏱️ Kurulum ve uygulama süresi kısadır",
     "stock": 750,
     "images": [
@@ -452,7 +451,7 @@
       "https://cdn.dsmcdn.com/ty1929/prod/QC_PREP/20260511/22/c1c594c0-88c1-3f43-a440-e2ff5eee9dc2/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1905/prod/QC_PREP/20260511/22/2079ae11-22b5-3b20-8ce0-abf328ec7982/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -469,7 +468,7 @@
       "https://cdn.dsmcdn.com/ty1939/prod/QC_PREP/20260511/21/16f8c49e-b177-3313-be78-3a9d7c66d278/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1929/prod/QC_PREP/20260511/21/1baef292-1559-3bff-9a2d-9e64489bffd8/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -485,7 +484,7 @@
     "images": [
       "https://cdn.dsmcdn.com/ty1908/prod/QC_PREP/20260511/22/910649a9-ac08-3f75-b14d-3f9bf72ec182/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -501,7 +500,7 @@
     "images": [
       "https://cdn.dsmcdn.com/ty1919/prod/QC_PREP/20260511/22/aa4e197b-fbe0-38f6-a0e8-e41fec00e81d/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -519,7 +518,7 @@
       "https://cdn.dsmcdn.com/ty1905/prod/QC_PREP/20260511/22/414c3433-f959-31f6-a5f9-d91b38af3bcc/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1893/prod/QC_PREP/20260511/22/177b01e6-5c97-3577-98bb-11e9f84f0a5c/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -536,7 +535,7 @@
       "https://cdn.dsmcdn.com/ty1943/prod/QC_PREP/20260511/22/d11b1ad8-5b66-3213-a562-8ee9326ffea9/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1943/prod/QC_PREP/20260511/22/7866ca35-7921-350e-8108-faa64f207fa9/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -553,7 +552,7 @@
       "https://cdn.dsmcdn.com/ty1894/prod/QC_PREP/20260511/22/16d9aad6-0952-32bc-a703-9cce682922fd/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1932/prod/QC_PREP/20260511/22/d9518994-ae7b-37f6-b274-303e1f5f6775/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -570,7 +569,7 @@
       "https://cdn.dsmcdn.com/ty1937/prod/QC_PREP/20260511/22/f7105e5d-a1d8-385b-8d6b-b0d91df75442/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1903/prod/QC_PREP/20260511/22/de7b8c9e-4862-3c55-b4b7-4f78c8276434/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": "",
@@ -588,7 +587,7 @@
       "https://cdn.dsmcdn.com/ty1907/prod/QC_PREP/20260511/22/fc5104e9-2130-3376-bd5e-9ec6c582a34e/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1911/prod/QC_PREP/20260511/22/a177f27e-0c1a-36bf-b1ef-2c18a5486411/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -605,7 +604,7 @@
       "https://cdn.dsmcdn.com/ty1935/prod/QC_PREP/20260511/21/9729dd1a-836a-3093-8ec0-c16ac2f99a8d/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1942/prod/QC_PREP/20260511/21/29edecdf-c167-3909-8214-bc88a6743f00/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -622,7 +621,7 @@
       "https://cdn.dsmcdn.com/ty1922/prod/QC_PREP/20260511/21/d259503f-e251-30eb-b77e-bcf33eecd50c/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1930/prod/QC_PREP/20260511/21/1845af3f-497c-3967-b1e7-89afe55250ad/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -639,7 +638,7 @@
       "https://cdn.dsmcdn.com/ty1909/prod/QC_PREP/20260511/21/e5048b41-b74d-3a4c-88be-c669fea5f4a9/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1934/prod/QC_PREP/20260511/21/3311c1c7-6e54-3412-90d3-16797038c7a1/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -649,14 +648,14 @@
     "slug": "membran-c3000-su-yalitim-membrani-25-kg-10m",
     "name": "MEMBRAN C3000 Su Yalıtım Membranı(25 kg 10M²)",
     "category": "Yalıtım Malzemesi",
-    "price": 3375.0,
+    "price": 3375,
     "description": "",
     "stock": 750,
     "images": [
       "https://cdn.dsmcdn.com/ty1933/prod/QC_PREP/20260511/21/bece929c-7427-37a3-9683-e765e240e758/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1900/prod/QC_PREP/20260511/21/f60afc4e-dce0-3445-9b0f-9226b8203203/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": "",
@@ -674,7 +673,7 @@
       "https://cdn.dsmcdn.com/ty1932/prod/QC_PREP/20260511/21/cb95ac19-a26a-367a-a1ba-9ed588d0a565/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1942/prod/QC_PREP/20260511/21/2f6c1226-81bc-343c-b5d2-e8ab31f04146/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -691,7 +690,7 @@
       "https://cdn.dsmcdn.com/ty1917/prod/QC_PREP/20260510/23/afe348eb-be50-33ea-8dad-95ddcf8b94e2/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1907/prod/QC_PREP/20260510/23/4b676e3b-14e8-3186-8922-e52d2d76b9cd/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -708,7 +707,7 @@
       "https://cdn.dsmcdn.com/ty1895/prod/QC_PREP/20260510/23/c7d858c6-cb31-3834-ad3f-ea414ac82f06/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1936/prod/QC_PREP/20260510/23/808c77ee-3eb3-3ed8-8352-31d4e9039bc1/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -725,7 +724,7 @@
       "https://cdn.dsmcdn.com/ty1930/prod/QC_PREP/20260510/23/8185eb77-7786-3811-9876-a8ffaf21b7ab/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1893/prod/QC_PREP/20260510/23/009dc6f1-2196-3982-a1fe-646c2d21e724/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -741,7 +740,7 @@
     "images": [
       "https://cdn.dsmcdn.com/ty1939/prod/QC_PREP/20260510/23/90ff9298-e960-352d-ad47-45224613a757/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -758,7 +757,7 @@
       "https://cdn.dsmcdn.com/ty1913/prod/QC_PREP/20260510/23/ba6bfd7a-c385-33e1-b3eb-4553c3fc3738/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1902/prod/QC_PREP/20260510/23/f9da40a8-5da4-3658-b526-943372cae25b/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -775,7 +774,7 @@
       "https://cdn.dsmcdn.com/ty1935/prod/QC_PREP/20260510/22/4d76d70a-8b87-3beb-9c38-ba6e23c3c20e/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1936/prod/QC_PREP/20260510/22/31aba376-f777-3c09-9c63-f0c8e5595c45/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -792,7 +791,7 @@
       "https://cdn.dsmcdn.com/ty1914/prod/QC_PREP/20260510/22/e2085d74-46fb-3544-b325-c4b89394a039/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1915/prod/QC_PREP/20260510/22/8bd374b4-666c-3b6f-9c3c-d3eff3c5877c/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -809,7 +808,7 @@
       "https://cdn.dsmcdn.com/ty1922/prod/QC_PREP/20260510/22/5130ff7f-8861-345a-aeeb-1d8f48f51c8e/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1917/prod/QC_PREP/20260510/22/a1521408-8a58-32a5-b859-26bd3f63a1ed/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": "",
@@ -828,7 +827,7 @@
       "https://cdn.dsmcdn.com/ty1940/prod/QC_PREP/20260510/22/1d744385-362e-35ce-9920-f81cc7018bf9/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1895/prod/QC_PREP/20260510/22/fb7b5e6d-380a-3005-a6de-a0b3b65f68f2/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": "",
@@ -846,7 +845,7 @@
       "https://cdn.dsmcdn.com/ty1930/prod/QC_PREP/20260510/22/bb515ca3-a056-378a-9a4f-851efaafd02e/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1898/prod/QC_PREP/20260510/22/5361668b-b96e-3060-a95e-a1936bf181fc/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": "",
@@ -857,7 +856,7 @@
     "slug": "membran-p4000-20-su-yalitim-membrani-48-kg-10m",
     "name": "MEMBRAN P4000-20 Su Yalıtım Membranı(48 kg 10M²)",
     "category": "Yalıtım Malzemesi",
-    "price": 6075.0,
+    "price": 6075,
     "description": "Has Membran P4000-20 Su Yalıtım Membranı(48 kg 10M²) Has Membran P4000 -20 – Zorlu Koşullarda Maksimum Koruma Has Membran P4000 -20, aşırı soğuk hava koşulları ve yüksek gerektiren yapı projeleri için özel olarak geliştirilmiş, ileri teknolojiye sahip bir bitümlü su yalıtım membranıdır.; -20°C’ye kadar esnekliğini koruyarak yapılarınızı her mevsim güvenle sarar.; ❄️ Soğuk Havalarda Yüksek Dayanım P4000 -20, özel elastomerik bileşimi sayesinde düşük sıcaklıklarda bile çatlama, kırılma veya büzüşme yapmaz.; Kış aylarında uygulama kolaylığı sağlar, iş gücü ve zaman kaybını önler.; 💧 Üstün Su Geçirmezlik Çift katmanlı yapısıyla maksimum sızdırmazlık sağlayan P4000 -20, temelden çatıya kadar her yapıda tam koruma sunar.; Suya ve neme karşı tam kalkan görevi görerek yapının ömrünü uzatır.; 🌞 UV ve Dış Etken Direnci Yoğun güneş ışığı, don, kar ve kimyasal etkilere karşı yüksek direnç gösterir.; İlk günkü performansını uzun yıllar korur.; 🧱 Geniş Uygulama Alanı Soğuk iklim bölgelerinde bulunan konut ve ticari yapılar Düz ve eğimli çatılar Teraslar, bodrum duvarları ve perde betonlar Endüstriyel tesis çatıları Kar yükü ve sıcaklık farkı yüksek bölgeler ✅ Belgelendirilmiş Kalite ve Yerli Üretim TSE ve ISO 9001 kalite belgelerine sahip olan P4000 -20, Türkiye'de yerli üretim güvencesiyle sunulur.; Hem kamu projelerinde hem de özel sektörde güvenle tercih edilir.;",
     "stock": 750,
     "images": [
@@ -865,7 +864,7 @@
       "https://cdn.dsmcdn.com/ty1941/prod/QC_PREP/20260510/22/f13a2283-e4c5-3e8f-b063-4d89b0c5eef8/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1910/prod/QC_PREP/20260510/22/b87bc12f-17ad-3816-b1bf-1ab8293c27f4/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": "",
@@ -883,7 +882,7 @@
       "https://cdn.dsmcdn.com/ty1912/prod/QC_PREP/20260510/22/3f1be144-3084-3988-b428-4bb83a1bb857/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1921/prod/QC_PREP/20260510/22/5f6f37ca-5cb2-3d90-8e39-b585e2e3a9cf/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": "",
@@ -901,7 +900,7 @@
       "https://cdn.dsmcdn.com/ty1893/prod/QC_PREP/20260510/21/63de6359-b32b-389b-be67-582f4050ca70/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1906/prod/QC_PREP/20260510/21/4363b692-a144-3d99-930b-62e15284db81/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -918,7 +917,7 @@
       "https://cdn.dsmcdn.com/ty1920/prod/QC_PREP/20260510/21/dfa1faea-f999-31c8-9c25-a4a68d2c044f/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1919/prod/QC_PREP/20260510/21/f02593dd-d3b8-39e6-9934-ffba1f0af4df/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -935,7 +934,7 @@
       "https://cdn.dsmcdn.com/ty1936/prod/QC_PREP/20260510/21/8ddddc45-a846-3077-aa76-0a34eb6a630b/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1895/prod/QC_PREP/20260510/21/0593a6d1-b146-3e40-8206-d4da0a07184c/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -952,7 +951,7 @@
       "https://cdn.dsmcdn.com/ty1921/prod/QC_PREP/20260510/21/c0db7b87-ecd6-3420-a036-9e677f876978/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1914/prod/QC_PREP/20260510/21/86c4e945-da97-3582-9d83-ee9553944525/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -969,7 +968,7 @@
       "https://cdn.dsmcdn.com/ty1920/prod/QC_PREP/20260510/21/47bda5ac-9778-3edd-a81f-ad4b467075f1/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1943/prod/QC_PREP/20260510/21/e3282622-c97d-3832-a441-b6d0587c408b/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -987,7 +986,7 @@
       "https://cdn.dsmcdn.com/ty1926/prod/QC_PREP/20260510/15/a614843a-81cc-39cf-8e6e-e3cb7215ec74/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1912/prod/QC_PREP/20260510/15/4989f8f9-f07c-36e7-86cf-5f65a6d6436d/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -1004,7 +1003,7 @@
       "https://cdn.dsmcdn.com/ty1898/prod/QC_PREP/20260510/15/317c79be-8cbf-38d6-b7d7-a56e00cceaff/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1897/prod/QC_PREP/20260510/15/3dd43d9b-fdac-3e56-b903-0c667e36ae09/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -1020,7 +1019,7 @@
     "images": [
       "https://cdn.dsmcdn.com/ty1909/prod/QC_PREP/20260510/15/7def2463-5025-3f97-af87-3960526354a3/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -1037,7 +1036,7 @@
       "https://cdn.dsmcdn.com/ty1893/prod/QC_PREP/20260510/15/abc54ab2-167e-3428-a23c-d7fc76aa8daf/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1922/prod/QC_PREP/20260510/15/2c02d4ec-307a-3925-8033-611dfefdd338/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -1053,7 +1052,7 @@
     "images": [
       "https://cdn.dsmcdn.com/ty1892/prod/QC_PREP/20260510/14/67d760c0-e496-360d-abc5-05ef0c90f959/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -1070,7 +1069,7 @@
       "https://cdn.dsmcdn.com/ty1904/prod/QC_PREP/20260510/14/5cd6297e-9e5b-31f7-ad7d-2f932253f1f3/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1908/prod/QC_PREP/20260510/14/eaeb6a72-c65a-3a32-bdb1-061d9a23ea7b/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -1087,7 +1086,7 @@
       "https://cdn.dsmcdn.com/ty1907/prod/QC_PREP/20260510/14/e565129c-1008-381d-bbde-2d37ab51d90f/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1896/prod/QC_PREP/20260510/14/bf138a00-3e05-3796-a425-632a3fd45e66/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -1097,14 +1096,14 @@
     "slug": "zt502808r1-50-cm-pvc-trafik-konisi-tek-reflektifli",
     "name": "ZT502808R1 – 50 cm Pvc Trafik Konisi – Tek Reflektifli",
     "category": "Trafik Konisi & Duba",
-    "price": 3213.0,
+    "price": 3213,
     "description": "ZT502808R1 – 50 cm Pvc Trafik Konisi – Tek Reflektifli ZT502808R1 – 50 CM PVC Trafik Konisi – Tek Reflektifli Ürün Özellikleri Materyal: PVC Yükseklik: 50 cm Taban Ölçüsü: 28 cm (Sekizgen) Ağırlık: 1200 gr ± %5 Renk: Turuncu Reflektif: 1 adet prizmatik beyaz bant Kullanım Alanları Trafik akışını güvenli şekilde yönlendirmek için yol çalışmaları ve şantiye sahalarında Okul, hastane ve site çevrelerinde araçların dikkatini çekmek amacıyla Otopark giriş‑çıkışlarında bölge sınırlandırma ve park düzenleme Geçici etkinlik, konser veya fuar alanlarında yaya ve araç trafiği kontrolü Düşük ışık koşullarında görünürlüğü artırarak gece yönlendirme Avantajlar Tek adet prizmatik reflektif şerit, düşük ışıkta çarpıcı bir yansıtma sağlar Sekizgen taban, benzersiz stabilite sunarak devrilmeyi önler Hafif PVC gövde, saha içi hızlı kurulum ve kolay taşıma imkânı verir Dayanıklı malzeme uzun süreli kullanım ve darbeler karşısında üstün direnç sunar Yerel üretim olması sayesinde ekonomik ve hızlı temin avantajı sağlar",
     "stock": 750,
     "images": [
       "https://cdn.dsmcdn.com/ty1893/prod/QC_PREP/20260510/14/aeb395b8-82b9-391c-ae73-a5ebce329785/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1910/prod/QC_PREP/20260510/14/aa3dd45e-805e-39e6-907a-5478ed258838/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -1121,7 +1120,7 @@
       "https://cdn.dsmcdn.com/ty1897/prod/QC_PREP/20260509/18/26efc029-241c-3083-84d4-37c12ba09091/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1922/prod/QC_PREP/20260509/18/5d8dfcf4-84a0-3d60-943b-1ddf29d49b7f/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -1138,7 +1137,7 @@
       "https://cdn.dsmcdn.com/ty1919/prod/QC_PREP/20260509/18/9a5e92c9-552f-3428-b225-54c0a5a9823d/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1934/prod/QC_PREP/20260509/18/2b27a42b-92ce-30c4-963e-3c6b49628b67/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -1155,7 +1154,7 @@
       "https://cdn.dsmcdn.com/ty1920/prod/QC_PREP/20260509/17/8025ce53-e0bb-3c2b-bac3-ced2394b69b1/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1913/prod/QC_PREP/20260509/17/8397ecf9-8d12-36bd-a37c-ddc072092281/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -1172,7 +1171,7 @@
       "https://cdn.dsmcdn.com/ty1905/prod/QC_PREP/20260509/17/777137c2-87c2-3863-b477-86a305103c12/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1943/prod/QC_PREP/20260509/17/0d10ea2b-0006-394d-815b-3668621e1711/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -1188,7 +1187,7 @@
     "images": [
       "https://cdn.dsmcdn.com/ty1932/prod/QC_PREP/20260509/16/79f6b807-56e0-3402-823c-8f68cc41d736/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "Çok Renkli",
     "size": "43.0",
     "dims": ""
@@ -1205,7 +1204,7 @@
       "https://cdn.zyrosite.com/cdn-ecommerce/store_01J4WP7QAGYPM9RXKF4Q9XS7XX%2Fassets%2F1752213547985-chatgptimage11tem202508_59_03.png",
       "https://cdn.dsmcdn.com/ty1930/prod/QC_PREP/20260509/16/b81c7f0d-bf1a-3ea7-9d47-0318fe33fccc/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -1222,7 +1221,7 @@
       "https://cdn.dsmcdn.com/ty1916/prod/QC_PREP/20260509/16/e525843c-dcd5-309e-b3c4-563e33091e0a/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1910/prod/QC_PREP/20260509/16/f260b32d-4fd2-33be-b77f-854763b3783a/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -1232,14 +1231,14 @@
     "slug": "dikdortgen-uyari-dikmesi-cift-reflektifli-kirmizi-beyaz-110x120-cm",
     "name": "Dikdörtgen Uyarı Dikmesi | Çift Reflektifli – Kırmızı/beyaz -- Ø110X120 cm",
     "category": "Dikme & Panel Sistemleri",
-    "price": 3519.0,
+    "price": 3519,
     "description": "Dikdörtgen Uyarı Dikmesi | Çift Reflektifli – Kırmızı/beyaz -- Ø110X120 cm Ø110x120 CM Dikdörtgen Uyarı Dikmesi | Çift Reflektifli – Kırmızı/Beyaz Ürün Özellikleri • Materyal: PPC • Yükseklik: 120 cm • Taban Ölçüsü: 60×40 cm (Dikdörtgen) • Ağırlık: 9000 gr ± %10 • Renk: Kırmızı/Beyaz • Reflektif: 4 adet Glass Bead Type 1 • Montaj: Ürün yere monte edilebilir (2 adet vida + 2 adet dübel ile) Kullanım Alanları • Trafik yönlendirme ve şerit ayırma uygulamaları • Şantiye, okul, AVM ve kampüs çevresinde geçici güvenlik alanları • Yol bakım ve onarım sahalarında gece görünürlüğü gerektiren noktalar Avantajlar • Gövdeye herhangi bir aparat gerektirmeden uyarı levhası, kulp ve flaşör monte edilebilir • Dört adet reflektif bant sayesinde gece yüksek görünürlük sağlar • Dayanıklı ve montajı kolaydır – yerli üretim 🛒 Hemen sipariş verin, güvenlik ve reklam çözümlerinizi bir arada sunun!",
     "stock": 750,
     "images": [
       "https://cdn.dsmcdn.com/ty1918/prod/QC_PREP/20260509/16/1c83f413-0637-3ac8-b55e-2a5f778b12ec/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1909/prod/QC_PREP/20260509/16/4e0c9957-0839-3f62-a894-aeb8183915a6/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -1256,7 +1255,7 @@
       "https://cdn.dsmcdn.com/ty1917/prod/QC_PREP/20260509/16/ed2e2eb7-8dde-366b-b660-ede9785ea387/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1918/prod/QC_PREP/20260509/16/b1452012-bba1-35d0-ae30-1533c05eae66/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -1272,7 +1271,7 @@
     "images": [
       "https://cdn.dsmcdn.com/ty1916/prod/QC_PREP/20260508/16/b8e0b1e6-134c-31d7-94d2-60e3b306b200/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -1289,7 +1288,7 @@
       "https://cdn.dsmcdn.com/ty1923/prod/QC_PREP/20260508/16/c31fd77a-5339-38e9-a527-e2bf803e870a/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1914/prod/QC_PREP/20260508/16/5df7fe48-215c-33cb-b23b-a593a91ef70b/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -1307,7 +1306,7 @@
       "https://cdn.dsmcdn.com/ty1894/prod/QC_PREP/20260508/16/d0561702-9494-343d-a628-b849b644d31e/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1924/prod/QC_PREP/20260508/16/d76d56fe-7ae4-3641-b759-706cc47c67ab/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -1317,14 +1316,14 @@
     "slug": "zt502808a6-50-cm-pvc-trafik-konisi-agirlikli-reflektifsiz",
     "name": "ZT502808A6 – 50 cm Pvc Trafik Konisi – Ağırlıklı, Reflektifsiz",
     "category": "Trafik Konisi & Duba",
-    "price": 3519.0,
+    "price": 3519,
     "description": "ZT502808A6 – 50 cm Pvc Trafik Konisi – Ağırlıklı, Reflektifsiz ZT502808A6 – 50 CM PVC Trafik Konisi – Ağırlıklı, Reflektifsiz Ürün Özellikleri Materyal: PVC Yükseklik: 50 cm Taban: Ø 38 cm (Altıgen ağırlık) Ağırlık: 2700 gr ± %5 Renk: Turuncu koni / Siyah ağırlık Reflektif: Yok Kullanım Alanları Gündüz trafik yönlendirmelerinde şerit ayırma ve uyarı konisi olarak İnşaat, bakım-onarım ve altyapı projelerinde geçici saha güvenliği sağlamak için Otopark içi geçişler ve giriş-çıkış noktalarında araç akışını düzenlemek amacıyla Site, AVM, okul ve hastane çevrelerinde güvenlik uyarısı noktalarında Etkinlik ve organizasyon alanlarında araç ve yaya trafiğini bölgeleme Avantajlar Altıgen ağırlıklı taban, rüzgar ve çarpma gibi etkilere karşı üstün stabilite sunar Tek parça PVC koni ile ağırlıklı tabanın hızlı montajı sayesinde pratik kurulum Yüzeyde reflektör olmamasına rağmen canlı turuncu rengiyle gün ışığında yüksek görünürlük Dayanıklı malzeme, uzun süreli sert saha koşullarında bile formunu korur Ekonomik, yerli üretim çözümü olarak kolay temin ve maliyet avantajı sağlar 🛒 Hemen sipariş verin, ekonomik trafik çözümleriyle tanışın!",
     "stock": 750,
     "images": [
       "https://cdn.dsmcdn.com/ty1933/prod/QC_PREP/20260508/15/a0b76239-a704-33e3-8df7-e30c1c8a7830/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1929/prod/QC_PREP/20260508/15/12a4a960-4f8a-32d5-9c24-434c2873ab47/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -1341,7 +1340,7 @@
       "https://cdn.dsmcdn.com/ty1915/prod/QC_PREP/20260508/15/35012d4d-6191-3285-87cc-283f6735fea6/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1939/prod/QC_PREP/20260508/15/03b8558f-62c7-33bc-a99a-27e4b3510a34/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -1357,7 +1356,7 @@
     "images": [
       "https://cdn.dsmcdn.com/ty1927/prod/QC_PREP/20260508/15/da9bad4b-c5d4-33fb-b2d4-7412bd2bb838/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "Kırmızı",
     "size": "",
     "dims": ""
@@ -1373,7 +1372,7 @@
     "images": [
       "https://cdn.dsmcdn.com/ty1915/prod/QC_PREP/20260508/15/6d092173-b01f-3590-b37e-0f490ac3c0b0/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -1390,7 +1389,7 @@
       "https://cdn.dsmcdn.com/ty1923/prod/QC_PREP/20260508/15/570bbac6-a9bd-35fa-8a12-51eb5c74763f/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1891/prod/QC_PREP/20260508/15/9ebb3fd1-cf92-3808-a870-3a1d75ffe1d7/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -1407,7 +1406,7 @@
       "https://cdn.dsmcdn.com/ty1921/prod/QC_PREP/20260508/15/cbe39deb-e035-3729-b419-ae135395f853/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1937/prod/QC_PREP/20260508/15/ba39db62-3645-3f18-977e-df6707ecd69c/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -1424,7 +1423,7 @@
       "https://cdn.dsmcdn.com/ty1900/prod/QC_PREP/20260508/15/206785d5-f920-3ca9-bc91-25e653416831/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1901/prod/QC_PREP/20260508/15/1e5966fc-7eeb-393d-9064-c7d9eea4068d/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -1440,7 +1439,7 @@
     "images": [
       "https://cdn.dsmcdn.com/ty1928/prod/QC_PREP/20260508/15/18774d6c-dd40-38ae-99fb-7f7b5297f76d/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -1450,14 +1449,14 @@
     "slug": "zt15110-110-cm-arac-stoperi-siyah-sari",
     "name": "ZT15110 – 110 cm Araç Stoperi | Siyah-Sarı",
     "category": "Araç Stoperi",
-    "price": 2934.0,
+    "price": 2934,
     "description": "ZT15110 – 110 cm Araç Stoperi | Siyah-Sarı ZT15110 – 110 CM Araç Stoperi | Siyah-Sarı Ürün Özellikleri • Materyal: PPC • Yükseklik: 10 cm • Taban Ölçüsü: 15 × 110 cm • Ağırlık: 3600 gr ± 200 gr • Renk: Siyah Gövde / Sarı Uyarı • Reflektif: Prizmatik Beyaz • Montaj: 3 Trifon Vida – 3 Dübel Kullanım Alanları • Otoparklarda araçların güvenli şekilde durmasını sağlamak için • AVM, hastane ve kamuya açık otoparklarda • Site içi park alanlarında • Açık ve kapalı tüm otopark düzenlemelerinde Avantajlar • Geniş boyutuyla büyük araçlar için ideal çözüm • Sarı uyarı şeritleri ve prizmatik reflektif ile maksimum görünürlük • Dayanıklı PPC malzeme ile uzun ömür • Kolay montaj, yüksek sabitleme performansı 🛒 Hemen sipariş verin, güvenlik ve reklam çözümlerinizi bir arada sunun!",
     "stock": 750,
     "images": [
       "https://cdn.dsmcdn.com/ty1900/prod/QC_PREP/20260508/14/764677ae-987d-372d-a7d1-ce2258c2a9c5/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1929/prod/QC_PREP/20260508/14/d2af8125-d343-3ff4-b035-9a6d2d39cd14/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -1474,7 +1473,7 @@
       "https://cdn.dsmcdn.com/ty1908/prod/QC_PREP/20260508/14/b1abaef0-5859-3368-b5d3-b952138d6b39/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1898/prod/QC_PREP/20260508/14/55cfcd0f-9ce5-35c7-a3eb-32a1e6075cf6/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -1491,7 +1490,7 @@
       "https://cdn.dsmcdn.com/ty1900/prod/QC_PREP/20260508/14/e558b852-1aad-390f-b361-b2173850490f/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1935/prod/QC_PREP/20260508/14/ef557819-f2e6-3089-8bb8-8c6a90fa9ecd/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -1508,7 +1507,7 @@
       "https://cdn.dsmcdn.com/ty1929/prod/QC_PREP/20260508/14/cf51b066-72d6-31d2-ba50-246981f6120d/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1932/prod/QC_PREP/20260508/14/492de04c-d417-3042-8eb1-fa7a80325251/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -1525,7 +1524,7 @@
       "https://cdn.dsmcdn.com/ty1895/prod/QC_PREP/20260508/14/5e530f20-0fc8-347e-bb09-a72ea212982c/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1900/prod/QC_PREP/20260508/14/669afaf8-182a-31af-8750-669f47ca235d/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -1542,7 +1541,7 @@
       "https://cdn.dsmcdn.com/ty1934/prod/QC_PREP/20260508/14/6c9838fc-cbbf-3164-a496-4efc7ba649c1/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1893/prod/QC_PREP/20260508/14/41a127c6-6481-35a5-a4db-bf072c7a55c2/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -1559,7 +1558,7 @@
       "https://cdn.dsmcdn.com/ty1941/prod/QC_PREP/20260508/14/2cf87eff-200d-3b3c-b191-22ce3ecb67a1/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1908/prod/QC_PREP/20260508/14/b2751f01-5582-3451-8da5-2fb4e3c23728/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -1569,14 +1568,14 @@
     "slug": "zt3263-da-dikdortgen-agirlikli-63-dikme-panel-levhali-90-31-5-cm",
     "name": "ZT3263 Da Dikdörtgen Ağırlıklı Ø63 Dikme Panel Levhalı | 90×31,5 cm",
     "category": "Dikme & Panel Sistemleri",
-    "price": 6975.0,
+    "price": 6975,
     "description": "ZT3263 Da Dikdörtgen Ağırlıklı Ø63 Dikme Panel Levhalı | 90×31,5 cm ZT3263 DA Dikdörtgen Ağırlıklı Ø63 Dikme Panel Levhalı | 90×31,5 cm Ürün Özellikleri • Materyal: PPC • Yükseklik: 31,5 cm • Taban Ölçüsü: 90 cm • Ağırlık: 1100 gr ± %5 • Renk: - • Reflektif: Yok Kullanım Alanları • İç mekân geçici yönlendirme ve uyarı uygulamaları • Fuar, otopark, mağaza içi gibi alanlarda yön verme çözümleri • Düşük ağırlık gerektiren uygulamalarda hafif panel desteği Avantajlar • Ø63 uyumlu – düşük maliyetli ve hafif yapı • Panel kolay monte edilir ve taşınabilir • Estetik ve minimal görünüm sunar 🛒 Hemen sipariş verin, kompakt yönlendirme çözümleriniz için hafif ve işlevsel bir ürün tercih edin!",
     "stock": 750,
     "images": [
       "https://cdn.dsmcdn.com/ty1927/prod/QC_PREP/20260508/13/dc75376f-60cc-34c0-b962-5f34fc1a577a/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1933/prod/QC_PREP/20260508/13/5b65c986-0854-30cc-9553-49a16dd92b20/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -1593,7 +1592,7 @@
       "https://cdn.dsmcdn.com/ty1894/prod/QC_PREP/20260508/13/21a90cf4-e25c-3289-80ff-d8f89d85c835/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1941/prod/QC_PREP/20260508/13/cc193d73-1074-3925-b4d8-7b6505c785f3/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -1611,7 +1610,7 @@
       "https://cdn.dsmcdn.com/ty1913/prod/QC_PREP/20260508/13/398d11c1-a9d5-32cf-b74b-ef4b6a5bdf73/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1911/prod/QC_PREP/20260508/13/6d7df5dd-a0c4-36ad-84b7-b84f8281e366/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -1628,7 +1627,7 @@
       "https://cdn.dsmcdn.com/ty1920/prod/QC_PREP/20260508/13/16c9ffc0-619e-3228-9cce-1302ac38fafa/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1939/prod/QC_PREP/20260508/13/30468997-b67f-3cf7-b30f-126b80ec2e84/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -1638,13 +1637,13 @@
     "slug": "75-cm-pvc-trafik-konisi-cift-reflektifli",
     "name": "75 cm PVC Trafik Konisi Çift Reflektifli",
     "category": "Trafik Konisi & Duba",
-    "price": 4728.0,
+    "price": 4728,
     "description": "Zeplin 75 cm PVC Trafik Konisi Çift Reflektifli ZT702808R2 – 75 cm Pvc Trafik Konisi | Çift Reflektifli ZT702808R2 – 75 CM PVC Trafik Konisi | Çift Reflektifli Ürün Özellikleri Materyal: PVC Yükseklik: 75 cm Taban Ölçüsü: 38 cm (Sekizgen) Ağırlık: 2300 gr ± %5 Renk: Turuncu Reflektif: 2 adet Prizmatik Beyaz Reflektör Kullanım Alanları Gece ve gündüz karayolu güvenliği Yol çalışmaları, belediye hizmetleri Otopark giriş/çıkış yönlendirmeleri Şantiye çevresi güvenlik alanı çizimi Acil durum alan sınırlandırmaları Avantajlar İkili prizmatik reflektör ile maksimum görünürlük Uzun gövde yapısı sayesinde yüksek uyarı etkisi Sekizgen geniş tabanlı yapı ile rüzgara ve darbelere karşı direnç Yüksek kaliteli PVC malzeme ile esnek ve uzun ömürlü kullanım",
     "stock": 750,
     "images": [
       "https://cdn.dsmcdn.com/ty1907/prod/QC_PREP/20260508/13/c5781eea-abd6-32fd-9bc0-b5aa7eb596bb/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -1661,7 +1660,7 @@
       "https://cdn.dsmcdn.com/ty1933/prod/QC_PREP/20260508/13/b971ce66-f5ae-336b-a11e-a817e7a40abb/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1906/prod/QC_PREP/20260508/13/205366d4-6047-307d-8021-96c016ed263e/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -1678,7 +1677,7 @@
       "https://cdn.dsmcdn.com/ty1928/prod/QC_PREP/20260507/23/8592d211-f770-3e78-99ae-f74cbfc029ce/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1932/prod/QC_PREP/20260507/23/f8a9f67a-d0b6-390f-a2ef-8c15ff0e3af4/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -1695,7 +1694,7 @@
       "https://cdn.dsmcdn.com/ty1919/prod/QC_PREP/20260507/23/4c752875-14db-3ec3-a8b3-87dd7f6ed9ac/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1924/prod/QC_PREP/20260507/23/0d2e32e0-2ff4-33db-8b3b-a2d314cc0e32/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -1705,7 +1704,7 @@
     "slug": "membran-p3000-su-yalitim-membrani-25-kg-10m",
     "name": "MEMBRAN P3000 Su Yalıtım Membranı(25 kg 10M²)",
     "category": "Yalıtım Malzemesi",
-    "price": 4014.0,
+    "price": 4014,
     "description": "Has Membran P3000 Su Yalıtım Membranı(25 kg 10M²) Has Membran P3000 – Su, Isı ve Ses İzolasyonunda Üstün Has Membran P3000, yapı sektörünün profesyonel yalıtım ihtiyaçlarına özel geliştirilmiş, çok katmanlı ve dayanıklı bir bitümlü su yalıtım çözümüdür.; Hem iç hem dış mekanlarda güvenle kullanılabilir, yapılarınızda maksimum kuruluk ve konfor sağlar.; 🔧 P3000’in Başlıca Avantajları: 💧 1. Etkin Su Geçirmezlik P3000, yüksek yapışma gücü ve sızdırmazlık kabiliyeti sayesinde suyu tamamen dışarıda tutar.; Özellikle çatı, teras ve temellerde su yalıtımı için ideal bir kalkan görevi görür.; 🔇 2. Isı ve Ses İzolasyonu Bir Arada Yalnızca suya karşı değil, ısı ve ses izolasyonu açısından da güçlü bir sunar.; Yaşam ve çalışma alanlarında sessizlik ve termal konfor sağlar.; ⏳ 3. Uzun Ömürlü Yapı Koruması Kalın yapısı, elastik formülü ve UV dayanımı sayesinde yıllarca deformasyon olmadan işlevini sürdürür.; Projelerinize uzun ömürlü güvenlik kazandırır.; 🛠️ 4. Geniş Uygulama Alanı Çatılar, döşemeler, perde duvarlar, otopark üstleri ve zemin altı izolasyon gibi pek çok alanda kullanılabilir.; Yapıştırma ve kaynak teknikleriyle kolay montaj sağlar.; ♻️ 5. Ekolojik Üretim HasMembran P3000, çevreye duyarlı malzeme ve yöntemlerle üretilir.; Sürdürülebilirlik prensipleriyle uyumludur ve yapıların çevresel etkisini minimize eder.;",
     "stock": 750,
     "images": [
@@ -1713,7 +1712,7 @@
       "https://cdn.dsmcdn.com/ty1909/prod/QC_PREP/20260507/23/d0795375-78b3-3e68-9751-be782238b11f/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1894/prod/QC_PREP/20260507/23/41efd9ff-00a4-37be-a8ff-83c50cf44919/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": "",
@@ -1732,7 +1731,7 @@
       "https://cdn.dsmcdn.com/ty1896/prod/QC_PREP/20260507/23/14504a39-0666-3276-9e7f-b556196122fe/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1914/prod/QC_PREP/20260507/23/e84ee3c6-6692-3cee-90ab-99252bfbc269/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": "",
@@ -1750,7 +1749,7 @@
       "https://cdn.dsmcdn.com/ty1930/prod/QC_PREP/20260507/22/efc98e4f-a219-39e8-94af-197086e8100d/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1909/prod/QC_PREP/20260507/22/e7789bd5-2527-3502-891d-8a95c4c3170c/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -1767,7 +1766,7 @@
       "https://cdn.dsmcdn.com/ty1909/prod/QC_PREP/20260507/22/bcfbce4b-1eb0-3054-9974-ad4f0f16a31f/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1916/prod/QC_PREP/20260507/22/27c82261-b2f7-3b17-8cc5-26d2c81d88e8/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -1784,7 +1783,7 @@
       "https://cdn.dsmcdn.com/ty1911/prod/QC_PREP/20260507/22/355ec4ba-6439-3af2-8e43-2d5f73fb6516/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1918/prod/QC_PREP/20260507/22/da350588-4e66-343e-a7b9-c980b73e39df/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -1801,7 +1800,7 @@
       "https://cdn.dsmcdn.com/ty1906/prod/QC_PREP/20260507/21/65fb103e-9935-33bd-9a89-3a24d51b1f68/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1922/prod/QC_PREP/20260507/21/aa365639-7a13-3ec3-9ee9-d9593e532017/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -1818,7 +1817,7 @@
       "https://cdn.dsmcdn.com/ty1908/prod/QC_PREP/20260507/21/7d8f0eb8-573d-321e-9cf4-62087729bc08/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1907/prod/QC_PREP/20260507/21/f20cf6c5-2789-358e-90fc-ed56865b6cd0/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -1828,14 +1827,14 @@
     "slug": "duz-tip-reflektor-bant-5cm-46-m",
     "name": "Düz Tip Reflektör Bant 5cm/46 M",
     "category": "İş Güvenliği Ekipmanları",
-    "price": 2376.0,
+    "price": 2376,
     "description": "Düz Tip Reflektör Bant 5cm/46 M Beyaz Düz Tip Reflektör Bant Ürün Özellikleri • Renk: - Kırmızı/beyaz -Siyah/Sarı düz tip reflektör • Genişlik: 5 cm • Uzunluk: 46 metre Kullanım Alanları • İşaretleme ve uyarı sınırlarının oluşturulmasında • Arazi, depo ve şantiye alanlarında güvenlik hattı çizgilerinde • Araç park etme bölgesi ve yol bariyerlerinde görünürlük artırmada • Gece ve düşük ışık koşullarında tehlike uyarılarında Avantajlar • Düz tip yüzeyi sayesinde yüksek ışık yansıması • UV ve suya dayanıklı malzeme • Kolay kesilip uygulanabilir yapışkan arka yüzey • Kırmızı/beyaz kontrastla maksimum dikkat çekme • Uzun ömürlü kullanım için dayanıklı film tabaka 🛒 Hemen sipariş verin, çalışma alanlarınızı güvenle işaretleyin!",
     "stock": 750,
     "images": [
       "https://cdn.dsmcdn.com/ty1914/prod/QC_PREP/20260507/21/bad72c9a-2f75-37c7-9b95-fecf86c9b5e0/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1909/prod/QC_PREP/20260507/21/1eb3a914-a91b-3cff-812d-4444f2fc6556/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -1852,7 +1851,7 @@
       "https://cdn.dsmcdn.com/ty1933/prod/QC_PREP/20260507/18/6754fe14-cfc6-345a-9fe4-e60e07dbd054/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1904/prod/QC_PREP/20260507/18/066d387f-c20c-3828-bde6-e9f1855868d0/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -1869,7 +1868,7 @@
       "https://cdn.dsmcdn.com/ty1943/prod/QC_PREP/20260507/18/0f8960a8-f837-3934-9ba1-f0997a8df670/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1894/prod/QC_PREP/20260507/18/6a9b81de-fcb8-3932-a8e6-534cdb883105/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -1886,7 +1885,7 @@
       "https://cdn.dsmcdn.com/ty1928/prod/QC_PREP/20260507/18/c69b8f84-a005-3013-9023-704454a9ee69/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1943/prod/QC_PREP/20260507/18/59e2685e-883a-360e-82db-4684d8aba92f/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -1903,7 +1902,7 @@
       "https://cdn.dsmcdn.com/ty1934/prod/QC_PREP/20260507/18/853d2e57-5e5a-3050-b875-cf19b1971410/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1914/prod/QC_PREP/20260507/18/eb64f665-db27-3928-a870-15351e32aa1b/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -1920,7 +1919,7 @@
       "https://cdn.dsmcdn.com/ty1898/prod/QC_PREP/20260507/18/057c8b91-57af-364e-950e-261babd9bf29/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1913/prod/QC_PREP/20260507/18/e9216dfe-9c7e-3032-a1ff-1fa6cb53afbe/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -1937,7 +1936,7 @@
       "https://cdn.dsmcdn.com/ty1934/prod/QC_PREP/20260507/18/3264ab86-5e4b-3fc2-bbab-22507fd858bc/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1905/prod/QC_PREP/20260507/18/19906272-161f-38c6-ae69-4419fdde67df/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -1954,7 +1953,7 @@
       "https://cdn.dsmcdn.com/ty1909/prod/QC_PREP/20260507/17/8b56b640-2cbf-379d-8783-1471ad764980/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1929/prod/QC_PREP/20260507/17/16322867-aad6-3b69-8b55-13bce507fdf4/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -1964,14 +1963,14 @@
     "slug": "trafik-konisi-pvc-agirlikli-tek-reflektifli-50-cm-pe",
     "name": "Trafik Konisi | Pvc Ağırlıklı – Tek Reflektifli -50 cm Pe",
     "category": "Trafik Konisi & Duba",
-    "price": 1601.0,
+    "price": 1601,
     "description": "Trafik Konisi | Pvc Ağırlıklı – Tek Reflektifli -50 cm Pe 502808A6R1ECO – 50 CM PE Trafik Konisi | PVC Ağırlıklı – Tek Reflektifli Ürün Özellikleri • Materyal: PE-PVC • Yükseklik: 50 cm • Taban Ölçüsü: 38 cm (Altıgen ağırlık) • Ağırlık: 2700 gr ± %5 • Renk: Turuncu • Reflektif: 1 adet Prizmatik Beyaz Şerit Kullanım Alanları • Rüzgârlı açık alanlarda stabil yönlendirme ihtiyacı • Şantiye, otopark ve fabrika içi güvenlik uygulamaları • Düşük ışıkta farkındalık gerektiren alanlar • Eğitim ve geçici trafik yönlendirme noktaları Avantajlar • Ağırlıklı altıgen taban sayesinde devrilmeye dirençli • Prizmatik reflektör ile gece görünürlüğü • Kompakt yapı – taşınabilir ve kullanımı kolay • Yerli üretim –, ekonomik çözüm 🛒 Sipariş verin, gece gündüz etkili yönlendirme sağlayın!",
     "stock": 750,
     "images": [
       "https://cdn.dsmcdn.com/ty1895/prod/QC_PREP/20260507/17/7e8fbd83-a18f-3ef3-8441-ecbda1695b3b/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1911/prod/QC_PREP/20260507/17/f8875c0f-acab-344c-9cc3-d7e6ab9aab79/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -1988,7 +1987,7 @@
       "https://cdn.dsmcdn.com/ty1928/prod/QC_PREP/20260507/17/01a06760-5e78-37bf-84cb-6ebc5ba4bd31/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1931/prod/QC_PREP/20260507/17/a81f4fee-7de6-35ee-b7b8-a78456d257da/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -2005,7 +2004,7 @@
       "https://cdn.dsmcdn.com/ty1917/prod/QC_PREP/20260507/17/d5b15075-be2c-31cb-b590-b4265fc45305/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1939/prod/QC_PREP/20260507/17/fbe3084d-5ea3-3894-9fd3-713dfa26cd6e/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -2022,7 +2021,7 @@
       "https://cdn.dsmcdn.com/ty1932/prod/QC_PREP/20260507/17/f854ef2c-9796-3f9c-9038-3def689430cb/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1941/prod/QC_PREP/20260507/17/706afff3-7278-3c39-8c91-01ff3c828fa2/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -2039,7 +2038,7 @@
       "https://cdn.dsmcdn.com/ty1906/prod/QC_PREP/20260507/17/7da28e1a-b686-362c-95fc-d6561be3d6a7/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1900/prod/QC_PREP/20260507/17/06ae2c16-7ec0-3c71-80f2-005a84c87610/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -2057,7 +2056,7 @@
       "https://cdn.dsmcdn.com/ty1902/prod/QC_PREP/20260507/16/0ee51bc0-2534-384b-86b2-b50e0d2d9d68/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1923/prod/QC_PREP/20260507/16/8354e62b-64ed-33fb-a51a-e4b3da2a3cd9/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "Siyah",
     "size": "",
     "dims": ""
@@ -2074,7 +2073,7 @@
       "https://cdn.dsmcdn.com/ty1911/prod/QC_PREP/20260507/16/1678d96d-eb47-3b4e-9b0d-8dee9a0e7f6e/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1917/prod/QC_PREP/20260507/16/c66d5fcd-9896-3f4f-862e-958d19fdf4dc/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -2091,7 +2090,7 @@
       "https://cdn.dsmcdn.com/ty1917/prod/QC_PREP/20260507/16/e18917e3-9e8c-35c9-9cf2-bdc87a3a5b65/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1932/prod/QC_PREP/20260507/16/f7100fe2-35cf-3c2a-8dca-3e81984b6846/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -2108,7 +2107,7 @@
       "https://cdn.dsmcdn.com/ty1929/prod/QC_PREP/20260507/16/3a62bc61-9fb9-3ccd-9284-f40cb245b43e/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1939/prod/QC_PREP/20260507/16/40fdca3b-fd53-332c-baa2-34e9ce55bad1/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -2125,7 +2124,7 @@
       "https://cdn.dsmcdn.com/ty1914/prod/QC_PREP/20260507/16/8d3a5c16-5a38-3146-82e3-9904bfb9c220/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1902/prod/QC_PREP/20260507/16/cf3e03dc-4b44-3682-86cd-8e49f70d0f25/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -2142,7 +2141,7 @@
       "https://cdn.dsmcdn.com/ty1943/prod/QC_PREP/20260507/16/27a0eeeb-73dd-3dbc-9ead-de88e19e2907/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1912/prod/QC_PREP/20260507/16/882124b7-a458-31f4-ab7a-8126c8c1c42e/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -2159,7 +2158,7 @@
       "https://cdn.dsmcdn.com/ty1930/prod/QC_PREP/20260507/15/8838c16b-dfc5-30e1-ab4a-d37978ccee4a/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1912/prod/QC_PREP/20260507/15/39315f1d-7f69-353e-9f48-5224da9f6272/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -2176,7 +2175,7 @@
       "https://cdn.dsmcdn.com/ty1936/prod/QC_PREP/20260507/16/3c62104a-d20b-311d-8ae7-453caa27ed27/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1922/prod/QC_PREP/20260507/16/83aafcd4-b0eb-3942-af3c-742a08f0e3c8/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -2186,14 +2185,14 @@
     "slug": "beyaz-petekli-reflektor-bant-5-cm-50-m",
     "name": "Beyaz Petekli Reflektör Bant 5 Cm/50 M",
     "category": "İş Güvenliği Ekipmanları",
-    "price": 2160.0,
+    "price": 2160,
     "description": "Beyaz Petekli Reflektör Bant 5 Cm/50 M Ürün Özellikleri • Renk: Sarı/Beyaz/Kırmızı petekli reflektör • Genişlik: 5 cm • Uzunluk: 50 metre Kullanım Alanları • Karayolu ve otopark şerit işaretlemelerinde • Trafik güvenliği uyarı çizgilerinde • Araç, yol bariyeri ve ekipmanlarında görünürlük artırmada • Fabrika, depo ve endüstriyel alanlardaki güvenlik işaretlemelerinde Avantajlar • Yüksek reflektiviteyle düşük ışıkta maksimum görünürlük • UV ve hava koşullarına dayanıklı malzeme • Güçlü arka yüzey yapışkanıyla uzun süreli sabitleme • Kolay uygulanabilir kesim ve yapıştırma • Petekli desenle geniş açıda ışık yansıması 🛒 Hemen sipariş verin, güvenlik işaretlemelerinizi güçlendirin!",
     "stock": 750,
     "images": [
       "https://cdn.dsmcdn.com/ty1933/prod/QC_PREP/20260507/00/e9f0ab7b-97f9-35e1-953d-7a7d60665703/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1940/prod/QC_PREP/20260507/00/32d19a82-970c-3560-afcc-2e2aaa580c3f/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -2210,7 +2209,7 @@
       "https://cdn.dsmcdn.com/ty1928/prod/QC_PREP/20260506/23/ebd57e67-67b1-3328-af65-1d6dec6f5f70/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1910/prod/QC_PREP/20260506/23/3ff37280-daf8-34bc-b3a1-e335fa499000/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -2227,7 +2226,7 @@
       "https://cdn.dsmcdn.com/ty1943/prod/QC_PREP/20260506/23/f489f8a3-5d76-3644-b48b-d19fd475efa2/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1893/prod/QC_PREP/20260506/23/87de91be-85f6-3111-90ab-6fbdd8d2f831/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -2244,7 +2243,7 @@
       "https://cdn.dsmcdn.com/ty1897/prod/QC_PREP/20260506/23/4f008649-041b-3ff1-95e9-e0f618188bc3/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1904/prod/QC_PREP/20260506/23/5e292eab-1431-3b9e-9a5a-fe1995d73ee8/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -2260,7 +2259,7 @@
     "images": [
       "https://cdn.dsmcdn.com/ty1914/prod/QC_PREP/20260506/23/3e6b9a07-d83c-3a08-88b7-d247f9e001d0/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -2278,7 +2277,7 @@
       "https://cdn.dsmcdn.com/ty1913/prod/QC_PREP/20260506/22/6edd6efb-ee9d-37c8-8bee-4e501b9b34f5/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1932/prod/QC_PREP/20260506/22/6eebbfd6-9d63-3b86-9d8a-c720f5a880b7/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -2288,7 +2287,7 @@
     "slug": "altigen-delinator-tek-reflektifli-60-cm",
     "name": "Altıgen Delinatör – Tek Reflektifli |60 cm",
     "category": "Delinatör",
-    "price": 1929.0,
+    "price": 1929,
     "description": "Altıgen Delinatör – Tek Reflektifli |60 cm 60 CM Altıgen Delinatör – Tek Reflektifli | ZT14060 Ürün Özellikleri Malzeme: Yüksek dayanımlı TPU Yükseklik: 60 cm ± %5 Taban Ölçüsü: Ø 24 cm Ağırlık: 1 300 gr ± %5 Renk: Siyah Reflektif: 1 adet metalize prizmatik bant Montaj: 3 adet Trifon vida + 3 adet dübel Kullanım Alanları Yol ayırıcı ve şerit düzenlemeleri Otopark giriş-çıkışlarında güvenlik Şantiye ve inşaat sahaları Acil durum alanları ve tahliye güzergâhları Etkinlik, konser ve fuar alanlarının kontrollü yönlendirilmesi Neden ZT14060 Delinatörü Tercih Etmelisiniz? Dayanıklı TPU Yapı: Darbeye ve zorlu dış koşullara karşı uzun ömürlü Altıgen Tasarım: Estetik görüntüyle birlikte ekstra sağlamlık Yüksek Görünürlük: Metalize prizmatik bant ile gece ve kötü hava şartlarında bile fark edilir Kolay Montaj: Standart vida–dübel setiyle hızlı ve sabit kurulum 🛒 Şimdi Sipariş Verin! Stoklarla sınırlıdır.;",
     "stock": 750,
     "images": [
@@ -2296,7 +2295,7 @@
       "https://cdn.dsmcdn.com/ty1921/prod/QC_PREP/20260506/23/beb6e526-60de-3d25-91c9-f773fbbc4afe/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1895/prod/QC_PREP/20260506/23/144c8609-a7ac-3cdb-989e-59dc22c37b6e/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -2312,7 +2311,7 @@
     "images": [
       "https://cdn.dsmcdn.com/ty1928/prod/QC_PREP/20260506/23/97ff848d-7a58-33cf-9275-aa1e935bac83/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -2329,7 +2328,7 @@
       "https://cdn.dsmcdn.com/ty1896/prod/QC_PREP/20260506/23/96b5ce5c-2413-3e78-afea-6f33007ee884/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1912/prod/QC_PREP/20260506/23/a3fa338e-ad37-37ad-a95c-79bdb6339741/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -2346,7 +2345,7 @@
       "https://cdn.dsmcdn.com/ty1907/prod/QC_PREP/20260506/22/0d374d18-a77e-32e9-bc7f-40131255e9fe/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1907/prod/QC_PREP/20260506/22/36166bd9-6985-3be1-9c73-a669bad574b7/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -2363,7 +2362,7 @@
       "https://cdn.dsmcdn.com/ty1934/prod/QC_PREP/20260506/22/692eacd7-2951-3c09-919d-94aad00ec2e4/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1934/prod/QC_PREP/20260506/22/b521b1ed-3f8f-33cc-a00f-9a09e674c23d/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -2380,7 +2379,7 @@
       "https://cdn.dsmcdn.com/ty1900/prod/QC_PREP/20260506/22/00304e98-07b7-3283-8570-5fdb6aefe0ec/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1936/prod/QC_PREP/20260506/22/2e80682c-5744-3497-962c-1744e5db5b96/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -2397,7 +2396,7 @@
       "https://cdn.dsmcdn.com/ty1906/prod/QC_PREP/20260506/22/2124dcd2-2e33-37fa-90ed-e123ea661c30/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1895/prod/QC_PREP/20260506/22/390123b8-1903-33d5-af29-0fa9ba3ae0b5/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -2413,7 +2412,7 @@
     "images": [
       "https://cdn.dsmcdn.com/ty1916/prod/QC_PREP/20260506/22/a939735d-708f-35ff-b251-4c9528f3116b/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -2429,7 +2428,7 @@
     "images": [
       "https://cdn.dsmcdn.com/ty1926/prod/QC_PREP/20260506/21/8287f4ae-e684-349c-8c98-e597515f8705/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -2445,7 +2444,7 @@
     "images": [
       "https://cdn.dsmcdn.com/ty1921/prod/QC_PREP/20260506/21/066d2e8d-927c-3232-8505-ce9f69a6f276/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -2462,7 +2461,7 @@
       "https://cdn.dsmcdn.com/ty1898/prod/QC_PREP/20260506/21/c567b11d-a905-355f-a5f8-032f791f52b7/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1905/prod/QC_PREP/20260506/21/9323967d-5ffa-3302-a2e7-d4218e8d1527/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -2478,7 +2477,7 @@
     "images": [
       "https://cdn.dsmcdn.com/ty1916/prod/QC_PREP/20260506/21/34e50160-3655-3df6-8e0c-3cb9dee8fd78/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -2495,7 +2494,7 @@
       "https://cdn.dsmcdn.com/ty1910/prod/QC_PREP/20260506/21/9524c8dd-eade-31c2-8bae-69fb26256410/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1912/prod/QC_PREP/20260506/21/8797acd2-447f-3814-84bd-5b7dbda5d749/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -2511,7 +2510,7 @@
     "images": [
       "https://cdn.dsmcdn.com/ty1928/prod/QC_PREP/20260506/21/afc2f678-5896-3ab7-bea5-f2f889387832/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -2527,7 +2526,7 @@
     "images": [
       "https://cdn.dsmcdn.com/ty1936/prod/QC_PREP/20260506/21/ef33d566-fdd8-3db7-a1af-7c14452672e5/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -2544,7 +2543,7 @@
       "https://cdn.dsmcdn.com/ty1915/prod/QC_PREP/20260506/21/9d566311-ec44-3ad9-9a23-48e36f8ccbb7/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1930/prod/QC_PREP/20260506/21/4495044e-c2f3-30df-b49f-25f6a7563860/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -2561,7 +2560,7 @@
       "https://cdn.dsmcdn.com/ty1926/prod/QC_PREP/20260506/21/180af315-dfee-311a-a6bc-4c2f259ee01a/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1942/prod/QC_PREP/20260506/21/9111a1bc-d72f-35a9-a1c6-16c4cb723951/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -2578,7 +2577,7 @@
       "https://cdn.dsmcdn.com/ty1932/prod/QC_PREP/20260506/21/6b389189-abfb-31b9-975c-118bf02ee802/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1906/prod/QC_PREP/20260506/21/a48ea89c-7418-3328-ab60-678c10fbab7e/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -2597,7 +2596,7 @@
       "https://cdn.dsmcdn.com/ty1921/prod/QC_PREP/20260506/20/b11bfae5-88be-38be-b787-c6ad20336f31/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1908/prod/QC_PREP/20260506/20/ef44c4bb-9742-3ce0-b8f9-b3a08208ff18/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -2614,7 +2613,7 @@
       "https://cdn.zyrosite.com/cdn-ecommerce/store_01J4WP7QAGYPM9RXKF4Q9XS7XX%2Fassets%2F1744564097577-store_01J4WP7QAGYPM9RXKF4Q9XS7XX%252Fassets%252F1744563610691-a5806a98-48f8-407b-a4cb-40fde949c488.png",
       "https://cdn.dsmcdn.com/ty1911/prod/QC_PREP/20260506/20/d200a7ef-fa19-3201-8331-c641dccb6d2f/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -2631,7 +2630,7 @@
       "https://cdn.dsmcdn.com/ty1907/prod/QC_PREP/20260506/20/bb0fbf16-fae7-3670-a239-b8276657efdd/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1917/prod/QC_PREP/20260506/20/54894b34-23ee-3ad2-9240-1f030be8fbcb/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -2648,7 +2647,7 @@
       "https://cdn.dsmcdn.com/ty1916/prod/QC_PREP/20260505/17/d2df1aa9-2135-3a21-abd8-119e9a50e42a/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1907/prod/QC_PREP/20260505/17/e555e5ed-1c40-3280-8f32-a5fa0d45e403/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -2664,7 +2663,7 @@
     "images": [
       "https://cdn.dsmcdn.com/ty1934/prod/QC_PREP/20260505/16/0e3772ed-6a03-36d5-9946-e6ade9787d4a/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -2674,13 +2673,13 @@
     "slug": "zt956-tehlikeli-viraj-kare-uyari-levhasi",
     "name": "ZT956 – Tehlikeli Viraj / Kare Uyarı Levhası",
     "category": "Trafik Uyarı Levhaları",
-    "price": 1530.0,
+    "price": 1530,
     "description": "ZT956 – Tehlikeli Viraj / Kare Uyarı Levhası Ürün Özellikleri • Materyal: PPC • Yükseklik: 300 cm • Genişlik: 30 cm • Ağırlık: 520 gr ± 50 gr • Renk: Beyaz • Reflektif: Yok Kullanım Alanları • Keskin virajlarda sürücüleri uyarmak için • Şantiye yolları ve geçici trafik yönlendirmelerinde • Tehlikeli kavşaklar, köy yolları ve dar geçiş alanlarında • Belediyeler ve altyapı çalışmaları kapsamında geçici yönlendirme için Avantajlar • Kırmızı yön oku ile dikkat çekici tasarım • PPC malzeme sayesinde hafif ve dayanıklı yapı • Taşınabilir ve kolay kurulum sağlar • Dış ortam şartlarına dayanıklıdır 🛒 Hemen sipariş verin, güvenlik ve reklam çözümlerinizi bir arada sunun!",
     "stock": 750,
     "images": [
       "https://cdn.dsmcdn.com/ty1937/prod/QC_PREP/20260505/16/a5066f5a-05c4-3204-b8af-412341cc29d7/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -2699,7 +2698,7 @@
       "https://cdn.dsmcdn.com/ty1900/prod/QC_PREP/20260505/16/09f8fa60-ce1c-3e04-9486-9bff6bdd6abc/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1919/prod/QC_PREP/20260505/16/90a3ce04-7fdf-36f3-99bf-511e1f6b8a6c/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -2716,7 +2715,7 @@
       "https://cdn.dsmcdn.com/ty1935/prod/QC_PREP/20260505/16/4af2b9b3-1717-34d8-85aa-929ef7de3088/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1932/prod/QC_PREP/20260505/16/4015e087-0cea-342e-a235-b19c1403c148/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -2734,7 +2733,7 @@
       "https://cdn.dsmcdn.com/ty1892/prod/QC_PREP/20260505/15/222ac281-65ae-38de-ae8a-53dffe68bda5/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1900/prod/QC_PREP/20260505/15/39710354-d6c6-3724-9254-f7933239761a/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -2751,7 +2750,7 @@
       "https://cdn.dsmcdn.com/ty1896/prod/QC_PREP/20260505/15/b5f1812f-2263-3f81-9863-363361ed12d2/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1942/prod/QC_PREP/20260505/15/66fa0e9a-0f7a-3f9a-9410-d5422614e8f0/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -2769,7 +2768,7 @@
       "https://cdn.dsmcdn.com/ty1935/prod/QC_PREP/20260505/14/17cd2347-65a4-35a8-bd06-46aab3789526/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1894/prod/QC_PREP/20260505/14/3666de5c-00fa-3736-87b2-b38c6ae840c2/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -2786,7 +2785,7 @@
       "https://cdn.dsmcdn.com/ty1931/prod/QC_PREP/20260505/14/57bfee34-8725-3350-990d-333af62d8a10/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1912/prod/QC_PREP/20260505/14/c3d28705-9b0f-310f-b175-06e3f856a7e5/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -2803,7 +2802,7 @@
       "https://cdn.dsmcdn.com/ty1935/prod/QC_PREP/20260505/14/ca3291e3-259f-34bb-8d54-79beef2bfbbe/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1903/prod/QC_PREP/20260505/14/f5cc8550-dbce-3091-8fb9-fd48505b8aee/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -2820,7 +2819,7 @@
       "https://cdn.dsmcdn.com/ty1904/prod/QC_PREP/20260505/14/58d176e5-811f-3a6b-9c47-02c513d6c5fa/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1908/prod/QC_PREP/20260505/14/e6d3ecb2-c7d5-3acb-a5f2-18390d66eaba/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -2837,7 +2836,7 @@
       "https://cdn.dsmcdn.com/ty1920/prod/QC_PREP/20260505/14/466a97c7-c833-3dd4-bcf4-994760a1be48/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1901/prod/QC_PREP/20260505/14/6e9be030-fc4e-331c-965e-a44dd06eb2f4/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -2854,7 +2853,7 @@
       "https://cdn.dsmcdn.com/ty1942/prod/QC_PREP/20260505/14/98be4eb5-b8bc-3253-9ee2-e90f1f5b5bc8/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1931/prod/QC_PREP/20260505/14/6f9dc906-91a2-3b4b-a1a2-741b604716ee/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -2864,14 +2863,14 @@
     "slug": "kolon-kose-koruyucu-90-cm",
     "name": "Kolon Köşe Koruyucu 90 cm",
     "category": "Dikme & Panel Sistemleri",
-    "price": 1773.0,
+    "price": 1773,
     "description": "",
     "stock": 750,
     "images": [
       "https://cdn.dsmcdn.com/ty1904/prod/QC_PREP/20260505/14/2ae934be-79a2-30c2-ae0d-6a596fdc0d1c/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1921/prod/QC_PREP/20260505/14/163f200f-46cb-3c8d-a13f-dc36fc911f44/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -2881,14 +2880,14 @@
     "slug": "dikdortgen-dikme-agirligi-60-40-cm-siyah",
     "name": "Dikdörtgen Dikme Ağırlığı | 60×40 cm – Siyah",
     "category": "Dikme & Panel Sistemleri",
-    "price": 2313.0,
+    "price": 2313,
     "description": "",
     "stock": 750,
     "images": [
       "https://cdn.dsmcdn.com/ty1896/prod/QC_PREP/20260505/13/b0da6efd-3a1c-3ca9-bdab-5aa59607f38b/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1937/prod/QC_PREP/20260505/13/9b51b282-8f13-3b04-8148-ef87bb727722/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -2905,7 +2904,7 @@
       "https://cdn.dsmcdn.com/ty1932/prod/QC_PREP/20260505/13/63424e32-ab03-30de-98ee-a35dbe265746/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1929/prod/QC_PREP/20260505/13/48da17b7-d22d-3547-b324-6dbc48382163/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -2921,7 +2920,7 @@
     "images": [
       "https://cdn.dsmcdn.com/ty1931/prod/QC_PREP/20260505/13/41396537-7626-3cee-ba35-cf6ae0a798f6/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -2937,7 +2936,7 @@
     "images": [
       "https://cdn.dsmcdn.com/ty1940/prod/QC_PREP/20260505/11/deea0b2f-98a4-3cb5-b83e-6e94480f8420/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -2954,7 +2953,7 @@
       "https://cdn.dsmcdn.com/ty1904/prod/QC_PREP/20260505/11/55b76b3c-adb9-3f0f-a69e-7f782395be80/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1942/prod/QC_PREP/20260505/11/e4cd5312-52b1-3062-98e2-3b564b2fbb90/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -2971,7 +2970,7 @@
       "https://cdn.dsmcdn.com/ty1903/prod/QC_PREP/20260505/11/75f6feb4-dc94-33ed-b56f-a9691efdbefe/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1930/prod/QC_PREP/20260505/11/e4f7a9f4-ad08-3f6b-9fdb-e96d0e1419fe/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -2987,7 +2986,7 @@
     "images": [
       "https://cdn.dsmcdn.com/ty1895/prod/QC_PREP/20260505/11/ee4d8022-1c5a-38c2-bece-f0f2fd5d0267/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "Sarı",
     "size": "",
     "dims": ""
@@ -3003,7 +3002,7 @@
     "images": [
       "https://cdn.dsmcdn.com/ty1900/prod/QC_PREP/20260504/21/4c633db9-7e26-3bc3-9261-3047e12be01d/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "Sarı",
     "size": "",
     "dims": ""
@@ -3013,13 +3012,13 @@
     "slug": "zt15190y-190-cm-arac-stoperi-sari-siyah",
     "name": "ZT15190Y – 190 cm Araç Stoperi | Sarı-Siyah",
     "category": "Araç Stoperi",
-    "price": 4113.0,
+    "price": 4113,
     "description": "ZT15190Y – 190 cm Araç Stoperi | Sarı-Siyah ZT15190Y – 190 CM Araç Stoperi | Sarı-Siyah Ürün Özellikleri • Materyal: PPC • Yükseklik: 10 cm • Taban Ölçüsü: 15 × 190 cm • Ağırlık: 3600 gr ± 200 gr • Renk: Sarı Gövde / Siyah uyarı • Reflektif: Prizmatik Beyaz • Montaj: 5 Trifon Vida – 5 Dubel Kullanım Alanları • Açık ve kapalı otoparklarda araçların hizalanması için • AVM, hastane, okul ve kamu binalarının otoparklarında • Site içi park alanlarında • Ticari taşıtların park sahalarında Avantajlar • 190 cm’lik uzunluğu sayesinde büyük ve ticari araçlara tam uyum • 4 adet siyah uyarı şeridi ile maksimum görünürlük • Dayanıklı PPC malzeme ile uzun ömürlü kullanım • Kolay montaj, pratik taşıma ve sağlam sabitleme 🛒 Hemen sipariş verin, güvenlik ve reklam çözümlerinizi bir arada sunun!",
     "stock": 750,
     "images": [
       "https://cdn.dsmcdn.com/ty1914/prod/QC_PREP/20260504/21/1acf5405-d613-3766-9ead-7863cb43c58e/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -3035,7 +3034,7 @@
     "images": [
       "https://cdn.dsmcdn.com/ty1922/prod/QC_PREP/20260504/21/ec156c99-e487-32e5-b303-a930c5dadad2/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "Sarı",
     "size": "",
     "dims": ""
@@ -3052,7 +3051,7 @@
       "https://cdn.dsmcdn.com/ty1896/prod/QC_PREP/20260504/21/ade422ba-e156-32ce-91fc-e6cf549041a3/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1922/prod/QC_PREP/20260504/21/8394780f-8c30-31b3-9519-5b21d07eb1f1/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -3069,7 +3068,7 @@
       "https://cdn.dsmcdn.com/ty1937/prod/QC_PREP/20260504/21/a6d2d825-fb79-3090-9ba9-fa0db4db42e5/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1941/prod/QC_PREP/20260504/21/79d0c858-bc8a-36cd-9bdc-88913847a974/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -3085,7 +3084,7 @@
     "images": [
       "https://cdn.dsmcdn.com/ty1936/prod/QC_PREP/20260504/21/8bae8771-c302-3777-b2ca-218bf87cb9fc/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "Kırmızı",
     "size": "",
     "dims": ""
@@ -3102,7 +3101,7 @@
       "https://cdn.dsmcdn.com/ty1908/prod/QC_PREP/20260504/21/2e002a71-6490-3764-a516-99084064dc8e/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1904/prod/QC_PREP/20260504/21/0aaf68c6-9dad-3cd3-a406-7284f19967ed/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -3119,7 +3118,7 @@
       "https://cdn.dsmcdn.com/ty1924/prod/QC_PREP/20260504/21/579be20d-c5ab-3294-bb44-d838aff56400/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1923/prod/QC_PREP/20260504/21/88d71c78-3a4e-3645-adef-95e15bd7c0ca/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -3136,7 +3135,7 @@
       "https://cdn.dsmcdn.com/ty1941/prod/QC_PREP/20260504/20/6543daf0-523a-33e5-8e15-3ecc95ebd9d5/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1908/prod/QC_PREP/20260504/20/f72944db-e909-320a-b800-2b8cbfdb319d/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -3152,7 +3151,7 @@
     "images": [
       "https://cdn.dsmcdn.com/ty1927/prod/QC_PREP/20260504/20/39526a10-d022-387f-bc89-74a805c1766d/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -3169,7 +3168,7 @@
       "https://cdn.dsmcdn.com/ty1903/prod/QC_PREP/20260504/12/a964b972-7277-334f-8ce2-c993c20d45af/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1922/prod/QC_PREP/20260504/12/fe37d79c-102b-3e5c-afe1-070bd2db748b/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -3187,7 +3186,7 @@
       "https://cdn.dsmcdn.com/ty1891/prod/QC_PREP/20260504/12/47add1e6-5285-3342-99d5-226b30e46936/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1935/prod/QC_PREP/20260504/12/90a9ea3b-cd01-3eca-b287-64b7c8f5ff1b/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -3204,7 +3203,7 @@
       "https://cdn.dsmcdn.com/ty1921/prod/QC_PREP/20260504/12/504c1594-94f9-3739-bd0c-1bbaeaa12385/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1914/prod/QC_PREP/20260504/12/cde61942-7891-3799-aa0e-d61148ee98ab/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -3221,7 +3220,7 @@
       "https://cdn.dsmcdn.com/ty1908/prod/QC_PREP/20260504/11/2092e6fc-e673-39f3-aecf-0d248b45fb29/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1937/prod/QC_PREP/20260504/11/06213e80-3ae2-3f43-8dcd-bb3af9d4f2cb/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -3237,7 +3236,7 @@
     "images": [
       "https://cdn.dsmcdn.com/ty1942/prod/QC_PREP/20260504/11/60542016-89cd-3d0c-b50e-1929707d4908/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -3253,7 +3252,7 @@
     "images": [
       "https://cdn.dsmcdn.com/ty1904/prod/QC_PREP/20260504/10/cc71ad32-504e-3afc-8585-ce229f4a501c/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -3269,7 +3268,7 @@
     "images": [
       "https://cdn.dsmcdn.com/ty1931/prod/QC_PREP/20260504/10/9af8a975-8ec5-3f44-ac65-08fe1409dc7c/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -3285,7 +3284,7 @@
     "images": [
       "https://cdn.dsmcdn.com/ty1926/prod/QC_PREP/20260504/10/c38e71a2-3057-3c94-a673-594a25411c06/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -3302,7 +3301,7 @@
       "https://cdn.dsmcdn.com/ty1906/prod/QC_PREP/20260503/21/a470a823-d025-353c-9df9-846fda8d6746/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1900/prod/QC_PREP/20260503/21/63561f73-c8cc-3831-81ac-2b1b5f2e8a27/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -3319,7 +3318,7 @@
       "https://cdn.dsmcdn.com/ty1902/prod/QC_PREP/20260503/21/a7fe593c-2d2c-3e52-87ae-60c6cc47f701/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1913/prod/QC_PREP/20260503/21/4c8059f4-98d8-346c-8b75-c76b7e49417e/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -3335,7 +3334,7 @@
     "images": [
       "https://cdn.dsmcdn.com/ty1927/prod/QC_PREP/20260503/21/c6030257-cc6b-3103-a603-81892462d1a3/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -3351,7 +3350,7 @@
     "images": [
       "https://cdn.dsmcdn.com/ty1934/prod/QC_PREP/20260503/21/16fcdb8e-db69-3949-a4a9-3838cd1fc356/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -3368,7 +3367,7 @@
       "https://cdn.dsmcdn.com/ty1936/prod/QC_PREP/20260503/20/84c64632-450a-3fda-bf44-4f1fdaebae61/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1934/prod/QC_PREP/20260503/20/72b1d11b-af70-32aa-88d3-47e6d44a2b2a/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -3385,7 +3384,7 @@
       "https://cdn.dsmcdn.com/ty1912/prod/QC_PREP/20260503/20/d1c09233-4186-3ce0-9dd9-0b30a79e3207/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1933/prod/QC_PREP/20260503/20/a7d03da0-a146-38a0-a7fa-42b5e866d719/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -3402,7 +3401,7 @@
       "https://cdn.dsmcdn.com/ty1891/prod/QC_PREP/20260503/20/e2c3de7f-8c61-37b0-b36a-3d715aaaf161/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1912/prod/QC_PREP/20260503/20/709c458e-02f5-3360-a1d6-5bc5758b4070/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -3412,14 +3411,14 @@
     "slug": "sag-yon-yuvarlak-uyari-levhasi",
     "name": "Sağ Yön Yuvarlak Uyarı Levhası",
     "category": "Trafik Uyarı Levhaları",
-    "price": 729.0,
+    "price": 729,
     "description": "",
     "stock": 750,
     "images": [
       "https://cdn.dsmcdn.com/ty1892/prod/QC_PREP/20260503/20/1bb5435d-16ab-300d-8101-c50ce9813004/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1919/prod/QC_PREP/20260503/20/a2f57523-5d14-3df7-bb12-5f256cbed314/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -3433,10 +3432,9 @@
     "description": "",
     "stock": 750,
     "images": [
-      "https://cdn.dsmcdn.com/ty1910/prod/QC_PREP/20260503/20/80f20235-5503-3de1-8d8f-defab1e53b2b/1_org_zoom.jpg",
-      "https://cdn.dsmcdn.com/ty1926/prod/QC_PREP/20260503/20/41dbdb48-f663-378e-a087-ff5de41246bd/1_org_zoom.jpg"
+      "/images/zt359-engelli-dikdortgen.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -3452,7 +3450,7 @@
     "images": [
       "https://cdn.dsmcdn.com/ty1930/prod/QC_PREP/20260503/18/312d6ac9-8f3d-3286-81dc-0d3030c53524/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -3469,7 +3467,7 @@
       "https://cdn.dsmcdn.com/ty1919/prod/QC_PREP/20260503/18/4a745dcd-2543-36ba-ab12-8b10d72b27d3/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1901/prod/QC_PREP/20260503/18/b1bdb0e3-47dd-3072-917d-28bf4d9c2357/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -3485,7 +3483,7 @@
     "images": [
       "https://cdn.dsmcdn.com/ty1931/prod/QC_PREP/20260503/17/0709ac0f-0303-343c-8353-4adf30f1f05c/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -3501,7 +3499,7 @@
     "images": [
       "https://cdn.dsmcdn.com/ty1927/prod/QC_PREP/20260503/17/cad3d179-60e3-3042-99eb-4581e3d80394/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -3515,9 +3513,9 @@
     "description": "",
     "stock": 750,
     "images": [
-      "https://cdn.dsmcdn.com/ty1942/prod/QC_PREP/20260503/17/7d10f91c-e673-32c9-a8b0-a531eb7638bc/1_org_zoom.jpg"
+      "/images/zt346-dikkat-calisma-var.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -3533,7 +3531,7 @@
     "images": [
       "https://cdn.dsmcdn.com/ty1922/prod/QC_PREP/20260503/16/85632d70-ea37-38bc-8787-8f008c50bcef/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -3550,7 +3548,7 @@
       "https://cdn.dsmcdn.com/ty1932/prod/QC_PREP/20260503/15/bfdb727c-0446-3f2a-80e6-b092c7fc0c71/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1917/prod/QC_PREP/20260503/15/43a86eb3-a113-3672-bc7a-144daa126173/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -3567,7 +3565,7 @@
       "https://cdn.dsmcdn.com/ty1940/prod/QC_PREP/20260503/15/58b9e989-9712-3bbd-a4f7-91065db99f22/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1910/prod/QC_PREP/20260503/15/b0b594eb-c872-385c-90f6-69e4293da1fb/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -3583,7 +3581,7 @@
     "images": [
       "https://cdn.dsmcdn.com/ty1905/prod/QC_PREP/20260503/15/038bbd58-2d3d-3341-ada0-037cb532d08d/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -3600,7 +3598,7 @@
       "https://cdn.zyrosite.com/cdn-ecommerce/store_01J4WP7QAGYPM9RXKF4Q9XS7XX%2Fassets%2F1744564097564-store_01J4WP7QAGYPM9RXKF4Q9XS7XX%252Fassets%252F1744564084074-ekran%2520resmi%25202025-04-13%252020.07.10.png",
       "https://cdn.dsmcdn.com/ty1903/prod/QC_PREP/20260503/14/8326ccda-e723-3ff4-b377-77f497abe4e3/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -3616,7 +3614,7 @@
     "images": [
       "https://cdn.dsmcdn.com/ty1927/prod/QC_PREP/20260503/14/2a96171c-44e2-33f2-91f1-6cd1a8cd8391/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -3633,7 +3631,7 @@
       "https://cdn.dsmcdn.com/ty1902/prod/QC_PREP/20260503/14/881f1f2d-875e-3be7-9586-b36a8e7fc4e9/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1935/prod/QC_PREP/20260503/14/82aa2154-fdfe-38bc-999b-c7e8a73daf85/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -3650,7 +3648,7 @@
       "https://cdn.dsmcdn.com/ty1921/prod/QC_PREP/20260503/14/13ac201f-528d-3b41-9456-b0351410f4a3/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1932/prod/QC_PREP/20260503/14/9f115095-ea5b-36d1-b742-d4dd299dfef0/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -3667,7 +3665,7 @@
       "https://cdn.dsmcdn.com/ty1924/prod/QC_PREP/20260503/13/80e6840b-b6a4-3b2b-878c-44714dd67b0c/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1896/prod/QC_PREP/20260503/13/188a0a08-2ef4-35b2-bac6-bb3e44321199/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -3684,7 +3682,7 @@
       "https://cdn.dsmcdn.com/ty1893/prod/QC_PREP/20260503/12/51b0d259-9d71-30fa-a2fe-70ff45bba2a5/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1933/prod/QC_PREP/20260503/12/ce9bef38-af15-31a6-8473-eade74459fa5/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -3701,7 +3699,7 @@
       "https://cdn.dsmcdn.com/ty1900/prod/QC_PREP/20260503/12/cca35d3f-23c4-3109-a7e3-b3e0d133dde0/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1892/prod/QC_PREP/20260503/12/5777f8ad-86ca-3a95-a238-bc99e0e28ec2/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -3717,7 +3715,7 @@
     "images": [
       "https://cdn.dsmcdn.com/ty1932/prod/QC_PREP/20260503/12/9f18faf7-e0bc-35c7-92b5-92cc005a0d27/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -3727,14 +3725,14 @@
     "slug": "altigen-delinator-tek-reflektifli-60-cm-ecolight",
     "name": "Altıgen Delinatör – Tek Reflektifli | 60 cm Ecolıght",
     "category": "Delinatör",
-    "price": 1479.0,
+    "price": 1479,
     "description": "Altıgen Delinatör – Tek Reflektifli | 60 cm Ecolıght 60 CM ECOLIGHT Altıgen Delinatör – Tek Reflektifli | 14060ECOB Ürün Özellikleri Malzeme: Dayanıklı PE (Polietilen) Yükseklik: 60 cm ± %5 Taban Ölçüsü: Ø 24 cm Ağırlık: 1000 gr ± 50 gr Renk: Siyah Reflektif: 1 adet beyaz prizmatik reflektif bant Montaj: 3 adet Trifon vida + 3 adet dübel Kullanım Alanları Site içi ve otopark düzenlemeleri Şehir içi trafik yönlendirme noktaları Yaya geçidi, okul önü, hastane çevresi Acil müdahale güzergâhlarının ayrımı Etkinlik ve geçici güvenlik alanları Neden 14060ECOB Altıgen Delinatörü Tercih Etmelisiniz? Ekonomik PE Gövde: Uygun maliyetli ve çevre dostu yapı Altıgen Tasarım: Estetik görünümle birlikte denge sağlar Gece Görünürlüğü: Prizmatik bant ile düşük ışıkta dahi fark edilir Kolay Montaj: 3 vida ve dübel ile hızlı sabitleme Yerli Üretim: Güvenli ve dayanıklı kullanım için kaliteli üretim 🛒 Projelerinizi güvenle yönetin, hemen sipariş verin!",
     "stock": 750,
     "images": [
       "https://cdn.dsmcdn.com/ty1943/prod/QC_PREP/20260503/12/33b2ad1a-a77e-3f49-90fd-f4e8ccd4c164/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1921/prod/QC_PREP/20260503/12/476e19ca-d4ee-357e-8bd0-07d61e85291e/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -3751,7 +3749,7 @@
       "https://cdn.dsmcdn.com/ty1891/prod/QC_PREP/20260501/23/3aa0dec8-5804-3989-9790-bc16a09c9885/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1896/prod/QC_PREP/20260501/23/19d3e1d5-2f5e-3e92-b290-db323b3433a4/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -3768,7 +3766,7 @@
       "https://cdn.dsmcdn.com/ty1903/prod/QC_PREP/20260501/22/16fc22e2-4fb2-348b-8dd3-82bc87fcb035/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1892/prod/QC_PREP/20260501/22/d4412355-cebd-3de5-807b-60ce300fd84b/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -3784,7 +3782,7 @@
     "images": [
       "https://cdn.dsmcdn.com/ty1926/prod/QC_PREP/20260501/22/c7475ada-6ff3-35c0-91c7-6dcb59cf3703/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -3800,7 +3798,7 @@
     "images": [
       "https://cdn.dsmcdn.com/ty1911/prod/QC_PREP/20260501/22/8d922766-9f93-3c4e-b2e3-89464658bb6d/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -3816,7 +3814,7 @@
     "images": [
       "https://cdn.dsmcdn.com/ty1917/prod/QC_PREP/20260501/22/49de1512-e28a-3546-b4e6-b6f477be3af8/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -3832,7 +3830,7 @@
     "images": [
       "https://cdn.dsmcdn.com/ty1896/prod/QC_PREP/20260501/22/5ad9469f-3604-30dc-bd37-b79e80dc23ee/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -3848,7 +3846,7 @@
     "images": [
       "https://cdn.dsmcdn.com/ty1904/prod/QC_PREP/20260501/18/56b56c32-2b00-3f9e-bc07-7c91c3c255c5/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "Kırmızı",
     "size": "",
     "dims": ""
@@ -3864,7 +3862,7 @@
     "images": [
       "https://cdn.dsmcdn.com/ty1922/prod/QC_PREP/20260501/18/ac66dd4c-daea-31c1-98d6-21bc1d02dc9c/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -3880,7 +3878,7 @@
     "images": [
       "https://cdn.dsmcdn.com/ty1941/prod/QC_PREP/20260501/18/fb4fb5ec-2b4a-3349-b0e7-658fe181ea17/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -3897,7 +3895,7 @@
       "https://cdn.dsmcdn.com/ty1584/prod/QC/20241016/21/dafdab3a-ff4d-3469-9ccd-4c99ab3f0e66/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1901/prod/QC_ENRICHMENT/20260501/18/f83fe32e-1f82-30a4-8739-77d67198c47f/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -3916,7 +3914,7 @@
       "https://cdn.dsmcdn.com/ty991/product/media/images/prod/SPM/PIM/20230826/09/7b048171-079b-30e7-9f8b-034d21c2463a/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty990/product/media/images/prod/SPM/PIM/20230826/09/c2b0f765-47df-38e2-bf79-69494afd3be3/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -3935,7 +3933,7 @@
       "https://cdn.dsmcdn.com/ty992/product/media/images/prod/SPM/PIM/20230826/09/7b048171-079b-30e7-9f8b-034d21c2463a/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty991/product/media/images/prod/SPM/PIM/20230826/09/c2b0f765-47df-38e2-bf79-69494afd3be3/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -3954,7 +3952,7 @@
       "https://cdn.dsmcdn.com/ty58/product/media/images/20210119/17/55246382/131998803/3/3_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty57/product/media/images/20210119/17/55246382/131998803/4/4_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -3971,7 +3969,7 @@
       "https://cdn.dsmcdn.com/ty57/product/media/images/20210119/14/55174279/131916014/1/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty57/product/media/images/20210119/14/55174279/131916014/2/2_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -3994,7 +3992,7 @@
       "https://cdn.dsmcdn.com/ty57/product/media/images/20210119/14/55173640/131915662/7/7_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty57/product/media/images/20210119/14/55173640/131915662/8/8_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -4014,7 +4012,7 @@
       "https://cdn.dsmcdn.com/ty56/product/media/images/20210119/14/55173282/131915048/4/4_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty57/product/media/images/20210119/14/55173282/131915048/5/5_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -4033,7 +4031,7 @@
       "https://cdn.dsmcdn.com/ty56/product/media/images/20210119/14/55173343/131915042/3/3_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty56/product/media/images/20210119/14/55173343/131915042/4/4_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -4043,13 +4041,13 @@
     "slug": "plastik-zincir-8-mm-x-25-m",
     "name": "Plastik Zincir 8 mm X 25 m",
     "category": "Yol İşaretleme & Kasis",
-    "price": 0.0,
+    "price": 0,
     "description": "Malzeme PP 25m.",
     "stock": 750,
     "images": [
       "https://cdn.dsmcdn.com/ty12/product/media/images/20200902/16/9413884/84070032/1/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -4066,7 +4064,7 @@
       "https://cdn.dsmcdn.com/ty1942/prod/QC_PREP/20260505/14/98be4eb5-b8bc-3253-9ee2-e90f1f5b5bc8/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1931/prod/QC_PREP/20260505/14/6f9dc906-91a2-3b4b-a1a2-741b604716ee/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -4083,7 +4081,7 @@
       "https://cdn.dsmcdn.com/ty1904/prod/QC_PREP/20260505/14/58d176e5-811f-3a6b-9c47-02c513d6c5fa/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1908/prod/QC_PREP/20260505/14/e6d3ecb2-c7d5-3acb-a5f2-18390d66eaba/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -4099,7 +4097,7 @@
     "images": [
       "https://cdn.dsmcdn.com/ty1936/prod/QC_PREP/20260506/21/ef33d566-fdd8-3db7-a1af-7c14452672e5/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -4116,7 +4114,7 @@
       "https://cdn.dsmcdn.com/ty1903/prod/QC_PREP/20260505/11/75f6feb4-dc94-33ed-b56f-a9691efdbefe/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1930/prod/QC_PREP/20260505/11/e4f7a9f4-ad08-3f6b-9fdb-e96d0e1419fe/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -4133,7 +4131,7 @@
       "https://cdn.dsmcdn.com/ty1935/prod/QC_PREP/20260505/16/4af2b9b3-1717-34d8-85aa-929ef7de3088/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1932/prod/QC_PREP/20260505/16/4015e087-0cea-342e-a235-b19c1403c148/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -4150,7 +4148,7 @@
       "https://cdn.dsmcdn.com/ty1932/prod/QC_PREP/20260511/21/cb95ac19-a26a-367a-a1ba-9ed588d0a565/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1942/prod/QC_PREP/20260511/21/2f6c1226-81bc-343c-b5d2-e8ab31f04146/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -4167,7 +4165,7 @@
       "https://cdn.dsmcdn.com/ty1910/prod/QC_PREP/20260506/21/9524c8dd-eade-31c2-8bae-69fb26256410/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1912/prod/QC_PREP/20260506/21/8797acd2-447f-3814-84bd-5b7dbda5d749/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -4184,7 +4182,7 @@
       "https://cdn.dsmcdn.com/ty1936/prod/QC_PREP/20260507/16/3c62104a-d20b-311d-8ae7-453caa27ed27/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1922/prod/QC_PREP/20260507/16/83aafcd4-b0eb-3942-af3c-742a08f0e3c8/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
@@ -4201,7 +4199,7 @@
       "https://cdn.dsmcdn.com/ty1897/prod/QC_PREP/20260506/23/4f008649-041b-3ff1-95e9-e0f618188bc3/1_org_zoom.jpg",
       "https://cdn.dsmcdn.com/ty1904/prod/QC_PREP/20260506/23/5e292eab-1431-3b9e-9a5a-fe1995d73ee8/1_org_zoom.jpg"
     ],
-    "desi": 0.0,
+    "desi": 0,
     "color": "",
     "size": "",
     "dims": ""
