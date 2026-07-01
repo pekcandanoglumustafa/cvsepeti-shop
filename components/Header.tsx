@@ -1,8 +1,10 @@
 "use client";
 
+import SearchBar from "@/components/SearchBar";
+
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import { ShoppingCart, Menu, X, Search, ChevronDown, Phone } from "lucide-react";
+import { ShoppingCart, Menu, X, ChevronDown } from "lucide-react";
 import { categories, categorySlug } from "@/lib/products";
 import { useCart } from "@/lib/cart";
 
@@ -33,9 +35,8 @@ export default function Header() {
         </Link>
 
         {/* Search bar - desktop */}
-        <div style={{ flex: 1, maxWidth: 480, display: "none", alignItems: "center", background: "var(--surface-2)", border: "1.5px solid var(--border)", borderRadius: 8, overflow: "hidden" }} className="search-bar">
-          <Search size={16} style={{ marginLeft: 12, color: "var(--text-tertiary)", flexShrink: 0 }} />
-          <input placeholder="Ürün ara..." style={{ flex: 1, padding: "9px 12px", background: "none", border: "none", outline: "none", fontSize: 14, color: "var(--text)" }} />
+        <div style={{ flex: 1, maxWidth: 480, display: "none" }} className="search-bar">
+          <SearchBar />
         </div>
 
         {/* Nav desktop */}
