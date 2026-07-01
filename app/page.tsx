@@ -1,4 +1,5 @@
 import Link from "next/link";
+import CategoryMarquee from "@/components/CategoryMarquee";
 import { allProducts, categories, categorySlug } from "@/lib/products";
 import ProductCard from "@/components/ProductCard";
 
