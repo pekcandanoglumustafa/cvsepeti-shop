@@ -6,6 +6,7 @@ export type Product = {
   name: string;
   category: string;
   price: number;
+  originalPrice?: number; // liste fiyatı (varsa indirim rozeti gösterilir)
   description: string;
   stock: number;
   images: string[];

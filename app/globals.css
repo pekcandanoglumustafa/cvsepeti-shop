@@ -1,26 +1,25 @@
 @import "tailwindcss";
 
 :root {
-  --bg: #f4f4f4;
+  --bg: #f2f2f2;
   --surface: #ffffff;
-  --surface-2: #f8f8f8;
-  --border: #e8e8e8;
-  --text: #1a1a1a;
-  --text-secondary: #555555;
-  --text-tertiary: #999999;
+  --surface-2: #f7f7f7;
+  --border: #e5e5e5;
+  --text: #1c1c1c;
+  --text-secondary: #545454;
+  --text-tertiary: #979797;
   --orange: #e8420a;
   --orange-hover: #c93708;
   --orange-light: #fff3ef;
+  --dark: #222222;
   --green: #1a8f3c;
-  --shadow-sm: 0 1px 4px rgba(0,0,0,0.07);
-  --shadow: 0 2px 12px rgba(0,0,0,0.09);
-  --shadow-lg: 0 6px 24px rgba(0,0,0,0.12);
-  --radius: 8px;
-  --radius-lg: 12px;
+  --red: #d9230f;
+  --shadow-sm: 0 1px 4px rgba(0,0,0,0.08);
+  --shadow: 0 2px 12px rgba(0,0,0,0.1);
+  --shadow-lg: 0 8px 28px rgba(0,0,0,0.14);
 }
 
 * { box-sizing: border-box; margin: 0; padding: 0; }
-
 html { -webkit-font-smoothing: antialiased; scroll-behavior: smooth; }
 
 body {
@@ -33,79 +32,71 @@ body {
 
 a { color: inherit; }
 
+.container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+
 .btn-primary {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: 6px;
-  background: var(--orange);
-  color: #fff;
-  padding: 11px 22px;
-  border-radius: var(--radius);
-  font-size: 14px;
-  font-weight: 600;
-  text-decoration: none;
-  border: none;
-  cursor: pointer;
-  transition: background 0.15s;
-  white-space: nowrap;
+  display: inline-flex; align-items: center; justify-content: center; gap: 6px;
+  background: var(--orange); color: #fff;
+  padding: 11px 24px; border-radius: 6px;
+  font-size: 14px; font-weight: 700; text-decoration: none;
+  border: none; cursor: pointer; transition: background 0.15s; white-space: nowrap;
 }
 .btn-primary:hover { background: var(--orange-hover); }
 .btn-primary:disabled { background: #ccc; cursor: not-allowed; }
 
 .btn-outline {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: 6px;
-  background: transparent;
-  color: var(--orange);
-  padding: 10px 22px;
-  border-radius: var(--radius);
-  font-size: 14px;
-  font-weight: 600;
-  text-decoration: none;
-  border: 1.5px solid var(--orange);
-  cursor: pointer;
-  transition: background 0.15s, color 0.15s;
-  white-space: nowrap;
+  display: inline-flex; align-items: center; justify-content: center; gap: 6px;
+  background: #fff; color: var(--orange);
+  padding: 10px 24px; border-radius: 6px;
+  font-size: 14px; font-weight: 700; text-decoration: none;
+  border: 2px solid var(--orange); cursor: pointer;
+  transition: background 0.15s; white-space: nowrap;
 }
 .btn-outline:hover { background: var(--orange-light); }
 
-.card {
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: var(--radius-lg);
-  box-shadow: var(--shadow-sm);
+/* Section headers (ustapazar style: centered bold with lines) */
+.section-title {
+  display: flex; align-items: center; gap: 16px;
+  margin-bottom: 20px;
+}
+.section-title::before, .section-title::after {
+  content: ""; flex: 1; height: 1px; background: var(--border);
+}
+.section-title span {
+  font-size: 18px; font-weight: 800; letter-spacing: 0.04em;
+  color: var(--text); text-transform: uppercase; white-space: nowrap;
 }
 
-.container {
-  max-width: 1160px;
-  margin: 0 auto;
-  padding: 0 20px;
+/* Kayan ücretsiz kargo şeridi */
+@keyframes shipmarquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+.ship-marquee-track {
+  display: flex; width: max-content;
+  animation: shipmarquee 22s linear infinite;
 }
 
-.badge {
-  display: inline-flex;
-  align-items: center;
-  gap: 4px;
-  font-size: 11px;
-  font-weight: 600;
-  padding: 3px 8px;
-  border-radius: 4px;
-}
-
-/* Category marquee animation */
+/* Kategori marquee (mevcut) */
 @keyframes catmarquee {
   from { transform: translateX(0); }
   to { transform: translateX(-50%); }
 }
 .cat-marquee-track {
-  display: flex;
-  gap: 10px;
-  width: max-content;
+  display: flex; gap: 10px; width: max-content;
   animation: catmarquee 30s linear infinite;
 }
-.cat-marquee-track:hover {
-  animation-play-state: paused;
+.cat-marquee-track:hover { animation-play-state: paused; }
+
+/* Hero slider */
+@keyframes heroslide {
+  0%, 30% { transform: translateX(0); }
+  36%, 63% { transform: translateX(-100%); }
+  69%, 96% { transform: translateX(-200%); }
+  100% { transform: translateX(0); }
 }
+.hero-track {
+  display: flex; width: 300%;
+  animation: heroslide 15s ease-in-out infinite;
+}
+.hero-track:hover { animation-play-state: paused; }
