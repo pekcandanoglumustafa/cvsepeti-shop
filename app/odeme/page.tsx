@@ -25,6 +25,20 @@ export default function CheckoutPage() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
   const [showForm, setShowForm] = useState(false);
+  const [cardReady, setCardReady] = useState<boolean | null>(null);
+
+  useEffect(() => {
+    fetch("/api/iyzico/checkout-form")
+      .then((r) => r.json())
+      .then((d) => setCardReady(!!d.configured))
+      .catch(() => setCardReady(false));
+  }, []);
+
+  const waText = encodeURIComponent(
+    "Merhaba, sipariş vermek istiyorum:\n" +
+      items.map((i) => `• ${i.qty}x ${i.name} — ${formatPrice(i.price * i.qty)}`).join("\n") +
+      `\nToplam: ${formatPrice(total())}`
+  );
 
   const [form, setForm] = useState({
     name: "",
@@ -199,14 +213,26 @@ export default function CheckoutPage() {
           )}
 
           <button
-            type="submit"
-            disabled={loading}
+            type="submit" disabled={loading || cardReady === false}
             className="flex items-center justify-center gap-2 bg-[var(--ink)] text-[var(--paper)] py-4 font-display tag-stencil text-sm hover:bg-[var(--safety-orange)] transition-colors disabled:opacity-50"
           >
             <Lock size={16} />
             {loading ? "Yönlendiriliyor..." : "iyzico ile Güvenli Ödemeye Geç"}
             {!loading && <ArrowRight size={18} />}
           </button>
+                    {cardReady === false && (
+            <a
+              href={`https://wa.me/905076584245?text=${waText}`}
+              style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: 8, background: "#25D366", color: "#fff", padding: "14px", borderRadius: 8, fontSize: 15, fontWeight: 800, textDecoration: "none", marginTop: 10 }}
+            >
+              💬 Siparişi WhatsApp&apos;tan Tamamla
+            </a>
+          )}
+          {cardReady === false && (
+            <p style={{ fontSize: 12.5, color: "var(--text-tertiary)", textAlign: "center", marginTop: 8 }}>
+              Kartla ödeme çok yakında aktif olacak. Şimdilik siparişinizi WhatsApp üzerinden anında tamamlayabilirsiniz — sepetiniz mesaja otomatik eklenir.
+            </p>
+          )}
           <p className="text-xs text-[var(--ink-soft)] text-center">
             Kart bilgileriniz CV Sepeti sunucularında saklanmaz, doğrudan iyzico
             güvenli ödeme altyapısına iletilir.

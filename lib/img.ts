@@ -5,6 +5,7 @@
 export function thumb(url: string, size = 600): string {
   if (!url) return url;
   if (url.startsWith("/")) return url; // yerel görseller zaten işlenmiş
+  if (!url.includes("cdn.dsmcdn.com")) return url; // diğer CDN'ler dokunulmadan
   const clean = url.replace(/^https?:\/\//, "");
   return `https://images.weserv.nl/?url=${encodeURIComponent(clean)}&trim=10&w=${size}&h=${size}&fit=contain&cbg=white&bg=white`;
 }

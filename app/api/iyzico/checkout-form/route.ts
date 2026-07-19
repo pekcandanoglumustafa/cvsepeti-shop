@@ -31,6 +31,11 @@ type CheckoutBody = {
   };
 };
 
+export async function GET() {
+  const ok = !!process.env.IYZICO_API_KEY && !!process.env.IYZICO_SECRET_KEY;
+  return Response.json({ configured: ok });
+}
+
 export async function POST(req: NextRequest) {
   const body: CheckoutBody = await req.json();
   const { items, total, buyer } = body;

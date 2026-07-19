@@ -2,6 +2,7 @@ import Link from "next/link";
 import { allProducts, categories, categorySlug } from "@/lib/products";
 import ProductCard from "@/components/ProductCard";
 import { thumb } from "@/lib/img";
+import SearchBar from "@/components/SearchBar";
 
 const categoryEmoji: Record<string, string> = {
   "Trafik Konisi & Duba": "🚧",
@@ -15,33 +16,6 @@ const categoryEmoji: Record<string, string> = {
   "Araç Stoperi": "🚗",
   "Elektrikçi Eldiveni": "⚡",
 };
-
-const heroSlides = [
-  {
-    title: "Trafik Güvenliği Ekipmanları",
-    subtitle: "Koniler, delinatörler, levhalar — CE & TSE belgeli, yerli üretim",
-    cta: "Ürünleri İncele",
-    href: "/urunler",
-    bg: "linear-gradient(120deg, #e8420a 0%, #b23208 100%)",
-    cats: ["Trafik Konisi & Duba", "Delinatör", "Trafik Uyarı Levhaları", "Yol İşaretleme & Kasis"],
-  },
-  {
-    title: "Su Yalıtım Membranları",
-    subtitle: "Bitümlü membranlar, profesyonel yalıtım çözümleri",
-    cta: "Membranları Gör",
-    href: "/kategori/yalitim-malzemesi",
-    bg: "linear-gradient(120deg, #232323 0%, #4a4a4a 100%)",
-    cats: ["Yalıtım Malzemesi"],
-  },
-  {
-    title: "Kurumsal & Toplu Sipariş",
-    subtitle: "Belediyeler ve inşaat firmaları için özel fiyatlandırma",
-    cta: "Teklif Al",
-    href: "https://wa.me/905076584245",
-    bg: "linear-gradient(120deg, #1a8f3c 0%, #10692a 100%)",
-    cats: ["İş Güvenliği Ekipmanları", "Güvenlik Bariyeri & Aynası", "Dikme & Panel Sistemleri", "Araç Stoperi"],
-  },
-];
 
 function categoryImage(cat: string): string | null {
   const p = allProducts.find((x) => x.category === cat && x.images[0]);
@@ -67,37 +41,78 @@ export default function Home() {
 
   return (
     <main>
-      {/* ═══ HERO SLIDER ═══ */}
-      <section style={{ padding: "16px 0 0" }}>
-        <div className="container">
-          <div style={{ overflow: "hidden", borderRadius: 12, boxShadow: "var(--shadow)" }}>
-            <div className="hero-track">
-              {heroSlides.map((s) => (
-                <div key={s.title} style={{ width: "100%", flexShrink: 0, background: s.bg, padding: "40px 44px", display: "flex", alignItems: "center", justifyContent: "space-between", gap: 28, minHeight: 260 }}>
-                  <div style={{ maxWidth: 480, flexShrink: 0 }}>
-                    <h2 style={{ fontSize: "clamp(24px, 3.5vw, 38px)", fontWeight: 800, color: "#fff", lineHeight: 1.15, marginBottom: 10, letterSpacing: "-0.01em" }}>
-                      {s.title}
-                    </h2>
-                    <p style={{ fontSize: 15, color: "rgba(255,255,255,0.85)", marginBottom: 22 }}>{s.subtitle}</p>
-                    <Link href={s.href} style={{ display: "inline-block", background: "#fff", color: "var(--text)", padding: "11px 26px", borderRadius: 6, fontWeight: 800, fontSize: 14, textDecoration: "none" }}>
-                      {s.cta} →
-                    </Link>
-                  </div>
-                  <div className="hero-photos" style={{ display: "flex", gap: 12, flex: 1, justifyContent: "flex-end" }}>
-                    {s.cats.map((cat) => {
-                      const img = categoryImage(cat);
-                      if (!img) return null;
-                      return (
-                        <div key={cat} style={{ width: s.cats.length === 1 ? 220 : 130, height: s.cats.length === 1 ? 180 : 130, background: "#fff", borderRadius: 12, overflow: "hidden", position: "relative", boxShadow: "0 6px 20px rgba(0,0,0,0.25)", flexShrink: 0 }}>
-                          {/* eslint-disable-next-line @next/next/no-img-element */}
-                          <img src={thumb(img)} alt={cat} style={{ width: "100%", height: "100%", objectFit: "contain", padding: 8 }} />
-                        </div>
-                      );
-                    })}
-                  </div>
-                </div>
-              ))}
+      {/* ═══ HERO ═══ */}
+      <section style={{ background: "linear-gradient(135deg, #1c1c1c 0%, #2d2d2d 55%, #3a2317 100%)", padding: "44px 0 48px", position: "relative", overflow: "hidden" }}>
+        <div style={{ position: "absolute", top: -120, right: -80, width: 420, height: 420, borderRadius: "50%", background: "radial-gradient(circle, rgba(232,66,10,0.22) 0%, transparent 70%)", pointerEvents: "none" }} />
+        <div className="container" style={{ position: "relative" }}>
+          <div style={{ display: "grid", gridTemplateColumns: "1.1fr 1fr", gap: 40, alignItems: "center" }} className="hero-grid2">
+            {/* Sol: başlık + arama */}
+            <div>
+              <span style={{ display: "inline-block", background: "rgba(232,66,10,0.18)", border: "1px solid rgba(232,66,10,0.45)", color: "#ff8a5c", fontSize: 12, fontWeight: 800, padding: "5px 12px", borderRadius: 20, marginBottom: 18, letterSpacing: "0.05em" }}>
+                🏭 KONYA TEKNOKENT · YERLİ ÜRETİM
+              </span>
+              <h1 style={{ fontSize: "clamp(28px, 4.5vw, 46px)", fontWeight: 800, color: "#fff", lineHeight: 1.12, letterSpacing: "-0.015em", marginBottom: 14 }}>
+                Sahada güvenlik,<br />
+                <span style={{ color: "var(--orange)" }}>tek adreste.</span>
+              </h1>
+              <p style={{ fontSize: 15, color: "rgba(255,255,255,0.65)", lineHeight: 1.65, marginBottom: 24, maxWidth: 440 }}>
+                246 çeşit trafik güvenliği, su yalıtımı ve iş güvenliği ekipmanı. CE & TSE belgeli. Jandarma, Sahil Güvenlik ve kamu kurumu referanslı.
+              </p>
+
+              {/* Hero arama */}
+              <div style={{ maxWidth: 460, marginBottom: 14 }}>
+                <SearchBar />
+              </div>
+
+              {/* Popüler aramalar */}
+              <div style={{ display: "flex", gap: 8, flexWrap: "wrap", alignItems: "center" }}>
+                <span style={{ fontSize: 12, color: "rgba(255,255,255,0.45)", fontWeight: 600 }}>Popüler:</span>
+                {[
+                  ["Trafik Konisi", "/kategori/trafik-konisi-ve-duba"],
+                  ["Delinatör", "/kategori/delinator"],
+                  ["Membran", "/kategori/yalitim-malzemesi"],
+                  ["Uyarı Levhası", "/kategori/trafik-uyari-levhalari"],
+                ].map(([label, href]) => (
+                  <Link key={label} href={href}
+                    style={{ fontSize: 12.5, color: "rgba(255,255,255,0.8)", background: "rgba(255,255,255,0.08)", border: "1px solid rgba(255,255,255,0.15)", padding: "5px 12px", borderRadius: 16, textDecoration: "none", fontWeight: 600 }}
+                  >{label}</Link>
+                ))}
+              </div>
             </div>
+
+            {/* Sağ: gerçek ürün foto kolajı */}
+            <div className="hero-collage" style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 12 }}>
+              {[
+                ["Trafik Konisi & Duba", "Koniler & Dubalar"],
+                ["Trafik Uyarı Levhaları", "Uyarı Levhaları"],
+                ["Yalıtım Malzemesi", "Su Yalıtımı"],
+                ["Delinatör", "Delinatörler"],
+              ].map(([cat, label], i) => {
+                const img = categoryImage(cat);
+                if (!img) return null;
+                return (
+                  <Link key={cat} href={`/kategori/${categorySlug(cat)}`}
+                    style={{ background: "#fff", borderRadius: 12, overflow: "hidden", textDecoration: "none", boxShadow: "0 10px 30px rgba(0,0,0,0.35)", transform: i % 2 === 0 ? "translateY(-6px)" : "translateY(6px)", display: "block" }}
+                  >
+                    <div style={{ aspectRatio: "1/1", position: "relative", padding: 8 }}>
+                      {/* eslint-disable-next-line @next/next/no-img-element */}
+                      <img src={thumb(img, 400)} alt={label} style={{ width: "100%", height: "100%", objectFit: "contain" }} />
+                    </div>
+                    <p style={{ fontSize: 12, fontWeight: 800, color: "var(--text)", textAlign: "center", padding: "0 8px 10px" }}>{label}</p>
+                  </Link>
+                );
+              })}
+            </div>
+          </div>
+
+          {/* Alt istatistik şeridi */}
+          <div style={{ display: "flex", gap: 0, marginTop: 36, borderTop: "1px solid rgba(255,255,255,0.1)", paddingTop: 20, flexWrap: "wrap" }} className="hero-stats">
+            {[["246+", "Ürün Çeşidi"], ["5.000+", "Mutlu Müşteri"], ["10+", "Yıl Deneyim"], ["2 Gün", "Ort. Kargo Süresi"]].map(([v, l]) => (
+              <div key={l} style={{ flex: 1, minWidth: 120, textAlign: "center" }}>
+                <p style={{ fontSize: 22, fontWeight: 800, color: "#fff" }}>{v}</p>
+                <p style={{ fontSize: 12, color: "rgba(255,255,255,0.5)" }}>{l}</p>
+              </div>
+            ))}
           </div>
         </div>
       </section>
@@ -247,7 +262,8 @@ export default function Home() {
       <style>{`
         @media (max-width: 768px) {
           .trust-grid { grid-template-columns: 1fr 1fr !important; }
-          .hero-photos { display: none !important; }
+          .hero-grid2 { grid-template-columns: 1fr !important; }
+          .hero-collage { max-width: 380px; margin: 0 auto; }
         }
         @media (max-width: 480px) {
           .trust-grid { grid-template-columns: 1fr !important; }
