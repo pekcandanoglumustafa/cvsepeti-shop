@@ -6,6 +6,7 @@ import { useState } from "react";
 import { ShoppingCart } from "lucide-react";
 import { Product } from "@/lib/products";
 import { useCart } from "@/lib/cart";
+import { thumb } from "@/lib/img";
 
 function formatPrice(n: number) {
   return new Intl.NumberFormat("tr-TR", { style: "currency", currency: "TRY", maximumFractionDigits: 2, minimumFractionDigits: 2 }).format(n);
@@ -46,7 +47,7 @@ export default function ProductCard({ product }: { product: Product }) {
       <div style={{ position: "relative", aspectRatio: "1 / 1", background: "#fff", overflow: "hidden", padding: 10 }}>
         {img ? (
           <Image
-            src={img}
+            src={thumb(img)}
             alt={product.name}
             fill
             sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 20vw"

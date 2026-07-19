@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Image from "next/image";
+import { thumb } from "@/lib/img";
 
 export default function ProductGallery({ images, name }: { images: string[]; name: string }) {
   const [active, setActive] = useState(0);
@@ -13,7 +14,7 @@ export default function ProductGallery({ images, name }: { images: string[]; nam
       <div style={{ background: "var(--off-white)", borderRadius: 18, overflow: "hidden", aspectRatio: "1/1", position: "relative", marginBottom: 12 }}>
         {imgs[active] ? (
           <Image
-            src={imgs[active]}
+            src={thumb(imgs[active], 900)}
             alt={name}
             fill
             style={{ objectFit: "contain", padding: 16, background: "#fff" }}
@@ -46,7 +47,7 @@ export default function ProductGallery({ images, name }: { images: string[]; nam
                 padding: 0,
               }}
             >
-              <Image src={img} alt={`${name} ${i + 1}`} fill style={{ objectFit: "contain", padding: 16, background: "#fff" }} unoptimized />
+              <Image src={thumb(img, 200)} alt={`${name} ${i + 1}`} fill style={{ objectFit: "contain", padding: 16, background: "#fff" }} unoptimized />
             </button>
           ))}
         </div>

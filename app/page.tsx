@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { allProducts, categories, categorySlug } from "@/lib/products";
 import ProductCard from "@/components/ProductCard";
+import { thumb } from "@/lib/img";
 
 const categoryEmoji: Record<string, string> = {
   "Trafik Konisi & Duba": "🚧",
@@ -89,7 +90,7 @@ export default function Home() {
                       return (
                         <div key={cat} style={{ width: s.cats.length === 1 ? 220 : 130, height: s.cats.length === 1 ? 180 : 130, background: "#fff", borderRadius: 12, overflow: "hidden", position: "relative", boxShadow: "0 6px 20px rgba(0,0,0,0.25)", flexShrink: 0 }}>
                           {/* eslint-disable-next-line @next/next/no-img-element */}
-                          <img src={img} alt={cat} style={{ width: "100%", height: "100%", objectFit: "contain", padding: 8 }} />
+                          <img src={thumb(img)} alt={cat} style={{ width: "100%", height: "100%", objectFit: "contain", padding: 8 }} />
                         </div>
                       );
                     })}
@@ -147,7 +148,7 @@ export default function Home() {
                   <div style={{ width: "100%", aspectRatio: "1/1", position: "relative", background: "#fff" }}>
                     {img ? (
                       /* eslint-disable-next-line @next/next/no-img-element */
-                      <img src={img} alt={c} style={{ width: "100%", height: "100%", objectFit: "contain" }} loading="lazy" />
+                      <img src={thumb(img)} alt={c} style={{ width: "100%", height: "100%", objectFit: "contain" }} loading="lazy" />
                     ) : (
                       <span style={{ fontSize: 40, display: "flex", alignItems: "center", justifyContent: "center", height: "100%" }}>{categoryEmoji[c] || "📦"}</span>
                     )}
