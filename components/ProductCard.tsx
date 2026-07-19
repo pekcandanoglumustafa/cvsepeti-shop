@@ -43,14 +43,14 @@ export default function ProductCard({ product }: { product: Product }) {
         </span>
       )}
 
-      <div style={{ position: "relative", aspectRatio: "1 / 1", background: "#fafafa", overflow: "hidden" }}>
+      <div style={{ position: "relative", aspectRatio: "1 / 1", background: "#fff", overflow: "hidden", padding: 10 }}>
         {img ? (
           <Image
             src={img}
             alt={product.name}
             fill
             sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 20vw"
-            style={{ objectFit: "cover", transition: "transform 0.3s", transform: hovered ? "scale(1.04)" : "scale(1)" }}
+            style={{ objectFit: "contain", padding: 12, transition: "transform 0.3s", transform: hovered ? "scale(1.06)" : "scale(1)" }}
             unoptimized
           />
         ) : (

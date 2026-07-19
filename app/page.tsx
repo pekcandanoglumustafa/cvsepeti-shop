@@ -21,26 +21,31 @@ const heroSlides = [
     subtitle: "Koniler, delinatörler, levhalar — CE & TSE belgeli, yerli üretim",
     cta: "Ürünleri İncele",
     href: "/urunler",
-    emoji: "🚧",
     bg: "linear-gradient(120deg, #e8420a 0%, #b23208 100%)",
+    cats: ["Trafik Konisi & Duba", "Delinatör", "Trafik Uyarı Levhaları", "Yol İşaretleme & Kasis"],
   },
   {
     title: "Su Yalıtım Membranları",
     subtitle: "Bitümlü membranlar, profesyonel yalıtım çözümleri",
     cta: "Membranları Gör",
     href: "/kategori/yalitim-malzemesi",
-    emoji: "🏗️",
     bg: "linear-gradient(120deg, #232323 0%, #4a4a4a 100%)",
+    cats: ["Yalıtım Malzemesi"],
   },
   {
     title: "Kurumsal & Toplu Sipariş",
     subtitle: "Belediyeler ve inşaat firmaları için özel fiyatlandırma",
     cta: "Teklif Al",
     href: "https://wa.me/905076584245",
-    emoji: "🏢",
     bg: "linear-gradient(120deg, #1a8f3c 0%, #10692a 100%)",
+    cats: ["İş Güvenliği Ekipmanları", "Güvenlik Bariyeri & Aynası", "Dikme & Panel Sistemleri", "Araç Stoperi"],
   },
 ];
+
+function categoryImage(cat: string): string | null {
+  const p = allProducts.find((x) => x.category === cat && x.images[0]);
+  return p ? p.images[0] : null;
+}
 
 export default function Home() {
   const featured = (() => {
@@ -67,8 +72,8 @@ export default function Home() {
           <div style={{ overflow: "hidden", borderRadius: 12, boxShadow: "var(--shadow)" }}>
             <div className="hero-track">
               {heroSlides.map((s) => (
-                <div key={s.title} style={{ width: "100%", flexShrink: 0, background: s.bg, padding: "48px 48px", display: "flex", alignItems: "center", justifyContent: "space-between", gap: 24, minHeight: 240 }}>
-                  <div style={{ maxWidth: 520 }}>
+                <div key={s.title} style={{ width: "100%", flexShrink: 0, background: s.bg, padding: "40px 44px", display: "flex", alignItems: "center", justifyContent: "space-between", gap: 28, minHeight: 260 }}>
+                  <div style={{ maxWidth: 480, flexShrink: 0 }}>
                     <h2 style={{ fontSize: "clamp(24px, 3.5vw, 38px)", fontWeight: 800, color: "#fff", lineHeight: 1.15, marginBottom: 10, letterSpacing: "-0.01em" }}>
                       {s.title}
                     </h2>
@@ -77,7 +82,18 @@ export default function Home() {
                       {s.cta} →
                     </Link>
                   </div>
-                  <span style={{ fontSize: 96, lineHeight: 1 }} className="hero-emoji">{s.emoji}</span>
+                  <div className="hero-photos" style={{ display: "flex", gap: 12, flex: 1, justifyContent: "flex-end" }}>
+                    {s.cats.map((cat) => {
+                      const img = categoryImage(cat);
+                      if (!img) return null;
+                      return (
+                        <div key={cat} style={{ width: s.cats.length === 1 ? 220 : 130, height: s.cats.length === 1 ? 180 : 130, background: "#fff", borderRadius: 12, overflow: "hidden", position: "relative", boxShadow: "0 6px 20px rgba(0,0,0,0.25)", flexShrink: 0 }}>
+                          {/* eslint-disable-next-line @next/next/no-img-element */}
+                          <img src={img} alt={cat} style={{ width: "100%", height: "100%", objectFit: "contain", padding: 8 }} />
+                        </div>
+                      );
+                    })}
+                  </div>
                 </div>
               ))}
             </div>
@@ -122,17 +138,27 @@ export default function Home() {
         <div className="container">
           <div className="section-title"><span>📂 Kategoriler</span></div>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(170px, 1fr))", gap: 10 }}>
-            {categories.map((c) => (
-              <Link key={c} href={`/kategori/${categorySlug(c)}`}
-                style={{ background: "#fff", border: "1px solid var(--border)", borderRadius: 8, padding: "18px 14px", textDecoration: "none", display: "flex", flexDirection: "column", alignItems: "center", gap: 8, textAlign: "center", boxShadow: "var(--shadow-sm)" }}
-              >
-                <span style={{ fontSize: 34 }}>{categoryEmoji[c] || "📦"}</span>
-                <span style={{ fontSize: 13, fontWeight: 700, color: "var(--text)", lineHeight: 1.3 }}>{c}</span>
-                <span style={{ fontSize: 11.5, color: "var(--orange)", fontWeight: 700 }}>
-                  {allProducts.filter(p => p.category === c).length} ürün →
-                </span>
-              </Link>
-            ))}
+            {categories.map((c) => {
+              const img = categoryImage(c);
+              return (
+                <Link key={c} href={`/kategori/${categorySlug(c)}`}
+                  style={{ background: "#fff", border: "1px solid var(--border)", borderRadius: 8, padding: "12px 12px 14px", textDecoration: "none", display: "flex", flexDirection: "column", alignItems: "center", gap: 8, textAlign: "center", boxShadow: "var(--shadow-sm)" }}
+                >
+                  <div style={{ width: "100%", aspectRatio: "1/1", position: "relative", background: "#fff" }}>
+                    {img ? (
+                      /* eslint-disable-next-line @next/next/no-img-element */
+                      <img src={img} alt={c} style={{ width: "100%", height: "100%", objectFit: "contain" }} loading="lazy" />
+                    ) : (
+                      <span style={{ fontSize: 40, display: "flex", alignItems: "center", justifyContent: "center", height: "100%" }}>{categoryEmoji[c] || "📦"}</span>
+                    )}
+                  </div>
+                  <span style={{ fontSize: 13, fontWeight: 700, color: "var(--text)", lineHeight: 1.3 }}>{c}</span>
+                  <span style={{ fontSize: 11.5, color: "var(--orange)", fontWeight: 700 }}>
+                    {allProducts.filter(p => p.category === c).length} ürün →
+                  </span>
+                </Link>
+              );
+            })}
           </div>
         </div>
       </section>
@@ -220,7 +246,7 @@ export default function Home() {
       <style>{`
         @media (max-width: 768px) {
           .trust-grid { grid-template-columns: 1fr 1fr !important; }
-          .hero-emoji { display: none; }
+          .hero-photos { display: none !important; }
         }
         @media (max-width: 480px) {
           .trust-grid { grid-template-columns: 1fr !important; }

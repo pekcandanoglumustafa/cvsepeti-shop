@@ -16,7 +16,7 @@ export default function ProductGallery({ images, name }: { images: string[]; nam
             src={imgs[active]}
             alt={name}
             fill
-            style={{ objectFit: "cover" }}
+            style={{ objectFit: "contain", padding: 16, background: "#fff" }}
             unoptimized
             priority
           />
@@ -46,7 +46,7 @@ export default function ProductGallery({ images, name }: { images: string[]; nam
                 padding: 0,
               }}
             >
-              <Image src={img} alt={`${name} ${i + 1}`} fill style={{ objectFit: "cover" }} unoptimized />
+              <Image src={img} alt={`${name} ${i + 1}`} fill style={{ objectFit: "contain", padding: 16, background: "#fff" }} unoptimized />
             </button>
           ))}
         </div>
