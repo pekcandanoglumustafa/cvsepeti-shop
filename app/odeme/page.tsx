@@ -113,152 +113,161 @@ export default function CheckoutPage() {
 
   if (showForm) {
     return (
-      <main className="max-w-2xl mx-auto px-4 py-10">
-        <h1 className="font-display text-2xl sm:text-3xl font-bold mb-6">
-          Güvenli Ödeme
-        </h1>
-        <div className="border border-[var(--line)] bg-white p-4">
-          <div id="iyzico-form-container" />
+      <main style={{ padding: "32px 0 60px" }}>
+        <div className="container" style={{ maxWidth: 680 }}>
+          <h1 style={{ fontSize: 24, fontWeight: 800, marginBottom: 20 }}>Güvenli Ödeme</h1>
+          <div style={{ background: "#fff", border: "1px solid var(--border)", borderRadius: 12, padding: 20, boxShadow: "var(--shadow-sm)" }}>
+            <div id="iyzico-form-container" />
+          </div>
         </div>
       </main>
     );
   }
 
+  const inputStyle: React.CSSProperties = {
+    width: "100%",
+    background: "#fff",
+    border: "1.5px solid var(--border)",
+    borderRadius: 8,
+    padding: "12px 14px",
+    fontSize: 15,
+    color: "var(--text)",
+    outline: "none",
+  };
+  const labelStyle: React.CSSProperties = {
+    display: "block",
+    fontSize: 13,
+    fontWeight: 700,
+    color: "var(--text)",
+    marginBottom: 6,
+  };
+  const fieldStyle: React.CSSProperties = { marginBottom: 16 };
+
   return (
-    <main className="max-w-5xl mx-auto px-4 py-10">
-      <h1 className="font-display text-3xl sm:text-4xl font-bold mb-8">
-        Ödeme Bilgileri
-      </h1>
+    <main style={{ padding: "28px 0 60px" }}>
+      <div className="container">
+        <h1 style={{ fontSize: "clamp(22px, 3.5vw, 30px)", fontWeight: 800, marginBottom: 22 }}>Ödeme Bilgileri</h1>
 
-      <div className="grid lg:grid-cols-3 gap-8">
-        <form onSubmit={handleSubmit} className="lg:col-span-2 flex flex-col gap-5">
-          <div className="grid sm:grid-cols-2 gap-4">
-            <div>
-              <label className="block text-sm font-medium mb-1.5">Ad</label>
-              <input
-                required name="name" value={form.name} onChange={handleChange}
-                className="w-full border border-[var(--line)] px-3 py-2.5 focus:outline-none focus:border-[var(--ink)]"
-              />
-            </div>
-            <div>
-              <label className="block text-sm font-medium mb-1.5">Soyad</label>
-              <input
-                required name="surname" value={form.surname} onChange={handleChange}
-                className="w-full border border-[var(--line)] px-3 py-2.5 focus:outline-none focus:border-[var(--ink)]"
-              />
-            </div>
-          </div>
-
-          <div className="grid sm:grid-cols-2 gap-4">
-            <div>
-              <label className="block text-sm font-medium mb-1.5">E-posta</label>
-              <input
-                required type="email" name="email" value={form.email} onChange={handleChange}
-                className="w-full border border-[var(--line)] px-3 py-2.5 focus:outline-none focus:border-[var(--ink)]"
-              />
-            </div>
-            <div>
-              <label className="block text-sm font-medium mb-1.5">Telefon</label>
-              <input
-                required name="phone" value={form.phone} onChange={handleChange}
-                placeholder="05XXXXXXXXX"
-                className="w-full border border-[var(--line)] px-3 py-2.5 focus:outline-none focus:border-[var(--ink)]"
-              />
-            </div>
-          </div>
-
-          <div>
-            <label className="block text-sm font-medium mb-1.5">TC Kimlik No</label>
-            <input
-              required name="identityNumber" value={form.identityNumber} onChange={handleChange}
-              maxLength={11}
-              className="w-full border border-[var(--line)] px-3 py-2.5 focus:outline-none focus:border-[var(--ink)]"
-            />
-          </div>
-
-          <div>
-            <label className="block text-sm font-medium mb-1.5">Adres</label>
-            <textarea
-              required name="address" value={form.address} onChange={handleChange}
-              rows={3}
-              className="w-full border border-[var(--line)] px-3 py-2.5 focus:outline-none focus:border-[var(--ink)] resize-none"
-            />
-          </div>
-
-          <div className="grid sm:grid-cols-2 gap-4">
-            <div>
-              <label className="block text-sm font-medium mb-1.5">Şehir</label>
-              <select
-                name="city" value={form.city} onChange={handleChange}
-                className="w-full border border-[var(--line)] px-3 py-2.5 focus:outline-none focus:border-[var(--ink)]"
-              >
-                {cities.map((c) => (
-                  <option key={c} value={c}>{c}</option>
-                ))}
-              </select>
-            </div>
-            <div>
-              <label className="block text-sm font-medium mb-1.5">Posta Kodu</label>
-              <input
-                required name="zip" value={form.zip} onChange={handleChange}
-                className="w-full border border-[var(--line)] px-3 py-2.5 focus:outline-none focus:border-[var(--ink)]"
-              />
-            </div>
-          </div>
-
-          {error && (
-            <p className="text-sm text-red-600 bg-red-50 border border-red-200 px-3 py-2">
-              {error}
-            </p>
-          )}
-
-          <button
-            type="submit" disabled={loading || cardReady === false}
-            className="flex items-center justify-center gap-2 bg-[var(--ink)] text-[var(--paper)] py-4 font-display tag-stencil text-sm hover:bg-[var(--safety-orange)] transition-colors disabled:opacity-50"
-          >
-            <Lock size={16} />
-            {loading ? "Yönlendiriliyor..." : "iyzico ile Güvenli Ödemeye Geç"}
-            {!loading && <ArrowRight size={18} />}
-          </button>
-                    {cardReady === false && (
-            <a
-              href={`https://wa.me/905076584245?text=${waText}`}
-              style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: 8, background: "#25D366", color: "#fff", padding: "14px", borderRadius: 8, fontSize: 15, fontWeight: 800, textDecoration: "none", marginTop: 10 }}
-            >
-              💬 Siparişi WhatsApp&apos;tan Tamamla
-            </a>
-          )}
-          {cardReady === false && (
-            <p style={{ fontSize: 12.5, color: "var(--text-tertiary)", textAlign: "center", marginTop: 8 }}>
-              Kartla ödeme çok yakında aktif olacak. Şimdilik siparişinizi WhatsApp üzerinden anında tamamlayabilirsiniz — sepetiniz mesaja otomatik eklenir.
-            </p>
-          )}
-          <p className="text-xs text-[var(--ink-soft)] text-center">
-            Kart bilgileriniz CV Sepeti sunucularında saklanmaz, doğrudan iyzico
-            güvenli ödeme altyapısına iletilir.
-          </p>
-        </form>
-
-        <div className="border border-[var(--line)] bg-white p-6 h-fit sticky top-24">
-          <h2 className="font-display tag-stencil text-sm mb-4">Sipariş Özeti</h2>
-          <div className="flex flex-col gap-2 mb-4 text-sm">
-            {items.map((i) => (
-              <div key={i.slug} className="flex justify-between">
-                <span className="line-clamp-1 pr-2">{i.name} × {i.qty}</span>
-                <span className="shrink-0">{formatPrice(i.price * i.qty)}</span>
+        <div style={{ display: "grid", gridTemplateColumns: "1fr 340px", gap: 20, alignItems: "start" }} className="checkout-grid">
+          {/* Form kartı */}
+          <form onSubmit={handleSubmit} style={{ background: "#fff", border: "1px solid var(--border)", borderRadius: 12, padding: "22px 20px", boxShadow: "var(--shadow-sm)", minWidth: 0 }}>
+            <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 14 }} className="form-2col">
+              <div style={fieldStyle}>
+                <label style={labelStyle}>Ad</label>
+                <input required name="name" value={form.name} onChange={handleChange} style={inputStyle} autoComplete="given-name" />
               </div>
-            ))}
+              <div style={fieldStyle}>
+                <label style={labelStyle}>Soyad</label>
+                <input required name="surname" value={form.surname} onChange={handleChange} style={inputStyle} autoComplete="family-name" />
+              </div>
+            </div>
+
+            <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 14 }} className="form-2col">
+              <div style={fieldStyle}>
+                <label style={labelStyle}>E-posta</label>
+                <input required type="email" name="email" value={form.email} onChange={handleChange} style={inputStyle} autoComplete="email" inputMode="email" />
+              </div>
+              <div style={fieldStyle}>
+                <label style={labelStyle}>Telefon</label>
+                <input required name="phone" value={form.phone} onChange={handleChange} placeholder="05XX XXX XX XX" style={inputStyle} autoComplete="tel" inputMode="tel" />
+              </div>
+            </div>
+
+            <div style={fieldStyle}>
+              <label style={labelStyle}>TC Kimlik No</label>
+              <input required name="identityNumber" value={form.identityNumber} onChange={handleChange} maxLength={11} style={inputStyle} inputMode="numeric" />
+              <p style={{ fontSize: 11.5, color: "var(--text-tertiary)", marginTop: 5 }}>Fatura düzenlemesi için gereklidir, güvenle saklanır.</p>
+            </div>
+
+            <div style={fieldStyle}>
+              <label style={labelStyle}>Teslimat Adresi</label>
+              <textarea required name="address" value={form.address} onChange={handleChange} rows={3} style={{ ...inputStyle, resize: "none", fontFamily: "inherit" }} autoComplete="street-address" />
+            </div>
+
+            <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 14 }} className="form-2col">
+              <div style={fieldStyle}>
+                <label style={labelStyle}>Şehir</label>
+                <select name="city" value={form.city} onChange={handleChange} style={{ ...inputStyle, appearance: "auto" }}>
+                  {cities.map((c) => (<option key={c} value={c}>{c}</option>))}
+                </select>
+              </div>
+              <div style={fieldStyle}>
+                <label style={labelStyle}>Posta Kodu</label>
+                <input required name="zip" value={form.zip} onChange={handleChange} style={inputStyle} inputMode="numeric" autoComplete="postal-code" />
+              </div>
+            </div>
+
+            {error && (
+              <p style={{ fontSize: 13.5, color: "#b91c1c", background: "#fef2f2", border: "1px solid #fecaca", borderRadius: 8, padding: "10px 12px", marginBottom: 14 }}>
+                {error}
+              </p>
+            )}
+
+            {cardReady !== false && (
+              <button type="submit" disabled={loading} className="btn-primary" style={{ width: "100%", padding: "15px", fontSize: 15, gap: 8, opacity: loading ? 0.6 : 1 }}>
+                <Lock size={16} />
+                {loading ? "Yönlendiriliyor..." : "iyzico ile Güvenli Ödemeye Geç"}
+                {!loading && <ArrowRight size={17} />}
+              </button>
+            )}
+
+            {cardReady === false && (
+              <>
+                <a href={`https://wa.me/905076584245?text=${waText}`}
+                  style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: 8, background: "#25D366", color: "#fff", padding: "15px", borderRadius: 8, fontSize: 15, fontWeight: 800, textDecoration: "none" }}>
+                  💬 Siparişi WhatsApp&apos;tan Tamamla
+                </a>
+                <p style={{ fontSize: 12.5, color: "var(--text-tertiary)", textAlign: "center", marginTop: 10, lineHeight: 1.5 }}>
+                  Kartla ödeme çok yakında aktif olacak. Şimdilik siparişinizi WhatsApp üzerinden anında tamamlayabilirsiniz — sepetiniz mesaja otomatik eklenir.
+                </p>
+              </>
+            )}
+
+            <p style={{ fontSize: 12, color: "var(--text-tertiary)", textAlign: "center", marginTop: 14, lineHeight: 1.5 }}>
+              🔒 Kart bilgileriniz CV Sepeti sunucularında saklanmaz, doğrudan iyzico güvencesiyle işlenir.
+            </p>
+          </form>
+
+          {/* Sipariş özeti */}
+          <div style={{ background: "#fff", border: "1px solid var(--border)", borderRadius: 12, padding: 20, boxShadow: "var(--shadow-sm)", position: "sticky", top: 130 }}>
+            <h2 style={{ fontSize: 15, fontWeight: 800, marginBottom: 14, paddingBottom: 12, borderBottom: "1px solid var(--border)" }}>
+              Sipariş Özeti ({items.reduce((s, i) => s + i.qty, 0)} ürün)
+            </h2>
+            <div style={{ display: "flex", flexDirection: "column", gap: 10, marginBottom: 14 }}>
+              {items.map((i) => (
+                <div key={i.slug} style={{ display: "flex", justifyContent: "space-between", gap: 10, fontSize: 13 }}>
+                  <span style={{ color: "var(--text-secondary)", minWidth: 0, overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" }}>
+                    {i.qty}x {i.name}
+                  </span>
+                  <span style={{ fontWeight: 700, whiteSpace: "nowrap" }}>{formatPrice(i.price * i.qty)}</span>
+                </div>
+              ))}
+            </div>
+            <div style={{ display: "flex", justifyContent: "space-between", fontSize: 13.5, color: "var(--text-secondary)", paddingTop: 12, borderTop: "1px solid var(--border)", marginBottom: 6 }}>
+              <span>Kargo</span><span style={{ color: "var(--green)", fontWeight: 700 }}>Sipariş sonrası bildirilecek</span>
+            </div>
+            <div style={{ display: "flex", justifyContent: "space-between", fontSize: 17, fontWeight: 800, marginTop: 8 }}>
+              <span>Toplam</span><span style={{ color: "var(--orange)" }}>{formatPrice(total())}</span>
+            </div>
+            <Link href="/sepet" style={{ display: "flex", justifyContent: "center", marginTop: 14, fontSize: 13, color: "var(--text-tertiary)", textDecoration: "none" }}>
+              ← Sepete Dön
+            </Link>
           </div>
-          <div className="hazard-stripe-thin mb-4" />
-          <div className="flex justify-between font-display text-xl font-bold mb-2">
-            <span>Toplam</span>
-            <span className="text-[var(--safety-orange-dark)]">{formatPrice(total())}</span>
-          </div>
-          <Link href="/sepet" className="text-sm text-[var(--ink-soft)] hover:text-[var(--safety-orange)]">
-            Sepete dön
-          </Link>
         </div>
       </div>
+
+      <style>{`
+        @media (max-width: 860px) {
+          .checkout-grid { grid-template-columns: 1fr !important; }
+          .checkout-grid > div:last-child { position: static !important; }
+        }
+        @media (max-width: 480px) {
+          .form-2col { grid-template-columns: 1fr !important; gap: 0 !important; }
+        }
+        .checkout-grid input:focus, .checkout-grid textarea:focus, .checkout-grid select:focus {
+          border-color: var(--orange) !important;
+        }
+      `}</style>
     </main>
   );
 }

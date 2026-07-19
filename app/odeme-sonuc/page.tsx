@@ -3,7 +3,7 @@
 import { Suspense, useEffect } from "react";
 import { useSearchParams } from "next/navigation";
 import Link from "next/link";
-import { CheckCircle2, XCircle, ArrowRight } from "lucide-react";
+import { CheckCircle2, XCircle } from "lucide-react";
 import { useCart } from "@/lib/cart";
 
 function Result() {
@@ -16,54 +16,57 @@ function Result() {
     if (status === "success") clear();
   }, [status, clear]);
 
-  if (status === "success") {
-    return (
-      <main className="max-w-xl mx-auto px-4 py-24 text-center">
-        <CheckCircle2 className="mx-auto text-[var(--safety-orange)]" size={64} />
-        <h1 className="font-display text-3xl font-bold mt-6">
-          Siparişiniz Alındı
-        </h1>
-        <p className="text-[var(--ink-soft)] mt-3">
-          Ödemeniz başarıyla tamamlandı. Sipariş referans numaranız:
-        </p>
-        <p className="font-display text-lg font-semibold mt-2">{ref}</p>
-        <p className="text-[var(--ink-soft)] mt-4 text-sm">
-          Siparişiniz hazırlanmaya başlandı, kargo bilgileriniz e-posta
-          adresinize gönderilecektir.
-        </p>
-        <Link
-          href="/urunler"
-          className="inline-flex items-center gap-2 mt-8 bg-[var(--ink)] text-[var(--paper)] px-6 py-3.5 font-display tag-stencil text-sm hover:bg-[var(--safety-orange)] transition-colors"
-        >
-          Alışverişe Devam Et <ArrowRight size={18} />
-        </Link>
-      </main>
-    );
-  }
+  const ok = status === "success";
 
   return (
-    <main className="max-w-xl mx-auto px-4 py-24 text-center">
-      <XCircle className="mx-auto text-red-500" size={64} />
-      <h1 className="font-display text-3xl font-bold mt-6">
-        Ödeme Tamamlanamadı
-      </h1>
-      <p className="text-[var(--ink-soft)] mt-3">
-        Ödeme işlemi sırasında bir sorun oluştu. Lütfen tekrar deneyin veya
-        farklı bir kart kullanın.
-      </p>
-      <Link
-        href="/odeme"
-        className="inline-flex items-center gap-2 mt-8 bg-[var(--ink)] text-[var(--paper)] px-6 py-3.5 font-display tag-stencil text-sm hover:bg-[var(--safety-orange)] transition-colors"
-      >
-        Tekrar Dene <ArrowRight size={18} />
-      </Link>
+    <main style={{ padding: "70px 0" }}>
+      <div className="container" style={{ maxWidth: 520, textAlign: "center" }}>
+        {ok ? (
+          <CheckCircle2 size={64} color="var(--green)" style={{ margin: "0 auto" }} />
+        ) : (
+          <XCircle size={64} color="#dc2626" style={{ margin: "0 auto" }} />
+        )}
+        <h1 style={{ fontSize: 26, fontWeight: 800, marginTop: 20, marginBottom: 10 }}>
+          {ok ? "Siparişiniz Alındı 🎉" : "Ödeme Tamamlanamadı"}
+        </h1>
+        {ok ? (
+          <>
+            <p style={{ fontSize: 14, color: "var(--text-secondary)", lineHeight: 1.6 }}>
+              Ödemeniz başarıyla tamamlandı.
+              {ref && (
+                <>
+                  {" "}Sipariş referans numaranız:{" "}
+                  <strong style={{ color: "var(--text)" }}>{ref}</strong>
+                </>
+              )}
+            </p>
+            <p style={{ fontSize: 13.5, color: "var(--text-secondary)", marginTop: 10, lineHeight: 1.6 }}>
+              Siparişiniz hazırlanmaya başlandı, kargo bilgileriniz e-posta adresinize gönderilecektir.
+            </p>
+          </>
+        ) : (
+          <p style={{ fontSize: 14, color: "var(--text-secondary)", lineHeight: 1.6 }}>
+            Ödeme işlemi sırasında bir sorun oluştu. Kartınızdan ücret çekilmediyse tekrar deneyebilir veya WhatsApp üzerinden bizimle iletişime geçebilirsiniz.
+          </p>
+        )}
+        <div style={{ display: "flex", gap: 10, justifyContent: "center", flexWrap: "wrap", marginTop: 28 }}>
+          {ok ? (
+            <Link href="/urunler" className="btn-primary">Alışverişe Devam Et →</Link>
+          ) : (
+            <>
+              <Link href="/odeme" className="btn-primary">Tekrar Dene</Link>
+              <a href="https://wa.me/905076584245" className="btn-outline">WhatsApp Destek</a>
+            </>
+          )}
+        </div>
+      </div>
     </main>
   );
 }
 
 export default function OdemeSonucPage() {
   return (
-    <Suspense>
+    <Suspense fallback={null}>
       <Result />
     </Suspense>
   );
