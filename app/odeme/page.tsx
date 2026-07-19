@@ -25,20 +25,6 @@ export default function CheckoutPage() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
   const [showForm, setShowForm] = useState(false);
-  const [cardReady, setCardReady] = useState<boolean | null>(null);
-
-  useEffect(() => {
-    fetch("/api/iyzico/checkout-form")
-      .then((r) => r.json())
-      .then((d) => setCardReady(!!d.configured))
-      .catch(() => setCardReady(false));
-  }, []);
-
-  const waText = encodeURIComponent(
-    "Merhaba, sipariş vermek istiyorum:\n" +
-      items.map((i) => `• ${i.qty}x ${i.name} — ${formatPrice(i.price * i.qty)}`).join("\n") +
-      `\nToplam: ${formatPrice(total())}`
-  );
 
   const [form, setForm] = useState({
     name: "",
@@ -203,7 +189,7 @@ export default function CheckoutPage() {
               </p>
             )}
 
-            {cardReady !== false && (
+            {(
               <button type="submit" disabled={loading} className="btn-primary" style={{ width: "100%", padding: "15px", fontSize: 15, gap: 8, opacity: loading ? 0.6 : 1 }}>
                 <Lock size={16} />
                 {loading ? "Yönlendiriliyor..." : "iyzico ile Güvenli Ödemeye Geç"}
@@ -211,17 +197,6 @@ export default function CheckoutPage() {
               </button>
             )}
 
-            {cardReady === false && (
-              <>
-                <a href={`https://wa.me/905076584245?text=${waText}`}
-                  style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: 8, background: "#25D366", color: "#fff", padding: "15px", borderRadius: 8, fontSize: 15, fontWeight: 800, textDecoration: "none" }}>
-                  💬 Siparişi WhatsApp&apos;tan Tamamla
-                </a>
-                <p style={{ fontSize: 12.5, color: "var(--text-tertiary)", textAlign: "center", marginTop: 10, lineHeight: 1.5 }}>
-                  Kartla ödeme çok yakında aktif olacak. Şimdilik siparişinizi WhatsApp üzerinden anında tamamlayabilirsiniz — sepetiniz mesaja otomatik eklenir.
-                </p>
-              </>
-            )}
 
             <p style={{ fontSize: 12, color: "var(--text-tertiary)", textAlign: "center", marginTop: 14, lineHeight: 1.5 }}>
               🔒 Kart bilgileriniz CV Sepeti sunucularında saklanmaz, doğrudan iyzico güvencesiyle işlenir.
