@@ -27,6 +27,7 @@ export default function ProductCard({ product }: { product: Product }) {
     e.preventDefault();
     add({ slug: product.slug, name: product.name, price: product.price, image: img || "", stock: product.stock }, 1);
     setAdded(true);
+    window.dispatchEvent(new CustomEvent("cart:added", { detail: { name: product.name } }));
     setTimeout(() => setAdded(false), 1800);
   }
 

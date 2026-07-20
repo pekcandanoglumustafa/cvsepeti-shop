@@ -3,6 +3,7 @@ import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import FloatingContact from "@/components/FloatingContact";
+import CartToast from "@/components/CartToast";
 
 const BASE = "https://www.cvsepeti.org";
 
@@ -108,6 +109,7 @@ export default function RootLayout({
         {children}
         <Footer />
         <FloatingContact />
+        <CartToast />
       </body>
     </html>
   );

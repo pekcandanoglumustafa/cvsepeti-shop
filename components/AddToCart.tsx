@@ -13,6 +13,7 @@ export default function AddToCart({ product }: { product: Product }) {
   function handleAdd() {
     add({ slug: product.slug, name: product.name, price: product.price, image: product.images[0] || "", stock: product.stock }, qty);
     setAdded(true);
+    window.dispatchEvent(new CustomEvent("cart:added", { detail: { name: product.name } }));
     setTimeout(() => setAdded(false), 2000);
   }
 
