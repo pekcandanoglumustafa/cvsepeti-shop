@@ -38,7 +38,7 @@ export async function GET() {
 
 export async function POST(req: NextRequest) {
   const body: CheckoutBody = await req.json();
-  const { items, total, buyer } = body;
+  const { items, buyer } = body;
 
   if (!items?.length || !buyer?.email) {
     return NextResponse.json(
@@ -52,16 +52,27 @@ export async function POST(req: NextRequest) {
 
   const basketItems = items.map((item) => ({
     id: item.slug,
-    name: item.name,
+    name: item.name.slice(0, 120),
     category1: "CV Sepeti Ürünleri",
     itemType: Iyzipay.BASKET_ITEM_TYPE.PHYSICAL,
-    price: (item.price * item.qty).toFixed(2),
+    price: (Math.round(item.price * item.qty * 100) / 100).toFixed(2),
   }));
+
+  // iyzico kuralı: price, sepet kalemlerinin toplamına kuruşu kuruşuna eşit olmalı
+  const basketTotal = basketItems
+    .reduce((s, b) => s + Math.round(parseFloat(b.price) * 100), 0);
+  const priceStr = (basketTotal / 100).toFixed(2);
+
+  const clientIp = (req.headers.get("x-forwarded-for") || "85.34.78.112")
+    .split(",")[0]
+    .trim();
 
   const request = {
     locale: Iyzipay.LOCALE.TR,
     conversationId,
-    price: total.toFixed(2),
+    price: priceStr,
+    paidPrice: priceStr,
+    currency: Iyzipay.CURRENCY.TRY,
     basketId: conversationId,
     paymentGroup: Iyzipay.PAYMENT_GROUP.PRODUCT,
     callbackUrl: `${origin}/api/iyzico/callback`,
@@ -79,7 +90,7 @@ export async function POST(req: NextRequest) {
         .slice(0, 19)
         .replace("T", " "),
       registrationAddress: buyer.address,
-      ip: req.headers.get("x-forwarded-for") || "127.0.0.1",
+      ip: clientIp,
       city: buyer.city,
       country: "Turkey",
       zipCode: buyer.zip,

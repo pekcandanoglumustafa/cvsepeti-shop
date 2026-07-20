@@ -92,7 +92,7 @@ export default function CheckoutPage() {
         }
       }, 50);
     } catch {
-      setError("Bir hata oluştu, lütfen tekrar deneyin.");
+      setError("Sunucuya ulaşılamadı, lütfen tekrar deneyin.");
     }
     setLoading(false);
   };
