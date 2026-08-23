@@ -19,7 +19,7 @@ const cities = [
 ];
 
 export default function CheckoutPage() {
-  const { items, total } = useCart();
+  const { items, total, kargoDesi, kargo, genelToplam } = useCart();
   const router = useRouter();
   const [mounted, setMounted] = useState(false);
   const [loading, setLoading] = useState(false);
@@ -63,12 +63,13 @@ export default function CheckoutPage() {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
           items: items.map((i) => ({
+            desi: i.desi, kategori: i.kategori,
             slug: i.slug,
             name: i.name,
             price: i.price,
             qty: i.qty,
           })),
-          total: total(),
+          total: genelToplam(),
           buyer: form,
         }),
       });
@@ -222,7 +223,13 @@ export default function CheckoutPage() {
               <span>Kargo</span><span style={{ color: "var(--green)", fontWeight: 700 }}>Sipariş sonrası bildirilecek</span>
             </div>
             <div style={{ display: "flex", justifyContent: "space-between", fontSize: 17, fontWeight: 800, marginTop: 8 }}>
-              <span>Toplam</span><span style={{ color: "var(--orange)" }}>{formatPrice(total())}</span>
+              <span>Ara toplam</span><span>{formatPrice(total())}</span>
+            </div>
+            <div style={{ display: "flex", justifyContent: "space-between", fontSize: 14, padding: "6px 0" }}>
+              <span>Kargo · {kargoDesi()} desi</span><span>{formatPrice(kargo())}</span>
+            </div>
+            <div style={{ display: "flex", justifyContent: "space-between", fontWeight: 900, fontSize: 18, paddingTop: 10, borderTop: "2px solid var(--ink)" }}>
+              <span>Toplam</span><span style={{ color: "var(--hi)" }}>{formatPrice(genelToplam())}</span>
             </div>
             <Link href="/sepet" style={{ display: "flex", justifyContent: "center", marginTop: 14, fontSize: 13, color: "var(--text-tertiary)", textDecoration: "none" }}>
               ← Sepete Dön

@@ -2,6 +2,7 @@
 
 import { create } from "zustand";
 import { persist } from "zustand/middleware";
+import { toplamDesi, kargoUcreti } from "./kargo";
 
 export type CartItem = {
   slug: string;
@@ -10,6 +11,8 @@ export type CartItem = {
   image: string;
   qty: number;
   stock: number;
+  desi: number;
+  kategori: string;
 };
 
 type CartState = {
@@ -20,6 +23,9 @@ type CartState = {
   clear: () => void;
   total: () => number;
   count: () => number;
+  kargoDesi: () => number;
+  kargo: () => number;
+  genelToplam: () => number;
 };
 
 export const useCart = create<CartState>()(
@@ -56,6 +62,12 @@ export const useCart = create<CartState>()(
       total: () =>
         get().items.reduce((sum, i) => sum + i.price * i.qty, 0),
       count: () => get().items.reduce((sum, i) => sum + i.qty, 0),
+      kargoDesi: () =>
+        toplamDesi(
+          get().items.map((i) => ({ desi: i.desi || 1, adet: i.qty, kategori: i.kategori || "" }))
+        ),
+      kargo: () => kargoUcreti(get().kargoDesi()),
+      genelToplam: () => get().total() + get().kargo(),
     }),
     { name: "cvsepeti-cart" }
   )

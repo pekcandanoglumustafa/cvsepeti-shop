@@ -1,7 +1,8 @@
 import { NextRequest, NextResponse } from "next/server";
 import { iyzicoConfigured, iyzicoRequest } from "@/lib/iyzico";
+import { toplamDesi, kargoUcreti } from "@/lib/kargo";
 
-type CartItem = { slug: string; name: string; price: number; qty: number };
+type CartItem = { slug: string; name: string; price: number; qty: number; desi?: number; kategori?: string };
 type CheckoutBody = {
   items: CartItem[];
   buyer: {
@@ -42,6 +43,19 @@ export async function POST(req: NextRequest) {
       itemType: "PHYSICAL",
       price: (Math.round(item.price * item.qty * 100) / 100).toFixed(2),
     }));
+
+    // Kargo: sunucuda yeniden hesaplanır (istemciden gelen tutara güvenilmez)
+    const kargoDesiToplam = toplamDesi(
+      items.map((i) => ({ desi: i.desi || 1, adet: i.qty, kategori: i.kategori || "" }))
+    );
+    const kargoTutar = kargoUcreti(kargoDesiToplam);
+    basketItems.push({
+      id: "kargo",
+      name: `Kargo bedeli (${kargoDesiToplam} desi)`,
+      category1: "Kargo",
+      itemType: "PHYSICAL",
+      price: kargoTutar.toFixed(2),
+    });
 
     const basketTotal = basketItems.reduce(
       (s, b) => s + Math.round(parseFloat(b.price) * 100), 0

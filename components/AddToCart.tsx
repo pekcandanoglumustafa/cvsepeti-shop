@@ -27,7 +27,8 @@ export default function AddToCart({ product }: { product: Product }) {
         disabled={product.stock <= 0}
         onClick={() => {
           add({ slug: product.slug, name: product.name, price: product.price,
-                image: product.images[0] || "", stock: product.stock }, q);
+                image: product.images[0] || "", stock: product.stock,
+                desi: product.desi, kategori: product.category }, q);
           setOk(true); setTimeout(() => setOk(false), 1800);
         }}>
         {ok ? <><Check size={17} /> Eklendi</> : "Sepete ekle"}

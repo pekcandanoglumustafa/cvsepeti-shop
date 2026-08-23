@@ -22,7 +22,8 @@
   "color": "",
   "size": "30 cm",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT8045",
@@ -47,7 +48,8 @@
   "color": "",
   "size": "45 cm",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT9050",
@@ -72,7 +74,8 @@
   "color": "",
   "size": "50 cm",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT8070",
@@ -97,7 +100,8 @@
   "color": "",
   "size": "70 cm",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT8075",
@@ -122,7 +126,8 @@
   "color": "",
   "size": "75 cm",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT80100",
@@ -147,7 +152,8 @@
   "color": "",
   "size": "100 cm",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT14060",
@@ -172,7 +178,8 @@
   "color": "",
   "size": "",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT14060B",
@@ -197,7 +204,8 @@
   "color": "",
   "size": "",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "14060ECOB",
@@ -222,7 +230,8 @@
   "color": "",
   "size": "",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "8030ECO",
@@ -247,7 +256,8 @@
   "color": "",
   "size": "30 cm",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "8045ECO",
@@ -272,7 +282,8 @@
   "color": "",
   "size": "45 cm",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "7080ECO",
@@ -297,7 +308,8 @@
   "color": "",
   "size": "70 cm",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "8075ECO",
@@ -322,7 +334,8 @@
   "color": "",
   "size": "75 cm",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "80100ECO",
@@ -347,7 +360,8 @@
   "color": "",
   "size": "100 cm",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT648100",
@@ -372,7 +386,8 @@
   "color": "",
   "size": "100 cm",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "648100ECO",
@@ -397,7 +412,8 @@
   "color": "",
   "size": "100 cm",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT16015",
@@ -422,7 +438,8 @@
   "color": "",
   "size": "",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT16045",
@@ -447,7 +464,8 @@
   "color": "",
   "size": "45 cm",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "16045ECO",
@@ -472,7 +490,8 @@
   "color": "",
   "size": "45 cm",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT16075",
@@ -497,7 +516,8 @@
   "color": "",
   "size": "75 cm",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "16075ECO",
@@ -522,7 +542,8 @@
   "color": "",
   "size": "75 cm",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT12845",
@@ -547,7 +568,8 @@
   "color": "",
   "size": "45 cm",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "12845ECO",
@@ -572,7 +594,8 @@
   "color": "",
   "size": "45 cm",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT12875",
@@ -597,7 +620,8 @@
   "color": "",
   "size": "75 cm",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "12875ECO",
@@ -622,7 +646,8 @@
   "color": "",
   "size": "75 cm",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT63315R2",
@@ -647,7 +672,8 @@
   "color": "",
   "size": "63 cm",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT11015R4",
@@ -672,7 +698,8 @@
   "color": "",
   "size": "110 cm",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT204A",
@@ -697,7 +724,8 @@
   "color": "",
   "size": "",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT63100R2",
@@ -722,7 +750,8 @@
   "color": "",
   "size": "63 cm",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT110120R4",
@@ -747,7 +776,8 @@
   "color": "",
   "size": "110 cm",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT60408",
@@ -772,7 +802,8 @@
   "color": "",
   "size": "",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT75110 DA",
@@ -797,7 +828,8 @@
   "color": "",
   "size": "110 cm",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT75110 DAR",
@@ -822,7 +854,8 @@
   "color": "",
   "size": "110 cm",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT32110 DA",
@@ -847,7 +880,8 @@
   "color": "",
   "size": "110 cm",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT32110 DAR",
@@ -872,7 +906,8 @@
   "color": "",
   "size": "110 cm",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT7563 DA",
@@ -897,7 +932,8 @@
   "color": "",
   "size": "63 cm",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT7563 DAR",
@@ -922,7 +958,8 @@
   "color": "",
   "size": "63 cm",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT3263 DA",
@@ -947,7 +984,8 @@
   "color": "",
   "size": "63 cm",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT3263 DAR",
@@ -972,7 +1010,8 @@
   "color": "",
   "size": "63 cm",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT90315",
@@ -997,7 +1036,8 @@
   "color": "",
   "size": "32 cm",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT12575",
@@ -1022,7 +1062,8 @@
   "color": "",
   "size": "75 cm",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT12575R",
@@ -1047,7 +1088,8 @@
   "color": "",
   "size": "75 cm",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT90315R",
@@ -1072,7 +1114,8 @@
   "color": "",
   "size": "32 cm",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT75A",
@@ -1097,7 +1140,8 @@
   "color": "",
   "size": "75 cm",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT32A",
@@ -1122,7 +1166,8 @@
   "color": "",
   "size": "32 cm",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT110A",
@@ -1147,7 +1192,8 @@
   "color": "",
   "size": "110 cm",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT63A",
@@ -1172,7 +1218,8 @@
   "color": "",
   "size": "63 cm",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT502808R1",
@@ -1197,7 +1244,8 @@
   "color": "",
   "size": "50 cm",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT502808R2",
@@ -1222,7 +1270,8 @@
   "color": "",
   "size": "50 cm",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT502808A6R2",
@@ -1247,7 +1296,8 @@
   "color": "",
   "size": "50 cm",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT702808R2",
@@ -1272,7 +1322,8 @@
   "color": "",
   "size": "70 cm",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT702808A6R2",
@@ -1297,7 +1348,8 @@
   "color": "",
   "size": "70 cm",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT902808R2",
@@ -1322,7 +1374,8 @@
   "color": "",
   "size": "90 cm",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT902808A6R2",
@@ -1347,7 +1400,8 @@
   "color": "",
   "size": "90 cm",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT202A",
@@ -1372,7 +1426,8 @@
   "color": "",
   "size": "38 cm",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT203A",
@@ -1397,7 +1452,8 @@
   "color": "",
   "size": "48 cm",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT502804R2",
@@ -1422,7 +1478,8 @@
   "color": "",
   "size": "50 cm",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT502805R2",
@@ -1447,7 +1504,8 @@
   "color": "",
   "size": "50 cm",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT702804R2",
@@ -1472,7 +1530,8 @@
   "color": "",
   "size": "70 cm",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT702805R2",
@@ -1497,7 +1556,8 @@
   "color": "",
   "size": "70 cm",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT902804R2",
@@ -1522,7 +1582,8 @@
   "color": "",
   "size": "90 cm",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "502808R2ECO",
@@ -1547,7 +1608,8 @@
   "color": "",
   "size": "50 cm",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "502808A6R2ECO",
@@ -1572,7 +1634,8 @@
   "color": "",
   "size": "50 cm",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "702808R2ECO",
@@ -1597,7 +1660,8 @@
   "color": "",
   "size": "70 cm",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "702808A6R2ECO",
@@ -1622,7 +1686,8 @@
   "color": "",
   "size": "70 cm",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "902808R2ECO",
@@ -1647,7 +1712,8 @@
   "color": "",
   "size": "90 cm",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "902808A6R2ECO",
@@ -1672,7 +1738,8 @@
   "color": "",
   "size": "90 cm",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "502804R2ECO",
@@ -1697,7 +1764,8 @@
   "color": "",
   "size": "50 cm",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "702804R2ECO",
@@ -1722,7 +1790,8 @@
   "color": "",
   "size": "70 cm",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "902804R2ECO",
@@ -1747,7 +1816,8 @@
   "color": "",
   "size": "90 cm",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT650506",
@@ -1772,7 +1842,8 @@
   "color": "",
   "size": "65 cm",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT650506B",
@@ -1797,7 +1868,8 @@
   "color": "",
   "size": "65 cm",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT503208",
@@ -1822,7 +1894,8 @@
   "color": "",
   "size": "50 cm",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT503208A6",
@@ -1847,7 +1920,8 @@
   "color": "",
   "size": "50 cm",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT503204",
@@ -1872,7 +1946,8 @@
   "color": "",
   "size": "50 cm",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT40100",
@@ -1897,7 +1972,8 @@
   "color": "",
   "size": "100 cm",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT40100P",
@@ -1922,7 +1998,8 @@
   "color": "",
   "size": "100 cm",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT80150R",
@@ -1947,7 +2024,8 @@
   "color": "",
   "size": "",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT80150R FB",
@@ -1972,7 +2050,8 @@
   "color": "",
   "size": "",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT80150R FBP",
@@ -1997,7 +2076,8 @@
   "color": "",
   "size": "",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT60150R",
@@ -2022,7 +2102,8 @@
   "color": "",
   "size": "",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT60150R FB",
@@ -2047,7 +2128,8 @@
   "color": "",
   "size": "",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT60150R FBP",
@@ -2072,7 +2154,8 @@
   "color": "",
   "size": "",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT80150B",
@@ -2097,7 +2180,8 @@
   "color": "",
   "size": "",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT80150Y",
@@ -2122,7 +2206,8 @@
   "color": "",
   "size": "",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT6080",
@@ -2147,7 +2232,8 @@
   "color": "",
   "size": "80 cm",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT6060",
@@ -2172,7 +2258,8 @@
   "color": "",
   "size": "60 cm",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT404Y",
@@ -2197,7 +2284,8 @@
   "color": "",
   "size": "",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT404R",
@@ -2222,7 +2310,8 @@
   "color": "",
   "size": "",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT1560",
@@ -2247,7 +2336,8 @@
   "color": "",
   "size": "60 cm",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT15110",
@@ -2272,7 +2362,8 @@
   "color": "",
   "size": "110 cm",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT15190",
@@ -2297,7 +2388,8 @@
   "color": "",
   "size": "190 cm",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT1560Y",
@@ -2322,7 +2414,8 @@
   "color": "",
   "size": "60 cm",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT15110Y",
@@ -2347,7 +2440,8 @@
   "color": "",
   "size": "110 cm",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT15190Y",
@@ -2372,7 +2466,8 @@
   "color": "",
   "size": "190 cm",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT90140",
@@ -2397,7 +2492,8 @@
   "color": "",
   "size": "",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT90141",
@@ -2422,7 +2518,8 @@
   "color": "",
   "size": "",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT40400",
@@ -2447,7 +2544,8 @@
   "color": "",
   "size": "",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT40401",
@@ -2472,7 +2570,8 @@
   "color": "",
   "size": "",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT45600",
@@ -2497,7 +2596,8 @@
   "color": "",
   "size": "",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT45601",
@@ -2522,7 +2622,8 @@
   "color": "",
   "size": "",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT40300",
@@ -2547,7 +2648,8 @@
   "color": "",
   "size": "",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT40301",
@@ -2572,7 +2674,8 @@
   "color": "",
   "size": "",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT40300Y",
@@ -2597,7 +2700,8 @@
   "color": "",
   "size": "",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT40301Y",
@@ -2622,7 +2726,8 @@
   "color": "",
   "size": "",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT50250",
@@ -2647,7 +2752,8 @@
   "color": "",
   "size": "",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT50251",
@@ -2672,7 +2778,8 @@
   "color": "",
   "size": "",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT50250Y",
@@ -2697,7 +2804,8 @@
   "color": "",
   "size": "",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT50251Y",
@@ -2722,7 +2830,8 @@
   "color": "",
   "size": "",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT50500",
@@ -2747,7 +2856,8 @@
   "color": "",
   "size": "50 cm",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT50501",
@@ -2772,7 +2882,8 @@
   "color": "",
   "size": "50 cm",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT50500Y",
@@ -2797,7 +2908,8 @@
   "color": "",
   "size": "50 cm",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT50501Y",
@@ -2822,7 +2934,8 @@
   "color": "",
   "size": "50 cm",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT5000",
@@ -2847,7 +2960,8 @@
   "color": "",
   "size": "",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT5001",
@@ -2872,7 +2986,8 @@
   "color": "",
   "size": "",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT5002",
@@ -2897,7 +3012,8 @@
   "color": "",
   "size": "",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT452",
@@ -2922,7 +3038,8 @@
   "color": "",
   "size": "",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT452D",
@@ -2947,7 +3064,8 @@
   "color": "",
   "size": "",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT772",
@@ -2972,7 +3090,8 @@
   "color": "",
   "size": "",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT772S",
@@ -2997,7 +3116,8 @@
   "color": "",
   "size": "",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT772D",
@@ -3022,7 +3142,8 @@
   "color": "",
   "size": "",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT773",
@@ -3047,7 +3168,8 @@
   "color": "",
   "size": "",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT774",
@@ -3072,7 +3194,8 @@
   "color": "",
   "size": "",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT775",
@@ -3097,7 +3220,8 @@
   "color": "",
   "size": "",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT776",
@@ -3122,7 +3246,8 @@
   "color": "",
   "size": "",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT777",
@@ -3147,7 +3272,8 @@
   "color": "",
   "size": "",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT778",
@@ -3172,7 +3298,8 @@
   "color": "",
   "size": "",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT779",
@@ -3197,7 +3324,8 @@
   "color": "",
   "size": "",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT780",
@@ -3222,7 +3350,8 @@
   "color": "",
   "size": "",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT781",
@@ -3247,7 +3376,8 @@
   "color": "",
   "size": "",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT945",
@@ -3260,7 +3390,7 @@
   "images": [
    "/images/katalog/300x300-mm-kare-levha-zt945.png"
   ],
-  "desi": 2,
+  "desi": 1,
   "kod": "ZT945",
   "boyut": "300x300 mm",
   "malzeme": "",
@@ -3272,7 +3402,11 @@
   "color": "",
   "size": "300x300 mm",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": [
+   30.0,
+   30.0
+  ]
  },
  {
   "id": "ZT945S",
@@ -3297,7 +3431,8 @@
   "color": "",
   "size": "",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT945D",
@@ -3322,7 +3457,8 @@
   "color": "",
   "size": "",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT946",
@@ -3347,7 +3483,8 @@
   "color": "",
   "size": "",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT947",
@@ -3372,7 +3509,8 @@
   "color": "",
   "size": "",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT948",
@@ -3397,7 +3535,8 @@
   "color": "",
   "size": "",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT949",
@@ -3422,7 +3561,8 @@
   "color": "",
   "size": "",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT950",
@@ -3447,7 +3587,8 @@
   "color": "",
   "size": "",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT951",
@@ -3472,7 +3613,8 @@
   "color": "",
   "size": "",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT952",
@@ -3497,7 +3639,8 @@
   "color": "",
   "size": "",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT345",
@@ -3510,7 +3653,7 @@
   "images": [
    "/images/katalog/340x400-mm-dikdortgen-levha-zt345.png"
   ],
-  "desi": 2,
+  "desi": 1,
   "kod": "ZT345",
   "boyut": "340x400 mm",
   "malzeme": "",
@@ -3522,7 +3665,11 @@
   "color": "",
   "size": "340x400 mm",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": [
+   34.0,
+   40.0
+  ]
  },
  {
   "id": "ZT345S",
@@ -3547,7 +3694,8 @@
   "color": "",
   "size": "",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT345D",
@@ -3572,7 +3720,8 @@
   "color": "",
   "size": "",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT346",
@@ -3597,7 +3746,8 @@
   "color": "",
   "size": "",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT347",
@@ -3622,7 +3772,8 @@
   "color": "",
   "size": "",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT348",
@@ -3647,7 +3798,8 @@
   "color": "",
   "size": "",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT349",
@@ -3672,7 +3824,8 @@
   "color": "",
   "size": "",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT350",
@@ -3697,7 +3850,8 @@
   "color": "",
   "size": "",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT351",
@@ -3722,7 +3876,8 @@
   "color": "",
   "size": "",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT352",
@@ -3747,7 +3902,8 @@
   "color": "",
   "size": "",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT353",
@@ -3772,7 +3928,8 @@
   "color": "",
   "size": "",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT354",
@@ -3797,7 +3954,8 @@
   "color": "",
   "size": "",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT355",
@@ -3822,7 +3980,8 @@
   "color": "",
   "size": "",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT356",
@@ -3847,7 +4006,8 @@
   "color": "",
   "size": "",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT357",
@@ -3872,7 +4032,8 @@
   "color": "",
   "size": "",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT358",
@@ -3897,7 +4058,8 @@
   "color": "",
   "size": "",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT359",
@@ -3922,7 +4084,8 @@
   "color": "",
   "size": "",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT537",
@@ -3947,7 +4110,8 @@
   "color": "",
   "size": "280 mm",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT537S",
@@ -3972,7 +4136,8 @@
   "color": "",
   "size": "",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT537D",
@@ -3997,7 +4162,8 @@
   "color": "",
   "size": "",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT538",
@@ -4022,7 +4188,8 @@
   "color": "",
   "size": "",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT539",
@@ -4047,7 +4214,8 @@
   "color": "",
   "size": "",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT540",
@@ -4072,7 +4240,8 @@
   "color": "",
   "size": "",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT541",
@@ -4097,7 +4266,8 @@
   "color": "",
   "size": "",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT542",
@@ -4122,7 +4292,8 @@
   "color": "",
   "size": "",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT543",
@@ -4147,7 +4318,8 @@
   "color": "",
   "size": "",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT544",
@@ -4172,7 +4344,8 @@
   "color": "",
   "size": "",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT545D",
@@ -4197,7 +4370,8 @@
   "color": "",
   "size": "",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT546",
@@ -4222,7 +4396,8 @@
   "color": "",
   "size": "",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT547",
@@ -4247,7 +4422,8 @@
   "color": "",
   "size": "",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT637",
@@ -4272,7 +4448,8 @@
   "color": "",
   "size": "380 mm",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT637S",
@@ -4297,7 +4474,8 @@
   "color": "",
   "size": "",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT637D",
@@ -4322,7 +4500,8 @@
   "color": "",
   "size": "",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT638",
@@ -4347,7 +4526,8 @@
   "color": "",
   "size": "",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT639",
@@ -4372,7 +4552,8 @@
   "color": "",
   "size": "",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT640",
@@ -4397,7 +4578,8 @@
   "color": "",
   "size": "",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT641",
@@ -4422,7 +4604,8 @@
   "color": "",
   "size": "",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT642",
@@ -4447,7 +4630,8 @@
   "color": "",
   "size": "",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT643",
@@ -4472,7 +4656,8 @@
   "color": "",
   "size": "",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT644",
@@ -4497,7 +4682,8 @@
   "color": "",
   "size": "",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT645D",
@@ -4522,7 +4708,8 @@
   "color": "",
   "size": "",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT646",
@@ -4547,7 +4734,8 @@
   "color": "",
   "size": "",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT9003",
@@ -4572,7 +4760,8 @@
   "color": "",
   "size": "",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT9004",
@@ -4597,7 +4786,8 @@
   "color": "",
   "size": "",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT9003B",
@@ -4622,7 +4812,8 @@
   "color": "",
   "size": "",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT9004B",
@@ -4647,7 +4838,8 @@
   "color": "",
   "size": "",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT9005",
@@ -4672,7 +4864,8 @@
   "color": "",
   "size": "40 cm",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT9006",
@@ -4697,7 +4890,8 @@
   "color": "",
   "size": "40 cm",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT9005B",
@@ -4722,7 +4916,8 @@
   "color": "",
   "size": "40 cm",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT9006B",
@@ -4747,7 +4942,8 @@
   "color": "",
   "size": "40 cm",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT8001",
@@ -4772,7 +4968,8 @@
   "color": "",
   "size": "",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT8002",
@@ -4797,7 +4994,8 @@
   "color": "",
   "size": "",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT501A",
@@ -4822,7 +5020,8 @@
   "color": "",
   "size": "",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT502A",
@@ -4847,7 +5046,8 @@
   "color": "",
   "size": "",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT503A",
@@ -4872,7 +5072,8 @@
   "color": "",
   "size": "",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT511A",
@@ -4897,7 +5098,8 @@
   "color": "",
   "size": "",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT512A",
@@ -4922,7 +5124,8 @@
   "color": "",
   "size": "",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT513A",
@@ -4947,7 +5150,8 @@
   "color": "",
   "size": "",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT80A",
@@ -4972,7 +5176,11 @@
   "color": "",
   "size": "110 mm",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": [
+   1.0,
+   11.0
+  ]
  },
  {
   "id": "ZT90A",
@@ -4997,7 +5205,11 @@
   "color": "",
   "size": "",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": [
+   1.6,
+   9.0
+  ]
  },
  {
   "id": "ZT100A",
@@ -5022,7 +5234,8 @@
   "color": "",
   "size": "",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT330A",
@@ -5047,7 +5260,8 @@
   "color": "",
   "size": "",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT330A-W",
@@ -5072,7 +5286,8 @@
   "color": "",
   "size": "",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT102A",
@@ -5097,7 +5312,8 @@
   "color": "",
   "size": "",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT102A-B",
@@ -5122,7 +5338,8 @@
   "color": "",
   "size": "",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZT102A-W",
@@ -5147,7 +5364,8 @@
   "color": "",
   "size": "",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZTR400",
@@ -5160,7 +5378,7 @@
   "images": [
    "/images/katalog/40x50-cm-kaucuk-kasis-ztr400.png"
   ],
-  "desi": 10,
+  "desi": 5,
   "kod": "ZTR400",
   "boyut": "50 cm",
   "malzeme": "Kauçuk",
@@ -5172,7 +5390,11 @@
   "color": "",
   "size": "50 cm",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": [
+   40.0,
+   50.0
+  ]
  },
  {
   "id": "ZTR401",
@@ -5197,7 +5419,8 @@
   "color": "",
   "size": "",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZTR500",
@@ -5210,7 +5433,7 @@
   "images": [
    "/images/katalog/40x50-cm-kaucuk-kasis-ztr500.png"
   ],
-  "desi": 10,
+  "desi": 5,
   "kod": "ZTR500",
   "boyut": "50 cm",
   "malzeme": "Kauçuk",
@@ -5222,7 +5445,11 @@
   "color": "",
   "size": "50 cm",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": [
+   40.0,
+   50.0
+  ]
  },
  {
   "id": "ZTR501",
@@ -5247,7 +5474,8 @@
   "color": "",
   "size": "",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZTR600",
@@ -5260,7 +5488,7 @@
   "images": [
    "/images/katalog/50x60-cm-kaucuk-kasis-ztr600.png"
   ],
-  "desi": 10,
+  "desi": 7,
   "kod": "ZTR600",
   "boyut": "60 cm",
   "malzeme": "Kauçuk",
@@ -5272,7 +5500,11 @@
   "color": "",
   "size": "60 cm",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": [
+   50.0,
+   60.0
+  ]
  },
  {
   "id": "ZTR601",
@@ -5297,7 +5529,8 @@
   "color": "",
   "size": "",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZTR900",
@@ -5310,7 +5543,7 @@
   "images": [
    "/images/katalog/50x90-cm-kaucuk-kasis-ztr900.png"
   ],
-  "desi": 10,
+  "desi": 11,
   "kod": "ZTR900",
   "boyut": "90 cm",
   "malzeme": "Kauçuk",
@@ -5322,7 +5555,11 @@
   "color": "",
   "size": "90 cm",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": [
+   50.0,
+   90.0
+  ]
  },
  {
   "id": "ZTR901",
@@ -5347,7 +5584,8 @@
   "color": "",
   "size": "",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZTR6012",
@@ -5372,7 +5610,8 @@
   "color": "",
   "size": "",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZTR18015",
@@ -5397,7 +5636,8 @@
   "color": "",
   "size": "",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZTR1280",
@@ -5422,7 +5662,8 @@
   "color": "",
   "size": "",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZTR1281",
@@ -5447,7 +5688,8 @@
   "color": "",
   "size": "",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZTR105",
@@ -5472,7 +5714,8 @@
   "color": "",
   "size": "",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZTR102",
@@ -5497,7 +5740,8 @@
   "color": "",
   "size": "",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZTMB01",
@@ -5522,7 +5766,8 @@
   "color": "",
   "size": "",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZTM01",
@@ -5547,7 +5792,8 @@
   "color": "",
   "size": "",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZTM05",
@@ -5572,7 +5818,8 @@
   "color": "",
   "size": "",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZTM7583Y",
@@ -5597,7 +5844,8 @@
   "color": "",
   "size": "",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZTM18012",
@@ -5622,7 +5870,8 @@
   "color": "",
   "size": "",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "ZTM18012B",
@@ -5647,7 +5896,8 @@
   "color": "",
   "size": "",
   "dims": "",
-  "tedarikci": "ZEPLIN"
+  "tedarikci": "ZEPLIN",
+  "olcu_cm": []
  },
  {
   "id": "EV-12520 FB R",
@@ -5660,7 +5910,7 @@
   "images": [
    "/images/katalog/kedi-gozlu-guvenlik-bariyeri-hxlxw-60x100x40-cm-12520-fb-r.png"
   ],
-  "desi": 40,
+  "desi": 48,
   "kod": "12520 FB R",
   "boyut": "60 × 100 × 40 cm",
   "malzeme": "PPC",
@@ -5672,7 +5922,12 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "60 × 100 × 40 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   60.0,
+   100.0,
+   40.0
+  ]
  },
  {
   "id": "EV-12526 FB R",
@@ -5685,7 +5940,7 @@
   "images": [
    "/images/katalog/solar-flasorlu-guvenlik-bariyeri-hxlxw-60x100x40-cm-12526-fb-r.png"
   ],
-  "desi": 40,
+  "desi": 48,
   "kod": "12526 FB R",
   "boyut": "60 × 100 × 40 cm",
   "malzeme": "PPC",
@@ -5697,7 +5952,12 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "60 × 100 × 40 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   60.0,
+   100.0,
+   40.0
+  ]
  },
  {
   "id": "EV-12524 FB R",
@@ -5710,7 +5970,7 @@
   "images": [
    "/images/katalog/delinatorlu-guvenlik-bariyeri-hxlxw-100x100x40-cm-12524-fb-r.png"
   ],
-  "desi": 67,
+  "desi": 80,
   "kod": "12524 FB R",
   "boyut": "100 × 100 × 40 cm",
   "malzeme": "PPC",
@@ -5722,7 +5982,12 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "100 × 100 × 40 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   100.0,
+   100.0,
+   40.0
+  ]
  },
  {
   "id": "EV-12522 FB R",
@@ -5747,7 +6012,12 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "120 × 100 × 40 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   120.0,
+   100.0,
+   40.0
+  ]
  },
  {
   "id": "EV-12534 FB ST",
@@ -5760,7 +6030,7 @@
   "images": [
    "/images/katalog/metal-guvenlik-barikati-hxl-110x200-cm-12534-fb-st.png"
   ],
-  "desi": 15,
+  "desi": 53,
   "kod": "12534 FB ST",
   "boyut": "110 × 200 cm",
   "malzeme": "Metal-Ø32x2mm Yuvarlak Boru",
@@ -5772,7 +6042,11 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "110 × 200 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   110.0,
+   200.0
+  ]
  },
  {
   "id": "EV-12511 FB R",
@@ -5785,7 +6059,7 @@
   "images": [
    "/images/katalog/guvenlik-barikati-hxl-100x150-cm-12511-fb-r.png"
   ],
-  "desi": 10,
+  "desi": 36,
   "kod": "12511 FB R",
   "boyut": "100 × 150 cm",
   "malzeme": "PPC",
@@ -5797,7 +6071,11 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "100 × 150 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   100.0,
+   150.0
+  ]
  },
  {
   "id": "EV-12510 FB R",
@@ -5810,7 +6088,7 @@
   "images": [
    "/images/katalog/guvenlik-barikati-hxl-100x150-cm-12510-fb-r.png"
   ],
-  "desi": 12,
+  "desi": 36,
   "kod": "12510 FB R",
   "boyut": "100 × 150 cm",
   "malzeme": "PPC",
@@ -5822,7 +6100,11 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "100 × 150 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   100.0,
+   150.0
+  ]
  },
  {
   "id": "EV-12514 FB R",
@@ -5835,7 +6117,7 @@
   "images": [
    "/images/katalog/guvenlik-barikati-hxl-100x150-cm-12514-fb-r.png"
   ],
-  "desi": 12,
+  "desi": 36,
   "kod": "12514 FB R",
   "boyut": "100 × 150 cm",
   "malzeme": "PPC",
@@ -5847,7 +6129,11 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "100 × 150 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   100.0,
+   150.0
+  ]
  },
  {
   "id": "EV-12518 FB R",
@@ -5860,7 +6146,7 @@
   "images": [
    "/images/katalog/guvenlik-barikati-hxl-100x150-cm-12518-fb-r.png"
   ],
-  "desi": 12,
+  "desi": 36,
   "kod": "12518 FB R",
   "boyut": "100 × 150 cm",
   "malzeme": "PPC",
@@ -5872,7 +6158,11 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "100 × 150 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   100.0,
+   150.0
+  ]
  },
  {
   "id": "EV-12516 FB R",
@@ -5885,7 +6175,7 @@
   "images": [
    "/images/katalog/guvenlik-barikati-hxl-100x150-cm-12516-fb-r.png"
   ],
-  "desi": 12,
+  "desi": 36,
   "kod": "12516 FB R",
   "boyut": "100 × 150 cm",
   "malzeme": "PPC",
@@ -5897,7 +6187,11 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "100 × 150 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   100.0,
+   150.0
+  ]
  },
  {
   "id": "EV-12513 FB R",
@@ -5910,7 +6204,7 @@
   "images": [
    "/images/katalog/levhali-guvenlik-barikati-hxl-100x150-cm-12513-fb-r.png"
   ],
-  "desi": 12,
+  "desi": 36,
   "kod": "12513 FB R",
   "boyut": "100 × 150 cm",
   "malzeme": "PPC",
@@ -5922,7 +6216,11 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "100 × 150 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   100.0,
+   150.0
+  ]
  },
  {
   "id": "EV-12517 FB R",
@@ -5935,7 +6233,7 @@
   "images": [
    "/images/katalog/levhali-guvenlik-barikati-hxl-100x150-cm-12517-fb-r.png"
   ],
-  "desi": 12,
+  "desi": 36,
   "kod": "12517 FB R",
   "boyut": "100 × 150 cm",
   "malzeme": "PPC",
@@ -5947,7 +6245,11 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "100 × 150 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   100.0,
+   150.0
+  ]
  },
  {
   "id": "EV-12500 FB R",
@@ -5960,7 +6262,7 @@
   "images": [
    "/images/katalog/katlanir-uyari-levhali-bariyer-hxw-150x110-cm-12500-fb-r.png"
   ],
-  "desi": 18,
+  "desi": 40,
   "kod": "12500 FB R",
   "boyut": "150 × 110 cm",
   "malzeme": "PPC",
@@ -5972,7 +6274,11 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "150 × 110 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   150.0,
+   110.0
+  ]
  },
  {
   "id": "EV-12501 FB R",
@@ -5985,7 +6291,7 @@
   "images": [
    "/images/katalog/katlanir-uyari-levhali-bariyer-hxw-90x115-cm-12501-fb-r.png"
   ],
-  "desi": 20,
+  "desi": 25,
   "kod": "12501 FB R",
   "boyut": "90 × 115 cm",
   "malzeme": "PPC",
@@ -5997,7 +6303,11 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "90 × 115 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   90.0,
+   115.0
+  ]
  },
  {
   "id": "EV-12503 FB R",
@@ -6022,7 +6332,11 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "110 × 55 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   110.0,
+   55.0
+  ]
  },
  {
   "id": "EV-12504 FB R",
@@ -6035,7 +6349,7 @@
   "images": [
    "/images/katalog/katlanir-uyari-levhali-bariyer-hxw-110x250-cm-12504-fb-r.png"
   ],
-  "desi": 37,
+  "desi": 66,
   "kod": "12504 FB R",
   "boyut": "110 × 250 cm",
   "malzeme": "PPC",
@@ -6047,7 +6361,11 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "110 × 250 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   110.0,
+   250.0
+  ]
  },
  {
   "id": "EV-12423 DB R A",
@@ -6060,7 +6378,7 @@
   "images": [
    "/images/katalog/ultra-levhali-uyari-dubasi-hxw-90x49-cm-12423-db-r-a.png"
   ],
-  "desi": 8,
+  "desi": 11,
   "kod": "12423 DB R A",
   "boyut": "90 × 49 cm",
   "malzeme": "PPC",
@@ -6072,7 +6390,11 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "90 × 49 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   90.0,
+   49.0
+  ]
  },
  {
   "id": "EV-12417 DB R",
@@ -6085,7 +6407,7 @@
   "images": [
    "/images/katalog/katlanir-uyari-levhali-bariyer-hxw-90x60-cm-12417-db-r.png"
   ],
-  "desi": 12,
+  "desi": 13,
   "kod": "12417 DB R",
   "boyut": "90 × 60 cm",
   "malzeme": "PPC",
@@ -6097,7 +6419,11 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "90 × 60 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   90.0,
+   60.0
+  ]
  },
  {
   "id": "EV-12410 DB R",
@@ -6122,7 +6448,11 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "31 × 48 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   31.0,
+   48.0
+  ]
  },
  {
   "id": "EV-12415 DB R",
@@ -6147,7 +6477,11 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "31 × 48 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   31.0,
+   48.0
+  ]
  },
  {
   "id": "EV-12416 DB R",
@@ -6172,7 +6506,11 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "22 × 45 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   22.0,
+   45.0
+  ]
  },
  {
   "id": "EV-12442 DB R",
@@ -6197,7 +6535,11 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "100 × 25 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   100.0,
+   25.0
+  ]
  },
  {
   "id": "EV-12444 DB R",
@@ -6222,7 +6564,11 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "100 × 25 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   100.0,
+   25.0
+  ]
  },
  {
   "id": "EV-12405 DB R",
@@ -6235,7 +6581,7 @@
   "images": [
    "/images/katalog/dubali-uyari-levhali-bariyer-hxl-120x180-cm-12405-db-r.png"
   ],
-  "desi": 31,
+  "desi": 52,
   "kod": "12405 DB R",
   "boyut": "120 × 180 cm",
   "malzeme": "PPC",
@@ -6247,7 +6593,11 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "120 × 180 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   120.0,
+   180.0
+  ]
  },
  {
   "id": "EV-12407 DB R",
@@ -6260,7 +6610,7 @@
   "images": [
    "/images/katalog/dubali-uyari-levhali-bariyer-hxl-120x180-cm-12407-db-r.png"
   ],
-  "desi": 27,
+  "desi": 52,
   "kod": "12407 DB R",
   "boyut": "120 × 180 cm",
   "malzeme": "PPC",
@@ -6272,7 +6622,11 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "120 × 180 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   120.0,
+   180.0
+  ]
  },
  {
   "id": "EV-12404 DB R",
@@ -6297,7 +6651,8 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": []
  },
  {
   "id": "EV-12420 DB R",
@@ -6322,7 +6677,8 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": []
  },
  {
   "id": "EV-12430 DB R",
@@ -6347,7 +6703,8 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": []
  },
  {
   "id": "EV-12403-1 DB R",
@@ -6372,7 +6729,8 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": []
  },
  {
   "id": "EV-12409-1 DB R",
@@ -6397,7 +6755,8 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": []
  },
  {
   "id": "EV-12435 DB",
@@ -6422,7 +6781,8 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": []
  },
  {
   "id": "EV-11811 FL S",
@@ -6435,7 +6795,7 @@
   "images": [
    "/images/katalog/solar-flasorlu-ledli-lamba-hxw-30x24-cm-sari-led-11811-fl-s.png"
   ],
-  "desi": 1,
+  "desi": 2,
   "kod": "11811 FL S",
   "boyut": "30 × 24 cm",
   "malzeme": "ABS",
@@ -6447,7 +6807,11 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "30 × 24 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   30.0,
+   24.0
+  ]
  },
  {
   "id": "EV-11813 FL K",
@@ -6460,7 +6824,7 @@
   "images": [
    "/images/katalog/solar-flasorlu-ledli-lamba-hxw-30x24-cm-kirmizi-led-11813-fl-k.png"
   ],
-  "desi": 1,
+  "desi": 2,
   "kod": "11813 FL K",
   "boyut": "30 × 24 cm",
   "malzeme": "ABS",
@@ -6472,7 +6836,11 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "30 × 24 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   30.0,
+   24.0
+  ]
  },
  {
   "id": "EV-11825 FL S",
@@ -6485,7 +6853,7 @@
   "images": [
    "/images/katalog/solar-flasorlu-ledli-lamba-hxw-29x22-cm-sari-led-11825-fl-s.png"
   ],
-  "desi": 1,
+  "desi": 2,
   "kod": "11825 FL S",
   "boyut": "29 × 22 cm",
   "malzeme": "ABS",
@@ -6497,7 +6865,11 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "29 × 22 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   29.0,
+   22.0
+  ]
  },
  {
   "id": "EV-11827 FL K",
@@ -6510,7 +6882,7 @@
   "images": [
    "/images/katalog/solar-flasorlu-ledli-lamba-hxw-29x22-cm-kirmizi-led-11827-fl-k.png"
   ],
-  "desi": 1,
+  "desi": 2,
   "kod": "11827 FL K",
   "boyut": "29 × 22 cm",
   "malzeme": "ABS",
@@ -6522,7 +6894,11 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "29 × 22 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   29.0,
+   22.0
+  ]
  },
  {
   "id": "EV-11814 FL S",
@@ -6547,7 +6923,11 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "27 × 22 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   27.0,
+   22.0
+  ]
  },
  {
   "id": "EV-11816 FL K",
@@ -6572,7 +6952,11 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "27 × 22 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   27.0,
+   22.0
+  ]
  },
  {
   "id": "EV-11817 FL K",
@@ -6597,7 +6981,8 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": []
  },
  {
   "id": "EV-11819 FL S",
@@ -6622,7 +7007,8 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": []
  },
  {
   "id": "EV-11821 FL M",
@@ -6647,7 +7033,8 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": []
  },
  {
   "id": "EV-11855 FL KM",
@@ -6672,7 +7059,11 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "17 × 30 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   17.0,
+   30.0
+  ]
  },
  {
   "id": "EV-11856 FL S",
@@ -6697,7 +7088,11 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "17 × 30 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   17.0,
+   30.0
+  ]
  },
  {
   "id": "EV-11858 FL S",
@@ -6722,7 +7117,11 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "32 × 18 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   32.0,
+   18.0
+  ]
  },
  {
   "id": "EV-11851 FL S",
@@ -6747,7 +7146,11 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "70 × 40 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   70.0,
+   40.0
+  ]
  },
  {
   "id": "EV-11853 FL K",
@@ -6772,7 +7175,11 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "70 × 40 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   70.0,
+   40.0
+  ]
  },
  {
   "id": "EV-11850 FL S",
@@ -6797,7 +7204,11 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "70 × 40 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   70.0,
+   40.0
+  ]
  },
  {
   "id": "EV-11852 FL K",
@@ -6822,7 +7233,11 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "70 × 40 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   70.0,
+   40.0
+  ]
  },
  {
   "id": "EV-11862 FL S",
@@ -6847,7 +7262,11 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "70 × 40 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   70.0,
+   40.0
+  ]
  },
  {
   "id": "EV-11860 FL S",
@@ -6872,7 +7291,11 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "70 × 40 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   70.0,
+   40.0
+  ]
  },
  {
   "id": "EV-11882 FL A",
@@ -6885,7 +7308,7 @@
   "images": [
    "/images/katalog/ac-ledli-levha-hxw-40x40-cm-sari-led-11882-fl-a.png"
   ],
-  "desi": 3,
+  "desi": 4,
   "kod": "11882 FL A",
   "boyut": "40 × 40 cm",
   "malzeme": "PC",
@@ -6897,7 +7320,11 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "40 × 40 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   40.0,
+   40.0
+  ]
  },
  {
   "id": "EV-11883 FL A",
@@ -6910,7 +7337,7 @@
   "images": [
    "/images/katalog/ac-ledli-levha-hxw-40x40-cm-sari-led-11883-fl-a.png"
   ],
-  "desi": 3,
+  "desi": 4,
   "kod": "11883 FL A",
   "boyut": "40 × 40 cm",
   "malzeme": "PC",
@@ -6922,7 +7349,11 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "40 × 40 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   40.0,
+   40.0
+  ]
  },
  {
   "id": "EV-11885 FL A",
@@ -6935,7 +7366,7 @@
   "images": [
    "/images/katalog/ledli-lamba-hxw-40x40-cm-sari-led-11885-fl-a.png"
   ],
-  "desi": 3,
+  "desi": 4,
   "kod": "11885 FL A",
   "boyut": "40 × 40 cm",
   "malzeme": "PC",
@@ -6947,7 +7378,11 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "40 × 40 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   40.0,
+   40.0
+  ]
  },
  {
   "id": "EV-11884 FL A",
@@ -6960,7 +7395,7 @@
   "images": [
    "/images/katalog/ac-ledli-yol-bakim-levhalari-hxw-60x60-cm-led-panel-60x60-cm-mal.png"
   ],
-  "desi": 2,
+  "desi": 9,
   "kod": "11884 FL A",
   "boyut": "60 × 60 cm",
   "malzeme": "",
@@ -6972,7 +7407,11 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "60 × 60 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   60.0,
+   60.0
+  ]
  },
  {
   "id": "EV-11800 FL\n(SERİSİ)",
@@ -6985,7 +7424,7 @@
   "images": [
    "/images/katalog/solar-ledli-yol-bakim-levhalari-hxw-90x60-cm-11800-fl-serisi.png"
   ],
-  "desi": 10,
+  "desi": 13,
   "kod": "11800 FL\n(SERİSİ)",
   "boyut": "90 × 60 cm",
   "malzeme": "PC - Ağırlık: 9.8 kg",
@@ -6997,7 +7436,11 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "90 × 60 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   90.0,
+   60.0
+  ]
  },
  {
   "id": "EV-21800 FL\n(SERİSİ)",
@@ -7010,7 +7453,7 @@
   "images": [
    "/images/katalog/solar-ledli-yol-bakim-levhalari-hxw-90x60-cm-21800-fl-serisi.png"
   ],
-  "desi": 10,
+  "desi": 13,
   "kod": "21800 FL\n(SERİSİ)",
   "boyut": "90 × 60 cm",
   "malzeme": "PC - Ağırlık: 9.8 kg",
@@ -7022,7 +7465,11 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "90 × 60 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   90.0,
+   60.0
+  ]
  },
  {
   "id": "EV-11600 S-LD\n(SERİSİ)",
@@ -7035,7 +7482,7 @@
   "images": [
    "/images/katalog/solar-ledli-yol-bakim-levhalari-hxw-90x60-cm-11600-s-ld-serisi.png"
   ],
-  "desi": 10,
+  "desi": 13,
   "kod": "11600 S-LD\n(SERİSİ)",
   "boyut": "90 × 60 cm",
   "malzeme": "AL - Ağırlık: 9.7 kg",
@@ -7047,7 +7494,11 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "90 × 60 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   90.0,
+   60.0
+  ]
  },
  {
   "id": "EV-11700 S-LD\n(SERİSİ)",
@@ -7060,7 +7511,7 @@
   "images": [
    "/images/katalog/solar-ledli-yol-bakim-levhalari-hxw-130x100-cm-11700-s-ld-serisi.png"
   ],
-  "desi": 16,
+  "desi": 31,
   "kod": "11700 S-LD\n(SERİSİ)",
   "boyut": "130 × 100 cm",
   "malzeme": "AL - Ağırlık: 16.5kg",
@@ -7072,7 +7523,11 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "130 × 100 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   130.0,
+   100.0
+  ]
  },
  {
   "id": "EV-11750 S-LD",
@@ -7085,7 +7540,7 @@
   "images": [
    "/images/katalog/solar-ledli-yol-bakim-levhasi-hxw-80x150-cm-11750-s-ld.png"
   ],
-  "desi": 14,
+  "desi": 29,
   "kod": "11750 S-LD",
   "boyut": "80 × 150 cm",
   "malzeme": "AL - Ağırlık: 14.0 kg",
@@ -7097,7 +7552,11 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "80 × 150 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   80.0,
+   150.0
+  ]
  },
  {
   "id": "EV-11778 S-LD",
@@ -7110,7 +7569,7 @@
   "images": [
    "/images/katalog/solar-ledli-yol-bakim-levhasi-hxw-130x100-cm-11778-s-ld.png"
   ],
-  "desi": 16,
+  "desi": 31,
   "kod": "11778 S-LD",
   "boyut": "130 × 100 cm",
   "malzeme": "AL - Ağırlık: 16.5 kg",
@@ -7122,7 +7581,11 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "130 × 100 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   130.0,
+   100.0
+  ]
  },
  {
   "id": "EV-12325 TK R2",
@@ -7147,7 +7610,8 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": []
  },
  {
   "id": "EV-12327 TK A R2",
@@ -7172,7 +7636,8 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": []
  },
  {
   "id": "EV-12393 TK R2",
@@ -7197,7 +7662,8 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": []
  },
  {
   "id": "EV-12395 TK A R2",
@@ -7222,7 +7688,8 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": []
  },
  {
   "id": "EV-12309 TK R2",
@@ -7247,7 +7714,8 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": []
  },
  {
   "id": "EV-12315 TK A R2",
@@ -7272,7 +7740,8 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": []
  },
  {
   "id": "EV-12387 TK R2",
@@ -7297,7 +7766,8 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": []
  },
  {
   "id": "EV-12389 TK A R2",
@@ -7322,7 +7792,8 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": []
  },
  {
   "id": "EV-12306 TK R1",
@@ -7347,7 +7818,8 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": []
  },
  {
   "id": "EV-12326 TK A R1",
@@ -7372,7 +7844,8 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": []
  },
  {
   "id": "EV-12364 TK R1",
@@ -7397,7 +7870,8 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": []
  },
  {
   "id": "EV-12384 TK A R1",
@@ -7422,7 +7896,8 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": []
  },
  {
   "id": "EV-12337 TK R2",
@@ -7447,7 +7922,8 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": []
  },
  {
   "id": "EV-12332 TK R2",
@@ -7472,7 +7948,8 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": []
  },
  {
   "id": "EV-12376 TK R2",
@@ -7497,7 +7974,8 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": []
  },
  {
   "id": "EV-12370 TK R2",
@@ -7522,7 +8000,8 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": []
  },
  {
   "id": "EV-12331 TK R2",
@@ -7547,7 +8026,8 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": []
  },
  {
   "id": "EV-12318 TK R1",
@@ -7572,7 +8052,8 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": []
  },
  {
   "id": "EV-12316 TK R2",
@@ -7597,7 +8078,8 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": []
  },
  {
   "id": "EV-12303 TK R1",
@@ -7622,7 +8104,8 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": []
  },
  {
   "id": "EV-12362 TK R1",
@@ -7647,7 +8130,8 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": []
  },
  {
   "id": "EV-12386 TK R2",
@@ -7672,7 +8156,8 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": []
  },
  {
   "id": "EV-12388 TK A R2",
@@ -7697,7 +8182,8 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": []
  },
  {
   "id": "EV-12300 TK",
@@ -7722,7 +8208,8 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": []
  },
  {
   "id": "EV-12301 TK A",
@@ -7747,7 +8234,8 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": []
  },
  {
   "id": "EV-12302 TK",
@@ -7772,7 +8260,8 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": []
  },
  {
   "id": "EV-12350 TK",
@@ -7797,7 +8286,8 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": []
  },
  {
   "id": "EV-12351 TK A",
@@ -7822,7 +8312,8 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": []
  },
  {
   "id": "EV-12352 TK A",
@@ -7847,7 +8338,8 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": []
  },
  {
   "id": "EV-12353 TK A",
@@ -7872,7 +8364,8 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": []
  },
  {
   "id": "EV-12354 TK A",
@@ -7897,7 +8390,8 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": []
  },
  {
   "id": "EV-12431 DB",
@@ -7922,7 +8416,11 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "90 × 60 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   90.0,
+   60.0
+  ]
  },
  {
   "id": "EV-12429 DB A",
@@ -7935,7 +8433,7 @@
   "images": [
    "/images/katalog/levhali-reklam-dubasi-hxw-90x49-cm-12429-db-a.png"
   ],
-  "desi": 8,
+  "desi": 11,
   "kod": "12429 DB A",
   "boyut": "90 × 49 cm",
   "malzeme": "PPC",
@@ -7947,7 +8445,11 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "90 × 49 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   90.0,
+   49.0
+  ]
  },
  {
   "id": "EV-12426 DB A",
@@ -7960,7 +8462,7 @@
   "images": [
    "/images/katalog/levhali-reklam-dubasi-hxw-90x49-cm-12426-db-a.png"
   ],
-  "desi": 8,
+  "desi": 11,
   "kod": "12426 DB A",
   "boyut": "90 × 49 cm",
   "malzeme": "PPC",
@@ -7972,7 +8474,11 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "90 × 49 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   90.0,
+   49.0
+  ]
  },
  {
   "id": "EV-12427 DB A",
@@ -7985,7 +8491,7 @@
   "images": [
    "/images/katalog/levhali-reklam-dubasi-hxw-90x49-cm-12427-db-a.png"
   ],
-  "desi": 8,
+  "desi": 11,
   "kod": "12427 DB A",
   "boyut": "90 × 49 cm",
   "malzeme": "PPC",
@@ -7997,7 +8503,11 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "90 × 49 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   90.0,
+   49.0
+  ]
  },
  {
   "id": "EV-12424 DB F A",
@@ -8010,7 +8520,7 @@
   "images": [
    "/images/katalog/levhali-reklam-dubasi-hxw-90x49-cm-iki-yonde-uyari-12424-db-f-a.png"
   ],
-  "desi": 8,
+  "desi": 11,
   "kod": "12424 DB F A",
   "boyut": "90 × 49 cm",
   "malzeme": "PPC",
@@ -8022,7 +8532,11 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "90 × 49 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   90.0,
+   49.0
+  ]
  },
  {
   "id": "EV-12421 DB F A",
@@ -8035,7 +8549,7 @@
   "images": [
    "/images/katalog/levhali-reklam-dubasi-hxw-90x49-cm-iki-yonde-uyari-12421-db-f-a.png"
   ],
-  "desi": 8,
+  "desi": 11,
   "kod": "12421 DB F A",
   "boyut": "90 × 49 cm",
   "malzeme": "PPC",
@@ -8047,7 +8561,11 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "90 × 49 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   90.0,
+   49.0
+  ]
  },
  {
   "id": "EV-108 A F",
@@ -8072,7 +8590,11 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "62 × 24.5 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   62.0,
+   24.5
+  ]
  },
  {
   "id": "EV-107 A",
@@ -8097,7 +8619,11 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "62 × 24.5 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   62.0,
+   24.5
+  ]
  },
  {
   "id": "EV-12250 UB R",
@@ -8122,7 +8648,8 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": []
  },
  {
   "id": "EV-12254 UB R",
@@ -8147,7 +8674,8 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": []
  },
  {
   "id": "EV-12253 UB R",
@@ -8172,7 +8700,8 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": []
  },
  {
   "id": "EV-22067 UB R",
@@ -8197,7 +8726,8 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": []
  },
  {
   "id": "EV-12278 UB R",
@@ -8222,7 +8752,8 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": []
  },
  {
   "id": "EV-12232 UB R",
@@ -8247,7 +8778,8 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": []
  },
  {
   "id": "EV-12236 UB R",
@@ -8272,7 +8804,8 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": []
  },
  {
   "id": "EV-22008 UB R",
@@ -8297,7 +8830,8 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": []
  },
  {
   "id": "EV-22068 UB R",
@@ -8322,7 +8856,11 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "45 × 12 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   45.0,
+   12.0
+  ]
  },
  {
   "id": "EV-12256 UB R",
@@ -8335,7 +8873,7 @@
   "images": [
    "/images/katalog/levhali-esnek-delinator-hxl-75x12-cm-taban-200-mm-12256-ub-r.png"
   ],
-  "desi": 1,
+  "desi": 2,
   "kod": "12256 UB R",
   "boyut": "75 × 12 cm",
   "malzeme": "TPU",
@@ -8347,7 +8885,11 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "75 × 12 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   75.0,
+   12.0
+  ]
  },
  {
   "id": "EV-12237 UB R",
@@ -8372,7 +8914,8 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": []
  },
  {
   "id": "EV-12249 UB R",
@@ -8397,7 +8940,8 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": []
  },
  {
   "id": "EV-12243 UB R",
@@ -8422,7 +8966,8 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": []
  },
  {
   "id": "EV-12247 UB R",
@@ -8447,7 +8992,8 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": []
  },
  {
   "id": "EV-12281 UB R",
@@ -8472,7 +9018,8 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": []
  },
  {
   "id": "EV-12283 UB R",
@@ -8497,7 +9044,8 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": []
  },
  {
   "id": "EV-12211 UB R",
@@ -8522,7 +9070,8 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": []
  },
  {
   "id": "EV-12212 UB R",
@@ -8547,7 +9096,8 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": []
  },
  {
   "id": "EV-12214 UB R",
@@ -8572,7 +9122,8 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": []
  },
  {
   "id": "EV-12215 UB R",
@@ -8597,7 +9148,8 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": []
  },
  {
   "id": "EV-12288 UB R",
@@ -8622,7 +9174,8 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": []
  },
  {
   "id": "EV-12286 UB R",
@@ -8647,7 +9200,8 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": []
  },
  {
   "id": "EV-12284 UB R",
@@ -8672,7 +9226,8 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": []
  },
  {
   "id": "EV-12282 UB R",
@@ -8697,7 +9252,8 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": []
  },
  {
   "id": "EV-12245 UB R",
@@ -8722,7 +9278,8 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": []
  },
  {
   "id": "EV-12244 UB R",
@@ -8747,7 +9304,8 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": []
  },
  {
   "id": "EV-12242 UB R",
@@ -8772,7 +9330,8 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": []
  },
  {
   "id": "EV-12241 UB R",
@@ -8797,7 +9356,8 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": []
  },
  {
   "id": "EV-22036 UB R",
@@ -8822,7 +9382,8 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": []
  },
  {
   "id": "EV-22037 UB R",
@@ -8847,7 +9408,8 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": []
  },
  {
   "id": "EV-22038 UB R",
@@ -8872,7 +9434,8 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": []
  },
  {
   "id": "EV-22039 UB R",
@@ -8897,7 +9460,8 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": []
  },
  {
   "id": "EV-22040 UB R",
@@ -8922,7 +9486,8 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": []
  },
  {
   "id": "EV-22042 UB R",
@@ -8947,7 +9512,8 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": []
  },
  {
   "id": "EV-22044 UB R",
@@ -8972,7 +9538,8 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": []
  },
  {
   "id": "EV-12275 UB R",
@@ -8997,7 +9564,8 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": []
  },
  {
   "id": "EV-12274 UB R",
@@ -9022,7 +9590,8 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": []
  },
  {
   "id": "EV-12272 UB R",
@@ -9047,7 +9616,8 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": []
  },
  {
   "id": "EV-22048 UB R",
@@ -9072,7 +9642,8 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": []
  },
  {
   "id": "EV-22050 UB R",
@@ -9097,7 +9668,8 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": []
  },
  {
   "id": "EV-22052 UB R",
@@ -9122,7 +9694,8 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": []
  },
  {
   "id": "EV-22019 UB R",
@@ -9147,7 +9720,8 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": []
  },
  {
   "id": "EV-22029 UB R",
@@ -9172,7 +9746,8 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": []
  },
  {
   "id": "EV-22053 UB R",
@@ -9197,7 +9772,8 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": []
  },
  {
   "id": "EV-22051 UB R",
@@ -9222,7 +9798,8 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": []
  },
  {
   "id": "EV-22049 UB R",
@@ -9247,7 +9824,8 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": []
  },
  {
   "id": "EV-22059 UB R",
@@ -9272,7 +9850,8 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": []
  },
  {
   "id": "EV-22058 UB R",
@@ -9297,7 +9876,8 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": []
  },
  {
   "id": "EV-22057 UB R",
@@ -9322,7 +9902,8 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": []
  },
  {
   "id": "EV-22056 UB R",
@@ -9347,7 +9928,8 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": []
  },
  {
   "id": "EV-22021 UB R",
@@ -9372,7 +9954,8 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": []
  },
  {
   "id": "EV-22022 UB R",
@@ -9397,7 +9980,8 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": []
  },
  {
   "id": "EV-22023 UB R",
@@ -9422,7 +10006,8 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": []
  },
  {
   "id": "EV-22024 UB R",
@@ -9447,7 +10032,8 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": []
  },
  {
   "id": "EV-12251 UB R",
@@ -9460,7 +10046,7 @@
   "images": [
    "/images/katalog/delinatorlu-serit-duzenleme-butonu-hxlxw-92x100x22cm-12251-ub-r.png"
   ],
-  "desi": 34,
+  "desi": 18,
   "kod": "12251 UB R",
   "boyut": "92 × 100 × 22 cm",
   "malzeme": "PPC-TPU",
@@ -9472,7 +10058,12 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "92 × 100 × 22 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   92.0,
+   100.0,
+   22.0
+  ]
  },
  {
   "id": "EV-12268 UB R",
@@ -9485,7 +10076,7 @@
   "images": [
    "/images/katalog/delinatorlu-serit-duzenleme-butonu-hxlxw-75x100x22cm-12268-ub-r.png"
   ],
-  "desi": 28,
+  "desi": 17,
   "kod": "12268 UB R",
   "boyut": "75 × 100 × 22 cm",
   "malzeme": "PPC-TPU",
@@ -9497,7 +10088,12 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "75 × 100 × 22 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   75.0,
+   100.0,
+   22.0
+  ]
  },
  {
   "id": "EV-12270 UB R",
@@ -9510,7 +10106,7 @@
   "images": [
    "/images/katalog/delinatorlu-serit-duzenleme-butonu-hxlxw-45x100x22cm-12270-ub-r.png"
   ],
-  "desi": 16,
+  "desi": 15,
   "kod": "12270 UB R",
   "boyut": "45 × 100 × 22 cm",
   "malzeme": "PPC-TPU",
@@ -9522,7 +10118,12 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "45 × 100 × 22 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   45.0,
+   100.0,
+   22.0
+  ]
  },
  {
   "id": "EV-12297 UB R",
@@ -9535,7 +10136,7 @@
   "images": [
    "/images/katalog/delinatorlu-serit-duzenleme-butonu-hxlxw-92x100x20cm-12297-ub-r.png"
   ],
-  "desi": 31,
+  "desi": 19,
   "kod": "12297 UB R",
   "boyut": "92 × 100 × 20 cm",
   "malzeme": "PPC-TPU",
@@ -9547,7 +10148,12 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "92 × 100 × 20 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   92.0,
+   100.0,
+   20.0
+  ]
  },
  {
   "id": "EV-12219 UB R",
@@ -9560,7 +10166,7 @@
   "images": [
    "/images/katalog/delinatorlu-serit-duzenleme-butonu-hxlxw-75x100x20cm-12219-ub-r.png"
   ],
-  "desi": 25,
+  "desi": 18,
   "kod": "12219 UB R",
   "boyut": "75 × 100 × 20 cm",
   "malzeme": "PPC-TPU",
@@ -9572,7 +10178,12 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "75 × 100 × 20 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   75.0,
+   100.0,
+   20.0
+  ]
  },
  {
   "id": "EV-12218 UB R",
@@ -9585,7 +10196,7 @@
   "images": [
    "/images/katalog/delinatorlu-serit-duzenleme-butonu-hxlxw-45x100x20cm-12218-ub-r.png"
   ],
-  "desi": 15,
+  "desi": 16,
   "kod": "12218 UB R",
   "boyut": "45 × 100 × 20 cm",
   "malzeme": "PPC-TPU",
@@ -9597,7 +10208,12 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "45 × 100 × 20 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   45.0,
+   100.0,
+   20.0
+  ]
  },
  {
   "id": "EV-12262 UB",
@@ -9622,7 +10238,12 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "7.5 × 100 × 22 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   7.5,
+   100.0,
+   22.0
+  ]
  },
  {
   "id": "EV-12266 UB R",
@@ -9635,7 +10256,7 @@
   "images": [
    "/images/katalog/levhali-serit-duzenleme-butonu-hxlxw-66x100x22-cm-12266-ub-r.png"
   ],
-  "desi": 24,
+  "desi": 14,
   "kod": "12266 UB R",
   "boyut": "66 × 100 × 22 cm",
   "malzeme": "PPC",
@@ -9647,7 +10268,12 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "66 × 100 × 22 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   66.0,
+   100.0,
+   22.0
+  ]
  },
  {
   "id": "EV-12260 UB R",
@@ -9672,7 +10298,12 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "6 × 100 × 15 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   6.0,
+   100.0,
+   15.0
+  ]
  },
  {
   "id": "EV-22203 UB R",
@@ -9697,7 +10328,12 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "28.5 × 18 × 20 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   28.5,
+   18.0,
+   20.0
+  ]
  },
  {
   "id": "EV-22202 UB R",
@@ -9710,7 +10346,7 @@
   "images": [
    "/images/katalog/levhali-serit-duzenleme-butonu-hxlxw-59x18x20cm-22202-ub-r.png"
   ],
-  "desi": 4,
+  "desi": 3,
   "kod": "22202 UB R",
   "boyut": "59 × 18 × 20 cm",
   "malzeme": "ABS-TPU",
@@ -9722,7 +10358,12 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "59 × 18 × 20 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   59.0,
+   18.0,
+   20.0
+  ]
  },
  {
   "id": "EV-22206 DB R",
@@ -9735,7 +10376,7 @@
   "images": [
    "/images/katalog/levhali-serit-duzenleme-butonu-hxlxw-71x30x25cm-22206-db-r.png"
   ],
-  "desi": 9,
+  "desi": 10,
   "kod": "22206 DB R",
   "boyut": "71 × 30 × 25 cm",
   "malzeme": "PPC",
@@ -9747,7 +10388,12 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "71 × 30 × 25 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   71.0,
+   30.0,
+   25.0
+  ]
  },
  {
   "id": "EV-22205 DB R",
@@ -9760,7 +10406,7 @@
   "images": [
    "/images/katalog/levhali-serit-duzenleme-butonu-hxlxw-102-5x30x25cm-22205-db-r.png"
   ],
-  "desi": 13,
+  "desi": 11,
   "kod": "22205 DB R",
   "boyut": "102.5 × 30 × 25 cm",
   "malzeme": "PPC",
@@ -9772,7 +10418,12 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "102.5 × 30 × 25 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   102.5,
+   30.0,
+   25.0
+  ]
  },
  {
   "id": "EV-12206 UB R",
@@ -9797,7 +10448,12 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "60 × 26 × 16 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   60.0,
+   26.0,
+   16.0
+  ]
  },
  {
   "id": "EV-12207 UB R",
@@ -9822,7 +10478,12 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "30 × 26 × 16 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   30.0,
+   26.0,
+   16.0
+  ]
  },
  {
   "id": "EV-12204 UB R",
@@ -9835,7 +10496,7 @@
   "images": [
    "/images/katalog/levhali-serit-duzenleme-butonu-hxlxw-60x118x15-cm-12204-ub-r.png"
   ],
-  "desi": 18,
+  "desi": 11,
   "kod": "12204 UB R",
   "boyut": "60 × 118 × 15 cm",
   "malzeme": "PPC-TPU",
@@ -9847,7 +10508,12 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "60 × 118 × 15 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   60.0,
+   118.0,
+   15.0
+  ]
  },
  {
   "id": "EV-12203 UB R",
@@ -9860,7 +10526,7 @@
   "images": [
    "/images/katalog/levhali-serit-duzenleme-butonu-hxlxw-30x118x15-cm-12203-ub-r.png"
   ],
-  "desi": 9,
+  "desi": 10,
   "kod": "12203 UB R",
   "boyut": "30 × 118 × 15 cm",
   "malzeme": "PPC-TPU",
@@ -9872,7 +10538,12 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "30 × 118 × 15 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   30.0,
+   118.0,
+   15.0
+  ]
  },
  {
   "id": "EV-12202 UB",
@@ -9897,7 +10568,12 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "4.8 × 118 × 15 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   4.8,
+   118.0,
+   15.0
+  ]
  },
  {
   "id": "EV-12220 UB",
@@ -9922,7 +10598,12 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "8 × 100 × 20 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   8.0,
+   100.0,
+   20.0
+  ]
  },
  {
   "id": "EV-12217 UB",
@@ -9947,7 +10628,12 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "8 × 100 × 20 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   8.0,
+   100.0,
+   20.0
+  ]
  },
  {
   "id": "EV-11924 SL K",
@@ -9972,7 +10658,12 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "14.5 × 12.5 × 2.8 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   14.5,
+   12.5,
+   2.8
+  ]
  },
  {
   "id": "EV-11926 SL S",
@@ -9997,7 +10688,12 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "14.5 × 12.5 × 2.8 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   14.5,
+   12.5,
+   2.8
+  ]
  },
  {
   "id": "EV-11920 SL K",
@@ -10022,7 +10718,12 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "14.5 × 12.5 × 2.8 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   14.5,
+   12.5,
+   2.8
+  ]
  },
  {
   "id": "EV-11922 SL S",
@@ -10047,7 +10748,12 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "14.5 × 12.5 × 2.8 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   14.5,
+   12.5,
+   2.8
+  ]
  },
  {
   "id": "EV-11921 SL K",
@@ -10072,7 +10778,12 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "13.5 × 12 × 2.8 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   13.5,
+   12.0,
+   2.8
+  ]
  },
  {
   "id": "EV-11923 SL S",
@@ -10097,7 +10808,12 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "13.5 × 12 × 2.8 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   13.5,
+   12.0,
+   2.8
+  ]
  },
  {
   "id": "EV-12005-2 YB",
@@ -10122,7 +10838,12 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "10 × 10 × 2.1 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   10.0,
+   10.0,
+   2.1
+  ]
  },
  {
   "id": "EV-12005 YB",
@@ -10147,7 +10868,12 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "10.5 × 10.5 × 2 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   10.5,
+   10.5,
+   2.0
+  ]
  },
  {
   "id": "EV-12000 YB",
@@ -10172,7 +10898,12 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "12.5 × 15 × 3.2 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   12.5,
+   15.0,
+   3.2
+  ]
  },
  {
   "id": "EV-12006 YB",
@@ -10197,7 +10928,12 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "12 × 22 × 2.8 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   12.0,
+   22.0,
+   2.8
+  ]
  },
  {
   "id": "EV-12002 YB",
@@ -10222,7 +10958,12 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "12 × 12 × 2.8 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   12.0,
+   12.0,
+   2.8
+  ]
  },
  {
   "id": "EV-12003 YB",
@@ -10247,7 +10988,12 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "10 × 22 × 3.2 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   10.0,
+   22.0,
+   3.2
+  ]
  },
  {
   "id": "EV-12011 YB",
@@ -10272,7 +11018,12 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "10 × 10.2 × 2.1 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   10.0,
+   10.2,
+   2.1
+  ]
  },
  {
   "id": "EV-12007 YB",
@@ -10297,7 +11048,12 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "12 × 12 × 2.8 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   12.0,
+   12.0,
+   2.8
+  ]
  },
  {
   "id": "EV-12009 YB",
@@ -10322,7 +11078,12 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "10 × 10 × 2.1 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   10.0,
+   10.0,
+   2.1
+  ]
  },
  {
   "id": "EV-12004 YB",
@@ -10335,7 +11096,7 @@
   "images": [
    "/images/katalog/mercekli-yol-butonu-140x120x25-cm-12004-yb.png"
   ],
-  "desi": 70,
+  "desi": 1,
   "kod": "12004 YB",
   "boyut": "140 × 120 × 25 cm",
   "malzeme": "PPC",
@@ -10347,7 +11108,12 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "140 × 120 × 25 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   140.0,
+   120.0,
+   25.0
+  ]
  },
  {
   "id": "EV-12123 YK",
@@ -10372,7 +11138,11 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   25.0,
+   3.5
+  ]
  },
  {
   "id": "EV-12124 YK",
@@ -10397,7 +11167,11 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   25.0,
+   3.5
+  ]
  },
  {
   "id": "EV-12108 YK",
@@ -10422,7 +11196,12 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "4.5 × 60 × 50 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   4.5,
+   60.0,
+   50.0
+  ]
  },
  {
   "id": "EV-12116 YK",
@@ -10447,7 +11226,12 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "4.5 × 60 × 50 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   4.5,
+   60.0,
+   50.0
+  ]
  },
  {
   "id": "EV-12109 YK K",
@@ -10472,7 +11256,12 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "4.5 × 60 × 30 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   4.5,
+   60.0,
+   30.0
+  ]
  },
  {
   "id": "EV-12110 YK",
@@ -10497,7 +11286,12 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "4 × 40 × 50 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   4.0,
+   40.0,
+   50.0
+  ]
  },
  {
   "id": "EV-12111 YK K",
@@ -10522,7 +11316,12 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "4 × 40 × 20 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   4.0,
+   40.0,
+   20.0
+  ]
  },
  {
   "id": "EV-12106 YK",
@@ -10547,7 +11346,12 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "4 × 40 × 50 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   4.0,
+   40.0,
+   50.0
+  ]
  },
  {
   "id": "EV-12107 YK K",
@@ -10572,7 +11376,12 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "4 × 40 × 20 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   4.0,
+   40.0,
+   20.0
+  ]
  },
  {
   "id": "EV-12102 YK",
@@ -10597,7 +11406,12 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "4 × 30 × 33.5 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   4.0,
+   30.0,
+   33.5
+  ]
  },
  {
   "id": "EV-12103 YK K",
@@ -10622,7 +11436,12 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "4 × 30 × 10 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   4.0,
+   30.0,
+   10.0
+  ]
  },
  {
   "id": "EV-12120 YK",
@@ -10647,7 +11466,12 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "3.5 × 25 × 50 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   3.5,
+   25.0,
+   50.0
+  ]
  },
  {
   "id": "EV-12121 YK K",
@@ -10672,7 +11496,12 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "3.5 × 25 × 12 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   3.5,
+   25.0,
+   12.0
+  ]
  },
  {
   "id": "EV-12100 YK",
@@ -10697,7 +11526,12 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "5 × 25 × 34.5 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   5.0,
+   25.0,
+   34.5
+  ]
  },
  {
   "id": "EV-12101 YK K",
@@ -10722,7 +11556,12 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "5 × 25 × 10 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   5.0,
+   25.0,
+   10.0
+  ]
  },
  {
   "id": "EV-11938 SL",
@@ -10747,7 +11586,12 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "4.5 × 50 × 50 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   4.5,
+   50.0,
+   50.0
+  ]
  },
  {
   "id": "EV-11940 SL K",
@@ -10772,7 +11616,12 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "4.5 × 50 × 25 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   4.5,
+   50.0,
+   25.0
+  ]
  },
  {
   "id": "EV-12112 YK",
@@ -10797,7 +11646,12 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "4.5 × 50 × 50 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   4.5,
+   50.0,
+   50.0
+  ]
  },
  {
   "id": "EV-12113 YK K",
@@ -10822,7 +11676,12 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "4.5 × 50 × 25 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   4.5,
+   50.0,
+   25.0
+  ]
  },
  {
   "id": "EV-12231 UB",
@@ -10847,7 +11706,11 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "10 × 180 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   10.0,
+   180.0
+  ]
  },
  {
   "id": "EV-12233 UB",
@@ -10872,7 +11735,11 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "10 × 110 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   10.0,
+   110.0
+  ]
  },
  {
   "id": "EV-12235 UB",
@@ -10897,7 +11764,11 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "10 × 55 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   10.0,
+   55.0
+  ]
  },
  {
   "id": "EV-22231 UB R",
@@ -10922,7 +11793,11 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "8.5 × 180 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   8.5,
+   180.0
+  ]
  },
  {
   "id": "EV-12216 UB R",
@@ -10947,7 +11822,11 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "10 × 50 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   10.0,
+   50.0
+  ]
  },
  {
   "id": "EV-22210 UB ST",
@@ -10972,7 +11851,11 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "50 × 38 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   50.0,
+   38.0
+  ]
  },
  {
   "id": "EV-12290 UB",
@@ -10997,7 +11880,12 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "6 × 50 × 50 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   6.0,
+   50.0,
+   50.0
+  ]
  },
  {
   "id": "EV-12291 UB K",
@@ -11022,7 +11910,12 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "6 × 50 × 9 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   6.0,
+   50.0,
+   9.0
+  ]
  },
  {
   "id": "EV-12292 UB R",
@@ -11047,7 +11940,8 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": []
  },
  {
   "id": "EV-12295 UB R",
@@ -11072,7 +11966,8 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": []
  },
  {
   "id": "EV-12294 UB R",
@@ -11097,7 +11992,8 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": []
  },
  {
   "id": "EV-12296 UB R",
@@ -11122,7 +12018,8 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": []
  },
  {
   "id": "EV-12226 TG A",
@@ -11147,7 +12044,8 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": []
  },
  {
   "id": "EV-12227 TG A",
@@ -11172,7 +12070,8 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": []
  },
  {
   "id": "EV-12228 TG A",
@@ -11197,7 +12096,8 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": []
  },
  {
   "id": "EV-12229 TG A",
@@ -11222,7 +12122,8 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": []
  },
  {
   "id": "EV-12248 TG A",
@@ -11235,7 +12136,7 @@
   "images": [
    "/images/katalog/trafik-guvenlik-aynasi-olcu-60x80-cm-12248-tg-a.png"
   ],
-  "desi": 6,
+  "desi": 12,
   "kod": "12248 TG A",
   "boyut": "60 × 80 cm",
   "malzeme": "ABS",
@@ -11247,7 +12148,11 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "60 × 80 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   60.0,
+   80.0
+  ]
  },
  {
   "id": "EV-12246 TG A",
@@ -11260,7 +12165,7 @@
   "images": [
    "/images/katalog/trafik-guvenlik-aynasi-olcu-60x80-cm-12246-tg-a.png"
   ],
-  "desi": 6,
+  "desi": 12,
   "kod": "12246 TG A",
   "boyut": "60 × 80 cm",
   "malzeme": "ABS",
@@ -11272,7 +12177,11 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "60 × 80 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   60.0,
+   80.0
+  ]
  },
  {
   "id": "EV-12267 TG A",
@@ -11285,7 +12194,7 @@
   "images": [
    "/images/katalog/trafik-guvenlik-aynasi-olcu-40x60-cm-12267-tg-a.png"
   ],
-  "desi": 3,
+  "desi": 6,
   "kod": "12267 TG A",
   "boyut": "40 × 60 cm",
   "malzeme": "ABS",
@@ -11297,7 +12206,11 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "40 × 60 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   40.0,
+   60.0
+  ]
  },
  {
   "id": "EV-12265 TG A",
@@ -11310,7 +12223,7 @@
   "images": [
    "/images/katalog/trafik-guvenlik-aynasi-olcu-40x60-cm-12265-tg-a.png"
   ],
-  "desi": 3,
+  "desi": 6,
   "kod": "12265 TG A",
   "boyut": "40 × 60 cm",
   "malzeme": "ABS",
@@ -11322,7 +12235,11 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "40 × 60 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   40.0,
+   60.0
+  ]
  },
  {
   "id": "EV-12276 UB D",
@@ -11347,7 +12264,11 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "87 × 8 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   87.0,
+   8.0
+  ]
  },
  {
   "id": "EV-12277 UB D",
@@ -11372,7 +12293,11 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "68 × 8 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   68.0,
+   8.0
+  ]
  },
  {
   "id": "EV-12279 UB D",
@@ -11397,7 +12322,11 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "81.5 × 8 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   81.5,
+   8.0
+  ]
  },
  {
   "id": "EV-12280 UB D",
@@ -11422,7 +12351,11 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "62.5 × 8 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   62.5,
+   8.0
+  ]
  },
  {
   "id": "EV-22026 UB R",
@@ -11447,7 +12380,8 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": []
  },
  {
   "id": "EV-22028 UB R",
@@ -11470,7 +12404,11 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   21.0,
+   12.5
+  ]
  },
  {
   "id": "EV-22032 UB R",
@@ -11495,7 +12433,11 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   10.0,
+   40.0
+  ]
  },
  {
   "id": "EV-22035 UB R",
@@ -11508,7 +12450,7 @@
   "images": [
    "/images/katalog/kaldirim-sinirlama-dubasi-hx-80x9-0-cm-22035-ub-r.png"
   ],
-  "desi": 1,
+  "desi": 2,
   "kod": "22035 UB R",
   "boyut": "80 × 9 cm",
   "malzeme": "PPC",
@@ -11520,7 +12462,11 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "80 × 9 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   80.0,
+   9.0
+  ]
  },
  {
   "id": "EV-22031 UB R",
@@ -11545,7 +12491,11 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "50 × 9 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   50.0,
+   9.0
+  ]
  },
  {
   "id": "EV-12205 UB R",
@@ -11570,7 +12520,11 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "25 × 25 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   25.0,
+   25.0
+  ]
  },
  {
   "id": "EV-22033 UB R",
@@ -11595,7 +12549,11 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "25 × 25 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   25.0,
+   25.0
+  ]
  },
  {
   "id": "EV-12293 UB ST",
@@ -11620,7 +12578,11 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "20 × 20 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   20.0,
+   20.0
+  ]
  },
  {
   "id": "EV-12289 UB ST",
@@ -11645,7 +12607,11 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "20 × 20 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   20.0,
+   20.0
+  ]
  },
  {
   "id": "EV-22218 UB",
@@ -11670,7 +12636,12 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "24 × 100 × 4.5 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   24.0,
+   100.0,
+   4.5
+  ]
  },
  {
   "id": "EV-12298 UB",
@@ -11695,7 +12666,12 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "60 × 50 × 7.5 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   60.0,
+   50.0,
+   7.5
+  ]
  },
  {
   "id": "EV-12299 UB",
@@ -11720,7 +12696,11 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "60 × 7.5 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   60.0,
+   7.5
+  ]
  },
  {
   "id": "EV-PL 8010",
@@ -11745,7 +12725,11 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "40 × 40 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   40.0,
+   40.0
+  ]
  },
  {
   "id": "EV-PL 8011",
@@ -11770,7 +12754,11 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "40 × 40 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   40.0,
+   40.0
+  ]
  },
  {
   "id": "EV-PL 8012",
@@ -11795,7 +12783,11 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "40 × 40 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   40.0,
+   40.0
+  ]
  },
  {
   "id": "EV-PL 8013",
@@ -11820,7 +12812,11 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "40 × 40 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   40.0,
+   40.0
+  ]
  },
  {
   "id": "EV-PL 8014",
@@ -11845,7 +12841,11 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "60 × 30 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   60.0,
+   30.0
+  ]
  },
  {
   "id": "EV-PL 8015",
@@ -11870,7 +12870,11 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "60 × 30 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   60.0,
+   30.0
+  ]
  },
  {
   "id": "EV-PL 8016",
@@ -11895,7 +12899,11 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "60 × 30 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   60.0,
+   30.0
+  ]
  },
  {
   "id": "EV-PL 8017",
@@ -11920,7 +12928,11 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "60 × 30 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   60.0,
+   30.0
+  ]
  },
  {
   "id": "EV-PL 8018",
@@ -11945,7 +12957,11 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "58 × 58 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   58.0,
+   58.0
+  ]
  },
  {
   "id": "EV-PL 8019",
@@ -11970,7 +12986,11 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "58 × 58 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   58.0,
+   58.0
+  ]
  },
  {
   "id": "EV-PL 8020",
@@ -11983,7 +13003,7 @@
   "images": [
    "/images/katalog/tpu-kaydirmaz-merdiven-kaplama-olcu-60x30-cm-pl-8020.png"
   ],
-  "desi": 1,
+  "desi": 4,
   "kod": "PL 8020",
   "boyut": "60 × 30 cm",
   "malzeme": "TPU",
@@ -11995,7 +13015,11 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "60 × 30 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   60.0,
+   30.0
+  ]
  },
  {
   "id": "EV-PL 8022",
@@ -12008,7 +13032,7 @@
   "images": [
    "/images/katalog/tpu-kaydirmaz-merdiven-kaplama-olcu-60x30-cm-pl-8022.png"
   ],
-  "desi": 1,
+  "desi": 4,
   "kod": "PL 8022",
   "boyut": "60 × 30 cm",
   "malzeme": "TPU",
@@ -12020,7 +13044,11 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "60 × 30 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   60.0,
+   30.0
+  ]
  },
  {
   "id": "EV-111 A",
@@ -12031,7 +13059,7 @@
   "description": "Dikdörtgen Uyarı Levhası - Ölçü: 40x34 Cm.\n\nÖlçü: 40 × 34 cm · Ürün kodu: 111 A",
   "stock": 100,
   "images": [],
-  "desi": 2,
+  "desi": 1,
   "kod": "111 A",
   "boyut": "40 × 34 cm",
   "malzeme": "",
@@ -12043,7 +13071,11 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "40 × 34 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   40.0,
+   34.0
+  ]
  },
  {
   "id": "EV-196 A",
@@ -12066,7 +13098,8 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": []
  },
  {
   "id": "EV-222 A R",
@@ -12091,7 +13124,8 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": []
  },
  {
   "id": "EV-110 A",
@@ -12114,7 +13148,8 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": []
  },
  {
   "id": "EV-114 A",
@@ -12127,7 +13162,7 @@
   "images": [
    "/images/katalog/uyari-levhasi-olcu-34x31-cm-114-a.png"
   ],
-  "desi": 2,
+  "desi": 1,
   "kod": "114 A",
   "boyut": "34 × 31 cm",
   "malzeme": "",
@@ -12139,7 +13174,11 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "34 × 31 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   34.0,
+   31.0
+  ]
  },
  {
   "id": "EV-120 A",
@@ -12164,7 +13203,8 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": []
  },
  {
   "id": "EV-295 A F",
@@ -12189,7 +13229,8 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": []
  },
  {
   "id": "EV-124 A F",
@@ -12214,7 +13255,8 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": []
  },
  {
   "id": "EV-ETR 5111",
@@ -12239,7 +13281,8 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": []
  },
  {
   "id": "EV-ETR 5112",
@@ -12264,7 +13307,8 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": []
  },
  {
   "id": "EV-ETR 5121",
@@ -12289,7 +13333,8 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": []
  },
  {
   "id": "EV-ETR 5122",
@@ -12314,7 +13359,8 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": []
  },
  {
   "id": "EV-ETR 5131",
@@ -12339,7 +13385,8 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": []
  },
  {
   "id": "EV-ETR 5141",
@@ -12364,7 +13411,8 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": []
  },
  {
   "id": "EV-ETR 5151",
@@ -12389,7 +13437,8 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": []
  },
  {
   "id": "EV-ETR 5161",
@@ -12414,7 +13463,8 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": []
  },
  {
   "id": "EV-194 A",
@@ -12439,7 +13489,8 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": []
  },
  {
   "id": "EV-126 A",
@@ -12464,7 +13515,8 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": []
  },
  {
   "id": "EV-184 A",
@@ -12489,7 +13541,8 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": []
  },
  {
   "id": "EV-204 A",
@@ -12514,7 +13567,8 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": []
  },
  {
   "id": "EV-174 A",
@@ -12539,7 +13593,8 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": []
  },
  {
   "id": "EV-185 A",
@@ -12564,7 +13619,8 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": []
  },
  {
   "id": "EV-188 A",
@@ -12589,7 +13645,8 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": []
  },
  {
   "id": "EV-175 A",
@@ -12614,7 +13671,8 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": []
  },
  {
   "id": "EV-127 A",
@@ -12639,7 +13697,8 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": []
  },
  {
   "id": "EV-123 A",
@@ -12664,7 +13723,8 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": []
  },
  {
   "id": "EV-190 A",
@@ -12689,7 +13749,12 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "38.5 × 38.5 × 5 cm",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   38.5,
+   38.5,
+   5.0
+  ]
  },
  {
   "id": "EV-128 A",
@@ -12714,7 +13779,8 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": []
  },
  {
   "id": "EV-129 A",
@@ -12739,7 +13805,8 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": []
  },
  {
   "id": "EV-152 A R",
@@ -12764,7 +13831,8 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": []
  },
  {
   "id": "EV-159 A",
@@ -12777,7 +13845,7 @@
   "images": [
    "/images/katalog/flansli-trifon-vida-ve-dubel-16x90-10x100mm-159-a.png"
   ],
-  "desi": 3,
+  "desi": 1,
   "kod": "159 A",
   "boyut": "",
   "malzeme": "",
@@ -12789,7 +13857,11 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   1.0,
+   10.0
+  ]
  },
  {
   "id": "EV-160 A",
@@ -12802,7 +13874,7 @@
   "images": [
    "/images/katalog/buldex-vida-ve-dubel-14x70-7-5x80-mm-160-a.png"
   ],
-  "desi": 3,
+  "desi": 1,
   "kod": "160 A",
   "boyut": "",
   "malzeme": "",
@@ -12814,7 +13886,11 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   0.75,
+   8.0
+  ]
  },
  {
   "id": "EV-176 A",
@@ -12827,7 +13903,7 @@
   "images": [
    "/images/katalog/flansli-trifon-vida-10x100-mm-176-a.png"
   ],
-  "desi": 3,
+  "desi": 1,
   "kod": "176 A",
   "boyut": "",
   "malzeme": "",
@@ -12839,7 +13915,11 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   1.0,
+   10.0
+  ]
  },
  {
   "id": "EV-161 A",
@@ -12852,7 +13932,7 @@
   "images": [
    "/images/katalog/burgulu-civi-5-5x105-mm-161-a.png"
   ],
-  "desi": 3,
+  "desi": 1,
   "kod": "161 A",
   "boyut": "",
   "malzeme": "",
@@ -12864,7 +13944,11 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": [
+   0.55,
+   10.5
+  ]
  },
  {
   "id": "EV-173 A",
@@ -12889,7 +13973,8 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": []
  },
  {
   "id": "EV-172 A",
@@ -12914,6 +13999,7 @@
   "tedarikci": "EVELUX",
   "color": "",
   "size": "",
-  "dims": ""
+  "dims": "",
+  "olcu_cm": []
  }
 ]
