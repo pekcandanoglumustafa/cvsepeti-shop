@@ -21,6 +21,8 @@ export type Product = {
   reflektif: string;
   seri: string;
   varyant: string;
+  agirlik_kg: number;
+  tedarikci: string;
 };
 
 export const allProducts = products as Product[];
