@@ -14,6 +14,13 @@ export type Product = {
   color: string;
   size: string;
   dims: string;
+  kod: string;
+  boyut: string;
+  malzeme: string;
+  taban: string;
+  reflektif: string;
+  seri: string;
+  varyant: string;
 };
 
 export const allProducts = products as Product[];

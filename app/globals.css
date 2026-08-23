@@ -1,111 +1,64 @@
 @import "tailwindcss";
 
-:root {
-  --bg: #f2f2f2;
-  --surface: #ffffff;
-  --surface-2: #f7f7f7;
-  --border: #e5e5e5;
-  --text: #1c1c1c;
-  --text-secondary: #545454;
-  --text-tertiary: #979797;
-  --orange: #e8420a;
-  --orange-hover: #c93708;
-  --orange-light: #fff3ef;
-  --dark: #222222;
-  --green: #1a8f3c;
-  --red: #d9230f;
-  --shadow-sm: 0 1px 4px rgba(0,0,0,0.08);
-  --shadow: 0 2px 12px rgba(0,0,0,0.1);
-  --shadow-lg: 0 8px 28px rgba(0,0,0,0.14);
+:root{
+  --ink:#0A0A0A;
+  --paper:#FFFFFF;
+  --tile:#F1F1F0;
+  --line:#E2E2DF;
+  --muted:#6B6B68;
+  --hi:#FF4D00;          /* güvenlik turuncusu — sadece fiyat ve eylem */
+  --hivis:#E4FF3A;       /* yüksek görünürlük sarısı — sadece şerit */
 }
 
-* { box-sizing: border-box; margin: 0; padding: 0; }
-html { -webkit-font-smoothing: antialiased; scroll-behavior: smooth; }
-
-html, body {
-  overflow-x: hidden;
-  overflow-x: clip;
+*{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-font-smoothing:antialiased;scroll-behavior:smooth}
+body{
+  background:var(--paper); color:var(--ink);
+  font-family:"Helvetica Neue",Helvetica,Arial,system-ui,sans-serif;
+  font-size:16px; line-height:1.45;
 }
 
-body {
-  background: var(--bg);
-  color: var(--text);
-  font-family: -apple-system, BlinkMacSystemFont, "Inter", "Helvetica Neue", Arial, sans-serif;
-  font-size: 14px;
-  line-height: 1.5;
+/* ---- tipografi: ağır, sıkı, büyük harf ---- */
+.display{
+  font-weight:900; text-transform:uppercase;
+  letter-spacing:-0.035em; line-height:0.88;
+}
+.eyebrow{
+  font-size:11px; font-weight:800; text-transform:uppercase;
+  letter-spacing:0.16em;
+}
+.label{
+  font-size:12px; font-weight:700; text-transform:uppercase;
+  letter-spacing:0.08em;
 }
 
-a { color: inherit; }
-
-.container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
-
-.btn-primary {
-  display: inline-flex; align-items: center; justify-content: center; gap: 6px;
-  background: var(--orange); color: #fff;
-  padding: 11px 24px; border-radius: 6px;
-  font-size: 14px; font-weight: 700; text-decoration: none;
-  border: none; cursor: pointer; transition: background 0.15s; white-space: nowrap;
+/* ---- imza: retroreflektif şerit ---- */
+.band{
+  height:6px;
+  background:repeating-linear-gradient(135deg,
+    var(--ink) 0 14px, var(--hivis) 14px 28px);
 }
-.btn-primary:hover { background: var(--orange-hover); }
-.btn-primary:disabled { background: #ccc; cursor: not-allowed; }
-
-.btn-outline {
-  display: inline-flex; align-items: center; justify-content: center; gap: 6px;
-  background: #fff; color: var(--orange);
-  padding: 10px 24px; border-radius: 6px;
-  font-size: 14px; font-weight: 700; text-decoration: none;
-  border: 2px solid var(--orange); cursor: pointer;
-  transition: background 0.15s; white-space: nowrap;
-}
-.btn-outline:hover { background: var(--orange-light); }
-
-/* Section headers (ustapazar style: centered bold with lines) */
-.section-title {
-  display: flex; align-items: center; gap: 16px;
-  margin-bottom: 20px;
-}
-.section-title::before, .section-title::after {
-  content: ""; flex: 1; height: 1px; background: var(--border);
-}
-.section-title span {
-  font-size: 18px; font-weight: 800; letter-spacing: 0.04em;
-  color: var(--text); text-transform: uppercase; white-space: nowrap;
+.band-thin{
+  height:3px;
+  background:repeating-linear-gradient(135deg,
+    var(--ink) 0 10px, var(--hivis) 10px 20px);
 }
 
-/* Kayan ücretsiz kargo şeridi */
-@keyframes shipmarquee {
-  from { transform: translateX(0); }
-  to { transform: translateX(-50%); }
+/* ---- butonlar ---- */
+.btn{
+  display:inline-flex;align-items:center;justify-content:center;gap:8px;
+  font-weight:800;text-transform:uppercase;letter-spacing:0.06em;font-size:13px;
+  padding:16px 28px;border:2px solid var(--ink);cursor:pointer;
+  transition:background .15s,color .15s;text-decoration:none;
 }
-.ship-marquee-track {
-  display: flex; width: max-content;
-  animation: shipmarquee 22s linear infinite;
-}
+.btn-solid{background:var(--ink);color:var(--paper)}
+.btn-solid:hover{background:var(--hi);border-color:var(--hi)}
+.btn-ghost{background:transparent;color:var(--ink)}
+.btn-ghost:hover{background:var(--ink);color:var(--paper)}
+.btn:disabled{opacity:.35;cursor:not-allowed}
 
-/* Kategori marquee (mevcut) */
-@keyframes catmarquee {
-  from { transform: translateX(0); }
-  to { transform: translateX(-50%); }
-}
-.cat-marquee-track {
-  display: flex; gap: 10px; width: max-content;
-  animation: catmarquee 30s linear infinite;
-}
-.cat-marquee-track:hover { animation-play-state: paused; }
+.line-clamp-2{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.line-clamp-3{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
 
-/* Hero slider */
-@keyframes heroslide {
-  0%, 30% { transform: translateX(0); }
-  36%, 63% { transform: translateX(-100%); }
-  69%, 96% { transform: translateX(-200%); }
-  100% { transform: translateX(0); }
-}
-.hero-track {
-  display: flex; width: 300%;
-  animation: heroslide 15s ease-in-out infinite;
-}
-.hero-track:hover { animation-play-state: paused; }
-
-/* Taşma güvenlik ağı: grid/flex çocukları içerikle genişlemesin */
-.cart-grid > * { min-width: 0; }
-img { max-width: 100%; }
+:focus-visible{outline:3px solid var(--hi);outline-offset:2px}
+@media (prefers-reduced-motion:reduce){*{animation-duration:.01ms!important;transition-duration:.01ms!important}}

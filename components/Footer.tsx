@@ -1,111 +1,53 @@
-"use client";
-
 import Link from "next/link";
-import { categories, categorySlug } from "@/lib/products";
+import { categories, categorySlug, allProducts } from "@/lib/products";
 
 export default function Footer() {
   return (
-    <footer style={{ marginTop: 40 }}>
-      {/* Kayan ücretsiz kargo şeridi */}
-      <div style={{ background: "var(--orange)", overflow: "hidden", padding: "9px 0" }}>
-        <div className="ship-marquee-track">
-          {Array.from({ length: 8 }).map((_, i) => (
-            <span key={i} style={{ color: "#fff", fontSize: 13, fontWeight: 700, whiteSpace: "nowrap", padding: "0 28px" }}>
-              ✦ Türkiye&apos;nin Her Yerine Hızlı Kargo ✦ Kurumsal Fatura ✦ iyzico ile Güvenli Ödeme
-            </span>
-          ))}
-        </div>
-      </div>
-
-      <div style={{ background: "var(--dark)", color: "#bbb" }}>
-        <div className="container" style={{ padding: "44px 20px 28px" }}>
-          <div style={{ display: "grid", gridTemplateColumns: "2fr 1fr 1fr 1.2fr", gap: 36, marginBottom: 32 }} className="footer-grid">
-            {/* Marka */}
+    <footer style={{ marginTop: 96 }}>
+      <div className="band" />
+      <div style={{ background: "var(--ink)", color: "var(--paper)" }}>
+        <div style={{ maxWidth: 1360, margin: "0 auto", padding: "56px 20px 32px" }}>
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit,minmax(190px,1fr))", gap: 40 }}>
             <div>
-              <div style={{ display: "flex", alignItems: "center", gap: 10, marginBottom: 14 }}>
-                <div style={{ width: 36, height: 36, borderRadius: 8, background: "var(--orange)", display: "flex", alignItems: "center", justifyContent: "center", color: "#fff", fontWeight: 800, fontSize: 18 }}>C</div>
-                <span style={{ fontSize: 16, fontWeight: 800, color: "#fff" }}>CV SEPETİ</span>
-              </div>
-              <p style={{ fontSize: 13, lineHeight: 1.7, maxWidth: 280, marginBottom: 16 }}>
-                Trafik güvenliği, su yalıtımı ve iş güvenliği ekipmanları. Konya Teknokent firması. Jandarma, Sahil Güvenlik ve kamu kurumu referanslı.
+              <p className="display" style={{ fontSize: 30, marginBottom: 14 }}>CV Sepeti</p>
+              <p style={{ fontSize: 13, color: "#9C9C99", lineHeight: 1.6, maxWidth: 260 }}>
+                Trafik güvenliği, yol işaretleme ve iş güvenliği ekipmanları. Konya Teknokent.
               </p>
-              <div style={{ display: "flex", gap: 8 }}>
-                <a href="https://wa.me/905076584245" target="_blank" rel="noreferrer"
-                  style={{ fontSize: 12, fontWeight: 700, color: "#fff", background: "#25D366", padding: "6px 12px", borderRadius: 5, textDecoration: "none" }}>
-                  WhatsApp
-                </a>
-                <a href="https://www.instagram.com/cvsepetii" target="_blank" rel="noreferrer"
-                  style={{ fontSize: 12, fontWeight: 700, color: "#fff", background: "#E1306C", padding: "6px 12px", borderRadius: 5, textDecoration: "none" }}>
-                  Instagram
-                </a>
-              </div>
             </div>
-
-            {/* Kategoriler 1 */}
             <div>
-              <p style={{ fontSize: 12, fontWeight: 800, color: "#fff", marginBottom: 14, textTransform: "uppercase", letterSpacing: "0.08em" }}>Mağaza</p>
+              <p className="eyebrow" style={{ color: "var(--hivis)", marginBottom: 14 }}>Katalog</p>
               <div style={{ display: "flex", flexDirection: "column", gap: 9 }}>
-                <Link href="/urunler" style={{ fontSize: 13, color: "#bbb", textDecoration: "none" }}
-                  onMouseEnter={e => e.currentTarget.style.color = "#fff"}
-                  onMouseLeave={e => e.currentTarget.style.color = "#bbb"}
-                >Tüm Ürünler</Link>
-                {categories.slice(0, 5).map(c => (
+                {categories.slice(0, 9).map((c) => (
                   <Link key={c} href={`/kategori/${categorySlug(c)}`}
-                    style={{ fontSize: 13, color: "#bbb", textDecoration: "none" }}
-                    onMouseEnter={e => e.currentTarget.style.color = "#fff"}
-                    onMouseLeave={e => e.currentTarget.style.color = "#bbb"}
-                  >{c}</Link>
+                        style={{ fontSize: 13, color: "#C9C9C6", textDecoration: "none" }}>{c}</Link>
                 ))}
               </div>
             </div>
-
-            {/* Kategoriler 2 */}
             <div>
-              <p style={{ fontSize: 12, fontWeight: 800, color: "#fff", marginBottom: 14, textTransform: "uppercase", letterSpacing: "0.08em" }}>Kategoriler</p>
+              <p className="eyebrow" style={{ color: "var(--hivis)", marginBottom: 14 }}>Sipariş</p>
               <div style={{ display: "flex", flexDirection: "column", gap: 9 }}>
-                {categories.slice(5).map(c => (
-                  <Link key={c} href={`/kategori/${categorySlug(c)}`}
-                    style={{ fontSize: 13, color: "#bbb", textDecoration: "none" }}
-                    onMouseEnter={e => e.currentTarget.style.color = "#fff"}
-                    onMouseLeave={e => e.currentTarget.style.color = "#bbb"}
-                  >{c}</Link>
-                ))}
+                <Link href="/urunler" style={{ fontSize: 13, color: "#C9C9C6", textDecoration: "none" }}>
+                  Tüm Ürünler ({allProducts.length})
+                </Link>
+                <Link href="/sepet" style={{ fontSize: 13, color: "#C9C9C6", textDecoration: "none" }}>Sepet</Link>
+                <a href="tel:05076584245" style={{ fontSize: 13, color: "#C9C9C6", textDecoration: "none" }}>0 507 658 42 45</a>
+                <a href="https://wa.me/905076584245" style={{ fontSize: 13, color: "#C9C9C6", textDecoration: "none" }}>WhatsApp sipariş</a>
               </div>
             </div>
-
-            {/* İletişim */}
             <div>
-              <p style={{ fontSize: 12, fontWeight: 800, color: "#fff", marginBottom: 14, textTransform: "uppercase", letterSpacing: "0.08em" }}>İletişim</p>
-              <div style={{ display: "flex", flexDirection: "column", gap: 9 }}>
-                <a href="tel:05076584245" style={{ fontSize: 14, color: "#fff", textDecoration: "none", fontWeight: 700 }}>📞 0 507 658 42 45</a>
-                <a href="https://wa.me/905076584245" style={{ fontSize: 13, color: "#25D366", textDecoration: "none", fontWeight: 600 }}>💬 WhatsApp ile Yaz</a>
-                <p style={{ fontSize: 13, lineHeight: 1.6 }}>Akademi Mah. Gürbulut Sk.<br />Teknokent No:67<br />Selçuklu / Konya</p>
-                <div style={{ marginTop: 6, display: "flex", flexDirection: "column", gap: 5 }}>
-                  {["iyzico Güvenli Ödeme", "CE & TSE Belgeli", "Hızlı Kargo"].map(t => (
-                    <span key={t} style={{ fontSize: 12, display: "flex", alignItems: "center", gap: 6 }}>
-                      <span style={{ color: "var(--orange)", fontWeight: 800 }}>✓</span> {t}
-                    </span>
-                  ))}
-                </div>
-              </div>
+              <p className="eyebrow" style={{ color: "var(--hivis)", marginBottom: 14 }}>Kargo</p>
+              <p style={{ fontSize: 13, color: "#9C9C99", lineHeight: 1.7 }}>
+                Yurtiçi Kargo ile gönderim.<br />Kargo ücreti desi üzerinden ödeme adımında hesaplanır.
+              </p>
             </div>
           </div>
-
-          <div style={{ borderTop: "1px solid rgba(255,255,255,0.1)", paddingTop: 20, display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", gap: 8 }}>
-            <p style={{ fontSize: 12, color: "#888" }}>© 2025 CV Sepeti. Tüm hakları saklıdır.</p>
-            <p style={{ fontSize: 12, color: "#888" }}>Kredi kartı bilgileriniz 256bit SSL sertifikası ile korunmaktadır.</p>
+          <div style={{ marginTop: 44, paddingTop: 22, borderTop: "1px solid #262626",
+                        display: "flex", flexWrap: "wrap", gap: 14, justifyContent: "space-between" }}>
+            <p style={{ fontSize: 12, color: "#6B6B68" }}>© 2026 CV Sepeti</p>
+            <p style={{ fontSize: 12, color: "#6B6B68" }}>iyzico ile güvenli ödeme</p>
           </div>
         </div>
       </div>
-
-      <style>{`
-        @media (max-width: 900px) {
-          .footer-grid { grid-template-columns: 1fr 1fr !important; }
-        }
-        @media (max-width: 500px) {
-          .footer-grid { grid-template-columns: 1fr !important; }
-        }
-      `}</style>
     </footer>
   );
 }
