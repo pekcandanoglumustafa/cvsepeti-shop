@@ -7,9 +7,10 @@ type GelenSatir = { slug: string; qty: number };
 
 export async function POST(req: NextRequest) {
   try {
-    const { items, buyer } = (await req.json()) as {
+    const { items, buyer, kargoOdeme } = (await req.json()) as {
       items: GelenSatir[];
       buyer: Record<string, string>;
+      kargoOdeme?: "pesin" | "karsi";
     };
 
     if (!Array.isArray(items) || items.length === 0) {
@@ -43,14 +44,18 @@ export async function POST(req: NextRequest) {
 
     // ---- KARGO da sunucuda hesaplanır ----
     const desi = toplamDesi(satirlar.map(({ p, adet }) => ({ desi: p.desi ?? 1, adet, kategori: p.category })));
-    const kargo = kargoUcreti(desi);
-    basketItems.push({
-      id: "kargo",
-      name: `Kargo bedeli (${desi} desi)`,
-      category1: "Kargo",
-      itemType: "PHYSICAL",
-      price: kargo.toFixed(2),
-    });
+    const kargoTutar = kargoUcreti(desi);
+    // Karşı ödemeli seçildiyse kargo bedeli sepete eklenmez, kuryeye ödenir.
+    const kargo = kargoOdeme === "karsi" ? 0 : kargoTutar;
+    if (kargo > 0) {
+      basketItems.push({
+        id: "kargo",
+        name: `Kargo bedeli (${desi} desi)`,
+        category1: "Kargo",
+        itemType: "PHYSICAL",
+        price: kargo.toFixed(2),
+      });
+    }
 
     const kurus = basketItems.reduce((s, b) => s + Math.round(parseFloat(b.price) * 100), 0);
     const priceStr = (kurus / 100).toFixed(2);
@@ -60,6 +65,11 @@ export async function POST(req: NextRequest) {
     const clientIp = (req.headers.get("x-forwarded-for") || "85.34.78.112").split(",")[0].trim();
     const now = new Date().toISOString().slice(0, 19).replace("T", " ");
     const adSoyad = `${buyer.name} ${buyer.surname}`.slice(0, 100);
+    const kurumsal = buyer.faturaTipi === "kurumsal";
+    const faturaUnvan = (kurumsal && buyer.firma ? buyer.firma : adSoyad).slice(0, 100);
+    const faturaAdres = kurumsal && buyer.vergiDairesi
+      ? `${buyer.address} | V.D.: ${buyer.vergiDairesi} | V.No: ${buyer.vergiNo || ""}`.slice(0, 250)
+      : buyer.address;
 
     const result = await iyzicoRequest<{
       status?: string;
@@ -94,7 +104,7 @@ export async function POST(req: NextRequest) {
         zipCode: buyer.zip || "42000",
       },
       shippingAddress: { contactName: adSoyad, city: buyer.city, country: "Turkey", address: buyer.address, zipCode: buyer.zip || "42000" },
-      billingAddress:  { contactName: adSoyad, city: buyer.city, country: "Turkey", address: buyer.address, zipCode: buyer.zip || "42000" },
+      billingAddress:  { contactName: faturaUnvan, city: buyer.city, country: "Turkey", address: faturaAdres, zipCode: buyer.zip || "42000" },
       basketItems,
     });
 
@@ -115,6 +125,7 @@ export async function POST(req: NextRequest) {
       token: result.token,
       desi,
       kargo,
+      kargoOdeme: kargoOdeme === "karsi" ? "karsi" : "pesin",
       toplam: priceStr,
     });
   } catch (e) {

@@ -1,61 +1,80 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
-import { Lock, ArrowRight } from "lucide-react";
+import Image from "next/image";
+import { Lock, ArrowRight, Check, AlertCircle, Truck, Building2, User } from "lucide-react";
 import { useCart } from "@/lib/cart";
 import { formatPrice } from "@/lib/products";
 
-const cities = [
-  "Adana","Adıyaman","Afyonkarahisar","Ağrı","Amasya","Ankara","Antalya","Artvin",
-  "Aydın","Balıkesir","Bilecik","Bingöl","Bitlis","Bolu","Burdur","Bursa","Çanakkale",
-  "Çankırı","Çorum","Denizli","Diyarbakır","Edirne","Elazığ","Erzincan","Erzurum",
-  "Eskişehir","Gaziantep","Giresun","Gümüşhane","Hakkari","Hatay","Isparta","Mersin",
-  "İstanbul","İzmir","Kars","Kastamonu","Kayseri","Kırklareli","Kırşehir","Kocaeli",
-  "Konya","Kütahya","Malatya","Manisa","Kahramanmaraş","Mardin","Muğla","Muş",
-  "Nevşehir","Niğde","Ordu","Rize","Sakarya","Samsun","Siirt","Sinop","Sivas",
-  "Tekirdağ","Tokat","Trabzon","Tunceli","Şanlıurfa","Uşak","Van","Yozgat","Zonguldak",
-];
+const CITIES = ["Adana","Adıyaman","Afyonkarahisar","Ağrı","Aksaray","Amasya","Ankara","Antalya","Ardahan","Artvin","Aydın","Balıkesir","Bartın","Batman","Bayburt","Bilecik","Bingöl","Bitlis","Bolu","Burdur","Bursa","Çanakkale","Çankırı","Çorum","Denizli","Diyarbakır","Düzce","Edirne","Elazığ","Erzincan","Erzurum","Eskişehir","Gaziantep","Giresun","Gümüşhane","Hakkari","Hatay","Iğdır","Isparta","İstanbul","İzmir","Kahramanmaraş","Karabük","Karaman","Kars","Kastamonu","Kayseri","Kilis","Kırıkkale","Kırklareli","Kırşehir","Kocaeli","Konya","Kütahya","Malatya","Manisa","Mardin","Mersin","Muğla","Muş","Nevşehir","Niğde","Ordu","Osmaniye","Rize","Sakarya","Samsun","Şanlıurfa","Siirt","Sinop","Şırnak","Sivas","Tekirdağ","Tokat","Trabzon","Tunceli","Uşak","Van","Yalova","Yozgat","Zonguldak"];
 
-export default function CheckoutPage() {
-  const { items, total, kargoDesi, kargo, genelToplam } = useCart();
+type FaturaTipi = "bireysel" | "kurumsal";
+type KargoOdeme = "pesin" | "karsi";
+
+export default function Odeme() {
+  const { items, total, kargoDesi, kargo } = useCart();
   const router = useRouter();
   const [mounted, setMounted] = useState(false);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
   const [showForm, setShowForm] = useState(false);
+  const [touched, setTouched] = useState<Record<string, boolean>>({});
 
-  const [form, setForm] = useState({
-    name: "",
-    surname: "",
-    email: "",
-    phone: "",
-    identityNumber: "",
-    address: "",
-    city: "Konya",
-    zip: "",
+  const [faturaTipi, setFaturaTipi] = useState<FaturaTipi>("bireysel");
+  const [kargoOdeme, setKargoOdeme] = useState<KargoOdeme>("pesin");
+
+  const [f, setF] = useState({
+    name: "", surname: "", email: "", phone: "", identityNumber: "",
+    address: "", city: "Konya", zip: "", note: "",
+    firma: "", vergiDairesi: "", vergiNo: "",
   });
 
   useEffect(() => setMounted(true), []);
-
   useEffect(() => {
-    if (mounted && items.length === 0 && !showForm) {
-      router.push("/sepet");
-    }
+    if (mounted && items.length === 0 && !showForm) router.push("/sepet");
   }, [mounted, items, showForm, router]);
 
-  if (!mounted) return null;
+  const desi = kargoDesi();
+  const kargoTutar = kargo();
+  const kargoOdenecek = kargoOdeme === "pesin" ? kargoTutar : 0;
+  const toplam = total() + kargoOdenecek;
 
-  const handleChange = (
-    e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement>
-  ) => {
-    setForm((f) => ({ ...f, [e.target.name]: e.target.value }));
-  };
+  const hatalar = useMemo(() => {
+    const h: Record<string, string> = {};
+    if (!f.name.trim()) h.name = "Ad gerekli";
+    if (!f.surname.trim()) h.surname = "Soyad gerekli";
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(f.email)) h.email = "Geçerli e-posta girin";
+    const tel = f.phone.replace(/\D/g, "");
+    if (tel.length < 10) h.phone = "Telefon eksik";
+    if (f.address.trim().length < 15) h.address = "Adresi tam yazın (en az 15 karakter)";
+    if (faturaTipi === "bireysel") {
+      if (!/^\d{11}$/.test(f.identityNumber)) h.identityNumber = "TC kimlik no 11 haneli olmalı";
+    } else {
+      if (!f.firma.trim()) h.firma = "Firma unvanı gerekli";
+      if (!f.vergiDairesi.trim()) h.vergiDairesi = "Vergi dairesi gerekli";
+      if (!/^\d{10,11}$/.test(f.vergiNo)) h.vergiNo = "Vergi no 10 haneli olmalı";
+    }
+    return h;
+  }, [f, faturaTipi]);
 
-  const handleSubmit = async (e: React.FormEvent) => {
+  const gecerli = Object.keys(hatalar).length === 0;
+
+  const set = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement>) =>
+    setF((p) => ({ ...p, [e.target.name]: e.target.value }));
+  const blur = (e: React.FocusEvent<HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement>) =>
+    setTouched((t) => ({ ...t, [e.target.name]: true }));
+
+  async function gonder(e: React.FormEvent) {
     e.preventDefault();
     setError("");
+    setTouched(Object.fromEntries(Object.keys(f).map((k) => [k, true])));
+    if (!gecerli) {
+      setError("Lütfen işaretli alanları düzeltin.");
+      document.querySelector('[data-hata="1"]')?.scrollIntoView({ behavior: "smooth", block: "center" });
+      return;
+    }
     setLoading(true);
     try {
       const res = await fetch("/api/iyzico/checkout-form", {
@@ -63,191 +82,266 @@ export default function CheckoutPage() {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
           items: items.map((i) => ({ slug: i.slug, qty: i.qty })),
-          buyer: form,
+          kargoOdeme,
+          buyer: {
+            name: f.name.trim(), surname: f.surname.trim(), email: f.email.trim(),
+            phone: f.phone.replace(/\D/g, ""), address: f.address.trim(),
+            city: f.city, zip: f.zip.trim(), note: f.note.trim(),
+            faturaTipi,
+            identityNumber: faturaTipi === "bireysel" ? f.identityNumber : f.vergiNo,
+            firma: f.firma.trim(), vergiDairesi: f.vergiDairesi.trim(), vergiNo: f.vergiNo.trim(),
+          },
         }),
       });
-      const data = await res.json();
-      if (data.status !== "success") {
-        setError(data.message || "Ödeme başlatılamadı, lütfen tekrar deneyin.");
-        setLoading(false);
-        return;
-      }
-      // En sağlam yol: iyzico'nun kendi ödeme sayfasına git (mobilde de sorunsuz)
-      if (data.paymentPageUrl) {
-        window.location.href = data.paymentPageUrl;
-        return;
-      }
-      // Yedek: gömülü form. iyzico script'i #iyzipay-checkout-form div'ini arar.
+      const d = await res.json();
+      if (d.status !== "success") { setError(d.message || "Ödeme başlatılamadı."); setLoading(false); return; }
+      if (d.paymentPageUrl) { window.location.href = d.paymentPageUrl; return; }
       setShowForm(true);
       setTimeout(() => {
         const host = document.getElementById("iyzipay-checkout-form");
         if (!host) return;
-        host.innerHTML = data.checkoutFormContent;
-        host.querySelectorAll("script").forEach((old) => {
+        host.innerHTML = d.checkoutFormContent;
+        host.querySelectorAll("script").forEach((o) => {
           const s = document.createElement("script");
-          Array.from(old.attributes).forEach((a) => s.setAttribute(a.name, a.value));
-          s.text = old.text;
-          old.parentNode?.replaceChild(s, old);
+          Array.from(o.attributes).forEach((a) => s.setAttribute(a.name, a.value));
+          s.text = o.text; o.parentNode?.replaceChild(s, o);
         });
       }, 60);
     } catch {
-      setError("Sunucuya ulaşılamadı, lütfen tekrar deneyin.");
+      setError("Sunucuya ulaşılamadı. Bağlantınızı kontrol edip tekrar deneyin.");
     }
     setLoading(false);
-  };
+  }
 
-  if (showForm) {
+  if (!mounted) return <main style={{ minHeight: 500 }} />;
+
+  if (showForm)
     return (
-      <main style={{ padding: "32px 0 60px" }}>
-        <div className="container" style={{ maxWidth: 680 }}>
-          <h1 style={{ fontSize: 24, fontWeight: 800, marginBottom: 20 }}>Güvenli Ödeme</h1>
-          <div style={{ background: "#fff", border: "1px solid var(--border)", borderRadius: 12, padding: 20, boxShadow: "var(--shadow-sm)" }}>
-            <div id="iyzipay-checkout-form" className="responsive" />
-          </div>
+      <main style={{ maxWidth: 760, margin: "0 auto", padding: "40px 20px 80px" }}>
+        <h1 className="display" style={{ fontSize: 34, marginBottom: 20 }}>Güvenli ödeme</h1>
+        <div style={{ border: "2px solid var(--ink)", padding: 20 }}>
+          <div id="iyzipay-checkout-form" className="responsive" />
         </div>
       </main>
     );
-  }
-
-  const inputStyle: React.CSSProperties = {
-    width: "100%",
-    background: "#fff",
-    border: "1.5px solid var(--border)",
-    borderRadius: 8,
-    padding: "12px 14px",
-    fontSize: 15,
-    color: "var(--text)",
-    outline: "none",
-  };
-  const labelStyle: React.CSSProperties = {
-    display: "block",
-    fontSize: 13,
-    fontWeight: 700,
-    color: "var(--text)",
-    marginBottom: 6,
-  };
-  const fieldStyle: React.CSSProperties = { marginBottom: 16 };
 
   return (
-    <main style={{ padding: "28px 0 60px" }}>
-      <div className="container">
-        <h1 style={{ fontSize: "clamp(22px, 3.5vw, 30px)", fontWeight: 800, marginBottom: 22 }}>Ödeme Bilgileri</h1>
+    <main style={{ maxWidth: 1200, margin: "0 auto", padding: "36px 20px 80px" }}>
+      <Link href="/sepet" className="eyebrow" style={{ color: "var(--muted)", textDecoration: "none" }}>← Sepete dön</Link>
+      <h1 className="display" style={{ fontSize: "clamp(32px,6vw,60px)", margin: "14px 0 32px" }}>Ödeme</h1>
 
-        <div style={{ display: "grid", gridTemplateColumns: "1fr 340px", gap: 20, alignItems: "start" }} className="checkout-grid">
-          {/* Form kartı */}
-          <form onSubmit={handleSubmit} style={{ background: "#fff", border: "1px solid var(--border)", borderRadius: 12, padding: "22px 20px", boxShadow: "var(--shadow-sm)", minWidth: 0 }}>
-            <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 14 }} className="form-2col">
-              <div style={fieldStyle}>
-                <label style={labelStyle}>Ad</label>
-                <input required name="name" value={form.name} onChange={handleChange} style={inputStyle} autoComplete="given-name" />
-              </div>
-              <div style={fieldStyle}>
-                <label style={labelStyle}>Soyad</label>
-                <input required name="surname" value={form.surname} onChange={handleChange} style={inputStyle} autoComplete="family-name" />
-              </div>
+      <form onSubmit={gonder} className="od-grid"
+            style={{ display: "grid", gridTemplateColumns: "minmax(0,1fr) 380px", gap: 44, alignItems: "start" }}>
+        <div style={{ display: "flex", flexDirection: "column", gap: 36, minWidth: 0 }}>
+
+          {/* 1 — FATURA TİPİ */}
+          <Bolum no="1" baslik="Fatura tipi">
+            <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 12 }}>
+              <Secim aktif={faturaTipi === "bireysel"} onClick={() => setFaturaTipi("bireysel")}
+                     ikon={<User size={18} />} baslik="Bireysel" alt="TC kimlik ile" />
+              <Secim aktif={faturaTipi === "kurumsal"} onClick={() => setFaturaTipi("kurumsal")}
+                     ikon={<Building2 size={18} />} baslik="Kurumsal" alt="Vergi no ile" />
             </div>
+          </Bolum>
 
-            <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 14 }} className="form-2col">
-              <div style={fieldStyle}>
-                <label style={labelStyle}>E-posta</label>
-                <input required type="email" name="email" value={form.email} onChange={handleChange} style={inputStyle} autoComplete="email" inputMode="email" />
-              </div>
-              <div style={fieldStyle}>
-                <label style={labelStyle}>Telefon</label>
-                <input required name="phone" value={form.phone} onChange={handleChange} placeholder="05XX XXX XX XX" style={inputStyle} autoComplete="tel" inputMode="tel" />
-              </div>
+          {/* 2 — İLETİŞİM */}
+          <Bolum no="2" baslik="İletişim bilgileri">
+            <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 16 }} className="ikili">
+              <Alan ad="name" etiket="Ad" deger={f.name} set={set} blur={blur} hata={touched.name ? hatalar.name : ""} otomatik="given-name" />
+              <Alan ad="surname" etiket="Soyad" deger={f.surname} set={set} blur={blur} hata={touched.surname ? hatalar.surname : ""} otomatik="family-name" />
+              <Alan ad="email" etiket="E-posta" tip="email" deger={f.email} set={set} blur={blur} hata={touched.email ? hatalar.email : ""} otomatik="email" ipucu="Sipariş bilgisi buraya gönderilir" />
+              <Alan ad="phone" etiket="Telefon" tip="tel" deger={f.phone} set={set} blur={blur} hata={touched.phone ? hatalar.phone : ""} yer="05XX XXX XX XX" otomatik="tel" />
             </div>
+          </Bolum>
 
-            <div style={fieldStyle}>
-              <label style={labelStyle}>TC Kimlik No</label>
-              <input required name="identityNumber" value={form.identityNumber} onChange={handleChange} maxLength={11} style={inputStyle} inputMode="numeric" />
-              <p style={{ fontSize: 11.5, color: "var(--text-tertiary)", marginTop: 5 }}>Fatura düzenlemesi için gereklidir, güvenle saklanır.</p>
-            </div>
-
-            <div style={fieldStyle}>
-              <label style={labelStyle}>Teslimat Adresi</label>
-              <textarea required name="address" value={form.address} onChange={handleChange} rows={3} style={{ ...inputStyle, resize: "none", fontFamily: "inherit" }} autoComplete="street-address" />
-            </div>
-
-            <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 14 }} className="form-2col">
-              <div style={fieldStyle}>
-                <label style={labelStyle}>Şehir</label>
-                <select name="city" value={form.city} onChange={handleChange} style={{ ...inputStyle, appearance: "auto" }}>
-                  {cities.map((c) => (<option key={c} value={c}>{c}</option>))}
-                </select>
+          {/* 3 — FATURA BİLGİSİ */}
+          <Bolum no="3" baslik={faturaTipi === "bireysel" ? "Fatura bilgisi" : "Firma bilgileri"}>
+            {faturaTipi === "bireysel" ? (
+              <Alan ad="identityNumber" etiket="TC Kimlik No" deger={f.identityNumber} set={set} blur={blur}
+                    hata={touched.identityNumber ? hatalar.identityNumber : ""} yer="11 haneli"
+                    ipucu="Fatura düzenlemek için zorunlu. Güvenle saklanır, üçüncü kişilerle paylaşılmaz." />
+            ) : (
+              <div style={{ display: "grid", gap: 16 }}>
+                <Alan ad="firma" etiket="Firma unvanı" deger={f.firma} set={set} blur={blur} hata={touched.firma ? hatalar.firma : ""} otomatik="organization" />
+                <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 16 }} className="ikili">
+                  <Alan ad="vergiDairesi" etiket="Vergi dairesi" deger={f.vergiDairesi} set={set} blur={blur} hata={touched.vergiDairesi ? hatalar.vergiDairesi : ""} />
+                  <Alan ad="vergiNo" etiket="Vergi no" deger={f.vergiNo} set={set} blur={blur} hata={touched.vergiNo ? hatalar.vergiNo : ""} yer="10 haneli" />
+                </div>
               </div>
-              <div style={fieldStyle}>
-                <label style={labelStyle}>Posta Kodu</label>
-                <input required name="zip" value={form.zip} onChange={handleChange} style={inputStyle} inputMode="numeric" autoComplete="postal-code" />
-              </div>
-            </div>
-
-            {error && (
-              <p style={{ fontSize: 13.5, color: "#b91c1c", background: "#fef2f2", border: "1px solid #fecaca", borderRadius: 8, padding: "10px 12px", marginBottom: 14 }}>
-                {error}
-              </p>
             )}
+          </Bolum>
 
-            {(
-              <button type="submit" disabled={loading} className="btn-primary" style={{ width: "100%", padding: "15px", fontSize: 15, gap: 8, opacity: loading ? 0.6 : 1 }}>
-                <Lock size={16} />
-                {loading ? "Yönlendiriliyor..." : "iyzico ile Güvenli Ödemeye Geç"}
-                {!loading && <ArrowRight size={17} />}
-              </button>
-            )}
+          {/* 4 — TESLİMAT */}
+          <Bolum no="4" baslik="Teslimat adresi">
+            <div style={{ display: "grid", gap: 16 }}>
+              <Alan ad="address" etiket="Açık adres" cokSatir deger={f.address} set={set} blur={blur}
+                    hata={touched.address ? hatalar.address : ""} otomatik="street-address"
+                    yer="Mahalle, cadde, sokak, bina ve daire no" />
+              <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 16 }} className="ikili">
+                <div>
+                  <label className="label" style={{ display: "block", marginBottom: 7 }}>Şehir</label>
+                  <select name="city" value={f.city} onChange={set} style={inp}>
+                    {CITIES.map((c) => <option key={c}>{c}</option>)}
+                  </select>
+                </div>
+                <Alan ad="zip" etiket="Posta kodu" deger={f.zip} set={set} blur={blur} yer="opsiyonel" otomatik="postal-code" />
+              </div>
+              <Alan ad="note" etiket="Sipariş notu" cokSatir deger={f.note} set={set} blur={blur} yer="opsiyonel — teslimat için özel not" />
+            </div>
+          </Bolum>
 
+          {/* 5 — KARGO ÖDEME */}
+          <Bolum no="5" baslik="Kargo ödemesi">
+            <div style={{ display: "grid", gap: 12 }}>
+              <Secim genis aktif={kargoOdeme === "pesin"} onClick={() => setKargoOdeme("pesin")}
+                     ikon={<Truck size={18} />} baslik="Şimdi öde"
+                     alt={desi > 0 ? `${desi} desi · ${formatPrice(kargoTutar)} — sipariş toplamına eklenir` : "Bu siparişte kargo ücreti yok"} />
+              <Secim genis aktif={kargoOdeme === "karsi"} onClick={() => setKargoOdeme("karsi")}
+                     ikon={<Truck size={18} />} baslik="Karşı ödemeli"
+                     alt="Kargoyu teslim alırken kuryeye ödersiniz. Tutar Yurtiçi Kargo tarifesine göre belirlenir." />
+            </div>
+          </Bolum>
 
-            <p style={{ fontSize: 12, color: "var(--text-tertiary)", textAlign: "center", marginTop: 14, lineHeight: 1.5 }}>
-              🔒 Kart bilgileriniz CV Sepeti sunucularında saklanmaz, doğrudan iyzico güvencesiyle işlenir.
-            </p>
-          </form>
+          {error && (
+            <div role="alert" style={{ display: "flex", gap: 10, padding: 14, border: "2px solid #C4271A", background: "#FFF3F1" }}>
+              <AlertCircle size={18} color="#C4271A" style={{ flexShrink: 0, marginTop: 1 }} />
+              <p style={{ fontSize: 14, color: "#C4271A", fontWeight: 600 }}>{error}</p>
+            </div>
+          )}
 
-          {/* Sipariş özeti */}
-          <div style={{ background: "#fff", border: "1px solid var(--border)", borderRadius: 12, padding: 20, boxShadow: "var(--shadow-sm)", position: "sticky", top: 130 }}>
-            <h2 style={{ fontSize: 15, fontWeight: 800, marginBottom: 14, paddingBottom: 12, borderBottom: "1px solid var(--border)" }}>
-              Sipariş Özeti ({items.reduce((s, i) => s + i.qty, 0)} ürün)
-            </h2>
-            <div style={{ display: "flex", flexDirection: "column", gap: 10, marginBottom: 14 }}>
+          <button type="submit" className="btn btn-solid" disabled={loading}
+                  style={{ width: "100%", padding: "20px 28px", fontSize: 15 }}>
+            {loading ? "Hazırlanıyor…" : <><Lock size={17} /> iyzico ile güvenli ödemeye geç <ArrowRight size={17} /></>}
+          </button>
+
+          <p style={{ fontSize: 12, color: "var(--muted)", textAlign: "center", lineHeight: 1.7 }}>
+            Kart bilgileriniz CV Sepeti sunucularında saklanmaz, doğrudan iyzico altyapısında işlenir.
+          </p>
+        </div>
+
+        {/* ÖZET */}
+        <aside className="od-ozet" style={{ border: "2px solid var(--ink)", position: "sticky", top: 88 }}>
+          <div style={{ padding: "20px 20px 0" }}>
+            <p className="eyebrow" style={{ marginBottom: 16 }}>Sipariş özeti</p>
+            <div style={{ display: "flex", flexDirection: "column", gap: 14, maxHeight: 280, overflowY: "auto" }}>
               {items.map((i) => (
-                <div key={i.slug} style={{ display: "flex", justifyContent: "space-between", gap: 10, fontSize: 13 }}>
-                  <span style={{ color: "var(--text-secondary)", minWidth: 0, overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" }}>
-                    {i.qty}x {i.name}
-                  </span>
-                  <span style={{ fontWeight: 700, whiteSpace: "nowrap" }}>{formatPrice(i.price * i.qty)}</span>
+                <div key={i.slug} style={{ display: "flex", gap: 12 }}>
+                  <div style={{ width: 52, height: 52, background: "var(--tile)", position: "relative", flexShrink: 0 }}>
+                    {i.image && <Image src={i.image} alt="" fill unoptimized style={{ objectFit: "contain", padding: 5 }} />}
+                    <span style={{ position: "absolute", top: -7, right: -7, background: "var(--ink)", color: "#fff",
+                                   width: 19, height: 19, borderRadius: 10, fontSize: 11, fontWeight: 800,
+                                   display: "grid", placeItems: "center" }}>{i.qty}</span>
+                  </div>
+                  <div style={{ flex: 1, minWidth: 0 }}>
+                    <p style={{ fontSize: 12.5, fontWeight: 600, lineHeight: 1.35 }} className="line-clamp-2">{i.name}</p>
+                    <p style={{ fontSize: 12.5, fontWeight: 800, marginTop: 3 }}>{formatPrice(i.price * i.qty)}</p>
+                  </div>
                 </div>
               ))}
             </div>
-            <div style={{ display: "flex", justifyContent: "space-between", fontSize: 13.5, color: "var(--text-secondary)", paddingTop: 12, borderTop: "1px solid var(--border)", marginBottom: 6 }}>
-              <span>Kargo</span><span style={{ color: "var(--green)", fontWeight: 700 }}>Sipariş sonrası bildirilecek</span>
-            </div>
-            <div style={{ display: "flex", justifyContent: "space-between", fontSize: 17, fontWeight: 800, marginTop: 8 }}>
-              <span>Ara toplam</span><span>{formatPrice(total())}</span>
-            </div>
-            <div style={{ display: "flex", justifyContent: "space-between", fontSize: 14, padding: "6px 0" }}>
-              <span>Kargo · {kargoDesi()} desi</span><span>{formatPrice(kargo())}</span>
-            </div>
-            <div style={{ display: "flex", justifyContent: "space-between", fontWeight: 900, fontSize: 18, paddingTop: 10, borderTop: "2px solid var(--ink)" }}>
-              <span>Toplam</span><span style={{ color: "var(--hi)" }}>{formatPrice(genelToplam())}</span>
-            </div>
-            <Link href="/sepet" style={{ display: "flex", justifyContent: "center", marginTop: 14, fontSize: 13, color: "var(--text-tertiary)", textDecoration: "none" }}>
-              ← Sepete Dön
-            </Link>
           </div>
-        </div>
-      </div>
+
+          <div style={{ padding: "18px 20px 20px" }}>
+            <Satir k="Ara toplam" v={formatPrice(total())} />
+            <Satir k={desi > 0 ? `Kargo · ${desi} desi` : "Kargo"}
+                   v={kargoOdeme === "karsi" ? "Kuryeye ödenecek" : (desi > 0 ? formatPrice(kargoTutar) : "Ücretsiz")}
+                   vurgu={kargoOdeme === "karsi"} />
+            <div className="band-thin" style={{ margin: "13px 0" }} />
+            <div style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline" }}>
+              <span className="label">Şimdi ödenecek</span>
+              <span className="display" style={{ fontSize: 27, color: "var(--hi)" }}>{formatPrice(toplam)}</span>
+            </div>
+            {kargoOdeme === "karsi" && desi > 0 && (
+              <p style={{ fontSize: 11.5, color: "var(--muted)", marginTop: 9, lineHeight: 1.6 }}>
+                Kargo bedeli teslimatta kuryeye ödenir, bu tutara dahil değildir.
+              </p>
+            )}
+          </div>
+        </aside>
+      </form>
 
       <style>{`
-        @media (max-width: 860px) {
-          .checkout-grid { grid-template-columns: 1fr !important; }
-          .checkout-grid > div:last-child { position: static !important; }
+        @media (max-width: 940px){
+          .od-grid{grid-template-columns:1fr!important;gap:30px!important}
+          .od-ozet{position:static!important;order:-1}
         }
-        @media (max-width: 480px) {
-          .form-2col { grid-template-columns: 1fr !important; gap: 0 !important; }
-        }
-        .checkout-grid input:focus, .checkout-grid textarea:focus, .checkout-grid select:focus {
-          border-color: var(--orange) !important;
-        }
+        @media (max-width: 560px){ .ikili{grid-template-columns:1fr!important} }
       `}</style>
     </main>
+  );
+}
+
+const inp: React.CSSProperties = {
+  width: "100%", background: "#fff", border: "2px solid var(--line)",
+  padding: "14px 15px", fontSize: 15, color: "var(--ink)", outline: "none",
+  fontFamily: "inherit", borderRadius: 0,
+};
+
+function Bolum({ no, baslik, children }: { no: string; baslik: string; children: React.ReactNode }) {
+  return (
+    <section>
+      <div style={{ display: "flex", alignItems: "center", gap: 11, marginBottom: 16 }}>
+        <span style={{ width: 26, height: 26, background: "var(--ink)", color: "#fff", fontSize: 12,
+                       fontWeight: 900, display: "grid", placeItems: "center", flexShrink: 0 }}>{no}</span>
+        <h2 className="display" style={{ fontSize: 19 }}>{baslik}</h2>
+      </div>
+      {children}
+    </section>
+  );
+}
+
+function Secim({ aktif, onClick, ikon, baslik, alt, genis }: {
+  aktif: boolean; onClick: () => void; ikon: React.ReactNode; baslik: string; alt: string; genis?: boolean;
+}) {
+  return (
+    <button type="button" onClick={onClick} aria-pressed={aktif}
+      style={{ display: "flex", alignItems: "flex-start", gap: 12, textAlign: "left", cursor: "pointer",
+               border: aktif ? "2px solid var(--ink)" : "2px solid var(--line)",
+               background: aktif ? "var(--tile)" : "#fff", padding: genis ? "16px 18px" : "16px 14px",
+               width: "100%", transition: "border-color .15s, background .15s" }}>
+      <span style={{ marginTop: 1, color: aktif ? "var(--ink)" : "var(--muted)" }}>{ikon}</span>
+      <span style={{ flex: 1 }}>
+        <span style={{ display: "block", fontWeight: 800, fontSize: 14 }}>{baslik}</span>
+        <span style={{ display: "block", fontSize: 12.5, color: "var(--muted)", marginTop: 3, lineHeight: 1.5 }}>{alt}</span>
+      </span>
+      {aktif && <Check size={17} strokeWidth={3} />}
+    </button>
+  );
+}
+
+function Alan({ ad, etiket, deger, set, blur, hata, tip = "text", yer, ipucu, cokSatir, otomatik }: {
+  ad: string; etiket: string; deger: string;
+  set: (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => void;
+  blur: (e: React.FocusEvent<HTMLInputElement | HTMLTextAreaElement>) => void;
+  hata?: string; tip?: string; yer?: string; ipucu?: string; cokSatir?: boolean; otomatik?: string;
+}) {
+  const stil = { ...inp, borderColor: hata ? "#C4271A" : "var(--line)" };
+  return (
+    <div data-hata={hata ? "1" : undefined}>
+      <label htmlFor={ad} className="label" style={{ display: "block", marginBottom: 7 }}>{etiket}</label>
+      {cokSatir ? (
+        <textarea id={ad} name={ad} value={deger} onChange={set} onBlur={blur} rows={3}
+                  placeholder={yer} autoComplete={otomatik} style={{ ...stil, resize: "vertical" }}
+                  aria-invalid={!!hata} aria-describedby={hata ? `${ad}-hata` : undefined} />
+      ) : (
+        <input id={ad} name={ad} type={tip} value={deger} onChange={set} onBlur={blur}
+               placeholder={yer} autoComplete={otomatik} style={stil}
+               aria-invalid={!!hata} aria-describedby={hata ? `${ad}-hata` : undefined} />
+      )}
+      {hata ? (
+        <p id={`${ad}-hata`} style={{ fontSize: 12, color: "#C4271A", marginTop: 6, fontWeight: 600 }}>{hata}</p>
+      ) : ipucu ? (
+        <p style={{ fontSize: 12, color: "var(--muted)", marginTop: 6 }}>{ipucu}</p>
+      ) : null}
+    </div>
+  );
+}
+
+function Satir({ k, v, vurgu }: { k: string; v: string; vurgu?: boolean }) {
+  return (
+    <div style={{ display: "flex", justifyContent: "space-between", gap: 12, padding: "7px 0", fontSize: 14 }}>
+      <span style={{ color: "var(--muted)" }}>{k}</span>
+      <span style={{ fontWeight: 700, color: vurgu ? "var(--hi)" : "var(--ink)", textAlign: "right" }}>{v}</span>
+    </div>
   );
 }
