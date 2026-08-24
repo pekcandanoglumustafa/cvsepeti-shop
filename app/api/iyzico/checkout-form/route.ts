@@ -42,7 +42,7 @@ export async function POST(req: NextRequest) {
     }));
 
     // ---- KARGO da sunucuda hesaplanır ----
-    const desi = toplamDesi(satirlar.map(({ p, adet }) => ({ desi: p.desi || 1, adet, kategori: p.category })));
+    const desi = toplamDesi(satirlar.map(({ p, adet }) => ({ desi: p.desi ?? 1, adet, kategori: p.category })));
     const kargo = kargoUcreti(desi);
     basketItems.push({
       id: "kargo",
