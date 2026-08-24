@@ -119,8 +119,8 @@ export async function POST(req: NextRequest) {
 
     return NextResponse.json({
       status: "success",
-      // barındırılan sayfa — mobilde ve masaüstünde en sağlam yol
-      paymentPageUrl: result.payWithIyzicoPageUrl || null,
+      // NOT: payWithIyzicoPageUrl "iyzico ile Öde" cüzdan ürününe aittir,
+      // standart checkout form ile kullanılamaz. Gömülü form kullanılıyor.
       checkoutFormContent: result.checkoutFormContent,
       token: result.token,
       desi,

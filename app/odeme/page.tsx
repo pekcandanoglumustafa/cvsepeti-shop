@@ -95,7 +95,7 @@ export default function Odeme() {
       });
       const d = await res.json();
       if (d.status !== "success") { setError(d.message || "Ödeme başlatılamadı."); setLoading(false); return; }
-      if (d.paymentPageUrl) { window.location.href = d.paymentPageUrl; return; }
+      if (!d.checkoutFormContent) { setError("Ödeme formu alınamadı. Lütfen tekrar deneyin."); setLoading(false); return; }
       setShowForm(true);
       setTimeout(() => {
         const host = document.getElementById("iyzipay-checkout-form");
@@ -117,11 +117,31 @@ export default function Odeme() {
 
   if (showForm)
     return (
-      <main style={{ maxWidth: 760, margin: "0 auto", padding: "40px 20px 80px" }}>
-        <h1 className="display" style={{ fontSize: 34, marginBottom: 20 }}>Güvenli ödeme</h1>
-        <div style={{ border: "2px solid var(--ink)", padding: 20 }}>
+      <main style={{ maxWidth: 860, margin: "0 auto", padding: "32px 16px 80px" }}>
+        <button type="button" onClick={() => { setShowForm(false); setLoading(false); }}
+                className="eyebrow"
+                style={{ background: "none", border: "none", cursor: "pointer", color: "var(--muted)", padding: 0 }}>
+          ← Bilgileri düzenle
+        </button>
+
+        <h1 className="display" style={{ fontSize: "clamp(28px,5vw,42px)", margin: "14px 0 6px" }}>
+          Güvenli ödeme
+        </h1>
+        <p style={{ fontSize: 14, color: "var(--muted)", marginBottom: 8 }}>
+          {items.reduce((s, i) => s + i.qty, 0)} ürün · Ödenecek tutar{" "}
+          <strong style={{ color: "var(--hi)" }}>{formatPrice(toplam)}</strong>
+          {kargoOdeme === "karsi" && desi > 0 && " · Kargo kuryeye ödenecek"}
+        </p>
+        <div className="band-thin" style={{ marginBottom: 22 }} />
+
+        <div style={{ border: "2px solid var(--ink)", padding: 16, minHeight: 420 }}>
           <div id="iyzipay-checkout-form" className="responsive" />
         </div>
+
+        <p style={{ fontSize: 12, color: "var(--muted)", textAlign: "center", marginTop: 16, lineHeight: 1.7 }}>
+          <Lock size={12} style={{ display: "inline", verticalAlign: "-1px" }} /> Kart bilgileriniz
+          CV Sepeti sunucularında saklanmaz, doğrudan iyzico altyapısında işlenir.
+        </p>
       </main>
     );
 
