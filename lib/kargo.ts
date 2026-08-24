@@ -78,11 +78,13 @@ export function satirDesi({ desi, adet, kategori }: KargoSatiri) {
 /** sepetin toplam desisi (yukarı yuvarlanır, en az 1) */
 export function toplamDesi(satirlar: KargoSatiri[]) {
   const t = satirlar.reduce((s, r) => s + satirDesi(r), 0);
+  if (t <= 0) return 0;              // desi 0 olan ürünler (test) kargo doğurmaz
   return Math.max(1, Math.ceil(t));
 }
 
 /** desiden kargo ücreti */
 export function kargoUcreti(desi: number) {
+  if (desi <= 0) return 0;           // kargosuz sepet
   if (desi <= TABAN_DESI) return TABAN_UCRET;
   let ucret = TABAN_UCRET;
   let alt = TABAN_DESI;
