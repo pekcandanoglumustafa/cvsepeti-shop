@@ -1,75 +1,70 @@
 import { NextRequest, NextResponse } from "next/server";
-import { iyzicoConfigured, iyzicoRequest } from "@/lib/iyzico";
+import { iyzicoRequest, iyzicoConfigured } from "@/lib/iyzico";
 import { toplamDesi, kargoUcreti } from "@/lib/kargo";
+import { getProduct } from "@/lib/products";
 
-type CartItem = { slug: string; name: string; price: number; qty: number; desi?: number; kategori?: string };
-type CheckoutBody = {
-  items: CartItem[];
-  buyer: {
-    name: string; surname: string; email: string; phone: string;
-    address: string; city: string; zip: string; identityNumber: string;
-  };
-};
-
-export async function GET() {
-  return NextResponse.json({ configured: iyzicoConfigured() });
-}
+type GelenSatir = { slug: string; qty: number };
 
 export async function POST(req: NextRequest) {
   try {
-    const body: CheckoutBody = await req.json();
-    const { items, buyer } = body;
+    const { items, buyer } = (await req.json()) as {
+      items: GelenSatir[];
+      buyer: Record<string, string>;
+    };
 
-    if (!items?.length || !buyer?.email) {
-      return NextResponse.json(
-        { status: "error", message: "Geçersiz sipariş bilgisi" },
-        { status: 400 }
-      );
+    if (!Array.isArray(items) || items.length === 0) {
+      return NextResponse.json({ status: "error", message: "Sepet boş" }, { status: 400 });
+    }
+    if (!buyer?.name || !buyer?.surname || !buyer?.email || !buyer?.phone || !buyer?.address || !buyer?.city) {
+      return NextResponse.json({ status: "error", message: "Eksik teslimat bilgisi" }, { status: 400 });
     }
     if (!iyzicoConfigured()) {
-      return NextResponse.json(
-        { status: "error", message: "Ödeme sistemi yapılandırılmamış" },
-        { status: 503 }
-      );
+      return NextResponse.json({ status: "error", message: "Ödeme sistemi yapılandırılmamış" }, { status: 503 });
     }
+
+    // ---- FİYATLAR SUNUCUDAN OKUNUR, istemciye güvenilmez ----
+    const satirlar = [];
+    for (const g of items) {
+      const p = getProduct(g.slug);
+      if (!p) {
+        return NextResponse.json({ status: "error", message: `Ürün bulunamadı: ${g.slug}` }, { status: 400 });
+      }
+      const adet = Math.max(1, Math.min(999, Math.floor(Number(g.qty) || 1)));
+      satirlar.push({ p, adet });
+    }
+
+    const basketItems = satirlar.map(({ p, adet }) => ({
+      id: p.slug,
+      name: p.name.slice(0, 120),
+      category1: p.category.slice(0, 60),
+      itemType: "PHYSICAL",
+      price: (Math.round(p.price * adet * 100) / 100).toFixed(2),
+    }));
+
+    // ---- KARGO da sunucuda hesaplanır ----
+    const desi = toplamDesi(satirlar.map(({ p, adet }) => ({ desi: p.desi || 1, adet, kategori: p.category })));
+    const kargo = kargoUcreti(desi);
+    basketItems.push({
+      id: "kargo",
+      name: `Kargo bedeli (${desi} desi)`,
+      category1: "Kargo",
+      itemType: "PHYSICAL",
+      price: kargo.toFixed(2),
+    });
+
+    const kurus = basketItems.reduce((s, b) => s + Math.round(parseFloat(b.price) * 100), 0);
+    const priceStr = (kurus / 100).toFixed(2);
 
     const conversationId = `cv-${Date.now()}`;
     const origin = req.nextUrl.origin;
-
-    const basketItems = items.map((item) => ({
-      id: item.slug,
-      name: item.name.slice(0, 120),
-      category1: "CV Sepeti Ürünleri",
-      itemType: "PHYSICAL",
-      price: (Math.round(item.price * item.qty * 100) / 100).toFixed(2),
-    }));
-
-    // Kargo: sunucuda yeniden hesaplanır (istemciden gelen tutara güvenilmez)
-    const kargoDesiToplam = toplamDesi(
-      items.map((i) => ({ desi: i.desi || 1, adet: i.qty, kategori: i.kategori || "" }))
-    );
-    const kargoTutar = kargoUcreti(kargoDesiToplam);
-    basketItems.push({
-      id: "kargo",
-      name: `Kargo bedeli (${kargoDesiToplam} desi)`,
-      category1: "Kargo",
-      itemType: "PHYSICAL",
-      price: kargoTutar.toFixed(2),
-    });
-
-    const basketTotal = basketItems.reduce(
-      (s, b) => s + Math.round(parseFloat(b.price) * 100), 0
-    );
-    const priceStr = (basketTotal / 100).toFixed(2);
-
-    const clientIp = (req.headers.get("x-forwarded-for") || "85.34.78.112")
-      .split(",")[0].trim();
-
+    const clientIp = (req.headers.get("x-forwarded-for") || "85.34.78.112").split(",")[0].trim();
     const now = new Date().toISOString().slice(0, 19).replace("T", " ");
+    const adSoyad = `${buyer.name} ${buyer.surname}`.slice(0, 100);
 
     const result = await iyzicoRequest<{
       status?: string;
       checkoutFormContent?: string;
+      payWithIyzicoPageUrl?: string;
       token?: string;
       errorMessage?: string;
       errorCode?: string;
@@ -96,41 +91,31 @@ export async function POST(req: NextRequest) {
         ip: clientIp,
         city: buyer.city,
         country: "Turkey",
-        zipCode: buyer.zip,
+        zipCode: buyer.zip || "42000",
       },
-      shippingAddress: {
-        contactName: `${buyer.name} ${buyer.surname}`,
-        city: buyer.city,
-        country: "Turkey",
-        address: buyer.address,
-        zipCode: buyer.zip,
-      },
-      billingAddress: {
-        contactName: `${buyer.name} ${buyer.surname}`,
-        city: buyer.city,
-        country: "Turkey",
-        address: buyer.address,
-        zipCode: buyer.zip,
-      },
+      shippingAddress: { contactName: adSoyad, city: buyer.city, country: "Turkey", address: buyer.address, zipCode: buyer.zip || "42000" },
+      billingAddress:  { contactName: adSoyad, city: buyer.city, country: "Turkey", address: buyer.address, zipCode: buyer.zip || "42000" },
       basketItems,
     });
 
     if (result?.status !== "success") {
-      return NextResponse.json(
-        {
-          status: "error",
-          message: result?.errorMessage
-            ? `${result.errorMessage}${result.errorCode ? ` (kod: ${result.errorCode})` : ""}`
-            : "Ödeme başlatılamadı",
-        },
-        { status: 400 }
-      );
+      return NextResponse.json({
+        status: "error",
+        message: result?.errorMessage
+          ? `${result.errorMessage}${result.errorCode ? ` (kod: ${result.errorCode})` : ""}`
+          : "Ödeme başlatılamadı",
+      }, { status: 400 });
     }
 
     return NextResponse.json({
       status: "success",
+      // barındırılan sayfa — mobilde ve masaüstünde en sağlam yol
+      paymentPageUrl: result.payWithIyzicoPageUrl || null,
       checkoutFormContent: result.checkoutFormContent,
       token: result.token,
+      desi,
+      kargo,
+      toplam: priceStr,
     });
   } catch (e) {
     return NextResponse.json(

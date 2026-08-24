@@ -62,14 +62,7 @@ export default function CheckoutPage() {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
-          items: items.map((i) => ({
-            desi: i.desi, kategori: i.kategori,
-            slug: i.slug,
-            name: i.name,
-            price: i.price,
-            qty: i.qty,
-          })),
-          total: genelToplam(),
+          items: items.map((i) => ({ slug: i.slug, qty: i.qty })),
           buyer: form,
         }),
       });
@@ -79,19 +72,24 @@ export default function CheckoutPage() {
         setLoading(false);
         return;
       }
+      // En sağlam yol: iyzico'nun kendi ödeme sayfasına git (mobilde de sorunsuz)
+      if (data.paymentPageUrl) {
+        window.location.href = data.paymentPageUrl;
+        return;
+      }
+      // Yedek: gömülü form. iyzico script'i #iyzipay-checkout-form div'ini arar.
       setShowForm(true);
       setTimeout(() => {
-        const container = document.getElementById("iyzico-form-container");
-        if (container) {
-          container.innerHTML = data.checkoutFormContent;
-          const script = container.querySelector("script");
-          if (script) {
-            const newScript = document.createElement("script");
-            newScript.text = script.text;
-            script.parentNode?.replaceChild(newScript, script);
-          }
-        }
-      }, 50);
+        const host = document.getElementById("iyzipay-checkout-form");
+        if (!host) return;
+        host.innerHTML = data.checkoutFormContent;
+        host.querySelectorAll("script").forEach((old) => {
+          const s = document.createElement("script");
+          Array.from(old.attributes).forEach((a) => s.setAttribute(a.name, a.value));
+          s.text = old.text;
+          old.parentNode?.replaceChild(s, old);
+        });
+      }, 60);
     } catch {
       setError("Sunucuya ulaşılamadı, lütfen tekrar deneyin.");
     }
@@ -104,7 +102,7 @@ export default function CheckoutPage() {
         <div className="container" style={{ maxWidth: 680 }}>
           <h1 style={{ fontSize: 24, fontWeight: 800, marginBottom: 20 }}>Güvenli Ödeme</h1>
           <div style={{ background: "#fff", border: "1px solid var(--border)", borderRadius: 12, padding: 20, boxShadow: "var(--shadow-sm)" }}>
-            <div id="iyzico-form-container" />
+            <div id="iyzipay-checkout-form" className="responsive" />
           </div>
         </div>
       </main>
