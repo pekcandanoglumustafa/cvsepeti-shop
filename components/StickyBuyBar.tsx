@@ -33,7 +33,8 @@ export default function StickyBuyBar({ product }: { product: Product }) {
         onClick={() => {
           add({ slug: product.slug, name: product.name, price: product.price,
                 image: product.images[0] || "", stock: product.stock,
-                desi: product.desi, kategori: product.category }, 1);
+                desi: product.desi, kategori: product.category,
+                olcu3: product.olcu3, geo: product.geo, agirlik_kg: product.agirlik_kg }, 1);
           setOk(true); setTimeout(() => setOk(false), 1800);
         }}>
         {ok ? <><Check size={15} /> Eklendi</> : "Sepete ekle"}

@@ -2,7 +2,9 @@ import Link from "next/link";
 import { allProducts, categories, categorySlug } from "@/lib/products";
 import ProductCard from "@/components/ProductCard";
 import CategoryCard from "@/components/CategoryCard";
+import Image from "next/image";
 import kapaklar from "@/data/kategori_kapak.json";
+import hero from "@/data/hero.json";
 
 const KAPAK = kapaklar as Record<string, { img: string; w: number; adet: number }>;
 
@@ -20,15 +22,38 @@ export default function Home() {
   return (
     <main>
       {/* ---- HERO ---- */}
-      <section style={{ maxWidth: 1440, margin: "0 auto", padding: "56px 24px 0" }}>
-        <p className="eyebrow" style={{ color: "var(--hi)" }}>Trafik · Yol · İş Güvenliği</p>
-        <h1 className="display d1" style={{ marginTop: 20 }}>
-          Sahada ne<br />gerekiyorsa<br />stokta.
-        </h1>
+      <section style={{ maxWidth: 1440, margin: "0 auto", padding: "48px 24px 0" }}>
+        <div className="hero-grid" style={{ display: "grid", gridTemplateColumns: "1.05fr 1fr", gap: 48, alignItems: "center" }}>
+          <div>
+            <p className="eyebrow" style={{ color: "var(--hi)" }}>Trafik · Yol · İş Güvenliği</p>
+            <h1 className="display d1" style={{ marginTop: 18 }}>
+              Sahada ne<br />gerekiyorsa<br />stokta.
+            </h1>
+            <p className="lede" style={{ marginTop: 24, maxWidth: 440 }}>
+              {allProducts.length} ürün, ölçü ve teknik özellikleriyle listeli.
+              Seçin, sepete atın, kartla ödeyin — telefon beklemeden.
+            </p>
+            <div style={{ marginTop: 30, display: "flex", flexWrap: "wrap", gap: 12 }}>
+              <Link href="/urunler" className="btn btn-solid">Katalogu aç</Link>
+              <Link href="/urunler" className="btn btn-ghost">Ürün kodu ile ara</Link>
+            </div>
+          </div>
 
-        <div style={{ marginTop: 40, display: "flex", flexWrap: "wrap", gap: 14 }}>
-          <Link href="/urunler" className="btn btn-solid">Katalogu aç</Link>
-          <a href="https://wa.me/905076584245" className="btn btn-ghost">Toplu sipariş</a>
+          <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gridTemplateRows: "auto auto", gap: 10 }}>
+            {(hero as {img:string;ad:string;kat:string}[]).map((h, i) => (
+              <div key={h.img} className="tile"
+                   style={{ gridColumn: i === 0 ? "span 2" : "span 1",
+                            aspectRatio: i === 0 ? "16/10" : "1/1",
+                            border: "1px solid var(--hair)" }}>
+                <Image src={h.img} alt={h.ad} fill unoptimized priority={i === 0}
+                       sizes="(max-width:900px) 100vw, 40vw"
+                       style={{ objectFit: "contain", padding: "7%" }} />
+                <span className="eyebrow" style={{ position: "absolute", left: 12, bottom: 10, color: "var(--dim)" }}>
+                  {h.kat}
+                </span>
+              </div>
+            ))}
+          </div>
         </div>
 
         <div className="rule" style={{ marginTop: 44 }} />
@@ -91,22 +116,32 @@ export default function Home() {
         <div style={{ maxWidth: 1440, margin: "0 auto", padding: "80px 24px",
                       display: "flex", flexWrap: "wrap", gap: 40, justifyContent: "space-between", alignItems: "flex-end" }}>
           <div>
-            <p className="eyebrow" style={{ color: "var(--hi)" }}>Kurumsal</p>
+            <p className="eyebrow" style={{ color: "var(--hi)" }}>Kurumsal alım</p>
             <h2 className="display d2" style={{ marginTop: 18, maxWidth: 700 }}>
-              Belediye,<br />şantiye,<br />filo alımı
+              Baştan sona<br />kendiniz<br />sipariş verin
             </h2>
           </div>
-          <div style={{ maxWidth: 420 }}>
-            <p className="lede" style={{ color: "#9A9A9A", marginBottom: 24 }}>
-              Adetli alımlarda özel fiyat. Ürün kodunu ve miktarı iletin, aynı gün dönüş yapalım.
+          <div style={{ maxWidth: 430 }}>
+            <p className="lede" style={{ color: "#9A9A9A", marginBottom: 22 }}>
+              Sipariş için kimseyle görüşmenize gerek yok. Katalogdan seçin, sepete atın,
+              kurumsal fatura bilgilerinizi girin, kartla ödeyin. Fatura ve kargo takibi
+              e-postanıza gelir.
             </p>
-            <a href="https://wa.me/905076584245" className="btn"
-               style={{ background: "var(--paper)", borderColor: "var(--paper)", color: "var(--ink)" }}>
-              Teklif al
-            </a>
+            <div style={{ display: "flex", gap: 10, flexWrap: "wrap" }}>
+              <Link href="/urunler" className="btn"
+                 style={{ background: "var(--paper)", borderColor: "var(--paper)", color: "var(--ink)" }}>
+                Katalogu aç
+              </Link>
+              <a href="tel:05076584245" className="btn"
+                 style={{ borderColor: "#3A3A3A", color: "var(--paper)" }}>
+                Yine de arayın
+              </a>
+            </div>
           </div>
         </div>
       </section>
+
+      <style>{`@media (max-width:900px){.hero-grid{grid-template-columns:1fr!important;gap:32px!important}}`}</style>
     </main>
   );
 }

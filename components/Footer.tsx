@@ -31,7 +31,7 @@ export default function Footer() {
                 </Link>
                 <Link href="/sepet" style={{ fontSize: 13, color: "#C9C9C6", textDecoration: "none" }}>Sepet</Link>
                 <a href="tel:05076584245" style={{ fontSize: 13, color: "#C9C9C6", textDecoration: "none" }}>0 507 658 42 45</a>
-                <a href="https://wa.me/905076584245" style={{ fontSize: 13, color: "#C9C9C6", textDecoration: "none" }}>WhatsApp sipariş</a>
+                <a href="https://wa.me/905076584245" style={{ fontSize: 13, color: "#7E7E7B", textDecoration: "none" }}>WhatsApp (teknik soru)</a>
               </div>
             </div>
             <div>

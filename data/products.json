@@ -26,7 +26,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "HACIMLI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "ZT8030",
@@ -57,7 +63,13 @@
   "f_taban": "",
   "f_boy": "30 cm ve altı",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "BORU",
+  "olcu3": [
+   30.0,
+   9,
+   9
+  ]
  },
  {
   "id": "ZT8045",
@@ -88,7 +100,13 @@
   "f_taban": "",
   "f_boy": "40–55 cm",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "BORU",
+  "olcu3": [
+   45.0,
+   9,
+   9
+  ]
  },
  {
   "id": "ZT9050",
@@ -119,7 +137,13 @@
   "f_taban": "",
   "f_boy": "40–55 cm",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "BORU",
+  "olcu3": [
+   50.0,
+   9,
+   9
+  ]
  },
  {
   "id": "ZT8070",
@@ -150,7 +174,13 @@
   "f_taban": "",
   "f_boy": "60–80 cm",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "BORU",
+  "olcu3": [
+   70.0,
+   9,
+   9
+  ]
  },
  {
   "id": "ZT8075",
@@ -181,7 +211,13 @@
   "f_taban": "",
   "f_boy": "60–80 cm",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "BORU",
+  "olcu3": [
+   75.0,
+   9,
+   9
+  ]
  },
  {
   "id": "ZT80100",
@@ -212,7 +248,13 @@
   "f_taban": "",
   "f_boy": "90–120 cm",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "BORU",
+  "olcu3": [
+   100.0,
+   9,
+   9
+  ]
  },
  {
   "id": "ZT14060",
@@ -243,7 +285,13 @@
   "f_taban": "altıgen",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "BORU",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "ZT14060B",
@@ -274,7 +322,13 @@
   "f_taban": "altıgen",
   "f_boy": "",
   "f_malzeme": "TPU",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "BORU",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "14060ECOB",
@@ -305,7 +359,13 @@
   "f_taban": "altıgen",
   "f_boy": "",
   "f_malzeme": "TPE",
-  "f_seri": "Eko"
+  "f_seri": "Eko",
+  "geo": "BORU",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "8030ECO",
@@ -336,7 +396,13 @@
   "f_taban": "",
   "f_boy": "30 cm ve altı",
   "f_malzeme": "",
-  "f_seri": "Eko"
+  "f_seri": "Eko",
+  "geo": "BORU",
+  "olcu3": [
+   30.0,
+   9,
+   9
+  ]
  },
  {
   "id": "8045ECO",
@@ -367,7 +433,13 @@
   "f_taban": "",
   "f_boy": "40–55 cm",
   "f_malzeme": "",
-  "f_seri": "Eko"
+  "f_seri": "Eko",
+  "geo": "BORU",
+  "olcu3": [
+   45.0,
+   9,
+   9
+  ]
  },
  {
   "id": "7080ECO",
@@ -398,7 +470,13 @@
   "f_taban": "",
   "f_boy": "60–80 cm",
   "f_malzeme": "",
-  "f_seri": "Eko"
+  "f_seri": "Eko",
+  "geo": "BORU",
+  "olcu3": [
+   70.0,
+   9,
+   9
+  ]
  },
  {
   "id": "8075ECO",
@@ -429,7 +507,13 @@
   "f_taban": "",
   "f_boy": "60–80 cm",
   "f_malzeme": "",
-  "f_seri": "Eko"
+  "f_seri": "Eko",
+  "geo": "BORU",
+  "olcu3": [
+   75.0,
+   9,
+   9
+  ]
  },
  {
   "id": "80100ECO",
@@ -460,7 +544,13 @@
   "f_taban": "",
   "f_boy": "90–120 cm",
   "f_malzeme": "",
-  "f_seri": "Eko"
+  "f_seri": "Eko",
+  "geo": "BORU",
+  "olcu3": [
+   100.0,
+   9,
+   9
+  ]
  },
  {
   "id": "ZT648100",
@@ -491,7 +581,13 @@
   "f_taban": "",
   "f_boy": "90–120 cm",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "BORU",
+  "olcu3": [
+   100.0,
+   9,
+   9
+  ]
  },
  {
   "id": "648100ECO",
@@ -522,7 +618,13 @@
   "f_taban": "",
   "f_boy": "90–120 cm",
   "f_malzeme": "",
-  "f_seri": "Eko"
+  "f_seri": "Eko",
+  "geo": "BORU",
+  "olcu3": [
+   100.0,
+   9,
+   9
+  ]
  },
  {
   "id": "ZT16015",
@@ -553,7 +655,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "Kauçuk",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "BORU",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "ZT16045",
@@ -584,7 +692,13 @@
   "f_taban": "",
   "f_boy": "40–55 cm",
   "f_malzeme": "PVC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "BORU",
+  "olcu3": [
+   45.0,
+   9,
+   9
+  ]
  },
  {
   "id": "16045ECO",
@@ -615,7 +729,13 @@
   "f_taban": "",
   "f_boy": "40–55 cm",
   "f_malzeme": "PVC",
-  "f_seri": "Eko"
+  "f_seri": "Eko",
+  "geo": "BORU",
+  "olcu3": [
+   45.0,
+   9,
+   9
+  ]
  },
  {
   "id": "ZT16075",
@@ -646,7 +766,13 @@
   "f_taban": "",
   "f_boy": "60–80 cm",
   "f_malzeme": "PVC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "BORU",
+  "olcu3": [
+   75.0,
+   9,
+   9
+  ]
  },
  {
   "id": "16075ECO",
@@ -677,7 +803,13 @@
   "f_taban": "",
   "f_boy": "60–80 cm",
   "f_malzeme": "PVC",
-  "f_seri": "Eko"
+  "f_seri": "Eko",
+  "geo": "BORU",
+  "olcu3": [
+   75.0,
+   9,
+   9
+  ]
  },
  {
   "id": "ZT12845",
@@ -708,7 +840,13 @@
   "f_taban": "",
   "f_boy": "40–55 cm",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "BORU",
+  "olcu3": [
+   45.0,
+   9,
+   9
+  ]
  },
  {
   "id": "12845ECO",
@@ -739,7 +877,13 @@
   "f_taban": "",
   "f_boy": "40–55 cm",
   "f_malzeme": "",
-  "f_seri": "Eko"
+  "f_seri": "Eko",
+  "geo": "BORU",
+  "olcu3": [
+   45.0,
+   9,
+   9
+  ]
  },
  {
   "id": "ZT12875",
@@ -770,7 +914,13 @@
   "f_taban": "",
   "f_boy": "60–80 cm",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "BORU",
+  "olcu3": [
+   75.0,
+   9,
+   9
+  ]
  },
  {
   "id": "12875ECO",
@@ -801,7 +951,13 @@
   "f_taban": "",
   "f_boy": "60–80 cm",
   "f_malzeme": "",
-  "f_seri": "Eko"
+  "f_seri": "Eko",
+  "geo": "BORU",
+  "olcu3": [
+   75.0,
+   9,
+   9
+  ]
  },
  {
   "id": "ZT63315R2",
@@ -832,7 +988,13 @@
   "f_taban": "yuvarlak",
   "f_boy": "60–80 cm",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "BORU",
+  "olcu3": [
+   63.0,
+   9,
+   9
+  ]
  },
  {
   "id": "ZT11015R4",
@@ -863,7 +1025,13 @@
   "f_taban": "yuvarlak",
   "f_boy": "90–120 cm",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "BORU",
+  "olcu3": [
+   110.0,
+   9,
+   9
+  ]
  },
  {
   "id": "ZT204A",
@@ -894,7 +1062,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "HALKA",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "ZT63100R2",
@@ -925,7 +1099,13 @@
   "f_taban": "dikdörtgen",
   "f_boy": "60–80 cm",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "BORU",
+  "olcu3": [
+   63.0,
+   9,
+   9
+  ]
  },
  {
   "id": "ZT110120R4",
@@ -956,7 +1136,13 @@
   "f_taban": "dikdörtgen",
   "f_boy": "90–120 cm",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "BORU",
+  "olcu3": [
+   110.0,
+   9,
+   9
+  ]
  },
  {
   "id": "ZT60408",
@@ -987,7 +1173,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "HALKA",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "ZT75110 DA",
@@ -1018,7 +1210,13 @@
   "f_taban": "dikdörtgen",
   "f_boy": "90–120 cm",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "BORU",
+  "olcu3": [
+   110.0,
+   9,
+   9
+  ]
  },
  {
   "id": "ZT75110 DAR",
@@ -1049,7 +1247,13 @@
   "f_taban": "dikdörtgen",
   "f_boy": "90–120 cm",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "BORU",
+  "olcu3": [
+   110.0,
+   9,
+   9
+  ]
  },
  {
   "id": "ZT32110 DA",
@@ -1080,7 +1284,13 @@
   "f_taban": "dikdörtgen",
   "f_boy": "90–120 cm",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "BORU",
+  "olcu3": [
+   110.0,
+   9,
+   9
+  ]
  },
  {
   "id": "ZT32110 DAR",
@@ -1111,7 +1321,13 @@
   "f_taban": "dikdörtgen",
   "f_boy": "90–120 cm",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "BORU",
+  "olcu3": [
+   110.0,
+   9,
+   9
+  ]
  },
  {
   "id": "ZT7563 DA",
@@ -1142,7 +1358,13 @@
   "f_taban": "dikdörtgen",
   "f_boy": "60–80 cm",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "BORU",
+  "olcu3": [
+   63.0,
+   9,
+   9
+  ]
  },
  {
   "id": "ZT7563 DAR",
@@ -1173,7 +1395,13 @@
   "f_taban": "dikdörtgen",
   "f_boy": "60–80 cm",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "BORU",
+  "olcu3": [
+   63.0,
+   9,
+   9
+  ]
  },
  {
   "id": "ZT3263 DA",
@@ -1204,7 +1432,13 @@
   "f_taban": "dikdörtgen",
   "f_boy": "60–80 cm",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "BORU",
+  "olcu3": [
+   63.0,
+   9,
+   9
+  ]
  },
  {
   "id": "ZT3263 DAR",
@@ -1235,7 +1469,13 @@
   "f_taban": "dikdörtgen",
   "f_boy": "60–80 cm",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "BORU",
+  "olcu3": [
+   63.0,
+   9,
+   9
+  ]
  },
  {
   "id": "ZT90315",
@@ -1266,7 +1506,13 @@
   "f_taban": "",
   "f_boy": "30 cm ve altı",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   32.0,
+   16.0,
+   5
+  ]
  },
  {
   "id": "ZT12575",
@@ -1297,7 +1543,13 @@
   "f_taban": "",
   "f_boy": "60–80 cm",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   75.0,
+   37.5,
+   5
+  ]
  },
  {
   "id": "ZT12575R",
@@ -1328,7 +1580,13 @@
   "f_taban": "",
   "f_boy": "60–80 cm",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   75.0,
+   37.5,
+   5
+  ]
  },
  {
   "id": "ZT90315R",
@@ -1359,7 +1617,13 @@
   "f_taban": "",
   "f_boy": "30 cm ve altı",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   32.0,
+   16.0,
+   5
+  ]
  },
  {
   "id": "ZT75A",
@@ -1390,7 +1654,13 @@
   "f_taban": "",
   "f_boy": "60–80 cm",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   75.0,
+   37.5,
+   5
+  ]
  },
  {
   "id": "ZT32A",
@@ -1421,7 +1691,13 @@
   "f_taban": "",
   "f_boy": "30 cm ve altı",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   32.0,
+   16.0,
+   5
+  ]
  },
  {
   "id": "ZT110A",
@@ -1452,7 +1728,13 @@
   "f_taban": "",
   "f_boy": "90–120 cm",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "BORU",
+  "olcu3": [
+   110.0,
+   9,
+   9
+  ]
  },
  {
   "id": "ZT63A",
@@ -1483,7 +1765,13 @@
   "f_taban": "",
   "f_boy": "60–80 cm",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "BORU",
+  "olcu3": [
+   63.0,
+   9,
+   9
+  ]
  },
  {
   "id": "ZT502808R1",
@@ -1514,7 +1802,13 @@
   "f_taban": "sekizgen",
   "f_boy": "40–55 cm",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "KONIK",
+  "olcu3": [
+   50.0,
+   21.0,
+   21.0
+  ]
  },
  {
   "id": "ZT502808R2",
@@ -1545,7 +1839,13 @@
   "f_taban": "sekizgen",
   "f_boy": "40–55 cm",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "KONIK",
+  "olcu3": [
+   50.0,
+   21.0,
+   21.0
+  ]
  },
  {
   "id": "ZT502808A6R2",
@@ -1576,7 +1876,13 @@
   "f_taban": "sekizgen",
   "f_boy": "40–55 cm",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "KONIK",
+  "olcu3": [
+   50.0,
+   21.0,
+   21.0
+  ]
  },
  {
   "id": "ZT702808R2",
@@ -1607,7 +1913,13 @@
   "f_taban": "sekizgen",
   "f_boy": "60–80 cm",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "KONIK",
+  "olcu3": [
+   70.0,
+   29.4,
+   29.4
+  ]
  },
  {
   "id": "ZT702808A6R2",
@@ -1638,7 +1950,13 @@
   "f_taban": "sekizgen",
   "f_boy": "60–80 cm",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "KONIK",
+  "olcu3": [
+   70.0,
+   29.4,
+   29.4
+  ]
  },
  {
   "id": "ZT902808R2",
@@ -1669,7 +1987,13 @@
   "f_taban": "sekizgen",
   "f_boy": "90–120 cm",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "KONIK",
+  "olcu3": [
+   90.0,
+   37.8,
+   37.8
+  ]
  },
  {
   "id": "ZT902808A6R2",
@@ -1700,7 +2024,13 @@
   "f_taban": "sekizgen",
   "f_boy": "90–120 cm",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "KONIK",
+  "olcu3": [
+   90.0,
+   37.8,
+   37.8
+  ]
  },
  {
   "id": "ZT202A",
@@ -1731,7 +2061,13 @@
   "f_taban": "altıgen",
   "f_boy": "40–55 cm",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "HALKA",
+  "olcu3": [
+   38.0,
+   19.0,
+   15.2
+  ]
  },
  {
   "id": "ZT203A",
@@ -1762,7 +2098,13 @@
   "f_taban": "altıgen",
   "f_boy": "40–55 cm",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "HALKA",
+  "olcu3": [
+   48.0,
+   24.0,
+   19.2
+  ]
  },
  {
   "id": "ZT502804R2",
@@ -1793,7 +2135,13 @@
   "f_taban": "kare",
   "f_boy": "40–55 cm",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "KONIK",
+  "olcu3": [
+   50.0,
+   21.0,
+   21.0
+  ]
  },
  {
   "id": "ZT502805R2",
@@ -1824,7 +2172,13 @@
   "f_taban": "kare",
   "f_boy": "40–55 cm",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "KONIK",
+  "olcu3": [
+   50.0,
+   21.0,
+   21.0
+  ]
  },
  {
   "id": "ZT702804R2",
@@ -1855,7 +2209,13 @@
   "f_taban": "kare",
   "f_boy": "60–80 cm",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "KONIK",
+  "olcu3": [
+   70.0,
+   29.4,
+   29.4
+  ]
  },
  {
   "id": "ZT702805R2",
@@ -1886,7 +2246,13 @@
   "f_taban": "kare",
   "f_boy": "60–80 cm",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "KONIK",
+  "olcu3": [
+   70.0,
+   29.4,
+   29.4
+  ]
  },
  {
   "id": "ZT902804R2",
@@ -1917,7 +2283,13 @@
   "f_taban": "kare",
   "f_boy": "90–120 cm",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "KONIK",
+  "olcu3": [
+   90.0,
+   37.8,
+   37.8
+  ]
  },
  {
   "id": "502808R2ECO",
@@ -1948,7 +2320,13 @@
   "f_taban": "sekizgen",
   "f_boy": "40–55 cm",
   "f_malzeme": "",
-  "f_seri": "Eko"
+  "f_seri": "Eko",
+  "geo": "KONIK",
+  "olcu3": [
+   50.0,
+   21.0,
+   21.0
+  ]
  },
  {
   "id": "502808A6R2ECO",
@@ -1979,7 +2357,13 @@
   "f_taban": "sekizgen",
   "f_boy": "40–55 cm",
   "f_malzeme": "",
-  "f_seri": "Eko"
+  "f_seri": "Eko",
+  "geo": "KONIK",
+  "olcu3": [
+   50.0,
+   21.0,
+   21.0
+  ]
  },
  {
   "id": "702808R2ECO",
@@ -2010,7 +2394,13 @@
   "f_taban": "sekizgen",
   "f_boy": "60–80 cm",
   "f_malzeme": "",
-  "f_seri": "Eko"
+  "f_seri": "Eko",
+  "geo": "KONIK",
+  "olcu3": [
+   70.0,
+   29.4,
+   29.4
+  ]
  },
  {
   "id": "702808A6R2ECO",
@@ -2041,7 +2431,13 @@
   "f_taban": "sekizgen",
   "f_boy": "60–80 cm",
   "f_malzeme": "",
-  "f_seri": "Eko"
+  "f_seri": "Eko",
+  "geo": "KONIK",
+  "olcu3": [
+   70.0,
+   29.4,
+   29.4
+  ]
  },
  {
   "id": "902808R2ECO",
@@ -2072,7 +2468,13 @@
   "f_taban": "sekizgen",
   "f_boy": "90–120 cm",
   "f_malzeme": "",
-  "f_seri": "Eko"
+  "f_seri": "Eko",
+  "geo": "KONIK",
+  "olcu3": [
+   90.0,
+   37.8,
+   37.8
+  ]
  },
  {
   "id": "902808A6R2ECO",
@@ -2103,7 +2505,13 @@
   "f_taban": "sekizgen",
   "f_boy": "90–120 cm",
   "f_malzeme": "",
-  "f_seri": "Eko"
+  "f_seri": "Eko",
+  "geo": "KONIK",
+  "olcu3": [
+   90.0,
+   37.8,
+   37.8
+  ]
  },
  {
   "id": "502804R2ECO",
@@ -2134,7 +2542,13 @@
   "f_taban": "kare",
   "f_boy": "40–55 cm",
   "f_malzeme": "",
-  "f_seri": "Eko"
+  "f_seri": "Eko",
+  "geo": "KONIK",
+  "olcu3": [
+   50.0,
+   21.0,
+   21.0
+  ]
  },
  {
   "id": "702804R2ECO",
@@ -2165,7 +2579,13 @@
   "f_taban": "kare",
   "f_boy": "60–80 cm",
   "f_malzeme": "",
-  "f_seri": "Eko"
+  "f_seri": "Eko",
+  "geo": "KONIK",
+  "olcu3": [
+   70.0,
+   29.4,
+   29.4
+  ]
  },
  {
   "id": "902804R2ECO",
@@ -2196,7 +2616,13 @@
   "f_taban": "kare",
   "f_boy": "90–120 cm",
   "f_malzeme": "",
-  "f_seri": "Eko"
+  "f_seri": "Eko",
+  "geo": "KONIK",
+  "olcu3": [
+   90.0,
+   37.8,
+   37.8
+  ]
  },
  {
   "id": "ZT650506",
@@ -2227,7 +2653,13 @@
   "f_taban": "ağırlık tabanlı",
   "f_boy": "60–80 cm",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "KONIK",
+  "olcu3": [
+   65.0,
+   27.3,
+   27.3
+  ]
  },
  {
   "id": "ZT650506B",
@@ -2258,7 +2690,13 @@
   "f_taban": "ağırlık tabanlı",
   "f_boy": "60–80 cm",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "KONIK",
+  "olcu3": [
+   65.0,
+   27.3,
+   27.3
+  ]
  },
  {
   "id": "ZT503208",
@@ -2289,7 +2727,13 @@
   "f_taban": "",
   "f_boy": "40–55 cm",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "KONIK",
+  "olcu3": [
+   50.0,
+   21.0,
+   21.0
+  ]
  },
  {
   "id": "ZT503208A6",
@@ -2320,7 +2764,13 @@
   "f_taban": "ağırlık tabanlı",
   "f_boy": "40–55 cm",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "KONIK",
+  "olcu3": [
+   50.0,
+   21.0,
+   21.0
+  ]
  },
  {
   "id": "ZT503204",
@@ -2351,7 +2801,13 @@
   "f_taban": "kare",
   "f_boy": "40–55 cm",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "KONIK",
+  "olcu3": [
+   50.0,
+   21.0,
+   21.0
+  ]
  },
  {
   "id": "ZT40100",
@@ -2382,7 +2838,13 @@
   "f_taban": "",
   "f_boy": "90–120 cm",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "KONIK",
+  "olcu3": [
+   100.0,
+   42.0,
+   42.0
+  ]
  },
  {
   "id": "ZT40100P",
@@ -2413,7 +2875,13 @@
   "f_taban": "",
   "f_boy": "90–120 cm",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "KONIK",
+  "olcu3": [
+   100.0,
+   42.0,
+   42.0
+  ]
  },
  {
   "id": "ZT80150R",
@@ -2444,7 +2912,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "HACIMLI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "ZT80150R FB",
@@ -2475,7 +2949,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Eko"
+  "f_seri": "Eko",
+  "geo": "HACIMLI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "ZT80150R FBP",
@@ -2506,7 +2986,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Eko"
+  "f_seri": "Eko",
+  "geo": "HACIMLI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "ZT60150R",
@@ -2537,7 +3023,13 @@
   "f_taban": "dikdörtgen",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "HACIMLI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "ZT60150R FB",
@@ -2568,7 +3060,13 @@
   "f_taban": "dikdörtgen",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Eko"
+  "f_seri": "Eko",
+  "geo": "HACIMLI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "ZT60150R FBP",
@@ -2599,7 +3097,13 @@
   "f_taban": "dikdörtgen",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Eko"
+  "f_seri": "Eko",
+  "geo": "HACIMLI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "ZT80150B",
@@ -2630,7 +3134,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "HACIMLI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "ZT80150Y",
@@ -2661,7 +3171,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "HACIMLI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "ZT6080",
@@ -2692,7 +3208,13 @@
   "f_taban": "",
   "f_boy": "60–80 cm",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "HACIMLI",
+  "olcu3": [
+   80.0,
+   40.0,
+   32.0
+  ]
  },
  {
   "id": "ZT6060",
@@ -2723,7 +3245,13 @@
   "f_taban": "",
   "f_boy": "60–80 cm",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "HACIMLI",
+  "olcu3": [
+   60.0,
+   30.0,
+   24.0
+  ]
  },
  {
   "id": "ZT404Y",
@@ -2754,7 +3282,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "HACIMLI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "ZT404R",
@@ -2785,7 +3319,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "HACIMLI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "ZT1560",
@@ -2816,7 +3356,13 @@
   "f_taban": "",
   "f_boy": "60–80 cm",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   60.0,
+   30.0,
+   5
+  ]
  },
  {
   "id": "ZT15110",
@@ -2847,7 +3393,13 @@
   "f_taban": "",
   "f_boy": "90–120 cm",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   110.0,
+   55.0,
+   5
+  ]
  },
  {
   "id": "ZT15190",
@@ -2878,7 +3430,13 @@
   "f_taban": "",
   "f_boy": "120 cm üstü",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   190.0,
+   95.0,
+   5
+  ]
  },
  {
   "id": "ZT1560Y",
@@ -2909,7 +3467,13 @@
   "f_taban": "",
   "f_boy": "60–80 cm",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   60.0,
+   30.0,
+   5
+  ]
  },
  {
   "id": "ZT15110Y",
@@ -2940,7 +3504,13 @@
   "f_taban": "",
   "f_boy": "90–120 cm",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   110.0,
+   55.0,
+   5
+  ]
  },
  {
   "id": "ZT15190Y",
@@ -2971,7 +3541,13 @@
   "f_taban": "",
   "f_boy": "120 cm üstü",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   190.0,
+   95.0,
+   5
+  ]
  },
  {
   "id": "ZT90140",
@@ -3002,7 +3578,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "ZT90141",
@@ -3033,7 +3615,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Eko"
+  "f_seri": "Eko",
+  "geo": "YASSI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "ZT40400",
@@ -3064,7 +3652,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "ZT40401",
@@ -3095,7 +3689,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "ZT45600",
@@ -3126,7 +3726,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "ZT45601",
@@ -3157,7 +3763,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "ZT40300",
@@ -3188,7 +3800,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "ZT40301",
@@ -3219,7 +3837,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "ZT40300Y",
@@ -3250,7 +3874,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "ZT40301Y",
@@ -3281,7 +3911,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "ZT50250",
@@ -3312,7 +3948,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "ZT50251",
@@ -3343,7 +3985,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "ZT50250Y",
@@ -3374,7 +4022,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "ZT50251Y",
@@ -3405,7 +4059,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "ZT50500",
@@ -3436,7 +4096,13 @@
   "f_taban": "",
   "f_boy": "40–55 cm",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   50.0,
+   25.0,
+   5
+  ]
  },
  {
   "id": "ZT50501",
@@ -3467,7 +4133,13 @@
   "f_taban": "",
   "f_boy": "40–55 cm",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   50.0,
+   25.0,
+   5
+  ]
  },
  {
   "id": "ZT50500Y",
@@ -3498,7 +4170,13 @@
   "f_taban": "",
   "f_boy": "40–55 cm",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   50.0,
+   25.0,
+   5
+  ]
  },
  {
   "id": "ZT50501Y",
@@ -3529,7 +4207,13 @@
   "f_taban": "",
   "f_boy": "40–55 cm",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   50.0,
+   25.0,
+   5
+  ]
  },
  {
   "id": "ZT5000",
@@ -3560,7 +4244,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "ZT5001",
@@ -3591,7 +4281,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "ZT5002",
@@ -3622,7 +4318,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "ZT452",
@@ -3653,7 +4355,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "ZT452D",
@@ -3684,7 +4392,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "ZT772",
@@ -3715,7 +4429,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "ZT772S",
@@ -3746,7 +4466,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "ZT772D",
@@ -3777,7 +4503,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "ZT773",
@@ -3808,7 +4540,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "ZT774",
@@ -3839,7 +4577,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "ZT775",
@@ -3870,7 +4614,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "ZT776",
@@ -3901,7 +4651,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "ZT777",
@@ -3932,7 +4688,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "ZT778",
@@ -3963,7 +4725,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "ZT779",
@@ -3994,7 +4762,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "ZT780",
@@ -4025,7 +4799,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "ZT781",
@@ -4056,7 +4836,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "ZT945",
@@ -4090,7 +4876,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   30.0,
+   30.0,
+   4
+  ]
  },
  {
   "id": "ZT945S",
@@ -4121,7 +4913,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "ZT945D",
@@ -4152,7 +4950,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "ZT946",
@@ -4183,7 +4987,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "ZT947",
@@ -4214,7 +5024,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "ZT948",
@@ -4245,7 +5061,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "ZT949",
@@ -4276,7 +5098,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "ZT950",
@@ -4307,7 +5135,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "ZT951",
@@ -4338,7 +5172,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "ZT952",
@@ -4369,7 +5209,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "ZT345",
@@ -4403,7 +5249,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   40.0,
+   34.0,
+   4
+  ]
  },
  {
   "id": "ZT345S",
@@ -4434,7 +5286,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "ZT345D",
@@ -4465,7 +5323,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "ZT346",
@@ -4496,7 +5360,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "ZT347",
@@ -4527,7 +5397,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "ZT348",
@@ -4558,7 +5434,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "ZT349",
@@ -4589,7 +5471,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "ZT350",
@@ -4620,7 +5508,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "ZT351",
@@ -4651,7 +5545,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "ZT352",
@@ -4682,7 +5582,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "ZT353",
@@ -4713,7 +5619,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "ZT354",
@@ -4744,7 +5656,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "ZT355",
@@ -4775,7 +5693,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "ZT356",
@@ -4806,7 +5730,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "ZT357",
@@ -4837,7 +5767,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "ZT358",
@@ -4868,7 +5804,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "ZT359",
@@ -4899,7 +5841,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "ZT537",
@@ -4930,7 +5878,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "ZT537S",
@@ -4961,7 +5915,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "ZT537D",
@@ -4992,7 +5952,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "ZT538",
@@ -5023,7 +5989,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "ZT539",
@@ -5054,7 +6026,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "ZT540",
@@ -5085,7 +6063,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "ZT541",
@@ -5116,7 +6100,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "ZT542",
@@ -5147,7 +6137,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "ZT543",
@@ -5178,7 +6174,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "ZT544",
@@ -5209,7 +6211,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "ZT545D",
@@ -5240,7 +6248,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "ZT546",
@@ -5271,7 +6285,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "ZT547",
@@ -5302,7 +6322,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "ZT637",
@@ -5333,7 +6359,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "ZT637S",
@@ -5364,7 +6396,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "ZT637D",
@@ -5395,7 +6433,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "ZT638",
@@ -5426,7 +6470,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "ZT639",
@@ -5457,7 +6507,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "ZT640",
@@ -5488,7 +6544,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "ZT641",
@@ -5519,7 +6581,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "ZT642",
@@ -5550,7 +6618,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "ZT643",
@@ -5581,7 +6655,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "ZT644",
@@ -5612,7 +6692,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "ZT645D",
@@ -5643,7 +6729,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "ZT646",
@@ -5674,7 +6766,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "ZT9003",
@@ -5705,7 +6803,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "ZT9004",
@@ -5736,7 +6840,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "ZT9003B",
@@ -5767,7 +6877,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "ZT9004B",
@@ -5798,7 +6914,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "ZT9005",
@@ -5829,7 +6951,13 @@
   "f_taban": "",
   "f_boy": "40–55 cm",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   40.0,
+   20.0,
+   5
+  ]
  },
  {
   "id": "ZT9006",
@@ -5860,7 +6988,13 @@
   "f_taban": "",
   "f_boy": "40–55 cm",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   40.0,
+   20.0,
+   5
+  ]
  },
  {
   "id": "ZT9005B",
@@ -5891,7 +7025,13 @@
   "f_taban": "",
   "f_boy": "40–55 cm",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   40.0,
+   20.0,
+   5
+  ]
  },
  {
   "id": "ZT9006B",
@@ -5922,7 +7062,13 @@
   "f_taban": "",
   "f_boy": "40–55 cm",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   40.0,
+   20.0,
+   5
+  ]
  },
  {
   "id": "ZT8001",
@@ -5953,7 +7099,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "KUCUK",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "ZT8002",
@@ -5984,7 +7136,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "KUCUK",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "ZT501A",
@@ -6015,7 +7173,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "HACIMLI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "ZT502A",
@@ -6046,7 +7210,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "HACIMLI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "ZT503A",
@@ -6077,7 +7247,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "HACIMLI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "ZT511A",
@@ -6108,7 +7284,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "HACIMLI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "ZT512A",
@@ -6139,7 +7321,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "HACIMLI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "ZT513A",
@@ -6170,7 +7358,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "HACIMLI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "ZT80A",
@@ -6204,7 +7398,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "KUCUK",
+  "olcu3": [
+   11.0,
+   1.0,
+   12
+  ]
  },
  {
   "id": "ZT90A",
@@ -6238,7 +7438,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "Plastik",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "KUCUK",
+  "olcu3": [
+   9.0,
+   1.6,
+   12
+  ]
  },
  {
   "id": "ZT100A",
@@ -6269,7 +7475,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "BORU",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "ZT330A",
@@ -6300,7 +7512,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "Plastik",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "KUCUK",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "ZT330A-W",
@@ -6331,7 +7549,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "Plastik",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "KUCUK",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "ZT102A",
@@ -6362,7 +7586,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "HALKA",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "ZT102A-B",
@@ -6393,7 +7623,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "HALKA",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "ZT102A-W",
@@ -6424,7 +7660,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "HALKA",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "ZTR400",
@@ -6458,7 +7700,13 @@
   "f_taban": "",
   "f_boy": "40–55 cm",
   "f_malzeme": "Kauçuk",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   50.0,
+   40.0,
+   4
+  ]
  },
  {
   "id": "ZTR401",
@@ -6489,7 +7737,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "Kauçuk",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "ZTR500",
@@ -6523,7 +7777,13 @@
   "f_taban": "",
   "f_boy": "40–55 cm",
   "f_malzeme": "Kauçuk",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   50.0,
+   40.0,
+   4
+  ]
  },
  {
   "id": "ZTR501",
@@ -6554,7 +7814,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "Kauçuk",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "ZTR600",
@@ -6588,7 +7854,13 @@
   "f_taban": "",
   "f_boy": "60–80 cm",
   "f_malzeme": "Kauçuk",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   60.0,
+   50.0,
+   4
+  ]
  },
  {
   "id": "ZTR601",
@@ -6619,7 +7891,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "Kauçuk",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "ZTR900",
@@ -6653,7 +7931,13 @@
   "f_taban": "",
   "f_boy": "90–120 cm",
   "f_malzeme": "Kauçuk",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   90.0,
+   50.0,
+   4
+  ]
  },
  {
   "id": "ZTR901",
@@ -6684,7 +7968,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "Kauçuk",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "ZTR6012",
@@ -6715,7 +8005,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "Kauçuk",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "ZTR18015",
@@ -6746,7 +8042,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "Kauçuk",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "ZTR1280",
@@ -6777,7 +8079,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "Kauçuk",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "ZTR1281",
@@ -6808,7 +8116,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "Kauçuk",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "ZTR105",
@@ -6839,7 +8153,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "HACIMLI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "ZTR102",
@@ -6870,7 +8190,13 @@
   "f_taban": "altıgen",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "BORU",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "ZTMB01",
@@ -6901,7 +8227,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "HACIMLI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "ZTM01",
@@ -6932,7 +8264,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "HACIMLI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "ZTM05",
@@ -6963,7 +8301,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "HACIMLI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "ZTM7583Y",
@@ -6994,7 +8338,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "BORU",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "ZTM18012",
@@ -7025,7 +8375,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "ZTM18012B",
@@ -7056,7 +8412,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "EV-12520 FB R",
@@ -7091,7 +8453,13 @@
   "f_taban": "",
   "f_boy": "40–55 cm",
   "f_malzeme": "PPC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "HACIMLI",
+  "olcu3": [
+   100.0,
+   60.0,
+   40.0
+  ]
  },
  {
   "id": "EV-12526 FB R",
@@ -7126,7 +8494,13 @@
   "f_taban": "",
   "f_boy": "40–55 cm",
   "f_malzeme": "PPC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "HACIMLI",
+  "olcu3": [
+   100.0,
+   60.0,
+   40.0
+  ]
  },
  {
   "id": "EV-12524 FB R",
@@ -7161,7 +8535,13 @@
   "f_taban": "",
   "f_boy": "40–55 cm",
   "f_malzeme": "PPC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "BORU",
+  "olcu3": [
+   100.0,
+   100.0,
+   40.0
+  ]
  },
  {
   "id": "EV-12522 FB R",
@@ -7196,7 +8576,13 @@
   "f_taban": "",
   "f_boy": "40–55 cm",
   "f_malzeme": "PPC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "HACIMLI",
+  "olcu3": [
+   120.0,
+   100.0,
+   40.0
+  ]
  },
  {
   "id": "EV-12534 FB ST",
@@ -7230,7 +8616,13 @@
   "f_taban": "",
   "f_boy": "120 cm üstü",
   "f_malzeme": "Metal",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "HACIMLI",
+  "olcu3": [
+   200.0,
+   110.0,
+   12
+  ]
  },
  {
   "id": "EV-12511 FB R",
@@ -7264,7 +8656,13 @@
   "f_taban": "",
   "f_boy": "120 cm üstü",
   "f_malzeme": "PPC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "HACIMLI",
+  "olcu3": [
+   150.0,
+   100.0,
+   12
+  ]
  },
  {
   "id": "EV-12510 FB R",
@@ -7298,7 +8696,13 @@
   "f_taban": "",
   "f_boy": "120 cm üstü",
   "f_malzeme": "PPC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "HACIMLI",
+  "olcu3": [
+   150.0,
+   100.0,
+   12
+  ]
  },
  {
   "id": "EV-12514 FB R",
@@ -7332,7 +8736,13 @@
   "f_taban": "",
   "f_boy": "120 cm üstü",
   "f_malzeme": "PPC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "HACIMLI",
+  "olcu3": [
+   150.0,
+   100.0,
+   12
+  ]
  },
  {
   "id": "EV-12518 FB R",
@@ -7366,7 +8776,13 @@
   "f_taban": "",
   "f_boy": "120 cm üstü",
   "f_malzeme": "PPC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "HACIMLI",
+  "olcu3": [
+   150.0,
+   100.0,
+   12
+  ]
  },
  {
   "id": "EV-12516 FB R",
@@ -7400,7 +8816,13 @@
   "f_taban": "",
   "f_boy": "120 cm üstü",
   "f_malzeme": "PPC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "HACIMLI",
+  "olcu3": [
+   150.0,
+   100.0,
+   12
+  ]
  },
  {
   "id": "EV-12513 FB R",
@@ -7434,7 +8856,13 @@
   "f_taban": "",
   "f_boy": "120 cm üstü",
   "f_malzeme": "PPC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "HACIMLI",
+  "olcu3": [
+   150.0,
+   100.0,
+   12
+  ]
  },
  {
   "id": "EV-12517 FB R",
@@ -7468,7 +8896,13 @@
   "f_taban": "",
   "f_boy": "120 cm üstü",
   "f_malzeme": "PPC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "HACIMLI",
+  "olcu3": [
+   150.0,
+   100.0,
+   12
+  ]
  },
  {
   "id": "EV-12500 FB R",
@@ -7502,7 +8936,13 @@
   "f_taban": "",
   "f_boy": "90–120 cm",
   "f_malzeme": "PPC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "HACIMLI",
+  "olcu3": [
+   150.0,
+   110.0,
+   12
+  ]
  },
  {
   "id": "EV-12501 FB R",
@@ -7536,7 +8976,13 @@
   "f_taban": "",
   "f_boy": "90–120 cm",
   "f_malzeme": "PPC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "HACIMLI",
+  "olcu3": [
+   115.0,
+   90.0,
+   12
+  ]
  },
  {
   "id": "EV-12503 FB R",
@@ -7570,7 +9016,13 @@
   "f_taban": "",
   "f_boy": "40–55 cm",
   "f_malzeme": "PPC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "HACIMLI",
+  "olcu3": [
+   110.0,
+   55.0,
+   12
+  ]
  },
  {
   "id": "EV-12504 FB R",
@@ -7604,7 +9056,13 @@
   "f_taban": "",
   "f_boy": "120 cm üstü",
   "f_malzeme": "PPC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "HACIMLI",
+  "olcu3": [
+   250.0,
+   110.0,
+   12
+  ]
  },
  {
   "id": "EV-12423 DB R A",
@@ -7638,7 +9096,13 @@
   "f_taban": "",
   "f_boy": "40–55 cm",
   "f_malzeme": "PPC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "KONIK",
+  "olcu3": [
+   90.0,
+   49.0,
+   12
+  ]
  },
  {
   "id": "EV-12417 DB R",
@@ -7672,7 +9136,13 @@
   "f_taban": "",
   "f_boy": "60–80 cm",
   "f_malzeme": "PPC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "HACIMLI",
+  "olcu3": [
+   90.0,
+   60.0,
+   12
+  ]
  },
  {
   "id": "EV-12410 DB R",
@@ -7706,7 +9176,13 @@
   "f_taban": "",
   "f_boy": "90–120 cm",
   "f_malzeme": "PPC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   48.0,
+   31.0,
+   4
+  ]
  },
  {
   "id": "EV-12415 DB R",
@@ -7740,7 +9216,13 @@
   "f_taban": "",
   "f_boy": "90–120 cm",
   "f_malzeme": "PPC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   48.0,
+   31.0,
+   4
+  ]
  },
  {
   "id": "EV-12416 DB R",
@@ -7774,7 +9256,13 @@
   "f_taban": "",
   "f_boy": "60–80 cm",
   "f_malzeme": "PPC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   45.0,
+   22.0,
+   4
+  ]
  },
  {
   "id": "EV-12442 DB R",
@@ -7808,7 +9296,13 @@
   "f_taban": "",
   "f_boy": "120 cm üstü",
   "f_malzeme": "PPC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   100.0,
+   25.0,
+   4
+  ]
  },
  {
   "id": "EV-12444 DB R",
@@ -7842,7 +9336,13 @@
   "f_taban": "",
   "f_boy": "120 cm üstü",
   "f_malzeme": "PPC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   100.0,
+   25.0,
+   4
+  ]
  },
  {
   "id": "EV-12405 DB R",
@@ -7876,7 +9376,13 @@
   "f_taban": "dubalı",
   "f_boy": "120 cm üstü",
   "f_malzeme": "PPC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "KONIK",
+  "olcu3": [
+   180.0,
+   120.0,
+   12
+  ]
  },
  {
   "id": "EV-12407 DB R",
@@ -7910,7 +9416,13 @@
   "f_taban": "dubalı",
   "f_boy": "120 cm üstü",
   "f_malzeme": "PPC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "KONIK",
+  "olcu3": [
+   180.0,
+   120.0,
+   12
+  ]
  },
  {
   "id": "EV-12404 DB R",
@@ -7941,7 +9453,13 @@
   "f_taban": "dubalı",
   "f_boy": "90–120 cm",
   "f_malzeme": "PPC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "KONIK",
+  "olcu3": [
+   120.0,
+   50.4,
+   50.4
+  ]
  },
  {
   "id": "EV-12420 DB R",
@@ -7972,7 +9490,13 @@
   "f_taban": "dubalı",
   "f_boy": "90–120 cm",
   "f_malzeme": "PPC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "KONIK",
+  "olcu3": [
+   110.0,
+   46.2,
+   46.2
+  ]
  },
  {
   "id": "EV-12430 DB R",
@@ -8003,7 +9527,13 @@
   "f_taban": "dubalı",
   "f_boy": "90–120 cm",
   "f_malzeme": "PPC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "KONIK",
+  "olcu3": [
+   120.0,
+   50.4,
+   50.4
+  ]
  },
  {
   "id": "EV-12403-1 DB R",
@@ -8034,7 +9564,13 @@
   "f_taban": "dubalı",
   "f_boy": "90–120 cm",
   "f_malzeme": "PPC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "KONIK",
+  "olcu3": [
+   100.0,
+   42.0,
+   42.0
+  ]
  },
  {
   "id": "EV-12409-1 DB R",
@@ -8065,7 +9601,13 @@
   "f_taban": "dubalı",
   "f_boy": "90–120 cm",
   "f_malzeme": "PPC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "KONIK",
+  "olcu3": [
+   100.0,
+   42.0,
+   42.0
+  ]
  },
  {
   "id": "EV-12435 DB",
@@ -8096,7 +9638,13 @@
   "f_taban": "dubalı",
   "f_boy": "90–120 cm",
   "f_malzeme": "PE",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "KONIK",
+  "olcu3": [
+   90.0,
+   37.8,
+   37.8
+  ]
  },
  {
   "id": "EV-11811 FL S",
@@ -8130,7 +9678,13 @@
   "f_taban": "",
   "f_boy": "30 cm ve altı",
   "f_malzeme": "ABS",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "HACIMLI",
+  "olcu3": [
+   30.0,
+   24.0,
+   12
+  ]
  },
  {
   "id": "EV-11813 FL K",
@@ -8164,7 +9718,13 @@
   "f_taban": "",
   "f_boy": "30 cm ve altı",
   "f_malzeme": "ABS",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "HACIMLI",
+  "olcu3": [
+   30.0,
+   24.0,
+   12
+  ]
  },
  {
   "id": "EV-11825 FL S",
@@ -8198,7 +9758,13 @@
   "f_taban": "",
   "f_boy": "30 cm ve altı",
   "f_malzeme": "ABS",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "HACIMLI",
+  "olcu3": [
+   29.0,
+   22.0,
+   12
+  ]
  },
  {
   "id": "EV-11827 FL K",
@@ -8232,7 +9798,13 @@
   "f_taban": "",
   "f_boy": "30 cm ve altı",
   "f_malzeme": "ABS",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "HACIMLI",
+  "olcu3": [
+   29.0,
+   22.0,
+   12
+  ]
  },
  {
   "id": "EV-11814 FL S",
@@ -8266,7 +9838,13 @@
   "f_taban": "",
   "f_boy": "30 cm ve altı",
   "f_malzeme": "ABS",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "HACIMLI",
+  "olcu3": [
+   27.0,
+   22.0,
+   12
+  ]
  },
  {
   "id": "EV-11816 FL K",
@@ -8300,7 +9878,13 @@
   "f_taban": "",
   "f_boy": "30 cm ve altı",
   "f_malzeme": "ABS",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "HACIMLI",
+  "olcu3": [
+   27.0,
+   22.0,
+   12
+  ]
  },
  {
   "id": "EV-11817 FL K",
@@ -8331,7 +9915,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "PC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "HACIMLI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "EV-11819 FL S",
@@ -8362,7 +9952,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "PC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "HACIMLI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "EV-11821 FL M",
@@ -8393,7 +9989,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "PC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "HACIMLI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "EV-11855 FL KM",
@@ -8427,7 +10029,13 @@
   "f_taban": "",
   "f_boy": "30 cm ve altı",
   "f_malzeme": "ABS",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "HACIMLI",
+  "olcu3": [
+   30.0,
+   17.0,
+   12
+  ]
  },
  {
   "id": "EV-11856 FL S",
@@ -8461,7 +10069,13 @@
   "f_taban": "",
   "f_boy": "30 cm ve altı",
   "f_malzeme": "ABS",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "HACIMLI",
+  "olcu3": [
+   30.0,
+   17.0,
+   12
+  ]
  },
  {
   "id": "EV-11858 FL S",
@@ -8495,7 +10109,13 @@
   "f_taban": "",
   "f_boy": "30 cm ve altı",
   "f_malzeme": "ABS",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "HACIMLI",
+  "olcu3": [
+   32.0,
+   18.0,
+   12
+  ]
  },
  {
   "id": "EV-11851 FL S",
@@ -8529,7 +10149,13 @@
   "f_taban": "",
   "f_boy": "40–55 cm",
   "f_malzeme": "PC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "HACIMLI",
+  "olcu3": [
+   70.0,
+   40.0,
+   12
+  ]
  },
  {
   "id": "EV-11853 FL K",
@@ -8563,7 +10189,13 @@
   "f_taban": "",
   "f_boy": "40–55 cm",
   "f_malzeme": "PC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "HACIMLI",
+  "olcu3": [
+   70.0,
+   40.0,
+   12
+  ]
  },
  {
   "id": "EV-11850 FL S",
@@ -8597,7 +10229,13 @@
   "f_taban": "",
   "f_boy": "40–55 cm",
   "f_malzeme": "PC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "HACIMLI",
+  "olcu3": [
+   70.0,
+   40.0,
+   12
+  ]
  },
  {
   "id": "EV-11852 FL K",
@@ -8631,7 +10269,13 @@
   "f_taban": "",
   "f_boy": "40–55 cm",
   "f_malzeme": "PC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "HACIMLI",
+  "olcu3": [
+   70.0,
+   40.0,
+   12
+  ]
  },
  {
   "id": "EV-11862 FL S",
@@ -8665,7 +10309,13 @@
   "f_taban": "",
   "f_boy": "40–55 cm",
   "f_malzeme": "PC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "HACIMLI",
+  "olcu3": [
+   70.0,
+   40.0,
+   12
+  ]
  },
  {
   "id": "EV-11860 FL S",
@@ -8699,7 +10349,13 @@
   "f_taban": "",
   "f_boy": "40–55 cm",
   "f_malzeme": "PC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "HACIMLI",
+  "olcu3": [
+   70.0,
+   40.0,
+   12
+  ]
  },
  {
   "id": "EV-11882 FL A",
@@ -8733,7 +10389,13 @@
   "f_taban": "",
   "f_boy": "40–55 cm",
   "f_malzeme": "PC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "HACIMLI",
+  "olcu3": [
+   40.0,
+   40.0,
+   12
+  ]
  },
  {
   "id": "EV-11883 FL A",
@@ -8767,7 +10429,13 @@
   "f_taban": "",
   "f_boy": "40–55 cm",
   "f_malzeme": "PC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "HACIMLI",
+  "olcu3": [
+   40.0,
+   40.0,
+   12
+  ]
  },
  {
   "id": "EV-11885 FL A",
@@ -8801,7 +10469,13 @@
   "f_taban": "",
   "f_boy": "40–55 cm",
   "f_malzeme": "PC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "HACIMLI",
+  "olcu3": [
+   40.0,
+   40.0,
+   12
+  ]
  },
  {
   "id": "EV-11884 FL A",
@@ -8835,7 +10509,13 @@
   "f_taban": "",
   "f_boy": "60–80 cm",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "HACIMLI",
+  "olcu3": [
+   60.0,
+   60.0,
+   12
+  ]
  },
  {
   "id": "EV-11800 FL\n(SERİSİ)",
@@ -8869,7 +10549,13 @@
   "f_taban": "",
   "f_boy": "60–80 cm",
   "f_malzeme": "PC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "HACIMLI",
+  "olcu3": [
+   90.0,
+   60.0,
+   12
+  ]
  },
  {
   "id": "EV-21800 FL\n(SERİSİ)",
@@ -8903,7 +10589,13 @@
   "f_taban": "",
   "f_boy": "60–80 cm",
   "f_malzeme": "PC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "HACIMLI",
+  "olcu3": [
+   90.0,
+   60.0,
+   12
+  ]
  },
  {
   "id": "EV-11600 S-LD\n(SERİSİ)",
@@ -8937,7 +10629,13 @@
   "f_taban": "",
   "f_boy": "60–80 cm",
   "f_malzeme": "AL",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "HACIMLI",
+  "olcu3": [
+   90.0,
+   60.0,
+   12
+  ]
  },
  {
   "id": "EV-11700 S-LD\n(SERİSİ)",
@@ -8971,7 +10669,13 @@
   "f_taban": "",
   "f_boy": "90–120 cm",
   "f_malzeme": "AL",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "HACIMLI",
+  "olcu3": [
+   130.0,
+   100.0,
+   12
+  ]
  },
  {
   "id": "EV-11750 S-LD",
@@ -9005,7 +10709,13 @@
   "f_taban": "",
   "f_boy": "120 cm üstü",
   "f_malzeme": "AL",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "HACIMLI",
+  "olcu3": [
+   150.0,
+   80.0,
+   12
+  ]
  },
  {
   "id": "EV-11778 S-LD",
@@ -9039,7 +10749,13 @@
   "f_taban": "",
   "f_boy": "90–120 cm",
   "f_malzeme": "AL",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "HACIMLI",
+  "olcu3": [
+   130.0,
+   100.0,
+   12
+  ]
  },
  {
   "id": "EV-12325 TK R2",
@@ -9070,7 +10786,13 @@
   "f_taban": "",
   "f_boy": "90–120 cm",
   "f_malzeme": "PVC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "KONIK",
+  "olcu3": [
+   90.0,
+   37.8,
+   37.8
+  ]
  },
  {
   "id": "EV-12327 TK A R2",
@@ -9101,7 +10823,13 @@
   "f_taban": "",
   "f_boy": "90–120 cm",
   "f_malzeme": "PVC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "KONIK",
+  "olcu3": [
+   90.0,
+   37.8,
+   37.8
+  ]
  },
  {
   "id": "EV-12393 TK R2",
@@ -9132,7 +10860,13 @@
   "f_taban": "",
   "f_boy": "90–120 cm",
   "f_malzeme": "TPE",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "KONIK",
+  "olcu3": [
+   90.0,
+   37.8,
+   37.8
+  ]
  },
  {
   "id": "EV-12395 TK A R2",
@@ -9163,7 +10897,13 @@
   "f_taban": "",
   "f_boy": "90–120 cm",
   "f_malzeme": "TPE",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "KONIK",
+  "olcu3": [
+   90.0,
+   37.8,
+   37.8
+  ]
  },
  {
   "id": "EV-12309 TK R2",
@@ -9194,7 +10934,13 @@
   "f_taban": "",
   "f_boy": "60–80 cm",
   "f_malzeme": "PVC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "KONIK",
+  "olcu3": [
+   75.0,
+   31.5,
+   31.5
+  ]
  },
  {
   "id": "EV-12315 TK A R2",
@@ -9225,7 +10971,13 @@
   "f_taban": "",
   "f_boy": "60–80 cm",
   "f_malzeme": "PVC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "KONIK",
+  "olcu3": [
+   75.0,
+   31.5,
+   31.5
+  ]
  },
  {
   "id": "EV-12387 TK R2",
@@ -9256,7 +11008,13 @@
   "f_taban": "",
   "f_boy": "60–80 cm",
   "f_malzeme": "TPE",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "KONIK",
+  "olcu3": [
+   75.0,
+   31.5,
+   31.5
+  ]
  },
  {
   "id": "EV-12389 TK A R2",
@@ -9287,7 +11045,13 @@
   "f_taban": "",
   "f_boy": "60–80 cm",
   "f_malzeme": "TPE",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "KONIK",
+  "olcu3": [
+   75.0,
+   31.5,
+   31.5
+  ]
  },
  {
   "id": "EV-12306 TK R1",
@@ -9318,7 +11082,13 @@
   "f_taban": "",
   "f_boy": "40–55 cm",
   "f_malzeme": "PVC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "KONIK",
+  "olcu3": [
+   50.0,
+   21.0,
+   21.0
+  ]
  },
  {
   "id": "EV-12326 TK A R1",
@@ -9349,7 +11119,13 @@
   "f_taban": "",
   "f_boy": "40–55 cm",
   "f_malzeme": "PVC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "KONIK",
+  "olcu3": [
+   50.0,
+   21.0,
+   21.0
+  ]
  },
  {
   "id": "EV-12364 TK R1",
@@ -9380,7 +11156,13 @@
   "f_taban": "",
   "f_boy": "40–55 cm",
   "f_malzeme": "TPE",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "KONIK",
+  "olcu3": [
+   50.0,
+   21.0,
+   21.0
+  ]
  },
  {
   "id": "EV-12384 TK A R1",
@@ -9411,7 +11193,13 @@
   "f_taban": "",
   "f_boy": "40–55 cm",
   "f_malzeme": "TPE",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "KONIK",
+  "olcu3": [
+   50.0,
+   21.0,
+   21.0
+  ]
  },
  {
   "id": "EV-12337 TK R2",
@@ -9442,7 +11230,13 @@
   "f_taban": "",
   "f_boy": "60–80 cm",
   "f_malzeme": "PVC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "KONIK",
+  "olcu3": [
+   70.0,
+   29.4,
+   29.4
+  ]
  },
  {
   "id": "EV-12332 TK R2",
@@ -9473,7 +11267,13 @@
   "f_taban": "",
   "f_boy": "40–55 cm",
   "f_malzeme": "PVC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "KONIK",
+  "olcu3": [
+   52.0,
+   21.8,
+   21.8
+  ]
  },
  {
   "id": "EV-12376 TK R2",
@@ -9504,7 +11304,13 @@
   "f_taban": "",
   "f_boy": "60–80 cm",
   "f_malzeme": "TPE",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "KONIK",
+  "olcu3": [
+   70.0,
+   29.4,
+   29.4
+  ]
  },
  {
   "id": "EV-12370 TK R2",
@@ -9535,7 +11341,13 @@
   "f_taban": "",
   "f_boy": "40–55 cm",
   "f_malzeme": "TPE",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "KONIK",
+  "olcu3": [
+   52.0,
+   21.8,
+   21.8
+  ]
  },
  {
   "id": "EV-12331 TK R2",
@@ -9566,7 +11378,13 @@
   "f_taban": "",
   "f_boy": "90–120 cm",
   "f_malzeme": "PVC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "KONIK",
+  "olcu3": [
+   90.0,
+   37.8,
+   37.8
+  ]
  },
  {
   "id": "EV-12318 TK R1",
@@ -9597,7 +11415,13 @@
   "f_taban": "",
   "f_boy": "40–55 cm",
   "f_malzeme": "PVC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "KONIK",
+  "olcu3": [
+   50.0,
+   21.0,
+   21.0
+  ]
  },
  {
   "id": "EV-12316 TK R2",
@@ -9628,7 +11452,13 @@
   "f_taban": "",
   "f_boy": "40–55 cm",
   "f_malzeme": "PVC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "KONIK",
+  "olcu3": [
+   50.0,
+   21.0,
+   21.0
+  ]
  },
  {
   "id": "EV-12303 TK R1",
@@ -9659,7 +11489,13 @@
   "f_taban": "",
   "f_boy": "30 cm ve altı",
   "f_malzeme": "PVC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "KONIK",
+  "olcu3": [
+   32.0,
+   13.4,
+   13.4
+  ]
  },
  {
   "id": "EV-12362 TK R1",
@@ -9690,7 +11526,13 @@
   "f_taban": "",
   "f_boy": "30 cm ve altı",
   "f_malzeme": "TPE",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "KONIK",
+  "olcu3": [
+   32.0,
+   13.4,
+   13.4
+  ]
  },
  {
   "id": "EV-12386 TK R2",
@@ -9721,7 +11563,13 @@
   "f_taban": "",
   "f_boy": "60–80 cm",
   "f_malzeme": "TPE",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "KONIK",
+  "olcu3": [
+   75.0,
+   31.5,
+   31.5
+  ]
  },
  {
   "id": "EV-12388 TK A R2",
@@ -9752,7 +11600,13 @@
   "f_taban": "",
   "f_boy": "60–80 cm",
   "f_malzeme": "TPE",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "KONIK",
+  "olcu3": [
+   75.0,
+   31.5,
+   31.5
+  ]
  },
  {
   "id": "EV-12300 TK",
@@ -9783,7 +11637,13 @@
   "f_taban": "",
   "f_boy": "40–55 cm",
   "f_malzeme": "PPC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "KONIK",
+  "olcu3": [
+   50.0,
+   21.0,
+   21.0
+  ]
  },
  {
   "id": "EV-12301 TK A",
@@ -9814,7 +11674,13 @@
   "f_taban": "",
   "f_boy": "40–55 cm",
   "f_malzeme": "PPC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "KONIK",
+  "olcu3": [
+   50.0,
+   21.0,
+   21.0
+  ]
  },
  {
   "id": "EV-12302 TK",
@@ -9845,7 +11711,13 @@
   "f_taban": "",
   "f_boy": "40–55 cm",
   "f_malzeme": "PPC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "KONIK",
+  "olcu3": [
+   50.0,
+   21.0,
+   21.0
+  ]
  },
  {
   "id": "EV-12350 TK",
@@ -9876,7 +11748,13 @@
   "f_taban": "",
   "f_boy": "60–80 cm",
   "f_malzeme": "PPC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "KONIK",
+  "olcu3": [
+   60.0,
+   25.2,
+   25.2
+  ]
  },
  {
   "id": "EV-12351 TK A",
@@ -9907,7 +11785,13 @@
   "f_taban": "",
   "f_boy": "60–80 cm",
   "f_malzeme": "PPC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "KONIK",
+  "olcu3": [
+   62.0,
+   26.0,
+   26.0
+  ]
  },
  {
   "id": "EV-12352 TK A",
@@ -9938,7 +11822,13 @@
   "f_taban": "",
   "f_boy": "60–80 cm",
   "f_malzeme": "PPC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "KONIK",
+  "olcu3": [
+   62.0,
+   26.0,
+   26.0
+  ]
  },
  {
   "id": "EV-12353 TK A",
@@ -9969,7 +11859,13 @@
   "f_taban": "",
   "f_boy": "60–80 cm",
   "f_malzeme": "PPC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "KONIK",
+  "olcu3": [
+   62.0,
+   26.0,
+   26.0
+  ]
  },
  {
   "id": "EV-12354 TK A",
@@ -10000,7 +11896,13 @@
   "f_taban": "",
   "f_boy": "60–80 cm",
   "f_malzeme": "PPC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "KONIK",
+  "olcu3": [
+   62.0,
+   26.0,
+   26.0
+  ]
  },
  {
   "id": "EV-12431 DB",
@@ -10034,7 +11936,13 @@
   "f_taban": "",
   "f_boy": "60–80 cm",
   "f_malzeme": "PPC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   90.0,
+   60.0,
+   4
+  ]
  },
  {
   "id": "EV-12429 DB A",
@@ -10068,7 +11976,13 @@
   "f_taban": "",
   "f_boy": "40–55 cm",
   "f_malzeme": "PPC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "KONIK",
+  "olcu3": [
+   90.0,
+   49.0,
+   12
+  ]
  },
  {
   "id": "EV-12426 DB A",
@@ -10102,7 +12016,13 @@
   "f_taban": "",
   "f_boy": "40–55 cm",
   "f_malzeme": "PPC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "KONIK",
+  "olcu3": [
+   90.0,
+   49.0,
+   12
+  ]
  },
  {
   "id": "EV-12427 DB A",
@@ -10136,7 +12056,13 @@
   "f_taban": "",
   "f_boy": "40–55 cm",
   "f_malzeme": "PPC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "KONIK",
+  "olcu3": [
+   90.0,
+   49.0,
+   12
+  ]
  },
  {
   "id": "EV-12424 DB F A",
@@ -10170,7 +12096,13 @@
   "f_taban": "",
   "f_boy": "40–55 cm",
   "f_malzeme": "PPC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "KONIK",
+  "olcu3": [
+   90.0,
+   49.0,
+   12
+  ]
  },
  {
   "id": "EV-12421 DB F A",
@@ -10204,7 +12136,13 @@
   "f_taban": "",
   "f_boy": "40–55 cm",
   "f_malzeme": "PPC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "KONIK",
+  "olcu3": [
+   90.0,
+   49.0,
+   12
+  ]
  },
  {
   "id": "EV-108 A F",
@@ -10238,7 +12176,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "ABS",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   62.0,
+   24.5,
+   4
+  ]
  },
  {
   "id": "EV-107 A",
@@ -10272,7 +12216,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "ABS",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   62.0,
+   24.5,
+   4
+  ]
  },
  {
   "id": "EV-12250 UB R",
@@ -10303,7 +12253,13 @@
   "f_taban": "",
   "f_boy": "90–120 cm",
   "f_malzeme": "TPU",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "KONIK",
+  "olcu3": [
+   100.0,
+   42.0,
+   42.0
+  ]
  },
  {
   "id": "EV-12254 UB R",
@@ -10334,7 +12290,13 @@
   "f_taban": "",
   "f_boy": "90–120 cm",
   "f_malzeme": "TPU",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "KONIK",
+  "olcu3": [
+   90.0,
+   37.8,
+   37.8
+  ]
  },
  {
   "id": "EV-12253 UB R",
@@ -10365,7 +12327,13 @@
   "f_taban": "",
   "f_boy": "60–80 cm",
   "f_malzeme": "TPU",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "KONIK",
+  "olcu3": [
+   75.0,
+   31.5,
+   31.5
+  ]
  },
  {
   "id": "EV-22067 UB R",
@@ -10396,7 +12364,13 @@
   "f_taban": "",
   "f_boy": "40–55 cm",
   "f_malzeme": "TPU",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "KONIK",
+  "olcu3": [
+   45.0,
+   18.9,
+   18.9
+  ]
  },
  {
   "id": "EV-12278 UB R",
@@ -10427,7 +12401,13 @@
   "f_taban": "",
   "f_boy": "90–120 cm",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "BORU",
+  "olcu3": [
+   92.0,
+   9,
+   9
+  ]
  },
  {
   "id": "EV-12232 UB R",
@@ -10458,7 +12438,13 @@
   "f_taban": "",
   "f_boy": "60–80 cm",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "BORU",
+  "olcu3": [
+   75.0,
+   9,
+   9
+  ]
  },
  {
   "id": "EV-12236 UB R",
@@ -10489,7 +12475,13 @@
   "f_taban": "",
   "f_boy": "40–55 cm",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "BORU",
+  "olcu3": [
+   45.0,
+   9,
+   9
+  ]
  },
  {
   "id": "EV-22008 UB R",
@@ -10520,7 +12512,13 @@
   "f_taban": "",
   "f_boy": "90–120 cm",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "BORU",
+  "olcu3": [
+   92.0,
+   9,
+   9
+  ]
  },
  {
   "id": "EV-22068 UB R",
@@ -10554,7 +12552,13 @@
   "f_taban": "",
   "f_boy": "30 cm ve altı",
   "f_malzeme": "TPU",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "BORU",
+  "olcu3": [
+   45.0,
+   12.0,
+   12
+  ]
  },
  {
   "id": "EV-12256 UB R",
@@ -10588,7 +12592,13 @@
   "f_taban": "",
   "f_boy": "30 cm ve altı",
   "f_malzeme": "TPU",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "BORU",
+  "olcu3": [
+   75.0,
+   12.0,
+   12
+  ]
  },
  {
   "id": "EV-12237 UB R",
@@ -10619,7 +12629,13 @@
   "f_taban": "soketli",
   "f_boy": "60–80 cm",
   "f_malzeme": "TPU",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "BORU",
+  "olcu3": [
+   75.0,
+   9,
+   9
+  ]
  },
  {
   "id": "EV-12249 UB R",
@@ -10650,7 +12666,13 @@
   "f_taban": "soketli",
   "f_boy": "90–120 cm",
   "f_malzeme": "TPU",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "BORU",
+  "olcu3": [
+   100.0,
+   9,
+   9
+  ]
  },
  {
   "id": "EV-12243 UB R",
@@ -10681,7 +12703,13 @@
   "f_taban": "soketli",
   "f_boy": "60–80 cm",
   "f_malzeme": "TPU",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "BORU",
+  "olcu3": [
+   75.0,
+   9,
+   9
+  ]
  },
  {
   "id": "EV-12247 UB R",
@@ -10712,7 +12740,13 @@
   "f_taban": "soketli",
   "f_boy": "40–55 cm",
   "f_malzeme": "TPU",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "BORU",
+  "olcu3": [
+   50.0,
+   9,
+   9
+  ]
  },
  {
   "id": "EV-12281 UB R",
@@ -10743,7 +12777,13 @@
   "f_taban": "soketli",
   "f_boy": "60–80 cm",
   "f_malzeme": "TPU",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "BORU",
+  "olcu3": [
+   70.0,
+   9,
+   9
+  ]
  },
  {
   "id": "EV-12283 UB R",
@@ -10774,7 +12814,13 @@
   "f_taban": "soketli",
   "f_boy": "40–55 cm",
   "f_malzeme": "TPU",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "BORU",
+  "olcu3": [
+   40.0,
+   9,
+   9
+  ]
  },
  {
   "id": "EV-12211 UB R",
@@ -10805,7 +12851,13 @@
   "f_taban": "",
   "f_boy": "90–120 cm",
   "f_malzeme": "TPU",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "BORU",
+  "olcu3": [
+   100.0,
+   9,
+   9
+  ]
  },
  {
   "id": "EV-12212 UB R",
@@ -10836,7 +12888,13 @@
   "f_taban": "",
   "f_boy": "60–80 cm",
   "f_malzeme": "TPU",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "BORU",
+  "olcu3": [
+   75.0,
+   9,
+   9
+  ]
  },
  {
   "id": "EV-12214 UB R",
@@ -10867,7 +12925,13 @@
   "f_taban": "",
   "f_boy": "40–55 cm",
   "f_malzeme": "TPU",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "BORU",
+  "olcu3": [
+   45.0,
+   9,
+   9
+  ]
  },
  {
   "id": "EV-12215 UB R",
@@ -10898,7 +12962,13 @@
   "f_taban": "",
   "f_boy": "30 cm ve altı",
   "f_malzeme": "TPU",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "BORU",
+  "olcu3": [
+   30.0,
+   9,
+   9
+  ]
  },
  {
   "id": "EV-12288 UB R",
@@ -10929,7 +12999,13 @@
   "f_taban": "",
   "f_boy": "90–120 cm",
   "f_malzeme": "TPU",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "BORU",
+  "olcu3": [
+   100.0,
+   9,
+   9
+  ]
  },
  {
   "id": "EV-12286 UB R",
@@ -10960,7 +13036,13 @@
   "f_taban": "",
   "f_boy": "60–80 cm",
   "f_malzeme": "TPU",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "BORU",
+  "olcu3": [
+   75.0,
+   9,
+   9
+  ]
  },
  {
   "id": "EV-12284 UB R",
@@ -10991,7 +13073,13 @@
   "f_taban": "",
   "f_boy": "40–55 cm",
   "f_malzeme": "TPU",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "BORU",
+  "olcu3": [
+   45.0,
+   9,
+   9
+  ]
  },
  {
   "id": "EV-12282 UB R",
@@ -11022,7 +13110,13 @@
   "f_taban": "",
   "f_boy": "30 cm ve altı",
   "f_malzeme": "TPU",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "BORU",
+  "olcu3": [
+   30.0,
+   9,
+   9
+  ]
  },
  {
   "id": "EV-12245 UB R",
@@ -11053,7 +13147,13 @@
   "f_taban": "",
   "f_boy": "30 cm ve altı",
   "f_malzeme": "TPU",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "BORU",
+  "olcu3": [
+   30.0,
+   9,
+   9
+  ]
  },
  {
   "id": "EV-12244 UB R",
@@ -11084,7 +13184,13 @@
   "f_taban": "",
   "f_boy": "40–55 cm",
   "f_malzeme": "TPU",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "BORU",
+  "olcu3": [
+   45.0,
+   9,
+   9
+  ]
  },
  {
   "id": "EV-12242 UB R",
@@ -11115,7 +13221,13 @@
   "f_taban": "",
   "f_boy": "60–80 cm",
   "f_malzeme": "TPU",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "BORU",
+  "olcu3": [
+   75.0,
+   9,
+   9
+  ]
  },
  {
   "id": "EV-12241 UB R",
@@ -11146,7 +13258,13 @@
   "f_taban": "",
   "f_boy": "90–120 cm",
   "f_malzeme": "TPU",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "BORU",
+  "olcu3": [
+   100.0,
+   9,
+   9
+  ]
  },
  {
   "id": "EV-22036 UB R",
@@ -11177,7 +13295,13 @@
   "f_taban": "",
   "f_boy": "90–120 cm",
   "f_malzeme": "TPU",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "BORU",
+  "olcu3": [
+   100.0,
+   9,
+   9
+  ]
  },
  {
   "id": "EV-22037 UB R",
@@ -11208,7 +13332,13 @@
   "f_taban": "",
   "f_boy": "60–80 cm",
   "f_malzeme": "TPU",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "BORU",
+  "olcu3": [
+   75.0,
+   9,
+   9
+  ]
  },
  {
   "id": "EV-22038 UB R",
@@ -11239,7 +13369,13 @@
   "f_taban": "",
   "f_boy": "40–55 cm",
   "f_malzeme": "TPU",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "BORU",
+  "olcu3": [
+   45.0,
+   9,
+   9
+  ]
  },
  {
   "id": "EV-22039 UB R",
@@ -11270,7 +13406,13 @@
   "f_taban": "",
   "f_boy": "30 cm ve altı",
   "f_malzeme": "TPU",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "BORU",
+  "olcu3": [
+   30.0,
+   9,
+   9
+  ]
  },
  {
   "id": "EV-22040 UB R",
@@ -11301,7 +13443,13 @@
   "f_taban": "soketli",
   "f_boy": "90–120 cm",
   "f_malzeme": "TPE",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "BORU",
+  "olcu3": [
+   100.0,
+   9,
+   9
+  ]
  },
  {
   "id": "EV-22042 UB R",
@@ -11332,7 +13480,13 @@
   "f_taban": "soketli",
   "f_boy": "60–80 cm",
   "f_malzeme": "TPE",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "BORU",
+  "olcu3": [
+   75.0,
+   9,
+   9
+  ]
  },
  {
   "id": "EV-22044 UB R",
@@ -11363,7 +13517,13 @@
   "f_taban": "soketli",
   "f_boy": "40–55 cm",
   "f_malzeme": "TPE",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "BORU",
+  "olcu3": [
+   45.0,
+   9,
+   9
+  ]
  },
  {
   "id": "EV-12275 UB R",
@@ -11394,7 +13554,13 @@
   "f_taban": "",
   "f_boy": "30 cm ve altı",
   "f_malzeme": "TPE",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "BORU",
+  "olcu3": [
+   30.0,
+   9,
+   9
+  ]
  },
  {
   "id": "EV-12274 UB R",
@@ -11425,7 +13591,13 @@
   "f_taban": "soketli",
   "f_boy": "40–55 cm",
   "f_malzeme": "TPE",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "BORU",
+  "olcu3": [
+   40.0,
+   9,
+   9
+  ]
  },
  {
   "id": "EV-12272 UB R",
@@ -11456,7 +13628,13 @@
   "f_taban": "soketli",
   "f_boy": "60–80 cm",
   "f_malzeme": "TPE",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "BORU",
+  "olcu3": [
+   70.0,
+   9,
+   9
+  ]
  },
  {
   "id": "EV-22048 UB R",
@@ -11487,7 +13665,13 @@
   "f_taban": "soketli",
   "f_boy": "90–120 cm",
   "f_malzeme": "TPE",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "BORU",
+  "olcu3": [
+   100.0,
+   9,
+   9
+  ]
  },
  {
   "id": "EV-22050 UB R",
@@ -11518,7 +13702,13 @@
   "f_taban": "soketli",
   "f_boy": "60–80 cm",
   "f_malzeme": "TPE",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "BORU",
+  "olcu3": [
+   75.0,
+   9,
+   9
+  ]
  },
  {
   "id": "EV-22052 UB R",
@@ -11549,7 +13739,13 @@
   "f_taban": "soketli",
   "f_boy": "40–55 cm",
   "f_malzeme": "TPE",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "BORU",
+  "olcu3": [
+   45.0,
+   9,
+   9
+  ]
  },
  {
   "id": "EV-22019 UB R",
@@ -11580,7 +13776,13 @@
   "f_taban": "",
   "f_boy": "30 cm ve altı",
   "f_malzeme": "TPE",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "BORU",
+  "olcu3": [
+   30.0,
+   9,
+   9
+  ]
  },
  {
   "id": "EV-22029 UB R",
@@ -11611,7 +13813,13 @@
   "f_taban": "",
   "f_boy": "30 cm ve altı",
   "f_malzeme": "TPE",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "BORU",
+  "olcu3": [
+   30.0,
+   9,
+   9
+  ]
  },
  {
   "id": "EV-22053 UB R",
@@ -11642,7 +13850,13 @@
   "f_taban": "soketli",
   "f_boy": "40–55 cm",
   "f_malzeme": "TPE",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "BORU",
+  "olcu3": [
+   45.0,
+   9,
+   9
+  ]
  },
  {
   "id": "EV-22051 UB R",
@@ -11673,7 +13887,13 @@
   "f_taban": "soketli",
   "f_boy": "60–80 cm",
   "f_malzeme": "TPE",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "BORU",
+  "olcu3": [
+   75.0,
+   9,
+   9
+  ]
  },
  {
   "id": "EV-22049 UB R",
@@ -11704,7 +13924,13 @@
   "f_taban": "soketli",
   "f_boy": "90–120 cm",
   "f_malzeme": "TPE",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "BORU",
+  "olcu3": [
+   100.0,
+   9,
+   9
+  ]
  },
  {
   "id": "EV-22059 UB R",
@@ -11735,7 +13961,13 @@
   "f_taban": "",
   "f_boy": "30 cm ve altı",
   "f_malzeme": "TPE",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "BORU",
+  "olcu3": [
+   30.0,
+   9,
+   9
+  ]
  },
  {
   "id": "EV-22058 UB R",
@@ -11766,7 +13998,13 @@
   "f_taban": "soketli",
   "f_boy": "40–55 cm",
   "f_malzeme": "TPE",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "BORU",
+  "olcu3": [
+   45.0,
+   9,
+   9
+  ]
  },
  {
   "id": "EV-22057 UB R",
@@ -11797,7 +14035,13 @@
   "f_taban": "soketli",
   "f_boy": "60–80 cm",
   "f_malzeme": "TPE",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "BORU",
+  "olcu3": [
+   75.0,
+   9,
+   9
+  ]
  },
  {
   "id": "EV-22056 UB R",
@@ -11828,7 +14072,13 @@
   "f_taban": "soketli",
   "f_boy": "90–120 cm",
   "f_malzeme": "TPE",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "BORU",
+  "olcu3": [
+   100.0,
+   9,
+   9
+  ]
  },
  {
   "id": "EV-22021 UB R",
@@ -11859,7 +14109,13 @@
   "f_taban": "",
   "f_boy": "90–120 cm",
   "f_malzeme": "TPE",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "BORU",
+  "olcu3": [
+   100.0,
+   9,
+   9
+  ]
  },
  {
   "id": "EV-22022 UB R",
@@ -11890,7 +14146,13 @@
   "f_taban": "",
   "f_boy": "60–80 cm",
   "f_malzeme": "TPE",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "BORU",
+  "olcu3": [
+   75.0,
+   9,
+   9
+  ]
  },
  {
   "id": "EV-22023 UB R",
@@ -11921,7 +14183,13 @@
   "f_taban": "",
   "f_boy": "40–55 cm",
   "f_malzeme": "TPE",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "BORU",
+  "olcu3": [
+   45.0,
+   9,
+   9
+  ]
  },
  {
   "id": "EV-22024 UB R",
@@ -11952,7 +14220,13 @@
   "f_taban": "",
   "f_boy": "30 cm ve altı",
   "f_malzeme": "TPE",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "BORU",
+  "olcu3": [
+   30.0,
+   9,
+   9
+  ]
  },
  {
   "id": "EV-12251 UB R",
@@ -11987,7 +14261,13 @@
   "f_taban": "",
   "f_boy": "30 cm ve altı",
   "f_malzeme": "PPC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "BORU",
+  "olcu3": [
+   100.0,
+   92.0,
+   22.0
+  ]
  },
  {
   "id": "EV-12268 UB R",
@@ -12022,7 +14302,13 @@
   "f_taban": "",
   "f_boy": "30 cm ve altı",
   "f_malzeme": "PPC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "BORU",
+  "olcu3": [
+   100.0,
+   75.0,
+   22.0
+  ]
  },
  {
   "id": "EV-12270 UB R",
@@ -12057,7 +14343,13 @@
   "f_taban": "",
   "f_boy": "30 cm ve altı",
   "f_malzeme": "PPC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "BORU",
+  "olcu3": [
+   100.0,
+   45.0,
+   22.0
+  ]
  },
  {
   "id": "EV-12297 UB R",
@@ -12092,7 +14384,13 @@
   "f_taban": "",
   "f_boy": "30 cm ve altı",
   "f_malzeme": "PPC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "BORU",
+  "olcu3": [
+   100.0,
+   92.0,
+   20.0
+  ]
  },
  {
   "id": "EV-12219 UB R",
@@ -12127,7 +14425,13 @@
   "f_taban": "",
   "f_boy": "30 cm ve altı",
   "f_malzeme": "PPC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "BORU",
+  "olcu3": [
+   100.0,
+   75.0,
+   20.0
+  ]
  },
  {
   "id": "EV-12218 UB R",
@@ -12162,7 +14466,13 @@
   "f_taban": "",
   "f_boy": "30 cm ve altı",
   "f_malzeme": "PPC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "BORU",
+  "olcu3": [
+   100.0,
+   45.0,
+   20.0
+  ]
  },
  {
   "id": "EV-12262 UB",
@@ -12197,7 +14507,13 @@
   "f_taban": "",
   "f_boy": "30 cm ve altı",
   "f_malzeme": "PPC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "BORU",
+  "olcu3": [
+   100.0,
+   22.0,
+   7.5
+  ]
  },
  {
   "id": "EV-12266 UB R",
@@ -12232,7 +14548,13 @@
   "f_taban": "",
   "f_boy": "30 cm ve altı",
   "f_malzeme": "PPC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "BORU",
+  "olcu3": [
+   100.0,
+   66.0,
+   22.0
+  ]
  },
  {
   "id": "EV-12260 UB R",
@@ -12267,7 +14589,13 @@
   "f_taban": "",
   "f_boy": "30 cm ve altı",
   "f_malzeme": "PVC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "BORU",
+  "olcu3": [
+   100.0,
+   15.0,
+   6.0
+  ]
  },
  {
   "id": "EV-22203 UB R",
@@ -12302,7 +14630,13 @@
   "f_taban": "",
   "f_boy": "30 cm ve altı",
   "f_malzeme": "ABS",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "BORU",
+  "olcu3": [
+   28.5,
+   20.0,
+   18.0
+  ]
  },
  {
   "id": "EV-22202 UB R",
@@ -12337,7 +14671,13 @@
   "f_taban": "",
   "f_boy": "30 cm ve altı",
   "f_malzeme": "ABS",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "BORU",
+  "olcu3": [
+   59.0,
+   20.0,
+   18.0
+  ]
  },
  {
   "id": "EV-22206 DB R",
@@ -12372,7 +14712,13 @@
   "f_taban": "",
   "f_boy": "30 cm ve altı",
   "f_malzeme": "PPC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "BORU",
+  "olcu3": [
+   71.0,
+   30.0,
+   25.0
+  ]
  },
  {
   "id": "EV-22205 DB R",
@@ -12407,7 +14753,13 @@
   "f_taban": "",
   "f_boy": "30 cm ve altı",
   "f_malzeme": "PPC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "BORU",
+  "olcu3": [
+   102.5,
+   30.0,
+   25.0
+  ]
  },
  {
   "id": "EV-12206 UB R",
@@ -12442,7 +14794,13 @@
   "f_taban": "",
   "f_boy": "30 cm ve altı",
   "f_malzeme": "PPC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "BORU",
+  "olcu3": [
+   60.0,
+   26.0,
+   16.0
+  ]
  },
  {
   "id": "EV-12207 UB R",
@@ -12477,7 +14835,13 @@
   "f_taban": "",
   "f_boy": "30 cm ve altı",
   "f_malzeme": "PPC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "BORU",
+  "olcu3": [
+   30.0,
+   26.0,
+   16.0
+  ]
  },
  {
   "id": "EV-12204 UB R",
@@ -12512,7 +14876,13 @@
   "f_taban": "",
   "f_boy": "30 cm ve altı",
   "f_malzeme": "PPC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "BORU",
+  "olcu3": [
+   118.0,
+   60.0,
+   15.0
+  ]
  },
  {
   "id": "EV-12203 UB R",
@@ -12547,7 +14917,13 @@
   "f_taban": "",
   "f_boy": "30 cm ve altı",
   "f_malzeme": "PPC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "BORU",
+  "olcu3": [
+   118.0,
+   30.0,
+   15.0
+  ]
  },
  {
   "id": "EV-12202 UB",
@@ -12582,7 +14958,13 @@
   "f_taban": "",
   "f_boy": "30 cm ve altı",
   "f_malzeme": "PPC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "BORU",
+  "olcu3": [
+   118.0,
+   15.0,
+   4.8
+  ]
  },
  {
   "id": "EV-12220 UB",
@@ -12617,7 +14999,13 @@
   "f_taban": "",
   "f_boy": "30 cm ve altı",
   "f_malzeme": "PPC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "BORU",
+  "olcu3": [
+   100.0,
+   20.0,
+   8.0
+  ]
  },
  {
   "id": "EV-12217 UB",
@@ -12652,7 +15040,13 @@
   "f_taban": "",
   "f_boy": "30 cm ve altı",
   "f_malzeme": "PPC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "BORU",
+  "olcu3": [
+   100.0,
+   20.0,
+   8.0
+  ]
  },
  {
   "id": "EV-11924 SL K",
@@ -12687,7 +15081,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "AL",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "HACIMLI",
+  "olcu3": [
+   14.5,
+   12.5,
+   2.8
+  ]
  },
  {
   "id": "EV-11926 SL S",
@@ -12722,7 +15122,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "AL",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "HACIMLI",
+  "olcu3": [
+   14.5,
+   12.5,
+   2.8
+  ]
  },
  {
   "id": "EV-11920 SL K",
@@ -12757,7 +15163,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "AL",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "HACIMLI",
+  "olcu3": [
+   14.5,
+   12.5,
+   2.8
+  ]
  },
  {
   "id": "EV-11922 SL S",
@@ -12792,7 +15204,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "AL",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "HACIMLI",
+  "olcu3": [
+   14.5,
+   12.5,
+   2.8
+  ]
  },
  {
   "id": "EV-11921 SL K",
@@ -12827,7 +15245,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "AL",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "HACIMLI",
+  "olcu3": [
+   13.5,
+   12.0,
+   2.8
+  ]
  },
  {
   "id": "EV-11923 SL S",
@@ -12862,7 +15286,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "AL",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "HACIMLI",
+  "olcu3": [
+   13.5,
+   12.0,
+   2.8
+  ]
  },
  {
   "id": "EV-12005-2 YB",
@@ -12897,7 +15327,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "ABS",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "KUCUK",
+  "olcu3": [
+   10.0,
+   10.0,
+   2.1
+  ]
  },
  {
   "id": "EV-12005 YB",
@@ -12932,7 +15368,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "ABS",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "KUCUK",
+  "olcu3": [
+   10.5,
+   10.5,
+   2.0
+  ]
  },
  {
   "id": "EV-12000 YB",
@@ -12967,7 +15409,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "PPC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "KUCUK",
+  "olcu3": [
+   15.0,
+   12.5,
+   3.2
+  ]
  },
  {
   "id": "EV-12006 YB",
@@ -13002,7 +15450,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "PPC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "KUCUK",
+  "olcu3": [
+   22.0,
+   12.0,
+   2.8
+  ]
  },
  {
   "id": "EV-12002 YB",
@@ -13037,7 +15491,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "PPC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "KUCUK",
+  "olcu3": [
+   12.0,
+   12.0,
+   2.8
+  ]
  },
  {
   "id": "EV-12003 YB",
@@ -13072,7 +15532,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "PPC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "KUCUK",
+  "olcu3": [
+   22.0,
+   10.0,
+   3.2
+  ]
  },
  {
   "id": "EV-12011 YB",
@@ -13107,7 +15573,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "AL",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "KUCUK",
+  "olcu3": [
+   10.2,
+   10.0,
+   2.1
+  ]
  },
  {
   "id": "EV-12007 YB",
@@ -13142,7 +15614,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "AL",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "KUCUK",
+  "olcu3": [
+   12.0,
+   12.0,
+   2.8
+  ]
  },
  {
   "id": "EV-12009 YB",
@@ -13177,7 +15655,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "ABS",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "KUCUK",
+  "olcu3": [
+   10.0,
+   10.0,
+   2.1
+  ]
  },
  {
   "id": "EV-12004 YB",
@@ -13212,7 +15696,13 @@
   "f_taban": "",
   "f_boy": "30 cm ve altı",
   "f_malzeme": "PPC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "KUCUK",
+  "olcu3": [
+   140.0,
+   120.0,
+   25.0
+  ]
  },
  {
   "id": "EV-12123 YK",
@@ -13246,7 +15736,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "PPC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "KUCUK",
+  "olcu3": [
+   25.0,
+   3.5,
+   12
+  ]
  },
  {
   "id": "EV-12124 YK",
@@ -13280,7 +15776,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "PPC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "KUCUK",
+  "olcu3": [
+   25.0,
+   3.5,
+   12
+  ]
  },
  {
   "id": "EV-12108 YK",
@@ -13315,7 +15817,13 @@
   "f_taban": "",
   "f_boy": "40–55 cm",
   "f_malzeme": "PVC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   60.0,
+   50.0,
+   4.5
+  ]
  },
  {
   "id": "EV-12116 YK",
@@ -13350,7 +15858,13 @@
   "f_taban": "",
   "f_boy": "40–55 cm",
   "f_malzeme": "PVC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   60.0,
+   50.0,
+   4.5
+  ]
  },
  {
   "id": "EV-12109 YK K",
@@ -13385,7 +15899,13 @@
   "f_taban": "",
   "f_boy": "30 cm ve altı",
   "f_malzeme": "PVC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   60.0,
+   30.0,
+   4.5
+  ]
  },
  {
   "id": "EV-12110 YK",
@@ -13420,7 +15940,13 @@
   "f_taban": "",
   "f_boy": "40–55 cm",
   "f_malzeme": "PVC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   50.0,
+   40.0,
+   4.0
+  ]
  },
  {
   "id": "EV-12111 YK K",
@@ -13455,7 +15981,13 @@
   "f_taban": "",
   "f_boy": "30 cm ve altı",
   "f_malzeme": "PVC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   40.0,
+   20.0,
+   4.0
+  ]
  },
  {
   "id": "EV-12106 YK",
@@ -13490,7 +16022,13 @@
   "f_taban": "",
   "f_boy": "40–55 cm",
   "f_malzeme": "PVC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   50.0,
+   40.0,
+   4.0
+  ]
  },
  {
   "id": "EV-12107 YK K",
@@ -13525,7 +16063,13 @@
   "f_taban": "",
   "f_boy": "30 cm ve altı",
   "f_malzeme": "PVC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   40.0,
+   20.0,
+   4.0
+  ]
  },
  {
   "id": "EV-12102 YK",
@@ -13560,7 +16104,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "PPC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   33.5,
+   30.0,
+   4.0
+  ]
  },
  {
   "id": "EV-12103 YK K",
@@ -13595,7 +16145,13 @@
   "f_taban": "",
   "f_boy": "30 cm ve altı",
   "f_malzeme": "PPC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   30.0,
+   10.0,
+   4.0
+  ]
  },
  {
   "id": "EV-12120 YK",
@@ -13630,7 +16186,13 @@
   "f_taban": "",
   "f_boy": "40–55 cm",
   "f_malzeme": "PPC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   50.0,
+   25.0,
+   3.5
+  ]
  },
  {
   "id": "EV-12121 YK K",
@@ -13665,7 +16227,13 @@
   "f_taban": "",
   "f_boy": "30 cm ve altı",
   "f_malzeme": "PPC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   25.0,
+   12.0,
+   3.5
+  ]
  },
  {
   "id": "EV-12100 YK",
@@ -13700,7 +16268,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "PPC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   34.5,
+   25.0,
+   5.0
+  ]
  },
  {
   "id": "EV-12101 YK K",
@@ -13735,7 +16309,13 @@
   "f_taban": "",
   "f_boy": "30 cm ve altı",
   "f_malzeme": "PPC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   25.0,
+   10.0,
+   5.0
+  ]
  },
  {
   "id": "EV-11938 SL",
@@ -13770,7 +16350,13 @@
   "f_taban": "",
   "f_boy": "40–55 cm",
   "f_malzeme": "PPC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "HACIMLI",
+  "olcu3": [
+   50.0,
+   50.0,
+   4.5
+  ]
  },
  {
   "id": "EV-11940 SL K",
@@ -13805,7 +16391,13 @@
   "f_taban": "",
   "f_boy": "30 cm ve altı",
   "f_malzeme": "PPC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "HACIMLI",
+  "olcu3": [
+   50.0,
+   25.0,
+   4.5
+  ]
  },
  {
   "id": "EV-12112 YK",
@@ -13840,7 +16432,13 @@
   "f_taban": "",
   "f_boy": "40–55 cm",
   "f_malzeme": "PPC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   50.0,
+   50.0,
+   4.5
+  ]
  },
  {
   "id": "EV-12113 YK K",
@@ -13875,7 +16473,13 @@
   "f_taban": "",
   "f_boy": "30 cm ve altı",
   "f_malzeme": "PPC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   50.0,
+   25.0,
+   4.5
+  ]
  },
  {
   "id": "EV-12231 UB",
@@ -13909,7 +16513,13 @@
   "f_taban": "",
   "f_boy": "120 cm üstü",
   "f_malzeme": "PPC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   180.0,
+   10.0,
+   4
+  ]
  },
  {
   "id": "EV-12233 UB",
@@ -13943,7 +16553,13 @@
   "f_taban": "",
   "f_boy": "90–120 cm",
   "f_malzeme": "PPC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   110.0,
+   10.0,
+   4
+  ]
  },
  {
   "id": "EV-12235 UB",
@@ -13977,7 +16593,13 @@
   "f_taban": "",
   "f_boy": "40–55 cm",
   "f_malzeme": "PPC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   55.0,
+   10.0,
+   4
+  ]
  },
  {
   "id": "EV-22231 UB R",
@@ -14011,7 +16633,13 @@
   "f_taban": "",
   "f_boy": "120 cm üstü",
   "f_malzeme": "PPC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   180.0,
+   8.5,
+   4
+  ]
  },
  {
   "id": "EV-12216 UB R",
@@ -14045,7 +16673,13 @@
   "f_taban": "",
   "f_boy": "40–55 cm",
   "f_malzeme": "PVC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   50.0,
+   10.0,
+   4
+  ]
  },
  {
   "id": "EV-22210 UB ST",
@@ -14079,7 +16713,13 @@
   "f_taban": "",
   "f_boy": "40–55 cm",
   "f_malzeme": "PPC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "HACIMLI",
+  "olcu3": [
+   50.0,
+   38.0,
+   12
+  ]
  },
  {
   "id": "EV-12290 UB",
@@ -14114,7 +16754,13 @@
   "f_taban": "",
   "f_boy": "40–55 cm",
   "f_malzeme": "PPC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   50.0,
+   50.0,
+   6.0
+  ]
  },
  {
   "id": "EV-12291 UB K",
@@ -14149,7 +16795,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "PPC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   50.0,
+   9.0,
+   6.0
+  ]
  },
  {
   "id": "EV-12292 UB R",
@@ -14180,7 +16832,13 @@
   "f_taban": "",
   "f_boy": "90–120 cm",
   "f_malzeme": "PVC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   90.0,
+   45.0,
+   5
+  ]
  },
  {
   "id": "EV-12295 UB R",
@@ -14211,7 +16869,13 @@
   "f_taban": "",
   "f_boy": "60–80 cm",
   "f_malzeme": "PVC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   80.0,
+   40.0,
+   5
+  ]
  },
  {
   "id": "EV-12294 UB R",
@@ -14242,7 +16906,13 @@
   "f_taban": "",
   "f_boy": "60–80 cm",
   "f_malzeme": "PVC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   80.0,
+   40.0,
+   5
+  ]
  },
  {
   "id": "EV-12296 UB R",
@@ -14273,7 +16943,13 @@
   "f_taban": "",
   "f_boy": "60–80 cm",
   "f_malzeme": "PVC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   80.0,
+   40.0,
+   5
+  ]
  },
  {
   "id": "EV-12226 TG A",
@@ -14304,7 +16980,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "PPC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "HACIMLI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "EV-12227 TG A",
@@ -14335,7 +17017,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "PPC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "HACIMLI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "EV-12228 TG A",
@@ -14366,7 +17054,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "PPC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "HACIMLI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "EV-12229 TG A",
@@ -14397,7 +17091,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "PPC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "HACIMLI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "EV-12248 TG A",
@@ -14431,7 +17131,13 @@
   "f_taban": "",
   "f_boy": "60–80 cm",
   "f_malzeme": "ABS",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "HACIMLI",
+  "olcu3": [
+   80.0,
+   60.0,
+   12
+  ]
  },
  {
   "id": "EV-12246 TG A",
@@ -14465,7 +17171,13 @@
   "f_taban": "",
   "f_boy": "60–80 cm",
   "f_malzeme": "ABS",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "HACIMLI",
+  "olcu3": [
+   80.0,
+   60.0,
+   12
+  ]
  },
  {
   "id": "EV-12267 TG A",
@@ -14499,7 +17211,13 @@
   "f_taban": "",
   "f_boy": "60–80 cm",
   "f_malzeme": "ABS",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "HACIMLI",
+  "olcu3": [
+   60.0,
+   40.0,
+   12
+  ]
  },
  {
   "id": "EV-12265 TG A",
@@ -14533,7 +17251,13 @@
   "f_taban": "",
   "f_boy": "60–80 cm",
   "f_malzeme": "ABS",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "HACIMLI",
+  "olcu3": [
+   60.0,
+   40.0,
+   12
+  ]
  },
  {
   "id": "EV-12276 UB D",
@@ -14567,7 +17291,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "TPU",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "KONIK",
+  "olcu3": [
+   87.0,
+   8.0,
+   12
+  ]
  },
  {
   "id": "EV-12277 UB D",
@@ -14601,7 +17331,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "TPU",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "KONIK",
+  "olcu3": [
+   68.0,
+   8.0,
+   12
+  ]
  },
  {
   "id": "EV-12279 UB D",
@@ -14635,7 +17371,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "TPU",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "KONIK",
+  "olcu3": [
+   81.5,
+   8.0,
+   12
+  ]
  },
  {
   "id": "EV-12280 UB D",
@@ -14669,7 +17411,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "TPU",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "KONIK",
+  "olcu3": [
+   62.5,
+   8.0,
+   12
+  ]
  },
  {
   "id": "EV-22026 UB R",
@@ -14700,7 +17448,13 @@
   "f_taban": "",
   "f_boy": "90–120 cm",
   "f_malzeme": "TPU",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "KONIK",
+  "olcu3": [
+   120.0,
+   50.4,
+   50.4
+  ]
  },
  {
   "id": "EV-22028 UB R",
@@ -14732,7 +17486,13 @@
   "f_taban": "",
   "f_boy": "90–120 cm",
   "f_malzeme": "TPU",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "KONIK",
+  "olcu3": [
+   21.0,
+   12.5,
+   12
+  ]
  },
  {
   "id": "EV-22032 UB R",
@@ -14766,7 +17526,13 @@
   "f_taban": "",
   "f_boy": "90–120 cm",
   "f_malzeme": "TPU",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "KONIK",
+  "olcu3": [
+   40.0,
+   10.0,
+   12
+  ]
  },
  {
   "id": "EV-22035 UB R",
@@ -14800,7 +17566,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "PPC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "KONIK",
+  "olcu3": [
+   80.0,
+   9.0,
+   12
+  ]
  },
  {
   "id": "EV-22031 UB R",
@@ -14834,7 +17606,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "PPC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "KONIK",
+  "olcu3": [
+   50.0,
+   9.0,
+   12
+  ]
  },
  {
   "id": "EV-12205 UB R",
@@ -14868,7 +17646,13 @@
   "f_taban": "",
   "f_boy": "40–55 cm",
   "f_malzeme": "PE",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "KONIK",
+  "olcu3": [
+   25.0,
+   25.0,
+   12
+  ]
  },
  {
   "id": "EV-22033 UB R",
@@ -14902,7 +17686,13 @@
   "f_taban": "",
   "f_boy": "40–55 cm",
   "f_malzeme": "PE",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "KONIK",
+  "olcu3": [
+   25.0,
+   25.0,
+   12
+  ]
  },
  {
   "id": "EV-12293 UB ST",
@@ -14936,7 +17726,13 @@
   "f_taban": "",
   "f_boy": "60–80 cm",
   "f_malzeme": "ST",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "KONIK",
+  "olcu3": [
+   20.0,
+   20.0,
+   12
+  ]
  },
  {
   "id": "EV-12289 UB ST",
@@ -14970,7 +17766,13 @@
   "f_taban": "",
   "f_boy": "60–80 cm",
   "f_malzeme": "ST",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "KONIK",
+  "olcu3": [
+   20.0,
+   20.0,
+   12
+  ]
  },
  {
   "id": "EV-22218 UB",
@@ -15005,7 +17807,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "Kauçuk",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   100.0,
+   24.0,
+   4.5
+  ]
  },
  {
   "id": "EV-12298 UB",
@@ -15040,7 +17848,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "PPC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   60.0,
+   50.0,
+   7.5
+  ]
  },
  {
   "id": "EV-12299 UB",
@@ -15074,7 +17888,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "PPC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   60.0,
+   7.5,
+   4
+  ]
  },
  {
   "id": "EV-PL 8010",
@@ -15108,7 +17928,13 @@
   "f_taban": "",
   "f_boy": "40–55 cm",
   "f_malzeme": "TPU",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   40.0,
+   40.0,
+   4
+  ]
  },
  {
   "id": "EV-PL 8011",
@@ -15142,7 +17968,13 @@
   "f_taban": "",
   "f_boy": "40–55 cm",
   "f_malzeme": "TPU",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   40.0,
+   40.0,
+   4
+  ]
  },
  {
   "id": "EV-PL 8012",
@@ -15176,7 +18008,13 @@
   "f_taban": "",
   "f_boy": "40–55 cm",
   "f_malzeme": "TPU",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   40.0,
+   40.0,
+   4
+  ]
  },
  {
   "id": "EV-PL 8013",
@@ -15210,7 +18048,13 @@
   "f_taban": "",
   "f_boy": "40–55 cm",
   "f_malzeme": "TPU",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   40.0,
+   40.0,
+   4
+  ]
  },
  {
   "id": "EV-PL 8014",
@@ -15244,7 +18088,13 @@
   "f_taban": "",
   "f_boy": "30 cm ve altı",
   "f_malzeme": "TPU",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   60.0,
+   30.0,
+   4
+  ]
  },
  {
   "id": "EV-PL 8015",
@@ -15278,7 +18128,13 @@
   "f_taban": "",
   "f_boy": "30 cm ve altı",
   "f_malzeme": "TPU",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   60.0,
+   30.0,
+   4
+  ]
  },
  {
   "id": "EV-PL 8016",
@@ -15312,7 +18168,13 @@
   "f_taban": "",
   "f_boy": "30 cm ve altı",
   "f_malzeme": "TPU",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   60.0,
+   30.0,
+   4
+  ]
  },
  {
   "id": "EV-PL 8017",
@@ -15346,7 +18208,13 @@
   "f_taban": "",
   "f_boy": "30 cm ve altı",
   "f_malzeme": "TPU",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   60.0,
+   30.0,
+   4
+  ]
  },
  {
   "id": "EV-PL 8018",
@@ -15380,7 +18248,13 @@
   "f_taban": "",
   "f_boy": "60–80 cm",
   "f_malzeme": "TPU",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   58.0,
+   58.0,
+   4
+  ]
  },
  {
   "id": "EV-PL 8019",
@@ -15414,7 +18288,13 @@
   "f_taban": "",
   "f_boy": "60–80 cm",
   "f_malzeme": "TPU",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   58.0,
+   58.0,
+   4
+  ]
  },
  {
   "id": "EV-PL 8020",
@@ -15448,7 +18328,13 @@
   "f_taban": "",
   "f_boy": "30 cm ve altı",
   "f_malzeme": "TPU",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "HACIMLI",
+  "olcu3": [
+   60.0,
+   30.0,
+   12
+  ]
  },
  {
   "id": "EV-PL 8022",
@@ -15482,7 +18368,13 @@
   "f_taban": "",
   "f_boy": "30 cm ve altı",
   "f_malzeme": "TPU",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "HACIMLI",
+  "olcu3": [
+   60.0,
+   30.0,
+   12
+  ]
  },
  {
   "id": "EV-111 A",
@@ -15514,7 +18406,13 @@
   "f_taban": "",
   "f_boy": "30 cm ve altı",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   40.0,
+   34.0,
+   4
+  ]
  },
  {
   "id": "EV-196 A",
@@ -15543,7 +18441,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "EV-222 A R",
@@ -15574,7 +18478,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "EV-110 A",
@@ -15603,7 +18513,13 @@
   "f_taban": "",
   "f_boy": "40–55 cm",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   50.0,
+   25.0,
+   5
+  ]
  },
  {
   "id": "EV-114 A",
@@ -15637,7 +18553,13 @@
   "f_taban": "",
   "f_boy": "30 cm ve altı",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   34.0,
+   31.0,
+   4
+  ]
  },
  {
   "id": "EV-120 A",
@@ -15668,7 +18590,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "EV-295 A F",
@@ -15699,7 +18627,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "EV-124 A F",
@@ -15730,7 +18664,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "EV-ETR 5111",
@@ -15761,7 +18701,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "HACIMLI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "EV-ETR 5112",
@@ -15792,7 +18738,13 @@
   "f_taban": "",
   "f_boy": "30 cm ve altı",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "HACIMLI",
+  "olcu3": [
+   10.0,
+   5.0,
+   4.0
+  ]
  },
  {
   "id": "EV-ETR 5121",
@@ -15823,7 +18775,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "HACIMLI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "EV-ETR 5122",
@@ -15854,7 +18812,13 @@
   "f_taban": "",
   "f_boy": "30 cm ve altı",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "HACIMLI",
+  "olcu3": [
+   10.0,
+   5.0,
+   4.0
+  ]
  },
  {
   "id": "EV-ETR 5131",
@@ -15885,7 +18849,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "HACIMLI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "EV-ETR 5141",
@@ -15916,7 +18886,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "HACIMLI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "EV-ETR 5151",
@@ -15947,7 +18923,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "HACIMLI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "EV-ETR 5161",
@@ -15978,7 +18960,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "HACIMLI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "EV-194 A",
@@ -16009,7 +18997,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "BORU",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "EV-126 A",
@@ -16040,7 +19034,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "KONIK",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "EV-184 A",
@@ -16071,7 +19071,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "YASSI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "EV-204 A",
@@ -16102,7 +19108,13 @@
   "f_taban": "",
   "f_boy": "30 cm ve altı",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "HACIMLI",
+  "olcu3": [
+   11.0,
+   5.5,
+   4.4
+  ]
  },
  {
   "id": "EV-174 A",
@@ -16133,7 +19145,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "HACIMLI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "EV-185 A",
@@ -16164,7 +19182,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "HACIMLI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "EV-188 A",
@@ -16195,7 +19219,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "KONIK",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "EV-175 A",
@@ -16226,7 +19256,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "HACIMLI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "EV-127 A",
@@ -16257,7 +19293,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "HACIMLI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "EV-123 A",
@@ -16288,7 +19330,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "HACIMLI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "EV-190 A",
@@ -16323,7 +19371,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "PVC",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "KONIK",
+  "olcu3": [
+   38.5,
+   38.5,
+   5.0
+  ]
  },
  {
   "id": "EV-128 A",
@@ -16354,7 +19408,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "HACIMLI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "EV-129 A",
@@ -16385,7 +19445,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "HACIMLI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "EV-152 A R",
@@ -16416,7 +19482,13 @@
   "f_taban": "",
   "f_boy": "120 cm üstü",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "KONIK",
+  "olcu3": [
+   150.0,
+   63.0,
+   63.0
+  ]
  },
  {
   "id": "EV-159 A",
@@ -16450,7 +19522,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "HACIMLI",
+  "olcu3": [
+   10.0,
+   1.0,
+   12
+  ]
  },
  {
   "id": "EV-160 A",
@@ -16484,7 +19562,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "HACIMLI",
+  "olcu3": [
+   8.0,
+   0.8,
+   12
+  ]
  },
  {
   "id": "EV-176 A",
@@ -16518,7 +19602,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "HACIMLI",
+  "olcu3": [
+   10.0,
+   1.0,
+   12
+  ]
  },
  {
   "id": "EV-161 A",
@@ -16552,7 +19642,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "HACIMLI",
+  "olcu3": [
+   10.5,
+   0.6,
+   12
+  ]
  },
  {
   "id": "EV-173 A",
@@ -16583,7 +19679,13 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "HACIMLI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  },
  {
   "id": "EV-172 A",
@@ -16614,6 +19716,12 @@
   "f_taban": "",
   "f_boy": "",
   "f_malzeme": "",
-  "f_seri": "Standart"
+  "f_seri": "Standart",
+  "geo": "HACIMLI",
+  "olcu3": [
+   25,
+   20,
+   12
+  ]
  }
 ]

@@ -1,106 +1,124 @@
 /**
- * Kargo / desi hesabı — Yurtiçi Kargo perakende tarifesi
+ * KARGO / DESİ HESABI
+ * ────────────────────────────────────────────────────────────────
+ * Doğru yaklaşım: ürün başına desi TOPLANMAZ. Sipariş koliye
+ * yerleştirilir, kolinin hacmi ile toplam ağırlık karşılaştırılır,
+ * hangisi büyükse ücrete o esas alınır.
  *
- * Yurtiçi formülü: hacim(dm³) = (En×Boy×Yük)/1000 ; desi = hacim/5
- * yani efektif (En×Boy×Yük)/5000. Ağırlık ile kıyaslanır, büyüğü alınır.
- *
- * Tarife (onaylandı):
- *   1–3 desi  : 250 TL sabit
- *   4 desi ve üstü : 250 + (desi − 3) × 80 TL
- *
- * İstif katsayısı: aynı üründen 2. ve sonraki adetler tam desi eklemez.
- * Katsayılar Hepsiburada gerçek gönderi verisinden çıkarıldı.
+ * Ürünler paketleme davranışına göre sınıflanır:
+ *   KONIK   koni/duba — iç içe geçer, ek adet yüksekliği az artırır
+ *   BORU    delinatör/dikme — iç içe GİRMEZ, yan yana yatar
+ *   YASSI   levha/kasis/stoper — düz istiflenir, kalınlık toplanır
+ *   HALKA   ağırlık tabanı/kelepçe — üst üste tam oturur
+ *   HACIMLI bariyer/ayna/lamba — hacim tam toplanır
+ *   KUCUK   vida/dübel/buton — kutuda toplanır
  */
 
-export const TABAN_UCRET = 250;      // 1–3 desi sabit
-export const TABAN_DESI = 3;
-export const DESI_BASI = 80;         // 4–10 desi arası birim
+export type Geo = "KONIK" | "BORU" | "YASSI" | "HALKA" | "HACIMLI" | "KUCUK";
 
-/** kademeli birim fiyat — gerçek tarifeler gibi desi arttıkça birim düşer */
+export type SepetSatiri = {
+  olcu3: number[];      // [uzun, orta, kısa] cm
+  geo: Geo;
+  agirlik_kg: number;
+  adet: number;
+};
+
+/** iç içe geçen ürünlerde her ek adedin eklediği yükseklik oranı */
+const ISTIF: Record<Geo, number> = {
+  KONIK: 0.22,   // koniler teleskopik — %22
+  HALKA: 0.30,   // halkalar üst üste
+  YASSI: 1.00,   // kalınlık tam eklenir (zaten ince)
+  BORU: 1.00,    // yan yana — hacim tam eklenir ama demetlenir
+  HACIMLI: 1.00,
+  KUCUK: 1.00,
+};
+
+/** demetleme/paketleme verimi — boşlukları hesaba katar */
+const VERIM: Record<Geo, number> = {
+  KONIK: 1.00,
+  BORU: 0.78,    // silindirler yan yana dizilince arada boşluk kalır ama az
+  YASSI: 0.95,
+  HALKA: 0.95,
+  HACIMLI: 0.90,
+  KUCUK: 0.55,   // küçük parçalar kutuya sıkışır
+};
+
+const BOLEN = 5000;          // Yurtiçi Kargo kendi formülü: hacim(dm³)/5 = (ExBxY)/5000
+const KOLI_PAYI = 1.12;      // koli duvarı + dolgu
+
+/** bir satırın kapladığı hacim (cm³) */
+export function satirHacim({ olcu3, geo, adet }: SepetSatiri) {
+  const [a, b, c] = olcu3.length >= 3 ? olcu3 : [25, 20, 12];
+  const n = Math.max(1, adet);
+  const k = ISTIF[geo] ?? 1;
+
+  if (geo === "KONIK" || geo === "HALKA") {
+    // üst üste geçer: taban aynı kalır, yükseklik az artar
+    const yukseklik = a * (1 + k * (n - 1));
+    return b * c * yukseklik;
+  }
+  if (geo === "YASSI") {
+    // düz istif: en/boy sabit, kalınlık toplanır
+    return a * b * (c * n);
+  }
+  if (geo === "BORU") {
+    // yan yana demet: uzunluk sabit, kesit alanı adet kadar artar
+    const kesit = b * c * n;
+    return (a * kesit) / VERIM.BORU;
+  }
+  // hacimli / küçük
+  return ((a * b * c) * n) / VERIM[geo];
+}
+
+/** sepetin faturalanacak desisi */
+export function toplamDesi(satirlar: SepetSatiri[]) {
+  if (!satirlar.length) return 0;
+  const hacim = satirlar.reduce((s, r) => s + satirHacim(r), 0) * KOLI_PAYI;
+  const kg = satirlar.reduce((s, r) => s + (r.agirlik_kg || 0) * Math.max(1, r.adet), 0);
+  const hacimsel = hacim / BOLEN;
+  const desi = Math.max(hacimsel, kg);
+  if (desi <= 0) return 0;
+  return Math.max(1, Math.ceil(desi));
+}
+
+/* ---------------- TARİFE ---------------- */
+export const TABAN_UCRET = 250;   // 1–3 desi
+export const TABAN_DESI = 3;
 export const KADEMELER: { ustSinir: number; birim: number }[] = [
-  { ustSinir: 10, birim: 80 },   //  4–10 desi
-  { ustSinir: 30, birim: 55 },   // 11–30 desi
-  { ustSinir: 60, birim: 40 },   // 31–60 desi
-  { ustSinir: Infinity, birim: 30 }, // 60+
+  { ustSinir: 10, birim: 55 },
+  { ustSinir: 25, birim: 35 },
+  { ustSinir: 60, birim: 24 },
+  { ustSinir: Infinity, birim: 16 },
 ];
 
-/** kategori → ek adet katsayısı (ilk adedin yüzdesi) */
-const ISTIF: Record<string, number> = {
-  "Elektrikçi Eldiveni": 0.05,
-  "Araç Stoperi": 0.15,
-  "Katlanabilir Levha": 0.25,
-  "Uyarı Levhası": 0.25,
-  "Üçgen Levha": 0.25,
-  "Kare Levha": 0.25,
-  "Dikdörtgen Levha": 0.25,
-  "Yuvarlak Levha": 0.25,
-  "Ekstra Yuvarlak Levha": 0.25,
-  "Panel Levhası": 0.25,
-  "El Uyarı Levhası": 0.25,
-  "Zemin İşaretleme": 0.30,
-  "Hız Kesici Kasis": 0.35,
-  "Trafik Konisi": 0.40,
-  "Duba & Kaldırım Sınırlama": 0.40,
-  "Refüj Başı Dubası": 0.45,
-  "Delinatör": 0.50,
-  "Şerit Ayırıcı": 0.55,
-  "Uyarı Dikmesi": 0.55,
-  "Güvenlik Bariyeri": 0.60,
-  "Kolon Köşe Koruyucu": 0.30,
-  "Ağırlık Tabanı": 0.60,
-  "Güvenlik Aynası": 0.50,
-  "Solar & Flaşör Lamba": 0.20,
-  "Yol Butonu": 0.10,
-  "Zincir": 0.60,
-  "Vida": 0.10,
-  "Dübel": 0.10,
-  "Zincir Kancası": 0.10,
-  "Dikme Kelepçesi": 0.15,
-  "Koni Kulpu": 0.15,
-  "Bağlantı Aparatı": 0.10,
-  "Kablo Koruyucu": 0.30,
-};
-const ISTIF_VARSAYILAN = 0.50;
-
-export function istifKatsayisi(kategori: string) {
-  return ISTIF[kategori] ?? ISTIF_VARSAYILAN;
+/** kargoya sığmayan ürün: en uzun kenar > 150 cm ya da tek adet desisi > 80 */
+export const BUYUK_KENAR = 150;
+export const BUYUK_DESI = 80;
+export function buyukHacimli(o: { olcu3: number[]; geo: Geo; agirlik_kg: number }) {
+  const en = Math.max(...(o.olcu3 || [0]));
+  return en > BUYUK_KENAR || urunDesi(o) > BUYUK_DESI;
 }
 
-export type KargoSatiri = { desi: number; adet: number; kategori: string };
-
-/** bir satırın toplam desisi: ilk adet tam, sonrakiler katsayılı */
-export function satirDesi({ desi, adet, kategori }: KargoSatiri) {
-  if (adet <= 0) return 0;
-  const k = istifKatsayisi(kategori);
-  return desi + desi * k * (adet - 1);
-}
-
-/** sepetin toplam desisi (yukarı yuvarlanır, en az 1) */
-export function toplamDesi(satirlar: KargoSatiri[]) {
-  const t = satirlar.reduce((s, r) => s + satirDesi(r), 0);
-  if (t <= 0) return 0;              // desi 0 olan ürünler (test) kargo doğurmaz
-  return Math.max(1, Math.ceil(t));
-}
-
-/** desiden kargo ücreti */
 export function kargoUcreti(desi: number) {
-  if (desi <= 0) return 0;           // kargosuz sepet
+  if (desi <= 0) return 0;
   if (desi <= TABAN_DESI) return TABAN_UCRET;
-  let ucret = TABAN_UCRET;
-  let alt = TABAN_DESI;
+  let u = TABAN_UCRET, alt = TABAN_DESI;
   for (const { ustSinir, birim } of KADEMELER) {
     if (desi <= alt) break;
-    const dilim = Math.min(desi, ustSinir) - alt;
-    ucret += dilim * birim;
+    u += (Math.min(desi, ustSinir) - alt) * birim;
     alt = Math.min(desi, ustSinir);
   }
-  return Math.round(ucret);
+  return Math.round(u);
 }
 
-/** sepetten doğrudan ücret + desi */
-export function kargoHesapla(satirlar: KargoSatiri[]) {
+export function kargoHesapla(satirlar: SepetSatiri[]) {
   const desi = toplamDesi(satirlar);
   return { desi, ucret: kargoUcreti(desi) };
+}
+
+/** tek ürünün 1 adetlik desisi — ürün kartında göstermek için */
+export function urunDesi(o: { olcu3: number[]; geo: Geo; agirlik_kg: number }) {
+  return toplamDesi([{ ...o, adet: 1 }]);
 }
 
 export const formatTL = (n: number) =>

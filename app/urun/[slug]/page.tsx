@@ -5,6 +5,7 @@ import AddToCart from "@/components/AddToCart";
 import ProductGallery from "@/components/ProductGallery";
 import ProductCard from "@/components/ProductCard";
 import StickyBuyBar from "@/components/StickyBuyBar";
+import KargoBilgi from "@/components/KargoBilgi";
 
 export function generateStaticParams() {
   return allProducts.map((p) => ({ slug: p.slug }));
@@ -60,10 +61,13 @@ export default async function Urun({ params }: { params: Promise<{ slug: string 
 
           <AddToCart product={p} />
 
-          <a href={`https://wa.me/905076584245?text=${encodeURIComponent(p.kod + " – " + p.name + " için fiyat almak istiyorum.")}`}
-             className="btn btn-ghost" style={{ width: "100%", marginTop: 10 }}>
-            WhatsApp'tan sor
-          </a>
+          <p style={{ marginTop: 12, fontSize: 12.5, color: "var(--dim)", textAlign: "center", lineHeight: 1.6 }}>
+            Sipariş için görüşmenize gerek yok — sepete ekleyip kartla ödeyin.
+          </p>
+
+          <div style={{ marginTop: 26 }}>
+            <KargoBilgi product={p} />
+          </div>
 
           {/* TEKNİK ÖZELLİKLER — asıl içerik bu */}
           <div style={{ marginTop: 36 }}>

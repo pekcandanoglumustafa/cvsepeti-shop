@@ -13,6 +13,9 @@ export type CartItem = {
   stock: number;
   desi: number;
   kategori: string;
+  olcu3: number[];
+  geo: string;
+  agirlik_kg: number;
 };
 
 type CartState = {
@@ -64,7 +67,12 @@ export const useCart = create<CartState>()(
       count: () => get().items.reduce((sum, i) => sum + i.qty, 0),
       kargoDesi: () =>
         toplamDesi(
-          get().items.map((i) => ({ desi: i.desi ?? 1, adet: i.qty, kategori: i.kategori || "" }))
+          get().items.map((i) => ({
+            olcu3: i.olcu3 || [25, 20, 12],
+            geo: (i.geo || "HACIMLI") as any,
+            agirlik_kg: i.agirlik_kg || 0,
+            adet: i.qty,
+          }))
         ),
       kargo: () => kargoUcreti(get().kargoDesi()),
       genelToplam: () => get().total() + get().kargo(),

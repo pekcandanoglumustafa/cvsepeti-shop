@@ -27,6 +27,8 @@ export type Product = {
   f_reflektif: string;
   f_taban: string;
   f_seri: string;
+  olcu3: number[];
+  geo: string;
   tedarikci: string;
 };
 

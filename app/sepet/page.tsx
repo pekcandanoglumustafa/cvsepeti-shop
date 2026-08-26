@@ -4,7 +4,7 @@ import Image from "next/image";
 import { useEffect, useState } from "react";
 import { Trash2, Minus, Plus } from "lucide-react";
 import { useCart } from "@/lib/cart";
-import { formatTL, TABAN_UCRET, TABAN_DESI, DESI_BASI, istifKatsayisi, satirDesi } from "@/lib/kargo";
+import { formatTL, TABAN_UCRET, TABAN_DESI } from "@/lib/kargo";
 
 export default function Sepet() {
   const { items, remove, setQty, total, kargoDesi, kargo, genelToplam } = useCart();
@@ -37,9 +37,7 @@ export default function Sepet() {
               <div style={{ flex: 1, minWidth: 0 }}>
                 <Link href={`/urun/${i.slug}`} style={{ fontSize: 14, fontWeight: 700, color: "var(--ink)", textDecoration: "none" }}
                       className="line-clamp-2">{i.name}</Link>
-                <p className="eyebrow" style={{ color: "var(--muted)", marginTop: 5 }}>
-                  {i.desi} desi/adet · {i.qty > 1 && `bu satır ${satirDesi({ desi: i.desi, adet: i.qty, kategori: i.kategori }).toFixed(1)} desi`}
-                </p>
+                <p className="eyebrow" style={{ color: "var(--dim)", marginTop: 5 }}>{i.kategori}</p>
                 <div style={{ display: "flex", alignItems: "center", gap: 14, marginTop: 10, flexWrap: "wrap" }}>
                   <div style={{ display: "flex", alignItems: "center", border: "1px solid var(--line)" }}>
                     <button onClick={() => setQty(i.slug, Math.max(1, i.qty - 1))} aria-label="azalt"
@@ -74,7 +72,7 @@ export default function Sepet() {
           <div style={{ marginTop: 18, padding: 14, background: "var(--tile)" }}>
             <p className="eyebrow" style={{ marginBottom: 8 }}>Kargo nasıl hesaplanır</p>
             <p style={{ fontSize: 12, color: "var(--muted)", lineHeight: 1.65 }}>
-              Yurtiçi Kargo · İlk {TABAN_DESI} desi {TABAN_UCRET} ₺, sonraki her desi {DESI_BASI} ₺.
+              Yurtiçi Kargo · İlk {TABAN_DESI} desi {TABAN_UCRET} ₺, sonrası kademeli.
               Aynı üründen birden fazla alındığında ürünler iç içe/istifli gönderildiği için
               ek adetler tam desi eklemez.
             </p>
