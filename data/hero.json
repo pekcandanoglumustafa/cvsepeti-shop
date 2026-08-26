@@ -1,17 +1,98 @@
 [
  {
+  "kat": "Delinatör",
   "img": "/images/katalog/30-cm-delinator-zt8030.webp",
   "ad": "30 cm Delinatör – ZT8030",
-  "kat": "Delinatör"
+  "adet": 63
  },
  {
+  "kat": "Trafik Konisi",
   "img": "/images/katalog/50-cm-sekizgen-koni-1-reflektifli-zt502808r1.webp",
   "ad": "50 cm Sekizgen Koni 1 Reflektifli – ZT502808R1",
-  "kat": "Trafik Konisi"
+  "adet": 59
  },
  {
+  "kat": "Hız Kesici Kasis",
+  "img": "/images/katalog/9-kg-hiz-kesici-kasis-icin-govde-basligi-zt45601.webp",
+  "ad": "9 kg Hız Kesici Kasis İçin Gövde Başlığı – ZT45601",
+  "adet": 45
+ },
+ {
+  "kat": "Şerit Ayırıcı",
+  "img": "/images/katalog/100-cm-delinatorlu-serit-ayirici-zt648100.webp",
+  "ad": "100 cm Delinatörlü Şerit Ayırıcı – ZT648100",
+  "adet": 35
+ },
+ {
+  "kat": "Duba & Kaldırım Sınırlama",
+  "img": "/images/katalog/dubali-uyari-dikmesi-hx-100-cm-x-63-mm-12409-1-db-r.webp",
+  "ad": "Dubalı Uyarı Dikmesi - (hxø) - 100 Cm X 63 Mm – 12409-1 DB R",
+  "adet": 23
+ },
+ {
+  "kat": "Araç Stoperi",
   "img": "/images/katalog/60-cm-arac-stoperi-siyah-sari-zt1560.webp",
   "ad": "60 cm Araç Stoperi Siyah Sarı – ZT1560",
-  "kat": "Araç Stoperi"
+  "adet": 15
+ },
+ {
+  "kat": "Zincir",
+  "img": "/images/katalog/8-mm-zincir-3-m-kirmizi-beyaz-127-a.webp",
+  "ad": "8 Mm Zincir - 3 M - Kırmızı - Beyaz – 127 A",
+  "adet": 12
+ },
+ {
+  "kat": "Güvenlik Aynası",
+  "img": "/images/katalog/60-cm-guvenlik-aynasi-zt6060.webp",
+  "ad": "60 cm Güvenlik Aynası – ZT6060",
+  "adet": 10
+ },
+ {
+  "kat": "Refüj Başı Dubası",
+  "img": "/images/katalog/100-cm-refuj-basi-levha-baskili-zt40100.webp",
+  "ad": "100 cm Refüj Başı Levha Baskılı – ZT40100",
+  "adet": 9
+ },
+ {
+  "kat": "Dikme + Panel Sistemi",
+  "img": "/images/katalog/110-cm-dikme-dikdortgen-tabanli-75-cm-panel-baskili-zt75110-da.webp",
+  "ad": "110 cm Dikme Dikdörtgen Tabanlı 75 cm Panel Baskılı – ZT75110 DA",
+  "adet": 8
+ },
+ {
+  "kat": "Panel Levhası",
+  "img": "/images/katalog/32-cm-panel-zt90315.webp",
+  "ad": "32 cm Panel – ZT90315",
+  "adet": 6
+ },
+ {
+  "kat": "Uyarı Dikmesi",
+  "img": "/images/katalog/63cm-uyari-dikmesi-yuvarlak-tabanli-2-reflektifli-zt63315r2.webp",
+  "ad": "63cm Uyarı Dikmesi Yuvarlak Tabanlı 2 Reflektifli – ZT63315R2",
+  "adet": 4
+ },
+ {
+  "kat": "Ağırlık Tabanı",
+  "img": "/images/katalog/38-cm-altigen-agirlik-tabani-zt202a.webp",
+  "ad": "38 cm Altıgen Ağırlık Tabanı – ZT202A",
+  "adet": 4
+ },
+ {
+  "kat": "Dikme Kelepçesi",
+  "img": "/images/katalog/63-cm-dikme-kelepcesi-zt63a.webp",
+  "ad": "63 cm Dikme Kelepçesi – ZT63A",
+  "adet": 2
+ },
+ {
+  "kat": "Vida",
+  "img": "/images/katalog/10x110-mm-trifon-vida-zt80a.webp",
+  "ad": "10x110 mm Trifon Vida – ZT80A",
+  "adet": 1
+ },
+ {
+  "kat": "Dübel",
+  "img": "/images/katalog/16x90mm-plastik-dubel-zt90a.webp",
+  "ad": "16x90mm Plastik Dübel – ZT90A",
+  "adet": 1
  }
 ]

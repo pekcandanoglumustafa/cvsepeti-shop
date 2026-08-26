@@ -2,9 +2,8 @@ import Link from "next/link";
 import { allProducts, categories, categorySlug } from "@/lib/products";
 import ProductCard from "@/components/ProductCard";
 import CategoryCard from "@/components/CategoryCard";
-import Image from "next/image";
 import kapaklar from "@/data/kategori_kapak.json";
-import hero from "@/data/hero.json";
+import HeroMozaik from "@/components/HeroMozaik";
 
 const KAPAK = kapaklar as Record<string, { img: string; w: number; adet: number }>;
 
@@ -29,9 +28,11 @@ export default function Home() {
             <h1 className="display d1" style={{ marginTop: 18 }}>
               Sahada ne<br />gerekiyorsa<br />stokta.
             </h1>
-            <p className="lede" style={{ marginTop: 24, maxWidth: 440 }}>
-              {allProducts.length} ürün, ölçü ve teknik özellikleriyle listeli.
-              Seçin, sepete atın, kartla ödeyin — telefon beklemeden.
+            <p className="lede" style={{ marginTop: 24, maxWidth: 470 }}>
+              Trafik konisi, delinatör, hız kesici kasis, uyarı levhası, güvenlik
+              bariyeri ve yol işaretleme ekipmanları. Belediyeler, şantiyeler,
+              otoparklar ve sanayi tesisleri için {allProducts.length} ürün —
+              ölçü, malzeme ve teknik özellikleriyle listeli.
             </p>
             <div style={{ marginTop: 30, display: "flex", flexWrap: "wrap", gap: 12 }}>
               <Link href="/urunler" className="btn btn-solid">Katalogu aç</Link>
@@ -39,21 +40,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gridTemplateRows: "auto auto", gap: 10 }}>
-            {(hero as {img:string;ad:string;kat:string}[]).map((h, i) => (
-              <div key={h.img} className="tile"
-                   style={{ gridColumn: i === 0 ? "span 2" : "span 1",
-                            aspectRatio: i === 0 ? "16/10" : "1/1",
-                            border: "1px solid var(--hair)" }}>
-                <Image src={h.img} alt={h.ad} fill unoptimized priority={i === 0}
-                       sizes="(max-width:900px) 100vw, 40vw"
-                       style={{ objectFit: "contain", padding: "7%" }} />
-                <span className="eyebrow" style={{ position: "absolute", left: 12, bottom: 10, color: "var(--dim)" }}>
-                  {h.kat}
-                </span>
-              </div>
-            ))}
-          </div>
+          <HeroMozaik />
         </div>
 
         <div className="rule" style={{ marginTop: 44 }} />
