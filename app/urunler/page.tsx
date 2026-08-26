@@ -1,11 +1,13 @@
-import Link from "next/link";
-import { allProducts, categories, categorySlug } from "@/lib/products";
-import ProductCard from "@/components/ProductCard";
+import { allProducts, categories } from "@/lib/products";
 import CategoryCard from "@/components/CategoryCard";
+import ProductFilters from "@/components/ProductFilters";
 import kapaklar from "@/data/kategori_kapak.json";
 const KAPAK = kapaklar as Record<string, { img: string; w: number; adet: number }>;
 
-export const metadata = { title: "Tüm Katalog | CV Sepeti" };
+export const metadata = {
+  title: "Tüm Katalog | CV Sepeti",
+  description: "Trafik güvenliği, yol işaretleme ve iş güvenliği ekipmanları. Ölçü, malzeme ve reflektif tipine göre filtreleyin.",
+};
 
 export default function Urunler() {
   const sayilar = categories
@@ -21,16 +23,12 @@ export default function Urunler() {
       </p>
 
       <div className="rule" style={{ margin: "34px 0 30px" }} />
-
-      <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill,minmax(215px,1fr))", gap: "36px 26px", marginBottom: 70 }}>
+      <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill,minmax(200px,1fr))", gap: "34px 24px", marginBottom: 66 }}>
         {sayilar.map(({ c, n }) => <CategoryCard key={c} kategori={c} adet={n} gorsel={KAPAK[c]?.img} />)}
       </div>
 
-      <div className="band" style={{ marginBottom: 44 }} />
-      <h2 className="display d3" style={{ marginBottom: 26 }}>Bütün ürünler</h2>
-      <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill,minmax(215px,1fr))", gap: "44px 26px" }}>
-        {allProducts.map((p) => <ProductCard key={p.id} product={p} />)}
-      </div>
+      <div className="band" style={{ marginBottom: 40 }} />
+      <ProductFilters urunler={allProducts} baslik="Tüm ürünler" />
     </main>
   );
 }

@@ -22,6 +22,11 @@ export type Product = {
   seri: string;
   varyant: string;
   agirlik_kg: number;
+  f_boy: string;
+  f_malzeme: string;
+  f_reflektif: string;
+  f_taban: string;
+  f_seri: string;
   tedarikci: string;
 };
 

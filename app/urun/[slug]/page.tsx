@@ -4,6 +4,7 @@ import { allProducts, getProduct, categorySlug, formatPrice } from "@/lib/produc
 import AddToCart from "@/components/AddToCart";
 import ProductGallery from "@/components/ProductGallery";
 import ProductCard from "@/components/ProductCard";
+import StickyBuyBar from "@/components/StickyBuyBar";
 
 export function generateStaticParams() {
   return allProducts.map((p) => ({ slug: p.slug }));
@@ -36,7 +37,7 @@ export default async function Urun({ params }: { params: Promise<{ slug: string 
   const benzer = allProducts.filter(x => x.category === p.category && x.slug !== p.slug).slice(0, 4);
 
   return (
-    <main style={{ maxWidth: 1440, margin: "0 auto", padding: "32px 24px" }}>
+    <main style={{ maxWidth: 1440, margin: "0 auto", padding: "32px 24px 110px" }}>
       <nav className="eyebrow" style={{ color: "var(--muted)", marginBottom: 26 }}>
         <Link href="/" style={{ color: "inherit", textDecoration: "none" }}>Ana sayfa</Link>
         {" / "}
@@ -93,6 +94,8 @@ export default async function Urun({ params }: { params: Promise<{ slug: string 
           </div>
         </section>
       )}
+
+      <StickyBuyBar product={p} />
 
       <style>{`@media (max-width:820px){.urun-grid{grid-template-columns:1fr!important;gap:28px!important}}`}</style>
     </main>
