@@ -7,7 +7,8 @@ import { toplamDesi, kargoUcreti } from "./kargo";
 export type CartItem = {
   slug: string;
   name: string;
-  price: number;
+  price: number;        // KDV hariç
+  price_kdv: number;    // KDV dahil
   image: string;
   qty: number;
   stock: number;
@@ -24,7 +25,9 @@ type CartState = {
   remove: (slug: string) => void;
   setQty: (slug: string, qty: number) => void;
   clear: () => void;
-  total: () => number;
+  total: () => number;        // KDV hariç ara toplam
+  totalKdv: () => number;     // KDV dahil ara toplam
+  kdvTutar: () => number;
   count: () => number;
   kargoDesi: () => number;
   kargo: () => number;
@@ -64,6 +67,9 @@ export const useCart = create<CartState>()(
       clear: () => set({ items: [] }),
       total: () =>
         get().items.reduce((sum, i) => sum + i.price * i.qty, 0),
+      totalKdv: () =>
+        get().items.reduce((sum, i) => sum + (i.price_kdv ?? i.price * 1.2) * i.qty, 0),
+      kdvTutar: () => get().totalKdv() - get().total(),
       count: () => get().items.reduce((sum, i) => sum + i.qty, 0),
       kargoDesi: () =>
         toplamDesi(
@@ -75,7 +81,7 @@ export const useCart = create<CartState>()(
           }))
         ),
       kargo: () => kargoUcreti(get().kargoDesi()),
-      genelToplam: () => get().total() + get().kargo(),
+      genelToplam: () => get().totalKdv() + get().kargo(),
     }),
     { name: "cvsepeti-cart" }
   )

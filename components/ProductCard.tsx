@@ -1,7 +1,8 @@
 "use client";
 import Link from "next/link";
 import Image from "next/image";
-import { Product, formatPrice } from "@/lib/products";
+import { Product } from "@/lib/products";
+import Fiyat from "@/components/Fiyat";
 
 export default function ProductCard({ product }: { product: Product }) {
   const img = product.images[0];
@@ -28,8 +29,8 @@ export default function ProductCard({ product }: { product: Product }) {
         <p className="name line-clamp-2" style={{ fontSize: 13.5, fontWeight: 600, lineHeight: 1.34 }}>
           {product.name}
         </p>
-        <span style={{ marginTop: "auto", paddingTop: 4, fontSize: 16, fontWeight: 900, letterSpacing: "-0.03em" }}>
-          {formatPrice(product.price)}
+        <span style={{ marginTop: "auto", paddingTop: 4 }}>
+          <Fiyat haric={product.price} dahil={product.price_kdv} boyut="kucuk" />
         </span>
       </div>
     </Link>

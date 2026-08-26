@@ -26,7 +26,7 @@ export default function AddToCart({ product }: { product: Product }) {
                background: ok ? "#128A4A" : undefined, borderColor: ok ? "#128A4A" : undefined }}
         disabled={product.stock <= 0}
         onClick={() => {
-          add({ slug: product.slug, name: product.name, price: product.price,
+          add({ slug: product.slug, name: product.name, price: product.price, price_kdv: product.price_kdv,
                 image: product.images[0] || "", stock: product.stock,
                 desi: product.desi, kategori: product.category,
                 olcu3: product.olcu3, geo: product.geo, agirlik_kg: product.agirlik_kg }, q);

@@ -1,6 +1,7 @@
 "use client";
 import { useEffect, useState } from "react";
-import { Product, formatPrice } from "@/lib/products";
+import { Product } from "@/lib/products";
+import Fiyat from "@/components/Fiyat";
 import { useCart } from "@/lib/cart";
 import { Check } from "lucide-react";
 
@@ -26,12 +27,12 @@ export default function StickyBuyBar({ product }: { product: Product }) {
                transition: "transform .28s cubic-bezier(.2,.7,.2,1)" }}>
       <div style={{ flex: 1, minWidth: 0 }}>
         <p className="eyebrow" style={{ color: "var(--dim)" }}>{product.kod}</p>
-        <p style={{ fontSize: 17, fontWeight: 900, letterSpacing: "-0.03em" }}>{formatPrice(product.price)}</p>
+        <Fiyat haric={product.price} dahil={product.price_kdv} boyut="kucuk" />
       </div>
       <button className="btn btn-solid" style={{ padding: "15px 22px", background: ok ? "#0B7A3B" : undefined, borderColor: ok ? "#0B7A3B" : undefined }}
         disabled={product.stock <= 0}
         onClick={() => {
-          add({ slug: product.slug, name: product.name, price: product.price,
+          add({ slug: product.slug, name: product.name, price: product.price, price_kdv: product.price_kdv,
                 image: product.images[0] || "", stock: product.stock,
                 desi: product.desi, kategori: product.category,
                 olcu3: product.olcu3, geo: product.geo, agirlik_kg: product.agirlik_kg }, 1);

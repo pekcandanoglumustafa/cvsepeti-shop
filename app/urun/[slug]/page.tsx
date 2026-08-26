@@ -6,6 +6,7 @@ import ProductGallery from "@/components/ProductGallery";
 import ProductCard from "@/components/ProductCard";
 import StickyBuyBar from "@/components/StickyBuyBar";
 import KargoBilgi from "@/components/KargoBilgi";
+import Fiyat from "@/components/Fiyat";
 
 export function generateStaticParams() {
   return allProducts.map((p) => ({ slug: p.slug }));
@@ -52,9 +53,9 @@ export default async function Urun({ params }: { params: Promise<{ slug: string 
           <p className="eyebrow" style={{ color: "var(--hi)" }}>{p.kod}</p>
           <h1 className="display" style={{ fontSize: "clamp(26px,3.6vw,46px)", marginTop: 10 }}>{p.name}</h1>
 
-          <div style={{ margin: "26px 0 22px", display: "flex", alignItems: "baseline", gap: 12, flexWrap: "wrap" }}>
-            <span className="display" style={{ fontSize: 42 }}>{formatPrice(p.price)}</span>
-            <span className="label" style={{ color: "var(--muted)" }}>KDV dahil · kargo hariç</span>
+          <div style={{ margin: "26px 0 22px" }}>
+            <Fiyat haric={p.price} dahil={p.price_kdv} boyut="buyuk" />
+            <p className="label" style={{ color: "var(--dim)", marginTop: 8 }}>Kargo hariç</p>
           </div>
 
           <div className="band-thin" style={{ marginBottom: 22 }} />

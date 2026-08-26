@@ -44,7 +44,7 @@ export default function Footer() {
           <div style={{ marginTop: 44, paddingTop: 22, borderTop: "1px solid #1F1F1F",
                         display: "flex", flexWrap: "wrap", gap: 14, justifyContent: "space-between" }}>
             <p style={{ fontSize: 12, color: "#6B6B68" }}>© 2026 CV Sepeti</p>
-            <p style={{ fontSize: 12, color: "#6B6B68" }}>iyzico ile güvenli ödeme</p>
+            <p style={{ fontSize: 12, color: "#6B6B68" }}>Fiyatlar KDV hariçtir · KDV %20 · iyzico ile güvenli ödeme</p>
           </div>
         </div>
       </div>

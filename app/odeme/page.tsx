@@ -14,7 +14,7 @@ type FaturaTipi = "bireysel" | "kurumsal";
 type KargoOdeme = "pesin" | "karsi";
 
 export default function Odeme() {
-  const { items, total, kargoDesi, kargo } = useCart();
+  const { items, total, totalKdv, kdvTutar, kargoDesi, kargo } = useCart();
   const router = useRouter();
   const [mounted, setMounted] = useState(false);
   const [loading, setLoading] = useState(false);
@@ -39,7 +39,7 @@ export default function Odeme() {
   const desi = kargoDesi();
   const kargoTutar = kargo();
   const kargoOdenecek = kargoOdeme === "pesin" ? kargoTutar : 0;
-  const toplam = total() + kargoOdenecek;
+  const toplam = totalKdv() + kargoOdenecek;
 
   const hatalar = useMemo(() => {
     const h: Record<string, string> = {};
@@ -254,7 +254,9 @@ export default function Odeme() {
                   </div>
                   <div style={{ flex: 1, minWidth: 0 }}>
                     <p style={{ fontSize: 12.5, fontWeight: 600, lineHeight: 1.35 }} className="line-clamp-2">{i.name}</p>
-                    <p style={{ fontSize: 12.5, fontWeight: 800, marginTop: 3 }}>{formatPrice(i.price * i.qty)}</p>
+                    <p style={{ fontSize: 12.5, fontWeight: 800, marginTop: 3 }}>
+                      {formatPrice(i.price * i.qty)} <span style={{ fontSize: 10, color: "var(--muted)", fontWeight: 600 }}>+KDV</span>
+                    </p>
                   </div>
                 </div>
               ))}
@@ -262,7 +264,8 @@ export default function Odeme() {
           </div>
 
           <div style={{ padding: "18px 20px 20px" }}>
-            <Satir k="Ara toplam" v={formatPrice(total())} />
+            <Satir k="Ara toplam (KDV hariç)" v={formatPrice(total())} />
+            <Satir k="KDV %20" v={formatPrice(kdvTutar())} />
             <Satir k={desi > 0 ? `Kargo · ${desi} desi` : "Kargo"}
                    v={kargoOdeme === "karsi" ? "Kuryeye ödenecek" : (desi > 0 ? formatPrice(kargoTutar) : "Ücretsiz")}
                    vurgu={kargoOdeme === "karsi"} />

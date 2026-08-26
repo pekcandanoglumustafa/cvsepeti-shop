@@ -39,7 +39,7 @@ export async function POST(req: NextRequest) {
       name: p.name.slice(0, 120),
       category1: p.category.slice(0, 60),
       itemType: "PHYSICAL",
-      price: (Math.round(p.price * adet * 100) / 100).toFixed(2),
+      price: (Math.round((p.price_kdv ?? p.price * 1.2) * adet * 100) / 100).toFixed(2),
     }));
 
     // ---- KARGO da sunucuda hesaplanır ----

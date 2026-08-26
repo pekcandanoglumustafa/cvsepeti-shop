@@ -6,6 +6,8 @@ export type Product = {
   name: string;
   category: string;
   price: number;
+  price_kdv: number;
+  kdv_orani: number;
   originalPrice?: number; // liste fiyatı (varsa indirim rozeti gösterilir)
   description: string;
   stock: number;
@@ -76,3 +78,7 @@ export const cleanDescription = (name: string, desc: string) => {
   }
   return d.replace(/^[-–—:\s]+/, "");
 };
+
+/** KDV hariç büyük, KDV dahil küçük gösterim için */
+export const KDV_ORANI = 0.20;
+export const kdvDahil = (haricFiyat: number) => haricFiyat * (1 + KDV_ORANI);

@@ -7,7 +7,7 @@ import { useCart } from "@/lib/cart";
 import { formatTL, TABAN_UCRET, TABAN_DESI } from "@/lib/kargo";
 
 export default function Sepet() {
-  const { items, remove, setQty, total, kargoDesi, kargo, genelToplam } = useCart();
+  const { items, remove, setQty, total, totalKdv, kdvTutar, kargoDesi, kargo, genelToplam } = useCart();
   const [m, setM] = useState(false);
   useEffect(() => setM(true), []);
   if (!m) return <main style={{ minHeight: 400 }} />;
@@ -46,7 +46,10 @@ export default function Sepet() {
                     <button onClick={() => setQty(i.slug, i.qty + 1)} aria-label="artır"
                             style={{ padding: 9, background: "none", border: "none", cursor: "pointer", display: "flex" }}><Plus size={14} /></button>
                   </div>
-                  <span style={{ fontWeight: 900, color: "var(--hi)" }}>{formatTL(i.price * i.qty)}</span>
+                  <span style={{ display: "flex", flexDirection: "column" }}>
+                    <span style={{ fontWeight: 900 }}>{formatTL(i.price * i.qty)} <span style={{ fontSize: 10, color: "var(--muted)" }}>+KDV</span></span>
+                    <span style={{ fontSize: 11, color: "var(--dim)" }}>KDV dahil {formatTL((i.price_kdv ?? i.price * 1.2) * i.qty)}</span>
+                  </span>
                   <button onClick={() => remove(i.slug)} aria-label="kaldır"
                           style={{ marginLeft: "auto", background: "none", border: "none", cursor: "pointer", color: "var(--muted)", display: "flex" }}>
                     <Trash2 size={16} />
@@ -59,8 +62,9 @@ export default function Sepet() {
 
         <aside style={{ border: "2px solid var(--ink)", padding: 22, position: "sticky", top: 90 }}>
           <p className="eyebrow" style={{ marginBottom: 16 }}>Özet</p>
-          <Row k="Ara toplam" v={formatTL(total())} />
-          <Row k={`Kargo · ${desi} desi`} v={formatTL(kargo())} />
+          <Row k="Ara toplam (KDV hariç)" v={formatTL(total())} />
+          <Row k="KDV %20" v={formatTL(kdvTutar())} />
+          <Row k={desi > 0 ? `Kargo · ${desi} desi` : "Kargo"} v={desi > 0 ? formatTL(kargo()) : "Ücretsiz"} />
           <div className="band-thin" style={{ margin: "14px 0" }} />
           <div style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline" }}>
             <span className="label">Toplam</span>
