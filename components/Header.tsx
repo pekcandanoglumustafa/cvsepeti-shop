@@ -14,9 +14,9 @@ export default function Header() {
   return (
     <header style={{ position: "sticky", top: 0, zIndex: 50, background: "var(--paper)" }}>
       <div style={{ borderBottom: "1px solid var(--line)" }}>
-        <div style={{ maxWidth: 1360, margin: "0 auto", padding: "0 20px", height: 68,
+        <div style={{ maxWidth: 1360, margin: "0 auto", padding: "0 20px", height: 74,
                       display: "flex", alignItems: "center", justifyContent: "space-between", gap: 24 }}>
-          <Link href="/" className="display" style={{ fontSize: 24, textDecoration: "none", color: "var(--ink)" }}>
+          <Link href="/" className="display" style={{ fontSize: 25, textDecoration: "none", color: "var(--ink)", letterSpacing: "-0.045em" }}>
             CV Sepeti
           </Link>
 

@@ -36,14 +36,14 @@ export default async function Urun({ params }: { params: Promise<{ slug: string 
   const benzer = allProducts.filter(x => x.category === p.category && x.slug !== p.slug).slice(0, 4);
 
   return (
-    <main style={{ maxWidth: 1360, margin: "0 auto", padding: "28px 20px" }}>
+    <main style={{ maxWidth: 1440, margin: "0 auto", padding: "32px 24px" }}>
       <nav className="eyebrow" style={{ color: "var(--muted)", marginBottom: 26 }}>
         <Link href="/" style={{ color: "inherit", textDecoration: "none" }}>Ana sayfa</Link>
         {" / "}
         <Link href={`/kategori/${categorySlug(p.category)}`} style={{ color: "inherit", textDecoration: "none" }}>{p.category}</Link>
       </nav>
 
-      <div className="urun-grid" style={{ display: "grid", gridTemplateColumns: "1.05fr 1fr", gap: 56, alignItems: "start" }}>
+      <div className="urun-grid" style={{ display: "grid", gridTemplateColumns: "1.05fr 1fr", gap: 64, alignItems: "start" }}>
         <ProductGallery images={p.images} name={p.name} />
 
         <div>
@@ -51,7 +51,7 @@ export default async function Urun({ params }: { params: Promise<{ slug: string 
           <h1 className="display" style={{ fontSize: "clamp(26px,3.6vw,46px)", marginTop: 10 }}>{p.name}</h1>
 
           <div style={{ margin: "26px 0 22px", display: "flex", alignItems: "baseline", gap: 12, flexWrap: "wrap" }}>
-            <span className="display" style={{ fontSize: 40, color: "var(--hi)" }}>{formatPrice(p.price)}</span>
+            <span className="display" style={{ fontSize: 42 }}>{formatPrice(p.price)}</span>
             <span className="label" style={{ color: "var(--muted)" }}>KDV dahil · kargo hariç</span>
           </div>
 

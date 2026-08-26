@@ -1,26 +1,34 @@
 import Link from "next/link";
 import { allProducts, categories, categorySlug } from "@/lib/products";
 import ProductCard from "@/components/ProductCard";
+import CategoryCard from "@/components/CategoryCard";
+import kapaklar from "@/data/kategori_kapak.json";
+const KAPAK = kapaklar as Record<string, { img: string; w: number; adet: number }>;
 
 export const metadata = { title: "Tüm Katalog | CV Sepeti" };
 
 export default function Urunler() {
-  return (
-    <main style={{ maxWidth: 1360, margin: "0 auto", padding: "48px 20px 40px" }}>
-      <p className="eyebrow" style={{ color: "var(--hi)", marginBottom: 14 }}>Katalog</p>
-      <h1 className="display" style={{ fontSize: "clamp(36px,7vw,84px)" }}>Tüm ürünler</h1>
-      <p className="label" style={{ color: "var(--muted)", marginTop: 12 }}>{allProducts.length} ürün · {categories.length} kategori</p>
+  const sayilar = categories
+    .map((c) => ({ c, n: allProducts.filter((p) => p.category === c).length }))
+    .sort((a, b) => b.n - a.n);
 
-      <div style={{ display: "flex", gap: 8, flexWrap: "wrap", margin: "28px 0 34px" }}>
-        {categories.map((c) => (
-          <Link key={c} href={`/kategori/${categorySlug(c)}`} className="label"
-            style={{ padding: "9px 14px", border: "1px solid var(--line)", color: "var(--ink)", textDecoration: "none" }}>
-            {c}
-          </Link>
-        ))}
+  return (
+    <main style={{ maxWidth: 1440, margin: "0 auto", padding: "48px 24px 40px" }}>
+      <p className="eyebrow" style={{ color: "var(--hi)" }}>Katalog</p>
+      <h1 className="display d2" style={{ marginTop: 16 }}>Tüm ürünler</h1>
+      <p className="label" style={{ color: "var(--dim)", marginTop: 14 }}>
+        {allProducts.length} ürün · {categories.length} kategori
+      </p>
+
+      <div className="rule" style={{ margin: "34px 0 30px" }} />
+
+      <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill,minmax(215px,1fr))", gap: "36px 26px", marginBottom: 70 }}>
+        {sayilar.map(({ c, n }) => <CategoryCard key={c} kategori={c} adet={n} gorsel={KAPAK[c]?.img} />)}
       </div>
 
-      <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill,minmax(210px,1fr))", gap: 26 }}>
+      <div className="band" style={{ marginBottom: 44 }} />
+      <h2 className="display d3" style={{ marginBottom: 26 }}>Bütün ürünler</h2>
+      <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill,minmax(215px,1fr))", gap: "44px 26px" }}>
         {allProducts.map((p) => <ProductCard key={p.id} product={p} />)}
       </div>
     </main>

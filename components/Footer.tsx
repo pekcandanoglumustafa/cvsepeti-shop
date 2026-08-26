@@ -15,7 +15,7 @@ export default function Footer() {
               </p>
             </div>
             <div>
-              <p className="eyebrow" style={{ color: "var(--hivis)", marginBottom: 14 }}>Katalog</p>
+              <p className="eyebrow" style={{ color: "var(--hi)", marginBottom: 14 }}>Katalog</p>
               <div style={{ display: "flex", flexDirection: "column", gap: 9 }}>
                 {categories.slice(0, 9).map((c) => (
                   <Link key={c} href={`/kategori/${categorySlug(c)}`}
@@ -24,7 +24,7 @@ export default function Footer() {
               </div>
             </div>
             <div>
-              <p className="eyebrow" style={{ color: "var(--hivis)", marginBottom: 14 }}>Sipariş</p>
+              <p className="eyebrow" style={{ color: "var(--hi)", marginBottom: 14 }}>Sipariş</p>
               <div style={{ display: "flex", flexDirection: "column", gap: 9 }}>
                 <Link href="/urunler" style={{ fontSize: 13, color: "#C9C9C6", textDecoration: "none" }}>
                   Tüm Ürünler ({allProducts.length})
@@ -35,13 +35,13 @@ export default function Footer() {
               </div>
             </div>
             <div>
-              <p className="eyebrow" style={{ color: "var(--hivis)", marginBottom: 14 }}>Kargo</p>
+              <p className="eyebrow" style={{ color: "var(--hi)", marginBottom: 14 }}>Kargo</p>
               <p style={{ fontSize: 13, color: "#9C9C99", lineHeight: 1.7 }}>
                 Yurtiçi Kargo ile gönderim.<br />Kargo ücreti desi üzerinden ödeme adımında hesaplanır.
               </p>
             </div>
           </div>
-          <div style={{ marginTop: 44, paddingTop: 22, borderTop: "1px solid #262626",
+          <div style={{ marginTop: 44, paddingTop: 22, borderTop: "1px solid #1F1F1F",
                         display: "flex", flexWrap: "wrap", gap: 14, justifyContent: "space-between" }}>
             <p style={{ fontSize: 12, color: "#6B6B68" }}>© 2026 CV Sepeti</p>
             <p style={{ fontSize: 12, color: "#6B6B68" }}>iyzico ile güvenli ödeme</p>
