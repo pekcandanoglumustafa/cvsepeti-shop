@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Logo from "@/components/Logo";
 import { categories, categorySlug, allProducts } from "@/lib/products";
 
 export default function Footer() {
@@ -9,7 +10,7 @@ export default function Footer() {
         <div style={{ maxWidth: 1360, margin: "0 auto", padding: "56px 20px 32px" }}>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit,minmax(190px,1fr))", gap: 40 }}>
             <div>
-              <p className="display" style={{ fontSize: 30, marginBottom: 14 }}>CV Sepeti</p>
+              <div style={{ marginBottom: 14 }}><Logo color="#fff" /></div>
               <p style={{ fontSize: 13, color: "#9C9C99", lineHeight: 1.6, maxWidth: 260 }}>
                 Trafik güvenliği, yol işaretleme ve iş güvenliği ekipmanları. Konya Teknokent.
               </p>
@@ -30,6 +31,7 @@ export default function Footer() {
                   Tüm Ürünler ({allProducts.length})
                 </Link>
                 <Link href="/sepet" style={{ fontSize: 13, color: "#C9C9C6", textDecoration: "none" }}>Sepet</Link>
+                <Link href="/blog" style={{ fontSize: 13, color: "#C9C9C6", textDecoration: "none" }}>Rehberler</Link>
                 <a href="tel:05076584245" style={{ fontSize: 13, color: "#C9C9C6", textDecoration: "none" }}>0 507 658 42 45</a>
                 <a href="https://wa.me/905076584245" style={{ fontSize: 13, color: "#7E7E7B", textDecoration: "none" }}>WhatsApp (teknik soru)</a>
               </div>
@@ -43,7 +45,7 @@ export default function Footer() {
           </div>
           <div style={{ marginTop: 44, paddingTop: 22, borderTop: "1px solid #1F1F1F",
                         display: "flex", flexWrap: "wrap", gap: 14, justifyContent: "space-between" }}>
-            <p style={{ fontSize: 12, color: "#6B6B68" }}>© 2026 CV Sepeti</p>
+            <p style={{ fontSize: 12, color: "#6B6B68" }}>© 2026 Trafik Ürünleri · Pekcandanoğlu</p>
             <p style={{ fontSize: 12, color: "#6B6B68" }}>Fiyatlar KDV hariçtir · KDV %20 · iyzico ile güvenli ödeme</p>
           </div>
         </div>

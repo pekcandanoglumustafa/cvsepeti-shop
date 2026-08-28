@@ -1,5 +1,6 @@
 "use client";
 import Link from "next/link";
+import Logo from "@/components/Logo";
 import { useEffect, useState } from "react";
 import { Menu, X, ShoppingBag } from "lucide-react";
 import { categories, categorySlug } from "@/lib/products";
@@ -16,8 +17,8 @@ export default function Header() {
       <div style={{ borderBottom: "1px solid var(--line)" }}>
         <div style={{ maxWidth: 1360, margin: "0 auto", padding: "0 20px", height: 74,
                       display: "flex", alignItems: "center", justifyContent: "space-between", gap: 24 }}>
-          <Link href="/" className="display" style={{ fontSize: 25, textDecoration: "none", color: "var(--ink)", letterSpacing: "-0.045em" }}>
-            CV Sepeti
+          <Link href="/" style={{ textDecoration: "none" }} aria-label="Trafik Ürünleri ana sayfa">
+            <Logo />
           </Link>
 
           <nav className="hidden lg:flex" style={{ gap: 26 }}>
@@ -27,6 +28,9 @@ export default function Header() {
             ))}
             <Link href="/urunler" className="label" style={{ color: "var(--ink)", textDecoration: "none" }}>
               Tüm Katalog
+            </Link>
+            <Link href="/blog" className="label" style={{ color: "var(--muted)", textDecoration: "none" }}>
+              Rehberler
             </Link>
           </nav>
 

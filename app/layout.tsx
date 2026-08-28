@@ -4,107 +4,98 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import FloatingContact from "@/components/FloatingContact";
 import CartToast from "@/components/CartToast";
+import { allProducts, categories } from "@/lib/products";
 
-const BASE = "https://www.cvsepeti.org";
+const BASE = "https://www.trafikurunleri.com";
+const MARKA = "Trafik Ürünleri";
 
 export const metadata: Metadata = {
   metadataBase: new URL(BASE),
   title: {
-    default: "CV Sepeti | Trafik Güvenliği, Yalıtım ve İş Güvenliği Ürünleri",
-    template: "%s | CV Sepeti",
+    default: `${MARKA} — Trafik Konisi, Delinatör, Uyarı Levhası ve Yol Güvenliği Ekipmanları`,
+    template: `%s | ${MARKA}`,
   },
   description:
-    "Trafik konisi, delinatör, uyarı levhası, su yalıtım membranı ve iş güvenliği ekipmanları. 246+ ürün, CE & TSE belgeli, hızlı kargo. Konya Teknokent firması.",
+    `Trafik konisi, delinatör, hız kesici kasis, uyarı levhası, güvenlik bariyeri ve yol işaretleme ürünleri. ${allProducts.length} ürün ölçü ve teknik özellikleriyle listeli. Konya'dan Türkiye geneline Yurtiçi Kargo ile gönderim.`,
   keywords: [
-    "trafik konisi", "delinatör", "trafik levhası", "uyarı levhası",
-    "su yalıtım membranı", "trafik dubası", "kasis", "yol butonu",
-    "iş güvenliği ekipmanları", "güvenlik aynası", "araç stoperi",
-    "trafik güvenliği ürünleri", "trafik malzemeleri", "konya",
+    "trafik konisi", "delinatör", "trafik ürünleri", "yol güvenliği ekipmanları",
+    "hız kesici kasis", "uyarı levhası", "güvenlik bariyeri", "araç stoperi",
+    "şerit ayırıcı", "yol butonu", "refüj dubası", "trafik levhası", "kolon köşe koruyucu",
   ],
-  authors: [{ name: "CV Sepeti" }],
-  creator: "CV Sepeti",
-  publisher: "CV Sepeti",
-  alternates: { canonical: BASE },
+  authors: [{ name: MARKA }],
+  creator: MARKA,
+  publisher: MARKA,
+  alternates: { canonical: "/" },
   openGraph: {
     type: "website",
     locale: "tr_TR",
     url: BASE,
-    siteName: "CV Sepeti",
-    title: "CV Sepeti | Trafik Güvenliği ve Yalıtım Ürünleri",
-    description: "Trafik konisi, delinatör, uyarı levhası, membran ve iş güvenliği ekipmanları. CE & TSE belgeli, hızlı kargo.",
+    siteName: MARKA,
+    title: `${MARKA} — Yol ve Trafik Güvenliği Ekipmanları`,
+    description: `${allProducts.length} ürün, ${categories.length} kategori. Trafik konisi, delinatör, kasis, levha ve bariyer. Ölçü ve teknik özellikleriyle listeli.`,
+    images: [{ url: "/marka/og.png", width: 1200, height: 630, alt: MARKA }],
   },
-  twitter: {
-    card: "summary_large_image",
-    title: "CV Sepeti | Trafik Güvenliği ve Yalıtım Ürünleri",
-    description: "246+ trafik güvenliği ve yalıtım ürünü. Hızlı kargo, kurumsal fatura.",
-  },
+  twitter: { card: "summary_large_image", title: MARKA, description: "Yol ve trafik güvenliği ekipmanları" },
   robots: {
-    index: true,
-    follow: true,
-    googleBot: {
-      index: true,
-      follow: true,
-      "max-video-preview": -1,
-      "max-image-preview": "large",
-      "max-snippet": -1,
-    },
+    index: true, follow: true,
+    googleBot: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1, "max-video-preview": -1 },
   },
-  verification: {
-    // Google Search Console doğrulama kodu buraya gelecek
-    // google: "VERIFICATION_CODE",
-  },
+  category: "shopping",
 };
 
-const orgSchema = {
+/** Organization + WebSite + LocalBusiness — Google AI Overviews bunları okuyor */
+const kurumSema = {
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "OnlineStore",
-      "@id": `${BASE}/#organization`,
-      name: "CV Sepeti",
+      "@type": "Organization",
+      "@id": `${BASE}/#kurulus`,
+      name: MARKA,
+      legalName: "Pekcandanoğlu",
       url: BASE,
-      telephone: "+905076584245",
-      email: "info@cvsepeti.org",
-      address: {
-        "@type": "PostalAddress",
-        streetAddress: "Akademi Mah. Gürbulut Sk. Teknokent No:67",
-        addressLocality: "Selçuklu",
-        addressRegion: "Konya",
-        postalCode: "42130",
-        addressCountry: "TR",
+      logo: { "@type": "ImageObject", url: `${BASE}/marka/logo.svg` },
+      description: "Trafik güvenliği, yol işaretleme ve iş güvenliği ekipmanları tedarikçisi. Kamu kurumlarına ve özel sektöre satış.",
+      address: { "@type": "PostalAddress", addressLocality: "Konya", addressCountry: "TR" },
+      contactPoint: {
+        "@type": "ContactPoint", telephone: "+90-507-658-42-45",
+        contactType: "sales", areaServed: "TR", availableLanguage: ["Turkish"],
       },
-      sameAs: ["https://www.instagram.com/cvsepetii"],
+      knowsAbout: [
+        "trafik konisi", "delinatör", "yol işaretleme", "hız kesici kasis",
+        "trafik uyarı levhası", "güvenlik bariyeri", "iş güvenliği ekipmanları",
+      ],
     },
     {
       "@type": "WebSite",
-      "@id": `${BASE}/#website`,
-      url: BASE,
-      name: "CV Sepeti",
-      publisher: { "@id": `${BASE}/#organization` },
+      "@id": `${BASE}/#site`,
+      url: BASE, name: MARKA, inLanguage: "tr-TR",
+      publisher: { "@id": `${BASE}/#kurulus` },
       potentialAction: {
         "@type": "SearchAction",
-        target: { "@type": "EntryPoint", urlTemplate: `${BASE}/ara?q={search_term_string}` },
+        target: { "@type": "EntryPoint", urlTemplate: `${BASE}/urunler?q={search_term_string}` },
         "query-input": "required name=search_term_string",
       },
-      inLanguage: "tr-TR",
+    },
+    {
+      "@type": "OnlineStore",
+      "@id": `${BASE}/#magaza`,
+      name: MARKA, url: BASE,
+      parentOrganization: { "@id": `${BASE}/#kurulus` },
+      currenciesAccepted: "TRY",
+      paymentAccepted: "Kredi Kartı, Banka Kartı, Havale/EFT",
+      areaServed: { "@type": "Country", name: "Türkiye" },
     },
   ],
 };
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="tr">
       <head>
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(orgSchema) }}
-        />
+        <script type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(kurumSema) }} />
       </head>
-      <body className="antialiased">
+      <body>
         <Header />
         {children}
         <Footer />

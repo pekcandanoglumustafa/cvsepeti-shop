@@ -7,6 +7,8 @@ import ProductCard from "@/components/ProductCard";
 import StickyBuyBar from "@/components/StickyBuyBar";
 import KargoBilgi from "@/components/KargoBilgi";
 import Fiyat from "@/components/Fiyat";
+import UrunSema from "@/components/UrunSema";
+import { urunSSS } from "@/lib/sss";
 
 export function generateStaticParams() {
   return allProducts.map((p) => ({ slug: p.slug }));
@@ -14,8 +16,19 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   const p = getProduct(slug);
-  return { title: p ? `${p.name} | CV Sepeti` : "Ürün | CV Sepeti",
-           description: p?.description?.slice(0, 155) };
+  if (!p) return { title: "Ürün" };
+  const ozet = [p.boyut, p.malzeme, p.f_reflektif].filter(Boolean).join(" · ");
+  return {
+    title: `${p.name}${ozet ? ` — ${ozet}` : ""}`,
+    description: `${p.name} (${p.kod}) ${new Intl.NumberFormat("tr-TR",{style:"currency",currency:"TRY",maximumFractionDigits:0}).format(p.price)} + KDV. ${ozet ? ozet + ". " : ""}Stokta, 1-2 iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.`,
+    alternates: { canonical: `/urun/${p.slug}` },
+    openGraph: {
+      title: p.name,
+      description: `${p.category} · ${ozet}`,
+      images: p.images[0] ? [{ url: p.images[0] }] : undefined,
+      type: "website",
+    },
+  };
 }
 
 export default async function Urun({ params }: { params: Promise<{ slug: string }> }) {
@@ -36,6 +49,7 @@ export default async function Urun({ params }: { params: Promise<{ slug: string 
     ["Kargo desisi", `${p.desi} desi`],
   ] as [string,string][]).filter(([, v]) => v);
 
+  const sorular = urunSSS(p);
   const benzer = allProducts.filter(x => x.category === p.category && x.slug !== p.slug).slice(0, 4);
 
   return (
@@ -100,6 +114,22 @@ export default async function Urun({ params }: { params: Promise<{ slug: string 
         </section>
       )}
 
+      {/* SIK SORULAN SORULAR — hem müşteri hem AI motorları için */}
+      <section style={{ marginTop: 72, maxWidth: 860 }}>
+        <h2 className="display d3" style={{ marginBottom: 8 }}>Sık sorulan sorular</h2>
+        <div className="rule" style={{ marginBottom: 4 }} />
+        {sorular.map((f) => (
+          <details key={f.s} style={{ borderBottom: "1px solid var(--hair)", padding: "16px 0" }}>
+            <summary style={{ cursor: "pointer", fontWeight: 700, fontSize: 15, listStyle: "none",
+                              display: "flex", justifyContent: "space-between", gap: 14 }}>
+              {f.s}<span style={{ color: "var(--dim)" }}>+</span>
+            </summary>
+            <p style={{ marginTop: 11, fontSize: 14, color: "var(--muted)", lineHeight: 1.7 }}>{f.c}</p>
+          </details>
+        ))}
+      </section>
+
+      <UrunSema p={p} kategoriSlug={categorySlug(p.category)} sss={sorular} />
       <StickyBuyBar product={p} />
 
       <style>{`@media (max-width:820px){.urun-grid{grid-template-columns:1fr!important;gap:28px!important}}`}</style>

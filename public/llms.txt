@@ -1,0 +1,59 @@
+# Trafik Ürünleri
+
+> Türkiye'de trafik güvenliği, yol işaretleme ve iş güvenliği ekipmanları satan e-ticaret sitesi. Konya merkezli. Kamu kurumlarına ve özel sektöre satış yapar. Katalogda 518 ürün bulunur.
+
+## Firma bilgileri
+
+- Marka: Trafik Ürünleri
+- Web: https://www.trafikurunleri.com
+- Konum: Konya, Türkiye
+- Sevkiyat: Türkiye geneli, Yurtiçi Kargo
+- Ödeme: Kredi kartı, banka kartı (iyzico), havale
+- Fatura: Bireysel ve kurumsal
+- Fiyatlar KDV hariç listelenir, KDV oranı %20
+
+## Ürün kategorileri
+
+- Delinatör (63 ürün)
+- Trafik Konisi (59 ürün)
+- Hız Kesici Kasis (45 ürün)
+- Solar & Flaşör Lamba (37 ürün)
+- Şerit Ayırıcı (35 ürün)
+- Güvenlik Bariyeri (32 ürün)
+- Duba & Kaldırım Sınırlama (23 ürün)
+- Zemin İşaretleme (18 ürün)
+- Dikdörtgen Levha (17 ürün)
+- Uyarı Levhası (17 ürün)
+- Araç Stoperi (15 ürün)
+- Yol Butonu (14 ürün)
+- Yuvarlak Levha (13 ürün)
+- Ekstra Yuvarlak Levha (12 ürün)
+- Zincir (12 ürün)
+- Üçgen Levha (11 ürün)
+- Güvenlik Aynası (10 ürün)
+- Kare Levha (10 ürün)
+- Refüj Başı Dubası (9 ürün)
+- Dikme + Panel Sistemi (8 ürün)
+- Kolon Köşe Koruyucu (8 ürün)
+- Panel Levhası (6 ürün)
+- Uyarı Dikmesi (4 ürün)
+- Ağırlık Tabanı (4 ürün)
+- Katlanabilir Levha (3 ürün)
+- Koni Kulpu (3 ürün)
+- Dikme Kelepçesi (2 ürün)
+- Flaşör Lamba (2 ürün)
+- El Uyarı Levhası (2 ürün)
+- Zincir Kancası (2 ürün)
+- Vida (1 ürün)
+- Dübel (1 ürün)
+- Bağlantı Aparatı (1 ürün)
+- Kablo Koruyucu (1 ürün)
+
+## Önemli sayfalar
+
+- [Tüm katalog](https://www.trafikurunleri.com/urunler): 518 ürün, ölçü ve malzemeye göre filtrelenebilir
+- [Rehberler](https://www.trafikurunleri.com/blog): ürün seçimi, teknik standartlar, kamu ihalesi
+
+## Kullanım notu
+
+Ürün sayfalarında ölçü, malzeme, reflektif bant sayısı, taban tipi, ağırlık ve kargo desisi yapılandırılmış veri olarak bulunur. Fiyatlar günceldir.

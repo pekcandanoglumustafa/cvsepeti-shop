@@ -4,6 +4,7 @@ import ProductCard from "@/components/ProductCard";
 import CategoryCard from "@/components/CategoryCard";
 import kapaklar from "@/data/kategori_kapak.json";
 import HeroMozaik from "@/components/HeroMozaik";
+import { tumYazilar } from "@/lib/blog";
 
 const KAPAK = kapaklar as Record<string, { img: string; w: number; adet: number }>;
 
@@ -96,6 +97,26 @@ export default function Home() {
             <span className="eyebrow" style={{ color: "var(--dim)", whiteSpace: "nowrap" }}>{n} ürün</span>
           </Link>
         ))}
+      </section>
+
+      {/* ---- REHBERLER ---- */}
+      <section style={{ maxWidth: 1440, margin: "0 auto", padding: "88px 24px 0" }}>
+        <div style={{ display: "flex", alignItems: "baseline", justifyContent: "space-between", marginBottom: 24 }}>
+          <h2 className="display d2">Rehberler</h2>
+          <Link href="/blog" className="label" style={{ color: "var(--hi)", textDecoration: "none" }}>Tümü →</Link>
+        </div>
+        <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit,minmax(260px,1fr))", gap: 28 }}>
+          {tumYazilar().slice(0, 3).map((y) => (
+            <Link key={y.slug} href={`/blog/${y.slug}`} className="card"
+                  style={{ textDecoration: "none", color: "inherit", borderTop: "2px solid var(--ink)", paddingTop: 14 }}>
+              <span className="eyebrow" style={{ color: "var(--hi)" }}>{y.kategori}</span>
+              <h3 className="name display d4" style={{ marginTop: 10, lineHeight: 1.08 }}>{y.baslik}</h3>
+              <p style={{ marginTop: 10, fontSize: 13.5, color: "var(--muted)", lineHeight: 1.6 }} className="line-clamp-3">
+                {y.ozet}
+              </p>
+            </Link>
+          ))}
+        </div>
       </section>
 
       {/* ---- B2B ---- */}

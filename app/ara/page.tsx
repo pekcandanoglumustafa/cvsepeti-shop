@@ -4,7 +4,7 @@ import ProductCard from "@/components/ProductCard";
 import { Search } from "lucide-react";
 
 export function generateMetadata({ searchParams }: { searchParams: Promise<{ q?: string }> }) {
-  return { title: "Arama | CV Sepeti" };
+  return { title: "Arama | Trafik Ürünleri" };
 }
 
 function normalize(s: string) {

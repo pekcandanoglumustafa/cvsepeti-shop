@@ -63,7 +63,7 @@ export async function POST(req: NextRequest) {
     const kurus = basketItems.reduce((s, b) => s + Math.round(parseFloat(b.price) * 100), 0);
     const priceStr = (kurus / 100).toFixed(2);
 
-    const conversationId = `cv-${Date.now()}`;
+    const conversationId = `tu-${Date.now()}`;
     const origin = req.nextUrl.origin;
     const clientIp = (req.headers.get("x-forwarded-for") || "85.34.78.112").split(",")[0].trim();
     const now = new Date().toISOString().slice(0, 19).replace("T", " ");

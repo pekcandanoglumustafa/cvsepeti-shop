@@ -5,7 +5,7 @@ import kapaklar from "@/data/kategori_kapak.json";
 const KAPAK = kapaklar as Record<string, { img: string; w: number; adet: number }>;
 
 export const metadata = {
-  title: "Tüm Katalog | CV Sepeti",
+  title: "Tüm Katalog | Trafik Ürünleri",
   description: "Trafik güvenliği, yol işaretleme ve iş güvenliği ekipmanları. Ölçü, malzeme ve reflektif tipine göre filtreleyin.",
 };
 
