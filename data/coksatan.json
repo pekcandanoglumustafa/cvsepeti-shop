@@ -30,9 +30,19 @@
   "ad": "45 cm Delinatör – ZT8045"
  },
  {
-  "slug": "metal-guvenlik-barikati-hxl-110x200-cm-12534-fb-st",
-  "kod": "12534 FB ST",
-  "ad": "Metal Güvenlik Barikatı - (hxl) 110x200 Cm – 12534 FB ST"
+  "slug": "kilitli-park-bariyeri-ztm01",
+  "kod": "ZTM01",
+  "ad": "Kilitli Park Bariyeri – ZTM01"
+ },
+ {
+  "slug": "kedi-gozlu-guvenlik-bariyeri-hxlxw-60x100x40-cm-12520-fb-r",
+  "kod": "12520 FB R",
+  "ad": "Kedi Gözlü Güvenlik Bariyeri - (hxlxw) 60x100x40 Cm – 12520 FB R"
+ },
+ {
+  "slug": "guvenlik-bariyeri-zt80150r",
+  "kod": "ZT80150R",
+  "ad": "Güvenlik Bariyeri – ZT80150R"
  },
  {
   "slug": "katlanir-uyari-levhali-bariyer-hxw-110x250-cm-12504-fb-r",
