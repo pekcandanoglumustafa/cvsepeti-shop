@@ -3,7 +3,7 @@ import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import FloatingContact from "@/components/FloatingContact";
-import CartToast from "@/components/CartToast";
+import CartDrawer from "@/components/CartDrawer";
 import { allProducts, categories } from "@/lib/products";
 
 const BASE = "https://www.trafikurunleri.com";
@@ -101,7 +101,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         {children}
         <Footer />
         <FloatingContact />
-        <CartToast />
+        <CartDrawer />
       </body>
     </html>
   );

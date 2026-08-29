@@ -35,8 +35,9 @@ export default function Header() {
           </nav>
 
           <div style={{ display: "flex", alignItems: "center", gap: 18 }}>
-            <Link href="/sepet" aria-label="Sepet"
-                  style={{ position: "relative", color: "var(--ink)", display: "flex" }}>
+            <button onClick={() => window.dispatchEvent(new CustomEvent("cart:open"))} aria-label="Sepet"
+                  style={{ position: "relative", color: "var(--ink)", display: "flex",
+                           background: "none", border: "none", cursor: "pointer", padding: 0 }}>
               <ShoppingBag size={20} strokeWidth={2.4} />
               {mounted && count > 0 && (
                 <span style={{ position: "absolute", top: -7, right: -9, background: "var(--hi)", color: "#fff",
@@ -45,7 +46,7 @@ export default function Header() {
                   {count}
                 </span>
               )}
-            </Link>
+            </button>
             <button className="lg:hidden" onClick={() => setOpen(!open)} aria-label="Menü"
                     style={{ background: "none", border: "none", color: "var(--ink)", cursor: "pointer", display: "flex" }}>
               {open ? <X size={22} /> : <Menu size={22} />}

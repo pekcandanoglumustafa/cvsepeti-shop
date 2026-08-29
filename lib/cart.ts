@@ -52,6 +52,10 @@ export const useCart = create<CartState>()(
         } else {
           set({ items: [...items, { ...item, qty }] });
         }
+        // sepet çekmecesini aç
+        if (typeof window !== "undefined") {
+          window.dispatchEvent(new CustomEvent("cart:added", { detail: { name: item.name } }));
+        }
       },
       remove: (slug) =>
         set({ items: get().items.filter((i) => i.slug !== slug) }),
