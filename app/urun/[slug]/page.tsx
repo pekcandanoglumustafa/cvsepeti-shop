@@ -6,6 +6,7 @@ import ProductGallery from "@/components/ProductGallery";
 import ProductCard from "@/components/ProductCard";
 import StickyBuyBar from "@/components/StickyBuyBar";
 import KargoBilgi from "@/components/KargoBilgi";
+import TeknikCizim from "@/components/TeknikCizim";
 import Fiyat from "@/components/Fiyat";
 import UrunSema from "@/components/UrunSema";
 import { urunSSS } from "@/lib/sss";
@@ -88,6 +89,10 @@ export default async function Urun({ params }: { params: Promise<{ slug: string 
 
           <div style={{ marginTop: 22 }}>
             <KargoBilgi product={p} />
+          </div>
+
+          <div style={{ marginTop: 22 }}>
+            <TeknikCizim p={p} />
           </div>
 
           {/* TEKNİK ÖZELLİKLER — asıl içerik bu */}
