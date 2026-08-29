@@ -14,7 +14,8 @@ type FaturaTipi = "bireysel" | "kurumsal";
 type KargoOdeme = "pesin" | "karsi";
 
 export default function Odeme() {
-  const { items, total, totalKdv, kdvTutar, kargoDesi, kargo } = useCart();
+  const { items, total, totalKdv, kdvTutar, kargoDesi, kargo,
+          kargoOdeme, setKargoOdeme } = useCart();
   const router = useRouter();
   const [mounted, setMounted] = useState(false);
   const [loading, setLoading] = useState(false);
@@ -23,7 +24,6 @@ export default function Odeme() {
   const [touched, setTouched] = useState<Record<string, boolean>>({});
 
   const [faturaTipi, setFaturaTipi] = useState<FaturaTipi>("bireysel");
-  const [kargoOdeme, setKargoOdeme] = useState<KargoOdeme>("pesin");
 
   const [f, setF] = useState({
     name: "", surname: "", email: "", phone: "", identityNumber: "",

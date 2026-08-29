@@ -7,7 +7,8 @@ import { useCart } from "@/lib/cart";
 import { formatTL, TABAN_UCRET, TABAN_DESI } from "@/lib/kargo";
 
 export default function Sepet() {
-  const { items, remove, setQty, total, totalKdv, kdvTutar, kargoDesi, kargo, genelToplam } = useCart();
+  const { items, remove, setQty, total, totalKdv, kdvTutar, kargoDesi, kargo, genelToplam,
+          kargoOdeme, setKargoOdeme } = useCart();
   const [m, setM] = useState(false);
   useEffect(() => setM(true), []);
   if (!m) return <main style={{ minHeight: 400 }} />;
@@ -64,7 +65,24 @@ export default function Sepet() {
           <p className="eyebrow" style={{ marginBottom: 16 }}>Özet</p>
           <Row k="Ara toplam (KDV hariç)" v={formatTL(total())} />
           <Row k="KDV %20" v={formatTL(kdvTutar())} />
-          <Row k={desi > 0 ? `Kargo · ${desi} desi` : "Kargo"} v={desi > 0 ? formatTL(kargo()) : "Ücretsiz"} />
+          <Row k={desi > 0 ? `Kargo · ${desi} desi` : "Kargo"}
+               v={desi === 0 ? "Ücretsiz" : kargoOdeme === "karsi" ? "Kuryeye ödenecek" : formatTL(kargo())} />
+
+          {desi > 0 && (
+            <div style={{ marginTop: 10, display: "grid", gap: 7 }}>
+              <p className="eyebrow" style={{ color: "var(--dim)" }}>Kargoyu nasıl ödersiniz</p>
+              {([["pesin", "Şimdi öde", `Kargo bedeli ${formatTL(kargo())} sipariş toplamına eklenir`],
+                 ["karsi", "Karşı ödemeli", "Kargoyu teslim alırken kuryeye ödersiniz"]] as const).map(([k, b, a]) => (
+                <button key={k} onClick={() => setKargoOdeme(k as any)} aria-pressed={kargoOdeme === k}
+                  style={{ padding: "12px 13px", cursor: "pointer", textAlign: "left",
+                           border: kargoOdeme === k ? "2px solid var(--ink)" : "1px solid var(--hair)",
+                           background: kargoOdeme === k ? "var(--tile)" : "#fff" }}>
+                  <span style={{ display: "block", fontSize: 13, fontWeight: 800 }}>{b}</span>
+                  <span style={{ display: "block", fontSize: 11.5, color: "var(--muted)", marginTop: 3, lineHeight: 1.5 }}>{a}</span>
+                </button>
+              ))}
+            </div>
+          )}
           <div className="band-thin" style={{ margin: "14px 0" }} />
           <div style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline" }}>
             <span className="label">Toplam</span>

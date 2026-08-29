@@ -8,7 +8,8 @@ import { formatTL, TABAN_UCRET, TABAN_DESI } from "@/lib/kargo";
 
 /** Sepete ekleyince sağdan açılan çekmece — standart e-ticaret davranışı */
 export default function CartDrawer() {
-  const { items, remove, setQty, total, totalKdv, kdvTutar, kargoDesi, kargo, genelToplam } = useCart();
+  const { items, remove, setQty, total, totalKdv, kdvTutar, kargoDesi, kargo, genelToplam,
+          kargoOdeme, setKargoOdeme } = useCart();
   const [acik, setAcik] = useState(false);
   const [sonEklenen, setSonEklenen] = useState("");
   const [m, setM] = useState(false);
@@ -145,7 +146,23 @@ export default function CartDrawer() {
           <div style={{ borderTop: "2px solid var(--ink)", padding: "14px 18px 18px", background: "#fff" }}>
             <Satir k="Ara toplam (KDV hariç)" v={formatTL(total())} />
             <Satir k="KDV %20" v={formatTL(kdvTutar())} />
-            <Satir k={desi > 0 ? `Kargo · ${desi} desi` : "Kargo"} v={desi > 0 ? formatTL(kargo()) : "Ücretsiz"} />
+            <Satir k={desi > 0 ? `Kargo · ${desi} desi` : "Kargo"}
+                   v={desi === 0 ? "Ücretsiz" : kargoOdeme === "karsi" ? "Kuryeye ödenecek" : formatTL(kargo())} />
+
+            {desi > 0 && (
+              <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 6, marginTop: 8 }}>
+                {([["pesin", "Şimdi öde", formatTL(kargo())],
+                   ["karsi", "Karşı ödemeli", "Teslimatta"]] as const).map(([k, b, a]) => (
+                  <button key={k} onClick={() => setKargoOdeme(k as any)} aria-pressed={kargoOdeme === k}
+                    style={{ padding: "9px 8px", cursor: "pointer", textAlign: "left",
+                             border: kargoOdeme === k ? "2px solid var(--ink)" : "1px solid var(--hair)",
+                             background: kargoOdeme === k ? "var(--tile)" : "#fff" }}>
+                    <span style={{ display: "block", fontSize: 11.5, fontWeight: 800 }}>{b}</span>
+                    <span style={{ display: "block", fontSize: 10.5, color: "var(--muted)", marginTop: 2 }}>{a}</span>
+                  </button>
+                ))}
+              </div>
+            )}
 
             <div style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline",
                           paddingTop: 10, marginTop: 8, borderTop: "1px solid var(--hair)" }}>

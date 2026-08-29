@@ -1,10 +1,12 @@
 "use client";
-import { Truck, Wallet, Package } from "lucide-react";
+import { Truck, Wallet, Package, Check } from "lucide-react";
+import { useCart } from "@/lib/cart";
 import { TABAN_UCRET, TABAN_DESI, kargoUcreti, urunDesi, formatTL, buyukHacimli } from "@/lib/kargo";
 import type { Product } from "@/lib/products";
 
 /** Ürün sayfasında kargo maliyetini ve ödeme seçeneklerini önceden gösterir */
 export default function KargoBilgi({ product }: { product: Product }) {
+  const { kargoOdeme, setKargoOdeme } = useCart();
   const o = { olcu3: product.olcu3 || [25, 20, 12], geo: (product.geo || "HACIMLI") as any, agirlik_kg: product.agirlik_kg || 0 };
   const desi = urunDesi(o);
   const ucret = kargoUcreti(desi);
@@ -38,23 +40,26 @@ export default function KargoBilgi({ product }: { product: Product }) {
       <div className="hair" style={{ margin: "14px 0" }} />
 
       <p className="eyebrow" style={{ color: "var(--dim)", marginBottom: 10 }}>Kargoyu nasıl ödersiniz</p>
-      <div style={{ display: "flex", flexDirection: "column", gap: 9 }}>
-        <div style={{ display: "flex", gap: 9 }}>
-          <Wallet size={15} style={{ flexShrink: 0, marginTop: 2, color: "var(--muted)" }} />
-          <p style={{ fontSize: 12.5, lineHeight: 1.55 }}>
-            <strong>Şimdi öde</strong> — kargo bedeli sipariş toplamına eklenir, kartla ödersiniz.
-          </p>
-        </div>
-        <div style={{ display: "flex", gap: 9 }}>
-          <Package size={15} style={{ flexShrink: 0, marginTop: 2, color: "var(--muted)" }} />
-          <p style={{ fontSize: 12.5, lineHeight: 1.55 }}>
-            <strong>Karşı ödemeli</strong> — kargoyu teslim alırken kuryeye ödersiniz.
-          </p>
-        </div>
+      <div style={{ display: "grid", gap: 7 }}>
+        {([["pesin", Wallet, "Şimdi öde", "Kargo bedeli sipariş toplamına eklenir, kartla ödersiniz."],
+           ["karsi", Package, "Karşı ödemeli", "Kargoyu teslim alırken kuryeye ödersiniz."]] as const).map(
+          ([k, Icon, b, a]) => (
+            <button key={k} type="button" onClick={() => setKargoOdeme(k as any)}
+              aria-pressed={kargoOdeme === k}
+              style={{ display: "flex", alignItems: "flex-start", gap: 9, padding: "11px 12px",
+                       cursor: "pointer", textAlign: "left", width: "100%",
+                       border: kargoOdeme === k ? "2px solid var(--ink)" : "1px solid var(--hair)",
+                       background: kargoOdeme === k ? "var(--tile)" : "#fff" }}>
+              <Icon size={15} style={{ flexShrink: 0, marginTop: 2 }} />
+              <span style={{ flex: 1 }}>
+                <span style={{ display: "block", fontSize: 12.5, fontWeight: 800 }}>{b}</span>
+                <span style={{ display: "block", fontSize: 11.5, color: "var(--muted)", marginTop: 2, lineHeight: 1.5 }}>{a}</span>
+              </span>
+              {kargoOdeme === k && <Check size={15} strokeWidth={3} />}
+            </button>
+          )
+        )}
       </div>
-      <p style={{ fontSize: 11.5, color: "var(--dim)", marginTop: 11 }}>
-        Seçimi ödeme adımında yaparsınız.
-      </p>
     </div>
   );
 }

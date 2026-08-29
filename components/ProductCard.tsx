@@ -19,10 +19,10 @@ export default function ProductCard({ product: p, oncelik = false }: { product: 
         )}
       </div>
 
-      <div style={{ paddingTop: 6, display: "flex", flexDirection: "column", gap: 2, flex: 1 }}>
-        <p className="name" style={{ fontSize: 11.5, fontWeight: 600, lineHeight: 1.25,
+      <div style={{ paddingTop: 8, display: "flex", flexDirection: "column", gap: 4, flex: 1 }}>
+        <p className="name" style={{ fontSize: 13.5, fontWeight: 700, lineHeight: 1.28,
                                      display: "-webkit-box", WebkitLineClamp: 2, WebkitBoxOrient: "vertical",
-                                     overflow: "hidden", minHeight: "2.5em" }}>
+                                     overflow: "hidden", minHeight: "2.56em" }}>
           {p.name}
         </p>
 

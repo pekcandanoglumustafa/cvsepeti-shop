@@ -8,6 +8,7 @@ import GuvenSerit from "@/components/GuvenSerit";
 import { tumYazilar } from "@/lib/blog";
 import kapaklar from "@/data/kategori_kapak.json";
 import coksatan from "@/data/coksatan.json";
+import katVitrinData from "@/data/kategori_vitrin.json";
 
 const KAPAK = kapaklar as Record<string, { img: string; w: number; adet: number }>;
 
@@ -21,6 +22,9 @@ export default function Home() {
   const csSlug = (coksatan as { slug: string }[]).map((c) => c.slug);
   const cokSatanlar = csSlug.map((sl) => allProducts.find((x) => x.slug === sl)).filter(Boolean).slice(0, 6) as any[];
   const csSet = new Set(cokSatanlar.map((x) => x.slug));
+  const kategoriVitrini = (katVitrinData as { kat: string; slug: string; adet: number }[])
+    .map((v) => ({ ...v, urun: allProducts.find((x) => x.slug === v.slug) }))
+    .filter((v) => v.urun);
   const vitrin = netGorselli.filter((x) => !csSet.has(x.slug)).slice(0, 24);
   const koni = gorselli.filter((p) => p.category === "Trafik Konisi").slice(0, 12);
   const delinator = gorselli.filter((p) => p.category === "Delinatör").slice(0, 12);
@@ -64,7 +68,28 @@ export default function Home() {
         {/* ne sattığımızı tek bakışta gösteren kategori mozaiği */}
         <HeroMozaik />
 
-        <div className="rule" style={{ margin: "34px 0 20px" }} />
+        <div className="rule" style={{ margin: "34px 0 18px" }} />
+
+        {/* HER KATEGORİDEN BİR ÜRÜN — ne sattığımızı ürünle göster */}
+        <div style={{ display: "flex", alignItems: "baseline", gap: 10, marginBottom: 14 }}>
+          <span className="display" style={{ fontSize: "clamp(17px,2.2vw,24px)" }}>Her kategoriden</span>
+          <span className="eyebrow" style={{ color: "var(--dim)" }}>{kategoriVitrini.length} ürün grubu</span>
+        </div>
+        <div className="grid-urun" style={{ marginBottom: 40 }}>
+          {kategoriVitrini.map((v) => (
+            <div key={v.kat}>
+              <ProductCard product={v.urun as any} />
+              <Link href={`/kategori/${categorySlug(v.kat)}`}
+                    style={{ display: "block", marginTop: 5, fontSize: 10, fontWeight: 800,
+                             textTransform: "uppercase", letterSpacing: ".06em",
+                             color: "var(--hi)", textDecoration: "none" }}>
+                {v.kat} · {v.adet} →
+              </Link>
+            </div>
+          ))}
+        </div>
+
+        <div className="hair" style={{ margin: "0 0 20px" }} />
 
         <div className="grid-urun">
           {vitrin.map((p) => <ProductCard key={p.id} product={p} />)}

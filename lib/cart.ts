@@ -20,8 +20,12 @@ export type CartItem = {
   agirlikli?: boolean;
 };
 
+export type KargoOdeme = "pesin" | "karsi";
+
 type CartState = {
   items: CartItem[];
+  kargoOdeme: KargoOdeme;
+  setKargoOdeme: (v: KargoOdeme) => void;
   add: (item: Omit<CartItem, "qty">, qty?: number) => void;
   remove: (slug: string) => void;
   setQty: (slug: string, qty: number) => void;
@@ -39,6 +43,8 @@ export const useCart = create<CartState>()(
   persist(
     (set, get) => ({
       items: [],
+      kargoOdeme: "pesin" as KargoOdeme,
+      setKargoOdeme: (v) => set({ kargoOdeme: v }),
       add: (item, qty = 1) => {
         const items = get().items;
         const existing = items.find((i) => i.slug === item.slug);
@@ -87,7 +93,8 @@ export const useCart = create<CartState>()(
           }))
         ),
       kargo: () => kargoUcreti(get().kargoDesi()),
-      genelToplam: () => get().totalKdv() + get().kargo(),
+      genelToplam: () =>
+        get().totalKdv() + (get().kargoOdeme === "karsi" ? 0 : get().kargo()),
     }),
     { name: "cvsepeti-cart" }
   )
