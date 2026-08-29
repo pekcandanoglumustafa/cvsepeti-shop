@@ -50,12 +50,12 @@
   "desi": 2,
   "kod": "ZT8030",
   "boyut": "30 cm",
-  "malzeme": "",
+  "malzeme": "TPU",
   "taban": "",
   "reflektif": "",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 0.75,
   "color": "",
   "size": "30 cm",
   "dims": "",
@@ -73,7 +73,17 @@
    12
   ],
   "price_kdv": 405.6,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "koli_olcu": [
+   42.0,
+   62.0,
+   38.0
+  ],
+  "koli_adet": 14,
+  "renk": "Turuncu",
+  "reflektif_detay": "1 pcs Metalize",
+  "montaj": "3 Trifon vida - 3 Dübel",
+  "taban_olcu": "Ø 20 cm"
  },
  {
   "id": "ZT8045",
@@ -89,12 +99,12 @@
   "desi": 3,
   "kod": "ZT8045",
   "boyut": "45 cm",
-  "malzeme": "",
+  "malzeme": "TPU",
   "taban": "",
   "reflektif": "",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 0.95,
   "color": "",
   "size": "45 cm",
   "dims": "",
@@ -112,7 +122,17 @@
    15
   ],
   "price_kdv": 499.2,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "koli_olcu": [
+   42.0,
+   62.0,
+   48.0
+  ],
+  "koli_adet": 10,
+  "renk": "Turuncu",
+  "reflektif_detay": "2 pcs Metalize",
+  "montaj": "3 Trifon vida - 3 Dübel",
+  "taban_olcu": "Ø 20 cm"
  },
  {
   "id": "ZT9050",
@@ -128,12 +148,12 @@
   "desi": 3,
   "kod": "ZT9050",
   "boyut": "50 cm",
-  "malzeme": "",
+  "malzeme": "TPU",
   "taban": "",
   "reflektif": "",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 0.95,
   "color": "",
   "size": "50 cm",
   "dims": "",
@@ -151,7 +171,17 @@
    16
   ],
   "price_kdv": 561.6,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "koli_olcu": [
+   42.0,
+   62.0,
+   50.0
+  ],
+  "koli_adet": 12,
+  "renk": "Turuncu",
+  "reflektif_detay": "2 pcs Metalize",
+  "montaj": "3 Trifon vida - 3 Dübel",
+  "taban_olcu": "Ø 18 cm"
  },
  {
   "id": "ZT8070",
@@ -167,12 +197,12 @@
   "desi": 5,
   "kod": "ZT8070",
   "boyut": "70 cm",
-  "malzeme": "",
+  "malzeme": "TPU",
   "taban": "",
   "reflektif": "",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 0.95,
   "color": "",
   "size": "70 cm",
   "dims": "",
@@ -190,7 +220,17 @@
    20
   ],
   "price_kdv": 572.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "koli_olcu": [
+   38.0,
+   56.0,
+   75.0
+  ],
+  "koli_adet": 12,
+  "renk": "Turuncu",
+  "reflektif_detay": "3 pcs Metalize",
+  "montaj": "3 Trifon vida - 3 Dübel",
+  "taban_olcu": "Ø 18 cm"
  },
  {
   "id": "ZT8075",
@@ -206,12 +246,12 @@
   "desi": 5,
   "kod": "ZT8075",
   "boyut": "75 cm",
-  "malzeme": "",
+  "malzeme": "TPU",
   "taban": "",
   "reflektif": "",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 1.2,
   "color": "",
   "size": "75 cm",
   "dims": "",
@@ -229,7 +269,17 @@
    20
   ],
   "price_kdv": 655.2,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "koli_olcu": [
+   42.0,
+   62.0,
+   77.0
+  ],
+  "koli_adet": 10,
+  "renk": "Turuncu",
+  "reflektif_detay": "3 pcs Metalize",
+  "montaj": "3 Trifon vida - 3 Dübel",
+  "taban_olcu": "Ø 20cm"
  },
  {
   "id": "ZT80100",
@@ -245,12 +295,12 @@
   "desi": 8,
   "kod": "ZT80100",
   "boyut": "100 cm",
-  "malzeme": "",
+  "malzeme": "TPU",
   "taban": "",
   "reflektif": "",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 1.7,
   "color": "",
   "size": "100 cm",
   "dims": "",
@@ -268,7 +318,17 @@
    20
   ],
   "price_kdv": 967.2,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "koli_olcu": [
+   42.0,
+   62.0,
+   103.0
+  ],
+  "koli_adet": 10,
+  "renk": "Turuncu",
+  "reflektif_detay": "4 pcs Metalize",
+  "montaj": "3 Trifon vida - 3 Dübel",
+  "taban_olcu": "Ø 20 cm"
  },
  {
   "id": "ZT14060",
@@ -284,12 +344,12 @@
   "desi": 2,
   "kod": "ZT14060",
   "boyut": "",
-  "malzeme": "",
+  "malzeme": "TPU",
   "taban": "altıgen",
   "reflektif": "",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 1.3,
   "color": "",
   "size": "",
   "dims": "",
@@ -302,12 +362,22 @@
   "f_seri": "Standart",
   "geo": "BORU",
   "olcu3": [
-   25,
+   60.0,
    12,
    12
   ],
   "price_kdv": 728.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "koli_olcu": [
+   42.0,
+   62.0,
+   77.0
+  ],
+  "koli_adet": 12,
+  "renk": "Siyah",
+  "reflektif_detay": "1 pcs Metalize",
+  "montaj": "3 Trifon vida - 3 Dübel",
+  "taban_olcu": "Ø 24 cm"
  },
  {
   "id": "ZT14060B",
@@ -362,12 +432,12 @@
   "desi": 2,
   "kod": "14060ECOB",
   "boyut": "",
-  "malzeme": "TPE",
+  "malzeme": "PE",
   "taban": "altıgen",
   "reflektif": "",
   "seri": "EKO",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 1.0,
   "color": "",
   "size": "",
   "dims": "",
@@ -380,12 +450,22 @@
   "f_seri": "Eko",
   "geo": "BORU",
   "olcu3": [
-   25,
+   60.0,
    12,
    12
   ],
   "price_kdv": 488.8,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "koli_olcu": [
+   42.0,
+   62.0,
+   77.0
+  ],
+  "koli_adet": 12,
+  "renk": "Siyah",
+  "reflektif_detay": "1 adet Prizmatik Beyaz",
+  "montaj": "3 Trifon Vida - 3 Dübel",
+  "taban_olcu": "Ø24 cm"
  },
  {
   "id": "8030ECO",
@@ -401,12 +481,12 @@
   "desi": 2,
   "kod": "8030ECO",
   "boyut": "30 cm",
-  "malzeme": "",
+  "malzeme": "PE",
   "taban": "",
   "reflektif": "",
   "seri": "EKO",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 0.5,
   "color": "",
   "size": "30 cm",
   "dims": "",
@@ -424,7 +504,16 @@
    12
   ],
   "price_kdv": 239.2,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "koli_olcu": [
+   42.0,
+   62.0,
+   38.0
+  ],
+  "koli_adet": 14,
+  "renk": "Turuncu",
+  "montaj": "3 Trifon Vida - 3 Dübel",
+  "taban_olcu": "Ø 20 cm"
  },
  {
   "id": "8045ECO",
@@ -440,12 +529,12 @@
   "desi": 3,
   "kod": "8045ECO",
   "boyut": "45 cm",
-  "malzeme": "",
+  "malzeme": "PE",
   "taban": "",
   "reflektif": "",
   "seri": "EKO",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 0.5,
   "color": "",
   "size": "45 cm",
   "dims": "",
@@ -463,7 +552,17 @@
    15
   ],
   "price_kdv": 239.2,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "koli_olcu": [
+   42.0,
+   62.0,
+   48.0
+  ],
+  "koli_adet": 14,
+  "renk": "Turuncu",
+  "reflektif_detay": "2 adet Prizmatik Beyaz",
+  "montaj": "3 Trifon Vida - 3 Dübel",
+  "taban_olcu": "Ø20 cm"
  },
  {
   "id": "7080ECO",
@@ -518,12 +617,12 @@
   "desi": 5,
   "kod": "8075ECO",
   "boyut": "75 cm",
-  "malzeme": "",
+  "malzeme": "PE",
   "taban": "",
   "reflektif": "",
   "seri": "EKO",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 0.72,
   "color": "",
   "size": "75 cm",
   "dims": "",
@@ -541,7 +640,17 @@
    20
   ],
   "price_kdv": 301.6,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "koli_olcu": [
+   42.0,
+   62.0,
+   77.0
+  ],
+  "koli_adet": 15,
+  "renk": "Turuncu",
+  "reflektif_detay": "3 adet Prizmatik Beyaz",
+  "montaj": "3 Trifon Vida - 3 Dübel",
+  "taban_olcu": "Ø20 cm"
  },
  {
   "id": "80100ECO",
@@ -557,12 +666,12 @@
   "desi": 8,
   "kod": "80100ECO",
   "boyut": "100 cm",
-  "malzeme": "",
+  "malzeme": "PE",
   "taban": "",
   "reflektif": "",
   "seri": "EKO",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 1.2,
   "color": "",
   "size": "100 cm",
   "dims": "",
@@ -580,7 +689,17 @@
    20
   ],
   "price_kdv": 520.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "koli_olcu": [
+   42.0,
+   62.0,
+   103.0
+  ],
+  "koli_adet": 12,
+  "renk": "Turuncu",
+  "reflektif_detay": "4 adet Prizmatik Beyaz",
+  "montaj": "3 Trifon Vida - 3 Dübel",
+  "taban_olcu": "Ø20  cm"
  },
  {
   "id": "ZT648100",
@@ -596,12 +715,12 @@
   "desi": 8,
   "kod": "ZT648100",
   "boyut": "100 cm",
-  "malzeme": "",
+  "malzeme": "PVC-TPU",
   "taban": "",
   "reflektif": "",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 9.5,
   "color": "",
   "size": "100 cm",
   "dims": "",
@@ -619,7 +738,11 @@
    22
   ],
   "price_kdv": 1352.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "renk": "Turuncu Delinatör - Siyah Ağırlık",
+  "reflektif_detay": "4 adet Prizmatik Beyaz",
+  "montaj": "Delinatörün Ağırlık Montajı için 3 adet vida ile beraber gönderilir.",
+  "taban_olcu": "60x40x8"
  },
  {
   "id": "648100ECO",
@@ -635,12 +758,12 @@
   "desi": 8,
   "kod": "648100ECO",
   "boyut": "100 cm",
-  "malzeme": "",
+  "malzeme": "PVC-TPE",
   "taban": "",
   "reflektif": "",
   "seri": "EKO",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 9.0,
   "color": "",
   "size": "100 cm",
   "dims": "",
@@ -658,7 +781,11 @@
    22
   ],
   "price_kdv": 915.2,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "renk": "Turuncu Delinatör - Siyah Ağırlık",
+  "reflektif_detay": "4 adet Prizmatik Beyaz",
+  "montaj": "Delinatörün Ağırlık Montajı için 3 adet vida ile beraber gönderilir.",
+  "taban_olcu": "60x40x8"
  },
  {
   "id": "ZT16015",
@@ -1025,12 +1152,12 @@
   "desi": 6,
   "kod": "ZT63315R2",
   "boyut": "63 cm",
-  "malzeme": "",
+  "malzeme": "PPC",
   "taban": "yuvarlak",
   "reflektif": "2",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 5.0,
   "color": "",
   "size": "63 cm",
   "dims": "",
@@ -1043,12 +1170,16 @@
   "f_seri": "Standart",
   "geo": "BORU",
   "olcu3": [
-   63.0,
+   100.0,
    20,
    20
   ],
   "price_kdv": 592.8,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "renk": "Kırmızı/Beyaz",
+  "reflektif_detay": "Glass Bead Type 1",
+  "montaj": "Ürün yere monte edilebilir",
+  "taban_olcu": "36 cm (Dairesel)"
  },
  {
   "id": "ZT11015R4",
@@ -1064,12 +1195,12 @@
   "desi": 10,
   "kod": "ZT11015R4",
   "boyut": "110 cm",
-  "malzeme": "",
+  "malzeme": "PPC",
   "taban": "yuvarlak",
   "reflektif": "4",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 5.6,
   "color": "",
   "size": "110 cm",
   "dims": "",
@@ -1082,12 +1213,16 @@
   "f_seri": "Standart",
   "geo": "BORU",
   "olcu3": [
-   110.0,
+   120.0,
    20,
    20
   ],
   "price_kdv": 759.2,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "renk": "Kırmızı/Beyaz",
+  "reflektif_detay": "Glass Bead Type 1",
+  "montaj": "Ürün yere monte edilebilir",
+  "taban_olcu": "36 cm (Dairesel)"
  },
  {
   "id": "ZT204A",
@@ -1103,12 +1238,12 @@
   "desi": 6,
   "kod": "ZT204A",
   "boyut": "",
-  "malzeme": "",
+  "malzeme": "PPC",
   "taban": "",
   "reflektif": "",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 3.5,
   "color": "",
   "size": "",
   "dims": "",
@@ -1121,12 +1256,16 @@
   "f_seri": "Standart",
   "geo": "HALKA",
   "olcu3": [
-   25,
+   9.0,
    20,
    12
   ],
   "price_kdv": 364.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "renk": "Siyah",
+  "reflektif_detay": "-                                                                                                                                 Montaj: Ürün yere monte edilebilir",
+  "montaj": "Ürün yere monte edilebilir",
+  "taban_olcu": "36x36 cm                                                                                              Ağırlık: 3500 gr ±%10 gr"
  },
  {
   "id": "ZT63100R2",
@@ -1142,12 +1281,12 @@
   "desi": 6,
   "kod": "ZT63100R2",
   "boyut": "63 cm",
-  "malzeme": "",
+  "malzeme": "PPC",
   "taban": "dikdörtgen",
   "reflektif": "2",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 8.5,
   "color": "",
   "size": "63 cm",
   "dims": "",
@@ -1160,12 +1299,16 @@
   "f_seri": "Standart",
   "geo": "BORU",
   "olcu3": [
-   63.0,
+   100.0,
    20,
    20
   ],
   "price_kdv": 759.2,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "renk": "Kırmızı/Beyaz",
+  "reflektif_detay": "Glass Bead Type 1",
+  "montaj": "Ürün yere monte edilebilir",
+  "taban_olcu": "60x40 cm (Dikdörtgen)"
  },
  {
   "id": "ZT110120R4",
@@ -1181,12 +1324,12 @@
   "desi": 10,
   "kod": "ZT110120R4",
   "boyut": "110 cm",
-  "malzeme": "",
+  "malzeme": "PPC",
   "taban": "dikdörtgen",
   "reflektif": "4",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 9.0,
   "color": "",
   "size": "110 cm",
   "dims": "",
@@ -1199,12 +1342,16 @@
   "f_seri": "Standart",
   "geo": "BORU",
   "olcu3": [
-   110.0,
+   120.0,
    20,
    20
   ],
   "price_kdv": 936.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "renk": "Kırmızı/Beyaz",
+  "reflektif_detay": "Glass Bead Type 1",
+  "montaj": "Ürün yere monte edilebilir",
+  "taban_olcu": "60x40 cm (Dikdörtgen)"
  },
  {
   "id": "ZT60408",
@@ -1220,12 +1367,12 @@
   "desi": 6,
   "kod": "ZT60408",
   "boyut": "",
-  "malzeme": "",
+  "malzeme": "PPC",
   "taban": "",
   "reflektif": "",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 8.3,
   "color": "",
   "size": "",
   "dims": "",
@@ -1238,12 +1385,16 @@
   "f_seri": "Standart",
   "geo": "HALKA",
   "olcu3": [
-   25,
+   8.0,
    20,
    12
   ],
   "price_kdv": 520.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "renk": "Siyah",
+  "reflektif_detay": "-                                                                                                                                 Montaj: Ürün yere monte edilebilir",
+  "montaj": "Ürün yere monte edilebilir",
+  "taban_olcu": "60x40 cm                                                                                              Ağırlık: 8300 gr ± %10 gr"
  },
  {
   "id": "ZT75110 DA",
@@ -1259,12 +1410,12 @@
   "desi": 12,
   "kod": "ZT75110 DA",
   "boyut": "110 cm",
-  "malzeme": "",
+  "malzeme": "PPC",
   "taban": "dikdörtgen",
   "reflektif": "",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 25.0,
   "color": "",
   "size": "110 cm",
   "dims": "",
@@ -1277,12 +1428,15 @@
   "f_seri": "Standart",
   "geo": "BORU",
   "olcu3": [
-   110.0,
+   120.0,
    20,
    20
   ],
   "price_kdv": 3432.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "renk": "-",
+  "reflektif_detay": "-",
+  "taban_olcu": "-"
  },
  {
   "id": "ZT75110 DAR",
@@ -1298,12 +1452,12 @@
   "desi": 12,
   "kod": "ZT75110 DAR",
   "boyut": "110 cm",
-  "malzeme": "",
+  "malzeme": "PPC",
   "taban": "dikdörtgen",
   "reflektif": "",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 25.0,
   "color": "",
   "size": "110 cm",
   "dims": "",
@@ -1316,12 +1470,15 @@
   "f_seri": "Standart",
   "geo": "BORU",
   "olcu3": [
-   110.0,
+   120.0,
    20,
    20
   ],
   "price_kdv": 4472.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "renk": "-",
+  "reflektif_detay": "Prizmatik",
+  "taban_olcu": "Ağırlık:  25000 gr ± %5 gr"
  },
  {
   "id": "ZT32110 DA",
@@ -1337,12 +1494,12 @@
   "desi": 12,
   "kod": "ZT32110 DA",
   "boyut": "110 cm",
-  "malzeme": "",
+  "malzeme": "PPC",
   "taban": "dikdörtgen",
   "reflektif": "",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 23.0,
   "color": "",
   "size": "110 cm",
   "dims": "",
@@ -1355,12 +1512,15 @@
   "f_seri": "Standart",
   "geo": "BORU",
   "olcu3": [
-   110.0,
+   120.0,
    20,
    20
   ],
   "price_kdv": 2704.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "renk": "-",
+  "reflektif_detay": "-",
+  "taban_olcu": "Ağırlık:  23000 gr ± %5 gr"
  },
  {
   "id": "ZT32110 DAR",
@@ -1376,12 +1536,12 @@
   "desi": 12,
   "kod": "ZT32110 DAR",
   "boyut": "110 cm",
-  "malzeme": "",
+  "malzeme": "PPC",
   "taban": "dikdörtgen",
   "reflektif": "",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 23.0,
   "color": "",
   "size": "110 cm",
   "dims": "",
@@ -1394,12 +1554,15 @@
   "f_seri": "Standart",
   "geo": "BORU",
   "olcu3": [
-   110.0,
+   120.0,
    20,
    20
   ],
   "price_kdv": 2912.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "renk": "-",
+  "reflektif_detay": "Prizmatik",
+  "taban_olcu": "Ağırlık: 23000 gr ± %5 gr"
  },
  {
   "id": "ZT7563 DA",
@@ -1415,12 +1578,12 @@
   "desi": 12,
   "kod": "ZT7563 DA",
   "boyut": "63 cm",
-  "malzeme": "",
+  "malzeme": "PPC",
   "taban": "dikdörtgen",
   "reflektif": "",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 2.0,
   "color": "",
   "size": "63 cm",
   "dims": "",
@@ -1438,7 +1601,10 @@
    20
   ],
   "price_kdv": 3120.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "renk": "-",
+  "reflektif_detay": "-",
+  "taban_olcu": "125 cm"
  },
  {
   "id": "ZT7563 DAR",
@@ -1454,12 +1620,12 @@
   "desi": 12,
   "kod": "ZT7563 DAR",
   "boyut": "63 cm",
-  "malzeme": "",
+  "malzeme": "PPC",
   "taban": "dikdörtgen",
   "reflektif": "",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 2.0,
   "color": "",
   "size": "63 cm",
   "dims": "",
@@ -1472,12 +1638,15 @@
   "f_seri": "Standart",
   "geo": "BORU",
   "olcu3": [
-   63.0,
+   75.0,
    20,
    20
   ],
   "price_kdv": 4160.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "renk": "-",
+  "reflektif_detay": "Prizmatik",
+  "taban_olcu": "125 cm"
  },
  {
   "id": "ZT3263 DA",
@@ -1493,12 +1662,12 @@
   "desi": 12,
   "kod": "ZT3263 DA",
   "boyut": "63 cm",
-  "malzeme": "",
+  "malzeme": "PPC",
   "taban": "dikdörtgen",
   "reflektif": "",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 1.1,
   "color": "",
   "size": "63 cm",
   "dims": "",
@@ -1511,12 +1680,15 @@
   "f_seri": "Standart",
   "geo": "BORU",
   "olcu3": [
-   63.0,
+   31.5,
    20,
    20
   ],
   "price_kdv": 2392.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "renk": "-",
+  "reflektif_detay": "-",
+  "taban_olcu": "90 cm"
  },
  {
   "id": "ZT3263 DAR",
@@ -1532,12 +1704,12 @@
   "desi": 12,
   "kod": "ZT3263 DAR",
   "boyut": "63 cm",
-  "malzeme": "",
+  "malzeme": "PPC",
   "taban": "dikdörtgen",
   "reflektif": "",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 1.1,
   "color": "",
   "size": "63 cm",
   "dims": "",
@@ -1550,12 +1722,15 @@
   "f_seri": "Standart",
   "geo": "BORU",
   "olcu3": [
-   63.0,
+   31.5,
    20,
    20
   ],
   "price_kdv": 2704.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "renk": "-",
+  "reflektif_detay": "Prizmatik",
+  "taban_olcu": "90 cm"
  },
  {
   "id": "ZT90315",
@@ -1571,12 +1746,12 @@
   "desi": 4,
   "kod": "ZT90315",
   "boyut": "32 cm",
-  "malzeme": "",
+  "malzeme": "PPC",
   "taban": "",
   "reflektif": "",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 1.1,
   "color": "",
   "size": "32 cm",
   "dims": "",
@@ -1589,12 +1764,15 @@
   "f_seri": "Standart",
   "geo": "YASSI",
   "olcu3": [
-   32.0,
+   31.5,
    16.0,
    5
   ],
   "price_kdv": 1144.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "renk": "-",
+  "reflektif_detay": "-",
+  "taban_olcu": "90 cm"
  },
  {
   "id": "ZT12575",
@@ -1610,12 +1788,12 @@
   "desi": 4,
   "kod": "ZT12575",
   "boyut": "75 cm",
-  "malzeme": "",
+  "malzeme": "PPC",
   "taban": "",
   "reflektif": "",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 2.0,
   "color": "",
   "size": "75 cm",
   "dims": "",
@@ -1633,7 +1811,10 @@
    5
   ],
   "price_kdv": 2080.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "renk": "-",
+  "reflektif_detay": "-",
+  "taban_olcu": "125 cm"
  },
  {
   "id": "ZT12575R",
@@ -1649,12 +1830,12 @@
   "desi": 4,
   "kod": "ZT12575R",
   "boyut": "75 cm",
-  "malzeme": "",
+  "malzeme": "PPC",
   "taban": "",
   "reflektif": "",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 2.0,
   "color": "",
   "size": "75 cm",
   "dims": "",
@@ -1672,7 +1853,10 @@
    5
   ],
   "price_kdv": 3224.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "renk": "-",
+  "reflektif_detay": "Prizmatik",
+  "taban_olcu": "125 cm"
  },
  {
   "id": "ZT90315R",
@@ -1688,12 +1872,12 @@
   "desi": 4,
   "kod": "ZT90315R",
   "boyut": "32 cm",
-  "malzeme": "",
+  "malzeme": "PPC",
   "taban": "",
   "reflektif": "",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 1.1,
   "color": "",
   "size": "32 cm",
   "dims": "",
@@ -1706,12 +1890,15 @@
   "f_seri": "Standart",
   "geo": "YASSI",
   "olcu3": [
-   32.0,
+   31.5,
    16.0,
    5
   ],
   "price_kdv": 1352.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "renk": "-",
+  "reflektif_detay": "Prizmatik",
+  "taban_olcu": "90 cm"
  },
  {
   "id": "ZT75A",
@@ -1727,12 +1914,12 @@
   "desi": 4,
   "kod": "ZT75A",
   "boyut": "75 cm",
-  "malzeme": "",
+  "malzeme": "PPC-PC",
   "taban": "",
   "reflektif": "",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 0.46,
   "color": "",
   "size": "75 cm",
   "dims": "",
@@ -1750,7 +1937,8 @@
    5
   ],
   "price_kdv": 312.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "renk": "Siyah"
  },
  {
   "id": "ZT32A",
@@ -1766,12 +1954,12 @@
   "desi": 4,
   "kod": "ZT32A",
   "boyut": "32 cm",
-  "malzeme": "",
+  "malzeme": "PPC-PC",
   "taban": "",
   "reflektif": "",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 0.23,
   "color": "",
   "size": "32 cm",
   "dims": "",
@@ -1784,12 +1972,13 @@
   "f_seri": "Standart",
   "geo": "YASSI",
   "olcu3": [
-   32.0,
+   31.5,
    16.0,
    5
   ],
   "price_kdv": 260.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "renk": "Siyah"
  },
  {
   "id": "ZT110A",
@@ -1805,12 +1994,12 @@
   "desi": 1,
   "kod": "ZT110A",
   "boyut": "110 cm",
-  "malzeme": "",
+  "malzeme": "PPC",
   "taban": "",
   "reflektif": "",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 0.12,
   "color": "",
   "size": "110 cm",
   "dims": "",
@@ -1828,7 +2017,9 @@
    20
   ],
   "price_kdv": 208.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "renk": "Siyah",
+  "taban_olcu": "Ø110  mm"
  },
  {
   "id": "ZT63A",
@@ -1844,12 +2035,12 @@
   "desi": 1,
   "kod": "ZT63A",
   "boyut": "63 cm",
-  "malzeme": "",
+  "malzeme": "PPC",
   "taban": "",
   "reflektif": "",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 0.05,
   "color": "",
   "size": "63 cm",
   "dims": "",
@@ -1867,7 +2058,9 @@
    20
   ],
   "price_kdv": 208.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "renk": "Siyah",
+  "taban_olcu": "Ø63  mm"
  },
  {
   "id": "ZT502808R1",
@@ -1883,12 +2076,12 @@
   "desi": 8,
   "kod": "ZT502808R1",
   "boyut": "50 cm",
-  "malzeme": "",
+  "malzeme": "PVC",
   "taban": "sekizgen",
   "reflektif": "1",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 1.2,
   "color": "",
   "size": "50 cm",
   "dims": "",
@@ -1907,7 +2100,10 @@
   ],
   "price_kdv": 426.4,
   "kdv_orani": 0.2,
-  "agirlikli": false
+  "agirlikli": false,
+  "renk": "Turuncu",
+  "reflektif_detay": "Prizmatik Beyaz",
+  "taban_olcu": "28 cm (Sekizgen)"
  },
  {
   "id": "ZT502808R2",
@@ -1923,12 +2119,12 @@
   "desi": 8,
   "kod": "ZT502808R2",
   "boyut": "50 cm",
-  "malzeme": "",
+  "malzeme": "PVC",
   "taban": "sekizgen",
   "reflektif": "2",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 1.2,
   "color": "",
   "size": "50 cm",
   "dims": "",
@@ -1947,7 +2143,10 @@
   ],
   "price_kdv": 447.2,
   "kdv_orani": 0.2,
-  "agirlikli": false
+  "agirlikli": false,
+  "renk": "Turuncu",
+  "reflektif_detay": "Prizmatik Beyaz",
+  "taban_olcu": "28 cm (Sekizgen)"
  },
  {
   "id": "ZT502808A6R2",
@@ -1963,12 +2162,12 @@
   "desi": 8,
   "kod": "ZT502808A6R2",
   "boyut": "50 cm",
-  "malzeme": "",
+  "malzeme": "PVC",
   "taban": "sekizgen",
   "reflektif": "2",
   "seri": "STANDART",
   "varyant": "ağırlık tabanlı",
-  "agirlik_kg": 0,
+  "agirlik_kg": 2.7,
   "color": "",
   "size": "50 cm",
   "dims": "",
@@ -1987,7 +2186,10 @@
   ],
   "price_kdv": 572.0,
   "kdv_orani": 0.2,
-  "agirlikli": true
+  "agirlikli": true,
+  "renk": "Turuncu Koni / Siyah Ağırlık",
+  "reflektif_detay": "Prizmatik Beyaz",
+  "taban_olcu": "38 cm (Altıgen ağırlık)"
  },
  {
   "id": "ZT702808R2",
@@ -2003,12 +2205,12 @@
   "desi": 14,
   "kod": "ZT702808R2",
   "boyut": "70 cm",
-  "malzeme": "",
+  "malzeme": "PVC",
   "taban": "sekizgen",
   "reflektif": "2",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 2.3,
   "color": "",
   "size": "70 cm",
   "dims": "",
@@ -2021,13 +2223,16 @@
   "f_seri": "Standart",
   "geo": "KONIK",
   "olcu3": [
-   70.0,
+   75.0,
    29.4,
    29.4
   ],
   "price_kdv": 858.0,
   "kdv_orani": 0.2,
-  "agirlikli": false
+  "agirlikli": false,
+  "renk": "Turuncu",
+  "reflektif_detay": "Prizmatik Beyaz",
+  "taban_olcu": "38 cm(Sekizgen)"
  },
  {
   "id": "ZT702808A6R2",
@@ -2043,12 +2248,12 @@
   "desi": 14,
   "kod": "ZT702808A6R2",
   "boyut": "70 cm",
-  "malzeme": "",
+  "malzeme": "PVC",
   "taban": "sekizgen",
   "reflektif": "2",
   "seri": "STANDART",
   "varyant": "ağırlık tabanlı",
-  "agirlik_kg": 0,
+  "agirlik_kg": 5.5,
   "color": "",
   "size": "70 cm",
   "dims": "",
@@ -2061,13 +2266,16 @@
   "f_seri": "Standart",
   "geo": "KONIK",
   "olcu3": [
-   70.0,
+   75.0,
    35.0,
    35.0
   ],
   "price_kdv": 1040.0,
   "kdv_orani": 0.2,
-  "agirlikli": true
+  "agirlikli": true,
+  "renk": "Turuncu Koni / Siyah Ağırlık",
+  "reflektif_detay": "Prizmatik Beyaz",
+  "taban_olcu": "38 cm (Altıgen ağırlıklı)"
  },
  {
   "id": "ZT902808R2",
@@ -2083,12 +2291,12 @@
   "desi": 20,
   "kod": "ZT902808R2",
   "boyut": "90 cm",
-  "malzeme": "",
+  "malzeme": "PVC",
   "taban": "sekizgen",
   "reflektif": "2",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 3.2,
   "color": "",
   "size": "90 cm",
   "dims": "",
@@ -2107,7 +2315,10 @@
   ],
   "price_kdv": 1196.0,
   "kdv_orani": 0.2,
-  "agirlikli": false
+  "agirlikli": false,
+  "renk": "Turuncu",
+  "reflektif_detay": "Prizmatik Beyaz",
+  "taban_olcu": "38 cm(Sekizgen)"
  },
  {
   "id": "ZT902808A6R2",
@@ -2123,12 +2334,12 @@
   "desi": 20,
   "kod": "ZT902808A6R2",
   "boyut": "90 cm",
-  "malzeme": "",
+  "malzeme": "PVC",
   "taban": "sekizgen",
   "reflektif": "2",
   "seri": "STANDART",
   "varyant": "ağırlık tabanlı",
-  "agirlik_kg": 0,
+  "agirlik_kg": 6.3,
   "color": "",
   "size": "90 cm",
   "dims": "",
@@ -2147,7 +2358,10 @@
   ],
   "price_kdv": 1404.0,
   "kdv_orani": 0.2,
-  "agirlikli": true
+  "agirlikli": true,
+  "renk": "Turuncu Koni / Siyah Ağırlık",
+  "reflektif_detay": "Prizmatik Beyaz",
+  "taban_olcu": "38 cm (Altıgen ağırlıklı)"
  },
  {
   "id": "ZT202A",
@@ -2163,12 +2377,12 @@
   "desi": 6,
   "kod": "ZT202A",
   "boyut": "38 cm",
-  "malzeme": "",
+  "malzeme": "PVC",
   "taban": "altıgen",
   "reflektif": "",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 1.7,
   "color": "",
   "size": "38 cm",
   "dims": "",
@@ -2186,7 +2400,10 @@
    15.2
   ],
   "price_kdv": 187.2,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "renk": "Siyah",
+  "reflektif_detay": "-",
+  "taban_olcu": "38 cm (Altıgen)"
  },
  {
   "id": "ZT203A",
@@ -2202,12 +2419,12 @@
   "desi": 6,
   "kod": "ZT203A",
   "boyut": "48 cm",
-  "malzeme": "",
+  "malzeme": "PVC",
   "taban": "altıgen",
   "reflektif": "",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 3.2,
   "color": "",
   "size": "48 cm",
   "dims": "",
@@ -2225,7 +2442,10 @@
    19.2
   ],
   "price_kdv": 260.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "renk": "Siyah",
+  "reflektif_detay": "-",
+  "taban_olcu": "38 cm (Altıgen)"
  },
  {
   "id": "ZT502804R2",
@@ -2241,12 +2461,12 @@
   "desi": 8,
   "kod": "ZT502804R2",
   "boyut": "50 cm",
-  "malzeme": "",
+  "malzeme": "PVC",
   "taban": "kare",
   "reflektif": "2",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 1.6,
   "color": "",
   "size": "50 cm",
   "dims": "",
@@ -2265,7 +2485,10 @@
   ],
   "price_kdv": 592.8,
   "kdv_orani": 0.2,
-  "agirlikli": false
+  "agirlikli": false,
+  "renk": "Turuncu",
+  "reflektif_detay": "Prizmatik Beyaz",
+  "taban_olcu": "28 cm (Dörtgen)"
  },
  {
   "id": "ZT502805R2",
@@ -2321,12 +2544,12 @@
   "desi": 14,
   "kod": "ZT702804R2",
   "boyut": "70 cm",
-  "malzeme": "",
+  "malzeme": "PVC",
   "taban": "kare",
   "reflektif": "2",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 3.1,
   "color": "",
   "size": "70 cm",
   "dims": "",
@@ -2339,13 +2562,16 @@
   "f_seri": "Standart",
   "geo": "KONIK",
   "olcu3": [
-   70.0,
+   72.0,
    29.4,
    29.4
   ],
   "price_kdv": 1144.0,
   "kdv_orani": 0.2,
-  "agirlikli": false
+  "agirlikli": false,
+  "renk": "Turuncu",
+  "reflektif_detay": "Prizmatik Beyaz",
+  "taban_olcu": "38 cm (Dörtgen)"
  },
  {
   "id": "ZT702805R2",
@@ -2401,12 +2627,12 @@
   "desi": 20,
   "kod": "ZT902804R2",
   "boyut": "90 cm",
-  "malzeme": "",
+  "malzeme": "PVC",
   "taban": "kare",
   "reflektif": "2",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 3.7,
   "color": "",
   "size": "90 cm",
   "dims": "",
@@ -2425,7 +2651,10 @@
   ],
   "price_kdv": 1404.0,
   "kdv_orani": 0.2,
-  "agirlikli": false
+  "agirlikli": false,
+  "renk": "Turuncu",
+  "reflektif_detay": "Prizmatik Beyaz",
+  "taban_olcu": "38 cm (Dörtgen)"
  },
  {
   "id": "502808R2ECO",
@@ -2441,12 +2670,12 @@
   "desi": 8,
   "kod": "502808R2ECO",
   "boyut": "50 cm",
-  "malzeme": "",
+  "malzeme": "PE",
   "taban": "sekizgen",
   "reflektif": "2",
   "seri": "EKO",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 0.9,
   "color": "",
   "size": "50 cm",
   "dims": "",
@@ -2465,7 +2694,10 @@
   ],
   "price_kdv": 343.2,
   "kdv_orani": 0.2,
-  "agirlikli": false
+  "agirlikli": false,
+  "renk": "Turuncu",
+  "reflektif_detay": "Prizmatik Beyaz",
+  "taban_olcu": "28 cm (Sekizgen)"
  },
  {
   "id": "502808A6R2ECO",
@@ -2481,12 +2713,12 @@
   "desi": 8,
   "kod": "502808A6R2ECO",
   "boyut": "50 cm",
-  "malzeme": "",
+  "malzeme": "PE-PVC",
   "taban": "sekizgen",
   "reflektif": "2",
   "seri": "EKO",
   "varyant": "ağırlık tabanlı",
-  "agirlik_kg": 0,
+  "agirlik_kg": 2.7,
   "color": "",
   "size": "50 cm",
   "dims": "",
@@ -2505,7 +2737,10 @@
   ],
   "price_kdv": 468.0,
   "kdv_orani": 0.2,
-  "agirlikli": true
+  "agirlikli": true,
+  "renk": "Turuncu Koni / Siyah Ağırlık",
+  "reflektif_detay": "Prizmatik Beyaz",
+  "taban_olcu": "38 cm (Altıgen ağırlık)"
  },
  {
   "id": "702808R2ECO",
@@ -2521,12 +2756,12 @@
   "desi": 14,
   "kod": "702808R2ECO",
   "boyut": "70 cm",
-  "malzeme": "",
+  "malzeme": "PE",
   "taban": "sekizgen",
   "reflektif": "2",
   "seri": "EKO",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 1.6,
   "color": "",
   "size": "70 cm",
   "dims": "",
@@ -2539,13 +2774,16 @@
   "f_seri": "Eko",
   "geo": "KONIK",
   "olcu3": [
-   70.0,
+   72.0,
    29.4,
    29.4
   ],
   "price_kdv": 613.6,
   "kdv_orani": 0.2,
-  "agirlikli": false
+  "agirlikli": false,
+  "renk": "Turuncu",
+  "reflektif_detay": "Prizmatik Beyaz",
+  "taban_olcu": "38 cm(Sekizgen)"
  },
  {
   "id": "702808A6R2ECO",
@@ -2561,12 +2799,12 @@
   "desi": 14,
   "kod": "702808A6R2ECO",
   "boyut": "70 cm",
-  "malzeme": "",
+  "malzeme": "PE",
   "taban": "sekizgen",
   "reflektif": "2",
   "seri": "EKO",
   "varyant": "ağırlık tabanlı",
-  "agirlik_kg": 0,
+  "agirlik_kg": 4.8,
   "color": "",
   "size": "70 cm",
   "dims": "",
@@ -2579,13 +2817,16 @@
   "f_seri": "Eko",
   "geo": "KONIK",
   "olcu3": [
-   70.0,
+   75.0,
    35.0,
    35.0
   ],
   "price_kdv": 780.0,
   "kdv_orani": 0.2,
-  "agirlikli": true
+  "agirlikli": true,
+  "renk": "Turuncu",
+  "reflektif_detay": "Prizmatik Beyaz",
+  "taban_olcu": "48 cm (Altıgen ağırlıklı)"
  },
  {
   "id": "902808R2ECO",
@@ -2601,12 +2842,12 @@
   "desi": 20,
   "kod": "902808R2ECO",
   "boyut": "90 cm",
-  "malzeme": "",
+  "malzeme": "PE",
   "taban": "sekizgen",
   "reflektif": "2",
   "seri": "EKO",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 2.3,
   "color": "",
   "size": "90 cm",
   "dims": "",
@@ -2625,7 +2866,10 @@
   ],
   "price_kdv": 832.0,
   "kdv_orani": 0.2,
-  "agirlikli": false
+  "agirlikli": false,
+  "renk": "Turuncu",
+  "reflektif_detay": "Prizmatik Beyaz",
+  "taban_olcu": "38 cm(Sekizgen)"
  },
  {
   "id": "902808A6R2ECO",
@@ -2641,12 +2885,12 @@
   "desi": 20,
   "kod": "902808A6R2ECO",
   "boyut": "90 cm",
-  "malzeme": "",
+  "malzeme": "PE",
   "taban": "sekizgen",
   "reflektif": "2",
   "seri": "EKO",
   "varyant": "ağırlık tabanlı",
-  "agirlik_kg": 0,
+  "agirlik_kg": 5.5,
   "color": "",
   "size": "90 cm",
   "dims": "",
@@ -2665,7 +2909,10 @@
   ],
   "price_kdv": 1019.2,
   "kdv_orani": 0.2,
-  "agirlikli": true
+  "agirlikli": true,
+  "renk": "Turuncu",
+  "reflektif_detay": "Prizmatik Beyaz",
+  "taban_olcu": "38 cm (Altıgen ağırlıklı)"
  },
  {
   "id": "502804R2ECO",
@@ -2681,12 +2928,12 @@
   "desi": 8,
   "kod": "502804R2ECO",
   "boyut": "50 cm",
-  "malzeme": "",
+  "malzeme": "PE",
   "taban": "kare",
   "reflektif": "2",
   "seri": "EKO",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 1.1,
   "color": "",
   "size": "50 cm",
   "dims": "",
@@ -2705,7 +2952,10 @@
   ],
   "price_kdv": 364.0,
   "kdv_orani": 0.2,
-  "agirlikli": false
+  "agirlikli": false,
+  "renk": "Turuncu",
+  "reflektif_detay": "Prizmatik Beyaz",
+  "taban_olcu": "28 cm (Dörtgen)"
  },
  {
   "id": "702804R2ECO",
@@ -2721,12 +2971,12 @@
   "desi": 14,
   "kod": "702804R2ECO",
   "boyut": "70 cm",
-  "malzeme": "",
+  "malzeme": "PE",
   "taban": "kare",
   "reflektif": "2",
   "seri": "EKO",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 2.2,
   "color": "",
   "size": "70 cm",
   "dims": "",
@@ -2739,13 +2989,16 @@
   "f_seri": "Eko",
   "geo": "KONIK",
   "olcu3": [
-   70.0,
+   72.0,
    29.4,
    29.4
   ],
   "price_kdv": 650.0,
   "kdv_orani": 0.2,
-  "agirlikli": false
+  "agirlikli": false,
+  "renk": "Turuncu",
+  "reflektif_detay": "Prizmatik Beyaz",
+  "taban_olcu": "38 cm (Dörtgen)"
  },
  {
   "id": "902804R2ECO",
@@ -2761,12 +3014,12 @@
   "desi": 20,
   "kod": "902804R2ECO",
   "boyut": "90 cm",
-  "malzeme": "",
+  "malzeme": "PE",
   "taban": "kare",
   "reflektif": "2",
   "seri": "EKO",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 2.6,
   "color": "",
   "size": "90 cm",
   "dims": "",
@@ -2785,7 +3038,10 @@
   ],
   "price_kdv": 936.0,
   "kdv_orani": 0.2,
-  "agirlikli": false
+  "agirlikli": false,
+  "renk": "Turuncu",
+  "reflektif_detay": "Prizmatik Beyaz",
+  "taban_olcu": "38 cm (Dörtgen)"
  },
  {
   "id": "ZT650506",
@@ -2801,12 +3057,12 @@
   "desi": 14,
   "kod": "ZT650506",
   "boyut": "65 cm",
-  "malzeme": "",
+  "malzeme": "PPC",
   "taban": "",
   "reflektif": "kedi gözü",
   "seri": "STANDART",
   "varyant": "ağırlık tabanlı",
-  "agirlik_kg": 0,
+  "agirlik_kg": 5.2,
   "color": "",
   "size": "65 cm",
   "dims": "",
@@ -2825,7 +3081,10 @@
   ],
   "price_kdv": 728.0,
   "kdv_orani": 0.2,
-  "agirlikli": true
+  "agirlikli": true,
+  "renk": "Kırmızı",
+  "reflektif_detay": "12 Adet Kedi Gözü",
+  "taban_olcu": "36 cm (Altıgen)"
  },
  {
   "id": "ZT650506B",
@@ -2841,12 +3100,12 @@
   "desi": 14,
   "kod": "ZT650506B",
   "boyut": "65 cm",
-  "malzeme": "",
+  "malzeme": "PPC",
   "taban": "",
   "reflektif": "kedi gözü",
   "seri": "STANDART",
   "varyant": "ağırlık tabanlı",
-  "agirlik_kg": 0,
+  "agirlik_kg": 5.2,
   "color": "",
   "size": "65 cm",
   "dims": "",
@@ -2865,7 +3124,10 @@
   ],
   "price_kdv": 728.0,
   "kdv_orani": 0.2,
-  "agirlikli": true
+  "agirlikli": true,
+  "renk": "Mavi",
+  "reflektif_detay": "12 Adet Kedi Gözü",
+  "taban_olcu": "36 cm (Altıgen)"
  },
  {
   "id": "ZT503208",
@@ -2881,12 +3143,12 @@
   "desi": 8,
   "kod": "ZT503208",
   "boyut": "50 cm",
-  "malzeme": "",
+  "malzeme": "PPC",
   "taban": "",
   "reflektif": "benekli",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 0.9,
   "color": "",
   "size": "50 cm",
   "dims": "",
@@ -2905,7 +3167,10 @@
   ],
   "price_kdv": 322.4,
   "kdv_orani": 0.2,
-  "agirlikli": false
+  "agirlikli": false,
+  "renk": "Kırmızı",
+  "reflektif_detay": "Beyaz Bant",
+  "taban_olcu": "28 cm (Sekizgen)"
  },
  {
   "id": "ZT503208A6",
@@ -2921,12 +3186,12 @@
   "desi": 8,
   "kod": "ZT503208A6",
   "boyut": "50 cm",
-  "malzeme": "",
+  "malzeme": "PPC",
   "taban": "",
   "reflektif": "benekli",
   "seri": "STANDART",
   "varyant": "ağırlık tabanlı",
-  "agirlik_kg": 0,
+  "agirlik_kg": 0.9,
   "color": "",
   "size": "50 cm",
   "dims": "",
@@ -2945,7 +3210,10 @@
   ],
   "price_kdv": 442.0,
   "kdv_orani": 0.2,
-  "agirlikli": true
+  "agirlikli": true,
+  "renk": "Kırmızı",
+  "reflektif_detay": "Beyaz Bant",
+  "taban_olcu": "28 cm (Sekizgen)"
  },
  {
   "id": "ZT503204",
@@ -3001,12 +3269,12 @@
   "desi": 10,
   "kod": "ZT40100",
   "boyut": "100 cm",
-  "malzeme": "",
+  "malzeme": "TPU",
   "taban": "",
   "reflektif": "",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 3.5,
   "color": "",
   "size": "100 cm",
   "dims": "",
@@ -3025,7 +3293,17 @@
   ],
   "price_kdv": 1560.0,
   "kdv_orani": 0.2,
-  "agirlikli": false
+  "agirlikli": false,
+  "koli_olcu": [
+   21.0,
+   107.0,
+   43.0
+  ],
+  "koli_adet": 2,
+  "renk": "Siyah",
+  "reflektif_detay": "Dijital Baskı BS4",
+  "montaj": "4 Trifon Vida - 4 Dübel",
+  "taban_olcu": "29x3,6 cm"
  },
  {
   "id": "ZT40100P",
@@ -3081,12 +3359,12 @@
   "desi": 22,
   "kod": "ZT80150R",
   "boyut": "",
-  "malzeme": "",
+  "malzeme": "PPC-PVC",
   "taban": "",
   "reflektif": "",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 12.0,
   "color": "",
   "size": "",
   "dims": "",
@@ -3099,12 +3377,14 @@
   "f_seri": "Standart",
   "geo": "HACIMLI",
   "olcu3": [
-   25,
+   100.0,
    20,
    12
   ],
   "price_kdv": 2236.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "renk": "Kırmızı",
+  "taban_olcu": "150x50  cm"
  },
  {
   "id": "ZT80150R FB",
@@ -3120,12 +3400,12 @@
   "desi": 22,
   "kod": "ZT80150R FB",
   "boyut": "",
-  "malzeme": "",
+  "malzeme": "PPC+PVC",
   "taban": "",
   "reflektif": "",
   "seri": "EKO",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 12.5,
   "color": "",
   "size": "",
   "dims": "",
@@ -3138,12 +3418,14 @@
   "f_seri": "Eko",
   "geo": "HACIMLI",
   "olcu3": [
-   25,
+   100.0,
    20,
    12
   ],
   "price_kdv": 2704.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "renk": "Kırmızı",
+  "taban_olcu": "150x50  cm"
  },
  {
   "id": "ZT80150R FBP",
@@ -3159,12 +3441,12 @@
   "desi": 22,
   "kod": "ZT80150R FBP",
   "boyut": "",
-  "malzeme": "",
+  "malzeme": "PPC-PVC",
   "taban": "",
   "reflektif": "",
   "seri": "EKO",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 12.5,
   "color": "",
   "size": "",
   "dims": "",
@@ -3177,12 +3459,14 @@
   "f_seri": "Eko",
   "geo": "HACIMLI",
   "olcu3": [
-   25,
+   100.0,
    20,
    12
   ],
   "price_kdv": 3120.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "renk": "Kırmızı",
+  "taban_olcu": "150x50  cm"
  },
  {
   "id": "ZT60150R",
@@ -3198,12 +3482,12 @@
   "desi": 22,
   "kod": "ZT60150R",
   "boyut": "",
-  "malzeme": "",
+  "malzeme": "PPC-PVC",
   "taban": "dikdörtgen",
   "reflektif": "",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 23.0,
   "color": "",
   "size": "",
   "dims": "",
@@ -3216,12 +3500,14 @@
   "f_seri": "Standart",
   "geo": "HACIMLI",
   "olcu3": [
-   25,
+   100.0,
    20,
    12
   ],
   "price_kdv": 2808.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "renk": "Kırmızı",
+  "taban_olcu": "150x50  cm"
  },
  {
   "id": "ZT60150R FB",
@@ -3237,12 +3523,12 @@
   "desi": 22,
   "kod": "ZT60150R FB",
   "boyut": "",
-  "malzeme": "",
+  "malzeme": "PPC-PVC",
   "taban": "dikdörtgen",
   "reflektif": "",
   "seri": "EKO",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 23.0,
   "color": "",
   "size": "",
   "dims": "",
@@ -3255,12 +3541,14 @@
   "f_seri": "Eko",
   "geo": "HACIMLI",
   "olcu3": [
-   25,
+   100.0,
    20,
    12
   ],
   "price_kdv": 3224.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "renk": "Kırmızı",
+  "taban_olcu": "150x50  cm"
  },
  {
   "id": "ZT60150R FBP",
@@ -3276,12 +3564,12 @@
   "desi": 22,
   "kod": "ZT60150R FBP",
   "boyut": "",
-  "malzeme": "",
+  "malzeme": "PPC-PVC",
   "taban": "dikdörtgen",
   "reflektif": "",
   "seri": "EKO",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 23.0,
   "color": "",
   "size": "",
   "dims": "",
@@ -3294,12 +3582,14 @@
   "f_seri": "Eko",
   "geo": "HACIMLI",
   "olcu3": [
-   25,
+   100.0,
    20,
    12
   ],
   "price_kdv": 3536.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "renk": "Kırmızı",
+  "taban_olcu": "150x50  cm"
  },
  {
   "id": "ZT80150B",
@@ -3393,12 +3683,12 @@
   "desi": 6,
   "kod": "ZT6080",
   "boyut": "80 cm",
-  "malzeme": "",
+  "malzeme": "PPC-Akrilik",
   "taban": "",
   "reflektif": "",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 6.0,
   "color": "",
   "size": "80 cm",
   "dims": "",
@@ -3416,7 +3706,14 @@
    32.0
   ],
   "price_kdv": 4472.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "koli_olcu": [
+   82.0,
+   82.0,
+   13.0
+  ],
+  "koli_adet": 1,
+  "renk": "Turuncu"
  },
  {
   "id": "ZT6060",
@@ -3432,12 +3729,12 @@
   "desi": 6,
   "kod": "ZT6060",
   "boyut": "60 cm",
-  "malzeme": "",
+  "malzeme": "PPC-Akrilik",
   "taban": "",
   "reflektif": "",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 4.5,
   "color": "",
   "size": "60 cm",
   "dims": "",
@@ -3455,7 +3752,14 @@
    24.0
   ],
   "price_kdv": 3536.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "koli_olcu": [
+   62.0,
+   62.0,
+   13.0
+  ],
+  "koli_adet": 1,
+  "renk": "Turuncu"
  },
  {
   "id": "ZT404Y",
@@ -3471,12 +3775,12 @@
   "desi": 2,
   "kod": "ZT404Y",
   "boyut": "",
-  "malzeme": "",
+  "malzeme": "ABS-PC",
   "taban": "",
   "reflektif": "",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 0.9,
   "color": "",
   "size": "",
   "dims": "",
@@ -3489,12 +3793,20 @@
   "f_seri": "Standart",
   "geo": "HACIMLI",
   "olcu3": [
-   25,
+   28.0,
    20,
    12
   ],
   "price_kdv": 1196.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "koli_olcu": [
+   42.0,
+   62.0,
+   48.0
+  ],
+  "koli_adet": 16,
+  "renk": "Sarı",
+  "taban_olcu": "23,5x8 cm"
  },
  {
   "id": "ZT404R",
@@ -3510,12 +3822,12 @@
   "desi": 2,
   "kod": "ZT404R",
   "boyut": "",
-  "malzeme": "",
+  "malzeme": "ABS-PC",
   "taban": "",
   "reflektif": "",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 0.9,
   "color": "",
   "size": "",
   "dims": "",
@@ -3528,12 +3840,20 @@
   "f_seri": "Standart",
   "geo": "HACIMLI",
   "olcu3": [
-   25,
+   28.0,
    20,
    12
   ],
   "price_kdv": 1196.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "koli_olcu": [
+   42.0,
+   62.0,
+   48.0
+  ],
+  "koli_adet": 16,
+  "renk": "Kırmızı",
+  "taban_olcu": "23,5x8 cm"
  },
  {
   "id": "ZT1560",
@@ -3549,12 +3869,12 @@
   "desi": 6,
   "kod": "ZT1560",
   "boyut": "60 cm",
-  "malzeme": "",
+  "malzeme": "PPC",
   "taban": "",
   "reflektif": "",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 2.1,
   "color": "",
   "size": "60 cm",
   "dims": "",
@@ -3567,12 +3887,16 @@
   "f_seri": "Standart",
   "geo": "YASSI",
   "olcu3": [
-   60.0,
+   10.0,
    30.0,
    5
   ],
   "price_kdv": 468.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "renk": "Siyah Gövde / Sarı uyarı                                                                                        Reflektif:  Prizmatik Beyaz",
+  "reflektif_detay": "Prizmatik Beyaz",
+  "montaj": "2 Trifon Vida - 2 Dubel",
+  "taban_olcu": "15x60 cm"
  },
  {
   "id": "ZT15110",
@@ -3588,12 +3912,12 @@
   "desi": 11,
   "kod": "ZT15110",
   "boyut": "110 cm",
-  "malzeme": "",
+  "malzeme": "PPC",
   "taban": "",
   "reflektif": "",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 3.6,
   "color": "",
   "size": "110 cm",
   "dims": "",
@@ -3606,12 +3930,16 @@
   "f_seri": "Standart",
   "geo": "YASSI",
   "olcu3": [
-   110.0,
+   10.0,
    55.0,
    5
   ],
   "price_kdv": 676.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "renk": "Siyah Gövde / Sarı uyarı                                                                                        Reflektif:  Prizmatik Beyaz",
+  "reflektif_detay": "Prizmatik Beyaz",
+  "montaj": "3 Trifon Vida - 3 Dubel",
+  "taban_olcu": "15x110 cm"
  },
  {
   "id": "ZT15190",
@@ -3627,12 +3955,12 @@
   "desi": 18,
   "kod": "ZT15190",
   "boyut": "190 cm",
-  "malzeme": "",
+  "malzeme": "PPC",
   "taban": "",
   "reflektif": "",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 6.2,
   "color": "",
   "size": "190 cm",
   "dims": "",
@@ -3645,12 +3973,16 @@
   "f_seri": "Standart",
   "geo": "YASSI",
   "olcu3": [
-   190.0,
+   10.0,
    95.0,
    5
   ],
   "price_kdv": 1300.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "renk": "Siyah Gövde / Sarı uyarı                                                                                        Reflektif:  Prizmatik Beyaz",
+  "reflektif_detay": "Prizmatik Beyaz",
+  "montaj": "5 Trifon Vida - 5 Dubel",
+  "taban_olcu": "15x190 cm"
  },
  {
   "id": "ZT1560Y",
@@ -3666,12 +3998,12 @@
   "desi": 6,
   "kod": "ZT1560Y",
   "boyut": "60 cm",
-  "malzeme": "",
+  "malzeme": "PPC",
   "taban": "",
   "reflektif": "",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 2.1,
   "color": "",
   "size": "60 cm",
   "dims": "",
@@ -3684,12 +4016,16 @@
   "f_seri": "Standart",
   "geo": "YASSI",
   "olcu3": [
-   60.0,
+   10.0,
    30.0,
    5
   ],
   "price_kdv": 520.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "renk": "Sarı Gövde / Siyah uyarı                                                                                        Reflektif:  Prizmatik Beyaz",
+  "reflektif_detay": "Prizmatik Beyaz",
+  "montaj": "2 Trifon Vida - 2 Dubel",
+  "taban_olcu": "15x60 cm"
  },
  {
   "id": "ZT15110Y",
@@ -3705,12 +4041,12 @@
   "desi": 11,
   "kod": "ZT15110Y",
   "boyut": "110 cm",
-  "malzeme": "",
+  "malzeme": "PPC",
   "taban": "",
   "reflektif": "",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 3.6,
   "color": "",
   "size": "110 cm",
   "dims": "",
@@ -3723,12 +4059,16 @@
   "f_seri": "Standart",
   "geo": "YASSI",
   "olcu3": [
-   110.0,
+   10.0,
    55.0,
    5
   ],
   "price_kdv": 832.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "renk": "Sarı Gövde / Siyah uyarı                                                                                         Reflektif:  Prizmatik Beyaz",
+  "reflektif_detay": "Prizmatik Beyaz",
+  "montaj": "3 Trifon Vida - 3 Dubel",
+  "taban_olcu": "15x110 cm"
  },
  {
   "id": "ZT15190Y",
@@ -3744,12 +4084,12 @@
   "desi": 18,
   "kod": "ZT15190Y",
   "boyut": "190 cm",
-  "malzeme": "",
+  "malzeme": "PPC",
   "taban": "",
   "reflektif": "",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 3.6,
   "color": "",
   "size": "190 cm",
   "dims": "",
@@ -3762,12 +4102,16 @@
   "f_seri": "Standart",
   "geo": "YASSI",
   "olcu3": [
-   190.0,
+   10.0,
    95.0,
    5
   ],
   "price_kdv": 1456.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "renk": "Sarı Gövde / Siyah uyarı                                                                                         Reflektif:  Prizmatik Beyaz",
+  "reflektif_detay": "Prizmatik Beyaz",
+  "montaj": "5 Trifon Vida - 5 Dubel",
+  "taban_olcu": "15x190 cm"
  },
  {
   "id": "ZT90140",
@@ -3783,12 +4127,12 @@
   "desi": 5,
   "kod": "ZT90140",
   "boyut": "",
-  "malzeme": "",
+  "malzeme": "PPC",
   "taban": "",
   "reflektif": "",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 2.3,
   "color": "",
   "size": "",
   "dims": "",
@@ -3806,7 +4150,16 @@
    12
   ],
   "price_kdv": 572.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "koli_olcu": [
+   28.0,
+   89.0,
+   28.0
+  ],
+  "koli_adet": 10,
+  "renk": "Siyah Gövde / Sarı Uyarı",
+  "reflektif_detay": "Prizmatik Beyaz",
+  "montaj": "Ø8 Dübel Ø4x38 Vida ile montaj"
  },
  {
   "id": "ZT90141",
@@ -3822,12 +4175,12 @@
   "desi": 5,
   "kod": "ZT90141",
   "boyut": "",
-  "malzeme": "",
+  "malzeme": "PPC",
   "taban": "",
   "reflektif": "",
   "seri": "EKO",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 2.3,
   "color": "",
   "size": "",
   "dims": "",
@@ -3845,7 +4198,16 @@
    12
   ],
   "price_kdv": 280.8,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "koli_olcu": [
+   28.0,
+   89.0,
+   28.0
+  ],
+  "koli_adet": 10,
+  "renk": "Siyah",
+  "reflektif_detay": "Prizmatik Beyaz veya Sarı",
+  "montaj": "Ø8 Dübel Ø4x38 Vida ile montaj"
  },
  {
   "id": "ZT40400",
@@ -3861,12 +4223,12 @@
   "desi": 10,
   "kod": "ZT40400",
   "boyut": "",
-  "malzeme": "",
+  "malzeme": "PVC",
   "taban": "",
   "reflektif": "",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 5.8,
   "color": "",
   "size": "",
   "dims": "",
@@ -3879,12 +4241,15 @@
   "f_seri": "Standart",
   "geo": "YASSI",
   "olcu3": [
-   25,
+   4.0,
    20,
    12
   ],
   "price_kdv": 1196.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "renk": "Siyah",
+  "montaj": "4 Trifon Vida - 4 Dübel",
+  "taban_olcu": "50x40 cm"
  },
  {
   "id": "ZT40401",
@@ -3900,12 +4265,12 @@
   "desi": 10,
   "kod": "ZT40401",
   "boyut": "",
-  "malzeme": "",
+  "malzeme": "PVC",
   "taban": "",
   "reflektif": "",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 0.75,
   "color": "",
   "size": "",
   "dims": "",
@@ -3918,12 +4283,21 @@
   "f_seri": "Standart",
   "geo": "YASSI",
   "olcu3": [
-   25,
+   4.0,
    20,
    12
   ],
   "price_kdv": 260.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "koli_olcu": [
+   41.0,
+   55.0,
+   19.0
+  ],
+  "koli_adet": 30,
+  "renk": "Siyah",
+  "montaj": "2 Trifon Vida - 2 Dübel",
+  "taban_olcu": "10x40 cm"
  },
  {
   "id": "ZT45600",
@@ -3939,12 +4313,12 @@
   "desi": 10,
   "kod": "ZT45600",
   "boyut": "",
-  "malzeme": "",
+  "malzeme": "PVC",
   "taban": "",
   "reflektif": "",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 9.0,
   "color": "",
   "size": "",
   "dims": "",
@@ -3957,12 +4331,15 @@
   "f_seri": "Standart",
   "geo": "YASSI",
   "olcu3": [
-   25,
+   4.5,
    20,
    12
   ],
   "price_kdv": 1560.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "renk": "Siyah",
+  "montaj": "4 Trifon Vida - 4 Dübel",
+  "taban_olcu": "60x50 cm"
  },
  {
   "id": "ZT45601",
@@ -3978,12 +4355,12 @@
   "desi": 10,
   "kod": "ZT45601",
   "boyut": "",
-  "malzeme": "",
+  "malzeme": "PVC",
   "taban": "",
   "reflektif": "",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 1.75,
   "color": "",
   "size": "",
   "dims": "",
@@ -3996,12 +4373,21 @@
   "f_seri": "Standart",
   "geo": "YASSI",
   "olcu3": [
-   25,
+   4.5,
    20,
    12
   ],
   "price_kdv": 468.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "koli_olcu": [
+   61.0,
+   55.0,
+   14.0
+  ],
+  "koli_adet": 14,
+  "renk": "Siyah",
+  "montaj": "2 Trifon Vida - 2 Dübel",
+  "taban_olcu": "60x15 cm"
  },
  {
   "id": "ZT40300",
@@ -4017,12 +4403,12 @@
   "desi": 10,
   "kod": "ZT40300",
   "boyut": "",
-  "malzeme": "",
+  "malzeme": "PPC",
   "taban": "",
   "reflektif": "kedi gözü",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 1.3,
   "color": "",
   "size": "",
   "dims": "",
@@ -4035,12 +4421,22 @@
   "f_seri": "Standart",
   "geo": "YASSI",
   "olcu3": [
-   25,
+   4.0,
    20,
    12
   ],
   "price_kdv": 384.8,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "koli_olcu": [
+   41.0,
+   55.0,
+   19.0
+  ],
+  "koli_adet": 9,
+  "renk": "Siyah",
+  "reflektif_detay": "6 Adet kedi gözlü lens",
+  "montaj": "4 Trifon Vida - 4 Dübel",
+  "taban_olcu": "33,4x30 cm"
  },
  {
   "id": "ZT40301",
@@ -4056,12 +4452,12 @@
   "desi": 10,
   "kod": "ZT40301",
   "boyut": "",
-  "malzeme": "",
+  "malzeme": "PPC",
   "taban": "",
   "reflektif": "kedi gözü",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 0.25,
   "color": "",
   "size": "",
   "dims": "",
@@ -4074,12 +4470,21 @@
   "f_seri": "Standart",
   "geo": "YASSI",
   "olcu3": [
-   25,
+   4.0,
    20,
    12
   ],
   "price_kdv": 124.8,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "koli_olcu": [
+   41.0,
+   55.0,
+   19.0
+  ],
+  "koli_adet": 40,
+  "renk": "Siyah",
+  "montaj": "2 Trifon Vida - 2 Dübel",
+  "taban_olcu": "11x30 cm"
  },
  {
   "id": "ZT40300Y",
@@ -4095,12 +4500,12 @@
   "desi": 10,
   "kod": "ZT40300Y",
   "boyut": "",
-  "malzeme": "",
+  "malzeme": "PPC",
   "taban": "",
   "reflektif": "kedi gözü",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 1.3,
   "color": "",
   "size": "",
   "dims": "",
@@ -4113,12 +4518,22 @@
   "f_seri": "Standart",
   "geo": "YASSI",
   "olcu3": [
-   25,
+   4.0,
    20,
    12
   ],
   "price_kdv": 384.8,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "koli_olcu": [
+   41.0,
+   55.0,
+   19.0
+  ],
+  "koli_adet": 9,
+  "renk": "Sarı",
+  "reflektif_detay": "6 Adet kedi gözlü lens",
+  "montaj": "4 Trifon Vida - 4 Dübel",
+  "taban_olcu": "33,4x30 cm"
  },
  {
   "id": "ZT40301Y",
@@ -4134,12 +4549,12 @@
   "desi": 10,
   "kod": "ZT40301Y",
   "boyut": "",
-  "malzeme": "",
+  "malzeme": "PPC",
   "taban": "",
   "reflektif": "kedi gözü",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 0.25,
   "color": "",
   "size": "",
   "dims": "",
@@ -4152,12 +4567,21 @@
   "f_seri": "Standart",
   "geo": "YASSI",
   "olcu3": [
-   25,
+   4.0,
    20,
    12
   ],
   "price_kdv": 124.8,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "koli_olcu": [
+   41.0,
+   55.0,
+   19.0
+  ],
+  "koli_adet": 40,
+  "renk": "Sarı",
+  "montaj": "2 Trifon Vida - 2 Dübel",
+  "taban_olcu": "11x30 cm"
  },
  {
   "id": "ZT50250",
@@ -4173,12 +4597,12 @@
   "desi": 10,
   "kod": "ZT50250",
   "boyut": "",
-  "malzeme": "",
+  "malzeme": "PPC",
   "taban": "",
   "reflektif": "",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 1.5,
   "color": "",
   "size": "",
   "dims": "",
@@ -4196,7 +4620,17 @@
    12
   ],
   "price_kdv": 426.4,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "koli_olcu": [
+   41.0,
+   55.0,
+   19.0
+  ],
+  "koli_adet": 8,
+  "renk": "Siyah",
+  "reflektif_detay": "6 Adet kedi gözlü lens",
+  "montaj": "4 Trifon Vida - 4 Dübel",
+  "taban_olcu": "33,4x25 cm"
  },
  {
   "id": "ZT50251",
@@ -4212,12 +4646,12 @@
   "desi": 10,
   "kod": "ZT50251",
   "boyut": "",
-  "malzeme": "",
+  "malzeme": "PPC",
   "taban": "",
   "reflektif": "",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 0.42,
   "color": "",
   "size": "",
   "dims": "",
@@ -4235,7 +4669,16 @@
    12
   ],
   "price_kdv": 208.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "koli_olcu": [
+   41.0,
+   55.0,
+   19.0
+  ],
+  "koli_adet": 8,
+  "renk": "Siyah",
+  "montaj": "2 Trifon Vida - 2 Dübel",
+  "taban_olcu": "33,4x25 cm"
  },
  {
   "id": "ZT50250Y",
@@ -4251,12 +4694,12 @@
   "desi": 10,
   "kod": "ZT50250Y",
   "boyut": "",
-  "malzeme": "",
+  "malzeme": "PPC",
   "taban": "",
   "reflektif": "",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 1.5,
   "color": "",
   "size": "",
   "dims": "",
@@ -4274,7 +4717,17 @@
    12
   ],
   "price_kdv": 426.4,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "koli_olcu": [
+   41.0,
+   55.0,
+   19.0
+  ],
+  "koli_adet": 8,
+  "renk": "Sarı",
+  "reflektif_detay": "6 Adet kedi gözlü lens",
+  "montaj": "4 Trifon Vida - 4 Dübel",
+  "taban_olcu": "33,4x25 cm"
  },
  {
   "id": "ZT50251Y",
@@ -4290,12 +4743,12 @@
   "desi": 10,
   "kod": "ZT50251Y",
   "boyut": "",
-  "malzeme": "",
+  "malzeme": "PPC",
   "taban": "",
   "reflektif": "",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 0.42,
   "color": "",
   "size": "",
   "dims": "",
@@ -4313,7 +4766,16 @@
    12
   ],
   "price_kdv": 208.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "koli_olcu": [
+   41.0,
+   55.0,
+   19.0
+  ],
+  "koli_adet": 8,
+  "renk": "Sarı",
+  "montaj": "2 Trifon Vida - 2 Dübel",
+  "taban_olcu": "33,4x25 cm"
  },
  {
   "id": "ZT50500",
@@ -4329,12 +4791,12 @@
   "desi": 10,
   "kod": "ZT50500",
   "boyut": "50 cm",
-  "malzeme": "",
+  "malzeme": "PPC",
   "taban": "",
   "reflektif": "kedi gözü",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 3.2,
   "color": "",
   "size": "50 cm",
   "dims": "",
@@ -4347,12 +4809,22 @@
   "f_seri": "Standart",
   "geo": "YASSI",
   "olcu3": [
-   50.0,
+   4.5,
    25.0,
    5
   ],
   "price_kdv": 728.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "koli_olcu": [
+   52.0,
+   52.0,
+   25.0
+  ],
+  "koli_adet": 5,
+  "renk": "Siyah",
+  "reflektif_detay": "8 Adet kedi gözlü lens",
+  "montaj": "4 Trifon Vida - 4 Dübel",
+  "taban_olcu": "50x50 cm"
  },
  {
   "id": "ZT50501",
@@ -4368,12 +4840,12 @@
   "desi": 10,
   "kod": "ZT50501",
   "boyut": "50 cm",
-  "malzeme": "",
+  "malzeme": "PPC",
   "taban": "",
   "reflektif": "kedi gözü",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 0.9,
   "color": "",
   "size": "50 cm",
   "dims": "",
@@ -4386,12 +4858,21 @@
   "f_seri": "Standart",
   "geo": "YASSI",
   "olcu3": [
-   50.0,
+   4.5,
    25.0,
    5
   ],
   "price_kdv": 312.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "koli_olcu": [
+   52.0,
+   52.0,
+   25.0
+  ],
+  "koli_adet": 20,
+  "renk": "Siyah",
+  "montaj": "2 Trifon Vida - 2 Dübel",
+  "taban_olcu": "50x20 cm"
  },
  {
   "id": "ZT50500Y",
@@ -4407,12 +4888,12 @@
   "desi": 10,
   "kod": "ZT50500Y",
   "boyut": "50 cm",
-  "malzeme": "",
+  "malzeme": "PPC",
   "taban": "",
   "reflektif": "kedi gözü",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 3.2,
   "color": "",
   "size": "50 cm",
   "dims": "",
@@ -4425,12 +4906,22 @@
   "f_seri": "Standart",
   "geo": "YASSI",
   "olcu3": [
-   50.0,
+   4.5,
    25.0,
    5
   ],
   "price_kdv": 728.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "koli_olcu": [
+   52.0,
+   52.0,
+   25.0
+  ],
+  "koli_adet": 5,
+  "renk": "Siyah",
+  "reflektif_detay": "8 Adet kedi gözlü lens",
+  "montaj": "4 Trifon Vida - 4 Dübel",
+  "taban_olcu": "50x50 cm"
  },
  {
   "id": "ZT50501Y",
@@ -4446,12 +4937,12 @@
   "desi": 10,
   "kod": "ZT50501Y",
   "boyut": "50 cm",
-  "malzeme": "",
+  "malzeme": "PPC",
   "taban": "",
   "reflektif": "kedi gözü",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 0.9,
   "color": "",
   "size": "50 cm",
   "dims": "",
@@ -4464,12 +4955,21 @@
   "f_seri": "Standart",
   "geo": "YASSI",
   "olcu3": [
-   50.0,
+   4.5,
    25.0,
    5
   ],
   "price_kdv": 312.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "koli_olcu": [
+   52.0,
+   52.0,
+   25.0
+  ],
+  "koli_adet": 20,
+  "renk": "Sarı",
+  "montaj": "2 Trifon Vida - 2 Dübel",
+  "taban_olcu": "50x20 cm"
  },
  {
   "id": "ZT5000",
@@ -4485,12 +4985,12 @@
   "desi": 4,
   "kod": "ZT5000",
   "boyut": "",
-  "malzeme": "",
+  "malzeme": "PPC",
   "taban": "",
   "reflektif": "",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 0.82,
   "color": "",
   "size": "",
   "dims": "",
@@ -4503,12 +5003,21 @@
   "f_seri": "Standart",
   "geo": "YASSI",
   "olcu3": [
-   25,
+   61.0,
    20,
    12
   ],
   "price_kdv": 249.6,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "koli_olcu": [
+   64.0,
+   57.0,
+   40.0
+  ],
+  "koli_adet": 10,
+  "renk": "Sarı",
+  "reflektif_detay": "-",
+  "taban_olcu": "30 cm"
  },
  {
   "id": "ZT5001",
@@ -4524,12 +5033,12 @@
   "desi": 4,
   "kod": "ZT5001",
   "boyut": "",
-  "malzeme": "",
+  "malzeme": "PPC",
   "taban": "",
   "reflektif": "",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 0.82,
   "color": "",
   "size": "",
   "dims": "",
@@ -4542,12 +5051,21 @@
   "f_seri": "Standart",
   "geo": "YASSI",
   "olcu3": [
-   25,
+   61.0,
    20,
    12
   ],
   "price_kdv": 312.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "koli_olcu": [
+   64.0,
+   57.0,
+   40.0
+  ],
+  "koli_adet": 10,
+  "renk": "Sarı",
+  "reflektif_detay": "Şeffaf Folyo",
+  "taban_olcu": "30 cm"
  },
  {
   "id": "ZT5002",
@@ -4563,12 +5081,12 @@
   "desi": 4,
   "kod": "ZT5002",
   "boyut": "",
-  "malzeme": "",
+  "malzeme": "PPC",
   "taban": "",
   "reflektif": "",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 0.82,
   "color": "",
   "size": "",
   "dims": "",
@@ -4581,12 +5099,21 @@
   "f_seri": "Standart",
   "geo": "YASSI",
   "olcu3": [
-   25,
+   61.0,
    20,
    12
   ],
   "price_kdv": 322.4,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "koli_olcu": [
+   64.0,
+   57.0,
+   40.0
+  ],
+  "koli_adet": 10,
+  "renk": "Sarı",
+  "reflektif_detay": "Şeffaf Folyo",
+  "taban_olcu": "30 cm"
  },
  {
   "id": "ZT452",
@@ -4680,12 +5207,12 @@
   "desi": 2,
   "kod": "ZT772",
   "boyut": "",
-  "malzeme": "",
+  "malzeme": "PPC",
   "taban": "",
   "reflektif": "",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 0.48,
   "color": "",
   "size": "",
   "dims": "",
@@ -4698,12 +5225,19 @@
   "f_seri": "Standart",
   "geo": "YASSI",
   "olcu3": [
-   25,
+   39.0,
    20,
    12
   ],
   "price_kdv": 135.2,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "koli_olcu": [
+   38.0,
+   56.0,
+   44.0
+  ],
+  "koli_adet": 25,
+  "renk": "Beyaz"
  },
  {
   "id": "ZT772S",
@@ -4797,12 +5331,12 @@
   "desi": 2,
   "kod": "ZT773",
   "boyut": "",
-  "malzeme": "",
+  "malzeme": "PPC",
   "taban": "",
   "reflektif": "",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 0.48,
   "color": "",
   "size": "",
   "dims": "",
@@ -4815,12 +5349,19 @@
   "f_seri": "Standart",
   "geo": "YASSI",
   "olcu3": [
-   25,
+   39.0,
    20,
    12
   ],
   "price_kdv": 260.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "koli_olcu": [
+   38.0,
+   56.0,
+   44.0
+  ],
+  "koli_adet": 25,
+  "renk": "Beyaz"
  },
  {
   "id": "ZT774",
@@ -4836,12 +5377,12 @@
   "desi": 2,
   "kod": "ZT774",
   "boyut": "",
-  "malzeme": "",
+  "malzeme": "PPC",
   "taban": "",
   "reflektif": "",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 0.48,
   "color": "",
   "size": "",
   "dims": "",
@@ -4854,12 +5395,19 @@
   "f_seri": "Standart",
   "geo": "YASSI",
   "olcu3": [
-   25,
+   39.0,
    20,
    12
   ],
   "price_kdv": 260.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "koli_olcu": [
+   38.0,
+   56.0,
+   44.0
+  ],
+  "koli_adet": 25,
+  "renk": "Beyaz"
  },
  {
   "id": "ZT775",
@@ -4875,12 +5423,12 @@
   "desi": 2,
   "kod": "ZT775",
   "boyut": "",
-  "malzeme": "",
+  "malzeme": "PPC",
   "taban": "",
   "reflektif": "",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 0.48,
   "color": "",
   "size": "",
   "dims": "",
@@ -4893,12 +5441,19 @@
   "f_seri": "Standart",
   "geo": "YASSI",
   "olcu3": [
-   25,
+   39.0,
    20,
    12
   ],
   "price_kdv": 260.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "koli_olcu": [
+   38.0,
+   56.0,
+   44.0
+  ],
+  "koli_adet": 25,
+  "renk": "Beyaz"
  },
  {
   "id": "ZT776",
@@ -4914,12 +5469,12 @@
   "desi": 2,
   "kod": "ZT776",
   "boyut": "",
-  "malzeme": "",
+  "malzeme": "PPC",
   "taban": "",
   "reflektif": "",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 0.48,
   "color": "",
   "size": "",
   "dims": "",
@@ -4932,12 +5487,19 @@
   "f_seri": "Standart",
   "geo": "YASSI",
   "olcu3": [
-   25,
+   39.0,
    20,
    12
   ],
   "price_kdv": 260.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "koli_olcu": [
+   38.0,
+   56.0,
+   44.0
+  ],
+  "koli_adet": 25,
+  "renk": "Beyaz"
  },
  {
   "id": "ZT777",
@@ -4953,12 +5515,12 @@
   "desi": 2,
   "kod": "ZT777",
   "boyut": "",
-  "malzeme": "",
+  "malzeme": "PPC",
   "taban": "",
   "reflektif": "",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 0.48,
   "color": "",
   "size": "",
   "dims": "",
@@ -4971,12 +5533,19 @@
   "f_seri": "Standart",
   "geo": "YASSI",
   "olcu3": [
-   25,
+   39.0,
    20,
    12
   ],
   "price_kdv": 260.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "koli_olcu": [
+   38.0,
+   56.0,
+   44.0
+  ],
+  "koli_adet": 25,
+  "renk": "Beyaz"
  },
  {
   "id": "ZT778",
@@ -4992,12 +5561,12 @@
   "desi": 2,
   "kod": "ZT778",
   "boyut": "",
-  "malzeme": "",
+  "malzeme": "PPC",
   "taban": "",
   "reflektif": "",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 0.48,
   "color": "",
   "size": "",
   "dims": "",
@@ -5010,12 +5579,19 @@
   "f_seri": "Standart",
   "geo": "YASSI",
   "olcu3": [
-   25,
+   39.0,
    20,
    12
   ],
   "price_kdv": 260.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "koli_olcu": [
+   38.0,
+   56.0,
+   44.0
+  ],
+  "koli_adet": 25,
+  "renk": "Beyaz"
  },
  {
   "id": "ZT779",
@@ -5031,12 +5607,12 @@
   "desi": 10,
   "kod": "ZT779",
   "boyut": "",
-  "malzeme": "",
+  "malzeme": "PPC",
   "taban": "",
   "reflektif": "",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 0.48,
   "color": "",
   "size": "",
   "dims": "",
@@ -5049,12 +5625,19 @@
   "f_seri": "Standart",
   "geo": "YASSI",
   "olcu3": [
-   25,
+   39.0,
    20,
    12
   ],
   "price_kdv": 260.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "koli_olcu": [
+   38.0,
+   56.0,
+   44.0
+  ],
+  "koli_adet": 25,
+  "renk": "Beyaz"
  },
  {
   "id": "ZT780",
@@ -5070,12 +5653,12 @@
   "desi": 2,
   "kod": "ZT780",
   "boyut": "",
-  "malzeme": "",
+  "malzeme": "PPC",
   "taban": "",
   "reflektif": "",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 0.48,
   "color": "",
   "size": "",
   "dims": "",
@@ -5088,12 +5671,19 @@
   "f_seri": "Standart",
   "geo": "YASSI",
   "olcu3": [
-   25,
+   39.0,
    20,
    12
   ],
   "price_kdv": 260.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "koli_olcu": [
+   38.0,
+   56.0,
+   44.0
+  ],
+  "koli_adet": 25,
+  "renk": "Beyaz"
  },
  {
   "id": "ZT781",
@@ -5148,12 +5738,12 @@
   "desi": 1,
   "kod": "ZT945",
   "boyut": "300x300 mm",
-  "malzeme": "",
+  "malzeme": "PPC",
   "taban": "",
   "reflektif": "",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 0.52,
   "color": "",
   "size": "300x300 mm",
   "dims": "",
@@ -5174,7 +5764,15 @@
    4
   ],
   "price_kdv": 135.2,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "koli_olcu": [
+   42.0,
+   62.0,
+   33.0
+  ],
+  "koli_adet": 25,
+  "renk": "Beyaz",
+  "reflektif_detay": "-"
  },
  {
   "id": "ZT945S",
@@ -5268,12 +5866,12 @@
   "desi": 2,
   "kod": "ZT946",
   "boyut": "",
-  "malzeme": "",
+  "malzeme": "PPC",
   "taban": "",
   "reflektif": "",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 0.52,
   "color": "",
   "size": "",
   "dims": "",
@@ -5286,12 +5884,20 @@
   "f_seri": "Standart",
   "geo": "YASSI",
   "olcu3": [
-   25,
+   300.0,
    20,
    12
   ],
   "price_kdv": 208.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "koli_olcu": [
+   42.0,
+   62.0,
+   33.0
+  ],
+  "koli_adet": 25,
+  "renk": "Beyaz",
+  "reflektif_detay": "-"
  },
  {
   "id": "ZT947",
@@ -5307,12 +5913,12 @@
   "desi": 2,
   "kod": "ZT947",
   "boyut": "",
-  "malzeme": "",
+  "malzeme": "PPC",
   "taban": "",
   "reflektif": "",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 0.52,
   "color": "",
   "size": "",
   "dims": "",
@@ -5325,12 +5931,20 @@
   "f_seri": "Standart",
   "geo": "YASSI",
   "olcu3": [
-   25,
+   300.0,
    20,
    12
   ],
   "price_kdv": 208.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "koli_olcu": [
+   42.0,
+   62.0,
+   33.0
+  ],
+  "koli_adet": 25,
+  "renk": "Beyaz",
+  "reflektif_detay": "-"
  },
  {
   "id": "ZT948",
@@ -5346,12 +5960,12 @@
   "desi": 2,
   "kod": "ZT948",
   "boyut": "",
-  "malzeme": "",
+  "malzeme": "PPC",
   "taban": "",
   "reflektif": "",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 0.52,
   "color": "",
   "size": "",
   "dims": "",
@@ -5364,12 +5978,20 @@
   "f_seri": "Standart",
   "geo": "YASSI",
   "olcu3": [
-   25,
+   300.0,
    20,
    12
   ],
   "price_kdv": 208.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "koli_olcu": [
+   42.0,
+   62.0,
+   33.0
+  ],
+  "koli_adet": 25,
+  "renk": "Beyaz",
+  "reflektif_detay": "-"
  },
  {
   "id": "ZT949",
@@ -5385,12 +6007,12 @@
   "desi": 2,
   "kod": "ZT949",
   "boyut": "",
-  "malzeme": "",
+  "malzeme": "PPC",
   "taban": "",
   "reflektif": "",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 0.52,
   "color": "",
   "size": "",
   "dims": "",
@@ -5403,12 +6025,20 @@
   "f_seri": "Standart",
   "geo": "YASSI",
   "olcu3": [
-   25,
+   300.0,
    20,
    12
   ],
   "price_kdv": 208.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "koli_olcu": [
+   42.0,
+   62.0,
+   33.0
+  ],
+  "koli_adet": 25,
+  "renk": "Beyaz",
+  "reflektif_detay": "-"
  },
  {
   "id": "ZT950",
@@ -5424,12 +6054,12 @@
   "desi": 2,
   "kod": "ZT950",
   "boyut": "",
-  "malzeme": "",
+  "malzeme": "PPC",
   "taban": "",
   "reflektif": "",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 0.52,
   "color": "",
   "size": "",
   "dims": "",
@@ -5442,12 +6072,20 @@
   "f_seri": "Standart",
   "geo": "YASSI",
   "olcu3": [
-   25,
+   300.0,
    20,
    12
   ],
   "price_kdv": 208.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "koli_olcu": [
+   42.0,
+   62.0,
+   33.0
+  ],
+  "koli_adet": 25,
+  "renk": "Beyaz",
+  "reflektif_detay": "-"
  },
  {
   "id": "ZT951",
@@ -5463,12 +6101,12 @@
   "desi": 2,
   "kod": "ZT951",
   "boyut": "",
-  "malzeme": "",
+  "malzeme": "PPC",
   "taban": "",
   "reflektif": "",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 0.52,
   "color": "",
   "size": "",
   "dims": "",
@@ -5481,12 +6119,20 @@
   "f_seri": "Standart",
   "geo": "YASSI",
   "olcu3": [
-   25,
+   300.0,
    20,
    12
   ],
   "price_kdv": 208.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "koli_olcu": [
+   42.0,
+   62.0,
+   33.0
+  ],
+  "koli_adet": 25,
+  "renk": "Beyaz",
+  "reflektif_detay": "-"
  },
  {
   "id": "ZT952",
@@ -5502,12 +6148,12 @@
   "desi": 2,
   "kod": "ZT952",
   "boyut": "",
-  "malzeme": "",
+  "malzeme": "PPC",
   "taban": "",
   "reflektif": "",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 0.52,
   "color": "",
   "size": "",
   "dims": "",
@@ -5520,12 +6166,20 @@
   "f_seri": "Standart",
   "geo": "YASSI",
   "olcu3": [
-   25,
+   300.0,
    20,
    12
   ],
   "price_kdv": 208.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "koli_olcu": [
+   42.0,
+   62.0,
+   33.0
+  ],
+  "koli_adet": 25,
+  "renk": "Beyaz",
+  "reflektif_detay": "-"
  },
  {
   "id": "ZT345",
@@ -5541,12 +6195,12 @@
   "desi": 1,
   "kod": "ZT345",
   "boyut": "340x400 mm",
-  "malzeme": "",
+  "malzeme": "PPC",
   "taban": "",
   "reflektif": "",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 0.65,
   "color": "",
   "size": "340x400 mm",
   "dims": "",
@@ -5567,7 +6221,16 @@
    4
   ],
   "price_kdv": 187.2,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "koli_olcu": [
+   42.0,
+   62.0,
+   38.0
+  ],
+  "koli_adet": 20,
+  "renk": "Beyaz",
+  "reflektif_detay": "-",
+  "taban_olcu": "34 cm"
  },
  {
   "id": "ZT345S",
@@ -5661,12 +6324,12 @@
   "desi": 2,
   "kod": "ZT346",
   "boyut": "",
-  "malzeme": "",
+  "malzeme": "PPC",
   "taban": "",
   "reflektif": "",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 0.65,
   "color": "",
   "size": "",
   "dims": "",
@@ -5679,12 +6342,21 @@
   "f_seri": "Standart",
   "geo": "YASSI",
   "olcu3": [
-   25,
+   40.0,
    20,
    12
   ],
   "price_kdv": 301.6,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "koli_olcu": [
+   42.0,
+   62.0,
+   38.0
+  ],
+  "koli_adet": 20,
+  "renk": "Beyaz",
+  "reflektif_detay": "-",
+  "taban_olcu": "34 cm"
  },
  {
   "id": "ZT347",
@@ -5700,12 +6372,12 @@
   "desi": 2,
   "kod": "ZT347",
   "boyut": "",
-  "malzeme": "",
+  "malzeme": "PPC",
   "taban": "",
   "reflektif": "",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 0.65,
   "color": "",
   "size": "",
   "dims": "",
@@ -5718,12 +6390,21 @@
   "f_seri": "Standart",
   "geo": "YASSI",
   "olcu3": [
-   25,
+   40.0,
    20,
    12
   ],
   "price_kdv": 301.6,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "koli_olcu": [
+   42.0,
+   62.0,
+   38.0
+  ],
+  "koli_adet": 20,
+  "renk": "Beyaz",
+  "reflektif_detay": "-",
+  "taban_olcu": "34 cm"
  },
  {
   "id": "ZT348",
@@ -5739,12 +6420,12 @@
   "desi": 2,
   "kod": "ZT348",
   "boyut": "",
-  "malzeme": "",
+  "malzeme": "PPC",
   "taban": "",
   "reflektif": "",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 0.65,
   "color": "",
   "size": "",
   "dims": "",
@@ -5757,12 +6438,21 @@
   "f_seri": "Standart",
   "geo": "YASSI",
   "olcu3": [
-   25,
+   40.0,
    20,
    12
   ],
   "price_kdv": 301.6,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "koli_olcu": [
+   42.0,
+   62.0,
+   38.0
+  ],
+  "koli_adet": 20,
+  "renk": "Beyaz",
+  "reflektif_detay": "-",
+  "taban_olcu": "34 cm"
  },
  {
   "id": "ZT349",
@@ -5778,12 +6468,12 @@
   "desi": 2,
   "kod": "ZT349",
   "boyut": "",
-  "malzeme": "",
+  "malzeme": "PPC",
   "taban": "",
   "reflektif": "",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 0.65,
   "color": "",
   "size": "",
   "dims": "",
@@ -5796,12 +6486,21 @@
   "f_seri": "Standart",
   "geo": "YASSI",
   "olcu3": [
-   25,
+   40.0,
    20,
    12
   ],
   "price_kdv": 301.6,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "koli_olcu": [
+   42.0,
+   62.0,
+   38.0
+  ],
+  "koli_adet": 20,
+  "renk": "Beyaz",
+  "reflektif_detay": "-",
+  "taban_olcu": "34 cm"
  },
  {
   "id": "ZT350",
@@ -5817,12 +6516,12 @@
   "desi": 2,
   "kod": "ZT350",
   "boyut": "",
-  "malzeme": "",
+  "malzeme": "PPC",
   "taban": "",
   "reflektif": "",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 0.65,
   "color": "",
   "size": "",
   "dims": "",
@@ -5835,12 +6534,21 @@
   "f_seri": "Standart",
   "geo": "YASSI",
   "olcu3": [
-   25,
+   40.0,
    20,
    12
   ],
   "price_kdv": 301.6,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "koli_olcu": [
+   42.0,
+   62.0,
+   38.0
+  ],
+  "koli_adet": 20,
+  "renk": "Beyaz",
+  "reflektif_detay": "-",
+  "taban_olcu": "34 cm"
  },
  {
   "id": "ZT351",
@@ -5856,12 +6564,12 @@
   "desi": 2,
   "kod": "ZT351",
   "boyut": "",
-  "malzeme": "",
+  "malzeme": "PPC",
   "taban": "",
   "reflektif": "",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 0.65,
   "color": "",
   "size": "",
   "dims": "",
@@ -5874,12 +6582,21 @@
   "f_seri": "Standart",
   "geo": "YASSI",
   "olcu3": [
-   25,
+   40.0,
    20,
    12
   ],
   "price_kdv": 301.6,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "koli_olcu": [
+   42.0,
+   62.0,
+   38.0
+  ],
+  "koli_adet": 20,
+  "renk": "Beyaz",
+  "reflektif_detay": "-",
+  "taban_olcu": "34 cm"
  },
  {
   "id": "ZT352",
@@ -5895,12 +6612,12 @@
   "desi": 2,
   "kod": "ZT352",
   "boyut": "",
-  "malzeme": "",
+  "malzeme": "PPC",
   "taban": "",
   "reflektif": "",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 0.65,
   "color": "",
   "size": "",
   "dims": "",
@@ -5913,12 +6630,21 @@
   "f_seri": "Standart",
   "geo": "YASSI",
   "olcu3": [
-   25,
+   40.0,
    20,
    12
   ],
   "price_kdv": 301.6,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "koli_olcu": [
+   42.0,
+   62.0,
+   38.0
+  ],
+  "koli_adet": 20,
+  "renk": "Beyaz",
+  "reflektif_detay": "-",
+  "taban_olcu": "34 cm"
  },
  {
   "id": "ZT353",
@@ -5934,12 +6660,12 @@
   "desi": 2,
   "kod": "ZT353",
   "boyut": "",
-  "malzeme": "",
+  "malzeme": "PPC",
   "taban": "",
   "reflektif": "",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 0.65,
   "color": "",
   "size": "",
   "dims": "",
@@ -5952,12 +6678,21 @@
   "f_seri": "Standart",
   "geo": "YASSI",
   "olcu3": [
-   25,
+   40.0,
    20,
    12
   ],
   "price_kdv": 301.6,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "koli_olcu": [
+   42.0,
+   62.0,
+   38.0
+  ],
+  "koli_adet": 20,
+  "renk": "Beyaz",
+  "reflektif_detay": "-",
+  "taban_olcu": "34 cm"
  },
  {
   "id": "ZT354",
@@ -5973,12 +6708,12 @@
   "desi": 2,
   "kod": "ZT354",
   "boyut": "",
-  "malzeme": "",
+  "malzeme": "PPC",
   "taban": "",
   "reflektif": "",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 0.65,
   "color": "",
   "size": "",
   "dims": "",
@@ -5991,12 +6726,21 @@
   "f_seri": "Standart",
   "geo": "YASSI",
   "olcu3": [
-   25,
+   40.0,
    20,
    12
   ],
   "price_kdv": 301.6,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "koli_olcu": [
+   42.0,
+   62.0,
+   38.0
+  ],
+  "koli_adet": 20,
+  "renk": "Beyaz",
+  "reflektif_detay": "-",
+  "taban_olcu": "34 cm"
  },
  {
   "id": "ZT355",
@@ -6012,12 +6756,12 @@
   "desi": 2,
   "kod": "ZT355",
   "boyut": "",
-  "malzeme": "",
+  "malzeme": "PPC",
   "taban": "",
   "reflektif": "",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 0.65,
   "color": "",
   "size": "",
   "dims": "",
@@ -6030,12 +6774,21 @@
   "f_seri": "Standart",
   "geo": "YASSI",
   "olcu3": [
-   25,
+   40.0,
    20,
    12
   ],
   "price_kdv": 301.6,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "koli_olcu": [
+   42.0,
+   62.0,
+   38.0
+  ],
+  "koli_adet": 20,
+  "renk": "Beyaz",
+  "reflektif_detay": "-",
+  "taban_olcu": "34 cm"
  },
  {
   "id": "ZT356",
@@ -6051,12 +6804,12 @@
   "desi": 2,
   "kod": "ZT356",
   "boyut": "",
-  "malzeme": "",
+  "malzeme": "PPC",
   "taban": "",
   "reflektif": "",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 0.65,
   "color": "",
   "size": "",
   "dims": "",
@@ -6069,12 +6822,21 @@
   "f_seri": "Standart",
   "geo": "YASSI",
   "olcu3": [
-   25,
+   40.0,
    20,
    12
   ],
   "price_kdv": 301.6,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "koli_olcu": [
+   42.0,
+   62.0,
+   38.0
+  ],
+  "koli_adet": 20,
+  "renk": "Beyaz",
+  "reflektif_detay": "-",
+  "taban_olcu": "34 cm"
  },
  {
   "id": "ZT357",
@@ -6090,12 +6852,12 @@
   "desi": 2,
   "kod": "ZT357",
   "boyut": "",
-  "malzeme": "",
+  "malzeme": "PPC",
   "taban": "",
   "reflektif": "",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 0.65,
   "color": "",
   "size": "",
   "dims": "",
@@ -6108,12 +6870,21 @@
   "f_seri": "Standart",
   "geo": "YASSI",
   "olcu3": [
-   25,
+   40.0,
    20,
    12
   ],
   "price_kdv": 301.6,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "koli_olcu": [
+   42.0,
+   62.0,
+   38.0
+  ],
+  "koli_adet": 20,
+  "renk": "Beyaz",
+  "reflektif_detay": "-",
+  "taban_olcu": "34 cm"
  },
  {
   "id": "ZT358",
@@ -6129,12 +6900,12 @@
   "desi": 2,
   "kod": "ZT358",
   "boyut": "",
-  "malzeme": "",
+  "malzeme": "PPC",
   "taban": "",
   "reflektif": "",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 0.65,
   "color": "",
   "size": "",
   "dims": "",
@@ -6147,12 +6918,21 @@
   "f_seri": "Standart",
   "geo": "YASSI",
   "olcu3": [
-   25,
+   40.0,
    20,
    12
   ],
   "price_kdv": 301.6,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "koli_olcu": [
+   42.0,
+   62.0,
+   38.0
+  ],
+  "koli_adet": 20,
+  "renk": "Beyaz",
+  "reflektif_detay": "-",
+  "taban_olcu": "34 cm"
  },
  {
   "id": "ZT359",
@@ -6168,12 +6948,12 @@
   "desi": 2,
   "kod": "ZT359",
   "boyut": "",
-  "malzeme": "",
+  "malzeme": "PPC",
   "taban": "",
   "reflektif": "",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 0.65,
   "color": "",
   "size": "",
   "dims": "",
@@ -6186,12 +6966,21 @@
   "f_seri": "Standart",
   "geo": "YASSI",
   "olcu3": [
-   25,
+   40.0,
    20,
    12
   ],
   "price_kdv": 301.6,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "koli_olcu": [
+   42.0,
+   62.0,
+   38.0
+  ],
+  "koli_adet": 20,
+  "renk": "Beyaz",
+  "reflektif_detay": "-",
+  "taban_olcu": "34 cm"
  },
  {
   "id": "ZT537",
@@ -6207,12 +6996,12 @@
   "desi": 2,
   "kod": "ZT537",
   "boyut": "280 mm",
-  "malzeme": "",
+  "malzeme": "PPC",
   "taban": "",
   "reflektif": "",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 0.34,
   "color": "",
   "size": "280 mm",
   "dims": "",
@@ -6225,12 +7014,20 @@
   "f_seri": "Standart",
   "geo": "YASSI",
   "olcu3": [
-   25,
+   28.0,
    20,
    12
   ],
   "price_kdv": 104.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "koli_olcu": [
+   37.0,
+   54.0,
+   28.0
+  ],
+  "koli_adet": 25,
+  "renk": "Beyaz",
+  "reflektif_detay": "-"
  },
  {
   "id": "ZT537S",
@@ -6324,12 +7121,12 @@
   "desi": 2,
   "kod": "ZT538",
   "boyut": "",
-  "malzeme": "",
+  "malzeme": "PPC",
   "taban": "",
   "reflektif": "",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 0.34,
   "color": "",
   "size": "",
   "dims": "",
@@ -6342,12 +7139,20 @@
   "f_seri": "Standart",
   "geo": "YASSI",
   "olcu3": [
-   25,
+   28.0,
    20,
    12
   ],
   "price_kdv": 176.8,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "koli_olcu": [
+   37.0,
+   54.0,
+   28.0
+  ],
+  "koli_adet": 25,
+  "renk": "Beyaz",
+  "reflektif_detay": "Tek yön"
  },
  {
   "id": "ZT539",
@@ -6363,12 +7168,12 @@
   "desi": 2,
   "kod": "ZT539",
   "boyut": "",
-  "malzeme": "",
+  "malzeme": "PPC",
   "taban": "",
   "reflektif": "",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 0.34,
   "color": "",
   "size": "",
   "dims": "",
@@ -6381,12 +7186,20 @@
   "f_seri": "Standart",
   "geo": "YASSI",
   "olcu3": [
-   25,
+   28.0,
    20,
    12
   ],
   "price_kdv": 176.8,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "koli_olcu": [
+   37.0,
+   54.0,
+   28.0
+  ],
+  "koli_adet": 25,
+  "renk": "Beyaz",
+  "reflektif_detay": "Tek yön"
  },
  {
   "id": "ZT540",
@@ -6402,12 +7215,12 @@
   "desi": 2,
   "kod": "ZT540",
   "boyut": "",
-  "malzeme": "",
+  "malzeme": "PPC",
   "taban": "",
   "reflektif": "",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 0.34,
   "color": "",
   "size": "",
   "dims": "",
@@ -6420,12 +7233,20 @@
   "f_seri": "Standart",
   "geo": "YASSI",
   "olcu3": [
-   25,
+   28.0,
    20,
    12
   ],
   "price_kdv": 176.8,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "koli_olcu": [
+   37.0,
+   54.0,
+   28.0
+  ],
+  "koli_adet": 25,
+  "renk": "Beyaz",
+  "reflektif_detay": "Tek yön"
  },
  {
   "id": "ZT541",
@@ -6441,12 +7262,12 @@
   "desi": 2,
   "kod": "ZT541",
   "boyut": "",
-  "malzeme": "",
+  "malzeme": "PPC",
   "taban": "",
   "reflektif": "",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 0.34,
   "color": "",
   "size": "",
   "dims": "",
@@ -6459,12 +7280,20 @@
   "f_seri": "Standart",
   "geo": "YASSI",
   "olcu3": [
-   25,
+   28.0,
    20,
    12
   ],
   "price_kdv": 176.8,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "koli_olcu": [
+   37.0,
+   54.0,
+   28.0
+  ],
+  "koli_adet": 25,
+  "renk": "Beyaz",
+  "reflektif_detay": "Tek yön"
  },
  {
   "id": "ZT542",
@@ -6519,12 +7348,12 @@
   "desi": 2,
   "kod": "ZT543",
   "boyut": "",
-  "malzeme": "",
+  "malzeme": "PPC",
   "taban": "",
   "reflektif": "",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 0.34,
   "color": "",
   "size": "",
   "dims": "",
@@ -6537,12 +7366,20 @@
   "f_seri": "Standart",
   "geo": "YASSI",
   "olcu3": [
-   25,
+   28.0,
    20,
    12
   ],
   "price_kdv": 176.8,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "koli_olcu": [
+   37.0,
+   54.0,
+   28.0
+  ],
+  "koli_adet": 25,
+  "renk": "Beyaz",
+  "reflektif_detay": "Tek yön"
  },
  {
   "id": "ZT544",
@@ -6558,12 +7395,12 @@
   "desi": 2,
   "kod": "ZT544",
   "boyut": "",
-  "malzeme": "",
+  "malzeme": "PPC",
   "taban": "",
   "reflektif": "",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 0.34,
   "color": "",
   "size": "",
   "dims": "",
@@ -6576,12 +7413,20 @@
   "f_seri": "Standart",
   "geo": "YASSI",
   "olcu3": [
-   25,
+   28.0,
    20,
    12
   ],
   "price_kdv": 176.8,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "koli_olcu": [
+   37.0,
+   54.0,
+   28.0
+  ],
+  "koli_adet": 25,
+  "renk": "Beyaz",
+  "reflektif_detay": "Tek yön"
  },
  {
   "id": "ZT545D",
@@ -6597,12 +7442,12 @@
   "desi": 2,
   "kod": "ZT545D",
   "boyut": "",
-  "malzeme": "",
+  "malzeme": "PPC",
   "taban": "",
   "reflektif": "",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 0.34,
   "color": "",
   "size": "",
   "dims": "",
@@ -6615,12 +7460,20 @@
   "f_seri": "Standart",
   "geo": "YASSI",
   "olcu3": [
-   25,
+   28.0,
    20,
    12
   ],
   "price_kdv": 249.35,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "koli_olcu": [
+   37.0,
+   54.0,
+   28.0
+  ],
+  "koli_adet": 25,
+  "renk": "Beyaz",
+  "reflektif_detay": "Çift yön"
  },
  {
   "id": "ZT546",
@@ -6636,12 +7489,12 @@
   "desi": 2,
   "kod": "ZT546",
   "boyut": "",
-  "malzeme": "",
+  "malzeme": "PPC",
   "taban": "",
   "reflektif": "",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 0.34,
   "color": "",
   "size": "",
   "dims": "",
@@ -6654,12 +7507,20 @@
   "f_seri": "Standart",
   "geo": "YASSI",
   "olcu3": [
-   25,
+   28.0,
    20,
    12
   ],
   "price_kdv": 176.8,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "koli_olcu": [
+   37.0,
+   54.0,
+   28.0
+  ],
+  "koli_adet": 25,
+  "renk": "Beyaz",
+  "reflektif_detay": "Tek yön"
  },
  {
   "id": "ZT547",
@@ -6675,12 +7536,12 @@
   "desi": 2,
   "kod": "ZT547",
   "boyut": "",
-  "malzeme": "",
+  "malzeme": "PPC",
   "taban": "",
   "reflektif": "",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 0.34,
   "color": "",
   "size": "",
   "dims": "",
@@ -6693,12 +7554,20 @@
   "f_seri": "Standart",
   "geo": "YASSI",
   "olcu3": [
-   25,
+   28.0,
    20,
    12
   ],
   "price_kdv": 176.8,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "koli_olcu": [
+   37.0,
+   54.0,
+   28.0
+  ],
+  "koli_adet": 25,
+  "renk": "Beyaz",
+  "reflektif_detay": "Tek yön"
  },
  {
   "id": "ZT637",
@@ -7182,12 +8051,12 @@
   "desi": 3,
   "kod": "ZT9003",
   "boyut": "",
-  "malzeme": "",
+  "malzeme": "TPU",
   "taban": "",
   "reflektif": "",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 0.35,
   "color": "",
   "size": "",
   "dims": "",
@@ -7205,7 +8074,16 @@
    12
   ],
   "price_kdv": 166.4,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "koli_olcu": [
+   33.0,
+   33.0,
+   25.0
+  ],
+  "koli_adet": 25,
+  "renk": "Sarı",
+  "reflektif_detay": "-",
+  "taban_olcu": "30x30 cm"
  },
  {
   "id": "ZT9004",
@@ -7221,12 +8099,12 @@
   "desi": 3,
   "kod": "ZT9004",
   "boyut": "",
-  "malzeme": "",
+  "malzeme": "TPU",
   "taban": "",
   "reflektif": "",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 0.36,
   "color": "",
   "size": "",
   "dims": "",
@@ -7244,7 +8122,16 @@
    12
   ],
   "price_kdv": 166.4,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "koli_olcu": [
+   33.0,
+   33.0,
+   25.0
+  ],
+  "koli_adet": 25,
+  "renk": "Sarı",
+  "reflektif_detay": "-",
+  "taban_olcu": "30x30 cm"
  },
  {
   "id": "ZT9003B",
@@ -7338,12 +8225,12 @@
   "desi": 3,
   "kod": "ZT9005",
   "boyut": "40 cm",
-  "malzeme": "",
+  "malzeme": "TPU",
   "taban": "",
   "reflektif": "",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 0.66,
   "color": "",
   "size": "40 cm",
   "dims": "",
@@ -7361,7 +8248,16 @@
    5
   ],
   "price_kdv": 249.6,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "koli_olcu": [
+   42.0,
+   42.0,
+   23.0
+  ],
+  "koli_adet": 25,
+  "renk": "Sarı",
+  "reflektif_detay": "-",
+  "taban_olcu": "40x40 cm"
  },
  {
   "id": "ZT9006",
@@ -7377,12 +8273,12 @@
   "desi": 3,
   "kod": "ZT9006",
   "boyut": "40 cm",
-  "malzeme": "",
+  "malzeme": "TPU",
   "taban": "",
   "reflektif": "",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 0.55,
   "color": "",
   "size": "40 cm",
   "dims": "",
@@ -7400,7 +8296,16 @@
    5
   ],
   "price_kdv": 249.6,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "koli_olcu": [
+   42.0,
+   42.0,
+   23.0
+  ],
+  "koli_adet": 25,
+  "renk": "Sarı",
+  "reflektif_detay": "-",
+  "taban_olcu": "40x40 cm"
  },
  {
   "id": "ZT9005B",
@@ -7494,12 +8399,12 @@
   "desi": 1,
   "kod": "ZT8001",
   "boyut": "",
-  "malzeme": "",
+  "malzeme": "PPC-PC",
   "taban": "",
   "reflektif": "kedi gözü",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 0.11,
   "color": "",
   "size": "",
   "dims": "",
@@ -7512,12 +8417,22 @@
   "f_seri": "Standart",
   "geo": "KUCUK",
   "olcu3": [
-   25,
+   2.5,
    20,
    12
   ],
   "price_kdv": 88.4,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "koli_olcu": [
+   38.0,
+   56.0,
+   23.0
+  ],
+  "koli_adet": 100,
+  "renk": "Sarı",
+  "reflektif_detay": "6 Adet kedi gözlü lens",
+  "montaj": "1 Adet - Ø7,5x80  cm Buldex vida",
+  "taban_olcu": "Ø14 cm"
  },
  {
   "id": "ZT8002",
@@ -7533,12 +8448,12 @@
   "desi": 1,
   "kod": "ZT8002",
   "boyut": "",
-  "malzeme": "",
+  "malzeme": "PPC-PC",
   "taban": "",
   "reflektif": "kedi gözü",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 0.17,
   "color": "",
   "size": "",
   "dims": "",
@@ -7551,12 +8466,22 @@
   "f_seri": "Standart",
   "geo": "KUCUK",
   "olcu3": [
-   25,
+   2.8,
    20,
    12
   ],
   "price_kdv": 104.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "koli_olcu": [
+   38.0,
+   56.0,
+   23.0
+  ],
+  "koli_adet": 84,
+  "renk": "Sarı",
+  "reflektif_detay": "6 Adet kedi gözlü lens",
+  "montaj": "1 Adet - Ø7,5x80  cm Buldex vida",
+  "taban_olcu": "21x9,7 cm"
  },
  {
   "id": "ZT501A",
@@ -7572,12 +8497,12 @@
   "desi": 5,
   "kod": "ZT501A",
   "boyut": "",
-  "malzeme": "",
+  "malzeme": "PP",
   "taban": "",
   "reflektif": "",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 2.5,
   "color": "",
   "size": "",
   "dims": "",
@@ -7595,7 +8520,15 @@
    12
   ],
   "price_kdv": 1404.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "koli_olcu": [
+   37.0,
+   54.0,
+   29.0
+  ],
+  "koli_adet": 4,
+  "renk": "Kırmızı / Beyaz",
+  "taban_olcu": "Ø8  mm Kalınlık"
  },
  {
   "id": "ZT502A",
@@ -7611,12 +8544,12 @@
   "desi": 5,
   "kod": "ZT502A",
   "boyut": "",
-  "malzeme": "",
+  "malzeme": "PP",
   "taban": "",
   "reflektif": "",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 2.5,
   "color": "",
   "size": "",
   "dims": "",
@@ -7634,7 +8567,15 @@
    12
   ],
   "price_kdv": 1456.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "koli_olcu": [
+   37.0,
+   54.0,
+   29.0
+  ],
+  "koli_adet": 4,
+  "renk": "Yeşil / Beyaz",
+  "taban_olcu": "Ø8  mm Kalınlık"
  },
  {
   "id": "ZT503A",
@@ -7650,12 +8591,12 @@
   "desi": 5,
   "kod": "ZT503A",
   "boyut": "",
-  "malzeme": "",
+  "malzeme": "PP",
   "taban": "",
   "reflektif": "",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 2.5,
   "color": "",
   "size": "",
   "dims": "",
@@ -7673,7 +8614,15 @@
    12
   ],
   "price_kdv": 1560.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "koli_olcu": [
+   37.0,
+   54.0,
+   29.0
+  ],
+  "koli_adet": 4,
+  "renk": "Siyah / Beyaz",
+  "taban_olcu": "Ø8  mm Kalınlık"
  },
  {
   "id": "ZT511A",
@@ -7689,12 +8638,12 @@
   "desi": 5,
   "kod": "ZT511A",
   "boyut": "",
-  "malzeme": "",
+  "malzeme": "PP",
   "taban": "",
   "reflektif": "",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 1.8,
   "color": "",
   "size": "",
   "dims": "",
@@ -7712,7 +8661,15 @@
    12
   ],
   "price_kdv": 780.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "koli_olcu": [
+   37.0,
+   54.0,
+   29.0
+  ],
+  "koli_adet": 12,
+  "renk": "Kırmızı / Beyaz",
+  "taban_olcu": "Ø6  mm Kalınlık"
  },
  {
   "id": "ZT512A",
@@ -7728,12 +8685,12 @@
   "desi": 5,
   "kod": "ZT512A",
   "boyut": "",
-  "malzeme": "",
+  "malzeme": "PP",
   "taban": "",
   "reflektif": "",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 1.8,
   "color": "",
   "size": "",
   "dims": "",
@@ -7751,7 +8708,15 @@
    12
   ],
   "price_kdv": 832.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "koli_olcu": [
+   37.0,
+   54.0,
+   29.0
+  ],
+  "koli_adet": 12,
+  "renk": "Yeşil / Beyaz",
+  "taban_olcu": "Ø6 mm Kalınlık"
  },
  {
   "id": "ZT513A",
@@ -7767,12 +8732,12 @@
   "desi": 5,
   "kod": "ZT513A",
   "boyut": "",
-  "malzeme": "",
+  "malzeme": "PP",
   "taban": "",
   "reflektif": "",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 1.8,
   "color": "",
   "size": "",
   "dims": "",
@@ -7790,7 +8755,15 @@
    12
   ],
   "price_kdv": 884.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "koli_olcu": [
+   37.0,
+   54.0,
+   29.0
+  ],
+  "koli_adet": 12,
+  "renk": "Siyah/ Sarı",
+  "taban_olcu": "Ø6 mm Kalınlık"
  },
  {
   "id": "ZT80A",
@@ -7806,12 +8779,12 @@
   "desi": 1,
   "kod": "ZT80A",
   "boyut": "110 mm",
-  "malzeme": "",
+  "malzeme": "ST37",
   "taban": "",
   "reflektif": "",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 0.06,
   "color": "",
   "size": "110 mm",
   "dims": "",
@@ -7832,7 +8805,9 @@
    12
   ],
   "price_kdv": 13.52,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "renk": "Galvanizli",
+  "taban_olcu": "M10"
  },
  {
   "id": "ZT90A",
@@ -7848,12 +8823,12 @@
   "desi": 1,
   "kod": "ZT90A",
   "boyut": "",
-  "malzeme": "Plastik",
+  "malzeme": "PE",
   "taban": "",
   "reflektif": "",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 0.01,
   "color": "",
   "size": "",
   "dims": "",
@@ -7874,7 +8849,9 @@
    12
   ],
   "price_kdv": 6.24,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "renk": "Siyah,Gri",
+  "taban_olcu": "Ø16  mm"
  },
  {
   "id": "ZT100A",
@@ -7890,12 +8867,12 @@
   "desi": 1,
   "kod": "ZT100A",
   "boyut": "",
-  "malzeme": "",
+  "malzeme": "PPC",
   "taban": "",
   "reflektif": "",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 0.09,
   "color": "",
   "size": "",
   "dims": "",
@@ -7908,12 +8885,14 @@
   "f_seri": "Standart",
   "geo": "BORU",
   "olcu3": [
-   25,
+   6.6,
    12,
    12
   ],
   "price_kdv": 41.6,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "renk": "siyah",
+  "taban_olcu": "80 Ø mm"
  },
  {
   "id": "ZT330A",
@@ -7929,12 +8908,12 @@
   "desi": 1,
   "kod": "ZT330A",
   "boyut": "",
-  "malzeme": "Plastik",
+  "malzeme": "PPC",
   "taban": "",
   "reflektif": "",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 0.01,
   "color": "",
   "size": "",
   "dims": "",
@@ -7952,7 +8931,8 @@
    12
   ],
   "price_kdv": 5.2,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "renk": "Siyah"
  },
  {
   "id": "ZT330A-W",
@@ -8007,12 +8987,12 @@
   "desi": 1,
   "kod": "ZT102A",
   "boyut": "",
-  "malzeme": "",
+  "malzeme": "PPC",
   "taban": "",
   "reflektif": "",
   "seri": "STANDART",
   "varyant": "",
-  "agirlik_kg": 0,
+  "agirlik_kg": 0.05,
   "color": "",
   "size": "",
   "dims": "",
@@ -8030,7 +9010,9 @@
    12
   ],
   "price_kdv": 13.52,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "renk": "Turuncu",
+  "taban_olcu": "Ø  mm"
  },
  {
   "id": "ZT102A-B",

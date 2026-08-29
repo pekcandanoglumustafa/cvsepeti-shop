@@ -46,7 +46,13 @@ export default async function Urun({ params }: { params: Promise<{ slug: string 
     ["Reflektif", p.reflektif ? (/^\d+$/.test(p.reflektif) ? `${p.reflektif} adet bant` : p.reflektif) : ""],
     ["Varyant", p.varyant],
     ["Seri", p.seri === "EKO" ? "Ekonomik" : "Standart"],
+    ["Taban ölçüsü", (p as any).taban_olcu || ""],
+    ["Renk", (p as any).renk || ""],
+    ["Reflektif detay", (p as any).reflektif_detay || ""],
+    ["Montaj", (p as any).montaj || ""],
     ["Ağırlık", p.agirlik_kg ? `${p.agirlik_kg} kg` : ""],
+    ["Koli içi adet", (p as any).koli_adet ? `${(p as any).koli_adet} adet` : ""],
+    ["Koli ölçüsü", (p as any).koli_olcu ? `${(p as any).koli_olcu.join(" × ")} cm` : ""],
     ["Kargo desisi", `${p.desi} desi`],
   ] as [string,string][]).filter(([, v]) => v);
 

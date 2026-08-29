@@ -18,6 +18,8 @@ export type CartItem = {
   geo: string;
   agirlik_kg: number;
   agirlikli?: boolean;
+  koli_olcu?: number[];
+  koli_adet?: number;
 };
 
 export type KargoOdeme = "pesin" | "karsi";
@@ -89,6 +91,8 @@ export const useCart = create<CartState>()(
             geo: (i.geo || "HACIMLI") as any,
             agirlik_kg: i.agirlik_kg || 0,
             agirlikli: i.agirlikli,
+            koli_olcu: i.koli_olcu,
+            koli_adet: i.koli_adet,
             adet: i.qty,
           }))
         ),

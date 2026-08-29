@@ -22,6 +22,8 @@ export type SepetSatiri = {
   agirlik_kg: number;
   adet: number;
   agirlikli?: boolean;  // ağırlık tabanlı koni — iç içe geçmez
+  koli_olcu?: number[]; // üretici koli ölçüsü [en, boy, yük] cm
+  koli_adet?: number;   // koli içi adet
 };
 
 /** iç içe geçen ürünlerde her ek adedin eklediği yükseklik oranı */
@@ -47,8 +49,26 @@ const VERIM: Record<Geo, number> = {
 const BOLEN = 5000;          // Yurtiçi Kargo kendi formülü: hacim(dm³)/5 = (ExBxY)/5000
 const KOLI_PAYI = 1.12;      // koli duvarı + dolgu
 
-/** bir satırın kapladığı hacim (cm³) */
-export function satirHacim({ olcu3, geo, adet, agirlikli }: SepetSatiri) {
+/**
+ * Bir satırın kapladığı hacim (cm³).
+ * Üretici koli ölçüsü biliniyorsa gerçek koli hesabı yapılır — en doğru yöntem.
+ * Bilinmiyorsa geometri sınıfına göre tahmin edilir.
+ */
+export function satirHacim({ olcu3, geo, adet, agirlikli, koli_olcu, koli_adet }: SepetSatiri) {
+  // --- GERÇEK KOLİ HESABI ---
+  // Tam koliler üreticinin koli hacmiyle, artan adet ise küçük pakette gider.
+  if (koli_olcu && koli_olcu.length === 3 && koli_adet && koli_adet > 0) {
+    const koliHacim = koli_olcu[0] * koli_olcu[1] * koli_olcu[2];
+    const n = Math.max(1, adet);
+    const tamKoli = Math.floor(n / koli_adet);
+    const kalan = n % koli_adet;
+    const kalanHacim = kalan > 0 ? tahminiHacim({ olcu3, geo, adet: kalan, agirlikli }) : 0;
+    return tamKoli * koliHacim + kalanHacim;
+  }
+  return tahminiHacim({ olcu3, geo, adet, agirlikli });
+}
+
+function tahminiHacim({ olcu3, geo, adet, agirlikli }: Omit<SepetSatiri, "agirlik_kg"> & { agirlik_kg?: number }) {
   const [a, b, c] = olcu3.length >= 3 ? olcu3 : [25, 20, 12];
   const n = Math.max(1, adet);
   // ağırlık tabanlı koniler iç içe geçmez — gerçek gönderi verisiyle kalibre edildi

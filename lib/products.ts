@@ -32,6 +32,12 @@ export type Product = {
   olcu3: number[];
   geo: string;
   agirlikli?: boolean;
+  koli_olcu?: number[];
+  koli_adet?: number;
+  renk?: string;
+  montaj?: string;
+  taban_olcu?: string;
+  reflektif_detay?: string;
   tedarikci: string;
 };
 

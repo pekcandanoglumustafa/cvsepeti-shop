@@ -70,6 +70,14 @@ export function urunSSS(p: Product): { s: string; c: string }[] {
       : `1 adet ${p.name} ${desi} desi tutar, kargo ücreti ${tl(kargoUcreti(desi))}'dir. Birden fazla adet alındığında ürünler tek koliye istiflendiği için kargo bedeli adet başına orantılı artmaz. Kargoyu ödeme adımında peşin ödeyebilir veya karşı ödemeli gönderebilirsiniz.`,
   });
 
+  const ka = (p as any).koli_adet;
+  if (ka) {
+    q.push({
+      s: `${p.name} kaç adetlik koli halinde gelir?`,
+      c: `Üretici kolisinde ${ka} adet bulunur${(p as any).koli_olcu ? `, koli ölçüsü ${(p as any).koli_olcu.join(" × ")} cm'dir` : ""}. ${ka} adet ve katlarında sipariş verildiğinde ürünler orijinal kolisinde gönderilir; kargo maliyeti adet başına düşer.`,
+    });
+  }
+
   q.push({
     s: `${p.name} için fatura kesiliyor mu?`,
     c: `Evet. Bireysel veya kurumsal fatura kesilir. Kurumsal fatura için ödeme adımında firma unvanı, vergi dairesi ve vergi numarası girilir. Fatura e-posta adresinize gönderilir.`,
