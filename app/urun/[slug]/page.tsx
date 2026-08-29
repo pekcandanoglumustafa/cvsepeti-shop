@@ -80,7 +80,13 @@ export default async function Urun({ params }: { params: Promise<{ slug: string 
             Sipariş için görüşmenize gerek yok — sepete ekleyip kartla ödeyin.
           </p>
 
-          <div style={{ marginTop: 26 }}>
+          <div className="guven-satir" style={{ marginTop: 18, display: "flex", gap: 16, flexWrap: "wrap" }}>
+            {["iyzico ile güvenli ödeme", "1-2 iş gününde kargoda", "14 gün cayma hakkı"].map((t) => (
+              <span key={t} className="eyebrow" style={{ color: "var(--muted)" }}>✓ {t}</span>
+            ))}
+          </div>
+
+          <div style={{ marginTop: 22 }}>
             <KargoBilgi product={p} />
           </div>
 

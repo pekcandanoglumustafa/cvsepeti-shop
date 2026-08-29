@@ -31,6 +31,7 @@ export type Product = {
   f_seri: string;
   olcu3: number[];
   geo: string;
+  agirlikli?: boolean;
   tedarikci: string;
 };
 

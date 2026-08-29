@@ -69,8 +69,8 @@
   "geo": "BORU",
   "olcu3": [
    30.0,
-   9,
-   9
+   12,
+   12
   ],
   "price_kdv": 405.6,
   "kdv_orani": 0.2
@@ -108,8 +108,8 @@
   "geo": "BORU",
   "olcu3": [
    45.0,
-   9,
-   9
+   15,
+   15
   ],
   "price_kdv": 499.2,
   "kdv_orani": 0.2
@@ -147,8 +147,8 @@
   "geo": "BORU",
   "olcu3": [
    50.0,
-   9,
-   9
+   16,
+   16
   ],
   "price_kdv": 561.6,
   "kdv_orani": 0.2
@@ -186,8 +186,8 @@
   "geo": "BORU",
   "olcu3": [
    70.0,
-   9,
-   9
+   20,
+   20
   ],
   "price_kdv": 572.0,
   "kdv_orani": 0.2
@@ -225,8 +225,8 @@
   "geo": "BORU",
   "olcu3": [
    75.0,
-   9,
-   9
+   20,
+   20
   ],
   "price_kdv": 655.2,
   "kdv_orani": 0.2
@@ -264,8 +264,8 @@
   "geo": "BORU",
   "olcu3": [
    100.0,
-   9,
-   9
+   20,
+   20
   ],
   "price_kdv": 967.2,
   "kdv_orani": 0.2
@@ -303,7 +303,7 @@
   "geo": "BORU",
   "olcu3": [
    25,
-   20,
+   12,
    12
   ],
   "price_kdv": 728.0,
@@ -342,7 +342,7 @@
   "geo": "BORU",
   "olcu3": [
    25,
-   20,
+   12,
    12
   ],
   "price_kdv": 696.8,
@@ -381,7 +381,7 @@
   "geo": "BORU",
   "olcu3": [
    25,
-   20,
+   12,
    12
   ],
   "price_kdv": 488.8,
@@ -420,8 +420,8 @@
   "geo": "BORU",
   "olcu3": [
    30.0,
-   9,
-   9
+   12,
+   12
   ],
   "price_kdv": 239.2,
   "kdv_orani": 0.2
@@ -459,8 +459,8 @@
   "geo": "BORU",
   "olcu3": [
    45.0,
-   9,
-   9
+   15,
+   15
   ],
   "price_kdv": 239.2,
   "kdv_orani": 0.2
@@ -498,8 +498,8 @@
   "geo": "BORU",
   "olcu3": [
    70.0,
-   9,
-   9
+   20,
+   20
   ],
   "price_kdv": 280.8,
   "kdv_orani": 0.2
@@ -537,8 +537,8 @@
   "geo": "BORU",
   "olcu3": [
    75.0,
-   9,
-   9
+   20,
+   20
   ],
   "price_kdv": 301.6,
   "kdv_orani": 0.2
@@ -576,8 +576,8 @@
   "geo": "BORU",
   "olcu3": [
    100.0,
-   9,
-   9
+   20,
+   20
   ],
   "price_kdv": 520.0,
   "kdv_orani": 0.2
@@ -615,8 +615,8 @@
   "geo": "BORU",
   "olcu3": [
    100.0,
-   9,
-   9
+   22,
+   22
   ],
   "price_kdv": 1352.0,
   "kdv_orani": 0.2
@@ -654,8 +654,8 @@
   "geo": "BORU",
   "olcu3": [
    100.0,
-   9,
-   9
+   22,
+   22
   ],
   "price_kdv": 915.2,
   "kdv_orani": 0.2
@@ -693,8 +693,8 @@
   "geo": "BORU",
   "olcu3": [
    25,
-   20,
-   12
+   22,
+   22
   ],
   "price_kdv": 884.0,
   "kdv_orani": 0.2
@@ -732,8 +732,8 @@
   "geo": "BORU",
   "olcu3": [
    45.0,
-   9,
-   9
+   22,
+   22
   ],
   "price_kdv": 1164.8,
   "kdv_orani": 0.2
@@ -771,8 +771,8 @@
   "geo": "BORU",
   "olcu3": [
    45.0,
-   9,
-   9
+   22,
+   22
   ],
   "price_kdv": 1040.0,
   "kdv_orani": 0.2
@@ -810,8 +810,8 @@
   "geo": "BORU",
   "olcu3": [
    75.0,
-   9,
-   9
+   22,
+   22
   ],
   "price_kdv": 1331.2,
   "kdv_orani": 0.2
@@ -849,8 +849,8 @@
   "geo": "BORU",
   "olcu3": [
    75.0,
-   9,
-   9
+   22,
+   22
   ],
   "price_kdv": 1144.0,
   "kdv_orani": 0.2
@@ -888,8 +888,8 @@
   "geo": "BORU",
   "olcu3": [
    45.0,
-   9,
-   9
+   22,
+   22
   ],
   "price_kdv": 1378.0,
   "kdv_orani": 0.2
@@ -927,8 +927,8 @@
   "geo": "BORU",
   "olcu3": [
    45.0,
-   9,
-   9
+   22,
+   22
   ],
   "price_kdv": 1248.0,
   "kdv_orani": 0.2
@@ -966,8 +966,8 @@
   "geo": "BORU",
   "olcu3": [
    75.0,
-   9,
-   9
+   22,
+   22
   ],
   "price_kdv": 1560.0,
   "kdv_orani": 0.2
@@ -1005,8 +1005,8 @@
   "geo": "BORU",
   "olcu3": [
    75.0,
-   9,
-   9
+   22,
+   22
   ],
   "price_kdv": 1352.0,
   "kdv_orani": 0.2
@@ -1044,8 +1044,8 @@
   "geo": "BORU",
   "olcu3": [
    63.0,
-   9,
-   9
+   20,
+   20
   ],
   "price_kdv": 592.8,
   "kdv_orani": 0.2
@@ -1083,8 +1083,8 @@
   "geo": "BORU",
   "olcu3": [
    110.0,
-   9,
-   9
+   20,
+   20
   ],
   "price_kdv": 759.2,
   "kdv_orani": 0.2
@@ -1161,8 +1161,8 @@
   "geo": "BORU",
   "olcu3": [
    63.0,
-   9,
-   9
+   20,
+   20
   ],
   "price_kdv": 759.2,
   "kdv_orani": 0.2
@@ -1200,8 +1200,8 @@
   "geo": "BORU",
   "olcu3": [
    110.0,
-   9,
-   9
+   20,
+   20
   ],
   "price_kdv": 936.0,
   "kdv_orani": 0.2
@@ -1278,8 +1278,8 @@
   "geo": "BORU",
   "olcu3": [
    110.0,
-   9,
-   9
+   20,
+   20
   ],
   "price_kdv": 3432.0,
   "kdv_orani": 0.2
@@ -1317,8 +1317,8 @@
   "geo": "BORU",
   "olcu3": [
    110.0,
-   9,
-   9
+   20,
+   20
   ],
   "price_kdv": 4472.0,
   "kdv_orani": 0.2
@@ -1356,8 +1356,8 @@
   "geo": "BORU",
   "olcu3": [
    110.0,
-   9,
-   9
+   20,
+   20
   ],
   "price_kdv": 2704.0,
   "kdv_orani": 0.2
@@ -1395,8 +1395,8 @@
   "geo": "BORU",
   "olcu3": [
    110.0,
-   9,
-   9
+   20,
+   20
   ],
   "price_kdv": 2912.0,
   "kdv_orani": 0.2
@@ -1434,8 +1434,8 @@
   "geo": "BORU",
   "olcu3": [
    63.0,
-   9,
-   9
+   20,
+   20
   ],
   "price_kdv": 3120.0,
   "kdv_orani": 0.2
@@ -1473,8 +1473,8 @@
   "geo": "BORU",
   "olcu3": [
    63.0,
-   9,
-   9
+   20,
+   20
   ],
   "price_kdv": 4160.0,
   "kdv_orani": 0.2
@@ -1512,8 +1512,8 @@
   "geo": "BORU",
   "olcu3": [
    63.0,
-   9,
-   9
+   20,
+   20
   ],
   "price_kdv": 2392.0,
   "kdv_orani": 0.2
@@ -1551,8 +1551,8 @@
   "geo": "BORU",
   "olcu3": [
    63.0,
-   9,
-   9
+   20,
+   20
   ],
   "price_kdv": 2704.0,
   "kdv_orani": 0.2
@@ -1824,8 +1824,8 @@
   "geo": "BORU",
   "olcu3": [
    110.0,
-   9,
-   9
+   20,
+   20
   ],
   "price_kdv": 208.0,
   "kdv_orani": 0.2
@@ -1863,8 +1863,8 @@
   "geo": "BORU",
   "olcu3": [
    63.0,
-   9,
-   9
+   20,
+   20
   ],
   "price_kdv": 208.0,
   "kdv_orani": 0.2
@@ -1906,7 +1906,8 @@
    21.0
   ],
   "price_kdv": 426.4,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "agirlikli": false
  },
  {
   "id": "ZT502808R2",
@@ -1945,7 +1946,8 @@
    21.0
   ],
   "price_kdv": 447.2,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "agirlikli": false
  },
  {
   "id": "ZT502808A6R2",
@@ -1980,11 +1982,12 @@
   "geo": "KONIK",
   "olcu3": [
    50.0,
-   21.0,
-   21.0
+   25.0,
+   25.0
   ],
   "price_kdv": 572.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "agirlikli": true
  },
  {
   "id": "ZT702808R2",
@@ -2023,7 +2026,8 @@
    29.4
   ],
   "price_kdv": 858.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "agirlikli": false
  },
  {
   "id": "ZT702808A6R2",
@@ -2058,11 +2062,12 @@
   "geo": "KONIK",
   "olcu3": [
    70.0,
-   29.4,
-   29.4
+   35.0,
+   35.0
   ],
   "price_kdv": 1040.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "agirlikli": true
  },
  {
   "id": "ZT902808R2",
@@ -2101,7 +2106,8 @@
    37.8
   ],
   "price_kdv": 1196.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "agirlikli": false
  },
  {
   "id": "ZT902808A6R2",
@@ -2136,11 +2142,12 @@
   "geo": "KONIK",
   "olcu3": [
    90.0,
-   37.8,
-   37.8
+   45.0,
+   45.0
   ],
   "price_kdv": 1404.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "agirlikli": true
  },
  {
   "id": "ZT202A",
@@ -2257,7 +2264,8 @@
    21.0
   ],
   "price_kdv": 592.8,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "agirlikli": false
  },
  {
   "id": "ZT502805R2",
@@ -2296,7 +2304,8 @@
    21.0
   ],
   "price_kdv": 468.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "agirlikli": false
  },
  {
   "id": "ZT702804R2",
@@ -2335,7 +2344,8 @@
    29.4
   ],
   "price_kdv": 1144.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "agirlikli": false
  },
  {
   "id": "ZT702805R2",
@@ -2374,7 +2384,8 @@
    29.4
   ],
   "price_kdv": 936.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "agirlikli": false
  },
  {
   "id": "ZT902804R2",
@@ -2413,7 +2424,8 @@
    37.8
   ],
   "price_kdv": 1404.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "agirlikli": false
  },
  {
   "id": "502808R2ECO",
@@ -2452,7 +2464,8 @@
    21.0
   ],
   "price_kdv": 343.2,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "agirlikli": false
  },
  {
   "id": "502808A6R2ECO",
@@ -2487,11 +2500,12 @@
   "geo": "KONIK",
   "olcu3": [
    50.0,
-   21.0,
-   21.0
+   25.0,
+   25.0
   ],
   "price_kdv": 468.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "agirlikli": true
  },
  {
   "id": "702808R2ECO",
@@ -2530,7 +2544,8 @@
    29.4
   ],
   "price_kdv": 613.6,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "agirlikli": false
  },
  {
   "id": "702808A6R2ECO",
@@ -2565,11 +2580,12 @@
   "geo": "KONIK",
   "olcu3": [
    70.0,
-   29.4,
-   29.4
+   35.0,
+   35.0
   ],
   "price_kdv": 780.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "agirlikli": true
  },
  {
   "id": "902808R2ECO",
@@ -2608,7 +2624,8 @@
    37.8
   ],
   "price_kdv": 832.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "agirlikli": false
  },
  {
   "id": "902808A6R2ECO",
@@ -2643,11 +2660,12 @@
   "geo": "KONIK",
   "olcu3": [
    90.0,
-   37.8,
-   37.8
+   45.0,
+   45.0
   ],
   "price_kdv": 1019.2,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "agirlikli": true
  },
  {
   "id": "502804R2ECO",
@@ -2686,7 +2704,8 @@
    21.0
   ],
   "price_kdv": 364.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "agirlikli": false
  },
  {
   "id": "702804R2ECO",
@@ -2725,7 +2744,8 @@
    29.4
   ],
   "price_kdv": 650.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "agirlikli": false
  },
  {
   "id": "902804R2ECO",
@@ -2764,7 +2784,8 @@
    37.8
   ],
   "price_kdv": 936.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "agirlikli": false
  },
  {
   "id": "ZT650506",
@@ -2799,11 +2820,12 @@
   "geo": "KONIK",
   "olcu3": [
    65.0,
-   27.3,
-   27.3
+   32.5,
+   32.5
   ],
   "price_kdv": 728.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "agirlikli": true
  },
  {
   "id": "ZT650506B",
@@ -2838,11 +2860,12 @@
   "geo": "KONIK",
   "olcu3": [
    65.0,
-   27.3,
-   27.3
+   32.5,
+   32.5
   ],
   "price_kdv": 728.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "agirlikli": true
  },
  {
   "id": "ZT503208",
@@ -2881,7 +2904,8 @@
    21.0
   ],
   "price_kdv": 322.4,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "agirlikli": false
  },
  {
   "id": "ZT503208A6",
@@ -2916,11 +2940,12 @@
   "geo": "KONIK",
   "olcu3": [
    50.0,
-   21.0,
-   21.0
+   25.0,
+   25.0
   ],
   "price_kdv": 442.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "agirlikli": true
  },
  {
   "id": "ZT503204",
@@ -2959,7 +2984,8 @@
    21.0
   ],
   "price_kdv": 338.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "agirlikli": false
  },
  {
   "id": "ZT40100",
@@ -2998,7 +3024,8 @@
    42.0
   ],
   "price_kdv": 1560.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "agirlikli": false
  },
  {
   "id": "ZT40100P",
@@ -3037,7 +3064,8 @@
    42.0
   ],
   "price_kdv": 2028.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "agirlikli": false
  },
  {
   "id": "ZT80150R",
@@ -7881,7 +7909,7 @@
   "geo": "BORU",
   "olcu3": [
    25,
-   20,
+   12,
    12
   ],
   "price_kdv": 41.6,
@@ -8634,7 +8662,7 @@
   "geo": "BORU",
   "olcu3": [
    25,
-   20,
+   12,
    12
   ],
   "price_kdv": 1664.0,
@@ -8790,7 +8818,7 @@
   "geo": "BORU",
   "olcu3": [
    25,
-   20,
+   12,
    12
   ],
   "price_kdv": 1872.0,
@@ -8997,8 +9025,8 @@
   "geo": "BORU",
   "olcu3": [
    100.0,
-   100.0,
-   40.0
+   20,
+   20
   ],
   "price_kdv": 5155.2,
   "kdv_orani": 0.2
@@ -9590,7 +9618,8 @@
    12
   ],
   "price_kdv": 2145.6,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "agirlikli": false
  },
  {
   "id": "EV-12417 DB R",
@@ -9884,7 +9913,8 @@
    12
   ],
   "price_kdv": 5515.2,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "agirlikli": false
  },
  {
   "id": "EV-12407 DB R",
@@ -9926,7 +9956,8 @@
    12
   ],
   "price_kdv": 4464.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "agirlikli": false
  },
  {
   "id": "EV-12404 DB R",
@@ -9965,7 +9996,8 @@
    50.4
   ],
   "price_kdv": 1238.4,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "agirlikli": false
  },
  {
   "id": "EV-12420 DB R",
@@ -10004,7 +10036,8 @@
    46.2
   ],
   "price_kdv": 1152.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "agirlikli": false
  },
  {
   "id": "EV-12430 DB R",
@@ -10043,7 +10076,8 @@
    50.4
   ],
   "price_kdv": 1713.6,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "agirlikli": false
  },
  {
   "id": "EV-12403-1 DB R",
@@ -10082,7 +10116,8 @@
    42.0
   ],
   "price_kdv": 864.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "agirlikli": false
  },
  {
   "id": "EV-12409-1 DB R",
@@ -10121,7 +10156,8 @@
    42.0
   ],
   "price_kdv": 864.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "agirlikli": false
  },
  {
   "id": "EV-12435 DB",
@@ -10160,7 +10196,8 @@
    37.8
   ],
   "price_kdv": 676.8,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "agirlikli": false
  },
  {
   "id": "EV-11811 FL S",
@@ -11366,7 +11403,8 @@
    37.8
   ],
   "price_kdv": 1584.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "agirlikli": false
  },
  {
   "id": "EV-12327 TK A R2",
@@ -11405,7 +11443,8 @@
    37.8
   ],
   "price_kdv": 2073.6,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "agirlikli": false
  },
  {
   "id": "EV-12393 TK R2",
@@ -11444,7 +11483,8 @@
    37.8
   ],
   "price_kdv": 1396.8,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "agirlikli": false
  },
  {
   "id": "EV-12395 TK A R2",
@@ -11483,7 +11523,8 @@
    37.8
   ],
   "price_kdv": 1929.6,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "agirlikli": false
  },
  {
   "id": "EV-12309 TK R2",
@@ -11522,7 +11563,8 @@
    31.5
   ],
   "price_kdv": 1425.6,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "agirlikli": false
  },
  {
   "id": "EV-12315 TK A R2",
@@ -11561,7 +11603,8 @@
    31.5
   ],
   "price_kdv": 1857.6,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "agirlikli": false
  },
  {
   "id": "EV-12387 TK R2",
@@ -11600,7 +11643,8 @@
    31.5
   ],
   "price_kdv": 1238.4,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "agirlikli": false
  },
  {
   "id": "EV-12389 TK A R2",
@@ -11639,7 +11683,8 @@
    31.5
   ],
   "price_kdv": 1728.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "agirlikli": false
  },
  {
   "id": "EV-12306 TK R1",
@@ -11678,7 +11723,8 @@
    21.0
   ],
   "price_kdv": 727.2,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "agirlikli": false
  },
  {
   "id": "EV-12326 TK A R1",
@@ -11717,7 +11763,8 @@
    21.0
   ],
   "price_kdv": 900.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "agirlikli": false
  },
  {
   "id": "EV-12364 TK R1",
@@ -11756,7 +11803,8 @@
    21.0
   ],
   "price_kdv": 619.2,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "agirlikli": false
  },
  {
   "id": "EV-12384 TK A R1",
@@ -11795,7 +11843,8 @@
    21.0
   ],
   "price_kdv": 756.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "agirlikli": false
  },
  {
   "id": "EV-12337 TK R2",
@@ -11834,7 +11883,8 @@
    29.4
   ],
   "price_kdv": 1101.6,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "agirlikli": false
  },
  {
   "id": "EV-12332 TK R2",
@@ -11873,7 +11923,8 @@
    21.8
   ],
   "price_kdv": 659.52,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "agirlikli": false
  },
  {
   "id": "EV-12376 TK R2",
@@ -11912,7 +11963,8 @@
    29.4
   ],
   "price_kdv": 921.6,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "agirlikli": false
  },
  {
   "id": "EV-12370 TK R2",
@@ -11951,7 +12003,8 @@
    21.8
   ],
   "price_kdv": 554.4,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "agirlikli": false
  },
  {
   "id": "EV-12331 TK R2",
@@ -11990,7 +12043,8 @@
    37.8
   ],
   "price_kdv": 2217.6,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "agirlikli": false
  },
  {
   "id": "EV-12318 TK R1",
@@ -12029,7 +12083,8 @@
    21.0
   ],
   "price_kdv": 914.4,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "agirlikli": false
  },
  {
   "id": "EV-12316 TK R2",
@@ -12068,7 +12123,8 @@
    21.0
   ],
   "price_kdv": 892.8,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "agirlikli": false
  },
  {
   "id": "EV-12303 TK R1",
@@ -12107,7 +12163,8 @@
    13.4
   ],
   "price_kdv": 498.24,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "agirlikli": false
  },
  {
   "id": "EV-12362 TK R1",
@@ -12146,7 +12203,8 @@
    13.4
   ],
   "price_kdv": 426.24,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "agirlikli": false
  },
  {
   "id": "EV-12386 TK R2",
@@ -12185,7 +12243,8 @@
    31.5
   ],
   "price_kdv": 1238.4,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "agirlikli": false
  },
  {
   "id": "EV-12388 TK A R2",
@@ -12224,7 +12283,8 @@
    31.5
   ],
   "price_kdv": 1728.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "agirlikli": false
  },
  {
   "id": "EV-12300 TK",
@@ -12263,7 +12323,8 @@
    21.0
   ],
   "price_kdv": 671.04,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "agirlikli": false
  },
  {
   "id": "EV-12301 TK A",
@@ -12302,7 +12363,8 @@
    21.0
   ],
   "price_kdv": 972.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "agirlikli": false
  },
  {
   "id": "EV-12302 TK",
@@ -12341,7 +12403,8 @@
    21.0
   ],
   "price_kdv": 403.2,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "agirlikli": false
  },
  {
   "id": "EV-12350 TK",
@@ -12380,7 +12443,8 @@
    25.2
   ],
   "price_kdv": 748.8,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "agirlikli": false
  },
  {
   "id": "EV-12351 TK A",
@@ -12419,7 +12483,8 @@
    26.0
   ],
   "price_kdv": 1065.6,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "agirlikli": false
  },
  {
   "id": "EV-12352 TK A",
@@ -12458,7 +12523,8 @@
    26.0
   ],
   "price_kdv": 1065.6,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "agirlikli": false
  },
  {
   "id": "EV-12353 TK A",
@@ -12497,7 +12563,8 @@
    26.0
   ],
   "price_kdv": 1065.6,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "agirlikli": false
  },
  {
   "id": "EV-12354 TK A",
@@ -12536,7 +12603,8 @@
    26.0
   ],
   "price_kdv": 1065.6,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "agirlikli": false
  },
  {
   "id": "EV-12431 DB",
@@ -12620,7 +12688,8 @@
    12
   ],
   "price_kdv": 1814.4,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "agirlikli": false
  },
  {
   "id": "EV-12426 DB A",
@@ -12662,7 +12731,8 @@
    12
   ],
   "price_kdv": 1814.4,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "agirlikli": false
  },
  {
   "id": "EV-12427 DB A",
@@ -12704,7 +12774,8 @@
    12
   ],
   "price_kdv": 1814.4,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "agirlikli": false
  },
  {
   "id": "EV-12424 DB F A",
@@ -12746,7 +12817,8 @@
    12
   ],
   "price_kdv": 2332.8,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "agirlikli": false
  },
  {
   "id": "EV-12421 DB F A",
@@ -12788,7 +12860,8 @@
    12
   ],
   "price_kdv": 2332.8,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "agirlikli": false
  },
  {
   "id": "EV-108 A F",
@@ -12911,7 +12984,8 @@
    42.0
   ],
   "price_kdv": 2635.2,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "agirlikli": false
  },
  {
   "id": "EV-12254 UB R",
@@ -12950,7 +13024,8 @@
    37.8
   ],
   "price_kdv": 1944.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "agirlikli": false
  },
  {
   "id": "EV-12253 UB R",
@@ -12989,7 +13064,8 @@
    31.5
   ],
   "price_kdv": 1396.8,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "agirlikli": false
  },
  {
   "id": "EV-22067 UB R",
@@ -13028,7 +13104,8 @@
    18.9
   ],
   "price_kdv": 979.2,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "agirlikli": false
  },
  {
   "id": "EV-12278 UB R",
@@ -13063,8 +13140,8 @@
   "geo": "BORU",
   "olcu3": [
    92.0,
-   9,
-   9
+   20,
+   20
   ],
   "price_kdv": 1569.6,
   "kdv_orani": 0.2
@@ -13102,8 +13179,8 @@
   "geo": "BORU",
   "olcu3": [
    75.0,
-   9,
-   9
+   20,
+   20
   ],
   "price_kdv": 1360.8,
   "kdv_orani": 0.2
@@ -13141,8 +13218,8 @@
   "geo": "BORU",
   "olcu3": [
    45.0,
-   9,
-   9
+   15,
+   15
   ],
   "price_kdv": 1202.4,
   "kdv_orani": 0.2
@@ -13180,8 +13257,8 @@
   "geo": "BORU",
   "olcu3": [
    92.0,
-   9,
-   9
+   20,
+   20
   ],
   "price_kdv": 1332.0,
   "kdv_orani": 0.2
@@ -13222,8 +13299,8 @@
   "geo": "BORU",
   "olcu3": [
    45.0,
-   12.0,
-   12
+   15,
+   15
   ],
   "price_kdv": 979.2,
   "kdv_orani": 0.2
@@ -13264,8 +13341,8 @@
   "geo": "BORU",
   "olcu3": [
    75.0,
-   12.0,
-   12
+   20,
+   20
   ],
   "price_kdv": 1396.8,
   "kdv_orani": 0.2
@@ -13303,8 +13380,8 @@
   "geo": "BORU",
   "olcu3": [
    75.0,
-   9,
-   9
+   20,
+   20
   ],
   "price_kdv": 1728.0,
   "kdv_orani": 0.2
@@ -13342,8 +13419,8 @@
   "geo": "BORU",
   "olcu3": [
    100.0,
-   9,
-   9
+   20,
+   20
   ],
   "price_kdv": 1713.6,
   "kdv_orani": 0.2
@@ -13381,8 +13458,8 @@
   "geo": "BORU",
   "olcu3": [
    75.0,
-   9,
-   9
+   20,
+   20
   ],
   "price_kdv": 1353.6,
   "kdv_orani": 0.2
@@ -13420,8 +13497,8 @@
   "geo": "BORU",
   "olcu3": [
    50.0,
-   9,
-   9
+   16,
+   16
   ],
   "price_kdv": 993.6,
   "kdv_orani": 0.2
@@ -13459,8 +13536,8 @@
   "geo": "BORU",
   "olcu3": [
    70.0,
-   9,
-   9
+   20,
+   20
   ],
   "price_kdv": 835.2,
   "kdv_orani": 0.2
@@ -13498,8 +13575,8 @@
   "geo": "BORU",
   "olcu3": [
    40.0,
-   9,
-   9
+   13,
+   13
   ],
   "price_kdv": 604.8,
   "kdv_orani": 0.2
@@ -13537,8 +13614,8 @@
   "geo": "BORU",
   "olcu3": [
    100.0,
-   9,
-   9
+   20,
+   20
   ],
   "price_kdv": 1209.6,
   "kdv_orani": 0.2
@@ -13576,8 +13653,8 @@
   "geo": "BORU",
   "olcu3": [
    75.0,
-   9,
-   9
+   20,
+   20
   ],
   "price_kdv": 993.6,
   "kdv_orani": 0.2
@@ -13615,8 +13692,8 @@
   "geo": "BORU",
   "olcu3": [
    45.0,
-   9,
-   9
+   15,
+   15
   ],
   "price_kdv": 799.2,
   "kdv_orani": 0.2
@@ -13654,8 +13731,8 @@
   "geo": "BORU",
   "olcu3": [
    30.0,
-   9,
-   9
+   12,
+   12
   ],
   "price_kdv": 648.0,
   "kdv_orani": 0.2
@@ -13693,8 +13770,8 @@
   "geo": "BORU",
   "olcu3": [
    100.0,
-   9,
-   9
+   20,
+   20
   ],
   "price_kdv": 1209.6,
   "kdv_orani": 0.2
@@ -13732,8 +13809,8 @@
   "geo": "BORU",
   "olcu3": [
    75.0,
-   9,
-   9
+   20,
+   20
   ],
   "price_kdv": 993.6,
   "kdv_orani": 0.2
@@ -13771,8 +13848,8 @@
   "geo": "BORU",
   "olcu3": [
    45.0,
-   9,
-   9
+   15,
+   15
   ],
   "price_kdv": 799.2,
   "kdv_orani": 0.2
@@ -13810,8 +13887,8 @@
   "geo": "BORU",
   "olcu3": [
    30.0,
-   9,
-   9
+   12,
+   12
   ],
   "price_kdv": 648.0,
   "kdv_orani": 0.2
@@ -13849,8 +13926,8 @@
   "geo": "BORU",
   "olcu3": [
    30.0,
-   9,
-   9
+   12,
+   12
   ],
   "price_kdv": 685.44,
   "kdv_orani": 0.2
@@ -13888,8 +13965,8 @@
   "geo": "BORU",
   "olcu3": [
    45.0,
-   9,
-   9
+   15,
+   15
   ],
   "price_kdv": 842.4,
   "kdv_orani": 0.2
@@ -13927,8 +14004,8 @@
   "geo": "BORU",
   "olcu3": [
    75.0,
-   9,
-   9
+   20,
+   20
   ],
   "price_kdv": 1044.0,
   "kdv_orani": 0.2
@@ -13966,8 +14043,8 @@
   "geo": "BORU",
   "olcu3": [
    100.0,
-   9,
-   9
+   20,
+   20
   ],
   "price_kdv": 1267.2,
   "kdv_orani": 0.2
@@ -14005,8 +14082,8 @@
   "geo": "BORU",
   "olcu3": [
    100.0,
-   9,
-   9
+   20,
+   20
   ],
   "price_kdv": 1267.2,
   "kdv_orani": 0.2
@@ -14044,8 +14121,8 @@
   "geo": "BORU",
   "olcu3": [
    75.0,
-   9,
-   9
+   20,
+   20
   ],
   "price_kdv": 1044.0,
   "kdv_orani": 0.2
@@ -14083,8 +14160,8 @@
   "geo": "BORU",
   "olcu3": [
    45.0,
-   9,
-   9
+   15,
+   15
   ],
   "price_kdv": 842.4,
   "kdv_orani": 0.2
@@ -14122,8 +14199,8 @@
   "geo": "BORU",
   "olcu3": [
    30.0,
-   9,
-   9
+   12,
+   12
   ],
   "price_kdv": 685.44,
   "kdv_orani": 0.2
@@ -14161,8 +14238,8 @@
   "geo": "BORU",
   "olcu3": [
    100.0,
-   9,
-   9
+   20,
+   20
   ],
   "price_kdv": 813.6,
   "kdv_orani": 0.2
@@ -14200,8 +14277,8 @@
   "geo": "BORU",
   "olcu3": [
    75.0,
-   9,
-   9
+   20,
+   20
   ],
   "price_kdv": 639.36,
   "kdv_orani": 0.2
@@ -14239,8 +14316,8 @@
   "geo": "BORU",
   "olcu3": [
    45.0,
-   9,
-   9
+   15,
+   15
   ],
   "price_kdv": 515.52,
   "kdv_orani": 0.2
@@ -14278,8 +14355,8 @@
   "geo": "BORU",
   "olcu3": [
    30.0,
-   9,
-   9
+   12,
+   12
   ],
   "price_kdv": 426.24,
   "kdv_orani": 0.2
@@ -14317,8 +14394,8 @@
   "geo": "BORU",
   "olcu3": [
    40.0,
-   9,
-   9
+   13,
+   13
   ],
   "price_kdv": 414.72,
   "kdv_orani": 0.2
@@ -14356,8 +14433,8 @@
   "geo": "BORU",
   "olcu3": [
    70.0,
-   9,
-   9
+   20,
+   20
   ],
   "price_kdv": 552.96,
   "kdv_orani": 0.2
@@ -14395,8 +14472,8 @@
   "geo": "BORU",
   "olcu3": [
    100.0,
-   9,
-   9
+   20,
+   20
   ],
   "price_kdv": 813.6,
   "kdv_orani": 0.2
@@ -14434,8 +14511,8 @@
   "geo": "BORU",
   "olcu3": [
    75.0,
-   9,
-   9
+   20,
+   20
   ],
   "price_kdv": 639.36,
   "kdv_orani": 0.2
@@ -14473,8 +14550,8 @@
   "geo": "BORU",
   "olcu3": [
    45.0,
-   9,
-   9
+   15,
+   15
   ],
   "price_kdv": 515.52,
   "kdv_orani": 0.2
@@ -14512,8 +14589,8 @@
   "geo": "BORU",
   "olcu3": [
    30.0,
-   9,
-   9
+   12,
+   12
   ],
   "price_kdv": 426.24,
   "kdv_orani": 0.2
@@ -14551,8 +14628,8 @@
   "geo": "BORU",
   "olcu3": [
    30.0,
-   9,
-   9
+   12,
+   12
   ],
   "price_kdv": 446.4,
   "kdv_orani": 0.2
@@ -14590,8 +14667,8 @@
   "geo": "BORU",
   "olcu3": [
    45.0,
-   9,
-   9
+   15,
+   15
   ],
   "price_kdv": 538.56,
   "kdv_orani": 0.2
@@ -14629,8 +14706,8 @@
   "geo": "BORU",
   "olcu3": [
    75.0,
-   9,
-   9
+   20,
+   20
   ],
   "price_kdv": 673.92,
   "kdv_orani": 0.2
@@ -14668,8 +14745,8 @@
   "geo": "BORU",
   "olcu3": [
    100.0,
-   9,
-   9
+   20,
+   20
   ],
   "price_kdv": 849.6,
   "kdv_orani": 0.2
@@ -14707,8 +14784,8 @@
   "geo": "BORU",
   "olcu3": [
    30.0,
-   9,
-   9
+   12,
+   12
   ],
   "price_kdv": 446.4,
   "kdv_orani": 0.2
@@ -14746,8 +14823,8 @@
   "geo": "BORU",
   "olcu3": [
    45.0,
-   9,
-   9
+   15,
+   15
   ],
   "price_kdv": 538.56,
   "kdv_orani": 0.2
@@ -14785,8 +14862,8 @@
   "geo": "BORU",
   "olcu3": [
    75.0,
-   9,
-   9
+   20,
+   20
   ],
   "price_kdv": 673.92,
   "kdv_orani": 0.2
@@ -14824,8 +14901,8 @@
   "geo": "BORU",
   "olcu3": [
    100.0,
-   9,
-   9
+   20,
+   20
   ],
   "price_kdv": 849.6,
   "kdv_orani": 0.2
@@ -14863,8 +14940,8 @@
   "geo": "BORU",
   "olcu3": [
    100.0,
-   9,
-   9
+   22,
+   22
   ],
   "price_kdv": 1339.2,
   "kdv_orani": 0.2
@@ -14902,8 +14979,8 @@
   "geo": "BORU",
   "olcu3": [
    75.0,
-   9,
-   9
+   22,
+   22
   ],
   "price_kdv": 1108.8,
   "kdv_orani": 0.2
@@ -14941,8 +15018,8 @@
   "geo": "BORU",
   "olcu3": [
    45.0,
-   9,
-   9
+   22,
+   22
   ],
   "price_kdv": 885.6,
   "kdv_orani": 0.2
@@ -14980,8 +15057,8 @@
   "geo": "BORU",
   "olcu3": [
    30.0,
-   9,
-   9
+   22,
+   22
   ],
   "price_kdv": 720.0,
   "kdv_orani": 0.2
@@ -15023,8 +15100,8 @@
   "geo": "BORU",
   "olcu3": [
    100.0,
-   92.0,
-   22.0
+   20,
+   20
   ],
   "price_kdv": 2908.8,
   "kdv_orani": 0.2
@@ -15066,8 +15143,8 @@
   "geo": "BORU",
   "olcu3": [
    100.0,
-   75.0,
-   22.0
+   20,
+   20
   ],
   "price_kdv": 2649.6,
   "kdv_orani": 0.2
@@ -15109,8 +15186,8 @@
   "geo": "BORU",
   "olcu3": [
    100.0,
-   45.0,
-   22.0
+   20,
+   20
   ],
   "price_kdv": 2361.6,
   "kdv_orani": 0.2
@@ -15152,8 +15229,8 @@
   "geo": "BORU",
   "olcu3": [
    100.0,
-   92.0,
-   20.0
+   20,
+   20
   ],
   "price_kdv": 2937.6,
   "kdv_orani": 0.2
@@ -15195,8 +15272,8 @@
   "geo": "BORU",
   "olcu3": [
    100.0,
-   75.0,
-   20.0
+   20,
+   20
   ],
   "price_kdv": 2707.2,
   "kdv_orani": 0.2
@@ -15238,8 +15315,8 @@
   "geo": "BORU",
   "olcu3": [
    100.0,
-   45.0,
-   20.0
+   20,
+   20
   ],
   "price_kdv": 2404.8,
   "kdv_orani": 0.2
@@ -15281,8 +15358,8 @@
   "geo": "BORU",
   "olcu3": [
    100.0,
-   22.0,
-   7.5
+   20,
+   20
   ],
   "price_kdv": 2606.4,
   "kdv_orani": 0.2
@@ -15324,8 +15401,8 @@
   "geo": "BORU",
   "olcu3": [
    100.0,
-   66.0,
-   22.0
+   20,
+   20
   ],
   "price_kdv": 2520.0,
   "kdv_orani": 0.2
@@ -15367,8 +15444,8 @@
   "geo": "BORU",
   "olcu3": [
    100.0,
-   15.0,
-   6.0
+   20,
+   20
   ],
   "price_kdv": 1368.0,
   "kdv_orani": 0.2
@@ -15410,8 +15487,8 @@
   "geo": "BORU",
   "olcu3": [
    28.5,
-   20.0,
-   18.0
+   12,
+   12
   ],
   "price_kdv": 820.8,
   "kdv_orani": 0.2
@@ -15453,8 +15530,8 @@
   "geo": "BORU",
   "olcu3": [
    59.0,
-   20.0,
-   18.0
+   19,
+   19
   ],
   "price_kdv": 1101.6,
   "kdv_orani": 0.2
@@ -15496,8 +15573,8 @@
   "geo": "BORU",
   "olcu3": [
    71.0,
-   30.0,
-   25.0
+   20,
+   20
   ],
   "price_kdv": 2001.6,
   "kdv_orani": 0.2
@@ -15539,8 +15616,8 @@
   "geo": "BORU",
   "olcu3": [
    102.5,
-   30.0,
-   25.0
+   20,
+   20
   ],
   "price_kdv": 2404.8,
   "kdv_orani": 0.2
@@ -15582,8 +15659,8 @@
   "geo": "BORU",
   "olcu3": [
    60.0,
-   26.0,
-   16.0
+   20,
+   20
   ],
   "price_kdv": 1108.8,
   "kdv_orani": 0.2
@@ -15625,8 +15702,8 @@
   "geo": "BORU",
   "olcu3": [
    30.0,
-   26.0,
-   16.0
+   12,
+   12
   ],
   "price_kdv": 828.0,
   "kdv_orani": 0.2
@@ -15668,8 +15745,8 @@
   "geo": "BORU",
   "olcu3": [
    118.0,
-   60.0,
-   15.0
+   20,
+   20
   ],
   "price_kdv": 2059.2,
   "kdv_orani": 0.2
@@ -15711,8 +15788,8 @@
   "geo": "BORU",
   "olcu3": [
    118.0,
-   30.0,
-   15.0
+   20,
+   20
   ],
   "price_kdv": 1944.0,
   "kdv_orani": 0.2
@@ -15754,8 +15831,8 @@
   "geo": "BORU",
   "olcu3": [
    118.0,
-   15.0,
-   4.8
+   20,
+   20
   ],
   "price_kdv": 1756.8,
   "kdv_orani": 0.2
@@ -15797,8 +15874,8 @@
   "geo": "BORU",
   "olcu3": [
    100.0,
-   20.0,
-   8.0
+   20,
+   20
   ],
   "price_kdv": 3484.8,
   "kdv_orani": 0.2
@@ -15840,8 +15917,8 @@
   "geo": "BORU",
   "olcu3": [
    100.0,
-   20.0,
-   8.0
+   20,
+   20
   ],
   "price_kdv": 3139.2,
   "kdv_orani": 0.2
@@ -18207,7 +18284,8 @@
    12
   ],
   "price_kdv": 1857.6,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "agirlikli": false
  },
  {
   "id": "EV-12277 UB D",
@@ -18249,7 +18327,8 @@
    12
   ],
   "price_kdv": 1526.4,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "agirlikli": false
  },
  {
   "id": "EV-12279 UB D",
@@ -18291,7 +18370,8 @@
    12
   ],
   "price_kdv": 1742.4,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "agirlikli": false
  },
  {
   "id": "EV-12280 UB D",
@@ -18333,7 +18413,8 @@
    12
   ],
   "price_kdv": 1425.6,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "agirlikli": false
  },
  {
   "id": "EV-22026 UB R",
@@ -18372,7 +18453,8 @@
    50.4
   ],
   "price_kdv": 2808.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "agirlikli": false
  },
  {
   "id": "EV-22028 UB R",
@@ -18412,7 +18494,8 @@
    12
   ],
   "price_kdv": 2332.8,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "agirlikli": false
  },
  {
   "id": "EV-22032 UB R",
@@ -18454,7 +18537,8 @@
    12
   ],
   "price_kdv": 2808.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "agirlikli": false
  },
  {
   "id": "EV-22035 UB R",
@@ -18496,7 +18580,8 @@
    12
   ],
   "price_kdv": 1044.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "agirlikli": false
  },
  {
   "id": "EV-22031 UB R",
@@ -18538,7 +18623,8 @@
    12
   ],
   "price_kdv": 900.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "agirlikli": false
  },
  {
   "id": "EV-12205 UB R",
@@ -18580,7 +18666,8 @@
    12
   ],
   "price_kdv": 1022.4,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "agirlikli": false
  },
  {
   "id": "EV-22033 UB R",
@@ -18622,7 +18709,8 @@
    12
   ],
   "price_kdv": 1022.4,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "agirlikli": false
  },
  {
   "id": "EV-12293 UB ST",
@@ -18664,7 +18752,8 @@
    12
   ],
   "price_kdv": 5126.4,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "agirlikli": false
  },
  {
   "id": "EV-12289 UB ST",
@@ -18706,7 +18795,8 @@
    12
   ],
   "price_kdv": 5832.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "agirlikli": false
  },
  {
   "id": "EV-22218 UB",
@@ -19997,7 +20087,7 @@
   "geo": "BORU",
   "olcu3": [
    25,
-   20,
+   12,
    12
   ],
   "price_kdv": 97.92,
@@ -20040,7 +20130,8 @@
    12
   ],
   "price_kdv": 118.08,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "agirlikli": false
  },
  {
   "id": "EV-184 A",
@@ -20235,7 +20326,8 @@
    12
   ],
   "price_kdv": 849.6,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "agirlikli": false
  },
  {
   "id": "EV-175 A",
@@ -20395,7 +20487,8 @@
    5.0
   ],
   "price_kdv": 688.32,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "agirlikli": false
  },
  {
   "id": "EV-128 A",
@@ -20512,7 +20605,8 @@
    63.0
   ],
   "price_kdv": 1022.4,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "agirlikli": false
  },
  {
   "id": "EV-159 A",

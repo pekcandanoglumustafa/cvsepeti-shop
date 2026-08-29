@@ -45,7 +45,7 @@ export async function POST(req: NextRequest) {
     // ---- KARGO da sunucuda hesaplanır ----
     const desi = toplamDesi(satirlar.map(({ p, adet }) => ({
       olcu3: p.olcu3 || [25,20,12], geo: (p.geo || "HACIMLI") as any,
-      agirlik_kg: p.agirlik_kg || 0, adet,
+      agirlik_kg: p.agirlik_kg || 0, agirlikli: (p as any).agirlikli, adet,
     })));
     const kargoTutar = kargoUcreti(desi);
     // Karşı ödemeli seçildiyse kargo bedeli sepete eklenmez, kuryeye ödenir.

@@ -14,7 +14,7 @@ export default function HeroMozaik() {
               aria-label={`${k.kat} — ${k.adet} ürün`}>
           <span className="mz-ph">
             <Image src={k.img} alt={k.kat} fill unoptimized
-                   priority={i < 8} sizes="(max-width:640px) 25vw, 12vw"
+                   loading={i < 8 ? "eager" : "lazy"} sizes="(max-width:640px) 25vw, 12vw"
                    style={{ objectFit: "contain", padding: "11%" }} />
             <span className="mz-n">{k.adet}</span>
           </span>

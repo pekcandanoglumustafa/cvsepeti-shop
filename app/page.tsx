@@ -3,8 +3,10 @@ import { allProducts, categories, categorySlug } from "@/lib/products";
 import ProductCard from "@/components/ProductCard";
 import CategoryCard from "@/components/CategoryCard";
 import HeroMozaik from "@/components/HeroMozaik";
+import GuvenBandi from "@/components/GuvenBandi";
 import { tumYazilar } from "@/lib/blog";
 import kapaklar from "@/data/kategori_kapak.json";
+import coksatan from "@/data/coksatan.json";
 
 const KAPAK = kapaklar as Record<string, { img: string; w: number; adet: number }>;
 
@@ -15,8 +17,10 @@ export default function Home() {
 
   const gorselli = allProducts.filter((p) => p.images[0] && p.id !== "TEST-1");
   const netGorselli = gorselli.filter((p) => (KAPAK[p.category]?.w ?? 0) >= 1000);
-  const oneCikan = netGorselli.slice(0, 6);
-  const vitrin = netGorselli.slice(6, 30);
+  const csSlug = (coksatan as { slug: string }[]).map((c) => c.slug);
+  const cokSatanlar = csSlug.map((sl) => allProducts.find((x) => x.slug === sl)).filter(Boolean).slice(0, 6) as any[];
+  const csSet = new Set(cokSatanlar.map((x) => x.slug));
+  const vitrin = netGorselli.filter((x) => !csSet.has(x.slug)).slice(0, 24);
   const koni = gorselli.filter((p) => p.category === "Trafik Konisi").slice(0, 12);
   const delinator = gorselli.filter((p) => p.category === "Delinatör").slice(0, 12);
   const kasis = gorselli.filter((p) => p.category === "Hız Kesici Kasis").slice(0, 12);
@@ -28,8 +32,8 @@ export default function Home() {
       <section style={{ background: "var(--ink)", color: "var(--paper)" }}>
         <div style={{ maxWidth: 1520, margin: "0 auto", padding: "13px 20px",
                       display: "flex", gap: 26, flexWrap: "wrap", justifyContent: "center" }}>
-          {["Üreticiden doğrudan satış", "Aynı gün kargo", "Kurumsal fatura", `${allProducts.length} ürün stokta`]
-            .map((t) => (
+          {["iyzico ile ödeme güvencesi", "Üreticiden doğrudan satış", "Aynı gün kargo",
+            "Kurumsal fatura", `${allProducts.length} ürün stokta`].map((t) => (
               <span key={t} className="eyebrow" style={{ color: "#EDEDED" }}>{t}</span>
             ))}
         </div>
@@ -52,17 +56,23 @@ export default function Home() {
           </div>
         </div>
 
+        {/* ÇOK SATANLAR */}
+        {cokSatanlar.length > 0 && (
+          <>
+            <div style={{ display: "flex", alignItems: "baseline", gap: 10, marginBottom: 13 }}>
+              <span className="display" style={{ fontSize: "clamp(17px,2.2vw,24px)" }}>Çok satanlar</span>
+              <span className="eyebrow" style={{ color: "var(--dim)" }}>En çok tercih edilen ürünler</span>
+            </div>
+            <div className="grid-one" style={{ marginBottom: 34 }}>
+              {cokSatanlar.map((p, i) => <ProductCard key={p.id} product={p} oncelik={i < 3} />)}
+            </div>
+          </>
+        )}
+
         {/* ne sattığımızı tek bakışta gösteren kategori mozaiği */}
         <HeroMozaik />
 
-        <div className="rule" style={{ margin: "34px 0 0" }} />
-
-        {/* öne çıkan altı ürün — daha büyük kartlar */}
-        <div className="grid-one" style={{ marginTop: 22 }}>
-          {oneCikan.map((p) => <ProductCard key={p.id} product={p} />)}
-        </div>
-
-        <div className="hair" style={{ margin: "30px 0 20px" }} />
+        <div className="rule" style={{ margin: "34px 0 20px" }} />
 
         <div className="grid-urun">
           {vitrin.map((p) => <ProductCard key={p.id} product={p} />)}
@@ -86,6 +96,8 @@ export default function Home() {
           ))}
         </div>
       </section>
+
+      <GuvenBandi />
 
       {/* ---- KURUMSAL ---- */}
       <section style={{ background: "var(--ink)", color: "var(--paper)", marginTop: 64 }}>

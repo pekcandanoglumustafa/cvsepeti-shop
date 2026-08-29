@@ -21,6 +21,7 @@ export type SepetSatiri = {
   geo: Geo;
   agirlik_kg: number;
   adet: number;
+  agirlikli?: boolean;  // ağırlık tabanlı koni — iç içe geçmez
 };
 
 /** iç içe geçen ürünlerde her ek adedin eklediği yükseklik oranı */
@@ -47,10 +48,11 @@ const BOLEN = 5000;          // Yurtiçi Kargo kendi formülü: hacim(dm³)/5 = 
 const KOLI_PAYI = 1.12;      // koli duvarı + dolgu
 
 /** bir satırın kapladığı hacim (cm³) */
-export function satirHacim({ olcu3, geo, adet }: SepetSatiri) {
+export function satirHacim({ olcu3, geo, adet, agirlikli }: SepetSatiri) {
   const [a, b, c] = olcu3.length >= 3 ? olcu3 : [25, 20, 12];
   const n = Math.max(1, adet);
-  const k = ISTIF[geo] ?? 1;
+  // ağırlık tabanlı koniler iç içe geçmez — gerçek gönderi verisiyle kalibre edildi
+  const k = agirlikli && geo === "KONIK" ? 0.70 : (ISTIF[geo] ?? 1);
 
   if (geo === "KONIK" || geo === "HALKA") {
     // üst üste geçer: taban aynı kalır, yükseklik az artar

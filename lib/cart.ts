@@ -17,6 +17,7 @@ export type CartItem = {
   olcu3: number[];
   geo: string;
   agirlik_kg: number;
+  agirlikli?: boolean;
 };
 
 type CartState = {
@@ -81,6 +82,7 @@ export const useCart = create<CartState>()(
             olcu3: i.olcu3 || [25, 20, 12],
             geo: (i.geo || "HACIMLI") as any,
             agirlik_kg: i.agirlik_kg || 0,
+            agirlikli: i.agirlikli,
             adet: i.qty,
           }))
         ),

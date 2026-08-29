@@ -3,7 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { Product, formatPrice } from "@/lib/products";
 
-export default function ProductCard({ product: p }: { product: Product }) {
+export default function ProductCard({ product: p, oncelik = false }: { product: Product; oncelik?: boolean }) {
   const img = p.images[0];
   return (
     <Link href={`/urun/${p.slug}`} className="card"
@@ -11,6 +11,7 @@ export default function ProductCard({ product: p }: { product: Product }) {
       <div className="tile">
         {img ? (
           <Image src={img} alt={p.name} fill unoptimized
+                 loading={oncelik ? "eager" : "lazy"} priority={oncelik}
                  sizes="(max-width:620px) 33vw,(max-width:900px) 22vw,(max-width:1300px) 16vw,13vw"
                  style={{ objectFit: "contain", padding: "3%" }} />
         ) : (
