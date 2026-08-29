@@ -4,6 +4,7 @@ import ProductCard from "@/components/ProductCard";
 import CategoryCard from "@/components/CategoryCard";
 import HeroMozaik from "@/components/HeroMozaik";
 import GuvenBandi from "@/components/GuvenBandi";
+import GuvenSerit from "@/components/GuvenSerit";
 import { tumYazilar } from "@/lib/blog";
 import kapaklar from "@/data/kategori_kapak.json";
 import coksatan from "@/data/coksatan.json";
@@ -28,16 +29,7 @@ export default function Home() {
 
   return (
     <main>
-      {/* ---- SATIŞ ŞERİDİ ---- */}
-      <section style={{ background: "var(--ink)", color: "var(--paper)" }}>
-        <div style={{ maxWidth: 1520, margin: "0 auto", padding: "13px 20px",
-                      display: "flex", gap: 26, flexWrap: "wrap", justifyContent: "center" }}>
-          {["iyzico ile ödeme güvencesi", "Üreticiden doğrudan satış", "Aynı gün kargo",
-            "Kurumsal fatura", `${allProducts.length} ürün stokta`].map((t) => (
-              <span key={t} className="eyebrow" style={{ color: "#EDEDED" }}>{t}</span>
-            ))}
-        </div>
-      </section>
+      <GuvenSerit />
 
       {/* ---- ÜRÜN ODAKLI GİRİŞ ---- */}
       <section style={{ maxWidth: 1520, margin: "0 auto", padding: "26px 20px 0" }}>
