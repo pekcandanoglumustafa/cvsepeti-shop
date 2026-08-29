@@ -5,6 +5,7 @@ import CategoryCard from "@/components/CategoryCard";
 import HeroMozaik from "@/components/HeroMozaik";
 import GuvenBandi from "@/components/GuvenBandi";
 import GuvenSerit from "@/components/GuvenSerit";
+import OdemeSerit from "@/components/OdemeSerit";
 import { tumYazilar } from "@/lib/blog";
 import kapaklar from "@/data/kategori_kapak.json";
 import coksatan from "@/data/coksatan.json";
@@ -20,7 +21,7 @@ export default function Home() {
   const gorselli = allProducts.filter((p) => p.images[0] && p.id !== "TEST-1");
   const netGorselli = gorselli.filter((p) => (KAPAK[p.category]?.w ?? 0) >= 1000);
   const csSlug = (coksatan as { slug: string }[]).map((c) => c.slug);
-  const cokSatanlar = csSlug.map((sl) => allProducts.find((x) => x.slug === sl)).filter(Boolean).slice(0, 6) as any[];
+  const cokSatanlar = csSlug.map((sl) => allProducts.find((x) => x.slug === sl)).filter(Boolean).slice(0, 9) as any[];
   const csSet = new Set(cokSatanlar.map((x) => x.slug));
   const kategoriVitrini = (katVitrinData as { kat: string; slug: string; adet: number }[])
     .map((v) => ({ ...v, urun: allProducts.find((x) => x.slug === v.slug) }))
@@ -34,6 +35,7 @@ export default function Home() {
   return (
     <main>
       <GuvenSerit />
+      <OdemeSerit />
 
       {/* ---- ÜRÜN ODAKLI GİRİŞ ---- */}
       <section style={{ maxWidth: 1520, margin: "0 auto", padding: "26px 20px 0" }}>
