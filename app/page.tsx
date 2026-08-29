@@ -15,7 +15,8 @@ export default function Home() {
 
   const gorselli = allProducts.filter((p) => p.images[0] && p.id !== "TEST-1");
   const netGorselli = gorselli.filter((p) => (KAPAK[p.category]?.w ?? 0) >= 1000);
-  const vitrin = netGorselli.slice(0, 18);
+  const oneCikan = netGorselli.slice(0, 6);
+  const vitrin = netGorselli.slice(6, 30);
   const koni = gorselli.filter((p) => p.category === "Trafik Konisi").slice(0, 12);
   const delinator = gorselli.filter((p) => p.category === "Delinatör").slice(0, 12);
   const kasis = gorselli.filter((p) => p.category === "Hız Kesici Kasis").slice(0, 12);
@@ -54,7 +55,14 @@ export default function Home() {
         {/* ne sattığımızı tek bakışta gösteren kategori mozaiği */}
         <HeroMozaik />
 
-        <div className="rule" style={{ margin: "34px 0 20px" }} />
+        <div className="rule" style={{ margin: "34px 0 0" }} />
+
+        {/* öne çıkan altı ürün — daha büyük kartlar */}
+        <div className="grid-one" style={{ marginTop: 22 }}>
+          {oneCikan.map((p) => <ProductCard key={p.id} product={p} />)}
+        </div>
+
+        <div className="hair" style={{ margin: "30px 0 20px" }} />
 
         <div className="grid-urun">
           {vitrin.map((p) => <ProductCard key={p.id} product={p} />)}
