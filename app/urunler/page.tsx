@@ -15,7 +15,7 @@ export default function Urunler() {
     .sort((a, b) => b.n - a.n);
 
   return (
-    <main style={{ maxWidth: 1440, margin: "0 auto", padding: "48px 24px 40px" }}>
+    <main style={{ maxWidth: 1520, margin: "0 auto", padding: "48px 24px 40px" }}>
       <p className="eyebrow" style={{ color: "var(--hi)" }}>Katalog</p>
       <h1 className="display d2" style={{ marginTop: 16 }}>Tüm ürünler</h1>
       <p className="label" style={{ color: "var(--dim)", marginTop: 14 }}>

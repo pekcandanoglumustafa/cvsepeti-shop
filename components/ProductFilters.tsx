@@ -181,7 +181,7 @@ export default function ProductFilters({ urunler, baslik }: { urunler: Product[]
               <button onClick={temizle} className="btn btn-ghost">Filtreleri temizle</button>
             </div>
           ) : (
-            <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill,minmax(205px,1fr))", gap: "40px 24px" }}>
+            <div className="grid-urun">
               {sonuc.map((p) => <ProductCard key={p.id} product={p} />)}
             </div>
           )}

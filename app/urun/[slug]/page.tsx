@@ -53,7 +53,7 @@ export default async function Urun({ params }: { params: Promise<{ slug: string 
   const benzer = allProducts.filter(x => x.category === p.category && x.slug !== p.slug).slice(0, 4);
 
   return (
-    <main style={{ maxWidth: 1440, margin: "0 auto", padding: "32px 24px 110px" }}>
+    <main style={{ maxWidth: 1520, margin: "0 auto", padding: "32px 24px 110px" }}>
       <nav className="eyebrow" style={{ color: "var(--muted)", marginBottom: 26 }}>
         <Link href="/" style={{ color: "inherit", textDecoration: "none" }}>Ana sayfa</Link>
         {" / "}
@@ -108,7 +108,7 @@ export default async function Urun({ params }: { params: Promise<{ slug: string 
       {benzer.length > 0 && (
         <section style={{ marginTop: 72 }}>
           <h2 className="display" style={{ fontSize: 28, marginBottom: 20 }}>Aynı kategoriden</h2>
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill,minmax(210px,1fr))", gap: 26 }}>
+          <div className="grid-urun">
             {benzer.map((x) => <ProductCard key={x.id} product={x} />)}
           </div>
         </section>

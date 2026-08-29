@@ -8,8 +8,8 @@ import { formatPrice } from "@/lib/products";
 export default function Fiyat({ haric, dahil, boyut = "orta" }: {
   haric: number; dahil: number; boyut?: "kucuk" | "orta" | "buyuk";
 }) {
-  const b = { kucuk: 15, orta: 20, buyuk: 42 }[boyut];
-  const k = { kucuk: 10.5, orta: 11.5, buyuk: 13 }[boyut];
+  const b = { kucuk: 19, orta: 24, buyuk: 52 }[boyut];
+  const k = { kucuk: 10, orta: 11.5, buyuk: 13.5 }[boyut];
   return (
     <span style={{ display: "block" }}>
       <span style={{ display: "flex", alignItems: "baseline", gap: 6, flexWrap: "wrap" }}>

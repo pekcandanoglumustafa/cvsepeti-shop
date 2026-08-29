@@ -24,7 +24,7 @@ export default async function Kategori({ params }: { params: Promise<{ slug: str
   const digerleri = categories.filter((c) => c !== cat).slice(0, 10);
 
   return (
-    <main style={{ maxWidth: 1440, margin: "0 auto", padding: "40px 24px" }}>
+    <main style={{ maxWidth: 1520, margin: "0 auto", padding: "40px 24px" }}>
       <Link href="/urunler" className="eyebrow" style={{ color: "var(--dim)", textDecoration: "none" }}>← Katalog</Link>
       <h1 className="display d2" style={{ marginTop: 16 }}>{cat}</h1>
       <p className="label" style={{ color: "var(--dim)", marginTop: 14 }}>{items.length} ürün</p>

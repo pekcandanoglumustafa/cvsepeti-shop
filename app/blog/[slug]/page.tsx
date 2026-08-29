@@ -91,7 +91,7 @@ export default async function Yazi({ params }: { params: Promise<{ slug: string 
         <section style={{ marginTop: 56 }}>
           <div className="rule" style={{ marginBottom: 22 }} />
           <h2 className="display d3" style={{ marginBottom: 20 }}>Bu yazıda geçen ürünler</h2>
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill,minmax(180px,1fr))", gap: "32px 20px" }}>
+          <div className="grid-urun">
             {urunler.map((p) => <ProductCard key={p.id} product={p} />)}
           </div>
         </section>
