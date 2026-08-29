@@ -19,7 +19,7 @@ export default function HeroMozaik() {
         </Link>
       ))}
       <style>{`
-        .mozaik{display:grid;grid-template-columns:repeat(4,1fr);gap:6px}
+        .mozaik{display:grid;grid-template-columns:repeat(8,1fr);gap:6px}
         .mz{position:relative;aspect-ratio:1/1;background:var(--tile);
             border:1px solid var(--hair);display:block;overflow:hidden;
             text-decoration:none;color:inherit;transition:border-color .18s}
@@ -31,8 +31,8 @@ export default function HeroMozaik() {
                overflow:hidden;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}
         .mz:hover .mz-ad{color:var(--hi)}
         .mz-n{position:absolute;right:6px;top:5px;font-size:8.5px;font-weight:800;color:var(--dim)}
-        @media(max-width:1100px){.mozaik{grid-template-columns:repeat(4,1fr)}}
-        @media(max-width:640px){.mozaik{grid-template-columns:repeat(3,1fr);gap:5px}
+        @media(max-width:1100px){.mozaik{grid-template-columns:repeat(6,1fr)}}
+        @media(max-width:640px){.mozaik{grid-template-columns:repeat(4,1fr);gap:5px}
           .mz-ad{font-size:8px}}
       `}</style>
     </div>

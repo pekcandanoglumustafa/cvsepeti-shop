@@ -140,7 +140,7 @@ export default function Odeme() {
 
         <p style={{ fontSize: 12, color: "var(--muted)", textAlign: "center", marginTop: 16, lineHeight: 1.7 }}>
           <Lock size={12} style={{ display: "inline", verticalAlign: "-1px" }} /> Kart bilgileriniz
-          Trafik Ürünleri sunucularında saklanmaz, doğrudan iyzico altyapısında işlenir.
+          trafikurunleri.com sunucularında saklanmaz, doğrudan iyzico altyapısında işlenir.
         </p>
       </main>
     );
@@ -235,7 +235,7 @@ export default function Odeme() {
           </button>
 
           <p style={{ fontSize: 12, color: "var(--muted)", textAlign: "center", lineHeight: 1.7 }}>
-            Kart bilgileriniz Trafik Ürünleri sunucularında saklanmaz, doğrudan iyzico altyapısında işlenir.
+            Kart bilgileriniz trafikurunleri.com sunucularında saklanmaz, doğrudan iyzico altyapısında işlenir.
           </p>
         </div>
 

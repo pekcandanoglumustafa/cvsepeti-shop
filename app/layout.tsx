@@ -7,7 +7,7 @@ import CartToast from "@/components/CartToast";
 import { allProducts, categories } from "@/lib/products";
 
 const BASE = "https://www.trafikurunleri.com";
-const MARKA = "Trafik Ürünleri";
+const MARKA = "trafikurunleri.com";
 
 export const metadata: Metadata = {
   metadataBase: new URL(BASE),
@@ -51,6 +51,7 @@ const kurumSema = {
       "@type": "Organization",
       "@id": `${BASE}/#kurulus`,
       name: MARKA,
+      alternateName: "Trafik Ürünleri",
       legalName: "Pekcandanoğlu",
       url: BASE,
       logo: { "@type": "ImageObject", url: `${BASE}/marka/logo.svg` },

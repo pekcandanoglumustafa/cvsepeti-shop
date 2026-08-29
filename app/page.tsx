@@ -2,6 +2,7 @@ import Link from "next/link";
 import { allProducts, categories, categorySlug } from "@/lib/products";
 import ProductCard from "@/components/ProductCard";
 import CategoryCard from "@/components/CategoryCard";
+import HeroMozaik from "@/components/HeroMozaik";
 import { tumYazilar } from "@/lib/blog";
 import kapaklar from "@/data/kategori_kapak.json";
 
@@ -50,7 +51,10 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="rule" style={{ marginBottom: 20 }} />
+        {/* ne sattığımızı tek bakışta gösteren kategori mozaiği */}
+        <HeroMozaik />
+
+        <div className="rule" style={{ margin: "34px 0 20px" }} />
 
         <div className="grid-urun">
           {vitrin.map((p) => <ProductCard key={p.id} product={p} />)}
