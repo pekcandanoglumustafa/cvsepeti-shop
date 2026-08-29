@@ -3,96 +3,245 @@
   "kat": "Delinatör",
   "img": "/images/katalog/tpu-esnek-delinatorler-soketli-hx-70cmx80mm-12281-ub-r.webp",
   "ad": "Tpu Esnek Delinatörler(soketli)-(hxø)70cmx80mm – 12281 UB R",
-  "adet": 63
+  "adet": 63,
+  "w": 1600
  },
  {
   "kat": "Trafik Konisi",
   "img": "/images/katalog/tpe-trafik-konisi-h-75-cm-12386-tk-r2.webp",
   "ad": "Tpe Trafik Konisi - (h) 75 Cm – 12386 TK R2",
-  "adet": 59
+  "adet": 59,
+  "w": 1600
  },
  {
   "kat": "Hız Kesici Kasis",
   "img": "/images/katalog/9-kg-hiz-kesici-kasis-icin-govde-basligi-zt45601.webp",
   "ad": "9 kg Hız Kesici Kasis İçin Gövde Başlığı – ZT45601",
-  "adet": 45
+  "adet": 45,
+  "w": 1600
+ },
+ {
+  "kat": "Solar & Flaşör Lamba",
+  "img": "/images/katalog/solar-ledli-yol-bakim-levhalari-hxw-90x60-cm-21800-fl-serisi.webp",
+  "ad": "Solar Ledli Yol Bakım Levhaları - (hxw) 90x60 Cm – 21800 FL\n(SERİSİ)",
+  "adet": 37,
+  "w": 366
  },
  {
   "kat": "Şerit Ayırıcı",
   "img": "/images/katalog/75-cm-delinatorlu-serit-ayirici-zt12875.webp",
   "ad": "75 cm Delinatörlü Şerit Ayırıcı – ZT12875",
-  "adet": 35
+  "adet": 35,
+  "w": 1600
+ },
+ {
+  "kat": "Güvenlik Bariyeri",
+  "img": "/images/katalog/metal-guvenlik-barikati-hxl-110x200-cm-12534-fb-st.webp",
+  "ad": "Metal Güvenlik Barikatı - (hxl) 110x200 Cm – 12534 FB ST",
+  "adet": 32,
+  "w": 630
  },
  {
   "kat": "Duba & Kaldırım Sınırlama",
   "img": "/images/katalog/dubali-uyari-dikmesi-hx-100-cm-x-63-mm-12409-1-db-r.webp",
   "ad": "Dubalı Uyarı Dikmesi - (hxø) - 100 Cm X 63 Mm – 12409-1 DB R",
-  "adet": 23
+  "adet": 23,
+  "w": 1600
+ },
+ {
+  "kat": "Zemin İşaretleme",
+  "img": "/images/katalog/gorme-engelli-zemin-isaretleme-olcu-60x30-cm-pl-8017.webp",
+  "ad": "Görme Engelli Zemin İşaretleme - Ölçü: 60x30 Cm – PL 8017",
+  "adet": 18,
+  "w": 319
+ },
+ {
+  "kat": "Dikdörtgen Levha",
+  "img": "/images/katalog/dikdortgen-levha-cift-yon-ozel-baski-zt345d.webp",
+  "ad": "Dikdörtgen Levha Çift Yön Özel Baskı – ZT345D",
+  "adet": 17,
+  "w": 132
+ },
+ {
+  "kat": "Diğer Trafik Ekipmanı",
+  "img": "/images/katalog/tpu-kaydirmaz-merdiven-kaplama-olcu-60x30-cm-pl-8022.webp",
+  "ad": "Tpu Kaydırmaz Merdiven Kaplama - Ölçü: 60x30 Cm – PL 8022",
+  "adet": 17,
+  "w": 319
  },
  {
   "kat": "Araç Stoperi",
   "img": "/images/katalog/60-cm-arac-stoperi-siyah-sari-zt1560.webp",
   "ad": "60 cm Araç Stoperi Siyah Sarı – ZT1560",
-  "adet": 15
+  "adet": 15,
+  "w": 1600
+ },
+ {
+  "kat": "Yol Butonu",
+  "img": "/images/katalog/mercekli-yol-butonu-100x220x32-mm-12003-yb.webp",
+  "ad": "Mercekli Yol Butonu - 100x220x32 Mm – 12003 YB",
+  "adet": 14,
+  "w": 215
+ },
+ {
+  "kat": "Uyarı Levhası",
+  "img": "/images/katalog/portatif-uyari-levhasi-hxw-62x24-5cm-iki-yonde-uyari-108-a-f.webp",
+  "ad": "Portatif Uyarı Levhası-(hxw) 62x24.5cm - İki Yönde Uyarı – 108 A F",
+  "adet": 14,
+  "w": 274
+ },
+ {
+  "kat": "Yuvarlak Levha",
+  "img": "/images/katalog/yuvarlak-levha-cift-yon-ozel-baski-zt537d.webp",
+  "ad": "Yuvarlak Levha Çift Yön Özel Baskı – ZT537D",
+  "adet": 13,
+  "w": 133
+ },
+ {
+  "kat": "Ekstra Yuvarlak Levha",
+  "img": "/images/katalog/ekstra-yuvarlak-levha-cif-yon-ozel-baski-zt637d.webp",
+  "ad": "Ekstra Yuvarlak Levha Çif Yön Özel Baskı – ZT637D",
+  "adet": 12,
+  "w": 157
  },
  {
   "kat": "Zincir",
   "img": "/images/katalog/8-mm-zincir-3-m-sari-siyah-123-a.webp",
   "ad": "8 Mm Zincir - 3 M - Sarı - Siyah – 123 A",
-  "adet": 12
+  "adet": 12,
+  "w": 1600
+ },
+ {
+  "kat": "Üçgen Levha",
+  "img": "/images/katalog/ucgen-levha-cift-yon-ozel-baski-zt772d.webp",
+  "ad": "Üçgen Levha Çift Yön Özel Baskı – ZT772D",
+  "adet": 11,
+  "w": 159
  },
  {
   "kat": "Güvenlik Aynası",
   "img": "/images/katalog/80-cm-guvenlik-aynasi-zt6080.webp",
   "ad": "80 cm Güvenlik Aynası – ZT6080",
-  "adet": 10
+  "adet": 10,
+  "w": 1600
+ },
+ {
+  "kat": "Kare Levha",
+  "img": "/images/katalog/kare-levha-cift-yon-ozel-baski-zt945d.webp",
+  "ad": "Kare Levha Çift Yön Özel Baskı – ZT945D",
+  "adet": 10,
+  "w": 133
  },
  {
   "kat": "Dikme + Panel Sistemi",
   "img": "/images/katalog/63-cm-dikme-dikdortgen-tabanli-75-cm-panel-zt7563-da.webp",
   "ad": "63 cm Dikme Dikdörtgen Tabanlı 75 cm Panel – ZT7563 DA",
-  "adet": 8
+  "adet": 8,
+  "w": 1600
  },
  {
   "kat": "Refüj Başı Dubası",
   "img": "/images/katalog/100-cm-refuj-basi-levha-zt40100p.webp",
   "ad": "100 cm Refüj Başı Levha – ZT40100P",
-  "adet": 8
+  "adet": 8,
+  "w": 1600
+ },
+ {
+  "kat": "Kolon Köşe Koruyucu",
+  "img": "/images/katalog/otopark-kolon-kose-koruyucu-h-80-cm-12295-ub-r.webp",
+  "ad": "Otopark Kolon Köşe Koruyucu - (h) 80 Cm – 12295 UB R",
+  "adet": 8,
+  "w": 40
  },
  {
   "kat": "Panel Levhası",
   "img": "/images/katalog/75-cm-panel-zt12575.webp",
   "ad": "75 cm Panel – ZT12575",
-  "adet": 6
+  "adet": 6,
+  "w": 1600
  },
  {
   "kat": "Uyarı Dikmesi",
   "img": "/images/katalog/63cm-uyari-dikmesi-yuvarlak-tabanli-2-reflektifli-zt63315r2.webp",
   "ad": "63cm Uyarı Dikmesi Yuvarlak Tabanlı 2 Reflektifli – ZT63315R2",
-  "adet": 4
+  "adet": 4,
+  "w": 1600
  },
  {
   "kat": "Ağırlık Tabanı",
   "img": "/images/katalog/48-cm-altigen-agirlik-tabani-zt203a.webp",
   "ad": "48 cm Altıgen Ağırlık Tabanı – ZT203A",
-  "adet": 4
+  "adet": 4,
+  "w": 1600
+ },
+ {
+  "kat": "Katlanabilir Levha",
+  "img": "/images/katalog/katlanabilir-levha-zt5000.webp",
+  "ad": "Katlanabilir Levha – ZT5000",
+  "adet": 3,
+  "w": 48
+ },
+ {
+  "kat": "Koni Kulpu",
+  "img": "/images/katalog/turuncu-kulp-zt102a.webp",
+  "ad": "Turuncu Kulp – ZT102A",
+  "adet": 3,
+  "w": 60
  },
  {
   "kat": "Dikme Kelepçesi",
   "img": "/images/katalog/63-cm-dikme-kelepcesi-zt63a.webp",
   "ad": "63 cm Dikme Kelepçesi – ZT63A",
-  "adet": 2
+  "adet": 2,
+  "w": 1600
+ },
+ {
+  "kat": "Flaşör Lamba",
+  "img": "/images/katalog/solar-flasor-led-lambasi-kirmizi-zt404r.webp",
+  "ad": "Solar Flaşör LED Lambası Kırmızı – ZT404R",
+  "adet": 2,
+  "w": 115
+ },
+ {
+  "kat": "El Uyarı Levhası",
+  "img": "/images/katalog/el-uyari-levhasi-dur-gec-zt452d.webp",
+  "ad": "El Uyarı Levhası Dur- Geç – ZT452D",
+  "adet": 2,
+  "w": 71
+ },
+ {
+  "kat": "Zincir Kancası",
+  "img": "/images/katalog/zincir-kancasi-plastik-siyah-zt330a.webp",
+  "ad": "Zincir Kancası Plastik Siyah – ZT330A",
+  "adet": 2,
+  "w": 128
  },
  {
   "kat": "Vida",
   "img": "/images/katalog/10x110-mm-trifon-vida-zt80a.webp",
   "ad": "10x110 mm Trifon Vida – ZT80A",
-  "adet": 1
+  "adet": 1,
+  "w": 1600
  },
  {
   "kat": "Dübel",
   "img": "/images/katalog/16x90mm-plastik-dubel-zt90a.webp",
   "ad": "16x90mm Plastik Dübel – ZT90A",
-  "adet": 1
+  "adet": 1,
+  "w": 1600
+ },
+ {
+  "kat": "Bağlantı Aparatı",
+  "img": "/images/katalog/delinator-baglanti-aparati-zt100a.webp",
+  "ad": "Delinatör Bağlantı Aparatı – ZT100A",
+  "adet": 1,
+  "w": 71
+ },
+ {
+  "kat": "Kablo Koruyucu",
+  "img": "/images/katalog/kablo-koruyucu-ztr105.webp",
+  "ad": "Kablo Koruyucu – ZTR105",
+  "adet": 1,
+  "w": 123
  }
 ]

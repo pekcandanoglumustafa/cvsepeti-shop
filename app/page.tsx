@@ -65,16 +65,13 @@ export default function Home() {
       <Bolum baslik="Delinatörler" href={`/kategori/${categorySlug("Delinatör")}`} urunler={delinator} />
       <Bolum baslik="Hız kesici kasisler" href={`/kategori/${categorySlug("Hız Kesici Kasis")}`} urunler={kasis} />
 
-      {/* ---- KATEGORİLER ---- */}
+      {/* ---- KATEGORİ LİSTESİ ---- */}
       <section style={{ maxWidth: 1520, margin: "0 auto", padding: "56px 20px 0" }}>
-        <Baslik baslik="Kategoriler" href="/urunler" />
-        <div className="grid-kat">
-          {katVitrin.map(({ c, n }) => <CategoryCard key={c} kategori={c} adet={n} gorsel={KAPAK[c]?.img} />)}
-        </div>
-        <div style={{ display: "flex", flexWrap: "wrap", gap: 7, marginTop: 22 }}>
-          {sayilar.slice(12).map(({ c, n }) => (
+        <Baslik baslik="Tüm kategoriler" href="/urunler" />
+        <div style={{ display: "flex", flexWrap: "wrap", gap: 7 }}>
+          {sayilar.map(({ c, n }) => (
             <Link key={c} href={`/kategori/${categorySlug(c)}`} className="label"
-                  style={{ padding: "8px 12px", border: "1px solid var(--hair)",
+                  style={{ padding: "9px 13px", border: "1px solid var(--hair)",
                            color: "var(--ink)", textDecoration: "none" }}>
               {c} <span style={{ color: "var(--dim)" }}>{n}</span>
             </Link>
