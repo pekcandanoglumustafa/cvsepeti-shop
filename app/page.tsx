@@ -99,6 +99,8 @@ export default function Home() {
         </div>
       </section>
 
+      <Referanslar />
+
       <Bolum baslik="Trafik konileri" href={`/kategori/${categorySlug("Trafik Konisi")}`} urunler={koni} />
       <Bolum baslik="Delinatörler" href={`/kategori/${categorySlug("Delinatör")}`} urunler={delinator} />
       <Bolum baslik="Hız kesici kasisler" href={`/kategori/${categorySlug("Hız Kesici Kasis")}`} urunler={kasis} />
@@ -116,8 +118,6 @@ export default function Home() {
           ))}
         </div>
       </section>
-
-      <Referanslar />
 
       <GuvenBandi />
 
