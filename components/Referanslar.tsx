@@ -44,7 +44,7 @@ export default function Referanslar() {
 
       <style>{`
         .rf{border-top:1px solid var(--hair);border-bottom:1px solid var(--hair);
-            padding:34px 0 30px;margin-top:56px;background:#FCFCFC}
+            padding:26px 0 24px;margin-top:24px;background:#FCFCFC}
         .rf-baslik{max-width:1520px;margin:0 auto 22px;padding:0 20px;
                    display:flex;align-items:center;gap:16px}
         .rf-cizgi{flex:1;height:1px;background:var(--hair)}

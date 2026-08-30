@@ -54,7 +54,11 @@ export default function Home() {
             </Link>
           </div>
         </div>
+      </section>
 
+      <Referanslar />
+
+      <section style={{ maxWidth: 1520, margin: "0 auto", padding: "26px 20px 0" }}>
         {/* ÇOK SATANLAR */}
         {cokSatanlar.length > 0 && (
           <>
@@ -98,8 +102,6 @@ export default function Home() {
           {vitrin.map((p) => <ProductCard key={p.id} product={p} />)}
         </div>
       </section>
-
-      <Referanslar />
 
       <Bolum baslik="Trafik konileri" href={`/kategori/${categorySlug("Trafik Konisi")}`} urunler={koni} />
       <Bolum baslik="Delinatörler" href={`/kategori/${categorySlug("Delinatör")}`} urunler={delinator} />
