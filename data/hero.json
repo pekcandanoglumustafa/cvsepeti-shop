@@ -22,8 +22,8 @@
  },
  {
   "kat": "Solar & Flaşör Lamba",
-  "img": "/images/katalog/ac-ledli-yol-bakim-levhalari-hxw-60x60-cm-led-panel-60x60-cm-mal.webp",
-  "ad": "Ac Ledli Yol Bakım Levhaları - (hxw) 60x60 Cm Led Panel: 60x60 Cm Malzeme: Pc - Ağırlık: 5.5 Kg – 11884 FL A",
+  "img": "/images/katalog/bataryali-flasorlu-lamba-hxw-32x18-cm-sari-led-11858-fl-s.webp",
+  "ad": "Bataryalı Flaşörlü Lamba - (hxw) 32x18 Cm - Sarı Led – 11858 FL S",
   "adet": 37,
   "w": 1600
  },
@@ -64,15 +64,15 @@
  },
  {
   "kat": "Diğer Trafik Ekipmanı",
-  "img": "/images/katalog/tpu-kaydirmaz-merdiven-kaplama-olcu-60x30-cm-pl-8022.webp",
-  "ad": "Tpu Kaydırmaz Merdiven Kaplama - Ölçü: 60x30 Cm – PL 8022",
+  "img": "/images/katalog/buldex-vida-ve-dubel-14x70-7-5x80-mm-160-a.webp",
+  "ad": "Buldex Vida Ve Dübel - Ø14x70 - Ø7.5x80 Mm – 160 A",
   "adet": 17,
-  "w": 319
+  "w": 1600
  },
  {
   "kat": "Araç Stoperi",
-  "img": "/images/katalog/60-cm-arac-stoperi-siyah-sari-zt1560.webp",
-  "ad": "60 cm Araç Stoperi Siyah Sarı – ZT1560",
+  "img": "/images/katalog/arac-stoperi-hxl-10x55-cm-12235-ub.webp",
+  "ad": "Araç Stoperi - (hxl) 10x55 Cm – 12235 UB",
   "adet": 15,
   "w": 1600
  },
@@ -183,10 +183,10 @@
  },
  {
   "kat": "Koni Kulpu",
-  "img": "/images/katalog/turuncu-kulp-zt102a.webp",
-  "ad": "Turuncu Kulp – ZT102A",
+  "img": "/images/katalog/beyaz-kulp-zt102a-w.webp",
+  "ad": "Beyaz Kulp – ZT102A-W",
   "adet": 3,
-  "w": 60
+  "w": 1600
  },
  {
   "kat": "Dikme Kelepçesi",
