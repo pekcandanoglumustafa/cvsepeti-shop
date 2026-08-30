@@ -4,6 +4,7 @@ import ProductCard from "@/components/ProductCard";
 import CategoryCard from "@/components/CategoryCard";
 import HeroMozaik from "@/components/HeroMozaik";
 import GuvenBandi from "@/components/GuvenBandi";
+import Referanslar from "@/components/Referanslar";
 import GuvenSerit from "@/components/GuvenSerit";
 import OdemeSerit from "@/components/OdemeSerit";
 import { tumYazilar } from "@/lib/blog";
@@ -115,6 +116,8 @@ export default function Home() {
           ))}
         </div>
       </section>
+
+      <Referanslar />
 
       <GuvenBandi />
 
