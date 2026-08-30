@@ -36,10 +36,10 @@
  },
  {
   "kat": "Güvenlik Bariyeri",
-  "img": "/images/katalog/metal-guvenlik-barikati-hxl-110x200-cm-12534-fb-st.webp",
-  "ad": "Metal Güvenlik Barikatı - (hxl) 110x200 Cm – 12534 FB ST",
+  "img": "/images/katalog/delinatorlu-guvenlik-bariyeri-hxlxw-100x100x40-cm-12524-fb-r.webp",
+  "ad": "Delinatörlü Güvenlik Bariyeri - (hxlxw) 100x100x40 Cm – 12524 FB R",
   "adet": 32,
-  "w": 630
+  "w": 1600
  },
  {
   "kat": "Duba & Kaldırım Sınırlama",
@@ -50,8 +50,8 @@
  },
  {
   "kat": "Zemin İşaretleme",
-  "img": "/images/katalog/cizgili-yer-zemini-sari-zt9003.webp",
-  "ad": "Çizgili Yer Zemini Sarı – ZT9003",
+  "img": "/images/katalog/cizgilil-yer-zemini-sari-40-cm-zt9005.webp",
+  "ad": "Çizgilil Yer Zemini Sarı 40 cm – ZT9005",
   "adet": 18,
   "w": 1600
  },
@@ -235,7 +235,7 @@
   "img": "/images/katalog/delinator-baglanti-aparati-zt100a.webp",
   "ad": "Delinatör Bağlantı Aparatı – ZT100A",
   "adet": 1,
-  "w": 71
+  "w": 1600
  },
  {
   "kat": "Kablo Koruyucu",

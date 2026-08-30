@@ -54,9 +54,9 @@
   "adet": 8
  },
  "Güvenlik Bariyeri": {
-  "img": "/images/katalog/metal-guvenlik-barikati-hxl-110x200-cm-12534-fb-st.webp",
-  "w": 630,
-  "urun": "Metal Güvenlik Barikatı - (hxl) 110x200 Cm – 12534 FB ST",
+  "img": "/images/katalog/delinatorlu-guvenlik-bariyeri-hxlxw-100x100x40-cm-12524-fb-r.webp",
+  "w": 1600,
+  "urun": "Delinatörlü Güvenlik Bariyeri - (hxlxw) 100x100x40 Cm – 12524 FB R",
   "adet": 32
  },
  "Güvenlik Aynası": {
@@ -132,9 +132,9 @@
   "adet": 12
  },
  "Zemin İşaretleme": {
-  "img": "/images/katalog/cizgili-yer-zemini-sari-zt9003.webp",
+  "img": "/images/katalog/cizgilil-yer-zemini-sari-40-cm-zt9005.webp",
   "w": 1600,
-  "urun": "Çizgili Yer Zemini Sarı – ZT9003",
+  "urun": "Çizgilil Yer Zemini Sarı 40 cm – ZT9005",
   "adet": 18
  },
  "Yol Butonu": {
@@ -163,7 +163,7 @@
  },
  "Bağlantı Aparatı": {
   "img": "/images/katalog/delinator-baglanti-aparati-zt100a.webp",
-  "w": 71,
+  "w": 1600,
   "urun": "Delinatör Bağlantı Aparatı – ZT100A",
   "adet": 1
  },
