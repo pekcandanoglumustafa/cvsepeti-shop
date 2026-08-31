@@ -50,6 +50,7 @@ export default async function Urun({ params }: { params: Promise<{ slug: string 
     ["Renk", (p as any).renk || ""],
     ["Reflektif detay", (p as any).reflektif_detay || ""],
     ["Montaj", (p as any).montaj || ""],
+    ["Montaj gereçleri", (p as any).montaj_dahil ? "Vida ve dübel ürüne dahildir" : ""],
     ["Ağırlık", p.agirlik_kg ? `${p.agirlik_kg} kg` : ""],
     ["Koli içi adet", (p as any).koli_adet ? `${(p as any).koli_adet} adet` : ""],
     ["Koli ölçüsü", (p as any).koli_olcu ? `${(p as any).koli_olcu.join(" × ")} cm` : ""],
@@ -88,7 +89,8 @@ export default async function Urun({ params }: { params: Promise<{ slug: string 
           </p>
 
           <div className="guven-satir" style={{ marginTop: 18, display: "flex", gap: 16, flexWrap: "wrap" }}>
-            {["iyzico ile güvenli ödeme", "1-2 iş gününde kargoda", "14 gün cayma hakkı"].map((t) => (
+            {[...((p as any).montaj_dahil ? ["Vida ve dübel dahil"] : []),
+              "iyzico ile güvenli ödeme", "1-2 iş gününde kargoda", "14 gün cayma hakkı"].map((t) => (
               <span key={t} className="eyebrow" style={{ color: "var(--muted)" }}>✓ {t}</span>
             ))}
           </div>

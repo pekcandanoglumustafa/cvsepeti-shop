@@ -83,7 +83,8 @@
   "renk": "Turuncu",
   "reflektif_detay": "1 pcs Metalize",
   "montaj": "3 Trifon vida - 3 Dübel",
-  "taban_olcu": "Ø 20 cm"
+  "taban_olcu": "Ø 20 cm",
+  "montaj_dahil": true
  },
  {
   "id": "ZT8045",
@@ -132,7 +133,8 @@
   "renk": "Turuncu",
   "reflektif_detay": "2 pcs Metalize",
   "montaj": "3 Trifon vida - 3 Dübel",
-  "taban_olcu": "Ø 20 cm"
+  "taban_olcu": "Ø 20 cm",
+  "montaj_dahil": true
  },
  {
   "id": "ZT9050",
@@ -181,7 +183,8 @@
   "renk": "Turuncu",
   "reflektif_detay": "2 pcs Metalize",
   "montaj": "3 Trifon vida - 3 Dübel",
-  "taban_olcu": "Ø 18 cm"
+  "taban_olcu": "Ø 18 cm",
+  "montaj_dahil": true
  },
  {
   "id": "ZT8070",
@@ -230,7 +233,8 @@
   "renk": "Turuncu",
   "reflektif_detay": "3 pcs Metalize",
   "montaj": "3 Trifon vida - 3 Dübel",
-  "taban_olcu": "Ø 18 cm"
+  "taban_olcu": "Ø 18 cm",
+  "montaj_dahil": true
  },
  {
   "id": "ZT8075",
@@ -279,7 +283,8 @@
   "renk": "Turuncu",
   "reflektif_detay": "3 pcs Metalize",
   "montaj": "3 Trifon vida - 3 Dübel",
-  "taban_olcu": "Ø 20cm"
+  "taban_olcu": "Ø 20cm",
+  "montaj_dahil": true
  },
  {
   "id": "ZT80100",
@@ -328,7 +333,8 @@
   "renk": "Turuncu",
   "reflektif_detay": "4 pcs Metalize",
   "montaj": "3 Trifon vida - 3 Dübel",
-  "taban_olcu": "Ø 20 cm"
+  "taban_olcu": "Ø 20 cm",
+  "montaj_dahil": true
  },
  {
   "id": "ZT14060",
@@ -377,7 +383,8 @@
   "renk": "Siyah",
   "reflektif_detay": "1 pcs Metalize",
   "montaj": "3 Trifon vida - 3 Dübel",
-  "taban_olcu": "Ø 24 cm"
+  "taban_olcu": "Ø 24 cm",
+  "montaj_dahil": true
  },
  {
   "id": "ZT14060B",
@@ -416,7 +423,9 @@
    12
   ],
   "price_kdv": 696.8,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "14060ECOB",
@@ -465,7 +474,8 @@
   "renk": "Siyah",
   "reflektif_detay": "1 adet Prizmatik Beyaz",
   "montaj": "3 Trifon Vida - 3 Dübel",
-  "taban_olcu": "Ø24 cm"
+  "taban_olcu": "Ø24 cm",
+  "montaj_dahil": true
  },
  {
   "id": "8030ECO",
@@ -513,7 +523,8 @@
   "koli_adet": 14,
   "renk": "Turuncu",
   "montaj": "3 Trifon Vida - 3 Dübel",
-  "taban_olcu": "Ø 20 cm"
+  "taban_olcu": "Ø 20 cm",
+  "montaj_dahil": true
  },
  {
   "id": "8045ECO",
@@ -562,7 +573,8 @@
   "renk": "Turuncu",
   "reflektif_detay": "2 adet Prizmatik Beyaz",
   "montaj": "3 Trifon Vida - 3 Dübel",
-  "taban_olcu": "Ø20 cm"
+  "taban_olcu": "Ø20 cm",
+  "montaj_dahil": true
  },
  {
   "id": "7080ECO",
@@ -601,7 +613,9 @@
    20
   ],
   "price_kdv": 280.8,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "8075ECO",
@@ -650,7 +664,8 @@
   "renk": "Turuncu",
   "reflektif_detay": "3 adet Prizmatik Beyaz",
   "montaj": "3 Trifon Vida - 3 Dübel",
-  "taban_olcu": "Ø20 cm"
+  "taban_olcu": "Ø20 cm",
+  "montaj_dahil": true
  },
  {
   "id": "80100ECO",
@@ -699,7 +714,8 @@
   "renk": "Turuncu",
   "reflektif_detay": "4 adet Prizmatik Beyaz",
   "montaj": "3 Trifon Vida - 3 Dübel",
-  "taban_olcu": "Ø20  cm"
+  "taban_olcu": "Ø20  cm",
+  "montaj_dahil": true
  },
  {
   "id": "ZT648100",
@@ -742,7 +758,8 @@
   "renk": "Turuncu Delinatör - Siyah Ağırlık",
   "reflektif_detay": "4 adet Prizmatik Beyaz",
   "montaj": "Delinatörün Ağırlık Montajı için 3 adet vida ile beraber gönderilir.",
-  "taban_olcu": "60x40x8"
+  "taban_olcu": "60x40x8",
+  "montaj_dahil": true
  },
  {
   "id": "648100ECO",
@@ -785,7 +802,8 @@
   "renk": "Turuncu Delinatör - Siyah Ağırlık",
   "reflektif_detay": "4 adet Prizmatik Beyaz",
   "montaj": "Delinatörün Ağırlık Montajı için 3 adet vida ile beraber gönderilir.",
-  "taban_olcu": "60x40x8"
+  "taban_olcu": "60x40x8",
+  "montaj_dahil": true
  },
  {
   "id": "ZT16015",
@@ -824,7 +842,9 @@
    22
   ],
   "price_kdv": 884.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "ZT16045",
@@ -863,7 +883,9 @@
    22
   ],
   "price_kdv": 1164.8,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "16045ECO",
@@ -902,7 +924,9 @@
    22
   ],
   "price_kdv": 1040.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "ZT16075",
@@ -941,7 +965,9 @@
    22
   ],
   "price_kdv": 1331.2,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "16075ECO",
@@ -980,7 +1006,9 @@
    22
   ],
   "price_kdv": 1144.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "ZT12845",
@@ -1019,7 +1047,9 @@
    22
   ],
   "price_kdv": 1378.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "12845ECO",
@@ -1058,7 +1088,9 @@
    22
   ],
   "price_kdv": 1248.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "ZT12875",
@@ -1097,7 +1129,9 @@
    22
   ],
   "price_kdv": 1560.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "12875ECO",
@@ -1136,7 +1170,9 @@
    22
   ],
   "price_kdv": 1352.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "ZT63315R2",
@@ -1179,7 +1215,8 @@
   "renk": "Kırmızı/Beyaz",
   "reflektif_detay": "Glass Bead Type 1",
   "montaj": "Ürün yere monte edilebilir",
-  "taban_olcu": "36 cm (Dairesel)"
+  "taban_olcu": "36 cm (Dairesel)",
+  "montaj_dahil": true
  },
  {
   "id": "ZT11015R4",
@@ -1222,7 +1259,8 @@
   "renk": "Kırmızı/Beyaz",
   "reflektif_detay": "Glass Bead Type 1",
   "montaj": "Ürün yere monte edilebilir",
-  "taban_olcu": "36 cm (Dairesel)"
+  "taban_olcu": "36 cm (Dairesel)",
+  "montaj_dahil": true
  },
  {
   "id": "ZT204A",
@@ -1308,7 +1346,8 @@
   "renk": "Kırmızı/Beyaz",
   "reflektif_detay": "Glass Bead Type 1",
   "montaj": "Ürün yere monte edilebilir",
-  "taban_olcu": "60x40 cm (Dikdörtgen)"
+  "taban_olcu": "60x40 cm (Dikdörtgen)",
+  "montaj_dahil": true
  },
  {
   "id": "ZT110120R4",
@@ -1351,7 +1390,8 @@
   "renk": "Kırmızı/Beyaz",
   "reflektif_detay": "Glass Bead Type 1",
   "montaj": "Ürün yere monte edilebilir",
-  "taban_olcu": "60x40 cm (Dikdörtgen)"
+  "taban_olcu": "60x40 cm (Dikdörtgen)",
+  "montaj_dahil": true
  },
  {
   "id": "ZT60408",
@@ -1436,7 +1476,9 @@
   "kdv_orani": 0.2,
   "renk": "-",
   "reflektif_detay": "-",
-  "taban_olcu": "-"
+  "taban_olcu": "-",
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "ZT75110 DAR",
@@ -1478,7 +1520,9 @@
   "kdv_orani": 0.2,
   "renk": "-",
   "reflektif_detay": "Prizmatik",
-  "taban_olcu": "Ağırlık:  25000 gr ± %5 gr"
+  "taban_olcu": "Ağırlık:  25000 gr ± %5 gr",
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "ZT32110 DA",
@@ -1520,7 +1564,9 @@
   "kdv_orani": 0.2,
   "renk": "-",
   "reflektif_detay": "-",
-  "taban_olcu": "Ağırlık:  23000 gr ± %5 gr"
+  "taban_olcu": "Ağırlık:  23000 gr ± %5 gr",
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "ZT32110 DAR",
@@ -1562,7 +1608,9 @@
   "kdv_orani": 0.2,
   "renk": "-",
   "reflektif_detay": "Prizmatik",
-  "taban_olcu": "Ağırlık: 23000 gr ± %5 gr"
+  "taban_olcu": "Ağırlık: 23000 gr ± %5 gr",
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "ZT7563 DA",
@@ -1604,7 +1652,9 @@
   "kdv_orani": 0.2,
   "renk": "-",
   "reflektif_detay": "-",
-  "taban_olcu": "125 cm"
+  "taban_olcu": "125 cm",
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "ZT7563 DAR",
@@ -1646,7 +1696,9 @@
   "kdv_orani": 0.2,
   "renk": "-",
   "reflektif_detay": "Prizmatik",
-  "taban_olcu": "125 cm"
+  "taban_olcu": "125 cm",
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "ZT3263 DA",
@@ -1688,7 +1740,9 @@
   "kdv_orani": 0.2,
   "renk": "-",
   "reflektif_detay": "-",
-  "taban_olcu": "90 cm"
+  "taban_olcu": "90 cm",
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "ZT3263 DAR",
@@ -1730,7 +1784,9 @@
   "kdv_orani": 0.2,
   "renk": "-",
   "reflektif_detay": "Prizmatik",
-  "taban_olcu": "90 cm"
+  "taban_olcu": "90 cm",
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "ZT90315",
@@ -3303,7 +3359,8 @@
   "renk": "Siyah",
   "reflektif_detay": "Dijital Baskı BS4",
   "montaj": "4 Trifon Vida - 4 Dübel",
-  "taban_olcu": "29x3,6 cm"
+  "taban_olcu": "29x3,6 cm",
+  "montaj_dahil": true
  },
  {
   "id": "ZT40100P",
@@ -3343,7 +3400,9 @@
   ],
   "price_kdv": 2028.0,
   "kdv_orani": 0.2,
-  "agirlikli": false
+  "agirlikli": false,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "ZT80150R",
@@ -3713,7 +3772,9 @@
    13.0
   ],
   "koli_adet": 1,
-  "renk": "Turuncu"
+  "renk": "Turuncu",
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "ZT6060",
@@ -3759,7 +3820,9 @@
    13.0
   ],
   "koli_adet": 1,
-  "renk": "Turuncu"
+  "renk": "Turuncu",
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "ZT404Y",
@@ -3896,7 +3959,8 @@
   "renk": "Siyah Gövde / Sarı uyarı                                                                                        Reflektif:  Prizmatik Beyaz",
   "reflektif_detay": "Prizmatik Beyaz",
   "montaj": "2 Trifon Vida - 2 Dubel",
-  "taban_olcu": "15x60 cm"
+  "taban_olcu": "15x60 cm",
+  "montaj_dahil": true
  },
  {
   "id": "ZT15110",
@@ -3939,7 +4003,8 @@
   "renk": "Siyah Gövde / Sarı uyarı                                                                                        Reflektif:  Prizmatik Beyaz",
   "reflektif_detay": "Prizmatik Beyaz",
   "montaj": "3 Trifon Vida - 3 Dubel",
-  "taban_olcu": "15x110 cm"
+  "taban_olcu": "15x110 cm",
+  "montaj_dahil": true
  },
  {
   "id": "ZT15190",
@@ -3982,7 +4047,8 @@
   "renk": "Siyah Gövde / Sarı uyarı                                                                                        Reflektif:  Prizmatik Beyaz",
   "reflektif_detay": "Prizmatik Beyaz",
   "montaj": "5 Trifon Vida - 5 Dubel",
-  "taban_olcu": "15x190 cm"
+  "taban_olcu": "15x190 cm",
+  "montaj_dahil": true
  },
  {
   "id": "ZT1560Y",
@@ -4025,7 +4091,8 @@
   "renk": "Sarı Gövde / Siyah uyarı                                                                                        Reflektif:  Prizmatik Beyaz",
   "reflektif_detay": "Prizmatik Beyaz",
   "montaj": "2 Trifon Vida - 2 Dubel",
-  "taban_olcu": "15x60 cm"
+  "taban_olcu": "15x60 cm",
+  "montaj_dahil": true
  },
  {
   "id": "ZT15110Y",
@@ -4068,7 +4135,8 @@
   "renk": "Sarı Gövde / Siyah uyarı                                                                                         Reflektif:  Prizmatik Beyaz",
   "reflektif_detay": "Prizmatik Beyaz",
   "montaj": "3 Trifon Vida - 3 Dubel",
-  "taban_olcu": "15x110 cm"
+  "taban_olcu": "15x110 cm",
+  "montaj_dahil": true
  },
  {
   "id": "ZT15190Y",
@@ -4111,7 +4179,8 @@
   "renk": "Sarı Gövde / Siyah uyarı                                                                                         Reflektif:  Prizmatik Beyaz",
   "reflektif_detay": "Prizmatik Beyaz",
   "montaj": "5 Trifon Vida - 5 Dubel",
-  "taban_olcu": "15x190 cm"
+  "taban_olcu": "15x190 cm",
+  "montaj_dahil": true
  },
  {
   "id": "ZT90140",
@@ -4159,7 +4228,8 @@
   "koli_adet": 10,
   "renk": "Siyah Gövde / Sarı Uyarı",
   "reflektif_detay": "Prizmatik Beyaz",
-  "montaj": "Ø8 Dübel Ø4x38 Vida ile montaj"
+  "montaj": "Ø8 Dübel Ø4x38 Vida ile montaj",
+  "montaj_dahil": true
  },
  {
   "id": "ZT90141",
@@ -4207,7 +4277,8 @@
   "koli_adet": 10,
   "renk": "Siyah",
   "reflektif_detay": "Prizmatik Beyaz veya Sarı",
-  "montaj": "Ø8 Dübel Ø4x38 Vida ile montaj"
+  "montaj": "Ø8 Dübel Ø4x38 Vida ile montaj",
+  "montaj_dahil": true
  },
  {
   "id": "ZT40400",
@@ -4249,7 +4320,8 @@
   "kdv_orani": 0.2,
   "renk": "Siyah",
   "montaj": "4 Trifon Vida - 4 Dübel",
-  "taban_olcu": "50x40 cm"
+  "taban_olcu": "50x40 cm",
+  "montaj_dahil": true
  },
  {
   "id": "ZT40401",
@@ -4297,7 +4369,8 @@
   "koli_adet": 30,
   "renk": "Siyah",
   "montaj": "2 Trifon Vida - 2 Dübel",
-  "taban_olcu": "10x40 cm"
+  "taban_olcu": "10x40 cm",
+  "montaj_dahil": true
  },
  {
   "id": "ZT45600",
@@ -4339,7 +4412,8 @@
   "kdv_orani": 0.2,
   "renk": "Siyah",
   "montaj": "4 Trifon Vida - 4 Dübel",
-  "taban_olcu": "60x50 cm"
+  "taban_olcu": "60x50 cm",
+  "montaj_dahil": true
  },
  {
   "id": "ZT45601",
@@ -4387,7 +4461,8 @@
   "koli_adet": 14,
   "renk": "Siyah",
   "montaj": "2 Trifon Vida - 2 Dübel",
-  "taban_olcu": "60x15 cm"
+  "taban_olcu": "60x15 cm",
+  "montaj_dahil": true
  },
  {
   "id": "ZT40300",
@@ -4436,7 +4511,8 @@
   "renk": "Siyah",
   "reflektif_detay": "6 Adet kedi gözlü lens",
   "montaj": "4 Trifon Vida - 4 Dübel",
-  "taban_olcu": "33,4x30 cm"
+  "taban_olcu": "33,4x30 cm",
+  "montaj_dahil": true
  },
  {
   "id": "ZT40301",
@@ -4484,7 +4560,8 @@
   "koli_adet": 40,
   "renk": "Siyah",
   "montaj": "2 Trifon Vida - 2 Dübel",
-  "taban_olcu": "11x30 cm"
+  "taban_olcu": "11x30 cm",
+  "montaj_dahil": true
  },
  {
   "id": "ZT40300Y",
@@ -4533,7 +4610,8 @@
   "renk": "Sarı",
   "reflektif_detay": "6 Adet kedi gözlü lens",
   "montaj": "4 Trifon Vida - 4 Dübel",
-  "taban_olcu": "33,4x30 cm"
+  "taban_olcu": "33,4x30 cm",
+  "montaj_dahil": true
  },
  {
   "id": "ZT40301Y",
@@ -4581,7 +4659,8 @@
   "koli_adet": 40,
   "renk": "Sarı",
   "montaj": "2 Trifon Vida - 2 Dübel",
-  "taban_olcu": "11x30 cm"
+  "taban_olcu": "11x30 cm",
+  "montaj_dahil": true
  },
  {
   "id": "ZT50250",
@@ -4630,7 +4709,8 @@
   "renk": "Siyah",
   "reflektif_detay": "6 Adet kedi gözlü lens",
   "montaj": "4 Trifon Vida - 4 Dübel",
-  "taban_olcu": "33,4x25 cm"
+  "taban_olcu": "33,4x25 cm",
+  "montaj_dahil": true
  },
  {
   "id": "ZT50251",
@@ -4678,7 +4758,8 @@
   "koli_adet": 8,
   "renk": "Siyah",
   "montaj": "2 Trifon Vida - 2 Dübel",
-  "taban_olcu": "33,4x25 cm"
+  "taban_olcu": "33,4x25 cm",
+  "montaj_dahil": true
  },
  {
   "id": "ZT50250Y",
@@ -4727,7 +4808,8 @@
   "renk": "Sarı",
   "reflektif_detay": "6 Adet kedi gözlü lens",
   "montaj": "4 Trifon Vida - 4 Dübel",
-  "taban_olcu": "33,4x25 cm"
+  "taban_olcu": "33,4x25 cm",
+  "montaj_dahil": true
  },
  {
   "id": "ZT50251Y",
@@ -4775,7 +4857,8 @@
   "koli_adet": 8,
   "renk": "Sarı",
   "montaj": "2 Trifon Vida - 2 Dübel",
-  "taban_olcu": "33,4x25 cm"
+  "taban_olcu": "33,4x25 cm",
+  "montaj_dahil": true
  },
  {
   "id": "ZT50500",
@@ -4824,7 +4907,8 @@
   "renk": "Siyah",
   "reflektif_detay": "8 Adet kedi gözlü lens",
   "montaj": "4 Trifon Vida - 4 Dübel",
-  "taban_olcu": "50x50 cm"
+  "taban_olcu": "50x50 cm",
+  "montaj_dahil": true
  },
  {
   "id": "ZT50501",
@@ -4872,7 +4956,8 @@
   "koli_adet": 20,
   "renk": "Siyah",
   "montaj": "2 Trifon Vida - 2 Dübel",
-  "taban_olcu": "50x20 cm"
+  "taban_olcu": "50x20 cm",
+  "montaj_dahil": true
  },
  {
   "id": "ZT50500Y",
@@ -4921,7 +5006,8 @@
   "renk": "Siyah",
   "reflektif_detay": "8 Adet kedi gözlü lens",
   "montaj": "4 Trifon Vida - 4 Dübel",
-  "taban_olcu": "50x50 cm"
+  "taban_olcu": "50x50 cm",
+  "montaj_dahil": true
  },
  {
   "id": "ZT50501Y",
@@ -4969,7 +5055,8 @@
   "koli_adet": 20,
   "renk": "Sarı",
   "montaj": "2 Trifon Vida - 2 Dübel",
-  "taban_olcu": "50x20 cm"
+  "taban_olcu": "50x20 cm",
+  "montaj_dahil": true
  },
  {
   "id": "ZT5000",
@@ -5637,7 +5724,9 @@
    44.0
   ],
   "koli_adet": 25,
-  "renk": "Beyaz"
+  "renk": "Beyaz",
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "ZT780",
@@ -8083,7 +8172,9 @@
   "koli_adet": 25,
   "renk": "Sarı",
   "reflektif_detay": "-",
-  "taban_olcu": "30x30 cm"
+  "taban_olcu": "30x30 cm",
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "ZT9004",
@@ -8131,7 +8222,9 @@
   "koli_adet": 25,
   "renk": "Sarı",
   "reflektif_detay": "-",
-  "taban_olcu": "30x30 cm"
+  "taban_olcu": "30x30 cm",
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "ZT9003B",
@@ -8170,7 +8263,9 @@
    12
   ],
   "price_kdv": 166.4,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "ZT9004B",
@@ -8209,7 +8304,9 @@
    12
   ],
   "price_kdv": 166.4,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "ZT9005",
@@ -8257,7 +8354,9 @@
   "koli_adet": 25,
   "renk": "Sarı",
   "reflektif_detay": "-",
-  "taban_olcu": "40x40 cm"
+  "taban_olcu": "40x40 cm",
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "ZT9006",
@@ -8305,7 +8404,9 @@
   "koli_adet": 25,
   "renk": "Sarı",
   "reflektif_detay": "-",
-  "taban_olcu": "40x40 cm"
+  "taban_olcu": "40x40 cm",
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "ZT9005B",
@@ -8344,7 +8445,9 @@
    5
   ],
   "price_kdv": 249.6,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "ZT9006B",
@@ -8383,7 +8486,9 @@
    5
   ],
   "price_kdv": 249.6,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "ZT8001",
@@ -9132,7 +9237,9 @@
    4
   ],
   "price_kdv": 936.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "ZTR401",
@@ -9171,7 +9278,9 @@
    12
   ],
   "price_kdv": 468.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "ZTR500",
@@ -9213,7 +9322,9 @@
    4
   ],
   "price_kdv": 1040.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "ZTR501",
@@ -9252,7 +9363,9 @@
    12
   ],
   "price_kdv": 520.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "ZTR600",
@@ -9294,7 +9407,9 @@
    4
   ],
   "price_kdv": 1352.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "ZTR601",
@@ -9333,7 +9448,9 @@
    12
   ],
   "price_kdv": 676.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "ZTR900",
@@ -9375,7 +9492,9 @@
    4
   ],
   "price_kdv": 2392.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "ZTR901",
@@ -9414,7 +9533,9 @@
    12
   ],
   "price_kdv": 1196.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "ZTR6012",
@@ -9453,7 +9574,9 @@
    12
   ],
   "price_kdv": 728.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "ZTR18015",
@@ -9492,7 +9615,9 @@
    12
   ],
   "price_kdv": 2080.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "ZTR1280",
@@ -9531,7 +9656,9 @@
    12
   ],
   "price_kdv": 395.2,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "ZTR1281",
@@ -9570,7 +9697,9 @@
    12
   ],
   "price_kdv": 468.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "ZTR105",
@@ -9648,7 +9777,9 @@
    12
   ],
   "price_kdv": 1664.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "ZTMB01",
@@ -9804,7 +9935,9 @@
    12
   ],
   "price_kdv": 1872.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "ZTM18012",
@@ -9843,7 +9976,9 @@
    12
   ],
   "price_kdv": 2028.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "ZTM18012B",
@@ -9882,7 +10017,9 @@
    12
   ],
   "price_kdv": 2028.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-12520 FB R",
@@ -10601,7 +10738,9 @@
   ],
   "price_kdv": 2145.6,
   "kdv_orani": 0.2,
-  "agirlikli": false
+  "agirlikli": false,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-12417 DB R",
@@ -10979,7 +11118,9 @@
   ],
   "price_kdv": 1238.4,
   "kdv_orani": 0.2,
-  "agirlikli": false
+  "agirlikli": false,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-12420 DB R",
@@ -11019,7 +11160,9 @@
   ],
   "price_kdv": 1152.0,
   "kdv_orani": 0.2,
-  "agirlikli": false
+  "agirlikli": false,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-12430 DB R",
@@ -11059,7 +11202,9 @@
   ],
   "price_kdv": 1713.6,
   "kdv_orani": 0.2,
-  "agirlikli": false
+  "agirlikli": false,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-12403-1 DB R",
@@ -11099,7 +11244,9 @@
   ],
   "price_kdv": 864.0,
   "kdv_orani": 0.2,
-  "agirlikli": false
+  "agirlikli": false,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-12409-1 DB R",
@@ -11139,7 +11286,9 @@
   ],
   "price_kdv": 864.0,
   "kdv_orani": 0.2,
-  "agirlikli": false
+  "agirlikli": false,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-12435 DB",
@@ -11179,7 +11328,9 @@
   ],
   "price_kdv": 676.8,
   "kdv_orani": 0.2,
-  "agirlikli": false
+  "agirlikli": false,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-11811 FL S",
@@ -13671,7 +13822,9 @@
   ],
   "price_kdv": 1814.4,
   "kdv_orani": 0.2,
-  "agirlikli": false
+  "agirlikli": false,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-12426 DB A",
@@ -13714,7 +13867,9 @@
   ],
   "price_kdv": 1814.4,
   "kdv_orani": 0.2,
-  "agirlikli": false
+  "agirlikli": false,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-12427 DB A",
@@ -13757,7 +13912,9 @@
   ],
   "price_kdv": 1814.4,
   "kdv_orani": 0.2,
-  "agirlikli": false
+  "agirlikli": false,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-12424 DB F A",
@@ -13800,7 +13957,9 @@
   ],
   "price_kdv": 2332.8,
   "kdv_orani": 0.2,
-  "agirlikli": false
+  "agirlikli": false,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-12421 DB F A",
@@ -13843,7 +14002,9 @@
   ],
   "price_kdv": 2332.8,
   "kdv_orani": 0.2,
-  "agirlikli": false
+  "agirlikli": false,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-108 A F",
@@ -13967,7 +14128,9 @@
   ],
   "price_kdv": 2635.2,
   "kdv_orani": 0.2,
-  "agirlikli": false
+  "agirlikli": false,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-12254 UB R",
@@ -14007,7 +14170,9 @@
   ],
   "price_kdv": 1944.0,
   "kdv_orani": 0.2,
-  "agirlikli": false
+  "agirlikli": false,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-12253 UB R",
@@ -14047,7 +14212,9 @@
   ],
   "price_kdv": 1396.8,
   "kdv_orani": 0.2,
-  "agirlikli": false
+  "agirlikli": false,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-22067 UB R",
@@ -14087,7 +14254,9 @@
   ],
   "price_kdv": 979.2,
   "kdv_orani": 0.2,
-  "agirlikli": false
+  "agirlikli": false,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-12278 UB R",
@@ -14126,7 +14295,9 @@
    20
   ],
   "price_kdv": 1569.6,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-12232 UB R",
@@ -14165,7 +14336,9 @@
    20
   ],
   "price_kdv": 1360.8,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-12236 UB R",
@@ -14204,7 +14377,9 @@
    15
   ],
   "price_kdv": 1202.4,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-22008 UB R",
@@ -14243,7 +14418,9 @@
    20
   ],
   "price_kdv": 1332.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-22068 UB R",
@@ -14285,7 +14462,9 @@
    15
   ],
   "price_kdv": 979.2,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-12256 UB R",
@@ -14327,7 +14506,9 @@
    20
   ],
   "price_kdv": 1396.8,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-12237 UB R",
@@ -14366,7 +14547,9 @@
    20
   ],
   "price_kdv": 1728.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-12249 UB R",
@@ -14405,7 +14588,9 @@
    20
   ],
   "price_kdv": 1713.6,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-12243 UB R",
@@ -14444,7 +14629,9 @@
    20
   ],
   "price_kdv": 1353.6,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-12247 UB R",
@@ -14483,7 +14670,9 @@
    16
   ],
   "price_kdv": 993.6,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-12281 UB R",
@@ -14522,7 +14711,9 @@
    20
   ],
   "price_kdv": 835.2,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-12283 UB R",
@@ -14561,7 +14752,9 @@
    13
   ],
   "price_kdv": 604.8,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-12211 UB R",
@@ -14600,7 +14793,9 @@
    20
   ],
   "price_kdv": 1209.6,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-12212 UB R",
@@ -14639,7 +14834,9 @@
    20
   ],
   "price_kdv": 993.6,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-12214 UB R",
@@ -14678,7 +14875,9 @@
    15
   ],
   "price_kdv": 799.2,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-12215 UB R",
@@ -14717,7 +14916,9 @@
    12
   ],
   "price_kdv": 648.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-12288 UB R",
@@ -14756,7 +14957,9 @@
    20
   ],
   "price_kdv": 1209.6,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-12286 UB R",
@@ -14795,7 +14998,9 @@
    20
   ],
   "price_kdv": 993.6,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-12284 UB R",
@@ -14834,7 +15039,9 @@
    15
   ],
   "price_kdv": 799.2,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-12282 UB R",
@@ -14873,7 +15080,9 @@
    12
   ],
   "price_kdv": 648.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-12245 UB R",
@@ -14912,7 +15121,9 @@
    12
   ],
   "price_kdv": 685.44,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-12244 UB R",
@@ -14951,7 +15162,9 @@
    15
   ],
   "price_kdv": 842.4,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-12242 UB R",
@@ -14990,7 +15203,9 @@
    20
   ],
   "price_kdv": 1044.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-12241 UB R",
@@ -15029,7 +15244,9 @@
    20
   ],
   "price_kdv": 1267.2,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-22036 UB R",
@@ -15068,7 +15285,9 @@
    20
   ],
   "price_kdv": 1267.2,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-22037 UB R",
@@ -15107,7 +15326,9 @@
    20
   ],
   "price_kdv": 1044.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-22038 UB R",
@@ -15146,7 +15367,9 @@
    15
   ],
   "price_kdv": 842.4,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-22039 UB R",
@@ -15185,7 +15408,9 @@
    12
   ],
   "price_kdv": 685.44,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-22040 UB R",
@@ -15224,7 +15449,9 @@
    20
   ],
   "price_kdv": 813.6,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-22042 UB R",
@@ -15263,7 +15490,9 @@
    20
   ],
   "price_kdv": 639.36,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-22044 UB R",
@@ -15302,7 +15531,9 @@
    15
   ],
   "price_kdv": 515.52,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-12275 UB R",
@@ -15341,7 +15572,9 @@
    12
   ],
   "price_kdv": 426.24,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-12274 UB R",
@@ -15380,7 +15613,9 @@
    13
   ],
   "price_kdv": 414.72,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-12272 UB R",
@@ -15419,7 +15654,9 @@
    20
   ],
   "price_kdv": 552.96,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-22048 UB R",
@@ -15458,7 +15695,9 @@
    20
   ],
   "price_kdv": 813.6,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-22050 UB R",
@@ -15497,7 +15736,9 @@
    20
   ],
   "price_kdv": 639.36,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-22052 UB R",
@@ -15536,7 +15777,9 @@
    15
   ],
   "price_kdv": 515.52,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-22019 UB R",
@@ -15575,7 +15818,9 @@
    12
   ],
   "price_kdv": 426.24,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-22029 UB R",
@@ -15614,7 +15859,9 @@
    12
   ],
   "price_kdv": 446.4,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-22053 UB R",
@@ -15653,7 +15900,9 @@
    15
   ],
   "price_kdv": 538.56,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-22051 UB R",
@@ -15692,7 +15941,9 @@
    20
   ],
   "price_kdv": 673.92,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-22049 UB R",
@@ -15731,7 +15982,9 @@
    20
   ],
   "price_kdv": 849.6,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-22059 UB R",
@@ -15770,7 +16023,9 @@
    12
   ],
   "price_kdv": 446.4,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-22058 UB R",
@@ -15809,7 +16064,9 @@
    15
   ],
   "price_kdv": 538.56,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-22057 UB R",
@@ -15848,7 +16105,9 @@
    20
   ],
   "price_kdv": 673.92,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-22056 UB R",
@@ -15887,7 +16146,9 @@
    20
   ],
   "price_kdv": 849.6,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-22021 UB R",
@@ -15926,7 +16187,9 @@
    22
   ],
   "price_kdv": 1339.2,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-22022 UB R",
@@ -15965,7 +16228,9 @@
    22
   ],
   "price_kdv": 1108.8,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-22023 UB R",
@@ -16004,7 +16269,9 @@
    22
   ],
   "price_kdv": 885.6,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-22024 UB R",
@@ -16043,7 +16310,9 @@
    22
   ],
   "price_kdv": 720.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-12251 UB R",
@@ -16086,7 +16355,9 @@
    20
   ],
   "price_kdv": 2908.8,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-12268 UB R",
@@ -16129,7 +16400,9 @@
    20
   ],
   "price_kdv": 2649.6,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-12270 UB R",
@@ -16172,7 +16445,9 @@
    20
   ],
   "price_kdv": 2361.6,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-12297 UB R",
@@ -16215,7 +16490,9 @@
    20
   ],
   "price_kdv": 2937.6,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-12219 UB R",
@@ -16258,7 +16535,9 @@
    20
   ],
   "price_kdv": 2707.2,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-12218 UB R",
@@ -16301,7 +16580,9 @@
    20
   ],
   "price_kdv": 2404.8,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-12262 UB",
@@ -16344,7 +16625,9 @@
    20
   ],
   "price_kdv": 2606.4,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-12266 UB R",
@@ -16387,7 +16670,9 @@
    20
   ],
   "price_kdv": 2520.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-12260 UB R",
@@ -16430,7 +16715,9 @@
    20
   ],
   "price_kdv": 1368.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-22203 UB R",
@@ -16473,7 +16760,9 @@
    12
   ],
   "price_kdv": 820.8,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-22202 UB R",
@@ -16516,7 +16805,9 @@
    19
   ],
   "price_kdv": 1101.6,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-22206 DB R",
@@ -16559,7 +16850,9 @@
    20
   ],
   "price_kdv": 2001.6,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-22205 DB R",
@@ -16602,7 +16895,9 @@
    20
   ],
   "price_kdv": 2404.8,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-12206 UB R",
@@ -16645,7 +16940,9 @@
    20
   ],
   "price_kdv": 1108.8,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-12207 UB R",
@@ -16688,7 +16985,9 @@
    12
   ],
   "price_kdv": 828.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-12204 UB R",
@@ -16731,7 +17030,9 @@
    20
   ],
   "price_kdv": 2059.2,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-12203 UB R",
@@ -16774,7 +17075,9 @@
    20
   ],
   "price_kdv": 1944.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-12202 UB",
@@ -16817,7 +17120,9 @@
    20
   ],
   "price_kdv": 1756.8,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-12220 UB",
@@ -16860,7 +17165,9 @@
    20
   ],
   "price_kdv": 3484.8,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-12217 UB",
@@ -16903,7 +17210,9 @@
    20
   ],
   "price_kdv": 3139.2,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-11924 SL K",
@@ -17718,7 +18027,9 @@
    4.5
   ],
   "price_kdv": 2419.2,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-12116 YK",
@@ -17761,7 +18072,9 @@
    4.5
   ],
   "price_kdv": 2534.4,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-12109 YK K",
@@ -17804,7 +18117,9 @@
    4.5
   ],
   "price_kdv": 1080.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-12110 YK",
@@ -17847,7 +18162,9 @@
    4.0
   ],
   "price_kdv": 1684.8,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-12111 YK K",
@@ -17890,7 +18207,9 @@
    4.0
   ],
   "price_kdv": 820.8,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-12106 YK",
@@ -17933,7 +18252,9 @@
    4.0
   ],
   "price_kdv": 1929.6,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-12107 YK K",
@@ -17976,7 +18297,9 @@
    4.0
   ],
   "price_kdv": 820.8,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-12102 YK",
@@ -18019,7 +18342,9 @@
    4.0
   ],
   "price_kdv": 871.2,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-12103 YK K",
@@ -18062,7 +18387,9 @@
    4.0
   ],
   "price_kdv": 302.4,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-12120 YK",
@@ -18105,7 +18432,9 @@
    3.5
   ],
   "price_kdv": 727.2,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-12121 YK K",
@@ -18148,7 +18477,9 @@
    3.5
   ],
   "price_kdv": 241.92,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-12100 YK",
@@ -18191,7 +18522,9 @@
    5.0
   ],
   "price_kdv": 907.2,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-12101 YK K",
@@ -18234,7 +18567,9 @@
    5.0
   ],
   "price_kdv": 302.4,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-11938 SL",
@@ -18363,7 +18698,9 @@
    4.5
   ],
   "price_kdv": 1684.8,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-12113 YK K",
@@ -18406,7 +18743,9 @@
    4.5
   ],
   "price_kdv": 584.64,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-12231 UB",
@@ -18448,7 +18787,9 @@
    4
   ],
   "price_kdv": 1987.2,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-12233 UB",
@@ -18490,7 +18831,9 @@
    4
   ],
   "price_kdv": 1483.2,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-12235 UB",
@@ -18532,7 +18875,9 @@
    4
   ],
   "price_kdv": 828.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-22231 UB R",
@@ -18574,7 +18919,9 @@
    4
   ],
   "price_kdv": 1497.6,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-12216 UB R",
@@ -18616,7 +18963,9 @@
    4
   ],
   "price_kdv": 907.2,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-22210 UB ST",
@@ -18701,7 +19050,9 @@
    6.0
   ],
   "price_kdv": 6105.6,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-12291 UB K",
@@ -18744,7 +19095,9 @@
    6.0
   ],
   "price_kdv": 849.6,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-12292 UB R",
@@ -18783,7 +19136,9 @@
    5
   ],
   "price_kdv": 1238.4,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-12295 UB R",
@@ -18822,7 +19177,9 @@
    5
   ],
   "price_kdv": 763.2,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-12294 UB R",
@@ -18861,7 +19218,9 @@
    5
   ],
   "price_kdv": 489.6,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-12296 UB R",
@@ -18900,7 +19259,9 @@
    5
   ],
   "price_kdv": 518.4,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-12226 TG A",
@@ -18939,7 +19300,9 @@
    12
   ],
   "price_kdv": 5112.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-12227 TG A",
@@ -18978,7 +19341,9 @@
    12
   ],
   "price_kdv": 5112.0,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-12228 TG A",
@@ -19017,7 +19382,9 @@
    12
   ],
   "price_kdv": 4017.6,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-12229 TG A",
@@ -19056,7 +19423,9 @@
    12
   ],
   "price_kdv": 4017.6,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-12248 TG A",
@@ -19098,7 +19467,9 @@
    12
   ],
   "price_kdv": 7747.2,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-12246 TG A",
@@ -19140,7 +19511,9 @@
    12
   ],
   "price_kdv": 7747.2,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-12267 TG A",
@@ -19182,7 +19555,9 @@
    12
   ],
   "price_kdv": 5846.4,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-12265 TG A",
@@ -19224,7 +19599,9 @@
    12
   ],
   "price_kdv": 5846.4,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-12276 UB D",
@@ -19267,7 +19644,9 @@
   ],
   "price_kdv": 1857.6,
   "kdv_orani": 0.2,
-  "agirlikli": false
+  "agirlikli": false,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-12277 UB D",
@@ -19310,7 +19689,9 @@
   ],
   "price_kdv": 1526.4,
   "kdv_orani": 0.2,
-  "agirlikli": false
+  "agirlikli": false,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-12279 UB D",
@@ -19353,7 +19734,9 @@
   ],
   "price_kdv": 1742.4,
   "kdv_orani": 0.2,
-  "agirlikli": false
+  "agirlikli": false,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-12280 UB D",
@@ -19396,7 +19779,9 @@
   ],
   "price_kdv": 1425.6,
   "kdv_orani": 0.2,
-  "agirlikli": false
+  "agirlikli": false,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-22026 UB R",
@@ -19436,7 +19821,9 @@
   ],
   "price_kdv": 2808.0,
   "kdv_orani": 0.2,
-  "agirlikli": false
+  "agirlikli": false,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-22028 UB R",
@@ -19477,7 +19864,9 @@
   ],
   "price_kdv": 2332.8,
   "kdv_orani": 0.2,
-  "agirlikli": false
+  "agirlikli": false,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-22032 UB R",
@@ -19520,7 +19909,9 @@
   ],
   "price_kdv": 2808.0,
   "kdv_orani": 0.2,
-  "agirlikli": false
+  "agirlikli": false,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-22035 UB R",
@@ -19563,7 +19954,9 @@
   ],
   "price_kdv": 1044.0,
   "kdv_orani": 0.2,
-  "agirlikli": false
+  "agirlikli": false,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-22031 UB R",
@@ -19606,7 +19999,9 @@
   ],
   "price_kdv": 900.0,
   "kdv_orani": 0.2,
-  "agirlikli": false
+  "agirlikli": false,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-12205 UB R",
@@ -19649,7 +20044,9 @@
   ],
   "price_kdv": 1022.4,
   "kdv_orani": 0.2,
-  "agirlikli": false
+  "agirlikli": false,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-22033 UB R",
@@ -19692,7 +20089,9 @@
   ],
   "price_kdv": 1022.4,
   "kdv_orani": 0.2,
-  "agirlikli": false
+  "agirlikli": false,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-12293 UB ST",
@@ -19735,7 +20134,9 @@
   ],
   "price_kdv": 5126.4,
   "kdv_orani": 0.2,
-  "agirlikli": false
+  "agirlikli": false,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-12289 UB ST",
@@ -19778,7 +20179,9 @@
   ],
   "price_kdv": 5832.0,
   "kdv_orani": 0.2,
-  "agirlikli": false
+  "agirlikli": false,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-22218 UB",
@@ -19821,7 +20224,9 @@
    4.5
   ],
   "price_kdv": 2102.4,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-12298 UB",
@@ -19864,7 +20269,9 @@
    7.5
   ],
   "price_kdv": 2419.2,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-12299 UB",
@@ -19906,7 +20313,9 @@
    4
   ],
   "price_kdv": 2073.6,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-PL 8010",
@@ -19948,7 +20357,9 @@
    4
   ],
   "price_kdv": 645.12,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-PL 8011",
@@ -19990,7 +20401,9 @@
    4
   ],
   "price_kdv": 645.12,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-PL 8012",
@@ -20032,7 +20445,9 @@
    4
   ],
   "price_kdv": 748.8,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-PL 8013",
@@ -20074,7 +20489,9 @@
    4
   ],
   "price_kdv": 748.8,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-PL 8014",
@@ -20116,7 +20533,9 @@
    4
   ],
   "price_kdv": 770.4,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-PL 8015",
@@ -20158,7 +20577,9 @@
    4
   ],
   "price_kdv": 770.4,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-PL 8016",
@@ -20200,7 +20621,9 @@
    4
   ],
   "price_kdv": 921.6,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-PL 8017",
@@ -20242,7 +20665,9 @@
    4
   ],
   "price_kdv": 921.6,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-PL 8018",
@@ -20284,7 +20709,9 @@
    4
   ],
   "price_kdv": 1396.8,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-PL 8019",
@@ -20326,7 +20753,9 @@
    4
   ],
   "price_kdv": 1396.8,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-PL 8020",
@@ -21073,7 +21502,9 @@
    12
   ],
   "price_kdv": 97.92,
-  "kdv_orani": 0.2
+  "kdv_orani": 0.2,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-126 A",
@@ -21309,7 +21740,9 @@
   ],
   "price_kdv": 849.6,
   "kdv_orani": 0.2,
-  "agirlikli": false
+  "agirlikli": false,
+  "montaj_dahil": true,
+  "montaj": "Trifon vida ve plastik dübel dahildir"
  },
  {
   "id": "EV-175 A",

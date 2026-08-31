@@ -36,6 +36,7 @@ export type Product = {
   koli_adet?: number;
   renk?: string;
   montaj?: string;
+  montaj_dahil?: boolean;
   taban_olcu?: string;
   reflektif_detay?: string;
   tedarikci: string;

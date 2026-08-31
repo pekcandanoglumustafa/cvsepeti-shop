@@ -1,4 +1,4 @@
-import { ShieldCheck, Truck, FileText, RotateCcw, Phone, MapPin } from "lucide-react";
+import { ShieldCheck, Truck, FileText, RotateCcw, Phone, MapPin, Wrench } from "lucide-react";
 
 /**
  * Güven bandı — ödeme kararını destekleyen somut bilgiler.
@@ -10,6 +10,7 @@ const OGELER = [
   { i: FileText,    b: "Bireysel ve kurumsal fatura", a: "Vergi dairesi ve vergi numarası ile e-fatura kesilir." },
   { i: RotateCcw,   b: "14 gün cayma hakkı", a: "Mesafeli Satış Sözleşmesi kapsamında koşulsuz iade hakkınız vardır." },
   { i: MapPin,      b: "Konya Teknokent",   a: "Fiziki adresi ve vergi kaydı olan bir işletmeden alışveriş yapıyorsunuz." },
+  { i: Wrench,      b: "Montaj gereçleri dahil", a: "Delinatör, dikme, stoper ve kasislerde trifon vida ve plastik dübel ürüne dahildir." },
   { i: Phone,       b: "0 507 658 42 45",   a: "Sipariş öncesi ve sonrası teknik destek." },
 ];
 

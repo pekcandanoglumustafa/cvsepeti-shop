@@ -70,6 +70,13 @@ export function urunSSS(p: Product): { s: string; c: string }[] {
       : `1 adet ${p.name} ${desi} desi tutar, kargo ücreti ${tl(kargoUcreti(desi))}'dir. Birden fazla adet alındığında ürünler tek koliye istiflendiği için kargo bedeli adet başına orantılı artmaz. Kargoyu ödeme adımında peşin ödeyebilir veya karşı ödemeli gönderebilirsiniz.`,
   });
 
+  if ((p as any).montaj_dahil) {
+    q.push({
+      s: `${p.name} montaj vidası ve dübeli dahil mi?`,
+      c: `Evet. ${p.name} ürününe montaj için gereken trifon vida ve plastik dübel dahildir, ayrıca satın almanıza gerek yoktur.${(p as any).montaj ? ` Montaj: ${(p as any).montaj}.` : ""} Ayrı vida ve dübel de katalogdan temin edilebilir.`,
+    });
+  }
+
   const ka = (p as any).koli_adet;
   if (ka) {
     q.push({

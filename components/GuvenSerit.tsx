@@ -1,4 +1,4 @@
-import { ShieldCheck, Truck, FileText, RotateCcw, Package, Building2 } from "lucide-react";
+import { ShieldCheck, Truck, FileText, RotateCcw, Package, Building2, Wrench } from "lucide-react";
 
 const OGE = [
   { i: ShieldCheck, t: "iyzico ile ödeme güvencesi" },
@@ -6,6 +6,7 @@ const OGE = [
   { i: FileText,    t: "Bireysel ve kurumsal fatura" },
   { i: RotateCcw,   t: "14 gün cayma hakkı" },
   { i: Package,     t: "Üreticiden doğrudan satış" },
+  { i: Wrench,      t: "Vida ve dübel dahil" },
   { i: Building2,   t: "Konya Teknokent" },
 ];
 
