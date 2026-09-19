@@ -120,15 +120,15 @@
   "adet": 17
  },
  "Yuvarlak Levha": {
-  "img": "/images/katalog/yuvarlak-levha-cift-yon-ozel-baski-zt537d.webp",
-  "w": 133,
-  "urun": "Yuvarlak Levha Çift Yön Özel Baskı – ZT537D",
+  "img": "/images/katalog/yuvarlak-levha-ters-yon-zt542.webp",
+  "w": 1600,
+  "urun": "Yuvarlak Levha Ters Yön – ZT542",
   "adet": 13
  },
  "Ekstra Yuvarlak Levha": {
-  "img": "/images/katalog/ekstra-yuvarlak-levha-cif-yon-ozel-baski-zt637d.webp",
-  "w": 157,
-  "urun": "Ekstra Yuvarlak Levha Çif Yön Özel Baskı – ZT637D",
+  "img": "/images/katalog/ekstra-yuvarlak-levha-ters-yon-zt642.webp",
+  "w": 1600,
+  "urun": "Ekstra Yuvarlak Levha Ters Yön – ZT642",
   "adet": 12
  },
  "Zemin İşaretleme": {
