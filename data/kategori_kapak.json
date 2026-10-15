@@ -91,7 +91,7 @@
  },
  "Katlanabilir Levha": {
   "img": "/images/katalog/katlanabilir-levha-zt5000.webp",
-  "w": 1600,
+  "w": 48,
   "urun": "Katlanabilir Levha – ZT5000",
   "adet": 3
  },
@@ -108,9 +108,9 @@
   "adet": 11
  },
  "Kare Levha": {
-  "img": "/images/katalog/kare-levha-tek-yon-ozel-baski-zt945s.webp",
-  "w": 1600,
-  "urun": "Kare Levha Tek Yön Özel Baskı – ZT945S",
+  "img": "/images/katalog/kare-levha-cift-yon-ozel-baski-zt945d.webp",
+  "w": 133,
+  "urun": "Kare Levha Çift Yön Özel Baskı – ZT945D",
   "adet": 10
  },
  "Dikdörtgen Levha": {
@@ -181,7 +181,7 @@
  },
  "Kablo Koruyucu": {
   "img": "/images/katalog/kablo-koruyucu-ztr105.webp",
-  "w": 1600,
+  "w": 123,
   "urun": "Kablo Koruyucu – ZTR105",
   "adet": 1
  },
@@ -192,9 +192,9 @@
   "adet": 23
  },
  "Uyarı Levhası": {
-  "img": "/images/katalog/katlanir-uyari-levhasi-h-120-cm-taban-31x48-cm-12410-db-r.webp",
-  "w": 1600,
-  "urun": "Katlanır Uyarı Levhası - (h) 120 Cm / Taban: 31x48 Cm – 12410 DB R",
+  "img": "/images/katalog/portatif-uyari-levhasi-hxw-62x24-5cm-iki-yonde-uyari-108-a-f.webp",
+  "w": 274,
+  "urun": "Portatif Uyarı Levhası-(hxw) 62x24.5cm - İki Yönde Uyarı – 108 A F",
   "adet": 14
  },
  "Solar & Flaşör Lamba": {
