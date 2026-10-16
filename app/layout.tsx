@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { GoogleAnalytics } from "@next/third-parties/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -8,6 +9,7 @@ import { allProducts, categories } from "@/lib/products";
 
 const BASE = "https://www.trafikurunleri.com";
 const MARKA = "trafikurunleri.com";
+const GA_ID = process.env.NEXT_PUBLIC_GA_ID ?? "G-XXXX";
 
 export const metadata: Metadata = {
   metadataBase: new URL(BASE),
@@ -103,6 +105,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <FloatingContact />
         <CartDrawer />
       </body>
+      <GoogleAnalytics gaId={GA_ID} />
     </html>
   );
 }
