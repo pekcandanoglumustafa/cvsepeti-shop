@@ -2,7 +2,7 @@ import type { MetadataRoute } from "next";
 import { allProducts, categories, categorySlug } from "@/lib/products";
 import { tumYazilar } from "@/lib/blog";
 
-const BASE = "https://www.trafikurunleri.com";
+import { SITE_URL as BASE } from "@/lib/site";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const bugun = new Date();

@@ -10,6 +10,7 @@ import TeknikCizim from "@/components/TeknikCizim";
 import Fiyat from "@/components/Fiyat";
 import UrunSema from "@/components/UrunSema";
 import { urunSSS } from "@/lib/sss";
+import { OG_DEFAULTS } from "@/lib/site";
 
 export function generateStaticParams() {
   return allProducts.map((p) => ({ slug: p.slug }));
@@ -24,9 +25,11 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     description: `${p.name} (${p.kod}) ${new Intl.NumberFormat("tr-TR",{style:"currency",currency:"TRY",maximumFractionDigits:0}).format(p.price)} + KDV. ${ozet ? ozet + ". " : ""}Stokta, 1-2 iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.`,
     alternates: { canonical: `/urun/${p.slug}` },
     openGraph: {
+      ...OG_DEFAULTS,
+      url: `/urun/${p.slug}`,
       title: p.name,
       description: `${p.category} · ${ozet}`,
-      images: p.images[0] ? [{ url: p.images[0] }] : undefined,
+      images: p.images[0] ? [{ url: p.images[0] }] : OG_DEFAULTS.images,
       type: "website",
     },
   };

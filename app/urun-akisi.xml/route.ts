@@ -1,6 +1,6 @@
 import { allProducts } from "@/lib/products";
 
-const BASE = "https://www.trafikurunleri.com";
+import { SITE_URL as BASE } from "@/lib/site";
 
 /**
  * Google Merchant Center ürün akışı (RSS 2.0 + g: ad alanı).

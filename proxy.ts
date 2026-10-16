@@ -2,6 +2,12 @@ import { NextRequest, NextResponse } from "next/server";
 import products from "@/data/products.json";
 import { categorySlug } from "@/lib/products";
 
+/**
+ * Eski siteden kalan URL'ler için 301 yönlendirme.
+ * Eski yapı kök seviyede slug'dı: /zt358-engelli-arac-park-yeridikdortgen-uyari-levhasi
+ * Sıra: ürün kodu → ürün adı benzerliği → kategori → /urunler (kökte 404 kalmaz)
+ */
+
 // Yeni sitenin bilinen yolları — bunlara dokunma (segment bazlı: "/urun" ≠ "/urun-kategori")
 const KNOWN_PREFIXES = [
   "/urunler", "/sepet", "/odeme", "/odeme-sonuc", "/ara", "/blog",
@@ -16,10 +22,36 @@ function isKnown(path: string) {
   return KNOWN_FILES.includes(path) || KNOWN_PREFIXES.some((p) => path === p || path.startsWith(p + "/"));
 }
 
-type P = { slug: string; category: string };
-const slugs: P[] = (products as P[]).map((p) => ({ slug: p.slug, category: p.category }));
-const productSlugs = new Set(slugs.map((p) => p.slug));
-const categorySlugs = new Set(slugs.map((p) => categorySlug(p.category)));
+type P = { id: string; slug: string; category: string; kod: string };
+const urunler = (products as P[]).filter((p) => p.id !== "TEST-1");
+const productSlugs = new Set((products as P[]).map((p) => p.slug));
+const categorySlugs = new Set(urunler.map((p) => categorySlug(p.category)));
+
+// Ürün kodları slug biçiminde: "ZT358" → "zt358", "12251 UB R" → "12251-ub-r", "PL 8010" → "pl-8010"
+const kodlar = urunler
+  .map((p) => {
+    const kod = categorySlug(p.kod);
+    const bas = kod.split("-")[0];
+    // "pl" gibi rakamsız baş kısım kod sayılmaz; saf sayılar ölçüyle karışmasın diye en az 4 hane
+    const basKod = /[a-z]/.test(bas) ? /\d{3,}/.test(bas) : /^\d{4,}$/.test(bas);
+    return { slug: p.slug, kod, bitisik: kod.replace(/-/g, ""), bas: basKod ? bas : "" };
+  })
+  .filter((k) => k.kod);
+
+function kodEslesmesi(eskiSlug: string): string | null {
+  const s = `-${eskiSlug}-`;
+  // 1) Kodun tamamı geçiyorsa en uzun (en spesifik) kod kazanır: "zt75110-dar" > "zt75110-da"
+  let best: { slug: string; uzunluk: number } | null = null;
+  for (const k of kodlar) {
+    if (s.includes(`-${k.kod}-`) || s.includes(`-${k.bitisik}-`)) {
+      if (!best || k.kod.length > best.uzunluk) best = { slug: k.slug, uzunluk: k.kod.length };
+    }
+  }
+  if (best) return best.slug;
+  // 2) Sadece baş kısım geçiyorsa ("12251" var, "ub-r" yok) aynı kod ailesinin ilk ürünü
+  const parcalar = new Set(eskiSlug.split("-"));
+  return kodlar.find((k) => k.bas && parcalar.has(k.bas))?.slug ?? null;
+}
 
 // Eski blog/kategori sayfaları için anahtar kelime → yönlendirme hedefi (sıra önemli: özelden genele)
 const KEYWORD_TARGET: [string, string][] = [
@@ -49,9 +81,19 @@ const LEGACY_EXACT: Record<string, string> = {
   index: "/", anasayfa: "/", home: "/",
 };
 
+// Eski kurumsal sayfalar → ana sayfa
+const HOME_HINTS = ["hakkimizda", "iletisim", "referans", "kurumsal"];
+
 function tokens(s: string): Set<string> {
   // Türkçe karakterleri sadeleştir (slug'lar ASCII); sayılar (ölçü/kod) kısa da olsa önemli
   return new Set(categorySlug(s).split("-").filter((w) => w.length > 2 || /^\d+$/.test(w)));
+}
+
+function benzerlik(t: Set<string>, aday: string) {
+  const at = tokens(aday);
+  let ortak = 0;
+  for (const w of t) if (at.has(w)) ortak++;
+  return ortak / Math.max(t.size, at.size);
 }
 
 export function proxy(req: NextRequest) {
@@ -75,68 +117,68 @@ export function proxy(req: NextRequest) {
   if (segs.length === 2 && segs[0] === "urun" && productSlugs.has(segs[1])) return NextResponse.next();
   if (segs.length === 2 && segs[0] === "kategori" && categorySlugs.has(segs[1])) return NextResponse.next();
 
-  // Eski URL: son segmenti kullan (/urun-kategori/x, /product/x, /x.html, /urun/eski-slug ...)
-  const raw = segs[segs.length - 1].replace(/\.(html?|php|aspx?)$/i, "");
+  const son = segs[segs.length - 1];
+  // public/ altındaki gerçek dosyalar (svg, png, txt...) — sayfa uzantıları hariç
+  if (/\.[a-z0-9]{2,5}$/i.test(son) && !/\.(html?|php|aspx?)$/i.test(son)) return NextResponse.next();
+
+  // Eski URL: son segmenti kullan (/eski-slug, /urun-kategori/x, /product/x, /x.html, /urun/eski-slug ...)
+  const raw = son.replace(/\.(html?|php|aspx?)$/i, "");
+  const kok = segs.length === 1;
   // Eski kategori yolları ürün eşleşmesine düşmesin, doğrudan kategoriye gitsin
   const isCategoryPath = segs.length > 1 && /^(kategori|urun-kategori|product-category|category|kategoriler)$/i.test(segs[0]);
+  // Eşleşme yoksa: kökteki eski slug'lar ve /urun, /kategori altı kataloğa; diğer yollar 404
+  const sonCare = () =>
+    kok || /^(urun|kategori|urun-kategori|product|product-category)$/i.test(segs[0])
+      ? redirect("/urunler")
+      : NextResponse.next();
 
-  const legacy = segs.length === 1 ? LEGACY_EXACT[raw.toLowerCase()] : undefined;
+  const legacy = kok ? LEGACY_EXACT[raw.toLowerCase()] : undefined;
   if (legacy) return redirect(legacy);
 
+  const eskiSlug = categorySlug(raw);
   const t = tokens(raw);
-  if (t.size === 0) return NextResponse.next();
+  if (!eskiSlug || t.size === 0) return sonCare();
 
-  // Kategori adıyla birebir aynı eski sayfa → kategori
-  const rawSlug = categorySlug(raw);
-  if (categorySlugs.has(rawSlug)) return redirect(`/kategori/${rawSlug}`);
+  // 1) Ürün kodu (zt358, 12251 ...) → ürün sayfası
+  if (!isCategoryPath) {
+    const kodlu = kodEslesmesi(eskiSlug);
+    if (kodlu) return redirect(`/urun/${kodlu}`);
+  }
 
-  // 1) Ürün slug'ı ile bulanık eşleşme
-  let best: P | null = null;
-  let bestScore = 0;
-  for (const p of slugs) {
-    const pt = tokens(p.slug);
-    let inter = 0;
-    for (const w of t) if (pt.has(w)) inter++;
-    const score = inter / Math.max(t.size, pt.size);
-    if (score > bestScore) {
-      bestScore = score;
-      best = p;
+  // 2) Kategori adıyla birebir aynı eski sayfa → kategori
+  if (categorySlugs.has(eskiSlug)) return redirect(`/kategori/${eskiSlug}`);
+
+  // 3) Ürün adı benzerliği (kodsuz eski ürün slug'ları)
+  if (!isCategoryPath) {
+    let best = "";
+    let bestScore = 0;
+    for (const p of urunler) {
+      const score = benzerlik(t, p.slug);
+      if (score > bestScore) [best, bestScore] = [p.slug, score];
     }
-  }
-  if (!isCategoryPath && best && bestScore >= 0.45) {
-    return redirect(`/urun/${best.slug}`);
+    if (best && bestScore >= 0.45) return redirect(`/urun/${best}`);
   }
 
-  // 2) Kategori slug'ı ile bulanık eşleşme (eski kategori adları genelde benzer)
+  // 4) Kategori adı benzerliği
   let bestCat = "";
   let bestCatScore = 0;
   for (const c of categorySlugs) {
-    const ct = tokens(c);
-    let inter = 0;
-    for (const w of t) if (ct.has(w)) inter++;
-    const score = inter / Math.max(t.size, ct.size);
-    if (score > bestCatScore) {
-      bestCatScore = score;
-      bestCat = c;
-    }
+    const score = benzerlik(t, c);
+    if (score > bestCatScore) [bestCat, bestCatScore] = [c, score];
   }
-  if (bestCat && bestCatScore >= 0.5) {
-    return redirect(`/kategori/${bestCat}`);
-  }
+  if (bestCat && bestCatScore >= 0.5) return redirect(`/kategori/${bestCat}`);
 
-  // 3) Anahtar kelimeden kategoriye
+  // 5) Anahtar kelimeden kategoriye
   const joined = [...t].join(" ");
   for (const [kw, target] of KEYWORD_TARGET) {
     if (joined.includes(kw)) return redirect(target);
   }
 
-  // 4) Eski kurumsal/blog sayfaları → ana sayfa
-  const HOME_HINTS = ["hakkimizda", "iletisim", "blog", "referans", "aldis", "hava", "web", "site", "hizmet", "kamu", "ihale"];
-  if (HOME_HINTS.some((h) => joined.includes(h))) {
-    return redirect("/");
-  }
+  // 6) Eski kurumsal sayfalar → ana sayfa
+  if (HOME_HINTS.some((h) => joined.includes(h))) return redirect("/");
 
-  return NextResponse.next();
+  // 7) Hiçbiri tutmadı
+  return sonCare();
 }
 
 export const config = {

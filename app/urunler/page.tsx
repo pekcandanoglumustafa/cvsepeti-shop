@@ -2,11 +2,14 @@ import { allProducts, categories } from "@/lib/products";
 import CategoryCard from "@/components/CategoryCard";
 import ProductFilters from "@/components/ProductFilters";
 import kapaklar from "@/data/kategori_kapak.json";
+import { OG_DEFAULTS } from "@/lib/site";
 const KAPAK = kapaklar as Record<string, { img: string; w: number; adet: number }>;
 
 export const metadata = {
   title: "Tüm Katalog | Trafik Ürünleri",
   description: "Trafik güvenliği, yol işaretleme ve iş güvenliği ekipmanları. Ölçü, malzeme ve reflektif tipine göre filtreleyin.",
+  alternates: { canonical: "/urunler" },
+  openGraph: { ...OG_DEFAULTS, url: "/urunler", title: "Tüm Katalog | Trafik Ürünleri" },
 };
 
 export default function Urunler() {

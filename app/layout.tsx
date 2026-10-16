@@ -7,8 +7,9 @@ import FloatingContact from "@/components/FloatingContact";
 import CartDrawer from "@/components/CartDrawer";
 import { allProducts, categories } from "@/lib/products";
 
-const BASE = "https://www.trafikurunleri.com";
-const MARKA = "trafikurunleri.com";
+import { SITE_URL as BASE, SITE_NAME } from "@/lib/site";
+
+const MARKA = SITE_NAME;
 const GA_ID = process.env.NEXT_PUBLIC_GA_ID ?? "G-XXXX";
 
 export const metadata: Metadata = {
@@ -27,7 +28,6 @@ export const metadata: Metadata = {
   authors: [{ name: MARKA }],
   creator: MARKA,
   publisher: MARKA,
-  alternates: { canonical: "/" },
   openGraph: {
     type: "website",
     locale: "tr_TR",

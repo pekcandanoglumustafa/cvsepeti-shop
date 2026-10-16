@@ -1,6 +1,6 @@
 import type { Product } from "@/lib/products";
 
-const BASE = "https://www.trafikurunleri.com";
+import { SITE_URL as BASE } from "@/lib/site";
 
 /** Product + Offer + BreadcrumbList + FAQPage — Google AI Overviews için */
 export default function UrunSema({ p, kategoriSlug, sss }: {
@@ -37,6 +37,13 @@ export default function UrunSema({ p, kategoriSlug, sss }: {
           url,
           priceCurrency: "TRY",
           price: p.price_kdv.toFixed(2),
+          priceSpecification: {
+            "@type": "UnitPriceSpecification",
+            price: p.price_kdv.toFixed(2),
+            priceCurrency: "TRY",
+            valueAddedTaxIncluded: true,
+          },
+          inventoryLevel: { "@type": "QuantitativeValue", value: Math.max(0, p.stock) },
           priceValidUntil: `${new Date().getFullYear() + 1}-12-31`,
           availability: p.stock > 0 ? "https://schema.org/InStock" : "https://schema.org/OutOfStock",
           itemCondition: "https://schema.org/NewCondition",

@@ -12,6 +12,8 @@ import kapaklar from "@/data/kategori_kapak.json";
 import coksatan from "@/data/coksatan.json";
 import katVitrinData from "@/data/kategori_vitrin.json";
 
+export const metadata = { alternates: { canonical: "/" } };
+
 const KAPAK = kapaklar as Record<string, { img: string; w: number; adet: number }>;
 
 export default function Home() {

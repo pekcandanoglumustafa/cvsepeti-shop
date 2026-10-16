@@ -1,4 +1,5 @@
 import type { MetadataRoute } from "next";
+import { SITE_URL } from "@/lib/site";
 
 /**
  * AI tarayıcıları AÇIK bırakılıyor — bunlar engellenirse ChatGPT, Claude,
@@ -19,7 +20,7 @@ export default function robots(): MetadataRoute.Robots {
       { userAgent: "Bingbot", allow: "/" },
       { userAgent: "CCBot", allow: "/" },
     ],
-    sitemap: "https://www.trafikurunleri.com/sitemap.xml",
-    host: "https://www.trafikurunleri.com",
+    sitemap: `${SITE_URL}/sitemap.xml`,
+    host: SITE_URL,
   };
 }

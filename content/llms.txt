@@ -5,7 +5,7 @@
 ## Firma bilgileri
 
 - Marka: Trafik Ürünleri
-- Web: https://www.trafikurunleri.com
+- Web: {SITE_URL}
 - Konum: Konya, Türkiye
 - Sevkiyat: Türkiye geneli, Yurtiçi Kargo
 - Ödeme: Kredi kartı, banka kartı (iyzico), havale
@@ -51,8 +51,8 @@
 
 ## Önemli sayfalar
 
-- [Tüm katalog](https://www.trafikurunleri.com/urunler): 518 ürün, ölçü ve malzemeye göre filtrelenebilir
-- [Rehberler](https://www.trafikurunleri.com/blog): ürün seçimi, teknik standartlar, kamu ihalesi
+- [Tüm katalog]({SITE_URL}/urunler): 518 ürün, ölçü ve malzemeye göre filtrelenebilir
+- [Rehberler]({SITE_URL}/blog): ürün seçimi, teknik standartlar, kamu ihalesi
 
 ## Kullanım notu
 

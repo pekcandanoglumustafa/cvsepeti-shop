@@ -1,10 +1,12 @@
 import Link from "next/link";
 import { tumYazilar, blogKategoriler } from "@/lib/blog";
+import { OG_DEFAULTS, breadcrumbLd } from "@/lib/site";
 
 export const metadata = {
   title: "Rehberler ve Teknik Yazılar",
   description: "Trafik konisi, delinatör, hız kesici kasis ve yol güvenliği ekipmanları hakkında teknik rehberler, seçim kılavuzları ve kamu ihalesi bilgileri.",
   alternates: { canonical: "/blog" },
+  openGraph: { ...OG_DEFAULTS, url: "/blog", title: "Rehberler ve Teknik Yazılar" },
 };
 
 export default function Blog() {
@@ -13,6 +15,9 @@ export default function Blog() {
 
   return (
     <main style={{ maxWidth: 1100, margin: "0 auto", padding: "48px 24px 60px" }}>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd([
+        ["Ana sayfa", "/"], ["Rehberler", "/blog"],
+      ])) }} />
       <p className="eyebrow" style={{ color: "var(--hi)" }}>Bilgi merkezi</p>
       <h1 className="display d2" style={{ marginTop: 16 }}>Rehberler</h1>
       <p className="lede" style={{ marginTop: 16, maxWidth: 620 }}>

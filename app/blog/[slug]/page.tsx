@@ -5,7 +5,7 @@ import { mdToHtml } from "@/lib/md";
 import { getProduct } from "@/lib/products";
 import ProductCard from "@/components/ProductCard";
 
-const BASE = "https://www.trafikurunleri.com";
+import { SITE_URL as BASE, OG_DEFAULTS } from "@/lib/site";
 
 export function generateStaticParams() {
   return tumYazilar().map((y) => ({ slug: y.slug }));
@@ -19,7 +19,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     title: y.baslik,
     description: y.ozet,
     alternates: { canonical: `/blog/${y.slug}` },
-    openGraph: { type: "article", title: y.baslik, description: y.ozet,
+    openGraph: { ...OG_DEFAULTS, type: "article", url: `/blog/${y.slug}`, title: y.baslik, description: y.ozet,
                  publishedTime: y.tarih, modifiedTime: y.guncelleme || y.tarih },
   };
 }
