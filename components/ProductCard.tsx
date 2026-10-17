@@ -1,9 +1,10 @@
 "use client";
 import Link from "next/link";
 import Image from "next/image";
-import { Product, formatPrice } from "@/lib/products";
+import { KartUrun, formatPrice } from "@/lib/products";
 
-export default function ProductCard({ product: p, oncelik = false }: { product: Product; oncelik?: boolean }) {
+// KartUrun, Product'ın alt kümesi — tam Product nesnesi de buraya geçer.
+export default function ProductCard({ product: p, oncelik = false }: { product: KartUrun; oncelik?: boolean }) {
   const img = p.images[0];
   return (
     <Link href={`/urun/${p.slug}`} className="card"

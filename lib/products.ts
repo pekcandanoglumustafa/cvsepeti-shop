@@ -39,10 +39,43 @@ export type Product = {
   montaj_dahil?: boolean;
   taban_olcu?: string;
   reflektif_detay?: string;
-  tedarikci: string;
 };
 
-export const allProducts = products as Product[];
+/** Ham JSON — yalnızca bu dosyanın içinde kullanılır. */
+type HamUrun = Product & { tedarikci?: string };
+
+/**
+ * `tedarikci` alanı hiçbir ekranda gösterilmiyor ama Product nesnesi olduğu gibi
+ * tarayıcıya iniyordu: /urunler sayfasının kaynağında tedarikçi adı 517 kez geçiyordu.
+ * Hangi üründe kiminle çalıştığımız rakibe açık bilgi olmamalı — alanı burada,
+ * veri katmanında kesiyoruz ki hiçbir sayfadan dışarı sızmasın.
+ */
+export const allProducts: Product[] = (products as unknown as HamUrun[]).map((p) => {
+  const { tedarikci: _gizli, ...acik } = p;
+  return acik as Product;
+});
+
+/**
+ * Liste ve filtre bileşenlerine giden hafif ürün.
+ * Tam Product nesnesi 518 ürün için ~455 KB; kartın ve filtrelerin ihtiyacı olan
+ * alanlar ~156 KB. description, geo, olcu3, dims gibi alanların katalog sayfasında
+ * tarayıcıya inmesi gereksiz.
+ */
+export type KartUrun = Pick<
+  Product,
+  | "id" | "slug" | "name" | "kod" | "category" | "boyut"
+  | "price" | "price_kdv" | "images"
+  | "f_boy" | "f_malzeme" | "f_reflektif" | "f_taban" | "f_seri"
+>;
+
+export const kartUrun = (p: Product): KartUrun => ({
+  id: p.id, slug: p.slug, name: p.name, kod: p.kod, category: p.category, boyut: p.boyut,
+  price: p.price, price_kdv: p.price_kdv, images: p.images,
+  f_boy: p.f_boy, f_malzeme: p.f_malzeme, f_reflektif: p.f_reflektif,
+  f_taban: p.f_taban, f_seri: p.f_seri,
+});
+
+export const kartUrunler = (liste: Product[]): KartUrun[] => liste.map(kartUrun);
 
 export const categories = Array.from(
   new Set(allProducts.map((p) => p.category))

@@ -10,7 +10,14 @@ import { allProducts, categories } from "@/lib/products";
 import { SITE_URL as BASE, SITE_NAME } from "@/lib/site";
 
 const MARKA = SITE_NAME;
-const GA_ID = process.env.NEXT_PUBLIC_GA_ID ?? "G-XXXX";
+
+/**
+ * Vercel'de NEXT_PUBLIC_GA_ID tanımlı değilse eskiden "G-XXXX" ile script yükleniyordu:
+ * geçersiz bir ölçüm kimliği, yani hiç veri toplamayan ama yine de yüklenen bir istek.
+ * Kimlik gerçekten tanımlı değilse script'i hiç basmıyoruz.
+ */
+const GA_ID = process.env.NEXT_PUBLIC_GA_ID;
+const GA_GECERLI = !!GA_ID && /^G-[A-Z0-9]{6,}$/.test(GA_ID);
 
 export const metadata: Metadata = {
   metadataBase: new URL(BASE),
@@ -105,7 +112,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <FloatingContact />
         <CartDrawer />
       </body>
-      <GoogleAnalytics gaId={GA_ID} />
+      {GA_GECERLI && <GoogleAnalytics gaId={GA_ID!} />}
     </html>
   );
 }

@@ -2,13 +2,13 @@
  * Sitenin tek domain kaynağı. canonical, og:url, sitemap, robots, JSON-LD ve ürün akışı buradan okur.
  * Domain değişince Vercel'de NEXT_PUBLIC_SITE_URL'i değiştirmek (veya buradaki varsayılanı) yeterli.
  */
-export const SITE_URL = (process.env.NEXT_PUBLIC_SITE_URL || "https://www.cvsepeti.org").replace(/\/+$/, "");
+export const SITE_URL = (process.env.NEXT_PUBLIC_SITE_URL || "https://www.trafikurunleri.com").replace(/\/+$/, "");
 
-/** Göreli yolu mutlak URL'ye çevirir: abs("/urunler") → https://www.cvsepeti.org/urunler */
+/** Göreli yolu mutlak URL'ye çevirir: abs("/urunler") → https://www.trafikurunleri.com/urunler */
 export const abs = (path = "/") => (path === "/" ? SITE_URL : `${SITE_URL}${path.startsWith("/") ? path : `/${path}`}`);
 
-/** Marka adı (domain'den bağımsız) */
-export const SITE_NAME = "trafikurunleri.com";
+/** Marka adı (domain'den bağımsız — başlıklarda domain yazmak yer kaybı) */
+export const SITE_NAME = "Trafik Ürünleri";
 
 /** Sayfa openGraph'ı layout'takini tamamen ezer — görsel/siteName/locale kaybolmasın diye her sayfa bunu yayar */
 export const OG_DEFAULTS = {

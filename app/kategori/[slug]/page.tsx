@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { allProducts, categories, categorySlug, categoryBySlug } from "@/lib/products";
+import { allProducts, categories, categorySlug, categoryBySlug, kartUrunler } from "@/lib/products";
 import ProductFilters from "@/components/ProductFilters";
 import { OG_DEFAULTS, breadcrumbLd } from "@/lib/site";
 
@@ -36,7 +36,7 @@ export default async function Kategori({ params }: { params: Promise<{ slug: str
       <p className="label" style={{ color: "var(--dim)", marginTop: 14 }}>{items.length} ürün</p>
       <div className="rule" style={{ margin: "32px 0 30px" }} />
 
-      <ProductFilters urunler={items} baslik={cat} />
+      <ProductFilters urunler={kartUrunler(items)} baslik={cat} />
 
       <div className="hair" style={{ margin: "70px 0 24px" }} />
       <p className="eyebrow" style={{ color: "var(--dim)", marginBottom: 14 }}>Diğer kategoriler</p>

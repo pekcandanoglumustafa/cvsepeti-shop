@@ -37,6 +37,21 @@ export default function Footer() {
               </div>
             </div>
             <div>
+              <p className="eyebrow" style={{ color: "var(--hi)", marginBottom: 14 }}>Kurumsal</p>
+              <div style={{ display: "flex", flexDirection: "column", gap: 9 }}>
+                {([
+                  ["Hakkımızda", "/hakkimizda"],
+                  ["İletişim", "/iletisim"],
+                  ["Teslimat ve İade", "/teslimat-ve-iade"],
+                  ["Mesafeli Satış Sözleşmesi", "/mesafeli-satis-sozlesmesi"],
+                  ["Gizlilik ve KVKK", "/gizlilik-ve-kvkk"],
+                ] as [string, string][]).map(([ad, yol]) => (
+                  <Link key={yol} href={yol}
+                        style={{ fontSize: 13, color: "#C9C9C6", textDecoration: "none" }}>{ad}</Link>
+                ))}
+              </div>
+            </div>
+            <div>
               <p className="eyebrow" style={{ color: "var(--hi)", marginBottom: 14 }}>Kargo</p>
               <p style={{ fontSize: 13, color: "#9C9C99", lineHeight: 1.7 }}>
                 Yurtiçi Kargo ile gönderim.<br />Kargo ücreti desi üzerinden ödeme adımında hesaplanır.

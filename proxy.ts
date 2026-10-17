@@ -12,6 +12,8 @@ import { categorySlug } from "@/lib/products";
 const KNOWN_PREFIXES = [
   "/urunler", "/sepet", "/odeme", "/odeme-sonuc", "/ara", "/blog",
   "/api", "/_next", "/images", "/marka",
+  // kurumsal ve yasal sayfalar — bunlar artık gerçekten var, yönlendirilmemeli
+  "/iletisim", "/hakkimizda", "/mesafeli-satis-sozlesmesi", "/teslimat-ve-iade", "/gizlilik-ve-kvkk",
 ];
 const KNOWN_FILES = [
   "/favicon.ico", "/icon.svg", "/apple-icon.svg", "/sitemap.xml", "/robots.txt",
@@ -81,8 +83,25 @@ const LEGACY_EXACT: Record<string, string> = {
   index: "/", anasayfa: "/", home: "/",
 };
 
-// Eski kurumsal sayfalar → ana sayfa
-const HOME_HINTS = ["hakkimizda", "iletisim", "referans", "kurumsal"];
+// Eski kurumsal/yasal sayfalar → yeni karşılıkları (sıra önemli: özelden genele)
+const KURUMSAL_HINTS: [string, string][] = [
+  ["mesafeli", "/mesafeli-satis-sozlesmesi"],
+  ["sozlesme", "/mesafeli-satis-sozlesmesi"],
+  ["kvkk", "/gizlilik-ve-kvkk"],
+  ["gizlilik", "/gizlilik-ve-kvkk"],
+  ["aydinlatma", "/gizlilik-ve-kvkk"],
+  ["cerez", "/gizlilik-ve-kvkk"],
+  ["iade", "/teslimat-ve-iade"],
+  ["teslimat", "/teslimat-ve-iade"],
+  ["kargo", "/teslimat-ve-iade"],
+  ["cayma", "/teslimat-ve-iade"],
+  ["iletisim", "/iletisim"],
+  // joined boşlukla birleştirildiği için anahtarlar tek kelime olmalı ("bize-ulasin" tutmaz)
+  ["ulasin", "/iletisim"],
+  ["hakkimizda", "/hakkimizda"],
+  ["kurumsal", "/hakkimizda"],
+  ["referans", "/hakkimizda"],
+];
 
 function tokens(s: string): Set<string> {
   // Türkçe karakterleri sadeleştir (slug'lar ASCII); sayılar (ölçü/kod) kısa da olsa önemli
@@ -126,11 +145,12 @@ export function proxy(req: NextRequest) {
   const kok = segs.length === 1;
   // Eski kategori yolları ürün eşleşmesine düşmesin, doğrudan kategoriye gitsin
   const isCategoryPath = segs.length > 1 && /^(kategori|urun-kategori|product-category|category|kategoriler)$/i.test(segs[0]);
-  // Eşleşme yoksa: kökteki eski slug'lar ve /urun, /kategori altı kataloğa; diğer yollar 404
-  const sonCare = () =>
-    kok || /^(urun|kategori|urun-kategori|product|product-category)$/i.test(segs[0])
-      ? redirect("/urunler")
-      : NextResponse.next();
+  // Hiçbir kural tutmadıysa 404 döneriz.
+  // Her bilinmeyen URL'i /urunler'e yönlendirmek Google tarafından "soft 404" sayılıyor:
+  // sayfa gerçekte yok ama 301 + 200 dönüyor. Bu hem tarama bütçesini harcıyor hem de
+  // ölü URL'lerin indeksten temizlenmesini engelliyor. 404 sayfası kullanıcıyı zaten
+  // aramaya ve kataloğa yönlendiriyor.
+  const sonCare = () => NextResponse.next();
 
   const legacy = kok ? LEGACY_EXACT[raw.toLowerCase()] : undefined;
   if (legacy) return redirect(legacy);
@@ -174,8 +194,10 @@ export function proxy(req: NextRequest) {
     if (joined.includes(kw)) return redirect(target);
   }
 
-  // 6) Eski kurumsal sayfalar → ana sayfa
-  if (HOME_HINTS.some((h) => joined.includes(h))) return redirect("/");
+  // 6) Eski kurumsal/yasal sayfalar → yeni karşılıkları
+  for (const [kw, target] of KURUMSAL_HINTS) {
+    if (joined.includes(kw)) return redirect(target);
+  }
 
   // 7) Hiçbiri tutmadı
   return sonCare();

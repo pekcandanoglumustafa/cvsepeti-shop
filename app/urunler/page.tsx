@@ -1,4 +1,4 @@
-import { allProducts, categories } from "@/lib/products";
+import { allProducts, categories, kartUrunler } from "@/lib/products";
 import CategoryCard from "@/components/CategoryCard";
 import ProductFilters from "@/components/ProductFilters";
 import kapaklar from "@/data/kategori_kapak.json";
@@ -31,7 +31,7 @@ export default function Urunler() {
       </div>
 
       <div className="band" style={{ marginBottom: 40 }} />
-      <ProductFilters urunler={allProducts} baslik="Tüm ürünler" />
+      <ProductFilters urunler={kartUrunler(allProducts)} baslik="Tüm ürünler" />
     </main>
   );
 }

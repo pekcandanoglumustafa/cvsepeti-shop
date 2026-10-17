@@ -19,6 +19,10 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const { slug } = await params;
   const p = getProduct(slug);
   if (!p) return { title: "Ürün" };
+  // Ödeme testi için duran ürün — sayfası kalsın ama Google indekslemesin
+  if (p.id === "TEST-1") {
+    return { title: "Test ürünü", robots: { index: false, follow: false } };
+  }
   const ozet = [p.boyut, p.malzeme, p.f_reflektif].filter(Boolean).join(" · ");
   return {
     title: `${p.name}${ozet ? ` — ${ozet}` : ""}`,

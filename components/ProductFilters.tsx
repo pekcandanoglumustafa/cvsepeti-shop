@@ -1,10 +1,10 @@
 "use client";
 import { useMemo, useState, useEffect } from "react";
-import { Product, formatPrice } from "@/lib/products";
+import { KartUrun } from "@/lib/products";
 import ProductCard from "@/components/ProductCard";
 import { SlidersHorizontal, X, Check, Search } from "lucide-react";
 
-type Facet = { anahtar: keyof Product | string; etiket: string };
+type Facet = { anahtar: keyof KartUrun | string; etiket: string };
 const FACETS: Facet[] = [
   { anahtar: "f_boy",       etiket: "Ölçü" },
   { anahtar: "f_malzeme",   etiket: "Malzeme" },
@@ -20,12 +20,25 @@ const SIRALAMA = [
   { k: "ad",         e: "İsme göre" },
 ];
 
-export default function ProductFilters({ urunler, baslik }: { urunler: Product[]; baslik: string }) {
+/**
+ * Bir seferde basılan ürün sayısı.
+ * Tüm katalog (518 ürün) tek seferde basıldığında sayfa 1.2 MB HTML oluyordu;
+ * mobilde açılma süresi ve Core Web Vitals bundan ciddi zarar görüyor.
+ * Ürünlerin tamamı sitemap'te ve kategori sayfalarında olduğu için
+ * taranabilirlik etkilenmiyor.
+ */
+const SAYFA = 60;
+
+export default function ProductFilters({ urunler, baslik }: { urunler: KartUrun[]; baslik: string }) {
   const [secili, setSecili] = useState<Record<string, string[]>>({});
   const [q, setQ] = useState("");
   const [sira, setSira] = useState("varsayilan");
   const [acikPanel, setAcikPanel] = useState(false);
   const [acikFacet, setAcikFacet] = useState<Record<string, boolean>>({ f_boy: true });
+  const [goster, setGoster] = useState(SAYFA);
+
+  // filtre/arama/sıralama değişince baştan başla
+  useEffect(() => { setGoster(SAYFA); }, [secili, q, sira]);
 
   // mobil panel açıkken arka plan kaymasın
   useEffect(() => {
@@ -181,9 +194,22 @@ export default function ProductFilters({ urunler, baslik }: { urunler: Product[]
               <button onClick={temizle} className="btn btn-ghost">Filtreleri temizle</button>
             </div>
           ) : (
-            <div className="grid-urun">
-              {sonuc.map((p) => <ProductCard key={p.id} product={p} />)}
-            </div>
+            <>
+              <div className="grid-urun">
+                {sonuc.slice(0, goster).map((p) => <ProductCard key={p.id} product={p} />)}
+              </div>
+              {sonuc.length > goster && (
+                <div style={{ display: "grid", placeItems: "center", gap: 12, marginTop: 44 }}>
+                  <p className="eyebrow" style={{ color: "var(--dim)" }}>
+                    {goster} / {sonuc.length} ürün gösteriliyor
+                  </p>
+                  <button onClick={() => setGoster((n) => n + SAYFA)} className="btn btn-ghost"
+                          style={{ padding: "15px 34px" }}>
+                    Daha fazla göster
+                  </button>
+                </div>
+              )}
+            </>
           )}
         </div>
       </div>
