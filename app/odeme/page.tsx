@@ -29,10 +29,17 @@ export default function Odeme() {
   // önce sözleşmeyi okuduğunu açıkça onaylamak zorunda. Onaysız sipariş alınamaz.
   const [sozlesme, setSozlesme] = useState(false);
 
+  // Fatura adresi teslimat adresinden farklı olabilsin — kurumsal alımda
+  // merkez adresine fatura, şantiyeye teslimat sık görülen durum.
+  const [farkliFatura, setFarkliFatura] = useState(false);
+
   const [f, setF] = useState({
     name: "", surname: "", email: "", phone: "", identityNumber: "",
-    address: "", city: "Konya", zip: "", note: "",
+    // Şehir önceden "Konya" seçili geliyordu; fark etmeyen müşteri yanlış ile
+    // sipariş veriyordu. Boş başlıyor, seçim zorunlu.
+    address: "", city: "", ilce: "", zip: "", note: "",
     firma: "", vergiDairesi: "", vergiNo: "",
+    fAddress: "", fCity: "", fIlce: "", fZip: "",
   });
 
   useEffect(() => setMounted(true), []);
@@ -53,6 +60,13 @@ export default function Odeme() {
     const tel = f.phone.replace(/\D/g, "");
     if (tel.length < 10) h.phone = "Telefon eksik";
     if (f.address.trim().length < 15) h.address = "Adresi tam yazın (en az 15 karakter)";
+    if (!f.city) h.city = "İl seçin";
+    if (!f.ilce.trim()) h.ilce = "İlçe gerekli";
+    if (farkliFatura) {
+      if (f.fAddress.trim().length < 15) h.fAddress = "Fatura adresini tam yazın";
+      if (!f.fCity) h.fCity = "İl seçin";
+      if (!f.fIlce.trim()) h.fIlce = "İlçe gerekli";
+    }
     if (faturaTipi === "bireysel") {
       if (!/^\d{11}$/.test(f.identityNumber)) h.identityNumber = "TC kimlik no 11 haneli olmalı";
     } else {
@@ -61,7 +75,7 @@ export default function Odeme() {
       if (!/^\d{10,11}$/.test(f.vergiNo)) h.vergiNo = "Vergi no 10 haneli olmalı";
     }
     return h;
-  }, [f, faturaTipi]);
+  }, [f, faturaTipi, farkliFatura]);
 
   const gecerli = Object.keys(hatalar).length === 0;
 
@@ -95,7 +109,11 @@ export default function Odeme() {
           buyer: {
             name: f.name.trim(), surname: f.surname.trim(), email: f.email.trim(),
             phone: f.phone.replace(/\D/g, ""), address: f.address.trim(),
-            city: f.city, zip: f.zip.trim(), note: f.note.trim(),
+            city: f.city, ilce: f.ilce.trim(), zip: f.zip.trim(), note: f.note.trim(),
+            // fatura adresi ayrıysa gönderilir; değilse teslimat adresi kullanılır
+            faturaAdresi: farkliFatura
+              ? { address: f.fAddress.trim(), city: f.fCity, ilce: f.fIlce.trim(), zip: f.fZip.trim() }
+              : null,
             faturaTipi,
             identityNumber: faturaTipi === "bireysel" ? f.identityNumber : f.vergiNo,
             firma: f.firma.trim(), vergiDairesi: f.vergiDairesi.trim(), vergiNo: f.vergiNo.trim(),
@@ -206,16 +224,35 @@ export default function Odeme() {
               <Alan ad="address" etiket="Açık adres" cokSatir deger={f.address} set={set} blur={blur}
                     hata={touched.address ? hatalar.address : ""} otomatik="street-address"
                     yer="Mahalle, cadde, sokak, bina ve daire no" />
-              <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 16 }} className="ikili">
-                <div>
-                  <label className="label" style={{ display: "block", marginBottom: 7 }}>Şehir</label>
-                  <select name="city" value={f.city} onChange={set} style={inp}>
-                    {CITIES.map((c) => <option key={c}>{c}</option>)}
-                  </select>
-                </div>
+              <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr 1fr", gap: 16 }} className="uclu">
+                <IlSecimi ad="city" deger={f.city} set={set} blur={blur} hata={touched.city ? hatalar.city : ""} />
+                <Alan ad="ilce" etiket="İlçe" deger={f.ilce} set={set} blur={blur}
+                      hata={touched.ilce ? hatalar.ilce : ""} otomatik="address-level2" />
                 <Alan ad="zip" etiket="Posta kodu" deger={f.zip} set={set} blur={blur} yer="opsiyonel" otomatik="postal-code" />
               </div>
               <Alan ad="note" etiket="Sipariş notu" cokSatir deger={f.note} set={set} blur={blur} yer="opsiyonel — teslimat için özel not" />
+
+              <label style={{ display: "flex", gap: 11, alignItems: "center", cursor: "pointer", marginTop: 2 }}>
+                <input type="checkbox" checked={farkliFatura}
+                       onChange={(e) => setFarkliFatura(e.target.checked)}
+                       style={{ width: 18, height: 18, accentColor: "var(--ink)", cursor: "pointer" }} />
+                <span style={{ fontSize: 14 }}>Fatura adresim teslimat adresimden farklı</span>
+              </label>
+
+              {farkliFatura && (
+                <div style={{ display: "grid", gap: 16, padding: "20px 20px 22px",
+                              border: "2px solid var(--line)", background: "var(--tile)" }}>
+                  <p className="eyebrow" style={{ color: "var(--hi)" }}>Fatura adresi</p>
+                  <Alan ad="fAddress" etiket="Açık adres" cokSatir deger={f.fAddress} set={set} blur={blur}
+                        hata={touched.fAddress ? hatalar.fAddress : ""}
+                        yer="Mahalle, cadde, sokak, bina ve daire no" />
+                  <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr 1fr", gap: 16 }} className="uclu">
+                    <IlSecimi ad="fCity" deger={f.fCity} set={set} blur={blur} hata={touched.fCity ? hatalar.fCity : ""} />
+                    <Alan ad="fIlce" etiket="İlçe" deger={f.fIlce} set={set} blur={blur} hata={touched.fIlce ? hatalar.fIlce : ""} />
+                    <Alan ad="fZip" etiket="Posta kodu" deger={f.fZip} set={set} blur={blur} yer="opsiyonel" />
+                  </div>
+                </div>
+              )}
             </div>
           </Bolum>
 
@@ -320,7 +357,8 @@ export default function Odeme() {
           .od-grid{grid-template-columns:1fr!important;gap:30px!important}
           .od-ozet{position:static!important;order:-1}
         }
-        @media (max-width: 560px){ .ikili{grid-template-columns:1fr!important} }
+        @media (max-width: 860px){ .uclu{grid-template-columns:1fr 1fr!important} }
+        @media (max-width: 560px){ .ikili,.uclu{grid-template-columns:1fr!important} }
       `}</style>
     </main>
   );
@@ -361,6 +399,27 @@ function Secim({ aktif, onClick, ikon, baslik, alt, genis }: {
       </span>
       {aktif && <Check size={17} strokeWidth={3} />}
     </button>
+  );
+}
+
+/** İl seçimi — Alan ile aynı görünümde, boş başlar ("İl seçiniz"). */
+function IlSecimi({ ad, deger, set, blur, hata }: {
+  ad: string; deger: string;
+  set: (e: React.ChangeEvent<HTMLSelectElement>) => void;
+  blur: (e: React.FocusEvent<HTMLSelectElement>) => void;
+  hata?: string;
+}) {
+  return (
+    <div data-hata={hata ? "1" : undefined}>
+      <label className="label" style={{ display: "block", marginBottom: 7 }}>İl</label>
+      <select name={ad} value={deger} onChange={set} onBlur={blur}
+              style={{ ...inp, borderColor: hata ? "#C4271A" : "var(--line)",
+                       color: deger ? "var(--ink)" : "var(--dim)" }}>
+        <option value="">İl seçiniz</option>
+        {CITIES.map((c) => <option key={c} value={c}>{c}</option>)}
+      </select>
+      {hata && <p style={{ fontSize: 12, color: "#C4271A", marginTop: 6, fontWeight: 600 }}>{hata}</p>}
+    </div>
   );
 }
 

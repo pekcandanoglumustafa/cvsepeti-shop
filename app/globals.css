@@ -7,6 +7,9 @@
   --tile:#FFFFFF;          /* ürün karosu = kağıtla aynı, ürün tam oturur */
   --rule:#000000;
   --hair:#E5E5E5;          /* ince ayraç */
+  --line:#CFCFCF;          /* yapısal çerçeve: form alanı, tablo satırı, menü alt çizgisi.
+                              Tanımsızdı — onu kullanan 8 yerde çerçeve hiç çizilmiyordu,
+                              ödeme formu alanlarının "silik" görünmesinin sebebi buydu. */
   --muted:#767676;
   --dim:#A3A3A3;
   --hi:#FF3B00;            /* tek vurgu */

@@ -1,9 +1,10 @@
 "use client";
 import Link from "next/link";
+import AdetSecici from "@/components/AdetSecici";
 import { kartGorseli } from "@/lib/gorsel";
 import Image from "next/image";
 import { useEffect, useState } from "react";
-import { Trash2, Minus, Plus } from "lucide-react";
+import { Trash2 } from "lucide-react";
 import { useCart } from "@/lib/cart";
 import { formatTL, TABAN_UCRET, TABAN_DESI } from "@/lib/kargo";
 
@@ -41,13 +42,9 @@ export default function Sepet() {
                       className="line-clamp-2">{i.name}</Link>
                 <p className="eyebrow" style={{ color: "var(--dim)", marginTop: 5 }}>{i.kategori}</p>
                 <div style={{ display: "flex", alignItems: "center", gap: 14, marginTop: 10, flexWrap: "wrap" }}>
-                  <div style={{ display: "flex", alignItems: "center", border: "1px solid var(--line)" }}>
-                    <button onClick={() => setQty(i.slug, Math.max(1, i.qty - 1))} aria-label="azalt"
-                            style={{ padding: 9, background: "none", border: "none", cursor: "pointer", display: "flex" }}><Minus size={14} /></button>
-                    <span style={{ minWidth: 28, textAlign: "center", fontWeight: 800, fontSize: 14 }}>{i.qty}</span>
-                    <button onClick={() => setQty(i.slug, i.qty + 1)} aria-label="artır"
-                            style={{ padding: 9, background: "none", border: "none", cursor: "pointer", display: "flex" }}><Plus size={14} /></button>
-                  </div>
+                  <AdetSecici deger={i.qty} setDeger={(n) => setQty(i.slug, n)}
+                              stok={i.stock || 9999} boyut="kucuk"
+                              etiket={`${i.name} adedi`} />
                   <span style={{ display: "flex", flexDirection: "column" }}>
                     <span style={{ fontWeight: 900 }}>{formatTL(i.price * i.qty)} <span style={{ fontSize: 10, color: "var(--muted)" }}>+KDV</span></span>
                     <span style={{ fontSize: 11, color: "var(--dim)" }}>KDV dahil {formatTL((i.price_kdv ?? i.price * 1.2) * i.qty)}</span>

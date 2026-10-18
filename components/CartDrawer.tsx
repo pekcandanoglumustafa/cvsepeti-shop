@@ -1,9 +1,10 @@
 "use client";
 import { useEffect, useState } from "react";
+import AdetSecici from "@/components/AdetSecici";
 import { kartGorseli } from "@/lib/gorsel";
 import Link from "next/link";
 import Image from "next/image";
-import { X, Minus, Plus, Trash2, Check, ArrowRight, ShoppingBag } from "lucide-react";
+import { X, Trash2, Check, ArrowRight, ShoppingBag } from "lucide-react";
 import { useCart } from "@/lib/cart";
 import { formatTL, TABAN_UCRET, TABAN_DESI } from "@/lib/kargo";
 
@@ -113,17 +114,9 @@ export default function CartDrawer() {
                   </Link>
 
                   <div style={{ display: "flex", alignItems: "center", gap: 10, marginTop: 8, flexWrap: "wrap" }}>
-                    <div style={{ display: "flex", alignItems: "center", border: "1px solid var(--hair)" }}>
-                      <button onClick={() => setQty(i.slug, Math.max(1, i.qty - 1))} aria-label="azalt"
-                              style={{ padding: "6px 8px", background: "none", border: "none", cursor: "pointer", display: "flex" }}>
-                        <Minus size={12} />
-                      </button>
-                      <span style={{ minWidth: 22, textAlign: "center", fontSize: 12.5, fontWeight: 800 }}>{i.qty}</span>
-                      <button onClick={() => setQty(i.slug, i.qty + 1)} aria-label="artır"
-                              style={{ padding: "6px 8px", background: "none", border: "none", cursor: "pointer", display: "flex" }}>
-                        <Plus size={12} />
-                      </button>
-                    </div>
+                    <AdetSecici deger={i.qty} setDeger={(n) => setQty(i.slug, n)}
+                                stok={i.stock || 9999} boyut="kucuk"
+                                etiket={`${i.name} adedi`} />
 
                     <span style={{ fontSize: 13.5, fontWeight: 900, letterSpacing: "-.02em" }}>
                       {formatTL(i.price * i.qty)}

@@ -5,11 +5,23 @@ import { getProduct } from "@/lib/products";
 
 type GelenSatir = { slug: string; qty: number };
 
+type Adres = { address?: string; city?: string; ilce?: string; zip?: string };
+
+type Alici = {
+  name: string; surname: string; email: string; phone: string;
+  address: string; city: string; ilce?: string; zip?: string; note?: string;
+  faturaTipi?: "bireysel" | "kurumsal";
+  identityNumber?: string;
+  firma?: string; vergiDairesi?: string; vergiNo?: string;
+  /** Teslimat adresinden farklıysa dolu gelir; değilse null. */
+  faturaAdresi?: Adres | null;
+};
+
 export async function POST(req: NextRequest) {
   try {
     const { items, buyer, kargoOdeme } = (await req.json()) as {
       items: GelenSatir[];
-      buyer: Record<string, string>;
+      buyer: Alici;
       kargoOdeme?: "pesin" | "karsi";
     };
 
@@ -71,9 +83,21 @@ export async function POST(req: NextRequest) {
     const adSoyad = `${buyer.name} ${buyer.surname}`.slice(0, 100);
     const kurumsal = buyer.faturaTipi === "kurumsal";
     const faturaUnvan = (kurumsal && buyer.firma ? buyer.firma : adSoyad).slice(0, 100);
+    // İlçe ayrı alan olarak alınıyor; iyzico'nun adres alanına ekliyoruz.
+    const ilceli = (adres: string, ilce?: string) =>
+      (ilce ? `${adres}, ${ilce}` : adres);
+
+    const teslimatAdres = ilceli(buyer.address, buyer.ilce);
+
+    // Fatura adresi ayrı verildiyse onu kullan, yoksa teslimat adresi.
+    const fa = buyer.faturaAdresi;
+    const faturaTemel = fa?.address ? ilceli(fa.address, fa.ilce) : teslimatAdres;
+    const faturaSehir = fa?.city || buyer.city;
+    const faturaZip = fa?.zip || buyer.zip || "42000";
+
     const faturaAdres = kurumsal && buyer.vergiDairesi
-      ? `${buyer.address} | V.D.: ${buyer.vergiDairesi} | V.No: ${buyer.vergiNo || ""}`.slice(0, 250)
-      : buyer.address;
+      ? `${faturaTemel} | V.D.: ${buyer.vergiDairesi} | V.No: ${buyer.vergiNo || ""}`.slice(0, 250)
+      : faturaTemel;
 
     const result = await iyzicoRequest<{
       status?: string;
@@ -101,14 +125,14 @@ export async function POST(req: NextRequest) {
         identityNumber: buyer.identityNumber || "11111111111",
         lastLoginDate: now,
         registrationDate: now,
-        registrationAddress: buyer.address,
+        registrationAddress: teslimatAdres,
         ip: clientIp,
         city: buyer.city,
         country: "Turkey",
         zipCode: buyer.zip || "42000",
       },
-      shippingAddress: { contactName: adSoyad, city: buyer.city, country: "Turkey", address: buyer.address, zipCode: buyer.zip || "42000" },
-      billingAddress:  { contactName: faturaUnvan, city: buyer.city, country: "Turkey", address: faturaAdres, zipCode: buyer.zip || "42000" },
+      shippingAddress: { contactName: adSoyad, city: buyer.city, country: "Turkey", address: teslimatAdres, zipCode: buyer.zip || "42000" },
+      billingAddress:  { contactName: faturaUnvan, city: faturaSehir, country: "Turkey", address: faturaAdres, zipCode: faturaZip },
       basketItems,
     });
 
