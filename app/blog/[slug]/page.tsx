@@ -6,6 +6,7 @@ import { getProduct } from "@/lib/products";
 import ProductCard from "@/components/ProductCard";
 
 import { SITE_URL as BASE, OG_DEFAULTS } from "@/lib/site";
+import { sayfaBasligi, aciklama } from "@/lib/seo";
 
 export function generateStaticParams() {
   return tumYazilar().map((y) => ({ slug: y.slug }));
@@ -16,8 +17,8 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const y = yaziGetir(slug);
   if (!y) return { title: "Yazı bulunamadı" };
   return {
-    title: y.baslik,
-    description: y.ozet,
+    title: { absolute: sayfaBasligi(y.baslik) },
+    description: aciklama(y.ozet),
     alternates: { canonical: `/blog/${y.slug}` },
     openGraph: { ...OG_DEFAULTS, type: "article", url: `/blog/${y.slug}`, title: y.baslik, description: y.ozet,
                  publishedTime: y.tarih, modifiedTime: y.guncelleme || y.tarih },

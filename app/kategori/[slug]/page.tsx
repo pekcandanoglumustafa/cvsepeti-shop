@@ -3,6 +3,7 @@ import Link from "next/link";
 import { allProducts, categories, categorySlug, categoryBySlug, kartUrunler } from "@/lib/products";
 import ProductFilters from "@/components/ProductFilters";
 import { OG_DEFAULTS, breadcrumbLd } from "@/lib/site";
+import { sayfaBasligi, aciklama } from "@/lib/seo";
 
 export function generateStaticParams() {
   return categories.map((c) => ({ slug: categorySlug(c) }));
@@ -12,8 +13,14 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const c = categoryBySlug(slug);
   const n = c ? allProducts.filter((p) => p.category === c).length : 0;
   return {
-    title: c ? `${c} — ${n} ürün | Trafik Ürünleri` : "Kategori | Trafik Ürünleri",
-    description: c ? `${c} kategorisinde ${n} ürün. Ölçü, malzeme ve reflektif tipine göre filtreleyin. Yurtiçi Kargo ile gönderim.` : undefined,
+    title: { absolute: sayfaBasligi(c ? `${c} — ${n} ürün` : "Kategori") },
+    description: c
+      ? aciklama(
+          `${c} kategorisinde ${n} ürün.`,
+          "Ölçü, malzeme ve reflektif tipine göre filtreleyin.",
+          "Stokta, 1-2 iş gününde kargoda.",
+        )
+      : undefined,
     alternates: { canonical: `/kategori/${slug}` },
     openGraph: { ...OG_DEFAULTS, url: `/kategori/${slug}`, title: c ? `${c} — ${n} ürün` : "Kategori" },
   };

@@ -11,6 +11,7 @@ import Fiyat from "@/components/Fiyat";
 import UrunSema from "@/components/UrunSema";
 import { urunSSS } from "@/lib/sss";
 import { OG_DEFAULTS } from "@/lib/site";
+import { urunBasligi, aciklama } from "@/lib/seo";
 
 export function generateStaticParams() {
   return allProducts.map((p) => ({ slug: p.slug }));
@@ -24,9 +25,17 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     return { title: "Test ürünü", robots: { index: false, follow: false } };
   }
   const ozet = [p.boyut, p.malzeme, p.f_reflektif].filter(Boolean).join(" · ");
+  const fiyat = new Intl.NumberFormat("tr-TR", { style: "currency", currency: "TRY", maximumFractionDigits: 0 }).format(p.price);
   return {
-    title: `${p.name}${ozet ? ` — ${ozet}` : ""}`,
-    description: `${p.name} (${p.kod}) ${new Intl.NumberFormat("tr-TR",{style:"currency",currency:"TRY",maximumFractionDigits:0}).format(p.price)} + KDV. ${ozet ? ozet + ". " : ""}Stokta, 1-2 iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.`,
+    // absolute: layout'taki "%s | marka" şablonunu atlar — marka ekini uzunluğa göre
+    // urunBasligi'nin kendisi karar vererek ekliyor
+    title: { absolute: urunBasligi(p.name, p.kod, [p.boyut, p.malzeme, p.f_reflektif]) },
+    description: aciklama(
+      `${p.name} (${p.kod}) ${fiyat} + KDV.`,
+      ozet && `${ozet}.`,
+      "Stokta, 1-2 iş gününde kargoda.",
+      "Yurtiçi Kargo ile Türkiye geneline gönderim.",
+    ),
     alternates: { canonical: `/urun/${p.slug}` },
     openGraph: {
       ...OG_DEFAULTS,

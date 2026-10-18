@@ -3,7 +3,7 @@ import { FIRMA, saticiBilgileri } from "@/lib/firma";
 import { OG_DEFAULTS } from "@/lib/site";
 
 export const metadata = {
-  title: "Gizlilik Politikası ve KVKK Aydınlatma Metni",
+  title: "Gizlilik ve KVKK",
   description: `${FIRMA.marka} gizlilik politikası ve 6698 sayılı KVKK kapsamında aydınlatma metni. İşlenen veriler, işleme amaçları, saklama süreleri, çerezler ve ilgili kişi hakları.`,
   alternates: { canonical: "/gizlilik-ve-kvkk" },
   openGraph: { ...OG_DEFAULTS, url: "/gizlilik-ve-kvkk", title: "Gizlilik Politikası ve KVKK" },
