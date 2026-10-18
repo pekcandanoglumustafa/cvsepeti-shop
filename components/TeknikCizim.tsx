@@ -1,10 +1,14 @@
 import type { Product } from "@/lib/products";
+import { olcuBilinmiyor } from "@/lib/products";
 
 /**
  * Ürün ölçülerini gösteren teknik çizim.
  * Geometri sınıfına göre uygun siluet çizilir, ölçü okları eklenir.
  */
 export default function TeknikCizim({ p }: { p: Product }) {
+  // Ölçüsü bilinmeyen üründe çizim gösterme — varsayılan [25,20,12] değerinden
+  // üretilen şema gerçek ölçüyü değil tahmini gösteriyordu.
+  if (olcuBilinmiyor(p)) return null;
   const o = p.olcu3 || [];
   if (o.length < 3) return null;
   const [boy, en, derin] = o;

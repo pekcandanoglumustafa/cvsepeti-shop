@@ -107,6 +107,27 @@ export const kartUrunler = (liste: Product[]): KartUrun[] => liste.map(kartUrun)
 const OZEL_URETIM = /özel bask|ozel bask|kişiye özel|dekota bask|decota bask/i;
 export const kisiyeOzel = (p: { name: string }) => OZEL_URETIM.test(p.name);
 
+/**
+ * Ölçüsü bilinmeyen ürünler.
+ *
+ * Bu ürünlerde olcu3 alanı kargo hesabı yapılabilsin diye varsayılan
+ * [25, 20, 12] değerini taşıyor — gerçek ölçü değil, tahmin.
+ * 517 üründen 91'i bu durumda ve hepsinin "boyut" alanı boş.
+ *
+ * Sorun: teknik çizim bu sayıdan üretiliyordu, yani ölçüsü bilinmeyen
+ * ürünlerde "25 × 20 cm" yazan uydurma bir şema çiziliyordu. Şartnameyle
+ * karşılaştırma yapan kurumsal müşteriyi yanlış yönlendirir. Çizim artık
+ * bu ürünlerde gösterilmiyor.
+ *
+ * Kargo hesabı tahmini kullanmaya devam ediyor — bir rakam gerekiyor ve
+ * eldeki en iyi tahmin bu.
+ */
+const OLCU_VARSAYILAN = [25, 20, 12];
+export const olcuBilinmiyor = (p: { olcu3?: number[] }) => {
+  const o = p.olcu3;
+  return !o || o.length < 3 || OLCU_VARSAYILAN.every((v, i) => o[i] === v);
+};
+
 export const categories = Array.from(
   new Set(allProducts.map((p) => p.category))
 ).sort();
