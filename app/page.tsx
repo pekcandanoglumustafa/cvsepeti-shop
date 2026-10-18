@@ -1,12 +1,13 @@
 import Link from "next/link";
-import { allProducts, categories, categorySlug } from "@/lib/products";
+import { ArrowUpRight, ShieldCheck, Truck, FileText, Phone, Check } from "lucide-react";
+import { allProducts, categories, categorySlug, kartUrunler } from "@/lib/products";
 import ProductCard from "@/components/ProductCard";
 import CategoryCard from "@/components/CategoryCard";
 import Banner from "@/components/Banner";
-import GuvenBandi from "@/components/GuvenBandi";
+import KullanimAlanlari from "@/components/KullanimAlanlari";
 import Referanslar from "@/components/Referanslar";
-import GuvenSerit from "@/components/GuvenSerit";
 import { tumYazilar } from "@/lib/blog";
+import { FIRMA } from "@/lib/firma";
 import kapaklar from "@/data/kategori_kapak.json";
 import coksatan from "@/data/coksatan.json";
 
@@ -14,13 +15,13 @@ export const metadata = { alternates: { canonical: "/" } };
 
 const KAPAK = kapaklar as Record<string, { img: string; w: number; adet: number }>;
 
-/**
- * ANA SAYFA — sade.
- *
- * Banner, çok satanlar, kategoriler, referanslar, rehberler. Başka bir şey yok.
- * Önceden 81 ürün kartı, 35 karolu mozaik ve üç ayrı güven şeridi vardı;
- * ziyaretçi çok şey görüp hiçbirine odaklanamıyordu.
- */
+const GUVEN = [
+  { i: ShieldCheck, b: "Güvenli alışveriş", a: "iyzico altyapısı, 3D Secure" },
+  { i: Truck, b: "Türkiye geneline gönderim", a: `${FIRMA.kargo} ile 1-2 iş günü` },
+  { i: FileText, b: "Kurumsal fatura", a: "Bireysel ve kurumsal alışveriş" },
+  { i: Phone, b: "Ürün seçiminde destek", a: FIRMA.telefon },
+];
+
 export default function Home() {
   const sayilar = categories
     .map((c) => ({ c, n: allProducts.filter((p) => p.category === c).length }))
@@ -30,99 +31,160 @@ export default function Home() {
   const cokSatanlar = csSlug
     .map((sl) => allProducts.find((x) => x.slug === sl))
     .filter(Boolean)
-    .slice(0, 10) as NonNullable<ReturnType<typeof allProducts.find>>[];
+    .slice(0, 8) as NonNullable<ReturnType<typeof allProducts.find>>[];
+
+  // Kahraman alanındaki ürün: çok satanların ilki, ölçüsü bilinen bir ürün
+  const heroUrun = cokSatanlar.find((p) => p.boyut && p.images[0]) ?? cokSatanlar[0];
 
   return (
     <main>
-      <GuvenSerit />
-      <Banner urunSayisi={allProducts.length} />
+      <Banner urunSayisi={allProducts.length} kategoriSayisi={categories.length}
+              urun={heroUrun && {
+                slug: heroUrun.slug, name: heroUrun.name,
+                price_kdv: heroUrun.price_kdv, images: heroUrun.images, boyut: heroUrun.boyut,
+              }} />
+
+      <div className="wrap">
+        <div className="trust-row">
+          {GUVEN.map(({ i: Icon, b, a }) => (
+            <div key={b} className="trust-item">
+              <Icon className="icon" size={19} strokeWidth={1.9} aria-hidden />
+              <span><strong>{b}</strong><small>{a}</small></span>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      {/* KATEGORİLER */}
+      <section className="section">
+        <div className="wrap">
+          <div className="section-heading">
+            <div>
+              <h2>İhtiyacınız olan, tam burada.</h2>
+              <p>En çok aranan ürün gruplarını keşfedin.</p>
+            </div>
+            <Link href="/urunler" className="text-link" prefetch={false}>
+              Tüm kategoriler <ArrowUpRight className="icon" size={16} strokeWidth={2.2} aria-hidden />
+            </Link>
+          </div>
+          <div className="category-grid">
+            {sayilar.slice(0, 6).map(({ c, n }) => (
+              <CategoryCard key={c} kategori={c} adet={n} gorsel={KAPAK[c]?.img} />
+            ))}
+          </div>
+          <p style={{ textAlign: "center", marginTop: 20, fontSize: 11.5, color: "var(--muted)" }}>
+            Aradığınız ürün farklı mı?{" "}
+            <Link href="/urunler" prefetch={false}
+                  style={{ color: "var(--ink)", fontWeight: 700, textDecoration: "underline",
+                           textUnderlineOffset: 3 }}>
+              {categories.length} kategorinin tamamına göz atın.
+            </Link>
+          </p>
+        </div>
+      </section>
 
       {/* ÇOK SATANLAR */}
       {cokSatanlar.length > 0 && (
-        <section style={{ maxWidth: 1520, margin: "0 auto", padding: "60px 20px 0" }}>
-          <Baslik baslik="Çok satanlar" href="/urunler" />
-          <div className="grid-one">
-            {cokSatanlar.map((p, i) => <ProductCard key={p.id} product={p} oncelik={i < 4} />)}
+        <section className="section" style={{ paddingTop: 0 }}>
+          <div className="wrap">
+            <div className="section-heading">
+              <div>
+                <h2>Sahanın vazgeçilmezleri.</h2>
+                <p>Günlük ihtiyaçlardan büyük projelere, en çok tercih edilen ürünler.</p>
+              </div>
+              <Link href="/urunler" className="text-link" prefetch={false}>
+                Tümünü gör <ArrowUpRight className="icon" size={16} strokeWidth={2.2} aria-hidden />
+              </Link>
+            </div>
+            <div className="product-grid">
+              {kartUrunler(cokSatanlar).map((p, i) => (
+                <ProductCard key={p.id} product={p} oncelik={i < 4} />
+              ))}
+            </div>
           </div>
         </section>
       )}
 
-      {/* KATEGORİLER */}
-      <section style={{ maxWidth: 1520, margin: "0 auto", padding: "60px 20px 0" }}>
-        <Baslik baslik="Kategoriler" href="/urunler" bagAd="Tüm katalog" />
-        <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill,minmax(200px,1fr))", gap: "30px 22px" }}>
-          {sayilar.slice(0, 8).map(({ c, n }) => (
-            <CategoryCard key={c} kategori={c} adet={n} gorsel={KAPAK[c]?.img} />
-          ))}
-        </div>
-        <div style={{ display: "flex", flexWrap: "wrap", gap: 7, marginTop: 30 }}>
-          {sayilar.slice(8).map(({ c, n }) => (
-            <Link key={c} href={`/kategori/${categorySlug(c)}`} className="label" prefetch={false}
-                  style={{ padding: "9px 13px", border: "1px solid var(--hair)",
-                           color: "var(--ink)", textDecoration: "none" }}>
-              {c} <span style={{ color: "var(--dim)" }}>{n}</span>
-            </Link>
-          ))}
+      {/* KULLANIM ALANLARI */}
+      <section className="section" style={{ background: "var(--wash)" }}>
+        <div className="wrap">
+          <div className="section-heading">
+            <div>
+              <h2>Nerede kullanacaksınız?</h2>
+              <p>Ürün adını bilmiyorsanız, ihtiyacınızdan başlayın.</p>
+            </div>
+          </div>
+          <KullanimAlanlari />
         </div>
       </section>
 
+      {/* TOPLU ALIM */}
+      <div className="wrap">
+        <section className="business-banner">
+          <div style={{ position: "relative", zIndex: 2 }}>
+            <p className="kas">Kurumsal &amp; toplu alım</p>
+            <h2>Büyük projeler için<br /><em>birlikte planlayalım.</em></h2>
+            <p>
+              Teknik şartnameye göre ürün eşleştirip birim fiyat teklif cetvelini hazırlıyoruz.
+              Şartnameyi gönderin, aynı gün dönelim.
+            </p>
+          </div>
+          <div className="business-side">
+            <Link href="/iletisim" className="btn">
+              Toplu teklif oluştur <ArrowUpRight className="icon" size={18} strokeWidth={2.2} aria-hidden />
+            </Link>
+            <div className="business-list">
+              {["Şartnamedeki her kalem için ürün eşleştirmesi",
+                "Ürün kodu ve teknik özellikleriyle birlikte teklif",
+                "Jandarma, Yargıtay ve Hacettepe dahil kamu teslimatı"].map((t) => (
+                <span key={t}>
+                  <Check className="icon" size={14} strokeWidth={2.6} aria-hidden />{t}
+                </span>
+              ))}
+            </div>
+          </div>
+        </section>
+      </div>
+
       {/* REFERANSLAR */}
-      <section style={{ paddingTop: 64 }}>
-        <div style={{ maxWidth: 1520, margin: "0 auto", padding: "0 20px 16px" }}>
-          <h2 className="display" style={{ fontSize: "clamp(20px,2.6vw,30px)" }}>Teslim ettiğimiz kurumlar</h2>
+      <section className="section">
+        <div className="wrap">
+          <div className="section-heading">
+            <div><h2>Teslim ettiğimiz kurumlar</h2></div>
+          </div>
         </div>
         <Referanslar />
       </section>
 
       {/* REHBERLER */}
-      <section style={{ maxWidth: 1520, margin: "0 auto", padding: "60px 20px 0" }}>
-        <Baslik baslik="Ürün seçim rehberleri" href="/blog" />
-        <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit,minmax(240px,1fr))", gap: 22 }}>
-          {tumYazilar().slice(0, 4).map((y) => (
-            <Link key={y.slug} href={`/blog/${y.slug}`} className="card" prefetch={false}
-                  style={{ textDecoration: "none", color: "inherit", borderTop: "2px solid var(--ink)", paddingTop: 12 }}>
-              <span className="eyebrow" style={{ color: "var(--hi)" }}>{y.kategori}</span>
-              <h3 className="name" style={{ marginTop: 8, fontSize: 15, fontWeight: 700, lineHeight: 1.25 }}>
-                {y.baslik}
-              </h3>
+      <section className="section" style={{ paddingTop: 0 }}>
+        <div className="wrap">
+          <div className="section-heading">
+            <div>
+              <h2>Doğru ürünü seçmek kolay.</h2>
+              <p>Satın almadan önce ihtiyacınıza uygun özellikleri keşfedin.</p>
+            </div>
+            <Link href="/blog" className="text-link" prefetch={false}>
+              Tüm rehberler <ArrowUpRight className="icon" size={16} strokeWidth={2.2} aria-hidden />
             </Link>
-          ))}
-        </div>
-      </section>
-
-      <div style={{ paddingTop: 64 }}><GuvenBandi /></div>
-
-      {/* KURUMSAL ALIM */}
-      <section style={{ background: "var(--ink)", color: "var(--paper)", marginTop: 72 }}>
-        <div style={{ maxWidth: 1520, margin: "0 auto", padding: "56px 20px",
-                      display: "flex", flexWrap: "wrap", gap: 34, justifyContent: "space-between", alignItems: "center" }}>
-          <h2 className="display" style={{ fontSize: "clamp(24px,3.6vw,40px)", maxWidth: 520 }}>
-            Belediye, şantiye ve<br />filo alımlarında teklif
-          </h2>
-          <div style={{ maxWidth: 380 }}>
-            <p style={{ fontSize: 14.5, color: "#9A9A9A", lineHeight: 1.65, marginBottom: 18 }}>
-              Teknik şartnameye göre ürün eşleştirip birim fiyat teklif cetvelini hazırlıyoruz.
-            </p>
-            <Link href="/iletisim" className="btn"
-                  style={{ background: "var(--paper)", borderColor: "var(--paper)", color: "var(--ink)" }}>
-              Teklif iste
-            </Link>
+          </div>
+          <div className="guide-grid">
+            {tumYazilar().slice(0, 3).map((y, i) => (
+              <Link key={y.slug} href={`/blog/${y.slug}`} className="guide-card" prefetch={false}>
+                <span className="no">{String(i + 1).padStart(2, "0")}</span>
+                <span>
+                  <h3>{y.baslik}</h3>
+                  <p>{y.ozet}</p>
+                  <span className="text-link">
+                    Rehberi incele
+                    <ArrowUpRight className="icon" size={14} strokeWidth={2.2} aria-hidden />
+                  </span>
+                </span>
+              </Link>
+            ))}
           </div>
         </div>
       </section>
     </main>
-  );
-}
-
-function Baslik({ baslik, href, bagAd = "Tümü" }: { baslik: string; href: string; bagAd?: string }) {
-  return (
-    <div style={{ display: "flex", alignItems: "baseline", justifyContent: "space-between",
-                  gap: 16, marginBottom: 18 }}>
-      <h2 className="display" style={{ fontSize: "clamp(20px,2.6vw,30px)" }}>{baslik}</h2>
-      <Link href={href} className="label" prefetch={false}
-            style={{ color: "var(--hi)", textDecoration: "none", whiteSpace: "nowrap" }}>
-        {bagAd}
-      </Link>
-    </div>
   );
 }

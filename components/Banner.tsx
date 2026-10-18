@@ -1,53 +1,89 @@
 import Link from "next/link";
 import Image from "next/image";
+import { ArrowUpRight, Boxes, FileText } from "lucide-react";
+import { formatPrice } from "@/lib/products";
+import { kartGorseli } from "@/lib/gorsel";
 
 /**
- * Ana sayfa banner'ı.
+ * Kahraman alanı.
  *
- * Sitenin girişinde görsel bir karşılama yoktu: doğrudan başlık ve ürün
- * ızgarası geliyordu. Burada tek iş var — ne sattığımızı bir bakışta
- * anlatmak ve kataloğa götürmek. Fazladan rozet, fazladan cümle yok.
+ * Sağdaki ürün teknik çizim diliyle sunuluyor: arkasında daire, altında
+ * zemin çizgisi, sağında ölçü oku. Bu, kataloğun kendi dünyasının görsel
+ * dili — ölçü, şartnameyle karşılaştıran alıcının ilk baktığı şey.
+ * Alt köşedeki kart ürünü adı ve fiyatıyla adlandırıyor, yani görsel
+ * dekor olmaktan çıkıp satılabilir bir şeye bağlanıyor.
  */
-export default function Banner({ urunSayisi }: { urunSayisi: number }) {
+export default function Banner({
+  urunSayisi, kategoriSayisi, urun,
+}: {
+  urunSayisi: number;
+  kategoriSayisi: number;
+  urun?: { slug: string; name: string; price_kdv: number; images: string[]; boyut?: string };
+}) {
+  const olcu = urun?.boyut?.match(/\d+\s*cm/i)?.[0]?.toUpperCase();
+  // Ürün adı kodla bitiyor ("... – 702808A6R2ECO"); kart dar olduğu için
+  // kodu atıyoruz, zaten ürün sayfasında yazıyor.
+  const ad = (urun?.name || "").replace(/\s*[–—-]\s*[A-Z0-9][A-Z0-9 .\-]*$/i, "").trim();
+
   return (
-    <section style={{ borderBottom: "1px solid var(--hair)" }}>
-      <div className="banner" style={{ maxWidth: 1520, margin: "0 auto", padding: "0 20px" }}>
-        <div className="banner-yazi">
-          <h1 className="display" style={{ fontSize: "clamp(32px,5vw,64px)", lineHeight: 1.02 }}>
-            Trafik ve yol<br />güvenliği ekipmanları
+    <div className="wrap hero-wrap">
+      <section className="hero">
+        <div className="hero-copy">
+          <p className="kas">Trafik ve otopark güvenliği</p>
+          <h1>
+            Güvenli alanlar.<br />
+            <em>Doğru ekipman.</em>
           </h1>
-          <p style={{ marginTop: 18, fontSize: 16.5, lineHeight: 1.65, color: "var(--muted)", maxWidth: 440 }}>
-            {urunSayisi} ürün, ölçü ve teknik özellikleriyle listeli.
-            Konya Teknokent{"'"}ten Türkiye geneline.
+          <p className="hero-description">
+            Otoparktan şantiyeye, ihtiyacınıza uygun güvenlik ürünlerini ölçü ve
+            teknik özellikleriyle karşılaştırarak seçin.
           </p>
-          <div style={{ display: "flex", gap: 10, flexWrap: "wrap", marginTop: 28 }}>
-            <Link href="/urunler" className="btn btn-solid" style={{ padding: "16px 26px" }}>
-              Katalogu aç
+          <div className="hero-actions">
+            <Link href="/urunler" className="btn">
+              Ürünleri keşfet <ArrowUpRight className="icon" size={18} strokeWidth={2.2} aria-hidden />
             </Link>
-            <Link href="/iletisim" className="btn btn-ghost" style={{ padding: "16px 26px" }}>
-              Teklif iste
+            <Link href="/iletisim" className="text-link">
+              Toplu teklif oluştur
+              <ArrowUpRight className="icon" size={16} strokeWidth={2.2} aria-hidden />
             </Link>
+          </div>
+          <div className="hero-meta">
+            <span>
+              <Boxes className="icon" size={15} strokeWidth={2} aria-hidden />
+              {urunSayisi} ürün · {kategoriSayisi} kategori
+            </span>
+            <span>
+              <FileText className="icon" size={15} strokeWidth={2} aria-hidden />
+              Bireysel ve kurumsal fatura
+            </span>
           </div>
         </div>
 
-        <div className="banner-gorsel">
-          {/* Turuncu koni — markanın vurgu rengiyle aynı ve sektörün en tanınır ürünü */}
-          <Image src="/images/katalog/90-cm-sekizgen-koni-agirlik-tabanli-2-reflektifli-zt902808a6r2.webp"
-                 alt="90 cm ağırlık tabanlı çift reflektifli trafik konisi" fill unoptimized priority
-                 sizes="(max-width:900px) 100vw, 46vw"
-                 style={{ objectFit: "contain" }} />
-        </div>
-      </div>
+        <div className="hero-art">
+          <span className="hero-label" aria-hidden>SAHADA GÜVENLİK</span>
+          <span className="hero-dot-grid" aria-hidden />
+          {olcu && <span className="hero-measure" aria-hidden><span>{olcu}</span></span>}
 
-      <style>{`
-        .banner{display:grid;grid-template-columns:1fr 0.86fr;gap:40px;align-items:center;
-                min-height:min(62vh,520px);padding-top:28px;padding-bottom:28px}
-        .banner-gorsel{position:relative;align-self:stretch;min-height:300px}
-        @media(max-width:900px){
-          .banner{grid-template-columns:1fr;gap:18px;min-height:0;padding-top:30px;padding-bottom:22px}
-          .banner-gorsel{min-height:230px;order:-1}
-        }
-      `}</style>
-    </section>
+          {urun?.images[0] && (
+            <Image src={kartGorseli(urun.images[0])} alt={urun.name}
+                   width={430} height={430} unoptimized priority
+                   className="hero-product" sizes="(max-width:980px) 90vw, 42vw" />
+          )}
+
+          {urun && (
+            <Link href={`/urun/${urun.slug}`} className="hero-feature" prefetch={false}>
+              <span>
+                <small>ÜRÜNÜ YAKINDAN TANIYIN</small>
+                <strong>{ad || urun.name}</strong>
+              </span>
+              <span className="feature-price">{formatPrice(urun.price_kdv)}</span>
+              <span className="round-arrow" aria-hidden>
+                <ArrowUpRight className="icon" size={15} strokeWidth={2.4} />
+              </span>
+            </Link>
+          )}
+        </div>
+      </section>
+    </div>
   );
 }

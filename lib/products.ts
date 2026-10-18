@@ -77,18 +77,32 @@ export const allProducts: Product[] = tumUrunler.filter((p) => p.id !== TEST_URU
  * alanlar ~156 KB. description, geo, olcu3, dims gibi alanların katalog sayfasında
  * tarayıcıya inmesi gereksiz.
  */
+/**
+ * Kargo alanları (olcu3, geo, agirlik_kg, koli bilgisi) de taşınıyor: ürün
+ * kartındaki "Sepete ekle" düğmesi ürün sayfasına uğramadan sepete yazıyor
+ * ve sepetin desi hesabı bu alanlara dayanıyor. Onlarsız kargo bedeli sıfır
+ * çıkar. Hepsi küçük sayısal alanlar; asıl yükü yapan description, geo
+ * açıklaması ve dims gibi alanlar hâlâ dışarıda.
+ */
 export type KartUrun = Pick<
   Product,
-  | "id" | "slug" | "name" | "kod" | "category" | "boyut"
+  | "id" | "slug" | "name" | "kod" | "category" | "boyut" | "stock"
   | "price" | "price_kdv" | "images"
   | "f_boy" | "f_malzeme" | "f_reflektif" | "f_taban" | "f_seri"
->;
+  | "olcu3" | "geo" | "agirlik_kg"
+> & {
+  agirlikli?: boolean;
+  koli_olcu?: number[];
+  koli_adet?: number;
+};
 
 export const kartUrun = (p: Product): KartUrun => ({
   id: p.id, slug: p.slug, name: p.name, kod: p.kod, category: p.category, boyut: p.boyut,
-  price: p.price, price_kdv: p.price_kdv, images: p.images,
+  stock: p.stock, price: p.price, price_kdv: p.price_kdv, images: p.images,
   f_boy: p.f_boy, f_malzeme: p.f_malzeme, f_reflektif: p.f_reflektif,
   f_taban: p.f_taban, f_seri: p.f_seri,
+  olcu3: p.olcu3, geo: p.geo, agirlik_kg: p.agirlik_kg,
+  agirlikli: p.agirlikli, koli_olcu: p.koli_olcu, koli_adet: p.koli_adet,
 });
 
 export const kartUrunler = (liste: Product[]): KartUrun[] => liste.map(kartUrun);

@@ -21,7 +21,7 @@ export default function Urunler() {
     .sort((a, b) => b.n - a.n);
 
   return (
-    <main style={{ maxWidth: 1520, margin: "0 auto", padding: "48px 24px 40px" }}>
+    <main className="wrap" style={{ padding: "48px 0 40px" }}>
       <p className="eyebrow" style={{ color: "var(--hi)" }}>Katalog</p>
       <h1 className="display d2" style={{ marginTop: 16 }}>Tüm ürünler</h1>
       <p className="label" style={{ color: "var(--dim)", marginTop: 14 }}>
@@ -29,7 +29,9 @@ export default function Urunler() {
       </p>
 
       <div className="rule" style={{ margin: "34px 0 30px" }} />
-      <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill,minmax(200px,1fr))", gap: "34px 24px", marginBottom: 66 }}>
+      {/* .category-grid kullanılıyor: satır içi auto-fill minmax(200px) telefonda
+          tek sütuna düşüp 35 kategoriyi devasa kartlar hâlinde diziyordu. */}
+      <div className="category-grid" style={{ marginBottom: 66 }}>
         {sayilar.map(({ c, n }) => <CategoryCard key={c} kategori={c} adet={n} gorsel={KAPAK[c]?.img} />)}
       </div>
 

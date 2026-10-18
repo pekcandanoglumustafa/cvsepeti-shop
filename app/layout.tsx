@@ -108,9 +108,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         {/* Gövde metninin ve ilk başlığın fontu önden yükleniyor: yoksa yazı
             önce sistem fontuyla çizilip sonra Barlow'a atlıyor ve göz alıyor.
             Yalnızca her sayfada kesin kullanılan üç dosya — gerisi gerektiğinde. */}
-        <link rel="preload" href="/fonts/barlow-latin-400.woff2" as="font" type="font/woff2" crossOrigin="anonymous" />
-        <link rel="preload" href="/fonts/barlow-latin-ext-400.woff2" as="font" type="font/woff2" crossOrigin="anonymous" />
-        <link rel="preload" href="/fonts/barlow-sc-latin-600.woff2" as="font" type="font/woff2" crossOrigin="anonymous" />
+        <link rel="preload" href="/fonts/manrope-latin.woff2" as="font" type="font/woff2" crossOrigin="anonymous" />
+        <link rel="preload" href="/fonts/manrope-latin-ext.woff2" as="font" type="font/woff2" crossOrigin="anonymous" />
         <script type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(kurumSema) }} />
       </head>

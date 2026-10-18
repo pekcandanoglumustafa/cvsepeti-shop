@@ -2,79 +2,116 @@
 import Link from "next/link";
 import Logo from "@/components/Logo";
 import { useEffect, useState } from "react";
-import { Menu, X, ShoppingBag, Search } from "lucide-react";
+import { useRouter } from "next/navigation";
+import { Menu, X, ShoppingBag, Search, Phone, LayoutGrid, ArrowUpRight } from "lucide-react";
 import { categories, categorySlug } from "@/lib/products";
 import { useCart } from "@/lib/cart";
+import { FIRMA } from "@/lib/firma";
+
+/** Üst menüde duran kategoriler — en çok satılan gruplar. */
+const MENU = ["Trafik Konisi", "Delinatör", "Hız Kesici Kasis", "Güvenlik Bariyeri", "Araç Stoperi"];
 
 export default function Header() {
+  const router = useRouter();
   const [open, setOpen] = useState(false);
   const [mounted, setMounted] = useState(false);
+  const [q, setQ] = useState("");
   const count = useCart((s) => s.count());
   useEffect(() => setMounted(true), []);
 
+  const ara = (e: React.FormEvent) => {
+    e.preventDefault();
+    const s = q.trim();
+    router.push(s ? `/ara?q=${encodeURIComponent(s)}` : "/urunler");
+    setOpen(false);
+  };
+
   return (
-    <header style={{ position: "sticky", top: 0, zIndex: 50, background: "var(--paper)" }}>
-      <div style={{ borderBottom: "1px solid var(--line)" }}>
-        <div style={{ maxWidth: 1360, margin: "0 auto", padding: "0 20px", height: 74,
-                      display: "flex", alignItems: "center", justifyContent: "space-between", gap: 24 }}>
-          <Link href="/" style={{ textDecoration: "none" }} aria-label="Trafik Ürünleri ana sayfa">
+    <>
+      {/* Üst bant — doğrulanabilir üç bilgi. "Üreticiden doğrudan satış" ve
+          "aynı gün kargo" ifadeleri kullanılmıyor: ürünler tedarikçiden
+          alınıyor ve sitenin geri kalanı 1-2 iş günü diyor. */}
+      <div className="topline">
+        <div className="wrap">
+          <span>Bireysel ve kurumsal fatura</span>
+          <span>1-2 iş günü kargoda</span>
+          <span>iyzico ile güvenli ödeme</span>
+        </div>
+      </div>
+
+      <header className="site-header">
+        <div className="wrap header-main">
+          <Link href="/" aria-label="Trafik Ürünleri ana sayfa">
             <Logo />
           </Link>
 
-          <nav className="hidden lg:flex" style={{ gap: 26 }}>
-            {["Delinatör","Trafik Konisi","Hız Kesici Kasis","Güvenlik Bariyeri","Araç Stoperi"].map((c) => (
-              <Link key={c} href={`/kategori/${categorySlug(c)}`} className="label"
-                    style={{ color: "var(--muted)", textDecoration: "none" }}>{c}</Link>
-            ))}
-            <Link href="/urunler" className="label" style={{ color: "var(--ink)", textDecoration: "none" }}>
-              Tüm Katalog
+          <form className="search" role="search" onSubmit={ara}>
+            <Search size={17} strokeWidth={2.2} style={{ color: "#7C8586", flexShrink: 0 }} aria-hidden />
+            <label className="sr-only" htmlFor="header-arama">Ürün, kategori veya ürün kodu ara</label>
+            <input id="header-arama" name="q" autoComplete="off" value={q}
+                   onChange={(e) => setQ(e.target.value)}
+                   placeholder="Ürün, kategori veya ürün kodu ara…" />
+            <button type="submit" aria-label="Ara">
+              <ArrowUpRight size={17} strokeWidth={2.2} />
+            </button>
+          </form>
+
+          <a className="header-phone" href={FIRMA.telefonHref}>
+            <Phone size={20} strokeWidth={2} aria-hidden />
+            <span className="yazi">
+              <small>Ürün seçerken yardımcı olalım</small>
+              <strong>{FIRMA.telefon}</strong>
+            </span>
+          </a>
+
+          <button className="cart-trigger" aria-label={`Sepetim, ${mounted ? count : 0} ürün`}
+                  onClick={() => window.dispatchEvent(new CustomEvent("cart:open"))}>
+            <ShoppingBag size={20} strokeWidth={2.1} aria-hidden />
+            <span className="cart-label">Sepetim</span>
+            <b>{mounted ? count : 0}</b>
+          </button>
+
+          <button className="menu-toggle icon-button" onClick={() => setOpen(!open)}
+                  aria-label="Menü" aria-expanded={open}>
+            {open ? <X size={22} /> : <Menu size={22} />}
+          </button>
+        </div>
+
+        <div className="nav-shell">
+          <nav className="wrap main-nav" aria-label="Ana menü">
+            <Link href="/urunler" className="all-products">
+              <LayoutGrid size={16} strokeWidth={2.2} aria-hidden /> Tüm ürünler
             </Link>
-            <Link href="/blog" className="label" style={{ color: "var(--muted)", textDecoration: "none" }}>
-              Rehberler
+            {MENU.map((c) => (
+              <Link key={c} href={`/kategori/${categorySlug(c)}`}>{c}</Link>
+            ))}
+            <Link href="/blog">Ürün seçim rehberi</Link>
+            <Link href="/iletisim" className="nav-business">
+              Kurumsal &amp; toplu alım <ArrowUpRight size={15} strokeWidth={2.2} aria-hidden />
             </Link>
           </nav>
+        </div>
 
-          <div style={{ display: "flex", alignItems: "center", gap: 18 }}>
-            {/* Arama her sayfadan erişilebilir olmalı — ana sayfadaki büyük kutu
-                yerine üst menüde ölçülü bir simge. */}
-            <Link href="/ara" aria-label="Ürün ara" prefetch={false}
-                  style={{ color: "var(--ink)", display: "flex" }}>
-              <Search size={20} strokeWidth={2.4} />
-            </Link>
-            <button onClick={() => window.dispatchEvent(new CustomEvent("cart:open"))} aria-label="Sepet"
-                  style={{ position: "relative", color: "var(--ink)", display: "flex",
-                           background: "none", border: "none", cursor: "pointer", padding: 0 }}>
-              <ShoppingBag size={20} strokeWidth={2.4} />
-              {mounted && count > 0 && (
-                <span style={{ position: "absolute", top: -7, right: -9, background: "var(--hi)", color: "#fff",
-                               fontSize: 10, fontWeight: 700, minWidth: 17, height: 17, borderRadius: 9,
-                               display: "flex", alignItems: "center", justifyContent: "center", padding: "0 4px" }}>
-                  {count}
-                </span>
-              )}
-            </button>
-            <button className="lg:hidden" onClick={() => setOpen(!open)} aria-label="Menü"
-                    style={{ background: "none", border: "none", color: "var(--ink)", cursor: "pointer", display: "flex" }}>
-              {open ? <X size={22} /> : <Menu size={22} />}
-            </button>
+        {open && (
+          <div style={{ background: "var(--paper)", borderBottom: "1px solid var(--line)",
+                        maxHeight: "70vh", overflowY: "auto", padding: "6px 0 20px" }}>
+            <div className="wrap">
+              {categories.map((c) => (
+                <Link key={c} href={`/kategori/${categorySlug(c)}`} onClick={() => setOpen(false)}
+                      style={{ display: "block", padding: "13px 0", fontSize: 13.5, fontWeight: 600,
+                               borderBottom: "1px solid var(--hair)" }}>
+                  {c}
+                </Link>
+              ))}
+              <Link href="/iletisim" onClick={() => setOpen(false)}
+                    style={{ display: "block", padding: "15px 0 0", fontSize: 13.5,
+                             fontWeight: 700, color: "var(--orange)" }}>
+                Kurumsal &amp; toplu alım
+              </Link>
+            </div>
           </div>
-        </div>
-      </div>
-      <div className="band-thin" />
-
-      {open && (
-        <div style={{ background: "var(--paper)", borderBottom: "1px solid var(--line)",
-                      maxHeight: "70vh", overflowY: "auto", padding: "8px 20px 24px" }}>
-          {categories.map((c) => (
-            <Link key={c} href={`/kategori/${categorySlug(c)}`} onClick={() => setOpen(false)}
-                  className="label"
-                  style={{ display: "block", padding: "14px 0", borderBottom: "1px solid var(--line)",
-                           color: "var(--ink)", textDecoration: "none" }}>
-              {c}
-            </Link>
-          ))}
-        </div>
-      )}
-    </header>
+        )}
+      </header>
+    </>
   );
 }

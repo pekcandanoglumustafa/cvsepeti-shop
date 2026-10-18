@@ -83,7 +83,7 @@ export default async function Urun({ params }: { params: Promise<{ slug: string 
   const benzer = allProducts.filter(x => x.category === p.category && x.slug !== p.slug).slice(0, 4);
 
   return (
-    <main style={{ maxWidth: 1520, margin: "0 auto", padding: "32px 24px 110px" }}>
+    <main className="wrap" style={{ padding: "32px 0 110px" }}>
       <nav className="eyebrow" style={{ color: "var(--muted)", marginBottom: 26 }}>
         <Link href="/" style={{ color: "inherit", textDecoration: "none" }}>Ana sayfa</Link>
         {" / "}

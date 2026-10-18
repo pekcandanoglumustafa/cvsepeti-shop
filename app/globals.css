@@ -1,198 +1,413 @@
 @import "tailwindcss";
 
 /* ============================================================
-   YAZI KARAKTERİ — Barlow, siteye gömülü
+   TASARIM SİSTEMİ — trafikurunleri.com
 
-   Dosyalar public/fonts/ altında duruyor; Google Fonts'a hiç istek
-   gitmiyor. Bu hem daha hızlı (üçüncü taraf bağlantısı, DNS ve TLS
-   el sıkışması yok) hem KVKK açısından temiz (ziyaretçinin IP'si
-   Google'a gitmiyor).
+   Yön ve değerler, onaylanan ön izleme tasarımından alınmıştır.
+   Renk paleti nötr siyah-beyaz değil, hafif yeşile çalan bir koyu
+   (--ink) ve ılık bir kırık beyaz (--wash) üzerine kurulu; bu ikisi
+   sayfayı sert kontrastın yorgunluğundan kurtarıyor.
 
-   İki alt küme ayrı yükleniyor: Türkçe'nin ğ, ş ve İ harfleri
-   Latin Extended-A bloğunda (U+0100–U+017F), temel harfler ise
-   latin bloğunda. unicode-range olmadan tarayıcı yanlış dosyayı
-   seçer ve Türkçe harfler sistem fontuna düşer.
+   Yazı karakteri Manrope. Kaynak tasarımda base64 TTF olarak gömülüydü
+   (dosya başına ~250 KB); burada değişken woff2 olarak gömülü:
+   iki dosya, 48 KB, tüm ağırlıklar. Google Fonts'a istek gitmiyor —
+   daha hızlı ve ziyaretçinin IP'si Google'a gitmiyor.
+
+   Türkçe'nin ğ, ş ve İ harfleri Latin Extended-A bloğunda olduğu için
+   latin ve latin-ext ayrı yükleniyor; unicode-range olmadan tarayıcı
+   yanlış dosyayı seçip o harfleri sistem fontuna düşürür.
    ============================================================ */
 
-@font-face{font-family:Barlow;font-style:normal;font-weight:400;font-display:swap;
-  src:url(/fonts/barlow-latin-ext-400.woff2) format("woff2");
-  unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
-@font-face{font-family:Barlow;font-style:normal;font-weight:400;font-display:swap;
-  src:url(/fonts/barlow-latin-400.woff2) format("woff2");
-  unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
-
-@font-face{font-family:Barlow;font-style:normal;font-weight:500;font-display:swap;
-  src:url(/fonts/barlow-latin-ext-500.woff2) format("woff2");
-  unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
-@font-face{font-family:Barlow;font-style:normal;font-weight:500;font-display:swap;
-  src:url(/fonts/barlow-latin-500.woff2) format("woff2");
-  unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
-
-@font-face{font-family:Barlow;font-style:normal;font-weight:600;font-display:swap;
-  src:url(/fonts/barlow-latin-ext-600.woff2) format("woff2");
-  unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
-@font-face{font-family:Barlow;font-style:normal;font-weight:600;font-display:swap;
-  src:url(/fonts/barlow-latin-600.woff2) format("woff2");
-  unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
-
-@font-face{font-family:Barlow;font-style:normal;font-weight:700;font-display:swap;
-  src:url(/fonts/barlow-latin-ext-700.woff2) format("woff2");
-  unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
-@font-face{font-family:Barlow;font-style:normal;font-weight:700;font-display:swap;
-  src:url(/fonts/barlow-latin-700.woff2) format("woff2");
-  unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
-
-/* Başlıklar — sıkıştırılmış genişlik, tabela harflerinin oranı */
-@font-face{font-family:"Barlow SC";font-style:normal;font-weight:600;font-display:swap;
-  src:url(/fonts/barlow-sc-latin-ext-600.woff2) format("woff2");
-  unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
-@font-face{font-family:"Barlow SC";font-style:normal;font-weight:600;font-display:swap;
-  src:url(/fonts/barlow-sc-latin-600.woff2) format("woff2");
-  unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
-
-@font-face{font-family:"Barlow SC";font-style:normal;font-weight:700;font-display:swap;
-  src:url(/fonts/barlow-sc-latin-ext-700.woff2) format("woff2");
-  unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
-@font-face{font-family:"Barlow SC";font-style:normal;font-weight:700;font-display:swap;
-  src:url(/fonts/barlow-sc-latin-700.woff2) format("woff2");
-  unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
-
-/* ============================================================
-   TASARIM SİSTEMİ
-
-   Yön: ürünün kendi dünyasından. Trafik ekipmanı tedarikçisi bir
-   moda markası gibi bağırmamalı; net, ölçülü ve güvenilir olmalı.
-   Alıcı çoğu zaman elinde şartnameyle gelen bir satın alma yetkilisi.
-
-   Eski sistemin üç sorunu vardı:
-   1) Başlıklar 900 ağırlık + hepsi büyük harf + 0.84 satır yüksekliği
-      ile yazılıyordu. Bu bir giyim markası dili.
-   2) Hiçbir font yüklenmiyordu. font-family "Helvetica Neue" diyordu
-      ama ne next/font ne @font-face vardı — Helvetica Neue yalnızca
-      macOS'ta bulunur, dolayısıyla Windows ve Android'deki ziyaretçi
-      siteyi Arial ile görüyordu. Tasarlanan şey hiç görünmemişti.
-   3) Saf #000 metin ekranda sert durur ve uzun okumayı yorar.
-   ============================================================ */
+@font-face{
+  font-family:Manrope;font-style:normal;font-weight:200 800;font-display:swap;
+  src:url(/fonts/manrope-latin-ext.woff2) format("woff2");
+  unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF;
+}
+@font-face{
+  font-family:Manrope;font-style:normal;font-weight:200 800;font-display:swap;
+  src:url(/fonts/manrope-latin.woff2) format("woff2");
+  unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
 
 :root{
-  /* --- renk ---
-     Ürün fotoğrafları beyaz zeminde çekildiği için karo beyaz kalıyor:
-     ürün zemine tam oturuyor, çerçevesi görünmüyor. */
-  --ink:#16191C;        /* metin — hafif soğuk koyu, mühendislik çizimi tonu */
+  --orange:#E95325;
+  --orange-dark:#C83B14;
+  --orange-soft:#FFF0E9;    /* sepete ekle düğmesinin dinlenme hâli */
+  --orange-ink:#C6461D;     /* turuncu zemin üstünde okunur metin */
+  --ink:#1D2A30;
+  --ink-soft:#34474D;
+  --muted:#687275;
+  --dim:#7C8581;
+  --line:#E4E7E6;
+  --hair:#EEF0ED;
   --paper:#FFFFFF;
-  --tile:#FFFFFF;
-  --surface:#F4F5F7;    /* bölüm zemini */
-  --line:#D4D9DE;       /* form alanı, tablo satırı, menü alt çizgisi */
-  --hair:#E8EBEE;       /* ince ayraç */
-  --muted:#59616A;
-  --dim:#8A929B;
-  --hi:#EE4B10;         /* güvenlik turuncusu — koninin kendi rengi */
-  --hi-ink:#C03709;     /* küçük metinde okunur kontrast için koyu varyant */
-
-  /* Trafik levhalarının köşeleri yuvarlaktır — yarıçap oradan geliyor,
-     süs değil. Ürün karoları hariç her yerde aynı değer. */
-  --r:4px;
+  --wash:#F5F6F3;           /* bölüm zemini */
+  --sand:#EEEFE9;
+  --tile:#F8F9F7;           /* ürün fotoğrafı zemini */
+  --green:#357654;
+  --radius:12px;
+  --shadow:0 16px 48px #17262D12;
 }
 
 *{box-sizing:border-box;margin:0;padding:0}
 html{-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
-
 body{
-  background:var(--paper);
-  color:var(--ink);
-  /* next/font ile yüklenen Barlow. Kaliforniya otoyol ve kamu
-     tabelalarından çizilmiş bir aile — bu katalog için sektörün
-     kendi tipografisi. Uçları Helvetica'dan yumuşak, Türkçe
-     karakterleri tam, tabular rakamları gerçek. */
-  font-family:Barlow,system-ui,-apple-system,"Segoe UI",sans-serif;
-  font-size:16px;
-  line-height:1.55;
-  font-feature-settings:"kern" 1;
+  background:var(--paper);color:var(--ink);
+  font-family:Manrope,system-ui,-apple-system,"Segoe UI",sans-serif;
+  font-size:14px;line-height:1.55;font-synthesis:none;
 }
+button,input,select,textarea{font:inherit}
+button{cursor:pointer;border:0;background:none;color:inherit}
+button:disabled{cursor:not-allowed;opacity:.5}
+button svg,a svg{pointer-events:none}
+a{color:inherit;text-decoration:none}
+img{max-width:100%}
 
-/* ---------- tipografi ----------
-   Büyük harf kaldırıldı. Başlık sıkıştırılmış genişlikten (Semi Condensed)
-   karakter alıyor; ağırlık ve harf aralığından değil. */
-.display{
-  font-family:"Barlow SC",Barlow,system-ui,sans-serif;
-  font-weight:600;
-  letter-spacing:-0.015em;
-  line-height:1.06;
+h1,h2,h3{line-height:1.16;font-weight:750}
+h1{letter-spacing:-2.3px}
+h2{font-size:32px;letter-spacing:-1.1px}
+h3{font-size:18px;letter-spacing:-.35px;font-weight:650}
+
+:focus-visible{outline:3px solid var(--orange);outline-offset:4px;border-radius:3px}
+@media (prefers-reduced-motion:reduce){*{animation-duration:.01ms!important;transition-duration:.01ms!important}}
+
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;
+  clip:rect(0,0,0,0);white-space:nowrap;border:0}
+
+/* ---------- düzen ---------- */
+.wrap{width:min(1280px,calc(100% - 80px));margin:0 auto}
+.section{padding:48px 0}
+.section-heading{display:flex;justify-content:space-between;align-items:flex-end;gap:20px;margin-bottom:24px}
+.section-heading h2{font-size:28px}
+.section-heading p{color:var(--muted);font-size:12px;margin-top:8px}
+.section-heading .text-link{white-space:nowrap}
+
+/* Bölüm üstü etiket — turuncu kısa çizgi + büyük harf.
+   Yalnızca kahraman alanı ve banner gibi az sayıda yerde; her başlığın
+   üstüne konunca sayfayı yorar. */
+.kas{display:flex;align-items:center;gap:8px;font-size:10px;font-weight:750;
+  letter-spacing:1.6px;text-transform:uppercase;color:var(--muted);margin-bottom:17px}
+.kas:before{content:"";width:17px;height:2px;background:var(--orange)}
+
+/* ---------- düğmeler ---------- */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;
+  min-height:48px;padding:12px 22px;border-radius:7px;background:var(--orange);
+  color:#fff;font-size:13px;font-weight:700;border:1px solid transparent;
+  transition:background .18s,transform .18s,border-color .18s}
+.btn:hover{background:var(--orange-dark);transform:translateY(-1px)}
+.btn.secondary{background:#fff;color:var(--ink);border-color:var(--line)}
+.btn.secondary:hover{background:var(--wash);border-color:#BFC6C2}
+.btn.dark{background:var(--ink)}
+.btn.dark:hover{background:var(--ink-soft)}
+.btn.small{min-height:39px;padding:9px 15px;font-size:12px}
+.btn.full{width:100%}
+.btn .icon{width:18px;height:18px}
+
+.text-link{display:inline-flex;align-items:center;gap:9px;font-size:12px;font-weight:700;
+  transition:color .18s}
+.text-link:hover{color:var(--orange)}
+.text-link .icon{width:16px;height:16px}
+
+.icon-button{display:inline-grid;place-items:center;width:40px;height:40px;border-radius:50%}
+.icon-button:hover{background:#EDF0ED}
+
+/* ---------- ürün kartı ----------
+   Fotoğrafa mix-blend-mode:multiply uygulanıyor: ürün görsellerinin
+   arka planı tam beyaz değil, bu sayede karonun zeminine karışıyor ve
+   fotoğrafın kenarında gri bir dikdörtgen görünmüyor. */
+.product-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:19px}
+.product-card{position:relative;display:flex;flex-direction:column;min-width:0;
+  background:#fff;border:1px solid var(--line);border-radius:10px;overflow:hidden;
+  transition:box-shadow .2s,border-color .2s,transform .2s}
+.product-card:hover{border-color:#C7CDCA;box-shadow:0 10px 25px #162D2510;transform:translateY(-3px)}
+.product-photo{display:block;height:219px;background:var(--tile);padding:22px 29px;position:relative}
+.product-photo img{width:100%;height:100%;object-fit:contain;mix-blend-mode:multiply;transition:transform .3s}
+.product-card:hover .product-photo img{transform:scale(1.035)}
+.product-info{padding:17px 17px 13px;display:flex;flex-direction:column;flex:1}
+.product-code{font-size:9.5px;letter-spacing:.7px;color:var(--dim);display:block;margin-bottom:6px;
+  font-variant-numeric:tabular-nums}
+.product-info h3{font-size:13px;line-height:1.55;letter-spacing:-.1px;font-weight:650;
+  min-height:40px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.product-card:hover h3{color:var(--orange-ink)}
+.product-specs{display:flex;flex-wrap:wrap;gap:5px;margin-top:12px;min-height:21px}
+.spec-chip{font-size:9.5px;padding:3px 7px;border-radius:3px;background:#F2F4F1;color:#6F7971;
+  max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.product-bottom{display:flex;justify-content:space-between;align-items:flex-end;gap:6px;
+  margin-top:17px;padding-top:13px;border-top:1px solid var(--hair)}
+.price{font-size:20px;font-weight:800;letter-spacing:-.6px;line-height:1.1;white-space:nowrap;
+  font-variant-numeric:tabular-nums}
+.price small{font-size:9.5px;color:var(--muted);font-weight:500;letter-spacing:0;display:block;margin-top:6px}
+.add-button{height:35px;display:flex;align-items:center;justify-content:center;gap:5px;
+  background:var(--orange-soft);color:var(--orange-ink);border-radius:5px;padding:8px 11px;
+  font-size:10.5px;font-weight:700;white-space:nowrap;transition:background .18s,color .18s}
+.add-button:hover{background:var(--orange);color:#fff}
+.add-button.eklendi{background:var(--green);color:#fff}
+.add-button .icon{width:13px;height:13px}
+
+/* ---------- kategori kartı ---------- */
+.category-grid{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:15px}
+.category-card{display:block;border:1px solid var(--line);border-radius:10px;background:#fff;
+  overflow:hidden;transition:border-color .2s,transform .2s,box-shadow .2s}
+.category-card:hover{border-color:#E9532577;transform:translateY(-4px);box-shadow:var(--shadow)}
+.category-photo{height:137px;padding:15px 22px;background:#F6F7F5}
+.category-photo img{width:100%;height:100%;object-fit:contain;mix-blend-mode:multiply;transition:transform .3s}
+.category-card:hover img{transform:scale(1.07)}
+.category-info{padding:15px 14px;display:flex;align-items:center;gap:5px;justify-content:space-between}
+.category-info strong{font-size:12px;font-weight:700}
+.category-info small{display:block;font-size:10px;color:var(--muted);margin-top:3px}
+.category-info .icon{width:15px;height:15px;color:var(--muted);flex-shrink:0}
+
+/* ---------- üst bant ---------- */
+.topline{background:var(--ink);color:#F3F3EF;font-size:11px;letter-spacing:.1px}
+.topline .wrap{display:flex;align-items:center;gap:33px;min-height:33px;flex-wrap:wrap}
+.topline span:before{content:"✓";color:#ED986F;margin-right:8px}
+
+/* ---------- başlık / menü ---------- */
+.site-header{position:sticky;top:0;z-index:30;background:#FFFFFFF5;
+  backdrop-filter:blur(16px);border-bottom:1px solid var(--line)}
+.header-main{height:91px;display:flex;align-items:center;gap:30px}
+.brand{display:flex;align-items:center;gap:9px;white-space:nowrap;font-size:24px;
+  font-weight:800;letter-spacing:-1.2px;line-height:1}
+.brand-symbol{width:29px;height:33px;color:var(--orange);flex-shrink:0}
+.brand-light{font-weight:550}
+.brand small{font-size:11px;letter-spacing:-.3px;font-weight:500}
+.search{position:relative;display:flex;align-items:center;gap:11px;flex:1;min-width:0;
+  background:#F5F6F5;border:1px solid #E8EAE7;border-radius:8px;padding:0 10px 0 15px;height:44px}
+.search input{width:100%;min-width:0;background:none;outline:none;border:0;font-size:12.5px;color:var(--ink)}
+.search:focus-within{box-shadow:0 0 0 2px #E9532533;border-color:var(--orange)}
+.search button{display:grid;place-items:center;min-width:32px;min-height:36px;color:var(--muted)}
+.header-phone{display:flex;align-items:center;gap:10px;white-space:nowrap}
+.header-phone .icon{width:20px;height:20px}
+.header-phone .yazi{display:flex;flex-direction:column}
+.header-phone small{font-size:10px;color:var(--muted)}
+.header-phone strong{font-size:14px;letter-spacing:.2px}
+.cart-trigger{display:flex;align-items:center;gap:9px;padding:10px 0;font-size:12px;white-space:nowrap}
+.cart-trigger b{min-width:21px;height:21px;border-radius:50%;background:var(--orange);
+  color:#fff;font-size:10px;display:grid;place-items:center;font-variant-numeric:tabular-nums}
+.nav-shell{border-top:1px solid var(--hair)}
+.main-nav{display:flex;align-items:center;height:49px;gap:30px;font-size:12px;font-weight:600;
+  overflow-x:auto;scrollbar-width:none}
+.main-nav::-webkit-scrollbar{display:none}
+.main-nav a{display:flex;align-items:center;gap:8px;white-space:nowrap;transition:color .2s}
+.main-nav a:hover{color:var(--orange)}
+.main-nav .all-products{padding-right:25px;border-right:1px solid var(--line)}
+.main-nav .all-products .icon{width:16px;height:16px}
+.main-nav .nav-business{margin-left:auto;color:var(--orange)}
+.main-nav .nav-business .icon{width:15px;height:15px}
+.menu-toggle{display:none}
+
+/* ---------- kahraman alanı ---------- */
+.hero-wrap{padding-top:25px}
+.hero{display:grid;grid-template-columns:1.07fr 1fr;min-height:470px;background:var(--wash);
+  border:1px solid #EDF0EB;border-radius:14px;overflow:hidden;position:relative}
+.hero-copy{padding:51px 0 35px 46px;position:relative;z-index:2}
+.hero h1{font-size:59px;line-height:1.08;font-weight:750;letter-spacing:-2.9px}
+.hero h1 em{font-style:normal;color:var(--orange)}
+.hero-description{max-width:355px;font-size:14px;line-height:1.8;color:#616B6C;margin-top:22px}
+.hero-actions{display:flex;gap:20px;align-items:center;margin-top:27px;flex-wrap:wrap}
+.hero-meta{display:flex;gap:28px;margin-top:32px;font-size:10.5px;color:var(--muted);flex-wrap:wrap}
+.hero-meta span{display:flex;align-items:center;gap:7px}
+.hero-meta .icon{width:15px;height:15px;color:#4B6357}
+/* background gerekli: isolation:isolate yeni bir katman bağlamı açıyor ve
+   bu bağlamda dairenin dışı saydam kalıyordu. mix-blend-mode:multiply
+   saydam zeminde etkisiz olduğu için ürün fotoğrafının beyaz dikdörtgeni
+   olduğu gibi görünüyordu. Opak zemin karışıma zemin veriyor. */
+.hero-art{position:relative;min-width:0;isolation:isolate;background:var(--wash);
+  display:flex;justify-content:center;align-items:center;padding:5px 35px 86px}
+.hero-art:before{content:"";position:absolute;width:375px;height:375px;max-width:90%;max-height:85%;
+  background:#E8EBE1;border-radius:50%;z-index:-2}
+.hero-art:after{content:"";position:absolute;right:35px;left:35px;bottom:65px;height:1px;
+  background:#CBD1C5;z-index:-1}
+/* drop-shadow filtresi kendi katman bağlamını yaratıp mix-blend-mode'u
+   etkisiz kılıyordu: ürün fotoğrafının beyaz zemini karo gibi görünüyordu.
+   Genişlik de arkadaki daireyi aşıyor ve koninin tabanı alt karta giriyordu. */
+.hero-product{width:100%;max-width:360px;height:392px;object-fit:contain;
+  mix-blend-mode:multiply}
+.hero-dot-grid{position:absolute;top:33px;right:24px;width:65px;height:65px;opacity:.5;z-index:-1;
+  background-image:radial-gradient(#B5BDB7 1px,transparent 1px);background-size:10px 10px}
+.hero-label{position:absolute;top:34px;left:27px;font-size:10px;letter-spacing:1.4px;color:#7B847B}
+/* teknik çizim ölçü oku — ürünün boyunu gösteriyor */
+.hero-measure{position:absolute;right:37px;top:96px;bottom:124px;border-right:1px solid #A4B0A5;width:8px}
+.hero-measure:before,.hero-measure:after{content:"";position:absolute;right:-5px;top:0;width:10px;
+  border-top:1px solid #A4B0A5}
+.hero-measure:after{top:auto;bottom:0}
+.hero-measure span{position:absolute;right:-18px;top:45%;writing-mode:vertical-rl;font-size:9px;
+  letter-spacing:2px;background:var(--wash);padding:10px 0;color:#7B857C}
+.hero-feature{position:absolute;right:20px;bottom:19px;background:#FFFFFFF5;border:1px solid #E4E7E0;
+  border-radius:9px;box-shadow:0 8px 22px #24322B0A;padding:13px 16px;display:flex;gap:18px;
+  align-items:center;min-width:260px;max-width:min(340px,calc(100% - 40px))}
+.hero-feature small{display:block;font-size:9px;color:var(--muted);letter-spacing:.4px}
+.hero-feature strong{display:block;font-size:12px;line-height:1.45;font-weight:650;
+  display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.hero-feature .feature-price{font-size:17px;font-weight:800;letter-spacing:-.5px;white-space:nowrap;
+  font-variant-numeric:tabular-nums}
+.hero-feature .round-arrow{margin-left:auto;background:var(--ink);color:#fff;border-radius:50%;
+  width:30px;height:30px;display:grid;place-items:center;flex-shrink:0}
+.hero-feature .icon{width:15px;height:15px}
+
+/* ---------- güven satırı ---------- */
+.trust-row{display:grid;grid-template-columns:repeat(4,1fr);gap:24px;padding:26px 0;
+  border-bottom:1px solid var(--line)}
+.trust-item{display:flex;gap:12px;align-items:flex-start}
+.trust-item .icon{width:19px;height:19px;color:var(--ink);flex-shrink:0;margin-top:2px}
+.trust-item strong{display:block;font-size:12.5px;font-weight:700}
+.trust-item small{display:block;font-size:10.5px;color:var(--muted);margin-top:3px}
+
+/* ---------- kullanım alanları ---------- */
+.use-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:15px}
+.use-card{background:#fff;border:1px solid #E5E9E0;border-radius:10px;padding:25px;min-height:196px;
+  display:flex;flex-direction:column;align-items:flex-start;transition:transform .2s,border-color .2s}
+.use-card:hover{transform:translateY(-3px);border-color:#AAB5A9}
+.use-card .icon{width:26px;height:26px;color:var(--ink);margin-bottom:16px}
+.use-card h3{font-size:16px;margin-bottom:9px}
+.use-card p{font-size:11.5px;color:var(--muted);line-height:1.7;max-width:200px}
+.use-card .text-link{margin-top:auto;padding-top:20px;font-size:11px}
+
+/* ---------- koyu toplu alım bandı ---------- */
+.business-banner{margin:46px 0 0;background:#202E32;color:#fff;border-radius:12px;display:grid;
+  grid-template-columns:1.3fr 1fr;position:relative;overflow:hidden;padding:42px;gap:30px}
+.business-banner:after{content:"";position:absolute;right:26%;top:-80px;width:230px;height:400px;
+  border:1px solid #536157;transform:rotate(25deg);pointer-events:none;opacity:.22}
+.business-banner .kas{color:#B2BCB5}
+.business-banner h2{font-size:32px;font-weight:600;line-height:1.22;max-width:440px;letter-spacing:-1px}
+.business-banner h2 em{font-style:normal;color:#F79666}
+.business-banner p{max-width:405px;color:#B4BDB7;font-size:12px;line-height:1.8;margin-top:17px}
+.business-side{position:relative;z-index:2;display:flex;flex-direction:column;gap:18px;justify-content:center}
+.business-side .btn{min-width:230px;align-self:flex-start}
+.business-list{display:flex;flex-direction:column;gap:9px;font-size:11.5px;color:#C3CCC5}
+.business-list span{display:flex;gap:9px;align-items:flex-start}
+.business-list .icon{width:14px;height:14px;color:#8FBFA2;flex-shrink:0;margin-top:2px}
+
+/* ---------- rehber kartları ---------- */
+.guide-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:23px}
+.guide-card{border-top:1px solid #A9B4AC;padding-top:20px;display:flex;gap:20px;min-height:132px}
+.guide-card .no{font-size:11px;color:var(--muted);font-variant-numeric:tabular-nums;padding-top:2px}
+.guide-card h3{font-size:16px;line-height:1.4}
+.guide-card p{color:var(--muted);font-size:11.5px;margin-top:8px;line-height:1.7}
+.guide-card .text-link{font-size:10.5px;margin-top:14px}
+.guide-card:hover h3{color:var(--orange)}
+
+/* ---------- altbilgi ---------- */
+.footer{background:var(--wash);border-top:1px solid var(--line);margin-top:18px;padding:43px 0 0}
+.footer-grid{display:grid;grid-template-columns:1.7fr 1fr 1fr 1.25fr;gap:40px;padding-bottom:35px}
+.footer .brand{font-size:22px}
+.footer-description{font-size:11.5px;color:var(--muted);line-height:1.8;max-width:240px;margin-top:18px}
+.footer-grid h3{font-size:11px;font-weight:750;margin-bottom:15px}
+.footer-grid a:not(.brand){display:block;font-size:11.5px;margin-top:9px;color:#5A6861}
+.footer-grid a:hover{color:var(--orange)}
+.footer-grid p:not(.footer-description){color:var(--muted);font-size:11.5px;line-height:1.8}
+.footer-location{display:flex;gap:6px;align-items:center;font-size:10.5px;color:#68756B;margin-top:17px}
+.footer-location .icon{width:13px;height:13px}
+.footer-bottom{border-top:1px solid var(--line);padding:18px 0;display:flex;justify-content:space-between;
+  gap:20px;flex-wrap:wrap;font-size:11px;color:var(--muted)}
+
+/* ============================================================
+   ESKİ SINIF ADLARI — köprü
+   Katalog, ürün, sepet ve ödeme sayfaları bu adları kullanıyor.
+   Yeni sisteme eşlenerek çalışmaya devam ediyorlar.
+   ============================================================ */
+
+/* Eski değişken adları. Tanımsız bir var() tarayıcıya kuralın tamamını
+   attırıyor — yani renk yanlış olmuyor, kural hiç uygulanmıyor. 10 sayfa
+   hâlâ --hi çağırıyordu ve o metinler sessizce varsayılan renge düşüyordu. */
+:root{
+  --hi:var(--orange);
+  --hi-ink:var(--orange-ink);
+  --text:var(--ink);
+  --text-secondary:var(--muted);
+  --text-tertiary:var(--dim);
+  --border:var(--line);
+  --surface:var(--wash);
+  --surface-2:var(--wash);
+  --bg:var(--paper);
+  --r:var(--radius);
 }
-.d1{font-size:clamp(38px,6.4vw,72px)}
-.d2{font-size:clamp(30px,4.2vw,50px)}
-.d3{font-size:clamp(23px,2.8vw,34px)}
-.d4{font-size:clamp(16px,1.4vw,19px)}
-
-/* Eskiden harfleri 0.22em aralanmış büyük harf etiketti ve sayfada
-   43 yerde geçiyordu. Her bölümün üstünde duran bu etiketler siteyi
-   yoruyordu; artık sessiz bir üst bilgi satırı. */
-.eyebrow{font-size:12.5px;font-weight:500;color:var(--muted);letter-spacing:0}
-.label{font-size:13.5px;font-weight:500;letter-spacing:0}
-.lede{font-size:clamp(16px,1.5vw,19px);line-height:1.65;color:var(--muted)}
-
-/* Rakamlar hizalı aksın: fiyat, ölçü, ürün kodu alt alta okunuyor. */
+.display{font-weight:750;letter-spacing:-1.4px;line-height:1.16}
+.d1{font-size:clamp(34px,5.2vw,54px);letter-spacing:-2.3px}
+.d2{font-size:clamp(28px,3.6vw,37px);letter-spacing:-1.5px}
+.d3{font-size:clamp(22px,2.6vw,28px);letter-spacing:-1.1px}
+.d4{font-size:16px;letter-spacing:-.35px}
+.eyebrow{font-size:11.5px;font-weight:600;color:var(--muted);letter-spacing:0}
+.label{font-size:12.5px;font-weight:600;letter-spacing:0}
+.lede{font-size:14.5px;line-height:1.8;color:var(--muted)}
 .rakam{font-variant-numeric:tabular-nums}
-
-/* ---------- imza: çapraz tehlike şeridi ----------
-   Sayfada tek bir yerde — en tepede, bariyerin kenarı gibi.
-   Önceden her bölüm arasında tekrarlanıyordu ve değerini yitirmişti. */
-.band{height:6px;background:repeating-linear-gradient(115deg,var(--ink) 0 14px,transparent 14px 28px)}
-.band-thin{height:2px;background:repeating-linear-gradient(115deg,var(--ink) 0 9px,transparent 9px 18px)}
 .rule{height:1px;background:var(--line)}
 .hair{height:1px;background:var(--hair)}
-
-/* ---------- butonlar ---------- */
-.btn{
-  display:inline-flex;align-items:center;justify-content:center;gap:8px;
-  font-family:inherit;font-weight:600;font-size:14.5px;letter-spacing:0;
-  padding:14px 24px;border:1.5px solid var(--ink);border-radius:var(--r);
-  cursor:pointer;text-decoration:none;
-  transition:background .15s ease,color .15s ease,border-color .15s ease;
-}
-.btn-solid{background:var(--ink);color:var(--paper)}
-.btn-solid:hover{background:var(--hi);border-color:var(--hi)}
-.btn-ghost{background:transparent;color:var(--ink)}
-.btn-ghost:hover{background:var(--ink);color:var(--paper)}
-.btn:disabled{opacity:.35;cursor:not-allowed}
-
-/* ---------- ürün karosu ----------
-   Kare ve çerçevesiz: ürün beyaz zemine tam oturuyor. */
-.tile{position:relative;aspect-ratio:1/1;background:var(--tile);overflow:hidden}
-.tile img{transition:transform .45s cubic-bezier(.2,.7,.2,1)}
-.card:hover .tile img{transform:scale(1.04)}
+.band{height:5px;background:repeating-linear-gradient(115deg,var(--ink) 0 14px,transparent 14px 28px)}
+.band-thin{height:1px;background:var(--line)}
+.btn-solid{background:var(--ink);color:#fff;border-color:var(--ink)}
+.btn-solid:hover{background:var(--orange);border-color:var(--orange)}
+.btn-ghost{background:#fff;color:var(--ink);border-color:var(--line)}
+.btn-ghost:hover{background:var(--wash);border-color:#BFC6C2}
+.tile{position:relative;aspect-ratio:1/1;background:var(--tile);overflow:hidden;border-radius:8px}
+.tile img{mix-blend-mode:multiply;transition:transform .3s}
+.card:hover .tile img{transform:scale(1.035)}
 .card .name{transition:color .15s}
-.card:hover .name{color:var(--hi-ink)}
-
-/* ---------- kategori karosu ---------- */
-.cat{position:relative;display:block;text-decoration:none;color:inherit}
-.cat .ph{position:relative;aspect-ratio:1/1;background:var(--tile);overflow:hidden}
-.cat .ph img{transition:transform .5s cubic-bezier(.2,.7,.2,1)}
-.cat:hover .ph img{transform:scale(1.05)}
+.card:hover .name{color:var(--orange-ink)}
+.cat{position:relative;display:block}
+.cat .ph{position:relative;aspect-ratio:1/1;background:#F6F7F5;overflow:hidden;border-radius:8px}
+.cat .ph img{mix-blend-mode:multiply;transition:transform .3s}
+.cat:hover .ph img{transform:scale(1.07)}
 .cat .bar{display:flex;align-items:baseline;justify-content:space-between;gap:8px;
   padding:10px 0 0;border-top:1px solid var(--line);margin-top:9px}
-.cat .bar .t{transition:color .15s;font-weight:600}
-.cat:hover .bar .t{color:var(--hi-ink)}
+.cat .bar .t{font-weight:700;transition:color .15s}
+.cat:hover .bar .t{color:var(--orange)}
+.grid-urun{display:grid;gap:19px;grid-template-columns:repeat(auto-fill,minmax(240px,1fr))}
+.grid-one{display:grid;gap:19px;grid-template-columns:repeat(5,minmax(0,1fr))}
+.grid-kat{display:grid;gap:15px;grid-template-columns:repeat(auto-fill,minmax(190px,1fr))}
+.line-clamp-2{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
 
-/* ---------- ızgaralar ----------
-   Kart genişliği bir dönem 132px idi: 1440 piksellik ekranda 7 sütun ve
-   148 piksellik kart çıkıyordu, ürün incelenemiyordu. 240px ile aynı
-   ekranda 4 sütun ve ~275 piksellik kart oluyor. */
-.grid-urun{display:grid;gap:40px 26px;grid-template-columns:repeat(auto-fill,minmax(240px,1fr))}
-.grid-one{display:grid;gap:40px 26px;grid-template-columns:repeat(5,1fr)}
-.grid-kat{display:grid;gap:32px 24px;grid-template-columns:repeat(auto-fill,minmax(200px,1fr))}
-
-@media(max-width:1100px){
-  .grid-one{grid-template-columns:repeat(4,1fr)}
+/* ---------- duyarlılık ---------- */
+@media(max-width:1180px){
+  .wrap{width:calc(100% - 48px)}
+  .product-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+  .category-grid{grid-template-columns:repeat(4,minmax(0,1fr))}
+  .grid-one{grid-template-columns:repeat(4,minmax(0,1fr))}
+  .footer-grid{grid-template-columns:1.4fr 1fr 1fr}
+}
+@media(max-width:980px){
+  .hero{grid-template-columns:1fr;min-height:0}
+  /* Başlık görselden önce: telefonda ilk görünen şey ne sattığımız olmalı.
+     flex-direction:column da şart — .hero-art satır yönlü olduğu için
+     position:static'e dönen fiyat kartı görselin yanına geçip taşıyordu. */
+  .hero-copy{padding:36px 28px 10px;order:1}
+  .hero-art{order:2;padding:10px 28px 34px;min-height:0;flex-direction:column}
+  .hero-product{height:300px}
+  .hero h1{font-size:clamp(34px,8vw,46px);letter-spacing:-1.8px}
+  .hero-measure,.hero-dot-grid,.hero-label{display:none}
+  .hero-feature{position:static;margin-top:20px;max-width:none}
+  .use-grid{grid-template-columns:repeat(2,1fr)}
+  .guide-grid{grid-template-columns:1fr;gap:0}
+  .guide-card{min-height:0;padding-bottom:20px}
+  .business-banner{grid-template-columns:1fr;padding:32px 26px}
+  .trust-row{grid-template-columns:repeat(2,1fr);gap:20px}
 }
 @media(max-width:860px){
-  .grid-urun{grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:32px 18px}
-  .grid-one{grid-template-columns:repeat(3,1fr);gap:32px 18px}
+  .menu-toggle{display:inline-grid}
+  .main-nav{display:none}
+  .product-grid,.grid-one{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .category-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+  .header-phone,.cart-trigger .cart-label{display:none}
+  /* Arama kendi satırına iniyor: tek satıra sıkışınca gönder oku sepet
+     rozetinin üstüne biniyordu. Ürün bulmanın ana yolu, küçültülmez. */
+  .header-main{height:auto;gap:13px;padding:13px 0;flex-wrap:wrap}
+  .header-main>a:first-of-type{margin-right:auto}
+  .search{order:1;flex:0 0 100%;height:42px}
+  .footer-grid{grid-template-columns:1fr 1fr;gap:28px}
 }
 @media(max-width:620px){
-  .grid-urun,.grid-kat,.grid-one{grid-template-columns:repeat(2,1fr);gap:28px 14px}
+  .wrap{width:calc(100% - 32px)}
+  .product-grid,.grid-one,.grid-urun{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+  .category-grid,.grid-kat{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+  .product-photo{height:150px;padding:14px 16px}
+  .product-info{padding:13px 12px 11px}
+  .product-bottom{flex-direction:column;align-items:stretch;gap:9px}
+  .add-button{width:100%}
+  .use-grid{grid-template-columns:1fr}
+  .section{padding:34px 0}
+  .section-heading h2{font-size:22px;letter-spacing:-.8px}
+  h2{font-size:24px;letter-spacing:-.8px}
+  .topline .wrap{gap:16px;font-size:10px;flex-wrap:nowrap}
+  .topline span:last-child{display:none}
+  .footer-grid{grid-template-columns:1fr}
 }
-
-.line-clamp-2{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
-:focus-visible{outline:2.5px solid var(--hi);outline-offset:3px;border-radius:2px}
-@media (prefers-reduced-motion:reduce){*{animation-duration:.01ms!important;transition-duration:.01ms!important}}

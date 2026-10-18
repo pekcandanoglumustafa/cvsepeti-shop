@@ -27,7 +27,7 @@ export default async function AraPage({ searchParams }: { searchParams: Promise<
     : [];
 
   return (
-    <main style={{ maxWidth: 1520, margin: "0 auto", padding: "44px 24px 80px" }}>
+    <main className="wrap" style={{ padding: "44px 0 80px" }}>
       <h1 className="display d3">{query ? `"${query}"` : "Ürün ara"}</h1>
 
       <div style={{ marginTop: 20 }}>

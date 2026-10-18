@@ -37,7 +37,7 @@ export default async function Kategori({ params }: { params: Promise<{ slug: str
   const icerik = KATEGORI_ICERIK[cat];
 
   return (
-    <main style={{ maxWidth: 1520, margin: "0 auto", padding: "40px 24px" }}>
+    <main className="wrap" style={{ padding: "40px 0" }}>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd([
         ["Ana sayfa", "/"], ["Katalog", "/urunler"], [cat, `/kategori/${slug}`],
       ])) }} />

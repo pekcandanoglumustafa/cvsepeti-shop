@@ -1,70 +1,63 @@
 import Link from "next/link";
 import Logo from "@/components/Logo";
+import { MapPin } from "lucide-react";
 import { categories, categorySlug, allProducts } from "@/lib/products";
+import { FIRMA } from "@/lib/firma";
+
+const KATALOG = ["Trafik Konisi", "Delinatör", "Hız Kesici Kasis", "Araç Stoperi", "Güvenlik Bariyeri", "Uyarı Levhası"];
 
 export default function Footer() {
+  const kat = KATALOG.filter((c) => categories.includes(c));
+
   return (
-    <footer style={{ marginTop: 96 }}>
-      <div className="band" />
-      <div style={{ background: "var(--ink)", color: "var(--paper)" }}>
-        <div style={{ maxWidth: 1360, margin: "0 auto", padding: "56px 20px 32px" }}>
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit,minmax(190px,1fr))", gap: 40 }}>
-            <div>
-              <div style={{ marginBottom: 14 }}><Logo color="#fff" /></div>
-              <p style={{ fontSize: 13, color: "#9C9C99", lineHeight: 1.6, maxWidth: 260 }}>
-                Trafik güvenliği, yol işaretleme ve iş güvenliği ekipmanları. Konya Teknokent.
-              </p>
-            </div>
-            <div>
-              <p className="eyebrow" style={{ color: "var(--hi)", marginBottom: 14 }}>Katalog</p>
-              <div style={{ display: "flex", flexDirection: "column", gap: 9 }}>
-                {categories.slice(0, 9).map((c) => (
-                  <Link key={c} href={`/kategori/${categorySlug(c)}`} prefetch={false}
-                        style={{ fontSize: 13, color: "#C9C9C6", textDecoration: "none" }}>{c}</Link>
-                ))}
-              </div>
-            </div>
-            <div>
-              <p className="eyebrow" style={{ color: "var(--hi)", marginBottom: 14 }}>Sipariş</p>
-              <div style={{ display: "flex", flexDirection: "column", gap: 9 }}>
-                <Link href="/urunler" style={{ fontSize: 13, color: "#C9C9C6", textDecoration: "none" }}>
-                  Tüm Ürünler ({allProducts.length})
-                </Link>
-                <Link href="/sepet" style={{ fontSize: 13, color: "#C9C9C6", textDecoration: "none" }}>Sepet</Link>
-                <Link href="/blog" style={{ fontSize: 13, color: "#C9C9C6", textDecoration: "none" }}>Rehberler</Link>
-                <a href="tel:05076584245" style={{ fontSize: 13, color: "#C9C9C6", textDecoration: "none" }}>0 507 658 42 45</a>
-                <a href="https://wa.me/905076584245" style={{ fontSize: 13, color: "#7E7E7B", textDecoration: "none" }}>WhatsApp (teknik soru)</a>
-              </div>
-            </div>
-            <div>
-              <p className="eyebrow" style={{ color: "var(--hi)", marginBottom: 14 }}>Kurumsal</p>
-              <div style={{ display: "flex", flexDirection: "column", gap: 9 }}>
-                {([
-                  ["Hakkımızda", "/hakkimizda"],
-                  ["İletişim", "/iletisim"],
-                  ["Teslimat ve İade", "/teslimat-ve-iade"],
-                  ["Mesafeli Satış Sözleşmesi", "/mesafeli-satis-sozlesmesi"],
-                  ["Gizlilik ve KVKK", "/gizlilik-ve-kvkk"],
-                ] as [string, string][]).map(([ad, yol]) => (
-                  <Link key={yol} href={yol}
-                        style={{ fontSize: 13, color: "#C9C9C6", textDecoration: "none" }}>{ad}</Link>
-                ))}
-              </div>
-            </div>
-            <div>
-              <p className="eyebrow" style={{ color: "var(--hi)", marginBottom: 14 }}>Kargo</p>
-              <p style={{ fontSize: 13, color: "#9C9C99", lineHeight: 1.7 }}>
-                Yurtiçi Kargo ile gönderim.<br />Kargo ücreti desi üzerinden ödeme adımında hesaplanır.
-              </p>
-            </div>
+    <footer className="footer">
+      <div className="wrap">
+        <div className="footer-grid">
+          <div>
+            <Link href="/" aria-label="Trafik Ürünleri ana sayfa"><Logo /></Link>
+            <p className="footer-description">
+              Trafik güvenliği, yol işaretleme ve iş güvenliği ekipmanları.
+              Kamu kurumlarına ve özel sektöre satış.
+            </p>
+            <p className="footer-location">
+              <MapPin className="icon" size={13} strokeWidth={2.2} aria-hidden />
+              {FIRMA.konum}
+            </p>
           </div>
-          <div style={{ marginTop: 44, paddingTop: 22, borderTop: "1px solid #1F1F1F",
-                        display: "flex", flexWrap: "wrap", gap: 14, justifyContent: "space-between" }}>
-            <p style={{ fontSize: 12, color: "#6B6B68" }}>© 2026 trafikurunleri.com · Pekcandanoğlu</p>
-            {/* Fiyatlar tek rakama, KDV dahile çevrildi — bu satır hâlâ
-                "KDV hariçtir" diyordu ve kataloğu yalanlıyordu. */}
-            <p style={{ fontSize: 12.5, color: "#6B6B68" }}>Fiyatlar KDV dahildir. Kargo ödeme adımında hesaplanır.</p>
+
+          <div>
+            <h3>Ürünleri keşfedin</h3>
+            {kat.map((c) => (
+              <Link key={c} href={`/kategori/${categorySlug(c)}`} prefetch={false}>{c}</Link>
+            ))}
+            <Link href="/urunler" prefetch={false}>Tüm ürünler ({allProducts.length})</Link>
           </div>
+
+          <div>
+            <h3>Size yardımcı olalım</h3>
+            <Link href="/blog" prefetch={false}>Ürün seçim rehberi</Link>
+            <Link href="/iletisim" prefetch={false}>Kurumsal &amp; toplu alım</Link>
+            <Link href="/teslimat-ve-iade" prefetch={false}>Kargo ve teslimat</Link>
+            <Link href="/sepet" prefetch={false}>Sepetim</Link>
+            <a href={FIRMA.telefonHref}>{FIRMA.telefon}</a>
+            <a href={FIRMA.whatsapp} rel="noopener">WhatsApp (teknik soru)</a>
+          </div>
+
+          <div>
+            <h3>Kurumsal</h3>
+            <Link href="/hakkimizda" prefetch={false}>Hakkımızda</Link>
+            <Link href="/iletisim" prefetch={false}>İletişim</Link>
+            <Link href="/teslimat-ve-iade" prefetch={false}>Teslimat ve İade</Link>
+            <Link href="/mesafeli-satis-sozlesmesi" prefetch={false}>Mesafeli Satış Sözleşmesi</Link>
+            <Link href="/gizlilik-ve-kvkk" prefetch={false}>Gizlilik ve KVKK</Link>
+          </div>
+        </div>
+
+        <div className="footer-bottom">
+          <span>© {new Date().getFullYear()} trafikurunleri.com · {FIRMA.unvan}</span>
+          {/* Fiyatlar KDV dahile çevrildi; bu satır bir dönem "KDV hariçtir"
+              diyerek kataloğu yalanlıyordu. */}
+          <span>Fiyatlar KDV dahildir. Kargo ödeme adımında hesaplanır.</span>
         </div>
       </div>
     </footer>
