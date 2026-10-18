@@ -50,7 +50,7 @@ export default function AdetSecici({
         onKeyDown={(e) => { if (e.key === "Enter") (e.target as HTMLInputElement).blur(); }}
         inputMode="numeric"
         aria-label={etiket}
-        style={{ width: kucuk ? 38 : 52, textAlign: "center", fontWeight: 800,
+        style={{ width: kucuk ? 38 : 52, textAlign: "center", fontWeight: 700,
                  fontSize: kucuk ? 13 : 15, fontFamily: "inherit",
                  border: "none", outline: "none", background: "transparent",
                  padding: kucuk ? "7px 0" : "12px 0", color: "var(--ink)" }}

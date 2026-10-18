@@ -52,7 +52,7 @@ export default function KargoBilgi({ product }: { product: Product }) {
                        background: kargoOdeme === k ? "var(--tile)" : "#fff" }}>
               <Icon size={15} style={{ flexShrink: 0, marginTop: 2 }} />
               <span style={{ flex: 1 }}>
-                <span style={{ display: "block", fontSize: 12.5, fontWeight: 800 }}>{b}</span>
+                <span style={{ display: "block", fontSize: 12.5, fontWeight: 700 }}>{b}</span>
                 <span style={{ display: "block", fontSize: 11.5, color: "var(--muted)", marginTop: 2, lineHeight: 1.5 }}>{a}</span>
               </span>
               {kargoOdeme === k && <Check size={15} strokeWidth={3} />}

@@ -47,7 +47,7 @@ export default function Header() {
               <ShoppingBag size={20} strokeWidth={2.4} />
               {mounted && count > 0 && (
                 <span style={{ position: "absolute", top: -7, right: -9, background: "var(--hi)", color: "#fff",
-                               fontSize: 10, fontWeight: 800, minWidth: 17, height: 17, borderRadius: 9,
+                               fontSize: 10, fontWeight: 700, minWidth: 17, height: 17, borderRadius: 9,
                                display: "flex", alignItems: "center", justifyContent: "center", padding: "0 4px" }}>
                   {count}
                 </span>

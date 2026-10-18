@@ -61,7 +61,9 @@ export default function Footer() {
           <div style={{ marginTop: 44, paddingTop: 22, borderTop: "1px solid #1F1F1F",
                         display: "flex", flexWrap: "wrap", gap: 14, justifyContent: "space-between" }}>
             <p style={{ fontSize: 12, color: "#6B6B68" }}>© 2026 trafikurunleri.com · Pekcandanoğlu</p>
-            <p style={{ fontSize: 12, color: "#6B6B68" }}>Fiyatlar KDV hariçtir · KDV %20 · iyzico ile güvenli ödeme</p>
+            {/* Fiyatlar tek rakama, KDV dahile çevrildi — bu satır hâlâ
+                "KDV hariçtir" diyordu ve kataloğu yalanlıyordu. */}
+            <p style={{ fontSize: 12.5, color: "#6B6B68" }}>Fiyatlar KDV dahildir. Kargo ödeme adımında hesaplanır.</p>
           </div>
         </div>
       </div>

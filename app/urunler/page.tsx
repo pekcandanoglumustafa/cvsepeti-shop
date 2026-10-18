@@ -33,7 +33,7 @@ export default function Urunler() {
         {sayilar.map(({ c, n }) => <CategoryCard key={c} kategori={c} adet={n} gorsel={KAPAK[c]?.img} />)}
       </div>
 
-      <div className="band" style={{ marginBottom: 40 }} />
+      <div className="rule" style={{ marginBottom: 40 }} />
       <ProductFilters urunler={kartUrunler(allProducts)} baslik="Tüm ürünler" />
     </main>
   );

@@ -118,7 +118,7 @@ export default function CartDrawer() {
                                 stok={i.stock || 9999} boyut="kucuk"
                                 etiket={`${i.name} adedi`} />
 
-                    <span style={{ fontSize: 13.5, fontWeight: 900, letterSpacing: "-.02em" }}>
+                    <span style={{ fontSize: 13.5, fontWeight: 700, letterSpacing: "-.02em" }}>
                       {formatTL(i.price * i.qty)}
                       <span style={{ fontSize: 9, fontWeight: 700, color: "var(--muted)", marginLeft: 3 }}>+KDV</span>
                     </span>
@@ -151,7 +151,7 @@ export default function CartDrawer() {
                     style={{ padding: "9px 8px", cursor: "pointer", textAlign: "left",
                              border: kargoOdeme === k ? "2px solid var(--ink)" : "1px solid var(--hair)",
                              background: kargoOdeme === k ? "var(--tile)" : "#fff" }}>
-                    <span style={{ display: "block", fontSize: 11.5, fontWeight: 800 }}>{b}</span>
+                    <span style={{ display: "block", fontSize: 11.5, fontWeight: 700 }}>{b}</span>
                     <span style={{ display: "block", fontSize: 10.5, color: "var(--muted)", marginTop: 2 }}>{a}</span>
                   </button>
                 ))}

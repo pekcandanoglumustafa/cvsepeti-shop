@@ -26,7 +26,7 @@ function Result() {
         ) : (
           <XCircle size={64} color="#dc2626" style={{ margin: "0 auto" }} />
         )}
-        <h1 style={{ fontSize: 26, fontWeight: 800, marginTop: 20, marginBottom: 10 }}>
+        <h1 style={{ fontSize: 26, fontWeight: 700, marginTop: 20, marginBottom: 10 }}>
           {ok ? "Siparişiniz Alındı 🎉" : "Ödeme Tamamlanamadı"}
         </h1>
         {ok ? (

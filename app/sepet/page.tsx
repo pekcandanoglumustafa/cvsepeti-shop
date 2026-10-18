@@ -46,7 +46,7 @@ export default function Sepet() {
                               stok={i.stock || 9999} boyut="kucuk"
                               etiket={`${i.name} adedi`} />
                   <span style={{ display: "flex", flexDirection: "column" }}>
-                    <span style={{ fontWeight: 900 }}>{formatTL((i.price_kdv ?? i.price * 1.2) * i.qty)}</span>
+                    <span style={{ fontWeight: 700 }}>{formatTL((i.price_kdv ?? i.price * 1.2) * i.qty)}</span>
                   </span>
                   <button onClick={() => remove(i.slug)} aria-label="kaldır"
                           style={{ marginLeft: "auto", background: "none", border: "none", cursor: "pointer", color: "var(--muted)", display: "flex" }}>
@@ -74,13 +74,13 @@ export default function Sepet() {
                   style={{ padding: "12px 13px", cursor: "pointer", textAlign: "left",
                            border: kargoOdeme === k ? "2px solid var(--ink)" : "1px solid var(--hair)",
                            background: kargoOdeme === k ? "var(--tile)" : "#fff" }}>
-                  <span style={{ display: "block", fontSize: 13, fontWeight: 800 }}>{b}</span>
+                  <span style={{ display: "block", fontSize: 13, fontWeight: 700 }}>{b}</span>
                   <span style={{ display: "block", fontSize: 11.5, color: "var(--muted)", marginTop: 3, lineHeight: 1.5 }}>{a}</span>
                 </button>
               ))}
             </div>
           )}
-          <div className="band-thin" style={{ margin: "14px 0" }} />
+          <div className="hair" style={{ margin: "14px 0" }} />
           <div style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline" }}>
             <span className="label">Toplam</span>
             <span className="display" style={{ fontSize: 26, color: "var(--hi)" }}>{formatTL(genelToplam())}</span>

@@ -55,11 +55,11 @@ export default async function Kategori({ params }: { params: Promise<{ slug: str
 
       {icerik && (
         <section style={{ maxWidth: 760, margin: "76px 0 0" }}>
-          <div className="band" style={{ marginBottom: 34 }} />
+          <div className="rule" style={{ marginBottom: 34 }} />
           <h2 className="display d3" style={{ marginBottom: 8 }}>{cat} seçim rehberi</h2>
           {icerik.bolumler.map((b) => (
             <div key={b.baslik} style={{ marginTop: 30 }}>
-              <h3 style={{ fontSize: 17, fontWeight: 800, letterSpacing: "-.01em", marginBottom: 9 }}>{b.baslik}</h3>
+              <h3 style={{ fontSize: 17, fontWeight: 700, letterSpacing: "-.01em", marginBottom: 9 }}>{b.baslik}</h3>
               <p style={{ fontSize: 15, lineHeight: 1.8, color: "var(--muted)", margin: 0 }}>{b.metin}</p>
             </div>
           ))}

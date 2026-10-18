@@ -159,7 +159,7 @@ export default function Odeme() {
           <strong style={{ color: "var(--hi)" }}>{formatPrice(toplam)}</strong>
           {kargoOdeme === "karsi" && desi > 0 && " · Kargo kuryeye ödenecek"}
         </p>
-        <div className="band-thin" style={{ marginBottom: 22 }} />
+        <div className="hair" style={{ marginBottom: 22 }} />
 
         <div style={{ border: "2px solid var(--ink)", padding: 16, minHeight: 420 }}>
           <div id="iyzipay-checkout-form" className="responsive" />
@@ -318,12 +318,12 @@ export default function Odeme() {
                   <div style={{ width: 52, height: 52, background: "var(--tile)", position: "relative", flexShrink: 0 }}>
                     {i.image && <Image src={kartGorseli(i.image)} alt="" fill unoptimized style={{ objectFit: "contain", padding: 5 }} />}
                     <span style={{ position: "absolute", top: -7, right: -7, background: "var(--ink)", color: "#fff",
-                                   width: 19, height: 19, borderRadius: 10, fontSize: 11, fontWeight: 800,
+                                   width: 19, height: 19, borderRadius: 10, fontSize: 11, fontWeight: 700,
                                    display: "grid", placeItems: "center" }}>{i.qty}</span>
                   </div>
                   <div style={{ flex: 1, minWidth: 0 }}>
                     <p style={{ fontSize: 12.5, fontWeight: 600, lineHeight: 1.35 }} className="line-clamp-2">{i.name}</p>
-                    <p style={{ fontSize: 12.5, fontWeight: 800, marginTop: 3 }}>
+                    <p style={{ fontSize: 12.5, fontWeight: 700, marginTop: 3 }}>
                       {formatPrice((i.price_kdv ?? i.price * 1.2) * i.qty)}
                     </p>
                   </div>
@@ -338,7 +338,7 @@ export default function Odeme() {
             <Satir k={desi > 0 ? `Kargo · ${desi} desi` : "Kargo"}
                    v={kargoOdeme === "karsi" ? "Kuryeye ödenecek" : (desi > 0 ? formatPrice(kargoTutar) : "Ücretsiz")}
                    vurgu={kargoOdeme === "karsi"} />
-            <div className="band-thin" style={{ margin: "13px 0" }} />
+            <div className="hair" style={{ margin: "13px 0" }} />
             <div style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline" }}>
               <span className="label">Şimdi ödenecek</span>
               <span className="display" style={{ fontSize: 27, color: "var(--hi)" }}>{formatPrice(toplam)}</span>
@@ -375,7 +375,7 @@ function Bolum({ no, baslik, children }: { no: string; baslik: string; children:
     <section>
       <div style={{ display: "flex", alignItems: "center", gap: 11, marginBottom: 16 }}>
         <span style={{ width: 26, height: 26, background: "var(--ink)", color: "#fff", fontSize: 12,
-                       fontWeight: 900, display: "grid", placeItems: "center", flexShrink: 0 }}>{no}</span>
+                       fontWeight: 700, display: "grid", placeItems: "center", flexShrink: 0 }}>{no}</span>
         <h2 className="display" style={{ fontSize: 19 }}>{baslik}</h2>
       </div>
       {children}
@@ -394,7 +394,7 @@ function Secim({ aktif, onClick, ikon, baslik, alt, genis }: {
                width: "100%", transition: "border-color .15s, background .15s" }}>
       <span style={{ marginTop: 1, color: aktif ? "var(--ink)" : "var(--muted)" }}>{ikon}</span>
       <span style={{ flex: 1 }}>
-        <span style={{ display: "block", fontWeight: 800, fontSize: 14 }}>{baslik}</span>
+        <span style={{ display: "block", fontWeight: 700, fontSize: 14 }}>{baslik}</span>
         <span style={{ display: "block", fontSize: 12.5, color: "var(--muted)", marginTop: 3, lineHeight: 1.5 }}>{alt}</span>
       </span>
       {aktif && <Check size={17} strokeWidth={3} />}

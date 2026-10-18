@@ -1,6 +1,5 @@
 import Link from "next/link";
 import Image from "next/image";
-import { ArrowRight } from "lucide-react";
 
 /**
  * Ana sayfa banner'ı.
@@ -23,7 +22,7 @@ export default function Banner({ urunSayisi }: { urunSayisi: number }) {
           </p>
           <div style={{ display: "flex", gap: 10, flexWrap: "wrap", marginTop: 28 }}>
             <Link href="/urunler" className="btn btn-solid" style={{ padding: "16px 26px" }}>
-              Katalogu aç <ArrowRight size={16} />
+              Katalogu aç
             </Link>
             <Link href="/iletisim" className="btn btn-ghost" style={{ padding: "16px 26px" }}>
               Teklif iste

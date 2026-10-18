@@ -1,92 +1,198 @@
 @import "tailwindcss";
 
+/* ============================================================
+   YAZI KARAKTERİ — Barlow, siteye gömülü
+
+   Dosyalar public/fonts/ altında duruyor; Google Fonts'a hiç istek
+   gitmiyor. Bu hem daha hızlı (üçüncü taraf bağlantısı, DNS ve TLS
+   el sıkışması yok) hem KVKK açısından temiz (ziyaretçinin IP'si
+   Google'a gitmiyor).
+
+   İki alt küme ayrı yükleniyor: Türkçe'nin ğ, ş ve İ harfleri
+   Latin Extended-A bloğunda (U+0100–U+017F), temel harfler ise
+   latin bloğunda. unicode-range olmadan tarayıcı yanlış dosyayı
+   seçer ve Türkçe harfler sistem fontuna düşer.
+   ============================================================ */
+
+@font-face{font-family:Barlow;font-style:normal;font-weight:400;font-display:swap;
+  src:url(/fonts/barlow-latin-ext-400.woff2) format("woff2");
+  unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:Barlow;font-style:normal;font-weight:400;font-display:swap;
+  src:url(/fonts/barlow-latin-400.woff2) format("woff2");
+  unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+
+@font-face{font-family:Barlow;font-style:normal;font-weight:500;font-display:swap;
+  src:url(/fonts/barlow-latin-ext-500.woff2) format("woff2");
+  unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:Barlow;font-style:normal;font-weight:500;font-display:swap;
+  src:url(/fonts/barlow-latin-500.woff2) format("woff2");
+  unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+
+@font-face{font-family:Barlow;font-style:normal;font-weight:600;font-display:swap;
+  src:url(/fonts/barlow-latin-ext-600.woff2) format("woff2");
+  unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:Barlow;font-style:normal;font-weight:600;font-display:swap;
+  src:url(/fonts/barlow-latin-600.woff2) format("woff2");
+  unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+
+@font-face{font-family:Barlow;font-style:normal;font-weight:700;font-display:swap;
+  src:url(/fonts/barlow-latin-ext-700.woff2) format("woff2");
+  unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:Barlow;font-style:normal;font-weight:700;font-display:swap;
+  src:url(/fonts/barlow-latin-700.woff2) format("woff2");
+  unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+
+/* Başlıklar — sıkıştırılmış genişlik, tabela harflerinin oranı */
+@font-face{font-family:"Barlow SC";font-style:normal;font-weight:600;font-display:swap;
+  src:url(/fonts/barlow-sc-latin-ext-600.woff2) format("woff2");
+  unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:"Barlow SC";font-style:normal;font-weight:600;font-display:swap;
+  src:url(/fonts/barlow-sc-latin-600.woff2) format("woff2");
+  unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+
+@font-face{font-family:"Barlow SC";font-style:normal;font-weight:700;font-display:swap;
+  src:url(/fonts/barlow-sc-latin-ext-700.woff2) format("woff2");
+  unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:"Barlow SC";font-style:normal;font-weight:700;font-display:swap;
+  src:url(/fonts/barlow-sc-latin-700.woff2) format("woff2");
+  unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+
+/* ============================================================
+   TASARIM SİSTEMİ
+
+   Yön: ürünün kendi dünyasından. Trafik ekipmanı tedarikçisi bir
+   moda markası gibi bağırmamalı; net, ölçülü ve güvenilir olmalı.
+   Alıcı çoğu zaman elinde şartnameyle gelen bir satın alma yetkilisi.
+
+   Eski sistemin üç sorunu vardı:
+   1) Başlıklar 900 ağırlık + hepsi büyük harf + 0.84 satır yüksekliği
+      ile yazılıyordu. Bu bir giyim markası dili.
+   2) Hiçbir font yüklenmiyordu. font-family "Helvetica Neue" diyordu
+      ama ne next/font ne @font-face vardı — Helvetica Neue yalnızca
+      macOS'ta bulunur, dolayısıyla Windows ve Android'deki ziyaretçi
+      siteyi Arial ile görüyordu. Tasarlanan şey hiç görünmemişti.
+   3) Saf #000 metin ekranda sert durur ve uzun okumayı yorar.
+   ============================================================ */
+
 :root{
-  /* saf siyah-beyaz — krem yok */
-  --ink:#000000;
+  /* --- renk ---
+     Ürün fotoğrafları beyaz zeminde çekildiği için karo beyaz kalıyor:
+     ürün zemine tam oturuyor, çerçevesi görünmüyor. */
+  --ink:#16191C;        /* metin — hafif soğuk koyu, mühendislik çizimi tonu */
   --paper:#FFFFFF;
-  --tile:#FFFFFF;          /* ürün karosu = kağıtla aynı, ürün tam oturur */
-  --rule:#000000;
-  --hair:#E5E5E5;          /* ince ayraç */
-  --line:#CFCFCF;          /* yapısal çerçeve: form alanı, tablo satırı, menü alt çizgisi.
-                              Tanımsızdı — onu kullanan 8 yerde çerçeve hiç çizilmiyordu,
-                              ödeme formu alanlarının "silik" görünmesinin sebebi buydu. */
-  --muted:#767676;
-  --dim:#A3A3A3;
-  --hi:#FF3B00;            /* tek vurgu */
+  --tile:#FFFFFF;
+  --surface:#F4F5F7;    /* bölüm zemini */
+  --line:#D4D9DE;       /* form alanı, tablo satırı, menü alt çizgisi */
+  --hair:#E8EBEE;       /* ince ayraç */
+  --muted:#59616A;
+  --dim:#8A929B;
+  --hi:#EE4B10;         /* güvenlik turuncusu — koninin kendi rengi */
+  --hi-ink:#C03709;     /* küçük metinde okunur kontrast için koyu varyant */
+
+  /* Trafik levhalarının köşeleri yuvarlaktır — yarıçap oradan geliyor,
+     süs değil. Ürün karoları hariç her yerde aynı değer. */
+  --r:4px;
 }
 
 *{box-sizing:border-box;margin:0;padding:0}
 html{-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+
 body{
-  background:var(--paper); color:var(--ink);
-  font-family:"Helvetica Neue",Helvetica,Arial,system-ui,sans-serif;
-  font-size:16px; line-height:1.45; letter-spacing:-0.006em;
+  background:var(--paper);
+  color:var(--ink);
+  /* next/font ile yüklenen Barlow. Kaliforniya otoyol ve kamu
+     tabelalarından çizilmiş bir aile — bu katalog için sektörün
+     kendi tipografisi. Uçları Helvetica'dan yumuşak, Türkçe
+     karakterleri tam, tabular rakamları gerçek. */
+  font-family:Barlow,system-ui,-apple-system,"Segoe UI",sans-serif;
+  font-size:16px;
+  line-height:1.55;
+  font-feature-settings:"kern" 1;
 }
 
-/* ---------- tipografi ---------- */
-.display{font-weight:900;text-transform:uppercase;letter-spacing:-0.045em;line-height:0.84}
-.d1{font-size:clamp(56px,12vw,190px)}
-.d2{font-size:clamp(38px,7vw,92px)}
-.d3{font-size:clamp(26px,3.6vw,44px)}
-.d4{font-size:clamp(13px,1.5vw,17px)}
-.eyebrow{font-size:10.5px;font-weight:800;text-transform:uppercase;letter-spacing:0.22em}
-.label{font-size:11.5px;font-weight:700;text-transform:uppercase;letter-spacing:0.11em}
-.lede{font-size:clamp(16px,1.6vw,20px);line-height:1.55;color:var(--muted)}
+/* ---------- tipografi ----------
+   Büyük harf kaldırıldı. Başlık sıkıştırılmış genişlikten (Semi Condensed)
+   karakter alıyor; ağırlık ve harf aralığından değil. */
+.display{
+  font-family:"Barlow SC",Barlow,system-ui,sans-serif;
+  font-weight:600;
+  letter-spacing:-0.015em;
+  line-height:1.06;
+}
+.d1{font-size:clamp(38px,6.4vw,72px)}
+.d2{font-size:clamp(30px,4.2vw,50px)}
+.d3{font-size:clamp(23px,2.8vw,34px)}
+.d4{font-size:clamp(16px,1.4vw,19px)}
 
-/* ---------- imza: retroreflektif şerit ---------- */
-.band{height:8px;background:repeating-linear-gradient(115deg,var(--ink) 0 16px,transparent 16px 32px)}
+/* Eskiden harfleri 0.22em aralanmış büyük harf etiketti ve sayfada
+   43 yerde geçiyordu. Her bölümün üstünde duran bu etiketler siteyi
+   yoruyordu; artık sessiz bir üst bilgi satırı. */
+.eyebrow{font-size:12.5px;font-weight:500;color:var(--muted);letter-spacing:0}
+.label{font-size:13.5px;font-weight:500;letter-spacing:0}
+.lede{font-size:clamp(16px,1.5vw,19px);line-height:1.65;color:var(--muted)}
+
+/* Rakamlar hizalı aksın: fiyat, ölçü, ürün kodu alt alta okunuyor. */
+.rakam{font-variant-numeric:tabular-nums}
+
+/* ---------- imza: çapraz tehlike şeridi ----------
+   Sayfada tek bir yerde — en tepede, bariyerin kenarı gibi.
+   Önceden her bölüm arasında tekrarlanıyordu ve değerini yitirmişti. */
+.band{height:6px;background:repeating-linear-gradient(115deg,var(--ink) 0 14px,transparent 14px 28px)}
 .band-thin{height:2px;background:repeating-linear-gradient(115deg,var(--ink) 0 9px,transparent 9px 18px)}
-.rule{height:2px;background:var(--ink)}
+.rule{height:1px;background:var(--line)}
 .hair{height:1px;background:var(--hair)}
 
 /* ---------- butonlar ---------- */
-.btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;
-  font-weight:800;text-transform:uppercase;letter-spacing:0.09em;font-size:12px;
-  padding:19px 34px;border:2px solid var(--ink);cursor:pointer;text-decoration:none;
-  transition:background .16s ease,color .16s ease}
+.btn{
+  display:inline-flex;align-items:center;justify-content:center;gap:8px;
+  font-family:inherit;font-weight:600;font-size:14.5px;letter-spacing:0;
+  padding:14px 24px;border:1.5px solid var(--ink);border-radius:var(--r);
+  cursor:pointer;text-decoration:none;
+  transition:background .15s ease,color .15s ease,border-color .15s ease;
+}
 .btn-solid{background:var(--ink);color:var(--paper)}
 .btn-solid:hover{background:var(--hi);border-color:var(--hi)}
 .btn-ghost{background:transparent;color:var(--ink)}
 .btn-ghost:hover{background:var(--ink);color:var(--paper)}
-.btn:disabled{opacity:.3;cursor:not-allowed}
+.btn:disabled{opacity:.35;cursor:not-allowed}
 
-/* ---------- ürün karosu ---------- */
+/* ---------- ürün karosu ----------
+   Kare ve çerçevesiz: ürün beyaz zemine tam oturuyor. */
 .tile{position:relative;aspect-ratio:1/1;background:var(--tile);overflow:hidden}
-.tile img{transition:transform .5s cubic-bezier(.2,.7,.2,1)}
-.card:hover .tile img{transform:scale(1.05)}
-.card .name{transition:color .16s}
-.card:hover .name{color:var(--hi)}
+.tile img{transition:transform .45s cubic-bezier(.2,.7,.2,1)}
+.card:hover .tile img{transform:scale(1.04)}
+.card .name{transition:color .15s}
+.card:hover .name{color:var(--hi-ink)}
 
 /* ---------- kategori karosu ---------- */
-.cat{position:relative;display:block;text-decoration:none;color:inherit;overflow:hidden}
+.cat{position:relative;display:block;text-decoration:none;color:inherit}
 .cat .ph{position:relative;aspect-ratio:1/1;background:var(--tile);overflow:hidden}
-.cat .ph img{transition:transform .6s cubic-bezier(.2,.7,.2,1)}
-.cat:hover .ph img{transform:scale(1.07)}
+.cat .ph img{transition:transform .5s cubic-bezier(.2,.7,.2,1)}
+.cat:hover .ph img{transform:scale(1.05)}
 .cat .bar{display:flex;align-items:baseline;justify-content:space-between;gap:8px;
-  padding:9px 0 0;border-top:2px solid var(--ink);margin-top:7px}
-.cat:hover .bar .t{color:var(--hi)}
-.cat .bar .t{transition:color .16s}
+  padding:10px 0 0;border-top:1px solid var(--line);margin-top:9px}
+.cat .bar .t{transition:color .15s;font-weight:600}
+.cat:hover .bar .t{color:var(--hi-ink)}
 
 /* ---------- ızgaralar ----------
-   Kart genişliği 132px idi: 1440 piksellik ekranda 7 sütun, 148 piksellik kart.
-   Yan yana yedi neredeyse aynı turuncu koni — müşteri ürünü inceleyemiyor,
-   isim sığmıyor, kod kesiliyor. Bu sayfanın tek işi karşılaştırma yapmak.
-   240px ile aynı ekranda 4 sütun ve ~275 piksellik kart oluyor. */
-.grid-urun{display:grid;gap:36px 24px;grid-template-columns:repeat(auto-fill,minmax(240px,1fr))}
-.grid-one{display:grid;gap:36px 24px;grid-template-columns:repeat(5,1fr)}
-.grid-kat{display:grid;gap:30px 22px;grid-template-columns:repeat(auto-fill,minmax(200px,1fr))}
+   Kart genişliği bir dönem 132px idi: 1440 piksellik ekranda 7 sütun ve
+   148 piksellik kart çıkıyordu, ürün incelenemiyordu. 240px ile aynı
+   ekranda 4 sütun ve ~275 piksellik kart oluyor. */
+.grid-urun{display:grid;gap:40px 26px;grid-template-columns:repeat(auto-fill,minmax(240px,1fr))}
+.grid-one{display:grid;gap:40px 26px;grid-template-columns:repeat(5,1fr)}
+.grid-kat{display:grid;gap:32px 24px;grid-template-columns:repeat(auto-fill,minmax(200px,1fr))}
 
 @media(max-width:1100px){
   .grid-one{grid-template-columns:repeat(4,1fr)}
 }
 @media(max-width:860px){
-  .grid-urun{grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:30px 18px}
-  .grid-one{grid-template-columns:repeat(3,1fr);gap:30px 18px}
+  .grid-urun{grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:32px 18px}
+  .grid-one{grid-template-columns:repeat(3,1fr);gap:32px 18px}
 }
 @media(max-width:620px){
-  .grid-urun,.grid-kat,.grid-one{grid-template-columns:repeat(2,1fr);gap:26px 14px}
+  .grid-urun,.grid-kat,.grid-one{grid-template-columns:repeat(2,1fr);gap:28px 14px}
 }
 
 .line-clamp-2{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
-:focus-visible{outline:3px solid var(--hi);outline-offset:3px}
+:focus-visible{outline:2.5px solid var(--hi);outline-offset:3px;border-radius:2px}
 @media (prefers-reduced-motion:reduce){*{animation-duration:.01ms!important;transition-duration:.01ms!important}}

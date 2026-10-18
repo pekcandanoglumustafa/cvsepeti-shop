@@ -80,8 +80,9 @@ export default function Referanslar() {
 
   return (
     <section className="rf" aria-label="Tedarik ettiğimiz kurumlar">
+      {/* Başlık burada da yazıyordu; sayfa zaten üstünde "Teslim ettiğimiz
+          kurumlar" h2'sini basıyor, ikisi üst üste geliyordu. */}
       <div className="rf-baslik">
-        <span className="eyebrow" style={{ color: "var(--dim)" }}>Tedarik ettiğimiz kurumlar</span>
         <span className="rf-cizgi" aria-hidden="true" />
       </div>
 

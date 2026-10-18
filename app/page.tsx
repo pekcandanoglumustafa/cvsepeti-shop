@@ -82,7 +82,7 @@ export default function Home() {
             <Link key={y.slug} href={`/blog/${y.slug}`} className="card" prefetch={false}
                   style={{ textDecoration: "none", color: "inherit", borderTop: "2px solid var(--ink)", paddingTop: 12 }}>
               <span className="eyebrow" style={{ color: "var(--hi)" }}>{y.kategori}</span>
-              <h3 className="name" style={{ marginTop: 8, fontSize: 15, fontWeight: 800, lineHeight: 1.25 }}>
+              <h3 className="name" style={{ marginTop: 8, fontSize: 15, fontWeight: 700, lineHeight: 1.25 }}>
                 {y.baslik}
               </h3>
             </Link>
@@ -121,7 +121,7 @@ function Baslik({ baslik, href, bagAd = "Tümü" }: { baslik: string; href: stri
       <h2 className="display" style={{ fontSize: "clamp(20px,2.6vw,30px)" }}>{baslik}</h2>
       <Link href={href} className="label" prefetch={false}
             style={{ color: "var(--hi)", textDecoration: "none", whiteSpace: "nowrap" }}>
-        {bagAd} →
+        {bagAd}
       </Link>
     </div>
   );

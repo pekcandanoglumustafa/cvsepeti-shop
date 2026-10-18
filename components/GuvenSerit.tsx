@@ -39,11 +39,13 @@ export default function GuvenSerit() {
             mask-image:linear-gradient(90deg,transparent,#000 6%,#000 94%,transparent)}
         .ks-sira{display:flex;align-items:center;flex-shrink:0;
                  animation:ks-kay 34s linear infinite}
-        .ks-oge{display:inline-flex;align-items:center;gap:7px;
-                padding:11px 26px;font-size:11.5px;font-weight:800;
-                text-transform:uppercase;letter-spacing:.11em}
-        .ks-oge::after{content:"";width:4px;height:4px;border-radius:50%;
-                       background:rgba(255,255,255,.55);margin-left:26px}
+        /* Eskiden 800 ağırlık + hepsi büyük harf + 0.11em aralıkla yazılıyordu.
+           Turuncu zeminle birlikte sayfanın en yüksek sesli öğesiydi ve hemen
+           altındaki başlıkla yarışıyordu. Renk kalıyor, bağırma gidiyor. */
+        .ks-oge{display:inline-flex;align-items:center;gap:8px;
+                padding:10px 24px;font-size:13.5px;font-weight:500;letter-spacing:0}
+        .ks-oge::after{content:"";width:3px;height:3px;border-radius:50%;
+                       background:rgba(255,255,255,.5);margin-left:24px}
         @keyframes ks-kay{from{transform:translateX(0)}to{transform:translateX(-100%)}}
         .ks:hover .ks-sira{animation-play-state:paused}
         @media(prefers-reduced-motion:reduce){

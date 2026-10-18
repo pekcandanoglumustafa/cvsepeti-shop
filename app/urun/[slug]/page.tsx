@@ -102,7 +102,7 @@ export default async function Urun({ params }: { params: Promise<{ slug: string 
             <p className="label" style={{ color: "var(--dim)", marginTop: 8 }}>Kargo hariç</p>
           </div>
 
-          <div className="band-thin" style={{ marginBottom: 22 }} />
+          <div className="hair" style={{ marginBottom: 22 }} />
 
           <AddToCart product={p} />
 
