@@ -46,8 +46,7 @@ export default function Sepet() {
                               stok={i.stock || 9999} boyut="kucuk"
                               etiket={`${i.name} adedi`} />
                   <span style={{ display: "flex", flexDirection: "column" }}>
-                    <span style={{ fontWeight: 900 }}>{formatTL(i.price * i.qty)} <span style={{ fontSize: 10, color: "var(--muted)" }}>+KDV</span></span>
-                    <span style={{ fontSize: 11, color: "var(--dim)" }}>KDV dahil {formatTL((i.price_kdv ?? i.price * 1.2) * i.qty)}</span>
+                    <span style={{ fontWeight: 900 }}>{formatTL((i.price_kdv ?? i.price * 1.2) * i.qty)}</span>
                   </span>
                   <button onClick={() => remove(i.slug)} aria-label="kaldır"
                           style={{ marginLeft: "auto", background: "none", border: "none", cursor: "pointer", color: "var(--muted)", display: "flex" }}>

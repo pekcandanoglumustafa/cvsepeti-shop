@@ -1,14 +1,15 @@
-import { ShieldCheck, Truck, FileText, RotateCcw, Package, Building2, Wrench } from "lucide-react";
+import { ShieldCheck, Truck, FileText, Building2 } from "lucide-react";
 
+/**
+ * Dört madde yeter. Önceden yedi tane vardı ve bant sürekli akarken
+ * hiçbiri okunmuyordu. "Üreticiden doğrudan satış" ifadesi de çıkarıldı —
+ * tedarikçiden alıp satan bir işletme için doğru değildi.
+ * Sitenin geri kalanı "1-2 iş günü" dediği için "aynı gün kargo" da gitti.
+ */
 const OGE = [
-  { i: ShieldCheck, t: "iyzico ile ödeme güvencesi" },
-  // Sitenin geri kalanı (ürün sayfası, SSS, teslimat sayfası, ürün akışı)
-  // "1-2 iş günü" diyor. Üst bantta "aynı gün" yazması çelişkiydi.
+  { i: ShieldCheck, t: "iyzico ile güvenli ödeme" },
   { i: Truck,       t: "1-2 iş günü kargoda" },
   { i: FileText,    t: "Bireysel ve kurumsal fatura" },
-  { i: RotateCcw,   t: "14 gün cayma hakkı" },
-  { i: Package,     t: "Üreticiden doğrudan satış" },
-  { i: Wrench,      t: "Vida ve dübel dahil" },
   { i: Building2,   t: "Konya Teknokent" },
 ];
 

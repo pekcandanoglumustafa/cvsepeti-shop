@@ -3,7 +3,7 @@ import { eslesir, urunMetni } from "@/lib/arama";
 import { sayfaBasligi } from "@/lib/seo";
 import { allProducts } from "@/lib/products";
 import ProductCard from "@/components/ProductCard";
-import { Search } from "lucide-react";
+import AramaKutusu from "@/components/AramaKutusu";
 
 export async function generateMetadata({ searchParams }: { searchParams: Promise<{ q?: string }> }) {
   const { q } = await searchParams;
@@ -27,40 +27,42 @@ export default async function AraPage({ searchParams }: { searchParams: Promise<
     : [];
 
   return (
-    <main style={{ padding: "24px 0 48px" }}>
-      <div className="container">
-        <div style={{ marginBottom: 24 }}>
-          {query ? (
-            <>
-              <h1 style={{ fontSize: 20, fontWeight: 800, color: "var(--text)", marginBottom: 4 }}>
-                &quot;{query}&quot; için arama sonuçları
-              </h1>
-              <p style={{ fontSize: 14, color: "var(--text-secondary)" }}>
-                {results.length > 0
-                  ? `${results.length} ürün bulundu`
-                  : "Sonuç bulunamadı"}
-              </p>
-            </>
-          ) : (
-            <h1 style={{ fontSize: 20, fontWeight: 800, color: "var(--text)" }}>Arama</h1>
-          )}
-        </div>
+    <main style={{ maxWidth: 1520, margin: "0 auto", padding: "44px 24px 80px" }}>
+      <h1 className="display d3">{query ? `"${query}"` : "Ürün ara"}</h1>
 
-        {results.length > 0 ? (
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(185px, 1fr))", gap: 12 }}>
-            {results.map(p => <ProductCard key={p.id} product={p} />)}
-          </div>
-        ) : query ? (
-          <div style={{ textAlign: "center", padding: "60px 0", color: "var(--text-secondary)" }}>
-            <div style={{ fontSize: 48, marginBottom: 16 }}>🔍</div>
-            <p style={{ fontSize: 16, fontWeight: 600, marginBottom: 8, color: "var(--text)" }}>
-              &quot;{query}&quot; için sonuç bulunamadı
-            </p>
-            <p style={{ fontSize: 14, marginBottom: 24 }}>Farklı bir kelime deneyin ya da tüm ürünlere göz atın.</p>
-            <Link href="/urunler" className="btn-primary">Tüm Ürünlere Git →</Link>
-          </div>
-        ) : null}
+      <div style={{ marginTop: 20 }}>
+        <AramaKutusu baslangic={query} otomatikOdak={!query} />
       </div>
+
+      {query && (
+        <p className="label" style={{ color: "var(--dim)", marginTop: 16 }}>
+          {results.length > 0 ? `${results.length} ürün bulundu` : "Sonuç bulunamadı"}
+        </p>
+      )}
+
+      <div className="rule" style={{ margin: "26px 0 28px" }} />
+
+      {results.length > 0 ? (
+        <div className="grid-urun">
+          {results.map((p) => <ProductCard key={p.id} product={p} />)}
+        </div>
+      ) : query ? (
+        <div style={{ padding: "40px 0 60px", maxWidth: 560 }}>
+          <p style={{ fontSize: 15.5, lineHeight: 1.75, color: "var(--muted)" }}>
+            Ürünü kodu ile aramayı deneyin (örneğin <strong style={{ color: "var(--ink)" }}>ZT8075</strong>)
+            ya da ölçüsüyle (<strong style={{ color: "var(--ink)" }}>75 cm delinatör</strong>).
+            Aradığınızı bulamazsanız arayın, biz bulalım.
+          </p>
+          <div style={{ display: "flex", gap: 10, flexWrap: "wrap", marginTop: 24 }}>
+            <Link href="/urunler" className="btn btn-solid" style={{ padding: "14px 22px" }}>
+              Tüm katalog
+            </Link>
+            <Link href="/iletisim" className="btn btn-ghost" style={{ padding: "14px 22px" }}>
+              İletişim
+            </Link>
+          </div>
+        </div>
+      ) : null}
     </main>
   );
 }

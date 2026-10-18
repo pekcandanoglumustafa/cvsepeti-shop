@@ -2,7 +2,7 @@
 import Link from "next/link";
 import Logo from "@/components/Logo";
 import { useEffect, useState } from "react";
-import { Menu, X, ShoppingBag } from "lucide-react";
+import { Menu, X, ShoppingBag, Search } from "lucide-react";
 import { categories, categorySlug } from "@/lib/products";
 import { useCart } from "@/lib/cart";
 
@@ -35,6 +35,12 @@ export default function Header() {
           </nav>
 
           <div style={{ display: "flex", alignItems: "center", gap: 18 }}>
+            {/* Arama her sayfadan erişilebilir olmalı — ana sayfadaki büyük kutu
+                yerine üst menüde ölçülü bir simge. */}
+            <Link href="/ara" aria-label="Ürün ara" prefetch={false}
+                  style={{ color: "var(--ink)", display: "flex" }}>
+              <Search size={20} strokeWidth={2.4} />
+            </Link>
             <button onClick={() => window.dispatchEvent(new CustomEvent("cart:open"))} aria-label="Sepet"
                   style={{ position: "relative", color: "var(--ink)", display: "flex",
                            background: "none", border: "none", cursor: "pointer", padding: 0 }}>

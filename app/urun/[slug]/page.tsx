@@ -33,7 +33,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     // urunBasligi'nin kendisi karar vererek ekliyor
     title: { absolute: urunBasligi(p.name, p.kod, [p.boyut, p.malzeme, p.f_reflektif]) },
     description: aciklama(
-      `${p.name} (${p.kod}) ${fiyat} + KDV.`,
+      `${p.name} (${p.kod}) ${fiyat}.`,
       ozet && `${ozet}.`,
       "Stokta, 1-2 iş gününde kargoda.",
       "Yurtiçi Kargo ile Türkiye geneline gönderim.",
@@ -98,7 +98,7 @@ export default async function Urun({ params }: { params: Promise<{ slug: string 
           <h1 className="display" style={{ fontSize: "clamp(26px,3.6vw,46px)", marginTop: 10 }}>{p.name}</h1>
 
           <div style={{ margin: "26px 0 22px" }}>
-            <Fiyat haric={p.price} dahil={p.price_kdv} boyut="buyuk" />
+            <Fiyat dahil={p.price_kdv} boyut="buyuk" />
             <p className="label" style={{ color: "var(--dim)", marginTop: 8 }}>Kargo hariç</p>
           </div>
 

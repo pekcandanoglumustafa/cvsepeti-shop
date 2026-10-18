@@ -28,7 +28,7 @@ export default function StickyBuyBar({ product }: { product: Product }) {
                transition: "transform .28s cubic-bezier(.2,.7,.2,1)" }}>
       <div style={{ flex: 1, minWidth: 0 }}>
         <p className="eyebrow" style={{ color: "var(--dim)" }}>{product.kod}</p>
-        <Fiyat haric={product.price} dahil={product.price_kdv} boyut="kucuk" />
+        <Fiyat dahil={product.price_kdv} boyut="kucuk" />
       </div>
       <button className="btn btn-solid" style={{ padding: "15px 22px", background: ok ? "#0B7A3B" : undefined, borderColor: ok ? "#0B7A3B" : undefined }}
         disabled={product.stock <= 0}

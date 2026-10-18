@@ -31,18 +31,10 @@ export default function ProductCard({ product: p, oncelik = false }: { product: 
           {p.name}
         </p>
 
+        {/* Tek fiyat, KDV dahil — kartta iki rakam yan yana kafa karıştırıyordu */}
         <div style={{ marginTop: "auto", paddingTop: 4 }}>
-          <span style={{ display: "flex", alignItems: "baseline", gap: 4, flexWrap: "wrap" }}>
-            <span className="display" style={{ fontSize: 16.5, letterSpacing: "-0.04em" }}>
-              {formatPrice(p.price)}
-            </span>
-            <span style={{ fontSize: 8.5, fontWeight: 800, color: "var(--muted)", letterSpacing: ".04em" }}>
-              +KDV
-            </span>
-          </span>
-          <span style={{ display: "block", fontSize: 9, color: "var(--dim)", marginTop: 1,
-                         whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis" }}>
-            {formatPrice(p.price_kdv)} dahil
+          <span className="display" style={{ fontSize: 16.5, letterSpacing: "-0.04em" }}>
+            {formatPrice(p.price_kdv)}
           </span>
         </div>
       </div>

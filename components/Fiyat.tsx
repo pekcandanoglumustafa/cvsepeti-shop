@@ -1,28 +1,29 @@
 import { formatPrice } from "@/lib/products";
 
 /**
- * Fiyat gösterimi — KDV hariç tutar büyük, KDV dahil tutar altında küçük.
- * Fiyat Etiketi Yönetmeliği tüm vergiler dahil fiyatın görünür olmasını
- * zorunlu kılıyor; KDV Kanunu 57 de hariçse miktarının belirtilmesini istiyor.
+ * Fiyat gösterimi — TEK fiyat, KDV dahil.
+ *
+ * Önceden iki satır vardı: büyük puntoyla KDV hariç tutar, altında küçük
+ * puntoyla KDV dahil tutar. Müşterinin ödeyeceği rakam küçük ve soluktu,
+ * iki rakam yan yana kafa karıştırıyordu.
+ *
+ * Fiyat Etiketi Yönetmeliği zaten tüm vergiler dahil fiyatın görünür
+ * olmasını istiyor; dahil tutarı tek fiyat yapmak hem sade hem doğru.
+ * Küçük "KDV dahil" ibaresi kalıyor — şartnameyle alım yapan kurumsal
+ * müşteri hangi rakama baktığını bilmeli.
  */
-export default function Fiyat({ haric, dahil, boyut = "orta" }: {
-  haric: number; dahil: number; boyut?: "kucuk" | "orta" | "buyuk";
+export default function Fiyat({ dahil, boyut = "orta" }: {
+  dahil: number; boyut?: "kucuk" | "orta" | "buyuk";
 }) {
-  const b = { kucuk: 19, orta: 24, buyuk: 52 }[boyut];
-  const k = { kucuk: 10, orta: 11.5, buyuk: 13.5 }[boyut];
+  const b = { kucuk: 19, orta: 25, buyuk: 52 }[boyut];
   return (
-    <span style={{ display: "block" }}>
-      <span style={{ display: "flex", alignItems: "baseline", gap: 6, flexWrap: "wrap" }}>
-        <span className="display" style={{ fontSize: b, letterSpacing: "-0.035em" }}>
-          {formatPrice(haric)}
-        </span>
-        <span style={{ fontSize: Math.max(10, b * 0.42), fontWeight: 800, textTransform: "uppercase",
-                       letterSpacing: "0.06em", color: "var(--muted)" }}>
-          + KDV
-        </span>
+    <span style={{ display: "flex", alignItems: "baseline", gap: 7, flexWrap: "wrap" }}>
+      <span className="display" style={{ fontSize: b, letterSpacing: "-0.035em" }}>
+        {formatPrice(dahil)}
       </span>
-      <span style={{ display: "block", fontSize: k, color: "var(--dim)", marginTop: 3 }}>
-        KDV dahil {formatPrice(dahil)}
+      <span style={{ fontSize: Math.max(9.5, b * 0.34), fontWeight: 700,
+                     letterSpacing: "0.03em", color: "var(--dim)" }}>
+        KDV dahil
       </span>
     </span>
   );

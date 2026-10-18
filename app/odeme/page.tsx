@@ -324,7 +324,7 @@ export default function Odeme() {
                   <div style={{ flex: 1, minWidth: 0 }}>
                     <p style={{ fontSize: 12.5, fontWeight: 600, lineHeight: 1.35 }} className="line-clamp-2">{i.name}</p>
                     <p style={{ fontSize: 12.5, fontWeight: 800, marginTop: 3 }}>
-                      {formatPrice(i.price * i.qty)} <span style={{ fontSize: 10, color: "var(--muted)", fontWeight: 600 }}>+KDV</span>
+                      {formatPrice((i.price_kdv ?? i.price * 1.2) * i.qty)}
                     </p>
                   </div>
                 </div>
