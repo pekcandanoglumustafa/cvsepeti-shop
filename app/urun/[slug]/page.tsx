@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { allProducts, getProduct, categorySlug, formatPrice } from "@/lib/products";
+import { allProducts, getProduct, categorySlug, formatPrice, kisiyeOzel } from "@/lib/products";
 import AddToCart from "@/components/AddToCart";
 import ProductGallery from "@/components/ProductGallery";
 import ProductCard from "@/components/ProductCard";
@@ -13,6 +13,7 @@ import { urunSSS } from "@/lib/sss";
 import { OG_DEFAULTS } from "@/lib/site";
 import { urunBasligi, aciklama } from "@/lib/seo";
 import { urunDesi } from "@/lib/kargo";
+import { FIRMA } from "@/lib/firma";
 
 export function generateStaticParams() {
   return allProducts.map((p) => ({ slug: p.slug }));
@@ -53,6 +54,8 @@ export default async function Urun({ params }: { params: Promise<{ slug: string 
   const { slug } = await params;
   const p = getProduct(slug);
   if (!p) notFound();
+
+  const ozel = kisiyeOzel(p);
 
   const spec = ([
     ["Ürün kodu", p.kod],
@@ -109,10 +112,32 @@ export default async function Urun({ params }: { params: Promise<{ slug: string 
 
           <div className="guven-satir" style={{ marginTop: 18, display: "flex", gap: 16, flexWrap: "wrap" }}>
             {[...((p as any).montaj_dahil ? ["Vida ve dübel dahil"] : []),
-              "iyzico ile güvenli ödeme", "1-2 iş gününde kargoda", "14 gün cayma hakkı"].map((t) => (
+              "iyzico ile güvenli ödeme", "1-2 iş gününde kargoda"].map((t) => (
               <span key={t} className="eyebrow" style={{ color: "var(--muted)" }}>✓ {t}</span>
             ))}
+            {/* Kişiye özel üretilen üründe cayma hakkı yok — rozet her üründe
+                aynı şeyi yazıyordu ve Teslimat/İade sayfasıyla çelişiyordu. */}
+            {!ozel && (
+              <Link href="/teslimat-ve-iade" className="eyebrow"
+                    style={{ color: "var(--muted)", textDecoration: "none" }}>
+                ✓ 14 gün cayma hakkı
+              </Link>
+            )}
           </div>
+
+          {ozel && (
+            <div style={{ marginTop: 16, padding: "14px 16px", border: "2px solid var(--line)", background: "var(--tile)" }}>
+              <p style={{ fontSize: 13.5, lineHeight: 1.65, color: "var(--muted)" }}>
+                <strong style={{ color: "var(--ink)" }}>Kişiye özel üretim.</strong>{" "}
+                Baskı metnini veya tasarım dosyanızı sipariş sonrası{" "}
+                <a href={`mailto:${FIRMA.eposta}`} style={{ color: "var(--ink)" }}>{FIRMA.eposta}</a>{" "}
+                adresine ya da <a href={FIRMA.whatsapp} rel="noopener" style={{ color: "var(--ink)" }}>WhatsApp</a>{"'"}tan
+                sipariş numaranızla gönderin. Üretim onayınızdan sonra başlar.
+                Size özel üretildiği için{" "}
+                <Link href="/teslimat-ve-iade" style={{ color: "var(--ink)" }}>cayma hakkı kapsamı dışındadır</Link>.
+              </p>
+            </div>
+          )}
 
           <div style={{ marginTop: 22 }}>
             <KargoBilgi product={p} />

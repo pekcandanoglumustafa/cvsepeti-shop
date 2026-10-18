@@ -2,7 +2,9 @@ import { ShieldCheck, Truck, FileText, RotateCcw, Package, Building2, Wrench } f
 
 const OGE = [
   { i: ShieldCheck, t: "iyzico ile ödeme güvencesi" },
-  { i: Truck,       t: "Aynı gün kargo" },
+  // Sitenin geri kalanı (ürün sayfası, SSS, teslimat sayfası, ürün akışı)
+  // "1-2 iş günü" diyor. Üst bantta "aynı gün" yazması çelişkiydi.
+  { i: Truck,       t: "1-2 iş günü kargoda" },
   { i: FileText,    t: "Bireysel ve kurumsal fatura" },
   { i: RotateCcw,   t: "14 gün cayma hakkı" },
   { i: Package,     t: "Üreticiden doğrudan satış" },

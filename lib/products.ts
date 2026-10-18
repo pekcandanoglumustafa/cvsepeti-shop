@@ -93,6 +93,20 @@ export const kartUrun = (p: Product): KartUrun => ({
 
 export const kartUrunler = (liste: Product[]): KartUrun[] => liste.map(kartUrun);
 
+/**
+ * Müşterinin isteğine göre üretilen ürünler (özel baskı, dekota baskı).
+ *
+ * Mesafeli Sözleşmeler Yönetmeliği m.15 uyarınca bunlarda cayma hakkı
+ * kullanılamaz. Ürün sayfası her üründe "14 gün cayma hakkı" rozeti
+ * gösteriyordu — Teslimat ve İade sayfasının istisna olarak yazdığı
+ * ürünlerde bile. Çelişkiyi kapatmak için bu ayrım gerekiyor.
+ *
+ * "Kaygan Zemin Baskılı" gibi hazır desenli ürünler bu kapsamda DEĞİL:
+ * onlar stoktan satılıyor ve cayma hakkı normal işliyor.
+ */
+const OZEL_URETIM = /özel bask|ozel bask|kişiye özel|dekota bask|decota bask/i;
+export const kisiyeOzel = (p: { name: string }) => OZEL_URETIM.test(p.name);
+
 export const categories = Array.from(
   new Set(allProducts.map((p) => p.category))
 ).sort();

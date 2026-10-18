@@ -8,7 +8,9 @@ const OGELER = [
   { i: ShieldCheck, b: "iyzico güvencesi", a: "Kart bilgileriniz bize ulaşmaz, doğrudan iyzico altyapısında işlenir. 3D Secure destekli." },
   { i: Truck,       b: "Yurtiçi Kargo",    a: "Stoktaki ürünler 1-2 iş gününde kargoda. Türkiye geneline gönderim." },
   { i: FileText,    b: "Bireysel ve kurumsal fatura", a: "Vergi dairesi ve vergi numarası ile e-fatura kesilir." },
-  { i: RotateCcw,   b: "14 gün cayma hakkı", a: "Mesafeli Satış Sözleşmesi kapsamında koşulsuz iade hakkınız vardır." },
+  // "koşulsuz" denemez: kişiye özel üretilen baskılı ürünler Yönetmelik m.15
+  // uyarınca cayma hakkı kapsamı dışında ve Teslimat/İade sayfası bunu yazıyor.
+  { i: RotateCcw,   b: "14 gün cayma hakkı", a: "Tüketici alımlarında geçerlidir. Kişiye özel üretilen baskılı ürünler kapsam dışındadır." },
   { i: MapPin,      b: "Konya Teknokent",   a: "Fiziki adresi ve vergi kaydı olan bir işletmeden alışveriş yapıyorsunuz." },
   { i: Wrench,      b: "Montaj gereçleri dahil", a: "Delinatör, dikme, stoper ve kasislerde trifon vida ve plastik dübel ürüne dahildir." },
   { i: Phone,       b: "0 507 658 42 45",   a: "Sipariş öncesi ve sonrası teknik destek." },
