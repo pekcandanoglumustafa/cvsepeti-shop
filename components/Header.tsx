@@ -12,12 +12,20 @@ import {
   LayoutGrid,
   ArrowUpRight,
 } from "lucide-react";
-import { categorySlug } from "@/lib/products";
+import { categories, categorySlug } from "@/lib/products";
 import { useCart } from "@/lib/cart";
 import { FIRMA } from "@/lib/firma";
 
 /** Üst menüde duran kategoriler — en çok satılan gruplar. */
-const MENU = ["Trafik Konisi", "Delinatör"];
+const MENU = [
+  "Trafik Konisi",
+  "Delinatör",
+  "Hız Kesici Kasis",
+  "Güvenlik Bariyeri",
+  "Araç Stoperi",
+];
+
+const kategoriSayisi = categories.length;
 
 export default function Header() {
   const router = useRouter();
@@ -120,6 +128,11 @@ export default function Header() {
             ))}
             <Link href="/urunler?use=otopark">Otopark ürünleri</Link>
             <Link href="/blog">Ürün seçim rehberi</Link>
+            {/* Telefonda menu bu listeden ibaret; 35 kategorinin tamamina
+                cikis buradan veriliyor. */}
+            <Link href="/urunler" className="nav-all-categories">
+              Tüm kategoriler ({kategoriSayisi})
+            </Link>
             <Link href="/iletisim" className="nav-business">
               Kurumsal &amp; toplu alım{" "}
               <ArrowUpRight size={15} strokeWidth={2.2} aria-hidden />

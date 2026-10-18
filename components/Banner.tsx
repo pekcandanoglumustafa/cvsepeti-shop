@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { kartGorseli } from "@/lib/gorsel";
 import Image from "next/image";
 import { ArrowUpRight, ArrowRight, LayoutGrid, Check } from "lucide-react";
 import { formatPrice } from "@/lib/products";
@@ -98,7 +99,7 @@ export default function Banner({
 
           {urun?.images[0] && (
             <Image
-              src={urun.images[0]}
+              src={kartGorseli(urun.images[0])}
               alt={urun.name}
               width={430}
               height={430}

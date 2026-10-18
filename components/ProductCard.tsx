@@ -1,5 +1,6 @@
 "use client";
 import Link from "next/link";
+import { kartGorseli } from "@/lib/gorsel";
 import Image from "next/image";
 import { useCompare } from "@/lib/compare";
 import { useState } from "react";
@@ -34,7 +35,10 @@ export default function ProductCard({
   const compared = compare.items.some((x) => x.id === p.id);
   const add = useCart((s) => s.add);
   const [ok, setOk] = useState(false);
-  const img = p.images[0] ? p.images[0] : "";
+  // kartGorseli: /kart/ altindaki 420px kopyalar ortalama 4 KB, kaynak
+  // gorseller 27.6 KB. Kart ekranda 240px — oraya orijinali indirmek
+  // katalog sayfasinin agirligini 7 katina cikariyor.
+  const img = p.images[0] ? kartGorseli(p.images[0]) : "";
   const ad = adiAyir(p.name, p.kod);
   const yol = `/urun/${p.slug}`;
 

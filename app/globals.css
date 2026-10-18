@@ -541,6 +541,19 @@ button[hidden],
   gap: 33px;
   font-size: 12px;
   font-weight: 600;
+  /* dar masaustunde oge sayisi satira sigmayinca kirpilmasin diye kaydirilir;
+     cubuk gizli, menu gorsel olarak tek satir kaliyor */
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+.main-nav::-webkit-scrollbar {
+  display: none;
+}
+/* .main-nav a asagida display:flex veriyor; tek sinifla gizlemek yetmiyor
+   (ayni ozgullukte sonraki kazaniyor). Yalnizca telefon menusunde gorunur:
+   masaustunde soldaki "Tum urunler" zaten ayni yere gidiyor. */
+.main-nav .nav-all-categories {
+  display: none;
 }
 .main-nav a {
   display: flex;
@@ -566,7 +579,10 @@ button[hidden],
 .main-nav .nav-business .icon {
   width: 15px;
 }
-.menu-toggle {
+/* .icon-button bu kuraldan SONRA display:inline-grid veriyor; ayni
+   ozgullukte sonraki kazandigi icin hamburger masaustunde de goruluyordu.
+   Iki sinifi birden secerek ozgullugu yukseltiyoruz. */
+.menu-toggle.icon-button {
   display: none;
 }
 .btn {
@@ -716,14 +732,19 @@ button[hidden],
   height: 15px;
   color: #4b6357;
 }
+/* background sart: isolation:isolate yeni bir katman baglami aciyor ve o
+   baglamda dairenin disi saydam kaliyor. mix-blend-mode:multiply saydam
+   zeminde etkisiz oldugu icin urun fotografinin beyaz dikdortgeni oldugu
+   gibi gorunuyordu. Opak zemin karisima zemin veriyor. */
 .hero-art {
   position: relative;
   min-width: 0;
   isolation: isolate;
+  background: var(--wash);
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 5px 35px 20px;
+  padding: 5px 35px 86px;
 }
 .hero-art:before {
   content: "";
@@ -746,12 +767,16 @@ button[hidden],
   background: #cbd1c5;
   z-index: -1;
 }
+/* filter kaldirildi: drop-shadow kendi katman baglamini yaratip
+   mix-blend-mode'u etkisiz kiliyor, fotografin beyaz zemini karo gibi
+   gorunuyordu. max-width de sart: gorsel arkadaki 375px daireyi asinca
+   koninin tabani alttaki fiyat kartinin icine giriyordu. */
 .hero-product {
   width: 100%;
-  height: 430px;
+  max-width: 360px;
+  height: 392px;
   object-fit: contain;
   mix-blend-mode: multiply;
-  filter: drop-shadow(12px 16px 10px #17262d0c);
 }
 .hero-dot-grid {
   position: absolute;
@@ -2876,11 +2901,12 @@ button[hidden],
   .wrap {
     width: calc(100% - 32px);
   }
+  /* space-between iki maddeyi ekranin iki ucuna firlatiyor, arada kocaman
+     bir bosluk kaliyordu — kazara bozulmus gibi duruyor. Soldan hizali. */
   .topline .wrap {
     gap: 15px;
     min-height: 29px;
     font-size: 9px;
-    justify-content: space-between;
   }
   .topline .wrap > span:nth-child(3) {
     display: none;
@@ -2930,7 +2956,7 @@ button[hidden],
     min-width: 18px;
     font-size: 9px;
   }
-  .menu-toggle {
+  .menu-toggle.icon-button {
     display: grid;
     width: 30px;
     height: 32px;
@@ -2975,6 +3001,10 @@ button[hidden],
   }
   .nav-shell.mobile-open .nav-business {
     margin-left: 0;
+  }
+  .nav-shell.mobile-open .main-nav .nav-all-categories {
+    display: flex;
+    font-weight: 700;
   }
   .hero-wrap {
     padding-top: 16px;

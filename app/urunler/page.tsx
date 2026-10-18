@@ -1,6 +1,10 @@
 import { useCases } from "@/lib/use-cases";
-import { allProducts, kartUrunler } from "@/lib/products";
+import { allProducts, categories, kartUrunler } from "@/lib/products";
+import CategoryCard from "@/components/CategoryCard";
 import ProductFilters from "@/components/ProductFilters";
+import kapaklar from "@/data/kategori_kapak.json";
+
+const KAPAK = kapaklar as Record<string, { img: string; w: number; adet: number }>;
 import { OG_DEFAULTS } from "@/lib/site";
 import { sayfaBasligi } from "@/lib/seo";
 
@@ -44,6 +48,33 @@ export default async function Urunler({
           Toplu alım mı yapıyorsunuz? ↗
         </a>
       </div>
+      {/* Kategori ızgarası: başlık menüsünde 5, ana sayfada 6 kategori var;
+          35'inin tamamının görüldüğü tek yer burası. Ana sayfadaki "Tüm
+          kategoriler" bağlantısı buraya geliyor — ızgara olmadan o bağlantı
+          söz verdiği şeyi vermiyordu. Her kategori sayfası ayrıca kendi
+          başına indekslenen bir sayfa; iç bağlantıları kesmek onları
+          aramada zayıflatıyor. */}
+      {!usage && (
+        <section style={{ marginBottom: 56 }}>
+          <div className="category-grid">
+            {categories
+              .map((c) => ({
+                c,
+                n: allProducts.filter((p) => p.category === c).length,
+              }))
+              .sort((a, b) => b.n - a.n)
+              .map(({ c, n }) => (
+                <CategoryCard
+                  key={c}
+                  kategori={c}
+                  adet={n}
+                  gorsel={KAPAK[c]?.img}
+                />
+              ))}
+          </div>
+        </section>
+      )}
+
       <ProductFilters
         key={use || "all"}
         urunler={kartUrunler(items)}

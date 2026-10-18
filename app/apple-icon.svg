@@ -1,7 +1,8 @@
+<!-- iOS ana ekran ikonu. app/icon.svg ile aynı işaret, 180 piksellik
+     tuvale ortalanmış hâli. -->
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180" width="180" height="180">
-  <rect width="180" height="180" fill="#000"/>
-  <path d="M82 26h16c2.8 0 5 1.7 5.9 4.5l30.4 109H45.7L76.1 30.5C77 27.7 79.2 26 82 26Z" fill="#FF3B00"/>
-  <rect x="65" y="68" width="50" height="15" fill="#fff"/>
-  <rect x="56" y="101" width="68" height="15" fill="#fff"/>
-  <rect x="29" y="138" width="122" height="18" rx="3" fill="#FF3B00"/>
+  <rect width="180" height="180" fill="#1D2A30"/>
+  <g transform="translate(25.2,21.6) scale(3.6)">
+    <path d="M13 3h10l4 10H9zM7 17h22l4 10H3zM1 31h34v5H1z" fill="#E95325"/>
+  </g>
 </svg>

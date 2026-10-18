@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { kartGorseli } from "@/lib/gorsel";
 import Image from "next/image";
 import { ArrowUpRight } from "lucide-react";
 import { categorySlug } from "@/lib/products";
@@ -23,7 +24,7 @@ export default function CategoryCard({
       <div className="category-photo">
         {gorsel ? (
           <Image
-            src={gorsel}
+            src={kartGorseli(gorsel)}
             alt={kategori}
             width={200}
             height={137}
