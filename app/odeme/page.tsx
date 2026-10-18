@@ -24,6 +24,9 @@ export default function Odeme() {
   const [touched, setTouched] = useState<Record<string, boolean>>({});
 
   const [faturaTipi, setFaturaTipi] = useState<FaturaTipi>("bireysel");
+  // Mesafeli Sözleşmeler Yönetmeliği: alıcı, ödeme yükümlülüğü altına girmeden
+  // önce sözleşmeyi okuduğunu açıkça onaylamak zorunda. Onaysız sipariş alınamaz.
+  const [sozlesme, setSozlesme] = useState(false);
 
   const [f, setF] = useState({
     name: "", surname: "", email: "", phone: "", identityNumber: "",
@@ -73,6 +76,11 @@ export default function Odeme() {
     if (!gecerli) {
       setError("Lütfen işaretli alanları düzeltin.");
       document.querySelector('[data-hata="1"]')?.scrollIntoView({ behavior: "smooth", block: "center" });
+      return;
+    }
+    if (!sozlesme) {
+      setError("Devam etmek için Mesafeli Satış Sözleşmesi'ni onaylamanız gerekiyor.");
+      document.querySelector('[data-sozlesme]')?.scrollIntoView({ behavior: "smooth", block: "center" });
       return;
     }
     setLoading(true);
@@ -228,6 +236,29 @@ export default function Odeme() {
               <p style={{ fontSize: 14, color: "#C4271A", fontWeight: 600 }}>{error}</p>
             </div>
           )}
+
+          <label data-sozlesme
+                 style={{ display: "flex", gap: 12, alignItems: "flex-start", padding: "16px 18px",
+                          border: `2px solid ${sozlesme ? "var(--ink)" : "var(--hair)"}`,
+                          background: sozlesme ? "var(--tile)" : "transparent", cursor: "pointer" }}>
+            <input type="checkbox" checked={sozlesme} onChange={(e) => setSozlesme(e.target.checked)}
+                   aria-describedby="sozlesme-metni"
+                   style={{ width: 19, height: 19, flexShrink: 0, marginTop: 1, accentColor: "var(--ink)", cursor: "pointer" }} />
+            <span id="sozlesme-metni" style={{ fontSize: 13.5, lineHeight: 1.65 }}>
+              <a href="/mesafeli-satis-sozlesmesi" target="_blank" rel="noopener"
+                 onClick={(e) => e.stopPropagation()}
+                 style={{ color: "var(--ink)", fontWeight: 700, textDecoration: "underline", textUnderlineOffset: 3 }}>
+                Mesafeli Satış Sözleşmesi
+              </a>
+              {"'ni ve "}
+              <a href="/teslimat-ve-iade" target="_blank" rel="noopener"
+                 onClick={(e) => e.stopPropagation()}
+                 style={{ color: "var(--ink)", fontWeight: 700, textDecoration: "underline", textUnderlineOffset: 3 }}>
+                Teslimat ve İade koşullarını
+              </a>
+              {" okudum, onaylıyorum."}
+            </span>
+          </label>
 
           <button type="submit" className="btn btn-solid" disabled={loading}
                   style={{ width: "100%", padding: "20px 28px", fontSize: 15 }}>
