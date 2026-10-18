@@ -2,12 +2,16 @@
 import Link from "next/link";
 import Image from "next/image";
 import { KartUrun, formatPrice } from "@/lib/products";
+import { kartGorseli } from "@/lib/gorsel";
 
 // KartUrun, Product'ın alt kümesi — tam Product nesnesi de buraya geçer.
 export default function ProductCard({ product: p, oncelik = false }: { product: KartUrun; oncelik?: boolean }) {
-  const img = p.images[0];
+  const img = p.images[0] ? kartGorseli(p.images[0]) : "";
   return (
-    <Link href={`/urun/${p.slug}`} className="card"
+    // prefetch kapalı: Next, görüş alanına giren her bağlantının tüm verisini
+    // indiriyor. Katalogda 60 kart = 60 ayrı istek, 1.2 MB. Kullanıcı bunların
+    // bir ikisine tıklıyor. Ana menüde ve sepet akışında prefetch açık kalıyor.
+    <Link href={`/urun/${p.slug}`} className="card" prefetch={false}
           style={{ textDecoration: "none", color: "inherit", display: "flex", flexDirection: "column" }}>
       <div className="tile">
         {img ? (

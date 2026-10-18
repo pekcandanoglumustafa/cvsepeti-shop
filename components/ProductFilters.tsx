@@ -1,6 +1,7 @@
 "use client";
 import { useMemo, useState, useEffect } from "react";
 import { KartUrun } from "@/lib/products";
+import { eslesir, urunMetni } from "@/lib/arama";
 import ProductCard from "@/components/ProductCard";
 import { SlidersHorizontal, X, Check, Search } from "lucide-react";
 
@@ -62,16 +63,14 @@ export default function ProductFilters({ urunler, baslik }: { urunler: KartUrun[
   }, [urunler]);
 
   const sonuc = useMemo(() => {
-    const ara = q.trim().toLocaleLowerCase("tr");
+    const ara = q.trim();
     let r = urunler.filter((u) => {
       for (const [k, vs] of Object.entries(secili)) {
         if (!vs.length) continue;
         if (!vs.includes((u as any)[k])) return false;
       }
-      if (ara) {
-        const havuz = `${u.name} ${u.kod} ${u.category} ${u.boyut}`.toLocaleLowerCase("tr");
-        if (!ara.split(/\s+/).every((p) => havuz.includes(p))) return false;
-      }
+      // "75cm" ile "75 cm", "zt8075" ile "ZT 8075" aynı sonucu vermeli
+      if (ara && !eslesir(urunMetni(u), ara)) return false;
       return true;
     });
     if (sira === "ucuz") r = [...r].sort((a, b) => a.price - b.price);

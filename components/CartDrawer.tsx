@@ -1,5 +1,6 @@
 "use client";
 import { useEffect, useState } from "react";
+import { kartGorseli } from "@/lib/gorsel";
 import Link from "next/link";
 import Image from "next/image";
 import { X, Minus, Plus, Trash2, Check, ArrowRight, ShoppingBag } from "lucide-react";
@@ -100,7 +101,7 @@ export default function CartDrawer() {
                 <Link href={`/urun/${i.slug}`} onClick={() => setAcik(false)}
                       style={{ width: 66, height: 66, background: "var(--tile)", position: "relative",
                                flexShrink: 0, border: "1px solid var(--hair)" }}>
-                  {i.image && <Image src={i.image} alt="" fill unoptimized style={{ objectFit: "contain", padding: 5 }} />}
+                  {i.image && <Image src={kartGorseli(i.image)} alt="" fill unoptimized style={{ objectFit: "contain", padding: 5 }} />}
                 </Link>
 
                 <div style={{ flex: 1, minWidth: 0 }}>

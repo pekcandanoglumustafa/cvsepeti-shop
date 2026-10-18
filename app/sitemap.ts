@@ -33,7 +33,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: `${BASE}/kategori/${categorySlug(c)}`,
       lastModified: KATALOG_GUNCELLEME, changeFrequency: "weekly" as const, priority: 0.9,
     })),
-    ...allProducts.filter((p) => p.id !== "TEST-1").map((p) => ({
+    ...allProducts.map((p) => ({
       url: `${BASE}/urun/${p.slug}`,
       lastModified: KATALOG_GUNCELLEME, changeFrequency: "monthly" as const, priority: 0.8,
     })),

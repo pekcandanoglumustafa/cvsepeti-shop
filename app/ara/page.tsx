@@ -1,37 +1,29 @@
 import Link from "next/link";
+import { eslesir, urunMetni } from "@/lib/arama";
+import { sayfaBasligi } from "@/lib/seo";
 import { allProducts } from "@/lib/products";
 import ProductCard from "@/components/ProductCard";
 import { Search } from "lucide-react";
 
-export function generateMetadata({ searchParams }: { searchParams: Promise<{ q?: string }> }) {
-  return { title: "Arama | Trafik Ürünleri" };
-}
-
-function normalize(s: string) {
-  return s
-    .toLowerCase()
-    .replace(/ı/g, "i").replace(/İ/g, "i")
-    .replace(/ş/g, "s").replace(/Ş/g, "s")
-    .replace(/ğ/g, "g").replace(/Ğ/g, "g")
-    .replace(/ü/g, "u").replace(/Ü/g, "u")
-    .replace(/ö/g, "o").replace(/Ö/g, "o")
-    .replace(/ç/g, "c").replace(/Ç/g, "c");
+export async function generateMetadata({ searchParams }: { searchParams: Promise<{ q?: string }> }) {
+  const { q } = await searchParams;
+  const s = (q || "").trim();
+  return {
+    // absolute: layout şablonu markayı bir kez daha eklemesin
+    title: { absolute: sayfaBasligi(s ? `"${s}" arama sonuçları` : "Ürün ara") },
+    // arama sonucu sayfaları indekslenmez — sonsuz sayıda ince varyant üretir
+    robots: { index: false, follow: true },
+  };
 }
 
 export default async function AraPage({ searchParams }: { searchParams: Promise<{ q?: string }> }) {
   const { q } = await searchParams;
   const query = (q || "").trim();
-  const norm = normalize(query);
 
+  // Ürün kodu ve ölçü de aranabilir; "75cm" ile "75 cm" aynı sonucu verir.
+  // Eski hâli kodu hiç aramıyordu ve "İ" küçültmesi bozuktu.
   const results = query
-    ? allProducts.filter(p => {
-        const name = normalize(p.name);
-        const cat = normalize(p.category);
-        const desc = normalize(p.description || "");
-        // Split query into words, all must match somewhere
-        const words = norm.split(/\s+/).filter(Boolean);
-        return words.every(w => name.includes(w) || cat.includes(w) || desc.includes(w));
-      })
+    ? allProducts.filter((p) => eslesir(`${urunMetni(p)} ${p.description || ""}`, query))
     : [];
 
   return (

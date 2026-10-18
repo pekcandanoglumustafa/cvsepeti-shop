@@ -1,5 +1,6 @@
 "use client";
 import { useState } from "react";
+import { kartGorseli } from "@/lib/gorsel";
 import Image from "next/image";
 
 export default function ProductGallery({ images, name }: { images: string[]; name: string }) {
@@ -21,7 +22,8 @@ export default function ProductGallery({ images, name }: { images: string[]; nam
             <button key={k} onClick={() => setI(k)} aria-label={`Görsel ${k + 1}`}
               style={{ width: 76, height: 76, background: "var(--tile)", position: "relative", cursor: "pointer",
                        padding: 0, border: k === i ? "2px solid var(--ink)" : "1px solid var(--hair)" }}>
-              <Image src={im} alt="" fill unoptimized style={{ objectFit: "contain", padding: 7 }} />
+              {/* 76 pikselik küçük resim — büyük kaynak yerine kart kopyası */}
+              <Image src={kartGorseli(im)} alt="" fill unoptimized style={{ objectFit: "contain", padding: 7 }} />
             </button>
           ))}
         </div>

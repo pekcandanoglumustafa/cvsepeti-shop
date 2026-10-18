@@ -1,6 +1,7 @@
 import type { Product } from "@/lib/products";
 
 import { SITE_URL as BASE } from "@/lib/site";
+import { urunDesi } from "@/lib/kargo";
 
 /** Product + Offer + BreadcrumbList + FAQPage — Google AI Overviews için */
 export default function UrunSema({ p, kategoriSlug, sss }: {
@@ -15,7 +16,8 @@ export default function UrunSema({ p, kategoriSlug, sss }: {
     p.f_reflektif && { "@type": "PropertyValue", name: "Reflektif", value: p.f_reflektif },
     p.f_taban && { "@type": "PropertyValue", name: "Taban", value: p.f_taban },
     p.agirlik_kg && { "@type": "PropertyValue", name: "Ağırlık", value: `${p.agirlik_kg} kg` },
-    { "@type": "PropertyValue", name: "Kargo desisi", value: String(p.desi) },
+    // sepette tahsil edilen değerle aynı olsun
+    { "@type": "PropertyValue", name: "Kargo desisi", value: String(urunDesi(p)) },
   ].filter(Boolean);
 
   const sema = {

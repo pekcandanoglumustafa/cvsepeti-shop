@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
+import { kartGorseli } from "@/lib/gorsel";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 import Image from "next/image";
@@ -278,7 +279,7 @@ export default function Odeme() {
               {items.map((i) => (
                 <div key={i.slug} style={{ display: "flex", gap: 12 }}>
                   <div style={{ width: 52, height: 52, background: "var(--tile)", position: "relative", flexShrink: 0 }}>
-                    {i.image && <Image src={i.image} alt="" fill unoptimized style={{ objectFit: "contain", padding: 5 }} />}
+                    {i.image && <Image src={kartGorseli(i.image)} alt="" fill unoptimized style={{ objectFit: "contain", padding: 5 }} />}
                     <span style={{ position: "absolute", top: -7, right: -7, background: "var(--ink)", color: "#fff",
                                    width: 19, height: 19, borderRadius: 10, fontSize: 11, fontWeight: 800,
                                    display: "grid", placeItems: "center" }}>{i.qty}</span>

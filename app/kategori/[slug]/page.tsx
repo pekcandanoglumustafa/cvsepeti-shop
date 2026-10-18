@@ -70,7 +70,7 @@ export default async function Kategori({ params }: { params: Promise<{ slug: str
       <p className="eyebrow" style={{ color: "var(--dim)", marginBottom: 14 }}>Diğer kategoriler</p>
       <div style={{ display: "flex", flexWrap: "wrap", gap: 9 }}>
         {digerleri.map((c) => (
-          <Link key={c} href={`/kategori/${categorySlug(c)}`} className="label"
+          <Link key={c} href={`/kategori/${categorySlug(c)}`} className="label" prefetch={false}
             style={{ padding: "10px 15px", border: "1px solid var(--hair)", color: "var(--ink)", textDecoration: "none" }}>
             {c}
           </Link>

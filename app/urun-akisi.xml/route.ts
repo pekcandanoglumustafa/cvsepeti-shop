@@ -1,4 +1,5 @@
 import { allProducts } from "@/lib/products";
+import { urunDesi } from "@/lib/kargo";
 
 import { SITE_URL as BASE } from "@/lib/site";
 
@@ -17,14 +18,17 @@ export async function GET() {
     desi <= 3 ? 250 : 250 + (Math.min(desi, 10) - 3) * 55 + Math.max(0, Math.min(desi, 25) - 10) * 35;
 
   const items = allProducts
-    .filter((p) => p.id !== "TEST-1" && p.images[0] && p.price > 0)
+    .filter((p) => p.images[0] && p.price > 0)
     .map((p) => {
+      // Merchant Center'a bildirilen kargo, sepette tahsil edilenle aynı olmak
+      // zorunda — uyuşmazlık listelemenin reddedilmesine yol açıyor.
+      const desi = urunDesi(p);
       const ozet = [p.boyut, p.malzeme, p.f_reflektif, p.f_taban && `${p.f_taban} tabanlı`]
         .filter(Boolean).join(" · ");
       const aciklama =
         `${p.name}. ${ozet ? ozet + ". " : ""}Ürün kodu ${p.kod}. ` +
         `${p.agirlik_kg ? `Ağırlık ${p.agirlik_kg} kg. ` : ""}` +
-        `Kargo desisi ${p.desi}. Stokta, 1-2 iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.`;
+        `Kargo desisi ${desi}. Stokta, 1-2 iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.`;
 
       const detay = [
         p.boyut && ["Ölçü", p.boyut],
@@ -47,8 +51,8 @@ export async function GET() {
       <g:identifier_exists>no</g:identifier_exists>
       <g:product_type>${esc(p.category)}</g:product_type>
       <g:google_product_category>2496</g:google_product_category>
-      <g:shipping><g:country>TR</g:country><g:service>Yurtiçi Kargo</g:service><g:price>${kargo(p.desi).toFixed(2)} TRY</g:price></g:shipping>
-      <g:shipping_weight>${(p.agirlik_kg || p.desi).toFixed(2)} kg</g:shipping_weight>
+      <g:shipping><g:country>TR</g:country><g:service>Yurtiçi Kargo</g:service><g:price>${kargo(desi).toFixed(2)} TRY</g:price></g:shipping>
+      <g:shipping_weight>${(p.agirlik_kg || desi).toFixed(2)} kg</g:shipping_weight>
 ${detay.map(([a, v]) => `      <g:product_detail><g:section_name>Teknik</g:section_name><g:attribute_name>${esc(a)}</g:attribute_name><g:attribute_value>${esc(v)}</g:attribute_value></g:product_detail>`).join("\n")}
     </item>`;
     })

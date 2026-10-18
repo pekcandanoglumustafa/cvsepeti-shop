@@ -19,7 +19,7 @@ export default function Footer() {
               <p className="eyebrow" style={{ color: "var(--hi)", marginBottom: 14 }}>Katalog</p>
               <div style={{ display: "flex", flexDirection: "column", gap: 9 }}>
                 {categories.slice(0, 9).map((c) => (
-                  <Link key={c} href={`/kategori/${categorySlug(c)}`}
+                  <Link key={c} href={`/kategori/${categorySlug(c)}`} prefetch={false}
                         style={{ fontSize: 13, color: "#C9C9C6", textDecoration: "none" }}>{c}</Link>
                 ))}
               </div>

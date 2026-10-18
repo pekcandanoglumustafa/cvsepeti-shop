@@ -1,5 +1,6 @@
 "use client";
 import Link from "next/link";
+import { kartGorseli } from "@/lib/gorsel";
 import Image from "next/image";
 import { useEffect, useState } from "react";
 import { Trash2, Minus, Plus } from "lucide-react";
@@ -33,7 +34,7 @@ export default function Sepet() {
           {items.map((i) => (
             <div key={i.slug} style={{ display: "flex", gap: 16, padding: "18px 0", borderBottom: "1px solid var(--line)" }}>
               <div style={{ width: 88, height: 88, background: "var(--tile)", position: "relative", flexShrink: 0 }}>
-                {i.image && <Image src={i.image} alt={i.name} fill unoptimized style={{ objectFit: "contain", padding: 8 }} />}
+                {i.image && <Image src={kartGorseli(i.image)} alt={i.name} fill unoptimized style={{ objectFit: "contain", padding: 8 }} />}
               </div>
               <div style={{ flex: 1, minWidth: 0 }}>
                 <Link href={`/urun/${i.slug}`} style={{ fontSize: 14, fontWeight: 700, color: "var(--ink)", textDecoration: "none" }}

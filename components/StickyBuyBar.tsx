@@ -4,6 +4,7 @@ import { Product } from "@/lib/products";
 import Fiyat from "@/components/Fiyat";
 import { useCart } from "@/lib/cart";
 import { Check } from "lucide-react";
+import { urunDesi } from "@/lib/kargo";
 
 /** Mobilde sayfa kaydırılınca alta yapışan satın alma çubuğu */
 export default function StickyBuyBar({ product }: { product: Product }) {
@@ -34,7 +35,7 @@ export default function StickyBuyBar({ product }: { product: Product }) {
         onClick={() => {
           add({ slug: product.slug, name: product.name, price: product.price, price_kdv: product.price_kdv,
                 image: product.images[0] || "", stock: product.stock,
-                desi: product.desi, kategori: product.category,
+                desi: urunDesi(product), kategori: product.category,
                 olcu3: product.olcu3, geo: product.geo, agirlik_kg: product.agirlik_kg, agirlikli: (product as any).agirlikli,
                 koli_olcu: (product as any).koli_olcu, koli_adet: (product as any).koli_adet }, 1);
           setOk(true); setTimeout(() => setOk(false), 1800);

@@ -3,6 +3,7 @@ import { useState } from "react";
 import { Minus, Plus, Check } from "lucide-react";
 import { useCart } from "@/lib/cart";
 import type { Product } from "@/lib/products";
+import { urunDesi } from "@/lib/kargo";
 
 export default function AddToCart({ product }: { product: Product }) {
   const add = useCart((s) => s.add);
@@ -28,7 +29,7 @@ export default function AddToCart({ product }: { product: Product }) {
         onClick={() => {
           add({ slug: product.slug, name: product.name, price: product.price, price_kdv: product.price_kdv,
                 image: product.images[0] || "", stock: product.stock,
-                desi: product.desi, kategori: product.category,
+                desi: urunDesi(product), kategori: product.category,
                 olcu3: product.olcu3, geo: product.geo, agirlik_kg: product.agirlik_kg, agirlikli: (product as any).agirlikli,
                 koli_olcu: (product as any).koli_olcu, koli_adet: (product as any).koli_adet }, q);
           setOk(true); setTimeout(() => setOk(false), 1800);

@@ -1,4 +1,5 @@
 import products from "@/data/products.json";
+import type { Geo } from "@/lib/kargo";
 
 export type Product = {
   id: string;
@@ -30,7 +31,8 @@ export type Product = {
   f_taban: string;
   f_seri: string;
   olcu3: number[];
-  geo: string;
+  /** Paketleme sınıfı — kargo desisi bundan hesaplanıyor (lib/kargo.ts). */
+  geo: Geo;
   agirlikli?: boolean;
   koli_olcu?: number[];
   koli_adet?: number;
@@ -50,10 +52,24 @@ type HamUrun = Product & { tedarikci?: string };
  * Hangi üründe kiminle çalıştığımız rakibe açık bilgi olmamalı — alanı burada,
  * veri katmanında kesiyoruz ki hiçbir sayfadan dışarı sızmasın.
  */
-export const allProducts: Product[] = (products as unknown as HamUrun[]).map((p) => {
+const tumUrunler: Product[] = (products as unknown as HamUrun[]).map((p) => {
   const { tedarikci: _gizli, ...acik } = p;
   return acik as Product;
 });
+
+/**
+ * Müşteriye görünen katalog.
+ *
+ * TEST-1 ("TEST ÜRÜNÜ – Satın Almayın") burada ayıklanıyor. Önceden yalnızca
+ * ana sayfada filtreleniyordu; katalogda ilk sırada, kategori sayfalarında ve
+ * aramada görünüyor, sayfası fiyatı ve "Sepete ekle" düğmesiyle satışa açık
+ * duruyordu. Müşterinin sipariş verebileceği bir test kaydıydı.
+ *
+ * Sayfası doğrudan adresle hâlâ açılıyor (getProduct tüm listeye bakıyor) ki
+ * ödeme testi yapılabilsin — ama hiçbir listede, sitemap'te ya da aramada yok.
+ */
+export const TEST_URUN_ID = "TEST-1";
+export const allProducts: Product[] = tumUrunler.filter((p) => p.id !== TEST_URUN_ID);
 
 /**
  * Liste ve filtre bileşenlerine giden hafif ürün.
@@ -97,8 +113,9 @@ export const categorySlug = (cat: string) =>
 export const categoryBySlug = (slug: string) =>
   categories.find((c) => categorySlug(c) === slug);
 
+/** Test ürünü dahil — sayfası doğrudan adresle açılabilsin diye tüm listeye bakar. */
 export const getProduct = (slug: string) =>
-  allProducts.find((p) => p.slug === slug);
+  tumUrunler.find((p) => p.slug === slug);
 
 export const productsByCategory = (cat: string) =>
   allProducts.filter((p) => p.category === cat);

@@ -83,7 +83,9 @@ const kurumSema = {
       publisher: { "@id": `${BASE}/#kurulus` },
       potentialAction: {
         "@type": "SearchAction",
-        target: { "@type": "EntryPoint", urlTemplate: `${BASE}/urunler?q={search_term_string}` },
+        // /urunler bu parametreyi hiç okumuyordu: ?q=ZT8075 aramayı uygulamadan
+        // tüm kataloğu açıyordu. Arama sayfası /ara ve gerçekten q parametresiyle çalışıyor.
+        target: { "@type": "EntryPoint", urlTemplate: `${BASE}/ara?q={search_term_string}` },
         "query-input": "required name=search_term_string",
       },
     },

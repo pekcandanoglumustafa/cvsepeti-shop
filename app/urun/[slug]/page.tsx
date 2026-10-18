@@ -12,6 +12,7 @@ import UrunSema from "@/components/UrunSema";
 import { urunSSS } from "@/lib/sss";
 import { OG_DEFAULTS } from "@/lib/site";
 import { urunBasligi, aciklama } from "@/lib/seo";
+import { urunDesi } from "@/lib/kargo";
 
 export function generateStaticParams() {
   return allProducts.map((p) => ({ slug: p.slug }));
@@ -70,7 +71,9 @@ export default async function Urun({ params }: { params: Promise<{ slug: string 
     ["Ağırlık", p.agirlik_kg ? `${p.agirlik_kg} kg` : ""],
     ["Koli içi adet", (p as any).koli_adet ? `${(p as any).koli_adet} adet` : ""],
     ["Koli ölçüsü", (p as any).koli_olcu ? `${(p as any).koli_olcu.join(" × ")} cm` : ""],
-    ["Kargo desisi", `${p.desi} desi`],
+    // Müşteriden tahsil edilen desi bu — veride duran eski p.desi sabiti değil.
+    // İkisi farklıydı: tabloda 5 yazarken sepette 9 desi hesaplanıyordu.
+    ["Kargo desisi", `${urunDesi(p)} desi`],
   ] as [string,string][]).filter(([, v]) => v);
 
   const sorular = urunSSS(p);

@@ -21,7 +21,7 @@ export default function Home() {
     .map((c) => ({ c, n: allProducts.filter((p) => p.category === c).length }))
     .sort((a, b) => b.n - a.n);
 
-  const gorselli = allProducts.filter((p) => p.images[0] && p.id !== "TEST-1");
+  const gorselli = allProducts.filter((p) => p.images[0]);
   const netGorselli = gorselli.filter((p) => (KAPAK[p.category]?.w ?? 0) >= 1000);
   const csSlug = (coksatan as { slug: string }[]).map((c) => c.slug);
   const cokSatanlar = csSlug.map((sl) => allProducts.find((x) => x.slug === sl)).filter(Boolean).slice(0, 9) as any[];
@@ -88,7 +88,7 @@ export default function Home() {
           {kategoriVitrini.map((v) => (
             <div key={v.kat}>
               <ProductCard product={v.urun as any} />
-              <Link href={`/kategori/${categorySlug(v.kat)}`}
+              <Link href={`/kategori/${categorySlug(v.kat)}`} prefetch={false}
                     style={{ display: "block", marginTop: 5, fontSize: 10, fontWeight: 800,
                              textTransform: "uppercase", letterSpacing: ".06em",
                              color: "var(--hi)", textDecoration: "none" }}>

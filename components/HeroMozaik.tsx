@@ -2,6 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { categorySlug } from "@/lib/products";
 import hero from "@/data/hero.json";
+import { kartGorseli } from "@/lib/gorsel";
 
 type Karo = { kat: string; img: string; ad: string; adet: number };
 
@@ -10,10 +11,11 @@ export default function HeroMozaik() {
   return (
     <div className="mozaik">
       {karolar.map((k, i) => (
-        <Link key={k.kat} href={`/kategori/${categorySlug(k.kat)}`} className="mz"
+        <Link key={k.kat} href={`/kategori/${categorySlug(k.kat)}`} className="mz" prefetch={false}
               aria-label={`${k.kat} — ${k.adet} ürün`}>
           <span className="mz-ph">
-            <Image src={k.img} alt={k.kat} fill unoptimized
+            {/* karo ekranda ~150 piksel; 1600 piksellik kaynak yerine kart kopyası */}
+            <Image src={kartGorseli(k.img)} alt={k.kat} fill unoptimized
                    loading={i < 8 ? "eager" : "lazy"} sizes="(max-width:640px) 25vw, 12vw"
                    style={{ objectFit: "contain", padding: "11%" }} />
             <span className="mz-n">{k.adet}</span>
