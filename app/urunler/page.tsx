@@ -1,42 +1,54 @@
-import { allProducts, categories, kartUrunler } from "@/lib/products";
-import CategoryCard from "@/components/CategoryCard";
+import { useCases } from "@/lib/use-cases";
+import { allProducts, kartUrunler } from "@/lib/products";
 import ProductFilters from "@/components/ProductFilters";
-import kapaklar from "@/data/kategori_kapak.json";
 import { OG_DEFAULTS } from "@/lib/site";
 import { sayfaBasligi } from "@/lib/seo";
-const KAPAK = kapaklar as Record<string, { img: string; w: number; adet: number }>;
 
 export const metadata = {
   // absolute: layout'taki "%s | marka" şablonu markayı ikinci kez ekliyordu
   // ("Tüm Katalog | Trafik Ürünleri | Trafik Ürünleri")
   title: { absolute: sayfaBasligi("Tüm katalog") },
-  description: "Trafik güvenliği, yol işaretleme ve iş güvenliği ekipmanları. Ölçü, malzeme ve reflektif tipine göre filtreleyin.",
+  description:
+    "Trafik güvenliği, yol işaretleme ve iş güvenliği ekipmanları. Ölçü, malzeme ve reflektif tipine göre filtreleyin.",
   alternates: { canonical: "/urunler" },
   openGraph: { ...OG_DEFAULTS, url: "/urunler", title: "Tüm katalog" },
 };
 
-export default function Urunler() {
-  const sayilar = categories
-    .map((c) => ({ c, n: allProducts.filter((p) => p.category === c).length }))
-    .sort((a, b) => b.n - a.n);
-
+export default async function Urunler({
+  searchParams,
+}: {
+  searchParams: Promise<{ use?: string }>;
+}) {
+  const { use } = await searchParams;
+  const usage = use ? useCases[use] : undefined;
+  const items = usage
+    ? allProducts.filter((p) => usage.categories.includes(p.category))
+    : allProducts;
   return (
-    <main className="wrap" style={{ padding: "48px 0 40px" }}>
-      <p className="eyebrow" style={{ color: "var(--hi)" }}>Katalog</p>
-      <h1 className="display d2" style={{ marginTop: 16 }}>Tüm ürünler</h1>
-      <p className="label" style={{ color: "var(--dim)", marginTop: 14 }}>
-        {allProducts.length} ürün · {categories.length} kategori
-      </p>
-
-      <div className="rule" style={{ margin: "34px 0 30px" }} />
-      {/* .category-grid kullanılıyor: satır içi auto-fill minmax(200px) telefonda
-          tek sütuna düşüp 35 kategoriyi devasa kartlar hâlinde diziyordu. */}
-      <div className="category-grid" style={{ marginBottom: 66 }}>
-        {sayilar.map(({ c, n }) => <CategoryCard key={c} kategori={c} adet={n} gorsel={KAPAK[c]?.img} />)}
+    <main className="wrap">
+      <div className="breadcrumbs">
+        <a href="/">Ana sayfa</a>
+        <span>/</span>
+        <b>Katalog</b>
       </div>
-
-      <div className="rule" style={{ marginBottom: 40 }} />
-      <ProductFilters urunler={kartUrunler(allProducts)} baslik="Tüm ürünler" />
+      <div className="page-intro">
+        <div>
+          <p className="eyebrow">ÜRÜN KATALOĞU</p>
+          <h1>{usage?.title || "İşinize uygun ürünü bulun."}</h1>
+          <p>
+            Ölçü, malzeme ve kullanım alanına göre filtreleyin. Doğru ürünü
+            kolayca seçin.
+          </p>
+        </div>
+        <a className="btn secondary small" href="/iletisim">
+          Toplu alım mı yapıyorsunuz? ↗
+        </a>
+      </div>
+      <ProductFilters
+        key={use || "all"}
+        urunler={kartUrunler(items)}
+        baslik="Katalog ürünleri"
+      />
     </main>
   );
 }

@@ -1,112 +1,118 @@
 import Link from "next/link";
-import { ArrowUpRight, ShieldCheck, Truck, FileText, Phone, Check } from "lucide-react";
-import { allProducts, categories, categorySlug, kartUrunler } from "@/lib/products";
-import ProductCard from "@/components/ProductCard";
+import {
+  ArrowRight,
+  ArrowUpRight,
+  ShieldCheck,
+  Truck,
+  FileText,
+  Phone,
+} from "lucide-react";
+import { allProducts, categories, kartUrunler } from "@/lib/products";
 import CategoryCard from "@/components/CategoryCard";
 import Banner from "@/components/Banner";
+import FeaturedProducts from "@/components/FeaturedProducts";
 import KullanimAlanlari from "@/components/KullanimAlanlari";
-import Referanslar from "@/components/Referanslar";
 import { tumYazilar } from "@/lib/blog";
 import { FIRMA } from "@/lib/firma";
-import kapaklar from "@/data/kategori_kapak.json";
-import coksatan from "@/data/coksatan.json";
-
 export const metadata = { alternates: { canonical: "/" } };
-
-const KAPAK = kapaklar as Record<string, { img: string; w: number; adet: number }>;
-
-const GUVEN = [
-  { i: ShieldCheck, b: "Güvenli alışveriş", a: "iyzico altyapısı, 3D Secure" },
-  { i: Truck, b: "Türkiye geneline gönderim", a: `${FIRMA.kargo} ile 1-2 iş günü` },
-  { i: FileText, b: "Kurumsal fatura", a: "Bireysel ve kurumsal alışveriş" },
-  { i: Phone, b: "Ürün seçiminde destek", a: FIRMA.telefon },
+const groups = [
+  ["Trafik Konisi", "Trafik konileri", "702808A6R2ECO"],
+  ["Delinatör", "Delinatörler", "ZT8075"],
+  ["Hız Kesici Kasis", "Hız kesici kasisler", "ZT40400"],
+  ["Araç Stoperi", "Araç stoperleri", "ZTM18012B"],
+  ["Güvenlik Bariyeri", "Güvenlik bariyerleri", "ZT80150R"],
+  ["Uyarı Levhası", "Uyarı levhaları", "108 A F"],
 ];
-
+const featured = ["702808A6R2ECO", "ZT8045", "ZT40400", "ZTM01"];
 export default function Home() {
-  const sayilar = categories
-    .map((c) => ({ c, n: allProducts.filter((p) => p.category === c).length }))
-    .sort((a, b) => b.n - a.n);
-
-  const csSlug = (coksatan as { slug: string }[]).map((c) => c.slug);
-  const cokSatanlar = csSlug
-    .map((sl) => allProducts.find((x) => x.slug === sl))
-    .filter(Boolean)
-    .slice(0, 8) as NonNullable<ReturnType<typeof allProducts.find>>[];
-
-  // Kahraman alanındaki ürün: çok satanların ilki, ölçüsü bilinen bir ürün
-  const heroUrun = cokSatanlar.find((p) => p.boyut && p.images[0]) ?? cokSatanlar[0];
-
+  const hero = allProducts.find((p) => p.kod === "702808A6R2ECO");
+  const selection = featured.flatMap((code) =>
+    allProducts.filter((p) => p.kod === code),
+  );
+  const tabs = ["Trafik Konisi", "Delinatör", "Hız Kesici Kasis"].map((c) => ({
+    name: c,
+    products: kartUrunler(
+      allProducts.filter((p) => p.category === c).slice(0, 4),
+    ),
+  }));
   return (
-    <main>
-      <Banner urunSayisi={allProducts.length} kategoriSayisi={categories.length}
-              urun={heroUrun && {
-                slug: heroUrun.slug, name: heroUrun.name,
-                price_kdv: heroUrun.price_kdv, images: heroUrun.images, boyut: heroUrun.boyut,
-              }} />
-
+    <main id="main">
+      <Banner
+        urunSayisi={allProducts.length}
+        kategoriSayisi={categories.length}
+        urun={hero}
+      />
       <div className="wrap">
-        <div className="trust-row">
-          {GUVEN.map(({ i: Icon, b, a }) => (
-            <div key={b} className="trust-item">
-              <Icon className="icon" size={19} strokeWidth={1.9} aria-hidden />
-              <span><strong>{b}</strong><small>{a}</small></span>
+        <div className="service-row">
+          {[
+            {
+              Icon: ShieldCheck,
+              title: "Güvenli alışveriş",
+              sub: "iyzico altyapısı, 3D Secure",
+            },
+            {
+              Icon: Truck,
+              title: "Türkiye geneline gönderim",
+              sub: `${FIRMA.kargo} ile 1-2 iş günü`,
+            },
+            {
+              Icon: FileText,
+              title: "Kurumsal fatura",
+              sub: "Bireysel ve kurumsal alışveriş",
+            },
+            { Icon: Phone, title: "Ürün seçiminde destek", sub: FIRMA.telefon },
+          ].map(({ Icon, title, sub }) => (
+            <div key={title}>
+              <Icon className="icon" />
+              <span>
+                <strong>{title}</strong>
+                <small>{sub}</small>
+              </span>
             </div>
           ))}
         </div>
-      </div>
-
-      {/* KATEGORİLER */}
-      <section className="section">
-        <div className="wrap">
+        <section className="section">
           <div className="section-heading">
             <div>
               <h2>İhtiyacınız olan, tam burada.</h2>
               <p>En çok aranan ürün gruplarını keşfedin.</p>
             </div>
-            <Link href="/urunler" className="text-link" prefetch={false}>
-              Tüm kategoriler <ArrowUpRight className="icon" size={16} strokeWidth={2.2} aria-hidden />
+            <Link href="/urunler" className="text-link">
+              Tüm kategoriler <ArrowRight className="icon" />
             </Link>
           </div>
           <div className="category-grid">
-            {sayilar.slice(0, 6).map(({ c, n }) => (
-              <CategoryCard key={c} kategori={c} adet={n} gorsel={KAPAK[c]?.img} />
+            {groups.map(([c, title, code]) => (
+              <CategoryCard
+                key={c}
+                kategori={c}
+                baslik={title}
+                adet={allProducts.filter((p) => p.category === c).length}
+                gorsel={allProducts.find((p) => p.kod === code)?.images[0]}
+              />
             ))}
           </div>
-          <p style={{ textAlign: "center", marginTop: 20, fontSize: 11.5, color: "var(--muted)" }}>
+          <p className="category-bottom">
             Aradığınız ürün farklı mı?{" "}
-            <Link href="/urunler" prefetch={false}
-                  style={{ color: "var(--ink)", fontWeight: 700, textDecoration: "underline",
-                           textUnderlineOffset: 3 }}>
+            <Link href="/urunler">
               {categories.length} kategorinin tamamına göz atın.
             </Link>
           </p>
-        </div>
-      </section>
-
-      {/* ÇOK SATANLAR */}
-      {cokSatanlar.length > 0 && (
-        <section className="section" style={{ paddingTop: 0 }}>
-          <div className="wrap">
-            <div className="section-heading">
-              <div>
-                <h2>Sahanın vazgeçilmezleri.</h2>
-                <p>Günlük ihtiyaçlardan büyük projelere, en çok tercih edilen ürünler.</p>
-              </div>
-              <Link href="/urunler" className="text-link" prefetch={false}>
-                Tümünü gör <ArrowUpRight className="icon" size={16} strokeWidth={2.2} aria-hidden />
-              </Link>
-            </div>
-            <div className="product-grid">
-              {kartUrunler(cokSatanlar).map((p, i) => (
-                <ProductCard key={p.id} product={p} oncelik={i < 4} />
-              ))}
-            </div>
-          </div>
         </section>
-      )}
-
-      {/* KULLANIM ALANLARI */}
-      <section className="section" style={{ background: "var(--wash)" }}>
+        <section className="section bestsellers">
+          <div className="section-heading">
+            <div>
+              <h2>Sahanın vazgeçilmezleri.</h2>
+              <p>Günlük ihtiyaçlardan büyük projelere, seçilmiş ürünler.</p>
+            </div>
+            <Link href="/urunler" className="text-link">
+              Tümünü gör <ArrowRight className="icon" />
+            </Link>
+          </div>
+          <FeaturedProducts selected={kartUrunler(selection)} groups={tabs} />
+        </section>
+      </div>
+      <section className="section use-section">
         <div className="wrap">
           <div className="section-heading">
             <div>
@@ -117,74 +123,63 @@ export default function Home() {
           <KullanimAlanlari />
         </div>
       </section>
-
-      {/* TOPLU ALIM */}
       <div className="wrap">
         <section className="business-banner">
-          <div style={{ position: "relative", zIndex: 2 }}>
-            <p className="kas">Kurumsal &amp; toplu alım</p>
-            <h2>Büyük projeler için<br /><em>birlikte planlayalım.</em></h2>
+          <div>
+            <p className="eyebrow">KURUMSAL &amp; TOPLU ALIM</p>
+            <h2>
+              Büyük projeler için
+              <br />
+              <em>birlikte planlayalım.</em>
+            </h2>
             <p>
-              Teknik şartnameye göre ürün eşleştirip birim fiyat teklif cetvelini hazırlıyoruz.
-              Şartnameyi gönderin, aynı gün dönelim.
+              Belediye, şantiye ve filo alımlarında ürünlerinizi ve adetlerinizi
+              seçin. İhtiyaç listenizle toplu alım teklifinizi isteyin.
             </p>
           </div>
           <div className="business-side">
-            <Link href="/iletisim" className="btn">
-              Toplu teklif oluştur <ArrowUpRight className="icon" size={18} strokeWidth={2.2} aria-hidden />
+            <Link className="btn" href="/iletisim">
+              Toplu teklif oluştur <ArrowUpRight className="icon" />
             </Link>
-            <div className="business-list">
-              {["Şartnamedeki her kalem için ürün eşleştirmesi",
-                "Ürün kodu ve teknik özellikleriyle birlikte teklif",
-                "Jandarma, Yargıtay ve Hacettepe dahil kamu teslimatı"].map((t) => (
-                <span key={t}>
-                  <Check className="icon" size={14} strokeWidth={2.6} aria-hidden />{t}
-                </span>
-              ))}
-            </div>
+            <ul>
+              <li>Şartnamenize uygun ürünleri birlikte belirleyelim</li>
+              <li>Ürün kodu ve teknik özellikleri birlikte görün</li>
+              <li>İhtiyaç listenizle bize ulaşın</li>
+            </ul>
           </div>
         </section>
-      </div>
-
-      {/* REFERANSLAR */}
-      <section className="section">
-        <div className="wrap">
-          <div className="section-heading">
-            <div><h2>Teslim ettiğimiz kurumlar</h2></div>
-          </div>
-        </div>
-        <Referanslar />
-      </section>
-
-      {/* REHBERLER */}
-      <section className="section" style={{ paddingTop: 0 }}>
-        <div className="wrap">
+        <section className="section">
           <div className="section-heading">
             <div>
               <h2>Doğru ürünü seçmek kolay.</h2>
               <p>Satın almadan önce ihtiyacınıza uygun özellikleri keşfedin.</p>
             </div>
-            <Link href="/blog" className="text-link" prefetch={false}>
-              Tüm rehberler <ArrowUpRight className="icon" size={16} strokeWidth={2.2} aria-hidden />
+            <Link href="/blog" className="text-link">
+              Tüm rehberler <ArrowRight className="icon" />
             </Link>
           </div>
           <div className="guide-grid">
-            {tumYazilar().slice(0, 3).map((y, i) => (
-              <Link key={y.slug} href={`/blog/${y.slug}`} className="guide-card" prefetch={false}>
-                <span className="no">{String(i + 1).padStart(2, "0")}</span>
-                <span>
-                  <h3>{y.baslik}</h3>
-                  <p>{y.ozet}</p>
-                  <span className="text-link">
-                    Rehberi incele
-                    <ArrowUpRight className="icon" size={14} strokeWidth={2.2} aria-hidden />
-                  </span>
-                </span>
-              </Link>
-            ))}
+            {tumYazilar()
+              .slice(0, 3)
+              .map((y, i) => (
+                <Link
+                  key={y.slug}
+                  href={`/blog/${y.slug}`}
+                  className="guide-card"
+                >
+                  <span className="guide-number">0{i + 1}</span>
+                  <div>
+                    <h3>{y.baslik}</h3>
+                    <p>{y.ozet}</p>
+                    <span className="text-link">
+                      Rehberi incele <ArrowUpRight className="icon" />
+                    </span>
+                  </div>
+                </Link>
+              ))}
           </div>
-        </div>
-      </section>
+        </section>
+      </div>
     </main>
   );
 }

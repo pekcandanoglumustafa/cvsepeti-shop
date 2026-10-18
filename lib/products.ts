@@ -69,7 +69,9 @@ const tumUrunler: Product[] = (products as unknown as HamUrun[]).map((p) => {
  * ödeme testi yapılabilsin — ama hiçbir listede, sitemap'te ya da aramada yok.
  */
 export const TEST_URUN_ID = "TEST-1";
-export const allProducts: Product[] = tumUrunler.filter((p) => p.id !== TEST_URUN_ID);
+export const allProducts: Product[] = tumUrunler.filter(
+  (p) => p.id !== TEST_URUN_ID,
+);
 
 /**
  * Liste ve filtre bileşenlerine giden hafif ürün.
@@ -86,10 +88,27 @@ export const allProducts: Product[] = tumUrunler.filter((p) => p.id !== TEST_URU
  */
 export type KartUrun = Pick<
   Product,
-  | "id" | "slug" | "name" | "kod" | "category" | "boyut" | "stock"
-  | "price" | "price_kdv" | "images"
-  | "f_boy" | "f_malzeme" | "f_reflektif" | "f_taban" | "f_seri"
-  | "olcu3" | "geo" | "agirlik_kg"
+  | "id"
+  | "slug"
+  | "name"
+  | "kod"
+  | "category"
+  | "boyut"
+  | "stock"
+  | "price"
+  | "price_kdv"
+  | "images"
+  | "montaj_dahil"
+  | "malzeme"
+  | "reflektif"
+  | "f_boy"
+  | "f_malzeme"
+  | "f_reflektif"
+  | "f_taban"
+  | "f_seri"
+  | "olcu3"
+  | "geo"
+  | "agirlik_kg"
 > & {
   agirlikli?: boolean;
   koli_olcu?: number[];
@@ -97,15 +116,33 @@ export type KartUrun = Pick<
 };
 
 export const kartUrun = (p: Product): KartUrun => ({
-  id: p.id, slug: p.slug, name: p.name, kod: p.kod, category: p.category, boyut: p.boyut,
-  stock: p.stock, price: p.price, price_kdv: p.price_kdv, images: p.images,
-  f_boy: p.f_boy, f_malzeme: p.f_malzeme, f_reflektif: p.f_reflektif,
-  f_taban: p.f_taban, f_seri: p.f_seri,
-  olcu3: p.olcu3, geo: p.geo, agirlik_kg: p.agirlik_kg,
-  agirlikli: p.agirlikli, koli_olcu: p.koli_olcu, koli_adet: p.koli_adet,
+  id: p.id,
+  slug: p.slug,
+  name: p.name,
+  kod: p.kod,
+  category: p.category,
+  boyut: p.boyut,
+  montaj_dahil: p.montaj_dahil,
+  malzeme: p.malzeme, reflektif: p.reflektif,
+  stock: p.stock,
+  price: p.price,
+  price_kdv: p.price_kdv,
+  images: p.images,
+  f_boy: p.f_boy,
+  f_malzeme: p.f_malzeme,
+  f_reflektif: p.f_reflektif,
+  f_taban: p.f_taban,
+  f_seri: p.f_seri,
+  olcu3: p.olcu3,
+  geo: p.geo,
+  agirlik_kg: p.agirlik_kg,
+  agirlikli: p.agirlikli,
+  koli_olcu: p.koli_olcu,
+  koli_adet: p.koli_adet,
 });
 
-export const kartUrunler = (liste: Product[]): KartUrun[] => liste.map(kartUrun);
+export const kartUrunler = (liste: Product[]): KartUrun[] =>
+  liste.map(kartUrun);
 
 /**
  * Müşterinin isteğine göre üretilen ürünler (özel baskı, dekota baskı).
@@ -143,7 +180,7 @@ export const olcuBilinmiyor = (p: { olcu3?: number[] }) => {
 };
 
 export const categories = Array.from(
-  new Set(allProducts.map((p) => p.category))
+  new Set(allProducts.map((p) => p.category)),
 ).sort();
 
 export const categorySlug = (cat: string) =>
@@ -187,5 +224,5 @@ export const cleanDescription = (name: string, desc: string) => {
 };
 
 /** KDV hariç büyük, KDV dahil küçük gösterim için */
-export const KDV_ORANI = 0.20;
+export const KDV_ORANI = 0.2;
 export const kdvDahil = (haricFiyat: number) => haricFiyat * (1 + KDV_ORANI);

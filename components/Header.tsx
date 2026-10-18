@@ -3,13 +3,21 @@ import Link from "next/link";
 import Logo from "@/components/Logo";
 import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
-import { Menu, X, ShoppingBag, Search, Phone, LayoutGrid, ArrowUpRight } from "lucide-react";
-import { categories, categorySlug } from "@/lib/products";
+import {
+  Menu,
+  X,
+  ShoppingBag,
+  Search,
+  Phone,
+  LayoutGrid,
+  ArrowUpRight,
+} from "lucide-react";
+import { categorySlug } from "@/lib/products";
 import { useCart } from "@/lib/cart";
 import { FIRMA } from "@/lib/firma";
 
 /** Üst menüde duran kategoriler — en çok satılan gruplar. */
-const MENU = ["Trafik Konisi", "Delinatör", "Hız Kesici Kasis", "Güvenlik Bariyeri", "Araç Stoperi"];
+const MENU = ["Trafik Konisi", "Delinatör"];
 
 export default function Header() {
   const router = useRouter();
@@ -46,11 +54,23 @@ export default function Header() {
           </Link>
 
           <form className="search" role="search" onSubmit={ara}>
-            <Search size={17} strokeWidth={2.2} style={{ color: "#7C8586", flexShrink: 0 }} aria-hidden />
-            <label className="sr-only" htmlFor="header-arama">Ürün, kategori veya ürün kodu ara</label>
-            <input id="header-arama" name="q" autoComplete="off" value={q}
-                   onChange={(e) => setQ(e.target.value)}
-                   placeholder="Ürün, kategori veya ürün kodu ara…" />
+            <Search
+              size={17}
+              strokeWidth={2.2}
+              style={{ color: "#7C8586", flexShrink: 0 }}
+              aria-hidden
+            />
+            <label className="sr-only" htmlFor="header-arama">
+              Ürün, kategori veya ürün kodu ara
+            </label>
+            <input
+              id="header-arama"
+              name="q"
+              autoComplete="off"
+              value={q}
+              onChange={(e) => setQ(e.target.value)}
+              placeholder="Ürün, kategori veya ürün kodu ara…"
+            />
             <button type="submit" aria-label="Ara">
               <ArrowUpRight size={17} strokeWidth={2.2} />
             </button>
@@ -64,53 +84,48 @@ export default function Header() {
             </span>
           </a>
 
-          <button className="cart-trigger" aria-label={`Sepetim, ${mounted ? count : 0} ürün`}
-                  onClick={() => window.dispatchEvent(new CustomEvent("cart:open"))}>
+          <button
+            className="cart-trigger"
+            aria-label={`Sepetim, ${mounted ? count : 0} ürün`}
+            onClick={() => window.dispatchEvent(new CustomEvent("cart:open"))}
+          >
             <ShoppingBag size={20} strokeWidth={2.1} aria-hidden />
             <span className="cart-label">Sepetim</span>
             <b>{mounted ? count : 0}</b>
           </button>
 
-          <button className="menu-toggle icon-button" onClick={() => setOpen(!open)}
-                  aria-label="Menü" aria-expanded={open}>
+          <button
+            className="menu-toggle icon-button"
+            onClick={() => setOpen(!open)}
+            aria-label="Menü"
+            aria-expanded={open}
+          >
             {open ? <X size={22} /> : <Menu size={22} />}
           </button>
         </div>
 
-        <div className="nav-shell">
-          <nav className="wrap main-nav" aria-label="Ana menü">
+        <div className={`nav-shell${open ? " mobile-open" : ""}`}>
+          <nav
+            onClick={() => setOpen(false)}
+            className="wrap main-nav"
+            aria-label="Ana menü"
+          >
             <Link href="/urunler" className="all-products">
               <LayoutGrid size={16} strokeWidth={2.2} aria-hidden /> Tüm ürünler
             </Link>
             {MENU.map((c) => (
-              <Link key={c} href={`/kategori/${categorySlug(c)}`}>{c}</Link>
+              <Link key={c} href={`/kategori/${categorySlug(c)}`}>
+                {c}
+              </Link>
             ))}
+            <Link href="/urunler?use=otopark">Otopark ürünleri</Link>
             <Link href="/blog">Ürün seçim rehberi</Link>
             <Link href="/iletisim" className="nav-business">
-              Kurumsal &amp; toplu alım <ArrowUpRight size={15} strokeWidth={2.2} aria-hidden />
+              Kurumsal &amp; toplu alım{" "}
+              <ArrowUpRight size={15} strokeWidth={2.2} aria-hidden />
             </Link>
           </nav>
         </div>
-
-        {open && (
-          <div style={{ background: "var(--paper)", borderBottom: "1px solid var(--line)",
-                        maxHeight: "70vh", overflowY: "auto", padding: "6px 0 20px" }}>
-            <div className="wrap">
-              {categories.map((c) => (
-                <Link key={c} href={`/kategori/${categorySlug(c)}`} onClick={() => setOpen(false)}
-                      style={{ display: "block", padding: "13px 0", fontSize: 13.5, fontWeight: 600,
-                               borderBottom: "1px solid var(--hair)" }}>
-                  {c}
-                </Link>
-              ))}
-              <Link href="/iletisim" onClick={() => setOpen(false)}
-                    style={{ display: "block", padding: "15px 0 0", fontSize: 13.5,
-                             fontWeight: 700, color: "var(--orange)" }}>
-                Kurumsal &amp; toplu alım
-              </Link>
-            </div>
-          </div>
-        )}
       </header>
     </>
   );
