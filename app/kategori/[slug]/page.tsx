@@ -4,6 +4,7 @@ import { allProducts, categories, categorySlug, categoryBySlug, kartUrunler } fr
 import ProductFilters from "@/components/ProductFilters";
 import { OG_DEFAULTS, breadcrumbLd } from "@/lib/site";
 import { sayfaBasligi, aciklama } from "@/lib/seo";
+import { KATEGORI_ICERIK } from "@/data/kategori_icerik";
 
 export function generateStaticParams() {
   return categories.map((c) => ({ slug: categorySlug(c) }));
@@ -14,11 +15,12 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const n = c ? allProducts.filter((p) => p.category === c).length : 0;
   return {
     title: { absolute: sayfaBasligi(c ? `${c} — ${n} ürün` : "Kategori") },
+    // Kategori tanıtım metninin ilk cümlesi, jenerik "filtreleyin" cümlesinden
+    // çok daha iyi tıklama çekiyor — arama sonucunda görünen metin bu.
     description: c
       ? aciklama(
-          `${c} kategorisinde ${n} ürün.`,
-          "Ölçü, malzeme ve reflektif tipine göre filtreleyin.",
-          "Stokta, 1-2 iş gününde kargoda.",
+          KATEGORI_ICERIK[c]?.giris.split(". ")[0] + ".",
+          `${n} ürün, ölçü ve malzemesiyle listeli.`,
         )
       : undefined,
     alternates: { canonical: `/kategori/${slug}` },
@@ -32,6 +34,7 @@ export default async function Kategori({ params }: { params: Promise<{ slug: str
   if (!cat) notFound();
   const items = allProducts.filter((p) => p.category === cat);
   const digerleri = categories.filter((c) => c !== cat).slice(0, 10);
+  const icerik = KATEGORI_ICERIK[cat];
 
   return (
     <main style={{ maxWidth: 1520, margin: "0 auto", padding: "40px 24px" }}>
@@ -41,9 +44,27 @@ export default async function Kategori({ params }: { params: Promise<{ slug: str
       <Link href="/urunler" className="eyebrow" style={{ color: "var(--dim)", textDecoration: "none" }}>← Katalog</Link>
       <h1 className="display d2" style={{ marginTop: 16 }}>{cat}</h1>
       <p className="label" style={{ color: "var(--dim)", marginTop: 14 }}>{items.length} ürün</p>
+      {icerik && (
+        <p style={{ marginTop: 18, maxWidth: 760, fontSize: 15.5, lineHeight: 1.75, color: "var(--muted)" }}>
+          {icerik.giris}
+        </p>
+      )}
       <div className="rule" style={{ margin: "32px 0 30px" }} />
 
       <ProductFilters urunler={kartUrunler(items)} baslik={cat} />
+
+      {icerik && (
+        <section style={{ maxWidth: 760, margin: "76px 0 0" }}>
+          <div className="band" style={{ marginBottom: 34 }} />
+          <h2 className="display d3" style={{ marginBottom: 8 }}>{cat} seçim rehberi</h2>
+          {icerik.bolumler.map((b) => (
+            <div key={b.baslik} style={{ marginTop: 30 }}>
+              <h3 style={{ fontSize: 17, fontWeight: 800, letterSpacing: "-.01em", marginBottom: 9 }}>{b.baslik}</h3>
+              <p style={{ fontSize: 15, lineHeight: 1.8, color: "var(--muted)", margin: 0 }}>{b.metin}</p>
+            </div>
+          ))}
+        </section>
+      )}
 
       <div className="hair" style={{ margin: "70px 0 24px" }} />
       <p className="eyebrow" style={{ color: "var(--dim)", marginBottom: 14 }}>Diğer kategoriler</p>
