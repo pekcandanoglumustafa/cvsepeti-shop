@@ -7,5 +7,5 @@
     <rect x="4.6" y="25.8" width="22.8" height="3.4" rx="0.6" fill="#000"/>
   </g>
   <text x="40" y="30" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-weight="900"
-        font-size="23" letter-spacing="-1" fill="#000">trafikurunleri<tspan fill="#FF3B00">.com</tspan></text>
+        font-size="23" letter-spacing="-1" fill="#000">trafikurunleri<tspan fill="#E95325">.com</tspan></text>
 </svg>
