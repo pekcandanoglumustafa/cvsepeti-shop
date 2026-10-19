@@ -1,17 +1,11 @@
-<!-- Kurumsal logo — layout.tsx'teki Organization şemasına bağlı; Google
-     arama sonuçlarında ve bilgi panelinde bu görsel çıkıyor.
-     Başlıktaki işaretin ve marka yazısının aynısı. Eski sürüm ince çizgili
-     koniyi ve artık kullanılmayan #FF3B00 turuncusunu taşıyordu, yani
-     aramada görünen logo sitedekinden başkaydı.
-     Yazı burada gömülü font olmadan çizilmek zorunda (Google webfont
-     yüklemez), bu yüzden ağır bir sistem sans yığını kullanılıyor. -->
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 60" width="300" height="60">
-  <rect width="300" height="60" fill="#FFFFFF"/>
-  <g transform="translate(14,11)">
-    <path d="M13 3h10l4 10H9zM7 17h22l4 10H3zM1 31h34v5H1z" fill="#E95325"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 44" width="300" height="44">
+  <rect width="300" height="44" fill="#fff"/>
+  <g transform="translate(2,6)">
+    <path d="M14.6 3.2h2.8c.5 0 .9.3 1.05.8l5.7 21.4H8.85L14.55 4c.15-.5.55-.8 1.05-.8Z" fill="#000"/>
+    <rect x="11.4" y="12.2" width="9.2" height="2.9" fill="#fff"/>
+    <rect x="9.7" y="18.6" width="12.6" height="2.9" fill="#fff"/>
+    <rect x="4.6" y="25.8" width="22.8" height="3.4" rx="0.6" fill="#000"/>
   </g>
-  <text x="60" y="39"
-        font-family="Manrope, 'Helvetica Neue', Helvetica, Arial, sans-serif"
-        font-weight="800" font-size="27" letter-spacing="-1.4" fill="#1D2A30">trafik<tspan
-        font-weight="500">urunleri</tspan><tspan font-size="13" font-weight="500">.com</tspan></text>
+  <text x="40" y="30" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-weight="900"
+        font-size="23" letter-spacing="-1" fill="#000">trafikurunleri<tspan fill="#FF3B00">.com</tspan></text>
 </svg>
