@@ -24,7 +24,10 @@ async function* dosyalar(dir) {
   for (const e of await readdir(dir, { withFileTypes: true })) {
     const p = path.join(dir, e.name);
     if (e.isDirectory()) yield* dosyalar(p);
-    else if (/\.(webp|jpe?g|png)$/i.test(e.name)) yield p;
+    // _HATALI ön eki karantina: yanlış ürünü gösterdiği tespit edilmiş
+    // görseller bu adla saklanıyor, hiçbir ürüne bağlı değil. Kart kopyası
+    // üretmek karantinayı delmek olur.
+    else if (!e.name.startsWith('_HATALI') && /\.(webp|jpe?g|png)$/i.test(e.name)) yield p;
   }
 }
 
