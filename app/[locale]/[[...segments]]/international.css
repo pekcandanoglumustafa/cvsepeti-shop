@@ -1,0 +1,20 @@
+/* Isolated international storefront; the existing Turkish storefront is unchanged. */
+body:has(.intl-shell) > .topline,
+body:has(.intl-shell) > .site-header,
+body:has(.intl-shell) > .footer,
+body:has(.intl-shell) > .floating-contact {display:none!important}
+.intl-shell { --i-ink:#1e2128; --i-accent:#e8590c; --i-bg:#f4f2ed; --i-line:#e4e0d9; background:white;color:var(--i-ink);font-family:inherit;min-height:100vh; }
+.intl-shell *{box-sizing:border-box}
+.intl-wrap{max-width:1240px;margin:0 auto;padding-inline:22px}
+.intl-shell a{color:inherit;text-decoration:none}
+.intl-header{background:white;position:relative;z-index:30}
+.intl-header-top{background:#252a31;color:#fff;font-size:12px;letter-spacing:.02em}
+.intl-top-line{display:flex;justify-content:space-between;gap:20px;padding-block:10px}
+.intl-header-center{display:flex;align-items:center;gap:22px;min-height:93px}
+.intl-brand{font-size:25px;font-weight:900;letter-spacing:-.075em;white-space:nowrap}
+.intl-brand span{color:var(--i-accent)}.intl-brand small{font-size:10px;letter-spacing:.02em;margin-inline-start:2px}
+.intl-search{display:flex;border:1px solid var(--i-line);border-radius:6px;overflow:hidden;flex:1}
+.intl-search input,.intl-list-controls input,.intl-list-controls select{padding:13px 14px;border:0;background:#fff;color:var(--i-ink);min-width:0;font-family:inherit}
+.intl-search input{flex:1}
+.intl-search button{padding:12px 18px;background:var(--i-accent);border:0;color:#fff;font-weight:750;cursor:pointer}
+.intl-c¶»§q«^
