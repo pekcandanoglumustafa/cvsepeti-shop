@@ -11,4 +11,8 @@
  * Yeni görsel eklendiğinde script yeniden çalıştırılmalı.
  */
 export const kartGorseli = (yol: string | undefined | null): string =>
-  (yol || "").replace(/^\/images\//, "/kart/").replace(/\.(jpe?g|png)$/i, ".webp");
+  // Yollar "?v=…" sürüm eki taşıyabilir (scripts/gorsel-surum.mjs); uzantı
+  // değişimi ekin önündeki kısma uygulanır, ek kart kopyasına da taşınır.
+  (yol || "")
+    .replace(/^\/images\//, "/kart/")
+    .replace(/\.(jpe?g|png)(?=\?|$)/i, ".webp");

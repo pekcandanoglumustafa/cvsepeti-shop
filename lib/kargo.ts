@@ -121,7 +121,11 @@ export function buyukHacimli(o: { olcu3: number[]; geo: Geo; agirlik_kg: number 
   return en > BUYUK_KENAR || urunDesi(o) > BUYUK_DESI;
 }
 
+/** Kargo fiyatlara dahildir (Kasım 2026 kararı) — müşteriden ayrıca kargo alınmaz. */
+export const KARGO_DAHIL = true;
+
 export function kargoUcreti(desi: number) {
+  if (KARGO_DAHIL) return 0;
   if (desi <= 0) return 0;
   if (desi <= TABAN_DESI) return TABAN_UCRET;
   let u = TABAN_UCRET, alt = TABAN_DESI;

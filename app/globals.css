@@ -1216,6 +1216,35 @@ button[hidden],
     transform 0.2s,
     border-color 0.2s;
 }
+.use-card {
+  padding-top: 0;
+  overflow: hidden;
+}
+.use-photo {
+  position: relative;
+  display: block;
+  width: calc(100% + 50px);
+  margin: 0 -25px 18px;
+  aspect-ratio: 4 / 3;
+  background: #e9ece6;
+  overflow: hidden;
+}
+.use-photo img {
+  object-fit: cover;
+  transition: transform 0.5s;
+}
+.use-card:hover .use-photo img {
+  transform: scale(1.04);
+}
+.use-card .use-icon {
+  margin-bottom: 12px;
+}
+section.business-banner {
+  background:
+    linear-gradient(90deg, rgba(24, 34, 37, 0.97) 0%, rgba(24, 34, 37, 0.9) 48%, rgba(24, 34, 37, 0.62) 100%),
+    url("/images/sahne/kurumsal-depo.webp") center / cover no-repeat,
+    #202e32;
+}
 .use-card:hover {
   transform: translateY(-3px);
   border-color: #aab5a9;

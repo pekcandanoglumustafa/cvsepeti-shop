@@ -1,15 +1,13 @@
 "use client";
 import { Truck, Wallet, Package, Check } from "lucide-react";
 import { useCart } from "@/lib/cart";
-import { TABAN_UCRET, TABAN_DESI, kargoUcreti, urunDesi, formatTL, buyukHacimli } from "@/lib/kargo";
+import { urunDesi, buyukHacimli, KARGO_DAHIL } from "@/lib/kargo";
 import type { Product } from "@/lib/products";
 
 /** Ürün sayfasında kargo maliyetini ve ödeme seçeneklerini önceden gösterir */
 export default function KargoBilgi({ product }: { product: Product }) {
   const { kargoOdeme, setKargoOdeme } = useCart();
   const o = { olcu3: product.olcu3 || [25, 20, 12], geo: (product.geo || "HACIMLI") as any, agirlik_kg: product.agirlik_kg || 0 };
-  const desi = urunDesi(o);
-  const ucret = kargoUcreti(desi);
   const buyuk = buyukHacimli(o);
 
   return (
@@ -27,16 +25,16 @@ export default function KargoBilgi({ product }: { product: Product }) {
       ) : (
         <>
           <div style={{ display: "flex", justifyContent: "space-between", fontSize: 13.5, padding: "5px 0" }}>
-            <span style={{ color: "var(--muted)" }}>1 adet için</span>
-            <span style={{ fontWeight: 700 }}>{desi} desi · {formatTL(ucret)}</span>
+            <span style={{ color: "var(--muted)" }}>Kargo</span>
+            <span style={{ fontWeight: 700 }}>Ücretsiz · fiyata dahil</span>
           </div>
           <p style={{ fontSize: 12, color: "var(--dim)", marginTop: 6, lineHeight: 1.6 }}>
-            Adet arttıkça ürünler tek koliye istiflendiği için desi orantılı artmaz.
-            Kesin tutar sepette görünür.
+            Tüm Türkiye'ye Yurtiçi Kargo ile gönderilir, ayrıca kargo ücreti alınmaz.
           </p>
         </>
       )}
 
+      {!KARGO_DAHIL && (<>
       <div className="hair" style={{ margin: "14px 0" }} />
 
       <p className="eyebrow" style={{ color: "var(--dim)", marginBottom: 10 }}>Kargoyu nasıl ödersiniz</p>
@@ -60,6 +58,7 @@ export default function KargoBilgi({ product }: { product: Product }) {
           )
         )}
       </div>
+      </>)}
     </div>
   );
 }

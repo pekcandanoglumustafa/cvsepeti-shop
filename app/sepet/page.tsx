@@ -6,7 +6,7 @@ import Image from "next/image";
 import { useEffect, useState } from "react";
 import { Trash2 } from "lucide-react";
 import { useCart } from "@/lib/cart";
-import { formatTL, TABAN_UCRET, TABAN_DESI } from "@/lib/kargo";
+import { formatTL } from "@/lib/kargo";
 
 export default function Sepet() {
   const { items, remove, setQty, total, totalKdv, kdvTutar, kargoDesi, kargo, genelToplam,
@@ -91,9 +91,7 @@ export default function Sepet() {
           <div style={{ marginTop: 18, padding: 14, background: "var(--tile)" }}>
             <p className="eyebrow" style={{ marginBottom: 8 }}>Kargo nasıl hesaplanır</p>
             <p style={{ fontSize: 12, color: "var(--muted)", lineHeight: 1.65 }}>
-              Yurtiçi Kargo · İlk {TABAN_DESI} desi {TABAN_UCRET} ₺, sonrası kademeli.
-              Aynı üründen birden fazla alındığında ürünler iç içe/istifli gönderildiği için
-              ek adetler tam desi eklemez.
+              Yurtiçi Kargo ile gönderilir. Kargo ücreti ürün fiyatlarına dahildir, ayrıca kargo bedeli alınmaz.
             </p>
           </div>
         </aside>

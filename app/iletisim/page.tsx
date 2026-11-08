@@ -28,6 +28,7 @@ export default function Iletisim() {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(sema) }} />
       <MetinSayfasi
+        gorsel="/images/sahne/iletisim.webp"
         ustBaslik="İletişim"
         baslik="Bize ulaşın"
         giris="Teklif, stok durumu, toplu alım ve teknik sorular için doğrudan arayabilir ya da yazabilirsiniz. Kamu kurumları için birim fiyat teklif cetveli hazırlıyoruz."
