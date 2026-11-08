@@ -2,9 +2,12 @@ import type { ReactNode } from "react";
 
 /** Sözleşme / bilgilendirme sayfaları için ortak düzen. */
 export default function MetinSayfasi({
-  ustBaslik, baslik, giris, guncelleme, children,
+  ustBaslik, baslik, giris, guncelleme, gorsel, children,
 }: {
-  ustBaslik: string; baslik: string; giris?: string; guncelleme?: string; children: ReactNode;
+  ustBaslik: string; baslik: string; giris?: string; guncelleme?: string;
+  /** İsteğe bağlı geniş fotoğraf şeridi (tanıtım sayfaları için; sözleşmelerde kullanılmıyor). */
+  gorsel?: string;
+  children: ReactNode;
 }) {
   return (
     <main style={{ maxWidth: 820, margin: "0 auto", padding: "48px 24px 96px" }}>
@@ -13,7 +16,18 @@ export default function MetinSayfasi({
       {giris && (
         <p style={{ marginTop: 18, fontSize: 16, lineHeight: 1.75, color: "var(--muted)" }}>{giris}</p>
       )}
-      <div className="rule" style={{ margin: "34px 0 30px" }} />
+      {gorsel ? (
+        <img
+          src={gorsel}
+          alt=""
+          width={1584}
+          height={672}
+          loading="eager"
+          style={{ display: "block", width: "100%", aspectRatio: "21 / 9", objectFit: "cover", borderRadius: 12, margin: "34px 0 36px", background: "#eef0eb" }}
+        />
+      ) : (
+        <div className="rule" style={{ margin: "34px 0 30px" }} />
+      )}
       <div className="metin">{children}</div>
       {guncelleme && (
         <p className="eyebrow" style={{ color: "var(--dim)", marginTop: 48 }}>

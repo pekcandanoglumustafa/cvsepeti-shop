@@ -29,6 +29,7 @@ export default function Hakkimizda() {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(sema) }} />
       <MetinSayfasi
+        gorsel="/images/sahne/hakkimizda.webp"
         ustBaslik="Hakkımızda"
         baslik="Yol güvenliğinde tedarikçiniz"
         giris={`${FIRMA.konum} merkezli olarak trafik güvenliği, yol işaretleme ve iş güvenliği ekipmanları tedarik ediyoruz. Katalogda ${allProducts.length} ürün, ${categories.length} kategori var.`}
