@@ -1,5 +1,6 @@
 import MetinSayfasi from "@/components/MetinSayfasi";
 import { FIRMA } from "@/lib/firma";
+import { KARGO_DAHIL } from "@/lib/kargo";
 import { allProducts, categories } from "@/lib/products";
 import { OG_DEFAULTS, SITE_URL, abs, breadcrumbLd } from "@/lib/site";
 
@@ -57,8 +58,8 @@ export default function Hakkimizda() {
 
         <h2>Nasıl çalışıyoruz</h2>
         <ul>
-          <li>Sipariş {FIRMA.kargo} ile gönderilir, kargo ücreti desi üzerinden hesaplanır.</li>
-          <li>Ödeme {FIRMA.odeme} altyapısı üzerinden kredi/banka kartı ya da havale ile alınır.</li>
+          <li>{`Sipariş ${FIRMA.kargo} ile gönderilir, ${KARGO_DAHIL ? "kargo ücreti fiyatlara dahildir." : "kargo ücreti desi üzerinden hesaplanır."}`}</li>
+          <li>{`Ödeme ${FIRMA.odeme} altyapısı üzerinden kredi/banka kartı ya da havale ile alınır.`}</li>
           <li>Kurumsal alımlarda fatura ve gerekli evrak sipariş öncesi hazırlanır.</li>
           <li>Ölçü ya da uygunluk sorusu olan ürünlerde WhatsApp'tan teknik destek veriyoruz.</li>
         </ul>

@@ -1,10 +1,11 @@
 import MetinSayfasi from "@/components/MetinSayfasi";
 import { FIRMA } from "@/lib/firma";
+import { KARGO_DAHIL } from "@/lib/kargo";
 import { OG_DEFAULTS } from "@/lib/site";
 
 export const metadata = {
   title: "Teslimat ve İade",
-  description: `${FIRMA.marka} teslimat ve iade koşulları. ${FIRMA.kargo} ile gönderim, desi üzerinden kargo ücreti, ${FIRMA.caymaGun} gün cayma hakkı, hasarlı ürün ve iade süreci.`,
+  description: `${FIRMA.marka} teslimat ve iade koşulları. ${FIRMA.kargo} ile gönderim, ${KARGO_DAHIL ? "fiyatlara dahil kargo" : "desi üzerinden kargo ücreti"}, ${FIRMA.caymaGun} gün cayma hakkı, hasarlı ürün ve iade süreci.`,
   alternates: { canonical: "/teslimat-ve-iade" },
   openGraph: { ...OG_DEFAULTS, url: "/teslimat-ve-iade", title: "Teslimat ve İade" },
 };
@@ -23,17 +24,25 @@ export default function TeslimatIade() {
           <tr><td>Kargo firması</td><td>{FIRMA.kargo}</td></tr>
           <tr><td>Kargoya veriliş</td><td>Stoktaki ürünlerde 1-2 iş günü</td></tr>
           <tr><td>Teslim süresi</td><td>Kargoya verildikten sonra 1-3 iş günü</td></tr>
-          <tr><td>Yasal azami süre</td><td>Sipariş onayından itibaren {FIRMA.teslimatGun} gün</td></tr>
-          <tr><td>Kargo ücreti</td><td>Ürünün desisi üzerinden ödeme adımında hesaplanır</td></tr>
+          <tr><td>Yasal azami süre</td><td>{`Sipariş onayından itibaren ${FIRMA.teslimatGun} gün`}</td></tr>
+          <tr><td>Kargo ücreti</td><td>{KARGO_DAHIL ? "Fiyatlara dahildir, ödeme adımında ayrıca eklenmez" : "Ürünün desisi üzerinden ödeme adımında hesaplanır"}</td></tr>
           <tr><td>Gönderim bölgesi</td><td>Türkiye geneli</td></tr>
         </tbody>
       </table>
-      <p>
-        Trafik konisi, bariyer ve kasis gibi hacimli ürünlerde kargo bedeli ağırlığa değil{" "}
-        <strong>desiye</strong> göre hesaplanır. Toplu alımlarda palet ya da kamyon sevkiyatı daha
-        uygun olabilir; bu durumda <a href="/iletisim">bizimle görüşün</a>, nakliyeyi ayrıca
-        fiyatlandıralım.
-      </p>
+      {KARGO_DAHIL ? (
+        <p>
+          Standart kargoya sığmayan büyük hacimli ürünlerde teslimat şeklini sipariş sonrası sizinle
+          netleştiririz. Toplu alımlarda palet ya da kamyon sevkiyatı daha uygun olabilir; bu durumda
+          nakliyeyi ayrıca planlarız. <a href="/iletisim">Bizimle görüşün</a>
+        </p>
+      ) : (
+        <p>
+          Trafik konisi, bariyer ve kasis gibi hacimli ürünlerde kargo bedeli ağırlığa değil{" "}
+          <strong>desiye</strong> göre hesaplanır. Toplu alımlarda palet ya da kamyon sevkiyatı daha
+          uygun olabilir; bu durumda <a href="/iletisim">bizimle görüşün</a>, nakliyeyi ayrıca
+          fiyatlandıralım.
+        </p>
+      )}
 
       <h2>Teslim alırken</h2>
       <ul>
@@ -43,24 +52,22 @@ export default function TeslimatIade() {
           tutanak tutturun.
         </li>
         <li>
-          Hasarlı teslim aldıysanız 48 saat içinde fotoğraflarla birlikte{" "}
-          <a href={`mailto:${FIRMA.eposta}`}>{FIRMA.eposta}</a> adresine yazın; ürünü ücretsiz
-          değiştiriyoruz.
+          Hasarlı teslim aldıysanız 48 saat içinde fotoğraflarla birlikte bize yazın; ürünü ücretsiz
+          değiştiriyoruz. E-posta: <a href={`mailto:${FIRMA.eposta}`}>{FIRMA.eposta}</a>
         </li>
       </ul>
 
       <h2>Cayma hakkı ve iade</h2>
       <p>
-        Tüketici sıfatıyla alışveriş yaptıysanız, ürünü teslim aldığınız günden itibaren{" "}
-        <strong>{FIRMA.caymaGun} gün</strong> içinde gerekçe göstermeden iade edebilirsiniz.
+        {`Tüketici sıfatıyla alışveriş yaptıysanız, ürünü teslim aldığınız günden itibaren ${FIRMA.caymaGun} gün içinde gerekçe göstermeden iade edebilirsiniz.`}
       </p>
 
       <h3>İade nasıl yapılır</h3>
       <ol>
         <li>
-          <a href={`mailto:${FIRMA.eposta}`}>{FIRMA.eposta}</a> adresine ya da{" "}
-          <a href={FIRMA.whatsapp} rel="noopener">WhatsApp</a> üzerinden sipariş numaranızla
-          birlikte iade talebinizi iletin.
+          İade talebinizi sipariş numaranızla birlikte iletin:{" "}
+          <a href={`mailto:${FIRMA.eposta}`}>{FIRMA.eposta}</a> ·{" "}
+          <a href={FIRMA.whatsapp} rel="noopener">WhatsApp</a>
         </li>
         <li>Size iade kargo kodunu ve gönderim adresini iletelim.</li>
         <li>Ürünü kutusu ve varsa aksesuarlarıyla, yeniden satılabilir durumda gönderin.</li>

@@ -1,5 +1,6 @@
 import MetinSayfasi from "@/components/MetinSayfasi";
 import { FIRMA } from "@/lib/firma";
+import { KARGO_DAHIL } from "@/lib/kargo";
 import { OG_DEFAULTS, SITE_URL, abs, breadcrumbLd } from "@/lib/site";
 
 export const metadata = {
@@ -70,9 +71,11 @@ export default function Iletisim() {
 
         <h2>Sipariş ve kargo soruları</h2>
         <p>
-          Kargo ücreti ürünün desisi üzerinden ödeme adımında hesaplanır; gönderim{" "}
-          {FIRMA.kargo} ile yapılır. Teslimat, iade ve cayma hakkı için{" "}
-          <a href="/teslimat-ve-iade">Teslimat ve İade</a> sayfasına bakabilirsiniz.
+          {KARGO_DAHIL
+            ? `Kargo ücreti fiyatlara dahildir; gönderim ${FIRMA.kargo} ile yapılır.`
+            : `Kargo ücreti ürünün desisi üzerinden ödeme adımında hesaplanır; gönderim ${FIRMA.kargo} ile yapılır.`}{" "}
+          Teslimat, iade ve cayma hakkı ayrıntıları:{" "}
+          <a href="/teslimat-ve-iade">Teslimat ve İade</a>
         </p>
       </MetinSayfasi>
     </>

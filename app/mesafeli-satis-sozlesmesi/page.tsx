@@ -1,5 +1,6 @@
 import MetinSayfasi from "@/components/MetinSayfasi";
 import { FIRMA, saticiBilgileri } from "@/lib/firma";
+import { KARGO_DAHIL } from "@/lib/kargo";
 import { OG_DEFAULTS } from "@/lib/site";
 
 export const metadata = {
@@ -49,11 +50,12 @@ export default function MesafeliSatis() {
           ürün sayfasında yer alır ve bu sözleşmenin ayrılmaz parçasıdır.
         </li>
         <li>
-          Sitede gösterilen fiyatlar aksi belirtilmedikçe <strong>KDV hariçtir</strong>; KDV oranı
-          %{FIRMA.kdvOrani} olarak ödeme adımında ayrıca gösterilir.
+          {`Sitede gösterilen satış fiyatları KDV dahildir; KDV oranı %${FIRMA.kdvOrani} olup KDV tutarı ödeme adımında ayrıca gösterilir.`}
         </li>
         <li>
-          Kargo ücreti ürünün desisi üzerinden ödeme adımında hesaplanır ve toplam tutara eklenir.
+          {KARGO_DAHIL
+            ? "Kargo ücreti ürün fiyatlarına dahildir ve ödeme adımında ayrıca eklenmez. Standart kargoya sığmayan büyük hacimli ürünlerde teslimat şekli Alıcı ile ayrıca belirlenir."
+            : "Kargo ücreti ürünün desisi üzerinden ödeme adımında hesaplanır ve toplam tutara eklenir."}
         </li>
         <li>
           Fiyatlar güncelleme tarihine kadar geçerlidir. Açık yazım ve sistem hatası hâlinde Satıcı
@@ -63,17 +65,15 @@ export default function MesafeliSatis() {
 
       <h2>4. Ödeme</h2>
       <p>
-        Ödeme, {FIRMA.odeme} altyapısı üzerinden kredi kartı/banka kartı ile ya da havale/EFT
-        yoluyla yapılır. Kart bilgileri Satıcı tarafından görülmez ve saklanmaz; ödeme işlemi
+        {`Ödeme, ${FIRMA.odeme} altyapısı üzerinden kredi kartı/banka kartı ile ya da havale/EFT yoluyla yapılır.`} Kart bilgileri Satıcı tarafından görülmez ve saklanmaz; ödeme işlemi
         bütünüyle ödeme kuruluşunun güvenli altyapısında gerçekleşir.
       </p>
 
       <h2>5. Teslimat</h2>
       <ul>
-        <li>Gönderim {FIRMA.kargo} ile Alıcı'nın bildirdiği adrese yapılır.</li>
+        <li>{`Gönderim ${FIRMA.kargo} ile Alıcı'nın bildirdiği adrese yapılır.`}</li>
         <li>
-          Teslimat süresi, siparişin onaylanmasından itibaren yasal azami{" "}
-          {FIRMA.teslimatGun} gündür. Stokta bulunan ürünler 1-2 iş gününde kargoya verilir.
+          {`Teslimat süresi, siparişin onaylanmasından itibaren yasal azami ${FIRMA.teslimatGun} gündür.`} Stokta bulunan ürünler 1-2 iş gününde kargoya verilir.
         </li>
         <li>
           Ürün, Alıcı'dan başka bir kişiye teslim edilecekse teslim alacak kişinin teslimatı kabul
@@ -91,11 +91,10 @@ export default function MesafeliSatis() {
 
       <h2>6. Cayma hakkı</h2>
       <p>
-        <strong>Tüketici</strong> sıfatıyla alışveriş yapan Alıcı, ürünü teslim aldığı tarihten
-        itibaren <strong>{FIRMA.caymaGun} gün</strong> içinde hiçbir gerekçe göstermeksizin ve
-        cezai şart ödemeksizin sözleşmeden cayabilir. Cayma bildirimi{" "}
-        <a href={`mailto:${FIRMA.eposta}`}>{FIRMA.eposta}</a> adresine ya da{" "}
-        <a href={FIRMA.telefonHref}>{FIRMA.telefon}</a> numarasına yapılır.
+        {`Tüketici sıfatıyla alışveriş yapan Alıcı, ürünü teslim aldığı tarihten itibaren ${FIRMA.caymaGun} gün içinde hiçbir gerekçe göstermeksizin ve cezai şart ödemeksizin sözleşmeden cayabilir.`}{" "}
+        Cayma bildirimi e-posta veya telefonla yapılır. E-posta:{" "}
+        <a href={`mailto:${FIRMA.eposta}`}>{FIRMA.eposta}</a> · Telefon:{" "}
+        <a href={FIRMA.telefonHref}>{FIRMA.telefon}</a>
       </p>
       <p>
         Cayma hakkının kullanılması hâlinde ürün, kutusu ve varsa aksesuarlarıyla birlikte,

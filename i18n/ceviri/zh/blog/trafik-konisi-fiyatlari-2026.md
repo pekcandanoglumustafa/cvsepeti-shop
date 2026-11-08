@@ -3,7 +3,7 @@ baslik: "2026 年路锥价格——按高度、重量和反光分类"
 ozet: 路锥价格因高度、底座重量和反光带数量而异。2026 年，50 cm 路锥价格在 330-550 TL 之间，70-75 cm 路锥在 400-1.000 TL 之间，90 cm 路锥在 730-1.250 TL 之间（不含增值税）。配重底座型号比标准款贵约 30%。公共招标技术规范通常要求 75 cm 高度和 4 kg 重量。
 tarih: 2026-09-05
 kategori: 价格指南
-etiketler: [路锥价格, 交通锥价格, 配重路锥, 交通隔离墩]
+etiketler: [路锥价格, 路锥价格, 配重路锥, 交通隔离墩]
 ilgiliUrunler: [50-cm-sekizgen-koni-2-reflektifli-zt502808r2, 75-cm-pvc-trafik-konisi-cift-reflektifli, 90-cm-sekizgen-koni-2-reflektifli-zt902808r2]
 ---
 
