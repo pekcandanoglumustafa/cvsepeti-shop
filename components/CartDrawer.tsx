@@ -6,7 +6,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { X, Trash2, Check, ArrowRight, ShoppingBag } from "lucide-react";
 import { useCart } from "@/lib/cart";
-import { formatTL, TABAN_UCRET, TABAN_DESI } from "@/lib/kargo";
+import { formatTL, KARGO_DAHIL } from "@/lib/kargo";
 
 /** Sepete ekleyince sağdan açılan çekmece — standart e-ticaret davranışı */
 export default function CartDrawer() {
@@ -313,7 +313,7 @@ export default function CartDrawer() {
             <Satir
               k={desi > 0 ? `Kargo · ${desi} desi` : "Kargo"}
               v={
-                desi === 0
+                desi === 0 || KARGO_DAHIL
                   ? "Ücretsiz"
                   : kargoOdeme === "karsi"
                     ? "Kuryeye ödenecek"
@@ -321,7 +321,7 @@ export default function CartDrawer() {
               }
             />
 
-            {desi > 0 && (
+            {!KARGO_DAHIL && desi > 0 && (
               <div
                 style={{
                   display: "grid",
@@ -417,8 +417,7 @@ export default function CartDrawer() {
                 textAlign: "center",
               }}
             >
-              İlk {TABAN_DESI} desi {TABAN_UCRET} ₺ · Adet arttıkça ürünler tek
-              koliye istiflenir
+              Kargo ücretsiz · fiyatlara dahildir
             </p>
           </div>
         )}

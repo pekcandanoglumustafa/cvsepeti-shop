@@ -150,7 +150,7 @@ export default async function Urun({
               <small>KDV dahil</small>
             </div>
             <div className="net-price">
-              {formatPrice(p.price)} + KDV · Kargo hariç
+              {formatPrice(p.price)} + KDV · Kargo dahil
             </div>
           </div>
           <AddToCart product={p} />

@@ -47,7 +47,7 @@ export function urunSSS(p: Product): { s: string; c: string }[] {
 
   q.push({
     s: `${p.name} fiyatı ne kadar?`,
-    c: `${p.name} ürününün fiyatı ${tl(p.price)} + KDV'dir. KDV dahil satış fiyatı ${tl(p.price_kdv)}. Fiyata kargo dahil değildir. Ürün kodu ${p.kod}.`,
+    c: `${p.name} ürününün fiyatı ${tl(p.price)} + KDV'dir. KDV dahil satış fiyatı ${tl(p.price_kdv)}. Fiyata kargo dahildir. Ürün kodu ${p.kod}.`,
   });
 
   const teknik: string[] = [];
@@ -67,7 +67,7 @@ export function urunSSS(p: Product): { s: string; c: string }[] {
     s: `${p.name} kargo ücreti ne kadar?`,
     c: buyukHacimli(o)
       ? `Bu ürün büyük hacimli olduğu için standart kargoya sığmaz, nakliyesi sipariş sonrası ayrıca planlanır. Sipariş verdikten sonra teslimat şekli sizinle netleştirilir.`
-      : `1 adet ${p.name} ${desi} desi tutar, kargo ücreti ${tl(kargoUcreti(desi))}'dir. Birden fazla adet alındığında ürünler tek koliye istiflendiği için kargo bedeli adet başına orantılı artmaz. Kargoyu ödeme adımında peşin ödeyebilir veya karşı ödemeli gönderebilirsiniz.`,
+      : `Kargo ücreti fiyata dahildir; ${p.name} için ayrıca kargo bedeli ödemezsiniz. Ürün Yurtiçi Kargo ile gönderilir.`,
   });
 
   if ((p as any).montaj_dahil) {
