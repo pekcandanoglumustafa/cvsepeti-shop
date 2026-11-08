@@ -49,12 +49,23 @@ export default function Iletisim() {
               <td><a href={`mailto:${FIRMA.eposta}`}>{FIRMA.eposta}</a></td>
             </tr>
             {FIRMA.adres ? (
-              <tr><td>Adres</td><td>{FIRMA.adres}</td></tr>
+              <tr><td>Adres</td><td>{FIRMA.adres} — Selçuk Üniversitesi Alaeddin Keykubat Kampüsü güneyi · <a href={FIRMA.haritaUrl} rel="noopener" target="_blank">Haritada aç / yol tarifi</a></td></tr>
             ) : (
               <tr><td>Konum</td><td>{FIRMA.konum}, {FIRMA.sehir}</td></tr>
             )}
           </tbody>
         </table>
+
+        <h2>Konum</h2>
+        <iframe
+          title="Konya Teknokent konumu"
+          src={`https://maps.google.com/maps?q=${FIRMA.lat},${FIRMA.lng}&z=16&output=embed`}
+          width="100%"
+          height="360"
+          style={{ border: 0, borderRadius: 12 }}
+          loading="lazy"
+          referrerPolicy="no-referrer-when-downgrade"
+        />
 
         <h2>Kamu kurumu alımları</h2>
         <p>

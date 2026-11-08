@@ -79,8 +79,13 @@ const kurumSema = {
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "Organization",
+      "@type": ["Organization", "LocalBusiness"],
       "@id": `${BASE}/#kurulus`,
+      telephone: "+90-507-658-42-45",
+      priceRange: "₺₺",
+      geo: { "@type": "GeoCoordinates", latitude: 38.00213, longitude: 32.50542 },
+      hasMap: "https://www.google.com/maps/search/?api=1&query=Konya+Teknokent+G%C3%BCrbulut+Sok.+No%3A67",
+      openingHours: "Mo-Fr 09:00-18:00",
       name: MARKA,
       alternateName: "Trafik Ürünleri",
       legalName: "Pekcandanoğlu",
@@ -90,7 +95,10 @@ const kurumSema = {
         "Trafik güvenliği, yol işaretleme ve iş güvenliği ekipmanları tedarikçisi. Kamu kurumlarına ve özel sektöre satış.",
       address: {
         "@type": "PostalAddress",
-        addressLocality: "Konya",
+        streetAddress: "Akademi Mah. Gürbulut Sok. No:67, Konya Teknokent",
+        addressLocality: "Selçuklu",
+        addressRegion: "Konya",
+        postalCode: "42003",
         addressCountry: "TR",
       },
       contactPoint: {

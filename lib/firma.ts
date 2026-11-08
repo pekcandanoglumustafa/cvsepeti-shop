@@ -14,7 +14,7 @@ export const FIRMA = {
 
   // ---- DOLDURULACAK ----
   /** Açık adres: mahalle, cadde, no, ilçe/il — Teknokent bina ve oda no dahil */
-  adres: "",
+  adres: "Akademi Mah. Gürbulut Sok. No:67, Konya Teknokent, 42003 Selçuklu/Konya",
   /** Örn. "Selçuk" */
   vergiDairesi: "",
   /** Vergi kimlik no veya TCKN */
@@ -31,6 +31,12 @@ export const FIRMA = {
   eposta: "mustafa@cvsepeti.org",
   sehir: "Konya",
   konum: "Konya Teknokent",
+  mahalle: "Akademi Mah. Gürbulut Sok. No:67",
+  ilce: "Selçuklu",
+  postaKodu: "42003",
+  lat: 38.00213,
+  lng: 32.50542,
+  haritaUrl: "https://www.google.com/maps/search/?api=1&query=Konya+Teknokent+Akademi+Mah.+G%C3%BCrbulut+Sok.+No%3A67+Sel%C3%A7uklu",
 
   kargo: "Yurtiçi Kargo",
   odeme: "iyzico",
