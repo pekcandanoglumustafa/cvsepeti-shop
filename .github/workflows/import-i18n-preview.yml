@@ -1,0 +1,33 @@
+name: Restore i18n preview source from verified bundle
+on:
+  push:
+    branches:
+      - chatgpt/i18n-support-2026-11-08
+    paths:
+      - .github/workflows/import-i18n-preview.yml
+permissions:
+  contents: write
+jobs:
+  restore:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          persist-credentials: true
+      - name: Verify and extract preview files
+        run: |
+          curl -fL --retry 3 --max-time 60 'https://sb-6czbz26vbv8w.vercel.run/i18n-stage.tar.gz' -o /tmp/i18n-stage.tar.gz
+          echo 'd62b7f91aca5118cbe1c0ca60206798655265a84bcb5a00ad18fd84881ce4492  /tmp/i18n-stage.tar.gz' | sha256sum -c -
+          tar -xzf /tmp/i18n-stage.tar.gz
+      - name: Build with the restored source
+        run: |
+          npm ci --ignore-scripts --no-audit --no-fund
+          npm run build
+      - name: Commit restored preview only
+        run: |
+          git config user.name 'ChatGPT i18n support'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- 'app/[locale]' components/i18n lib/i18n-data.ts proxy.ts data/i18n
+          git commit -m 'fix(i18n): restore complete UTF-8 locale files after connector truncation'
+          git push origin HEAD:chatgpt/i18n-support-2026-11-08
