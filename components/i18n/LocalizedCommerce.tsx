@@ -26,4 +26,29 @@ export function LocalizedBuy({ product, locale, text }: { product:Product; local
   </div>
 }
 
-export function LocalizedCart({locale,text}:{locale:string;text:Ui}¶»§q«^
+export function LocalizedCart({locale,text}:{locale:string;text:Ui}) {
+  const {items,remove,setQty,totalKdv,kargo,genelToplam,kargoOdeme,setKargoOdeme}=useCart();
+  const [ready,setReady]=useState(false);
+  useEffect(()=>setReady(true),[]);
+  if(!ready)return <div style={{minHeight:250}}/>;
+  if(!items.length)return <div className="intl-empty"><h2>{text.cart_empty}</h2><Link className="intl-button" href={"/"+locale+"/urunler"}>{text.back_to_catalog}</Link></div>;
+  return <div className="intl-cart">
+    <div className="intl-cart-items">{items.map(p=><div key={p.slug} className="intl-cart-row">
+      <Image src={kartGorseli(p.image)} alt={p.name} unoptimized width={90} height={90} style={{objectFit:"contain"}}/>
+      <div><Link href={"/"+locale+"/urun/"+p.slug}>{p.name}</Link><small>{p.slug}</small>
+        <div><label>{text.quantity} <input type="number" min={1} max={Math.max(1,p.stock)} value={p.qty}
+          onChange={e=>setQty(p.slug,Math.max(1,Math.min(Number(e.target.value)||1,p.stock||999)))}/></label>
+        <button className="intl-text-button" onClick={()=>remove(p.slug)}>{text.remove}</button></div>
+      </div><strong>{new Intl.NumberFormat(locale==="ar"?"ar-EG":locale==="zh"?"zh-CN":locale==="az"?"az-AZ":locale,{style:"currency",currency:"TRY"}).format(p.price_kdv*p.qty)}</strong>
+    </div>)}</div>
+    <aside className="intl-cart-summary">
+      <div><span>{text.subtotal}</span><strong>{totalKdv().toLocaleString("tr-TR")} â‚º</strong></div>
+      <div><span>{text.shipping_fee}</span><strong>{kargo().toLocaleString("tr-TR")} â‚º</strong></div>
+      <div className="intl-total"><span>{text.total}</span><strong>{genelToplam().toLocaleString("tr-TR")} â‚º</strong></div>
+      <p>{text.warning_checkout}</p>
+      <Link className="intl-button" href="/odeme">{text.checkout}</Link>
+      <Link className="intl-underlined" href={"/"+locale+"/urunler"}>{text.continue_shopping}</Link>
+    </aside>
+  </div>;
+}
+

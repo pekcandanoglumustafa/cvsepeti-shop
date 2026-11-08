@@ -37,4 +37,2034 @@
   },
   "8030ECO": {
     "name": "30 cm Eco Delineator – 8030ECO",
-    "description": "30���q�^
+    "description": "30 Cm Eco Delineator.\n\nSize: 30 cm · Series: Economic (Eco) · Product code: 8030ECO"
+  },
+  "8045ECO": {
+    "name": "45 cm Eco Delineator – 8045ECO",
+    "description": "45 Cm Eco Delinator.\n\nSize: 45 cm · Series: Economic (Eco) · Product code: 8045ECO"
+  },
+  "7080ECO": {
+    "name": "70 cm Eco Delineator – 7080ECO",
+    "description": "70 Cm Eco Delineator.\n\nSize: 70 cm · Series: Economic (Eco) · Product code: 7080ECO"
+  },
+  "8075ECO": {
+    "name": "75cm Eco Delinator – 8075ECO",
+    "description": "75cm Eco Delinator.\n\nSize: 75 cm · Series: Economic (Eco) · Product code: 8075ECO"
+  },
+  "80100ECO": {
+    "name": "100 cm Eco Delineator – 80100ECO",
+    "description": "100 Cm Eco Delineator.\n\nSize: 100 cm · Series: Economic (Eco) · Product code: 80100ECO"
+  },
+  "ZT648100": {
+    "name": "100 cm Strip Separator with Delinator – ZT648100",
+    "description": "Ribbon Separator with 100 Cm Delinator.\n\nSize: 100 cm Product code: ZT648100"
+  },
+  "648100ECO": {
+    "name": "100 cm Eco Delinator Strip Separator – 648100ECO",
+    "description": "100 Cm Eco Delinator Strip Separator.\n\nSize: 100 cm · Series: Economic (Eco) · Product code: 648100ECO"
+  },
+  "ZT16015": {
+    "name": "Rubber Strip Separator – ZT16015",
+    "description": "Rubber Strip Separator.\n\nMaterial: Rubber Product code: ZT16015"
+  },
+  "ZT16045": {
+    "name": "PVC Strip Separator with 45 cm Delinator – ZT16045",
+    "description": "PVC Strip Separator with 45 Cm Delinator.\n\nSize: 45 cm · Material: PVC · Product code: ZT16045"
+  },
+  "16045ECO": {
+    "name": "45 cm PVC Strip Separator with Delinator Eco – 16045ECO",
+    "description": "45 Cm Delinator PVC Strip Separator Eco.\n\nSize: 45 cm · Material: PVC · Series: Economic (Eco) · Product code: 16045ECO"
+  },
+  "ZT16075": {
+    "name": "PVC Strip Separator with 75 cm Delinator – ZT16075",
+    "description": "PVC Strip Separator with 75 Cm Delinator.\n\nSize: 75 cm Material: PVC Product code: ZT16075"
+  },
+  "16075ECO": {
+    "name": "75 cm Delinator PVC Strip Separator Eco – 16075ECO",
+    "description": "75 Cm Delinator PVC Strip Separator Eco.\n\nSize: 75 cm · Material: PVC · Series: Economic (Eco) · Product code: 16075ECO"
+  },
+  "ZT12845": {
+    "name": "45 cm Strip Separator with Delinator – ZT12845",
+    "description": "Ribbon Separator with 45 Cm Delinator.\n\nSize: 45 cm Product code: ZT12845"
+  },
+  "12845ECO": {
+    "name": "45 cm Delinator Strip Separator Eco – 12845ECO",
+    "description": "45 Cm Delinator Ribbon Separator Eco.\n\nSize: 45 cm · Series: Economic (Eco) · Product code: 12845ECO"
+  },
+  "ZT12875": {
+    "name": "75 cm Strip Separator with Delinator – ZT12875",
+    "description": "Strip Separator with 75 Cm Delinator.\n\nSize: 75 cm Product code: ZT12875"
+  },
+  "12875ECO": {
+    "name": "75 cm Delinator Strip Separator Eco – 12875ECO",
+    "description": "75 Cm Delinator Ribbon Separator Eco.\n\nSize: 75 cm · Series: Economic (Eco) · Product code: 12875ECO"
+  },
+  "ZT63315R2": {
+    "name": "63cm Warning Post with Round Base and 2 Reflectors – ZT63315R2",
+    "description": "63cm Warning Post with Round Base and 2 Reflectors.\n\nSize: 63 cm · Base: round base · Reflective: 2 reflective tapes · Product code: ZT63315R2"
+  },
+  "ZT11015R4": {
+    "name": "110 cm Warning Post with Round Base and 4 Reflectors – ZT11015R4",
+    "description": "110 Cm Warning Post with Round Base and 4 Reflectors.\n\nSize: 110 cm · Base: round base · Reflective: 4 reflective tapes · Product code: ZT11015R4"
+  },
+  "ZT204A": {
+    "name": "Round Weight – ZT204A",
+    "description": "Round Weight.\n\nProduct code: ZT204A"
+  },
+  "ZT63100R2": {
+    "name": "63 cm Warning Post Rectangular Base with 2 Reflectors – ZT63100R2",
+    "description": "63 Cm Warning Post with Rectangular Base and 2 Reflectors.\n\nSize: 63 cm · Base: rectangular base · Reflective: 2 reflective tapes · Product code: ZT63100R2"
+  },
+  "ZT110120R4": {
+    "name": "110 cm Warning Post Rectangular Base with 4 Reflectors – ZT110120R4",
+    "description": "110 Cm Warning Post with Rectangular Base and 4 Reflectors.\n\nSize: 110 cm · Base: rectangular base · Reflective: 4 reflective tapes · Product code: ZT110120R4"
+  },
+  "ZT60408": {
+    "name": "Rectangular Weight – ZT60408",
+    "description": "Rectangular Weight.\n\nProduct code: ZT60408"
+  },
+  "ZT75110 DA": {
+    "name": "110 cm Strut Rectangular Base 75 cm Panel Printed – ZT75110 DA",
+    "description": "110 Cm Strut Rectangular Base 75 Cm Panel Printed.\n\nSize: 110 cm · Base: rectangular base · Product code: ZT75110 DA"
+  },
+  "ZT75110 DAR": {
+    "name": "110 cm Strut Rectangular Base 75 cm Panel – ZT75110 DAR",
+    "description": "75 Cm Panel with 110 Cm Strut Rectangular Base.\n\nSize: 110 cm · Base: rectangular base · Product code: ZT75110 DAR"
+  },
+  "ZT32110 DA": {
+    "name": "110 cm Strut Rectangular Base 32 cm Panel Printed – ZT32110 DA",
+    "description": "110 Cm Strut Rectangular Base 32 Cm Panel Printed.\n\nSize: 110 cm · Base: rectangular base · Product code: ZT32110 DA"
+  },
+  "ZT32110 DAR": {
+    "name": "110 cm Strut Rectangular Base 32 cm Panel – ZT32110 DAR",
+    "description": "32 Cm Panel with 110 Cm Strut Rectangular Base.\n\nSize: 110 cm Base: rectangular base Product code: ZT32110 DAR"
+  },
+  "ZT7563 DA": {
+    "name": "75 cm Panel with 63 cm Rectangular Base – ZT7563 DA",
+    "description": "75 Cm Panel with 63 Cm Strut Rectangular Base.\n\nSize: 63 cm · Base: rectangular base · Product code: ZT7563 DA"
+  },
+  "ZT7563 DAR": {
+    "name": "63 cm Strut Rectangular Base 75 cm Panel Printed – ZT7563 DAR",
+    "description": "63 Cm Strut Rectangular Base 75 Cm Panel Printed.\n\nSize: 63 cm · Base: rectangular base · Product code: ZT7563 DAR"
+  },
+  "ZT3263 DA": {
+    "name": "32 cm Panel with 63 cm Rectangular Base – ZT3263 DA",
+    "description": "32 Cm Panel with 63 Cm Strut Rectangular Base.\n\nSize: 63 cm · Base: rectangular base · Product code: ZT3263 DA"
+  },
+  "ZT3263 DAR": {
+    "name": "63 cm Strut Rectangular Base 32 cm Panel Printed – ZT3263 DAR",
+    "description": "63 Cm Strut Rectangular Base 32 Cm Panel Printed.\n\nSize: 63 cm · Base: rectangular base · Product code: ZT3263 DAR"
+  },
+  "ZT90315": {
+    "name": "32 cm Panel – ZT90315",
+    "description": "32cm Panel.\n\nSize: 32 cm Product code: ZT90315"
+  },
+  "ZT12575": {
+    "name": "75 cm Panel – ZT12575",
+    "description": "75cm Panel.\n\nSize: 75 cm Product code: ZT12575"
+  },
+  "ZT12575R": {
+    "name": "75 cm Panel Printed – ZT12575R",
+    "description": "75 cm Panel Printed.\n\nSize: 75 cm Product code: ZT12575R"
+  },
+  "ZT90315R": {
+    "name": "32 cm Panel Printed – ZT90315R",
+    "description": "32 cm Panel Printed.\n\nSize: 32 cm Product code: ZT90315R"
+  },
+  "ZT75A": {
+    "name": "75 cm Panel Board – ZT75A",
+    "description": "75 Cm Panel Board.\n\nSize: 75 cm Product code: ZT75A"
+  },
+  "ZT32A": {
+    "name": "32 cm Panel Board – ZT32A",
+    "description": "32 Cm Panel Board.\n\nSize: 32 cm Product code: ZT32A"
+  },
+  "ZT110A": {
+    "name": "110 cm Strut Clamp – ZT110A",
+    "description": "110 Cm Strut Clamp.\n\nSize: 110 cm Product code: ZT110A"
+  },
+  "ZT63A": {
+    "name": "63 cm Strut Clamp – ZT63A",
+    "description": "63 Cm Strut Clamp.\n\nSize: 63 cm Product code: ZT63A"
+  },
+  "ZT502808R1": {
+    "name": "50 cm Octagonal Cone 1 Reflective – ZT502808R1",
+    "description": "50 Cm Octagonal Cone 1 Reflective.\n\nSize: 50 cm · Base: octagonal base · Reflective: 1 reflective tape · Product code: ZT502808R1"
+  },
+  "ZT502808R2": {
+    "name": "50 cm Octagonal Cone 2 Reflective – ZT502808R2",
+    "description": "50 Cm Octagonal Cone 2 Reflective.\n\nSize: 50 cm · Base: octagonal base · Reflective: 2 reflective tapes · Product code: ZT502808R2"
+  },
+  "ZT502808A6R2": {
+    "name": "50 cm Octagonal Cone Weight Base with 2 Reflectors – ZT502808A6R2",
+    "description": "50 Cm Octagonal Cone Weight Base with 2 Reflectors.\n\nSize: 50 cm · Base: octagonal base · Reflective: 2 reflective tapes · Variant: weighted base · Product code: ZT502808A6R2"
+  },
+  "ZT702808R2": {
+    "name": "70 cm Octagonal Cone 2 Reflective – ZT702808R2",
+    "description": "70 Cm Octagonal Cone 2 Reflective.\n\nSize: 70 cm · Base: octagonal base · Reflective: 2 reflective tapes · Product code: ZT702808R2"
+  },
+  "ZT702808A6R2": {
+    "name": "70 cm Octagonal Cone Weight Base with 2 Reflectors – ZT702808A6R2",
+    "description": "70 Cm Octagonal Cone Weight Base with 2 Reflectors.\n\nSize: 70 cm · Base: octagonal base · Reflective: 2 reflective tapes · Variant: weighted base · Product code: ZT702808A6R2"
+  },
+  "ZT902808R2": {
+    "name": "90 cm Octagonal Cone 2 Reflective – ZT902808R2",
+    "description": "90 Cm Octagonal Cone 2 Reflective.\n\nSize: 90 cm · Base: octagonal base · Reflective: 2 reflective tapes · Product code: ZT902808R2"
+  },
+  "ZT902808A6R2": {
+    "name": "90 cm Octagonal Cone Weight Base with 2 Reflectors – ZT902808A6R2",
+    "description": "90 Cm Octagonal Cone Weight Base with 2 Reflectors.\n\nSize: 90 cm · Base: octagonal base · Reflective: 2 reflective tapes · Variant: weighted base · Product code: ZT902808A6R2"
+  },
+  "ZT202A": {
+    "name": "38 cm Hexagonal Weight Base – ZT202A",
+    "description": "38 Cm Hexagonal Weight Base.\n\nSize: 38 cm · Base: hexagonal base · Product code: ZT202A"
+  },
+  "ZT203A": {
+    "name": "48 cm Hexagonal Weight Base – ZT203A",
+    "description": "48 Cm Hexagonal Weight Base.\n\nSize: 48 cm · Base: hexagonal base · Product code: ZT203A"
+  },
+  "ZT502804R2": {
+    "name": "50 cm Square Base Cone 2 Reflective (1.60 kg) – ZT502804R2",
+    "description": "50 Cm Square Base Cone 2 Reflective (1.60 Kg).\n\nSize: 50 cm · Base: square base · Reflective: 2 reflective tapes · Product code: ZT502804R2"
+  },
+  "ZT502805R2": {
+    "name": "50 cm Square Base Cone 2 Reflective (1.25 kg) – ZT502805R2",
+    "description": "50 Cm Square Base Cone 2 Reflective (1.25 Kg).\n\nSize: 50 cm · Base: square base · Reflective: 2 reflective tapes · Product code: ZT502805R2"
+  },
+  "ZT702804R2": {
+    "name": "70 cm Square Base Cone 2 Reflective (3 kg) – ZT702804R2",
+    "description": "70 Cm Square Base Cone 2 Reflective (3 Kg).\n\nSize: 70 cm · Base: square base · Reflective: 2 reflective tapes · Product code: ZT702804R2"
+  },
+  "ZT702805R2": {
+    "name": "70 cm Square Base Cone 2 Reflective (2.4 kg) – ZT702805R2",
+    "description": "70 Cm Square Base Cone 2 Reflective (2.4 Kg).\n\nSize: 70 cm · Base: square base · Reflective: 2 reflective tapes · Product code: ZT702805R2"
+  },
+  "ZT902804R2": {
+    "name": "90 cm Square Base Cone 2 Reflective (3.7 kg) – ZT902804R2",
+    "description": "90 Cm Square Base Cone 2 Reflective (3.7 Kg).\n\nSize: 90 cm · Base: square base · Reflective: 2 reflective tapes · Product code: ZT902804R2"
+  },
+  "502808R2ECO": {
+    "name": "50 cm Octagonal Base Cone Eco 2 Reflective – 502808R2ECO",
+    "description": "50 Cm Octagonal Base Cone Eco 2 Reflective.\n\nSize: 50 cm · Base: octagonal base · Reflective: 2 reflective tapes · Series: Economic (Eco) · Product code: 502808R2ECO"
+  },
+  "502808A6R2ECO": {
+    "name": "50 cm Octagonal Base Cone Weighted Eco 2 Reflective – 502808A6R2ECO",
+    "description": "50 Cm Octagonal Base Cone Weighted Eco 2 Reflective.\n\nSize: 50 cm · Base: octagonal base · Reflective: 2 reflective tapes · Variant: weight-based · Series: Economic (Eco) · Product code: 502808A6R2ECO"
+  },
+  "702808R2ECO": {
+    "name": "70 cm Octagonal Base Cone Eco 2 Reflective – 702808R2ECO",
+    "description": "70 Cm Octagonal Base Cone Eco 2 Reflective.\n\nSize: 70 cm · Base: octagonal base · Reflective: 2 reflective tapes · Series: Economic (Eco) · Product code: 702808R2ECO"
+  },
+  "702808A6R2ECO": {
+    "name": "70 cm Octagonal Base Cone Weighted Eco 2 Reflective – 702808A6R2ECO",
+    "description": "70 Cm Octagonal Base Cone Weighted Eco 2 Reflective.\n\nSize: 70 cm · Base: octagonal base · Reflective: 2 reflective tapes · Variant: weight-based · Series: Economic (Eco) · Product code: 702808A6R2ECO"
+  },
+  "902808R2ECO": {
+    "name": "90 cm Octagonal Base Cone Eco 2 Reflective – 902808R2ECO",
+    "description": "90 Cm Octagonal Base Cone Eco 2 Reflective.\n\nSize: 90 cm · Base: octagonal base · Reflective: 2 reflective tapes · Series: Economic (Eco) · Product code: 902808R2ECO"
+  },
+  "902808A6R2ECO": {
+    "name": "90 cm Octagonal Base Cone Eco Weighted with 2 Reflectors – 902808A6R2ECO",
+    "description": "90 Cm Octagonal Base Cone with Eco Weight and 2 Reflectors.\n\nSize: 90 cm · Base: octagonal base · Reflective: 2 reflective tapes · Variant: weight-based · Series: Economic (Eco) · Product code: 902808A6R2ECO"
+  },
+  "502804R2ECO": {
+    "name": "50 cm Square Base Cone Eco 2 Reflective – 502804R2ECO",
+    "description": "50 Cm Square Base Cone Eco 2 Reflective.\n\nSize: 50 cm · Base: square base · Reflective: 2 reflective tapes · Series: Economic (Eco) · Product code: 502804R2ECO"
+  },
+  "702804R2ECO": {
+    "name": "70 cm Square Base Cone Eco 2 Reflective – 702804R2ECO",
+    "description": "70 Cm Square Base Cone Eco 2 Reflective.\n\nSize: 70 cm · Base: square base · Reflective: 2 reflective tapes · Series: Economic (Eco) · Product code: 702804R2ECO"
+  },
+  "902804R2ECO": {
+    "name": "90 cm Square Base Cone Eco 2 Reflective – 902804R2ECO",
+    "description": "90 Cm Square Base Cone Eco 2 Reflective.\n\nSize: 90 cm · Base: square base · Reflective: 2 reflective tapes · Series: Economic (Eco) · Product code: 902804R2ECO"
+  },
+  "ZT650506": {
+    "name": "65 cm Cat Eye Cone with Weight Base – ZT650506",
+    "description": "65 Cm Cat Eye Cone With Weight Base.\n\nSize: 65 cm · Reflective: cat's eye · Variant: weight-based · Product code: ZT650506"
+  },
+  "ZT650506B": {
+    "name": "65 cm Cat Eye Cone with Weight Base – ZT650506B",
+    "description": "65 Cm Cat Eye Cone With Weight Base.\n\nSize: 65 cm · Reflective: cat's eye · Variant: weight-based · Product code: ZT650506B"
+  },
+  "ZT503208": {
+    "name": "50 cm Spotted Cone – ZT503208",
+    "description": "50 Cm Spotted Cone.\n\nSize: 50 cm · Reflective: spotted · Product code: ZT503208"
+  },
+  "ZT503208A6": {
+    "name": "50 cm Spotted Cone Weight Base – ZT503208A6",
+    "description": "50 Cm Spotted Cone Weight Base.\n\nSize: 50 cm · Reflective: spotted · Variant: weight-based · Product code: ZT503208A6"
+  },
+  "ZT503204": {
+    "name": "50 cm Spotted Cone Square Base – ZT503204",
+    "description": "50 Cm Spotted Cone Square Base.\n\nSize: 50 cm · Base: square base · Reflective: spotted · Product code: ZT503204"
+  },
+  "ZT40100": {
+    "name": "100 cm Median Head Plate Printed – ZT40100",
+    "description": "100 Cm Median Head Plate Printed.\n\nSize: 100 cm Product code: ZT40100"
+  },
+  "ZT40100P": {
+    "name": "100 cm Median Head Plate – ZT40100P",
+    "description": "100 Cm Median Head Plate.\n\nSize: 100 cm Product code: ZT40100P"
+  },
+  "ZT80150R": {
+    "name": "Safety Barrier – ZT80150R",
+    "description": "Security Barrier.\n\nProduct code: ZT80150R"
+  },
+  "ZT80150R FB": {
+    "name": "Security Barrier Decorated – ZT80150R FB",
+    "description": "Security Barrier Decorated.\n\nSeries: Economic (Eco) Product code: ZT80150R FB"
+  },
+  "ZT80150R FBP": {
+    "name": "Safety Barrier Decota Printed – ZT80150R FBP",
+    "description": "Security Barrier Deco Printed.\n\nSeries: Economic (Eco) Product code: ZT80150R FBP"
+  },
+  "ZT60150R": {
+    "name": "Safety Barrier Rectangular Base – ZT60150R",
+    "description": "Safety Barrier Rectangular Base.\n\nBase: rectangular base Product code: ZT60150R"
+  },
+  "ZT60150R FB": {
+    "name": "Security Barrier Rectangular Base Decorated – ZT60150R FB",
+    "description": "Security Barrier Rectangular Base Decorated.\n\nBase: rectangular base Series: Economic (Eco) Product code: ZT60150R FB"
+  },
+  "ZT60150R FBP": {
+    "name": "Safety Barrier Rectangular Base Decota Printed – ZT60150R FBP",
+    "description": "Safety Barrier Rectangular Base Decota Printed.\n\nBase: rectangular base Series: Economic (Eco) Product code: ZT60150R FBP"
+  },
+  "ZT80150B": {
+    "name": "Safety Barrier Blue – ZT80150B",
+    "description": "Safety Barrier Blue.\n\nProduct code: ZT80150B"
+  },
+  "ZT80150Y": {
+    "name": "Safety Barrier Yellow – ZT80150Y",
+    "description": "Safety Barrier Yellow.\n\nProduct code: ZT80150Y"
+  },
+  "ZT6080": {
+    "name": "80 cm Safety Mirror – ZT6080",
+    "description": "80 Cm Safety Mirror.\n\nSize: 80 cm Product code: ZT6080"
+  },
+  "ZT6060": {
+    "name": "60 cm Safety Mirror – ZT6060",
+    "description": "60 Cm Safety Mirror.\n\nSize: 60 cm Product code: ZT6060"
+  },
+  "ZT404Y": {
+    "name": "Solar Flashing LED Lamp Yellow – ZT404Y",
+    "description": "Solar Flashing Led Lamp Yellow.\n\nProduct code: ZT404Y"
+  },
+  "ZT404R": {
+    "name": "Solar Flasher LED Lamp Red – ZT404R",
+    "description": "Solar Flashing Led Lamp Red.\n\nProduct code: ZT404R"
+  },
+  "ZT1560": {
+    "name": "60 cm Vehicle Stopper Black Yellow – ZT1560",
+    "description": "60 Cm Vehicle Stopper Black Yellow.\n\nSize: 60 cm Product code: ZT1560"
+  },
+  "ZT15110": {
+    "name": "110 cm Vehicle Stopper Black Yellow – ZT15110",
+    "description": "110 Cm Vehicle Stopper Black Yellow.\n\nSize: 110 cm Product code: ZT15110"
+  },
+  "ZT15190": {
+    "name": "190 cm Vehicle Stopper Black Yellow – ZT15190",
+    "description": "190 Cm Vehicle Stopper Black Yellow.\n\nSize: 190 cm Product code: ZT15190"
+  },
+  "ZT1560Y": {
+    "name": "60 cm Vehicle Stopper Yellow Black – ZT1560Y",
+    "description": "60 Cm Vehicle Stopper Yellow Black.\n\nSize: 60 cm Product code: ZT1560Y"
+  },
+  "ZT15110Y": {
+    "name": "110 cm Vehicle Stopper Yellow Black – ZT15110Y",
+    "description": "110 Cm Vehicle Stopper Yellow Black.\n\nSize: 110 cm Product code: ZT15110Y"
+  },
+  "ZT15190Y": {
+    "name": "190 cm Vehicle Stopper Yellow Black – ZT15190Y",
+    "description": "190 Cm Vehicle Stopper Yellow Black.\n\nSize: 190 cm Product code: ZT15190Y"
+  },
+  "ZT90140": {
+    "name": "Column Corner Protector – ZT90140",
+    "description": "Column Corner Protector.\n\nProduct code: ZT90140"
+  },
+  "ZT90141": {
+    "name": "Column Corner Protector Eco – ZT90141",
+    "description": "Column Corner Protector Eco.\n\nSeries: Economic (Eco) Product code: ZT90141"
+  },
+  "ZT40400": {
+    "name": "Speed Breaker Ramp – ZT40400",
+    "description": "Speed Breaker Speed Bump.\n\nProduct code: ZT40400"
+  },
+  "ZT40401": {
+    "name": "Speed Breaker Ramp Body Head – ZT40401",
+    "description": "Speed Breaker Ramp Body Head.\n\nProduct code: ZT40401"
+  },
+  "ZT45600": {
+    "name": "Speed Breaker Ramp 9 kg – ZT45600",
+    "description": "Speed Breaker Speed Bump 9 Kg.\n\nProduct code: ZT45600"
+  },
+  "ZT45601": {
+    "name": "9 kg Speed Breaker Body Head for Speed bumps – ZT45601",
+    "description": "9 Kg Speed Breaker Body Head for Speed bumps.\n\nProduct code: ZT45601"
+  },
+  "ZT40300": {
+    "name": "Cat Eye Ramp Black – ZT40300",
+    "description": "Cat Eyed Ramp Black.\n\nReflective: cat eye Product code: ZT40300"
+  },
+  "ZT40301": {
+    "name": "Cat Eye Ramp Black Body Head – ZT40301",
+    "description": "Cat Eyed Ramp Black Body Head.\n\nReflective: cat eye Product code: ZT40301"
+  },
+  "ZT40300Y": {
+    "name": "Cat Eye Bump Yellow – ZT40300Y",
+    "description": "Cat Eyed Ramp Yellow.\n\nReflective: cat eye Product code: ZT40300Y"
+  },
+  "ZT40301Y": {
+    "name": "Cat Eye Ramp Yellow Body Cap – ZT40301Y",
+    "description": "Cat-Eyed Ramp Yellow Body Cap.\n\nReflective: cat eye Product code: ZT40301Y"
+  },
+  "ZT50250": {
+    "name": "Stop Late Speedway Black – ZT50250",
+    "description": "Stop Go Speedy Black.\n\nProduct code: ZT50250"
+  },
+  "ZT50251": {
+    "name": "Stop Late Speedway Black Body Cap – ZT50251",
+    "description": "Stop Late Speedway Black Body Hood.\n\nProduct code: ZT50251"
+  },
+  "ZT50250Y": {
+    "name": "Stop Go Speedway Yellow – ZT50250Y",
+    "description": "Stop, Pass the Speedway Yellow.\n\nProduct code: ZT50250Y"
+  },
+  "ZT50251Y": {
+    "name": "Stop Late Speedway Yellow Body Cap – ZT50251Y",
+    "description": "Stop Go Crossing Yellow Body Title.\n\nProduct code: ZT50251Y"
+  },
+  "ZT50500": {
+    "name": "50 cm Cat Eye Ramp Black – ZT50500",
+    "description": "50 Cm Cat Eye Ramp Black.\n\nSize: 50 cm · Reflective: cat's eye · Product code: ZT50500"
+  },
+  "ZT50501": {
+    "name": "50 cm Cat Eye Ramp Black Body Head – ZT50501",
+    "description": "50 Cm Cat Eye Ramp Black Body Head.\n\nSize: 50 cm · Reflective: cat's eye · Product code: ZT50501"
+  },
+  "ZT50500Y": {
+    "name": "50 cm Cat Eye Ramp Yellow – ZT50500Y",
+    "description": "50 Cm Cat Eye Bump Yellow.\n\nSize: 50 cm · Reflective: cat's eye · Product code: ZT50500Y"
+  },
+  "ZT50501Y": {
+    "name": "50 cm Cat Eye Ramp Yellow Body Head – ZT50501Y",
+    "description": "50 Cm Cat Eye Ramp Yellow Body Head.\n\nSize: 50 cm · Reflective: cat's eye · Product code: ZT50501Y"
+  },
+  "ZT5000": {
+    "name": "Foldable Board – ZT5000",
+    "description": "Foldable Sheet.\n\nProduct code: ZT5000"
+  },
+  "ZT5001": {
+    "name": "Foldable Sheet Slippery Floor Printed – ZT5001",
+    "description": "Foldable Sheet Slippery Floor Printed.\n\nProduct code: ZT5001"
+  },
+  "ZT5002": {
+    "name": "Foldable Sheet Cleaning Available Printed – ZT5002",
+    "description": "Foldable Sheet Cleaning Available Printed.\n\nProduct code: ZT5002"
+  },
+  "ZT452": {
+    "name": "Hand Warning Sign – ZT452",
+    "description": "Hand Warning Sign.\n\nProduct code: ZT452"
+  },
+  "ZT452D": {
+    "name": "Hand Warning Sign Stop-Go – ZT452D",
+    "description": "Hand Warning Sign Stop-Go.\n\nProduct code: ZT452D"
+  },
+  "ZT772": {
+    "name": "Triangle Plate – ZT772",
+    "description": "Triangular Plate.\n\nProduct code: ZT772"
+  },
+  "ZT772S": {
+    "name": "Triangle Plate One Direction Special Printing – ZT772S",
+    "description": "Triangle Plate One Direction Special Printing.\n\nProduct code: ZT772S"
+  },
+  "ZT772D": {
+    "name": "Triangle Plate Duplex Special Printing – ZT772D",
+    "description": "Triangle Plate Double Direction Special Printing.\n\nProduct code: ZT772D"
+  },
+  "ZT773": {
+    "name": "Triangle Plate Work Available Printed – ZT773",
+    "description": "Triangle Plate Work Available Printed.\n\nProduct code: ZT773"
+  },
+  "ZT774": {
+    "name": "Triangular Plate Right Narrowing Road Printed – ZT774",
+    "description": "Triangular Plate Narrowing from the Right Road Printed.\n\nProduct code: ZT774"
+  },
+  "ZT775": {
+    "name": "Triangle Plate Narrowing from the Left Road Printed – ZT775",
+    "description": "Triangular Plate Printed Road Narrowing from the Left.\n\nProduct code: ZT775"
+  },
+  "ZT776": {
+    "name": "Triangle Plate Caution Printed – ZT776",
+    "description": "Triangle Plate Caution Printed.\n\nProduct code: ZT776"
+  },
+  "ZT777": {
+    "name": "Triangle Sheet Double Sided Tapered Path Printed – ZT777",
+    "description": "Triangle Sheet Double Sided Narrow Path Printed.\n\nProduct code: ZT777"
+  },
+  "ZT778": {
+    "name": "Triangular Plate Coming and Going Printed – ZT778",
+    "description": "Triangular Plate Printed Coming and Going.\n\nProduct code: ZT778"
+  },
+  "ZT779": {
+    "name": "Triangle Plate Bumpy Road Printed – ZT779",
+    "description": "Triangle Plate Bumpy Road Printed.\n\nProduct code: ZT779"
+  },
+  "ZT780": {
+    "name": "Triangle Sheet Slippery Floor Printed – ZT780",
+    "description": "Triangle Sheet Slippery Floor Printed.\n\nProduct code: ZT780"
+  },
+  "ZT781": {
+    "name": "Triangle Plate Pedestrian Crossing Printed – ZT781",
+    "description": "Triangular Plate Pedestrian Crossing Printed.\n\nProduct code: ZT781"
+  },
+  "ZT945": {
+    "name": "300x300 mm Square Plate – ZT945",
+    "description": "300x300 Mm Square Plate.\n\nDimension: 300x300 mm Product code: ZT945"
+  },
+  "ZT945S": {
+    "name": "Square Sheet One Way Special Printing – ZT945S",
+    "description": "Square Sheet One Way Special Printing.\n\nProduct code: ZT945S"
+  },
+  "ZT945D": {
+    "name": "Square Sheet Duplex Special Printing – ZT945D",
+    "description": "Square Sheet Duplex Special Printing.\n\nProduct code: ZT945D"
+  },
+  "ZT946": {
+    "name": "Square Plate Work Available Printed – ZT946",
+    "description": "Square Plate Work Available Printed.\n\nProduct code: ZT946"
+  },
+  "ZT947": {
+    "name": "Square Plate Left Orientation Printed – ZT947",
+    "description": "Square Plate Left Orientation Printed.\n\nProduct code: ZT947"
+  },
+  "ZT948": {
+    "name": "Square Plate Right Orientation Printed – ZT948",
+    "description": "Square Plate Right Orientation Printed.\n\nProduct code: ZT948"
+  },
+  "ZT949": {
+    "name": "Square Plate Caution Printed – ZT949",
+    "description": "Square Plate Caution Printed.\n\nProduct code: ZT949"
+  },
+  "ZT950": {
+    "name": "Square Plate Speed Limit Printed – ZT950",
+    "description": "Square Plate Speed Limit Printed.\n\nProduct code: ZT950"
+  },
+  "ZT951": {
+    "name": "Square Sheet One Way Printed – ZT951",
+    "description": "Square Sheet One Way Printed.\n\nProduct code: ZT951"
+  },
+  "ZT952": {
+    "name": "Square Plate Printed to and fro – ZT952",
+    "description": "Square Plate Printed To and fro.\n\nProduct code: ZT952"
+  },
+  "ZT345": {
+    "name": "340x400 mm Rectangular Plate – ZT345",
+    "description": "340x400 Mm Rectangular Sheet.\n\nDimension: 340x400 mm Product code: ZT345"
+  },
+  "ZT345S": {
+    "name": "Rectangular Sheet One Way Special Printing – ZT345S",
+    "description": "Rectangular Sheet One Way Custom Printing.\n\nProduct code: ZT345S"
+  },
+  "ZT345D": {
+    "name": "Rectangular Sheet Duplex Special Printing – ZT345D",
+    "description": "Rectangular Sheet Duplex Special Printing.\n\nProduct code: ZT345D"
+  },
+  "ZT346": {
+    "name": "Rectangular Plate Working Yes – ZT346",
+    "description": "Rectangular Plate Working Available.\n\nProduct code: ZT346"
+  },
+  "ZT347": {
+    "name": "Rectangular Plate Left Orientation – ZT347",
+    "description": "Rectangular Plate Left Orientation.\n\nProduct code: ZT347"
+  },
+  "ZT348": {
+    "name": "Rectangular Plate Right Orientation – ZT348",
+    "description": "Rectangular Plate Right Orientation.\n\nProduct code: ZT348"
+  },
+  "ZT349": {
+    "name": "Rectangular Plate Attention – ZT349",
+    "description": "Rectangular Plate Attention.\n\nProduct code: ZT349"
+  },
+  "ZT350": {
+    "name": "Rectangular Plate Speed 30 – ZT350",
+    "description": "Rectangular Plate Speed 30.\n\nProduct code: ZT350"
+  },
+  "ZT351": {
+    "name": "Rectangular Plate One Way Arrival – ZT351",
+    "description": "Rectangular Sheet One Way Development.\n\nProduct code: ZT351"
+  },
+  "ZT352": {
+    "name": "Rectangular Sheet Both Directions – ZT352",
+    "description": "Rectangular Sheet Both Directions.\n\nProduct code: ZT352"
+  },
+  "ZT353": {
+    "name": "Rectangular Sheet Single Tool – ZT353",
+    "description": "Rectangular Sheet Single Tool.\n\nProduct code: ZT353"
+  },
+  "ZT354": {
+    "name": "Rectangular Plate Road Narrowing from the Left – ZT354",
+    "description": "Rectangular Plate Road Narrowing from the Left.\n\nProduct code: ZT354"
+  },
+  "ZT355": {
+    "name": "Rectangular Plate Road Narrowing from the Right – ZT355",
+    "description": "Rectangular Plate Road Narrowing from the Right.\n\nProduct code: ZT355"
+  },
+  "ZT356": {
+    "name": "Rectangular Plate Routing – ZT356",
+    "description": "Rectangular Sheet Routing.\n\nProduct code: ZT356"
+  },
+  "ZT357": {
+    "name": "Rectangular Plate Disabled Sign – ZT357",
+    "description": "Rectangular Sign Disabled Sign.\n\nProduct code: ZT357"
+  },
+  "ZT358": {
+    "name": "Rectangular Plate Disabled Parking Lot – ZT358",
+    "description": "Rectangular Sign Disabled Parking.\n\nProduct code: ZT358"
+  },
+  "ZT359": {
+    "name": "Rectangular Plate Pedestrian Crossing – ZT359",
+    "description": "Rectangular Sign Pedestrian Crossing.\n\nProduct code: ZT359"
+  },
+  "ZT537": {
+    "name": "280 mm Round Plate – ZT537",
+    "description": "280 Mm Round Plate.\n\nDimension: 280 mm Product code: ZT537"
+  },
+  "ZT537S": {
+    "name": "Round Sheet One Way Special Printing – ZT537S",
+    "description": "Round Sheet One Way Special Printing.\n\nProduct code: ZT537S"
+  },
+  "ZT537D": {
+    "name": "Round Sheet Duplex Special Printing – ZT537D",
+    "description": "Round Sheet Duplex Special Printing.\n\nProduct code: ZT537D"
+  },
+  "ZT538": {
+    "name": "Round Plate Left Orientation – ZT538",
+    "description": "Round Plate Left Orientation.\n\nProduct code: ZT538"
+  },
+  "ZT539": {
+    "name": "Round Plate Right Orientation – ZT539",
+    "description": "Round Plate Right Orientation.\n\nProduct code: ZT539"
+  },
+  "ZT540": {
+    "name": "Round Plate Cross Left Orientation – ZT540",
+    "description": "Round Plate Diagonal Left Orientation.\n\nProduct code: ZT540"
+  },
+  "ZT541": {
+    "name": "Round Plate Cross Right Orientation – ZT541",
+    "description": "Round Plate Diagonal Right Orientation.\n\nProduct code: ZT541"
+  },
+  "ZT542": {
+    "name": "Round Plate Reverse Direction – ZT542",
+    "description": "Round Plate Reverse Direction.\n\nProduct code: ZT542"
+  },
+  "ZT543": {
+    "name": "Round Plate One Direction – ZT543",
+    "description": "Round Plate One Way.\n\nProduct code: ZT543"
+  },
+  "ZT544": {
+    "name": "Round Plate Not Allowed – ZT544",
+    "description": "Round Plate Not Allowed.\n\nProduct code: ZT544"
+  },
+  "ZT545D": {
+    "name": "Round Plate No Parking Double Sided – ZT545D",
+    "description": "Round Plate No Parking Double Sided.\n\nProduct code: ZT545D"
+  },
+  "ZT546": {
+    "name": "Round Plate Dur – ZT546",
+    "description": "Round Plate Stop.\n\nProduct code: ZT546"
+  },
+  "ZT547": {
+    "name": "Round Plate Speed Limit 10 – ZT547",
+    "description": "Round Plate Speed Limit 10.\n\nProduct code: ZT547"
+  },
+  "ZT637": {
+    "name": "380 mm Extra Round Plate – ZT637",
+    "description": "380 Mm Extra Round Plate.\n\nDimension: 380 mm Product code: ZT637"
+  },
+  "ZT637S": {
+    "name": "Extra Round Sheet One Way Special Printing – ZT637S",
+    "description": "Extra Round Sheet One Way Special Printing.\n\nProduct code: ZT637S"
+  },
+  "ZT637D": {
+    "name": "Extra Round Sheet Double Direction Special Printing – ZT637D",
+    "description": "Extra Round Plate Double Direction Special Printing.\n\nProduct code: ZT637D"
+  },
+  "ZT638": {
+    "name": "Extra Round Plate Left Direction – ZT638",
+    "description": "Extra Round Plate Left Direction.\n\nProduct code: ZT638"
+  },
+  "ZT639": {
+    "name": "Extra Round Plate Right Direction – ZT639",
+    "description": "Extra Round Plate Right Direction.\n\nProduct code: ZT639"
+  },
+  "ZT640": {
+    "name": "Extra Round Plate Cross Left Direction – ZT640",
+    "description": "Extra Round Plate Cross Left Direction.\n\nProduct code: ZT640"
+  },
+  "ZT641": {
+    "name": "Extra Round Plate Cross Right Direction – ZT641",
+    "description": "Extra Round Plate Cross Right Direction.\n\nProduct code: ZT641"
+  },
+  "ZT642": {
+    "name": "Extra Round Plate Reverse Direction – ZT642",
+    "description": "Extra Round Plate Reverse Direction.\n\nProduct code: ZT642"
+  },
+  "ZT643": {
+    "name": "Extra Round Plate One Direction – ZT643",
+    "description": "Extra Round Sheet One Way.\n\nProduct code: ZT643"
+  },
+  "ZT644": {
+    "name": "Extra Round Plate Not Allowed – ZT644",
+    "description": "Extra Round Plate Not Allowed.\n\nProduct code: ZT644"
+  },
+  "ZT645D": {
+    "name": "Extra Round Plate No Parking – ZT645D",
+    "description": "Extra Round Plate No Parking.\n\nProduct code: ZT645D"
+  },
+  "ZT646": {
+    "name": "Extra Round Plate Dur – ZT646",
+    "description": "Extra Round Plate Dur.\n\nProduct code: ZT646"
+  },
+  "ZT9003": {
+    "name": "Striped Floor Floor Yellow – ZT9003",
+    "description": "Striped Floor Background Yellow.\n\nProduct code: ZT9003"
+  },
+  "ZT9004": {
+    "name": "Dotted Floor Yellow – ZT9004",
+    "description": "Dotted Floor Background Yellow.\n\nProduct code: ZT9004"
+  },
+  "ZT9003B": {
+    "name": "Striped Flooring Black – ZT9003B",
+    "description": "Striped Floor Background Black.\n\nProduct code: ZT9003B"
+  },
+  "ZT9004B": {
+    "name": "Dotted Flooring Black – ZT9004B",
+    "description": "Dotted Floor Background Black.\n\nProduct code: ZT9004B"
+  },
+  "ZT9005": {
+    "name": "Striped Flooring Yellow 40 cm – ZT9005",
+    "description": "Striped Floor Yellow 40 Cm.\n\nSize: 40 cm Product code: ZT9005"
+  },
+  "ZT9006": {
+    "name": "Dotted Floor Floor Yellow 40 cm – ZT9006",
+    "description": "Dotted Ground Floor Yellow 40 Cm.\n\nSize: 40 cm Product code: ZT9006"
+  },
+  "ZT9005B": {
+    "name": "Striped Floor Floor Black 40 cm – ZT9005B",
+    "description": "Striped Flooring Black 40 Cm.\n\nSize: 40 cm Product code: ZT9005B"
+  },
+  "ZT9006B": {
+    "name": "Dotted Floor Floor Black 40 cm – ZT9006B",
+    "description": "Dotted Floor Floor Black 40 Cm.\n\nSize: 40 cm Product code: ZT9006B"
+  },
+  "ZT8001": {
+    "name": "Cat Eye Road Button Round – ZT8001",
+    "description": "Round Cat Eye Road Button.\n\nReflective: cat eye Product code: ZT8001"
+  },
+  "ZT8002": {
+    "name": "Cat Eye Road Button Rectangular – ZT8002",
+    "description": "Cat Eye Road Button Rectangle.\n\nReflective: cat eye Product code: ZT8002"
+  },
+  "ZT501A": {
+    "name": "Red White Chain 8 mm – ZT501A",
+    "description": "Red White Chain 8 Mm.\n\nProduct code: ZT501A"
+  },
+  "ZT502A": {
+    "name": "Green White Chain 8 mm – ZT502A",
+    "description": "Green White Chain 8 Mm.\n\nProduct code: ZT502A"
+  },
+  "ZT503A": {
+    "name": "Yellow Black Chain 8 mm – ZT503A",
+    "description": "Yellow Black Chain 8 Mm.\n\nProduct code: ZT503A"
+  },
+  "ZT511A": {
+    "name": "Red White Chain 6 mm – ZT511A",
+    "description": "Red White Chain 6 Mm.\n\nProduct code: ZT511A"
+  },
+  "ZT512A": {
+    "name": "Green White Chain 6 mm – ZT512A",
+    "description": "Green White Chain 6 Mm.\n\nProduct code: ZT512A"
+  },
+  "ZT513A": {
+    "name": "Yellow Black Chain 6 mm – ZT513A",
+    "description": "Yellow Black Chain 6 Mm.\n\nProduct code: ZT513A"
+  },
+  "ZT80A": {
+    "name": "10x110 mm Triphone Screw – ZT80A",
+    "description": "10x110 Mm Triphone Screw.\n\nDimension: 110 mm Product code: ZT80A"
+  },
+  "ZT90A": {
+    "name": "16x90mm Plastic Dowel – ZT90A",
+    "description": "16x90mm Plastic Dowel.\n\nMaterial: Plastic Product code: ZT90A"
+  },
+  "ZT100A": {
+    "name": "Delinator Connection Apparatus – ZT100A",
+    "description": "Delinator Connection Apparatus.\n\nProduct code: ZT100A"
+  },
+  "ZT330A": {
+    "name": "Chain Hook Plastic Black – ZT330A",
+    "description": "Chain Hook Plastic Black.\n\nMaterial: Plastic Product code: ZT330A"
+  },
+  "ZT330A-W": {
+    "name": "Chain Hook Plastic White – ZT330A-W",
+    "description": "Chain Hook Plastic White.\n\nMaterial: Plastic Product code: ZT330A-W"
+  },
+  "ZT102A": {
+    "name": "Orange Handle – ZT102A",
+    "description": "Orange Handle.\n\nProduct code: ZT102A"
+  },
+  "ZT102A-B": {
+    "name": "Black Handle – ZT102A-B",
+    "description": "Black Handle.\n\nProduct code: ZT102A-B"
+  },
+  "ZT102A-W": {
+    "name": "White Handle – ZT102A-W",
+    "description": "White Handle.\n\nProduct code: ZT102A-W"
+  },
+  "ZTR400": {
+    "name": "40x50 cm Rubber Slope – ZTR400",
+    "description": "40x50 Cm Rubber Slope.\n\nSize: 50 cm Material: Rubber Product code: ZTR400"
+  },
+  "ZTR401": {
+    "name": "Rubber Ramp Head – ZTR401",
+    "description": "Rubber Bump Head.\n\nMaterial: Rubber Product code: ZTR401"
+  },
+  "ZTR500": {
+    "name": "40x50 cm Rubber Slope – ZTR500",
+    "description": "40x50 Cm Rubber Slope.\n\nSize: 50 cm · Material: Rubber · Product code: ZTR500"
+  },
+  "ZTR501": {
+    "name": "Rubber Ramp Head – ZTR501",
+    "description": "Rubber Bump Head.\n\nMaterial: Rubber Product code: ZTR501"
+  },
+  "ZTR600": {
+    "name": "50x60 cm Rubber Slope – ZTR600",
+    "description": "50x60 Cm Rubber Speedometer.\n\nSize: 60 cm · Material: Rubber · Product code: ZTR600"
+  },
+  "ZTR601": {
+    "name": "Rubber Ramp Head – ZTR601",
+    "description": "Rubber Bump Head.\n\nMaterial: Rubber Product code: ZTR601"
+  },
+  "ZTR900": {
+    "name": "50x90 cm Rubber Slope – ZTR900",
+    "description": "50x90 Cm Rubber Slope.\n\nSize: 90 cm · Material: Rubber · Product code: ZTR900"
+  },
+  "ZTR901": {
+    "name": "Rubber Ramp Head – ZTR901",
+    "description": "Rubber Bump Head.\n\nMaterial: Rubber Product code: ZTR901"
+  },
+  "ZTR6012": {
+    "name": "Rubber Stopper – ZTR6012",
+    "description": "Rubber Stopper.\n\nMaterial: Rubber Product code: ZTR6012"
+  },
+  "ZTR18015": {
+    "name": "Rubber Stopper – ZTR18015",
+    "description": "Rubber Stopper.\n\nMaterial: Rubber Product code: ZTR18015"
+  },
+  "ZTR1280": {
+    "name": "Rubber Column Protector – ZTR1280",
+    "description": "Rubber Column Protector.\n\nMaterial: Rubber Product code: ZTR1280"
+  },
+  "ZTR1281": {
+    "name": "Rubber Column Protector – ZTR1281",
+    "description": "Rubber Column Protector.\n\nMaterial: Rubber Product code: ZTR1281"
+  },
+  "ZTR105": {
+    "name": "Cable Protector – ZTR105",
+    "description": "Cable Protector.\n\nProduct code: ZTR105"
+  },
+  "ZTR102": {
+    "name": "Hexagon Delinator Black – ZTR102",
+    "description": "Hexagon Delinator Black.\n\nBase: hexagonal base Product code: ZTR102"
+  },
+  "ZTMB01": {
+    "name": "Chrome Strip Barrier – ZTMB01",
+    "description": "Chrome Strip Barrier.\n\nProduct code: ZTMB01"
+  },
+  "ZTM01": {
+    "name": "Locked Parking Barrier – ZTM01",
+    "description": "Locked Parking Barrier.\n\nProduct code: ZTM01"
+  },
+  "ZTM05": {
+    "name": "Locked Parking Barrier – ZTM05",
+    "description": "Locked Parking Barrier.\n\nProduct code: ZTM05"
+  },
+  "ZTM7583Y": {
+    "name": "Iron Delinator – ZTM7583Y",
+    "description": "Iron Delinator.\n\nProduct code: ZTM7583Y"
+  },
+  "ZTM18012": {
+    "name": "Iron Stopper – ZTM18012",
+    "description": "Iron Stopper.\n\nProduct code: ZTM18012"
+  },
+  "ZTM18012B": {
+    "name": "Iron Stopper – ZTM18012B",
+    "description": "Iron Stopper.\n\nProduct code: ZTM18012B"
+  },
+  "EV-12520 FB R": {
+    "name": "Cat Eye Safety Barrier - (hxlxw) 60x100x40 Cm – 12520 FB R",
+    "description": "Cat Eye Safety Barrier - (hxlxw) 60x100x40 Cm.\n\nDimension: 60 × 100 × 40 cm · Material: PPC · Weight: 20 kg · Product code: 12520 FB R\n\nMaterial: PPC Weight: 20.0 kg"
+  },
+  "EV-12526 FB R": {
+    "name": "Safety Barrier with Solar Flashing - (hxlxw) 60x100x40 Cm – 12526 FB R",
+    "description": "Security Barrier with Solar Flashing - (hxlxw) 60x100x40 Cm.\n\nDimension: 60 × 100 × 40 cm · Material: PPC · Weight: 20 kg · Product code: 12526 FB R\n\nLens Size: (Ø) 100 mm Material:PPC Weight: 20.0kg"
+  },
+  "EV-12524 FB R": {
+    "name": "Security Barrier with Delinator - (hxlxw) 100x100x40 Cm – 12524 FB R",
+    "description": "Security Barrier with Delinator - (hxlxw) 100x100x40 Cm.\n\nDimension: 100 × 100 × 40 cm · Material: PPC · Weight: 20 kg · Product code: 12524 FB R\n\nDel.:(HxØ)40 cmx80 mm Material:PPC Weight:20.0 kg"
+  },
+  "EV-12522 FB R": {
+    "name": "Plate Safety Barrier - (hxlxw) 120x100x40 Cm – 12522 FB R",
+    "description": "Plate Safety Barrier - (hxlxw) 120x100x40 Cm.\n\nSize: 120 × 100 × 40 cm · Material: PPC · Weight: 20 kg · Product code: 12522 FB R\n\nReflective:(HxW) 50x12 cm Material:PPC Weight:20.0 kg"
+  },
+  "EV-12534 FB ST": {
+    "name": "Metal Security Barricade - (hxl) 110x200 Cm – 12534 FB ST",
+    "description": "Metal Security Barricade - (hxl) 110x200 Cm.\n\nDimension: 110 × 200 cm · Material: Metal-Ø32x2mm Round Pipe · Weight: 15 kg · Product code: 12534 FB ST\n\nMaterial:Metal-Ø32x2mm Round Pipe Weight:15.0 kg"
+  },
+  "EV-12511 FB R": {
+    "name": "Security Barricade - (hxl) 100x150 Cm – 12511 FB R",
+    "description": "Security Barricade - (hxl) 100x150 Cm.\n\nSize: 100 × 150 cm · Material: PPC · Weight: 10.5 kg · Product code: 12511 FB R\n\nMaterial: PPC Weight: 10.5 kg"
+  },
+  "EV-12510 FB R": {
+    "name": "Security Barricade - (hxl) 100x150 Cm – 12510 FB R",
+    "description": "Security Barricade - (hxl) 100x150 Cm.\n\nSize: 100 × 150 cm · Material: PPC · Weight: 12 kg · Product code: 12510 FB R\n\nColour: Red Material: PPC Weight: 12.0 kg"
+  },
+  "EV-12514 FB R": {
+    "name": "Security Barricade - (hxl) 100x150 Cm – 12514 FB R",
+    "description": "Security Barricade - (hxl) 100x150 Cm.\n\nSize: 100 × 150 cm · Material: PPC · Weight: 12 kg · Product code: 12514 FB R\n\nColour: Yellow Material: PPC Weight: 12.0 kg"
+  },
+  "EV-12518 FB R": {
+    "name": "Security Barricade - (hxl) 100x150 Cm – 12518 FB R",
+    "description": "Security Barricade - (hxl) 100x150 Cm.\n\nSize: 100 × 150 cm · Material: PPC · Weight: 12 kg · Product code: 12518 FB R\n\nColor: White Material: PPC Weight: 12.0 kg"
+  },
+  "EV-12516 FB R": {
+    "name": "Security Barricade - (hxl) 100x150 Cm – 12516 FB R",
+    "description": "Security Barricade - (hxl) 100x150 Cm.\n\nSize: 100 × 150 cm · Material: PPC · Weight: 12 kg · Product code: 12516 FB R\n\nColour: Blue Material: PPC Weight: 12.0 kg"
+  },
+  "EV-12513 FB R": {
+    "name": "Signed Security Barricade - (hxl) 100x150 Cm – 12513 FB R",
+    "description": "Signed Security Barricade - (hxl) 100x150 Cm.\n\nSize: 100 × 150 cm · Material: PPC · Weight: 12.3 kg · Product code: 12513 FB R\n\nSheet: 100x50 cm Material:PPC Weight:12.3 kg"
+  },
+  "EV-12517 FB R": {
+    "name": "Signed Security Barricade - (hxl) 100x150 Cm – 12517 FB R",
+    "description": "Signed Security Barricade - (hxl) 100x150 Cm.\n\nSize: 100 × 150 cm · Material: PPC · Weight: 12.3 kg · Product code: 12517 FB R\n\nSheet: 100x50 cm Material:PPC Weight:12.3 kg"
+  },
+  "EV-12500 FB R": {
+    "name": "Folding Warning Sign Barrier - (hxw) 150x110 Cm – 12500 FB R",
+    "description": "Foldable Warning Sign Barrier - (hxw) 150x110 Cm.\n\nSize: 150 × 110 cm · Material: PPC · Weight: 18 kg · Product code: 12500 FB R\n\nSheet: 90x90 cm Material: PPC Weight: 18.0 kg"
+  },
+  "EV-12501 FB R": {
+    "name": "Folding Warning Sign Barrier - (hxw) 90x115 Cm – 12501 FB R",
+    "description": "Foldable Warning Sign Barrier - (hxw) 90x115 Cm.\n\nSize: 90 × 115 cm · Material: PPC · Weight: 20 kg · Product code: 12501 FB R\n\nSheet: 30x90 cm Material: PPC Weight: 20.0 kg"
+  },
+  "EV-12503 FB R": {
+    "name": "Folding Warning Sign Barrier - (hxw) 110x55 Cm – 12503 FB R",
+    "description": "Foldable Warning Sign Barrier - (hxw) 110x55 Cm.\n\nSize: 110 × 55 cm · Material: PPC · Weight: 15.5 kg · Product code: 12503 FB R\n\nSheet: 90x30 cm Material: PPC Weight: 15.5 kg"
+  },
+  "EV-12504 FB R": {
+    "name": "Folding Warning Sign Barrier - (hxw) 110x250 Cm – 12504 FB R",
+    "description": "Foldable Warning Sign Barrier - (hxw) 110x250 Cm.\n\nSize: 110 × 250 cm · Material: PPC · Weight: 37 kg · Product code: 12504 FB R\n\nSheet: 125x75 cm Material: PPC Weight: 37.0 kg"
+  },
+  "EV-12423 DB R A": {
+    "name": "Ultra Plate Warning Barge - (hxw) 90x49 Cm – 12423 DB R A",
+    "description": "Ultra Sign Warning Barge - (hxw) 90x49 Cm.\n\nSize: 90 × 49 cm · Material: PPC · Weight: 7.5 kg · Product code: 12423 DB R A\n\nReflective: 60x40 cm Material: PPC Weight: 7.5 kg"
+  },
+  "EV-12417 DB R": {
+    "name": "Folding Warning Sign Barrier - (hxw) 90x60 Cm – 12417 DB R",
+    "description": "Foldable Warning Sign Barrier - (hxw) 90x60 Cm.\n\nSize: 90 × 60 cm · Material: PPC · Weight: 12 kg · Product code: 12417 DB R\n\nSheet: 60x60 cm Material: PPC Weight: 12.0 kg"
+  },
+  "EV-12410 DB R": {
+    "name": "Folding Warning Sign - (h) 120 Cm / Base: 31x48 Cm – 12410 DB R",
+    "description": "Folding Warning Sign - (h) 120 Cm / Base: 31x48 Cm.\n\nSize: 31 × 48 cm · Material: PPC · Weight: 12 kg · Product code: 12410 DB R\n\nreflective: 100x25 cm material: PPC weight: 12.0 kg"
+  },
+  "EV-12415 DB R": {
+    "name": "Folding Warning Sign - (h) 104 Cm / Base: 31x48 Cm – 12415 DB R",
+    "description": "Folding Warning Sign - (h) 104 Cm / Base: 31x48 Cm.\n\nSize: 31 × 48 cm · Material: PPC · Weight: 11 kg · Product code: 12415 DB R\n\nreflective: 80x20 cm material: PPC weight: 11.0 kg"
+  },
+  "EV-12416 DB R": {
+    "name": "Folding Warning Sign - (h) 72 Cm / Base: 22x45 Cm – 12416 DB R",
+    "description": "Folding Warning Sign - (h) 72 Cm / Base: 22x45 Cm.\n\nSize: 22 × 45 cm · Material: PPC · Weight: 6.5 kg · Product code: 12416 DB R\n\nreflective: 48x20 cm material: PPC weight: 6.5 kg"
+  },
+  "EV-12442 DB R": {
+    "name": "Highway Warning Sign -(h)124cm / Plate:100x25cm – 12442 DB R",
+    "description": "Highway Warning Sign -(h)124cm / Plate:100x25cm.\n\nSize: 100 × 25 cm · Material: PPC · Weight: 2.1 kg · Product code: 12442 DB R\n\nMaterial: PPC Weight: 2.1 kg"
+  },
+  "EV-12444 DB R": {
+    "name": "Highway Warning Sign -(h)124cm / Plate:100x25cm – 12444 DB R",
+    "description": "Highway Warning Sign -(h)124cm / Plate:100x25cm.\n\nSize: 100 × 25 cm · Material: PPC · Weight: 2.1 kg · Product code: 12444 DB R\n\nMaterial: PPC Weight: 2.1 kg"
+  },
+  "EV-12405 DB R": {
+    "name": "Pontoon Barrier with Warning Sign - (hxl) 120x180 Cm – 12405 DB R",
+    "description": "Pontoon Barrier with Warning Sign - (hxl) 120x180 Cm.\n\nSize: 120 × 180 cm · Material: PPC · Weight: 31 kg · Product code: 12405 DB R\n\nSheet: 75x125 cm Material: PPC Weight: 31.0 kg"
+  },
+  "EV-12407 DB R": {
+    "name": "Pontoon Barrier with Warning Sign - (hxl) 120x180 Cm – 12407 DB R",
+    "description": "Pontoon Barrier with Warning Sign - (hxl) 120x180 Cm.\n\nSize: 120 × 180 cm · Material: PPC · Weight: 27 kg · Product code: 12407 DB R\n\nSheet: 31.5x90 cm Material: PPC Weight: 27.0 kg"
+  },
+  "EV-12404 DB R": {
+    "name": "Pontoon Warning Post - (hxø) - 120 Cm X 110 Mm – 12404 DB R",
+    "description": "Pontoon Warning Post - (hxø) - 120 Cm X 110 Mm.\n\nMaterial: PPC · Weight: 12 kg · Product code: 12404 DB R\n\nBase: (Ø)400 mm Material: PPC Weight: 12.0 kg"
+  },
+  "EV-12420 DB R": {
+    "name": "Pontoon Warning Post - (hxø) - 110 Cm X 80 Mm – 12420 DB R",
+    "description": "Pontoon Warning Post - (hxø) - 110 Cm X 80 Mm.\n\nMaterial: PPC Weight: 6.5 kg Product code: 12420 DB R\n\nBase: (Ø)400 mm Material: PPC Weight: 6.5 kg"
+  },
+  "EV-12430 DB R": {
+    "name": "Pontoon Ultra Warning Post - (hxø) - 120 Cm X 140 Mm – 12430 DB R",
+    "description": "Pontoon Ultra Warning Post - (hxø) - 120 Cm X 140 Mm.\n\nMaterial: PPC Weight: 8.7 kg Product code: 12430 DB R\n\nBase:( )450 mm · Material: PPC · Weight: 8.7 kg"
+  },
+  "EV-12403-1 DB R": {
+    "name": "Pontoon Warning Post - (hxø) - 100 Cm X 63 Mm – 12403-1 DB R",
+    "description": "Pontoon Warning Post - (hxø) - 100 Cm X 63 Mm.\n\nMaterial: PPC · Weight: 4 kg · Product code: 12403-1 DB R\n\nBase:( )400 mm · Material: PPC · Weight: 4.0 kg"
+  },
+  "EV-12409-1 DB R": {
+    "name": "Pontoon Warning Post - (hxø) - 100 Cm X 63 Mm – 12409-1 DB R",
+    "description": "Pontoon Warning Post - (hxø) - 100 Cm X 63 Mm.\n\nMaterial: PPC · Weight: 4 kg · Product code: 12409-1 DB R\n\nBase:( )400 mm · Material: PPC · Weight: 4.0 kg"
+  },
+  "EV-12435 DB": {
+    "name": "Pontoon Warning Post - (hxø) - 90 Cm X 40 Mm – 12435 DB",
+    "description": "Pontoon Warning Post - (hxø) - 90 Cm X 40 Mm.\n\nMaterial: PE Weight: 1.9 kg Product code: 12435 DB\n\nBase:( )300 mm · Material: PE · Weight: 1.9 kg"
+  },
+  "EV-11811 FL S": {
+    "name": "Solar Flashing LED Lamp - (hxw) 30x24 Cm - Yellow Led – 11811 FL S",
+    "description": "Solar Flashing LED Lamp - (hxw) 30x24 Cm - Yellow Led.\n\nSize: 30 × 24 cm · Material: ABS · Weight: 0.84 kg · Product code: 11811 FL S\n\nFlash Lens: Ø160 mm Material: ABS Weight: 0.84 kg"
+  },
+  "EV-11813 FL K": {
+    "name": "Solar Flashing LED Lamp - (hxw) 30x24 Cm - Red Led – 11813 FL K",
+    "description": "Solar Flashing LED Lamp - (hxw) 30x24 Cm - Red LED.\n\nSize: 30 × 24 cm · Material: ABS · Weight: 0.84 kg · Product code: 11813 FL K\n\nFlash Lens: Ø160 mm Material: ABS Weight: 0.84 kg"
+  },
+  "EV-11825 FL S": {
+    "name": "Solar Flashing LED Lamp - (hxw) 29x22 Cm - Yellow Led – 11825 FL S",
+    "description": "Solar Flashing LED Lamp - (hxw) 29x22 Cm - Yellow Led.\n\nSize: 29 × 22 cm · Material: ABS · Weight: 0.75 kg · Product code: 11825 FL S\n\nFlash Lens: Ø160 mm Material: ABS Weight: 0.75 kg"
+  },
+  "EV-11827 FL K": {
+    "name": "Solar Flashing LED Lamp - (hxw) 29x22 Cm - Red Led – 11827 FL K",
+    "description": "Solar Flashing LED Lamp - (hxw) 29x22 Cm - Red LED.\n\nSize: 29 × 22 cm · Material: ABS · Weight: 0.75 kg · Product code: 11827 FL K\n\nFlash Lens: Ø160 mm Material: ABS Weight: 0.75 kg"
+  },
+  "EV-11814 FL S": {
+    "name": "Solar Flashing LED Lamp - (hxw) 27x22 Cm - Yellow Led – 11814 FL S",
+    "description": "Solar Flashing LED Lamp - (hxw) 27x22 Cm - Yellow Led.\n\nSize: 27 × 22 cm · Material: ABS · Weight: 0.5 kg · Product code: 11814 FL S\n\nFlash Lens: Ø160 mm Material: ABS Weight: 0.50 kg"
+  },
+  "EV-11816 FL K": {
+    "name": "Solar Flashing LED Lamp - (hxw) 27x22 Cm - Red Led – 11816 FL K",
+    "description": "Solar Flashing LED Lamp - (hxw) 27x22 Cm - Red LED.\n\nSize: 27 × 22 cm · Material: ABS · Weight: 0.5 kg · Product code: 11816 FL K\n\nFlash Lens: Ø160 mm Material: ABS Weight: 0.50 kg"
+  },
+  "EV-11817 FL K": {
+    "name": "Solar Flashing LED Lamp-(hxø)14.5cmx128mm-red LED – 11817 FL K",
+    "description": "Solar Flashing LED Lamp-(hxø)14.5cmx128mm-red LED.\n\nMaterial: PC Weight: 0.35 kg Product code: 11817 FL K\n\nFlash Lens: Ø120 mm Material: PC Weight: 0.35 kg"
+  },
+  "EV-11819 FL S": {
+    "name": "Solar Flashing LED Lamp-(hxø)14.5cmx128mm-yellow LED – 11819 FL S",
+    "description": "Solar Flashing LED Lamp-(hxø)14.5cmx128mm-yellow LED.\n\nMaterial: PC Weight: 0.35 kg Product code: 11819 FL S\n\nFlash Lens: Ø120 mm Material: PC Weight:0.35 kg"
+  },
+  "EV-11821 FL M": {
+    "name": "Solar Flashing LED Lamp-(hxø)14.5cmx128mm-blue Led – 11821 FL M",
+    "description": "Solar Flashing LED Lamp-(hxø)14.5cmx128mm-blue LED.\n\nMaterial: PC Weight: 0.35 kg Product code: 11821 FL M\n\nFlash Lens: Ø120 mm Material: PC Weight:0.35 kg"
+  },
+  "EV-11855 FL KM": {
+    "name": "Flashing Solar Lamp - (hxw) 17x30 Cm - Red-blue Led – 11855 FL KM",
+    "description": "Flashing Solar Lamp - (hxw) 17x30 Cm - Red-blue Led.\n\nSize: 17 × 30 cm · Material: ABS · Weight: 0.46 kg · Product code: 11855 FL KM\n\nFlash Lens: 30x11 cm Material: ABS Weight: 0.46 kg"
+  },
+  "EV-11856 FL S": {
+    "name": "Flashing Solar Lamp - (hxw) 17x30 Cm - Yellow Led – 11856 FL S",
+    "description": "Flashing Solar Lamp - (hxw) 17x30 Cm - Yellow Led.\n\nSize: 17 × 30 cm · Material: ABS · Weight: 0.46 kg · Product code: 11856 FL S\n\nFlash Lens: 30x11 cm Material: ABS Weight: 0.46 kg"
+  },
+  "EV-11858 FL S": {
+    "name": "Battery Operated Flashing Lamp - (hxw) 32x18 Cm - Yellow Led – 11858 FL S",
+    "description": "Battery Operated Flashing Lamp - (hxw) 32x18 Cm - Yellow Led.\n\nSize: 32 × 18 cm · Material: ABS · Weight: 0.42 kg · Product code: 11858 FL S\n\nFlash Lens: Ø180 mm Material: ABS Weight: 0.42 kg"
+  },
+  "EV-11851 FL S": {
+    "name": "Solar Led Flashing Lamp with Visor - (hxw) 70x40 Cm - Yellow Led – 11851 FL S",
+    "description": "Solar Led Flashing Lamp with Visor - (hxw) 70x40 Cm - Yellow Led.\n\nSize: 70 × 40 cm · Material: PC · Weight: 8 kg · Product code: 11851 FL S\n\nFlash Lens: Ø300 mm Material: PC Weight: 8.0 kg"
+  },
+  "EV-11853 FL K": {
+    "name": "Solar Led Flashing Lamp with Visor - (hxw) 70x40 Cm - Red Led – 11853 FL K",
+    "description": "Solar Led Flashing Lamp with Visor - (hxw) 70x40 Cm - Red Led.\n\nSize: 70 × 40 cm · Material: PC · Weight: 8 kg · Product code: 11853 FL K\n\nFlash Lens: Ø300 mm Material: PC Weight: 8.0 kg"
+  },
+  "EV-11850 FL S": {
+    "name": "Solar Led Flashing Warning Lamp - (hxw) 70x40 Cm - Yellow Led – 11850 FL S",
+    "description": "Solar Led Flashing Warning Lamp - (hxw) 70x40 Cm - Yellow Led.\n\nSize: 70 × 40 cm · Material: PC · Weight: 7.3 kg · Product code: 11850 FL S\n\nFlash Lens: Ø300 mm Material: PC Weight: 7.3 kg"
+  },
+  "EV-11852 FL K": {
+    "name": "Solar Led Flashing Warning Lamp - (hxw) 70x40 Cm - Red Led – 11852 FL K",
+    "description": "Solar Led Flashing Warning Lamp - (hxw) 70x40 Cm - Red Led.\n\nSize: 70 × 40 cm · Material: PC · Weight: 7.3 kg · Product code: 11852 FL K\n\nFlash Lens: Ø300 mm Material: PC Weight: 7.3 kg"
+  },
+  "EV-11862 FL S": {
+    "name": "Solar Led Warning Sign - (hxw) 70x40 Cm - Yellow Led – 11862 FL S",
+    "description": "Solar LED Warning Sign - (hxw) 70x40 Cm - Yellow LED.\n\nSize: 70 × 40 cm · Material: PC · Weight: 7 kg · Product code: 11862 FL S\n\nLed Panel: 40x40 cm Material: PC Weight: 7.0 kg"
+  },
+  "EV-11860 FL S": {
+    "name": "Solar Led Warning Sign - (hxw) 70x40 Cm - Yellow Led – 11860 FL S",
+    "description": "Solar LED Warning Sign - (hxw) 70x40 Cm - Yellow LED.\n\nSize: 70 × 40 cm · Material: PC · Weight: 7 kg · Product code: 11860 FL S\n\nLed Panel: 40x40 cm Material: PC Weight: 7.0 kg"
+  },
+  "EV-11882 FL A": {
+    "name": "Ac LED Sign - (hxw) 40x40 Cm - Yellow Led – 11882 FL A",
+    "description": "Ac LED Sign - (hxw) 40x40 Cm - Yellow LED.\n\nSize: 40 × 40 cm · Material: PC · Weight: 2.8 kg · Product code: 11882 FL A\n\nLed Panel: 40x40 cm Material: PC Weight: 2.8 kg"
+  },
+  "EV-11883 FL A": {
+    "name": "Ac LED Sign - (hxw) 40x40 Cm - Yellow Led – 11883 FL A",
+    "description": "Ac LED Sign - (hxw) 40x40 Cm - Yellow LED.\n\nSize: 40 × 40 cm · Material: PC · Weight: 2.8 kg · Product code: 11883 FL A\n\nLed Panel: 40x40 cm Material: PC Weight: 2.8 kg"
+  },
+  "EV-11885 FL A": {
+    "name": "LED Lamp - (hxw) 40x40 Cm - Yellow LED – 11885 FL A",
+    "description": "LED Lamp - (hxw) 40x40 Cm - Yellow LED.\n\nSize: 40 × 40 cm · Material: PC · Weight: 3.1 kg · Product code: 11885 FL A\n\nFlash Lens: Ø300 mm Material: PC Weight: 3.1 kg"
+  },
+  "EV-11884 FL A": {
+    "name": "Ac LED Road Maintenance Signs - (hxw) 60x60 Cm Led Panel: 60x60 Cm Material: PC - Weight: 5.5 Kg – 11884 FL A",
+    "description": "Ac LED Road Maintenance Signs - (hxw) 60x60 Cm Led Panel: 60x60 Cm Material: PC - Weight: 5.5 Kg.\n\nSize: 60 × 60 cm Product code: 11884 FL A"
+  },
+  "EV-11800 FL\n(SERİSİ)": {
+    "name": "Solar LED Road Maintenance Signs - (hxw) 90x60 Cm – 11800 FL\n(SERIES) – 11800 FL\n(SERİSİ)",
+    "description": "Solar LED Road Maintenance Signs - (hxw) 90x60 Cm.\n\nSize: 90 × 60 cm · Material: PC - Weight: 9.8 kg · Weight: 9.8 kg · Product code: 11800 FL\n(SERIES)\n\nLed Panel: 60x60 cm - Body Material: PC - Weight: 9.8 kg\n11800 FL\n(SERİSİ)"
+  },
+  "EV-21800 FL\n(SERİSİ)": {
+    "name": "Solar LED Road Maintenance Signs - (hxw) 90x60 Cm – 21800 FL\n(SERIES) – 21800 FL\n(SERİSİ)",
+    "description": "Solar LED Road Maintenance Signs - (hxw) 90x60 Cm.\n\nDimension: 90 × 60 cm · Material: PC - Weight: 9.8 kg · Weight: 9.8 kg · Product code: 21800 FL\n(SERIES)\n\nLed Panel: 60x60 cm - Body Material: PC - Weight: 9.8 kg\n21800 FL\n(SERİSİ)"
+  },
+  "EV-11600 S-LD\n(SERİSİ)": {
+    "name": "Solar LED Road Maintenance Signs - (hxw) 90x60 Cm – 11600 S-LD\n(SERIES) – 11600 S-LD\n(SERİSİ)",
+    "description": "Solar LED Road Maintenance Signs - (hxw) 90x60 Cm.\n\nSize: 90 × 60 cm · Material: AL - Weight: 9.7 kg · Weight: 9.7 kg · Product code: 11600 S-LD\n(SERIES)\n\nLed Panel: 60x60 cm - Body Material: AL - Weight: 9.7 kg\n11600 S-LD\n(SERİSİ)"
+  },
+  "EV-11700 S-LD\n(SERİSİ)": {
+    "name": "Solar LED Road Maintenance Signs - (hxw) 130x100 Cm – 11700 S-LD\n(SERIES) – 11700 S-LD\n(SERİSİ)",
+    "description": "Solar LED Road Maintenance Signs - (hxw) 130x100 Cm.\n\nSize: 130 × 100 cm · Material: AL - Weight: 16.5kg · Weight: 16.5 kg · Product code: 11700 S-LD\n(SERIES)\n\nLed Panel: 100x100cm - Body Material: AL - Weight: 16.5kg\n11700 S-LD\n(SERİSİ)"
+  },
+  "EV-11750 S-LD": {
+    "name": "Solar LED Road Maintenance Sign - (hxw) 80x150 Cm – 11750 S-LD",
+    "description": "Solar LED Road Maintenance Sign - (hxw) 80x150 Cm.\n\nSize: 80 × 150 cm · Material: AL - Weight: 14.0 kg · Weight: 14 kg · Product code: 11750 S-LD\n\nLed Panel: 50x150 cm - Body Material: AL - Weight: 14.0 kg"
+  },
+  "EV-11778 S-LD": {
+    "name": "Solar LED Road Maintenance Sign - (hxw) 130x100 Cm – 11778 S-LD",
+    "description": "Solar LED Road Maintenance Sign - (hxw) 130x100 Cm.\n\nSize: 130 × 100 cm · Material: AL - Weight: 16.5 kg · Weight: 16.5 kg · Product code: 11778 S-LD\n\nLed Panel: 100x100 cm - Body Material: AL - Weight: 16.5 kg"
+  },
+  "EV-12325 TK R2": {
+    "name": "PVC Traffic Cone - (h) 90 Cm – 12325 TK R2",
+    "description": "PVC Traffic Cone - (h) 90 Cm.\n\nMaterial: PVC · Weight: 3.6 kg · Product code: 12325 TK R2\n\nBase:( ) 38.5 cm · Material: PVC · Weight: 3.6 kg"
+  },
+  "EV-12327 TK A R2": {
+    "name": "PVC Traffic Cone - (h) 90 Cm – 12327 TK A R2",
+    "description": "PVC Traffic Cone - (h) 90 Cm.\n\nMaterial: PVC · Weight: 6.9 kg · Product code: 12327 TK A R2\n\nBase:( ) 48.5 cm · Material: PVC · Weight: 6.9 kg"
+  },
+  "EV-12393 TK R2": {
+    "name": "Tpe Traffic Cone - (h) 90 Cm – 12393 TK R2",
+    "description": "TPE Traffic Cone - (h) 90 Cm.\n\nMaterial: TPE · Weight: 3 kg · Product code: 12393 TK R2\n\nBase:( ) 38.5 cm · Material: TPE · Weight: 3.0 kg"
+  },
+  "EV-12395 TK A R2": {
+    "name": "Tpe Traffic Cone - (h) 90 Cm – 12395 TK A R2",
+    "description": "Tpe Traffic Cone - (h) 90 Cm.\n\nMaterial: TPE · Weight: 6.3 kg · Product code: 12395 TK A R2\n\nBase:( ) 48.5 cm · Material: TPE · Weight: 6.3 kg"
+  },
+  "EV-12309 TK R2": {
+    "name": "PVC Traffic Cone - (h) 75 Cm – 12309 TK R2",
+    "description": "PVC Traffic Cone - (h) 75 Cm.\n\nMaterial: PVC · Weight: 3.2 kg · Product code: 12309 TK R2\n\nBase:( ) 38.5 cm · Material: PVC · Weight: 3.2 kg"
+  },
+  "EV-12315 TK A R2": {
+    "name": "PVC Traffic Cone - (h) 75 Cm – 12315 TK A R2",
+    "description": "PVC Traffic Cone - (h) 75 Cm.\n\nMaterial: PVC · Weight: 6.5 kg · Product code: 12315 TK A R2\n\nBase:( ) 48.5 cm · Material: PVC · Weight: 6.5 kg"
+  },
+  "EV-12387 TK R2": {
+    "name": "Tpe Traffic Cone - (h) 75 Cm – 12387 TK R2",
+    "description": "TPE Traffic Cone - (h) 75 Cm.\n\nMaterial: TPE · Weight: 2.7 kg · Product code: 12387 TK R2\n\nBase:( ) 38.5 cm · Material: TPE · Weight: 2.7 kg"
+  },
+  "EV-12389 TK A R2": {
+    "name": "Tpe Traffic Cone - (h) 75 Cm – 12389 TK A R2",
+    "description": "TPE Traffic Cone - (h) 75 Cm.\n\nMaterial: TPE · Weight: 6 kg · Product code: 12389 TK A R2\n\nBase:( ) 48.5 cm · Material: TPE · Weight: 6.0 kg"
+  },
+  "EV-12306 TK R1": {
+    "name": "PVC Traffic Cone - (h) 50 Cm – 12306 TK R1",
+    "description": "PVC Traffic Cone - (h) 50 Cm.\n\nMaterial: PVC Weight: 1.3 kg Product code: 12306 TK R1\n\nBase:( ) 28.5 cm · Material: PVC · Weight: 1.3 kg"
+  },
+  "EV-12326 TK A R1": {
+    "name": "PVC Traffic Cone - (h) 50 Cm – 12326 TK A R1",
+    "description": "PVC Traffic Cone - (h) 50 Cm.\n\nMaterial: PVC · Weight: 2.65 kg · Product code: 12326 TK A R1\n\nBase:( ) 38.5 cm · Material: PVC · Weight: 2.65 kg"
+  },
+  "EV-12364 TK R1": {
+    "name": "Tpe Traffic Cone - (h) 50 Cm – 12364 TK R1",
+    "description": "Tpe Traffic Cone - (h) 50 Cm.\n\nMaterial: TPE · Weight: 1.13 kg · Product code: 12364 TK R1\n\nBase:( ) 28.5 cm · Material: TPE · Weight: 1.13 kg"
+  },
+  "EV-12384 TK A R1": {
+    "name": "Tpe Traffic Cone - (h) 50 Cm – 12384 TK A R1",
+    "description": "Tpe Traffic Cone - (h) 50 Cm.\n\nMaterial: TPE · Weight: 2.5 kg · Product code: 12384 TK A R1\n\nBase:( ) 38.5 cm · Material: TPE · Weight: 2.5 kg"
+  },
+  "EV-12337 TK R2": {
+    "name": "PVC Traffic Cone - (h) 70 Cm – 12337 TK R2",
+    "description": "PVC Traffic Cone - (h) 70 Cm.\n\nMaterial: PVC · Weight: 2.3 kg · Product code: 12337 TK R2\n\nBase:( ) 38 cm · Material: PVC · Weight: 2.3 kg"
+  },
+  "EV-12332 TK R2": {
+    "name": "PVC Traffic Cone - (h) 52 Cm – 12332 TK R2",
+    "description": "PVC Traffic Cone - (h) 52 Cm.\n\nMaterial: PVC · Weight: 1.25 kg · Product code: 12332 TK R2\n\nBase:( ) 32 cm · Material: PVC · Weight: 1.25 kg"
+  },
+  "EV-12376 TK R2": {
+    "name": "Tpe Traffic Cone - (h) 70 Cm – 12376 TK R2",
+    "description": "Tpe Traffic Cone - (h) 70 Cm.\n\nMaterial: TPE · Weight: 1.9 kg · Product code: 12376 TK R2\n\nBase:( ) 38 cm · Material: TPE · Weight: 1.9 kg"
+  },
+  "EV-12370 TK R2": {
+    "name": "TPE Traffic Cone - (h) 52 Cm – 12370 TK R2",
+    "description": "Tpe Traffic Cone - (h) 52 Cm.\n\nMaterial: TPE · Weight: 1 kg · Product code: 12370 TK R2\n\nBase:( ) 32 cm · Material: TPE · Weight: 1.0 kg"
+  },
+  "EV-12331 TK R2": {
+    "name": "PVC Traffic Cone - (h) 90 Cm - Reflective: (type IV) – 12331 TK R2",
+    "description": "PVC Traffic Cone - (h) 90 Cm - Reflective: (type IV).\n\nMaterial: PVC · Weight: 4 kg · Product code: 12331 TK R2\n\nBase:( ) 38.5 cm · Material: PVC · Weight: 4.0 kg"
+  },
+  "EV-12318 TK R1": {
+    "name": "PVC Traffic Cone - (h) 50 Cm - Reflective: (type IV) – 12318 TK R1",
+    "description": "PVC Traffic Cone - (h) 50 Cm - Reflective: (type IV).\n\nMaterial: PVC Weight: 1.8 kg Product code: 12318 TK R1\n\nBase:( ) 35 cm · Material: PVC · Weight: 1.8 kg"
+  },
+  "EV-12316 TK R2": {
+    "name": "PVC Traffic Cone - (h) 50 Cm – 12316 TK R2",
+    "description": "PVC Traffic Cone - (h) 50 Cm.\n\nMaterial: PVC · Weight: 1.7 kg · Product code: 12316 TK R2\n\nBase:( ) 35 cm · Material: PVC · Weight: 1.7 kg"
+  },
+  "EV-12303 TK R1": {
+    "name": "PVC Traffic Cone - (h) 32 Cm – 12303 TK R1",
+    "description": "PVC Traffic Cone - (h) 32 Cm.\n\nMaterial: PVC Weight: 0.65 kg Product code: 12303 TK R1\n\nBase:( ) 22 cm · Material: PVC · Weight: 0.65 kg"
+  },
+  "EV-12362 TK R1": {
+    "name": "Tpe Traffic Cone - (h) 32 Cm – 12362 TK R1",
+    "description": "TPE Traffic Cone - (h) 32 Cm.\n\nMaterial: TPE Weight: 0.54 kg Product code: 12362 TK R1\n\nBase:( ) 22 cm · Material: TPE · Weight: 0.54 kg"
+  },
+  "EV-12386 TK R2": {
+    "name": "Tpe Traffic Cone - (h) 75 Cm – 12386 TK R2",
+    "description": "TPE Traffic Cone - (h) 75 Cm.\n\nMaterial: TPE · Weight: 2.7 kg · Product code: 12386 TK R2\n\nBase:( ) 38.5 cm · Material: TPE · Weight: 2.7 kg"
+  },
+  "EV-12388 TK A R2": {
+    "name": "TPE Traffic Cone - (h) 75 Cm – 12388 TK A R2",
+    "description": "TPE Traffic Cone - (h) 75 Cm.\n\nMaterial: TPE · Weight: 6 kg · Product code: 12388 TK A R2\n\nBase:( ) 48.5 cm · Material: TPE · Weight: 6.0 kg"
+  },
+  "EV-12300 TK": {
+    "name": "Classic Cat Eye Cone - (h) 50 Cm – 12300 TK",
+    "description": "Classic Cat Eye Cone - (h) 50 Cm.\n\nMaterial: PPC · Weight: 1.2 kg · Product code: 12300 TK\n\nBase:( ) 35 cm · Material: PPC · Weight: 1.2 kg"
+  },
+  "EV-12301 TK A": {
+    "name": "Classic Cat Eye Cone - (h) 50 Cm – 12301 TK A",
+    "description": "Classic Cat Eye Cone - (h) 50 Cm.\n\nMaterial: PPC · Weight: 4 kg · Product code: 12301 TK A\n\nBase:( ) 35 cm · Material: PPC · Weight: 4.0 kg"
+  },
+  "EV-12302 TK": {
+    "name": "Eco Traffic Cone - (h) 50 Cm – 12302 TK",
+    "description": "Eco Traffic Cone - (h) 50 Cm.\n\nMaterial: PPC · Weight: 0.9 kg · Product code: 12302 TK\n\nBase:( ) 35 cm · Material: PPC · Weight: 0.90 kg"
+  },
+  "EV-12350 TK": {
+    "name": "Ultra Cat Eye Cone - (h) 60 Cm – 12350 TK",
+    "description": "Ultra Cat Eye Cone - (h) 60 Cm.\n\nMaterial: PPC · Weight: 1.4 kg · Product code: 12350 TK\n\nBase:( ) 37 cm · Material: PPC · Weight: 1.4 kg"
+  },
+  "EV-12351 TK A": {
+    "name": "Ultra Cat Eye Cone - (h) 62 Cm – 12351 TK A",
+    "description": "Ultra Cat Eye Cone - (h) 62 Cm.\n\nMaterial: PPC · Weight: 5 kg · Product code: 12351 TK A\n\nBase:( ) 37 cm · Material: PPC · Weight: 5.0 kg"
+  },
+  "EV-12352 TK A": {
+    "name": "Ultra Cat Eye Cone - (h) 62 Cm – 12352 TK A",
+    "description": "Ultra Cat Eye Cone - (h) 62 Cm.\n\nMaterial: PPC · Weight: 5 kg · Product code: 12352 TK A\n\nBase:( ) 37 cm · Material: PPC · Weight: 5.0 kg"
+  },
+  "EV-12353 TK A": {
+    "name": "Ultra Cat Eye Cone - (h) 62 Cm – 12353 TK A",
+    "description": "Ultra Cat Eye Cone - (h) 62 Cm.\n\nMaterial: PPC · Weight: 5 kg · Product code: 12353 TK A\n\nBase:( ) 37 cm · Material: PPC · Weight: 5.0 kg"
+  },
+  "EV-12354 TK A": {
+    "name": "Ultra Cat Eye Cone - (h) 62 Cm – 12354 TK A",
+    "description": "Ultra Cat Eye Cone - (h) 62 Cm.\n\nMaterial: PPC · Weight: 5 kg · Product code: 12354 TK A\n\nBase:( ) 37 cm · Material: PPC · Weight: 5.0 kg"
+  },
+  "EV-12431 DB": {
+    "name": "Folding Advertising Sign - (hxw) 90x60 Cm – 12431 DB",
+    "description": "Folding Advertising Sign - (hxw) 90x60 Cm.\n\nSize: 90 × 60 cm · Material: PPC · Weight: 12 kg · Product code: 12431 DB\n\nMaterial: PPC Sheet Decoration: 60x60 cm Weight:12.0 kg"
+  },
+  "EV-12429 DB A": {
+    "name": "Signboard Advertising Pole - (hxw) 90x49 Cm – 12429 DB A",
+    "description": "Signboard Advertising Pole - (hxw) 90x49 Cm.\n\nSize: 90 × 49 cm · Material: PPC · Weight: 7.5 kg · Product code: 12429 DB A\n\nMaterial: PPC Weight: 7.5 kg"
+  },
+  "EV-12426 DB A": {
+    "name": "Signboard Advertising Bollard - (hxw) 90x49 Cm – 12426 DB A",
+    "description": "Signboard Advertising Pole - (hxw) 90x49 Cm.\n\nSize: 90 × 49 cm · Material: PPC · Weight: 7.5 kg · Product code: 12426 DB A\n\nColor: Gray Material: PPC Weight: 7.5 kg"
+  },
+  "EV-12427 DB A": {
+    "name": "Signboard Advertising Pole - (hxw) 90x49 Cm – 12427 DB A",
+    "description": "Signboard Advertising Pole - (hxw) 90x49 Cm.\n\nSize: 90 × 49 cm · Material: PPC · Weight: 7.5 kg · Product code: 12427 DB A\n\nColour: Yellow Material: PPC Weight: 7.5 kg"
+  },
+  "EV-12424 DB F A": {
+    "name": "Signboard Advertising Bollard - (hxw) 90x49 Cm - Warning in Two Directions - 12424 DB F A",
+    "description": "Signboard Advertising Bollard - (hxw) 90x49 Cm - Warning in Two Directions.\n\nSize: 90 × 49 cm · Material: PPC · Weight: 7.5 kg · Product code: 12424 DB F A\n\nColour:Red · Foil:60x40cm · Material:PPC · Weight:7.5kg"
+  },
+  "EV-12421 DB F A": {
+    "name": "Signboard Advertising Bollard - (hxw) 90x49 Cm - Warning in Two Directions - 12421 DB F A",
+    "description": "Signboard Advertising Bollard - (hxw) 90x49 Cm - Warning in Two Directions.\n\nSize: 90 × 49 cm · Material: PPC · Weight: 7.5 kg · Product code: 12421 DB F A\n\nFoil: 60x40 cm material: PPC weight: 7.5 kg"
+  },
+  "EV-108 A F": {
+    "name": "Portable Warning Sign - (hxw) 62x24.5cm - Warning in Two Directions - 108 A F",
+    "description": "Portable Warning Sign-(hxw) 62x24.5cm - Warning in Two Directions.\n\nSize: 62 × 24.5 cm · Material: ABS · Weight: 1 kg · Product code: 108 A F\n\nFoil: 27x20 cm Material: ABS Weight: 1.0 kg"
+  },
+  "EV-107 A": {
+    "name": "Portable Warning Sign-(hxw) 62x24.5cm – 107 A",
+    "description": "Portable Warning Sign-(hxw) 62x24.5cm.\n\nDimension: 62 × 24.5 cm · Material: ABS · Weight: 1 kg · Product code: 107 A\n\nMaterial: ABS Weight: 1.0 kg"
+  },
+  "EV-12250 UB R": {
+    "name": "Flexible Median Head Plate - (hxø) 100cmx300mm (reflective) – 12250 UB R",
+    "description": "Flexible Median Head Board - (hxø) 100cmx300mm (reflective).\n\nMaterial: TPU Weight: 3.25 kg Product code: 12250 UB R\n\nMounting: 4x Material: TPU Weight: 3.25 kg"
+  },
+  "EV-12254 UB R": {
+    "name": "Flexible Median Head Plate - (hxø) 90cmx200mm (reflective) – 12254 UB R",
+    "description": "Flexible Median Head Plate - (hxø) 90cmx200mm (reflective).\n\nMaterial: TPU Weight: 2 kg Product code: 12254 UB R\n\nMounting: 4x Material: TPU Weight: 2.00 kg"
+  },
+  "EV-12253 UB R": {
+    "name": "Flexible Median Head Plate - (hxø) 75cmx100mm (reflective) – 12253 UB R",
+    "description": "Flexible Median Head Board - (hxø) 75cmx100mm (reflective).\n\nMaterial: TPU Weight: 1.4 kg Product code: 12253 UB R\n\nMounting: 4x Material: TPU Weight: 1.40 kg"
+  },
+  "EV-22067 UB R": {
+    "name": "Flexible Median Head Plate - (hxø) 45cmx100mm (reflective) – 22067 UB R",
+    "description": "Flexible Median Head Board - (hxø) 45cmx100mm (reflective).\n\nMaterial: TPU Weight: 0.95 kg Product code: 22067 UB R\n\nMounting: 4x Material: TPU Weight: 0.95 kg"
+  },
+  "EV-12278 UB R": {
+    "name": "Demountable Flexible Delinators - (hxø) 92 Cm X 80 Mm – 12278 UB R",
+    "description": "Demountable Flexible Delinators - (hxø) 92 Cm X 80 Mm.\n\nWeight: 1.75 kg Product code: 12278 UB R\n\nBase: (Ø) 200 mm Mounting: Epoxy Weight: 1.75 kg"
+  },
+  "EV-12232 UB R": {
+    "name": "Demountable Flexible Delinators - (hxø) 75 Cm X 80 Mm – 12232 UB R",
+    "description": "Demountable Flexible Delinators - (hxø) 75 Cm X 80 Mm.\n\nWeight: 1.48 kg Product code: 12232 UB R\n\nBase: (Ø) 200 mm Mounting: Epoxy Weight: 1.48 kg"
+  },
+  "EV-12236 UB R": {
+    "name": "Demountable Flexible Delinators - (hxø) 45 Cm X 80 Mm – 12236 UB R",
+    "description": "Demountable Flexible Delinators - (hxø) 45 Cm X 80 Mm.\n\nWeight: 1.1 kg Product code: 12236 UB R\n\nBase: (Ø) 200 mm Mounting: Epoxy Weight: 1.1 kg"
+  },
+  "EV-22008 UB R": {
+    "name": "Demountable Flexible Delinators - (hxø) 92 Cm X 80 Mm – 22008 UB R",
+    "description": "Demountable Flexible Delinators - (hxø) 92 Cm X 80 Mm.\n\nWeight: 1.65 kg Product code: 22008 UB R\n\nBase: (Ø) 120 mm Mounting: 1x Weight: 1.65 kg"
+  },
+  "EV-22068 UB R": {
+    "name": "Plate Flexible Delinator - (hxl)45x12 Cm/base:(ø)200 Mm – 22068 UB R",
+    "description": "Plate Flexible Delinator - (hxl)45x12 Cm/base: (ø)200 Mm.\n\nSize: 45 × 12 cm · Material: TPU · Weight: 0.95 kg · Product code: 22068 UB R\n\nMounting: 4x Material: TPU Weight: 0.95 kg"
+  },
+  "EV-12256 UB R": {
+    "name": "Plate Flexible Delineator - (hxl)75x12 Cm/base:(ø)200 Mm – 12256 UB R",
+    "description": "Plate Flexible Delineator - (hxl)75x12 Cm/base:(ø)200 Mm.\n\nSize: 75 × 12 cm · Material: TPU · Weight: 1.4 kg · Product code: 12256 UB R\n\nMounting: 4x Material: TPU Weight: 1.4 kg"
+  },
+  "EV-12237 UB R": {
+    "name": "Tpu Flexible Delineators (with socket) - (hxø)75cmx110mm – 12237 UB R",
+    "description": "Tpu Flexible Delinators (with socket) - (hxø)75cmx110mm.\n\nMaterial: TPU Weight: 2.1 kg Product code: 12237 UB R\n\nBase: (Ø) 260 mm Mounting: 4x Weight: 2.1 kg"
+  },
+  "EV-12249 UB R": {
+    "name": "Tpu Flexible Delinators (with socket) - (hxø)100cmx100mm – 12249 UB R",
+    "description": "Tpu Flexible Delinators (with socket) - (hxø)100cmx100mm.\n\nMaterial: TPU Weight: 2 kg Product code: 12249 UB R\n\nBase: (Ø) 200 mm Mounting: 3x Weight: 2.0 kg"
+  },
+  "EV-12243 UB R": {
+    "name": "Tpu Flexible Delinators (with socket) - (hxø)75cmx90mm – 12243 UB R",
+    "description": "Tpu Flexible Delinators (with socket) - (hxø)75cmx90mm.\n\nMaterial: TPU · Weight: 1.5 kg · Product code: 12243 UB R\n\nBase: (Ø) 200 mm Mounting: 3x Weight: 1.5 kg"
+  },
+  "EV-12247 UB R": {
+    "name": "Tpu Flexible Delineators (with socket) - (hxø)50cmx80mm – 12247 UB R",
+    "description": "Tpu Flexible Delinators (with socket) - (hxø)50cmx80mm.\n\nMaterial: TPU Weight: 1 kg Product code: 12247 UB R\n\nBase: (Ø) 200 mm Mounting: 3x Weight: 1.0 kg"
+  },
+  "EV-12281 UB R": {
+    "name": "Tpu Flexible Delinators (with socket) - (hxø)70cmx80mm – 12281 UB R",
+    "description": "Tpu Flexible Delinators (with socket) - (hxø)70cmx80mm.\n\nMaterial: TPU Weight: 1 kg Product code: 12281 UB R\n\nBase: (Ø) 180 mm Mounting: 3x Weight: 1.0 kg"
+  },
+  "EV-12283 UB R": {
+    "name": "Tpu Flexible Delinators (with socket) - (hxø)40cmx80mm – 12283 UB R",
+    "description": "Tpu Flexible Delinators (with socket) - (hxø)40cmx80mm.\n\nMaterial: TPU Weight: 0.7 kg Product code: 12283 UB R\n\nBase: (Ø) 180 mm Mounting: 3x Weight: 0.70 kg"
+  },
+  "EV-12211 UB R": {
+    "name": "Tpu Flexible Delineator - (hxø) 100 Cm X 80 Mm – 12211 UB R",
+    "description": "Tpu Flexible Delinator - (hxø) 100 Cm X 80 Mm.\n\nMaterial: TPU Weight: 1.6 kg Product code: 12211 UB R\n\nBase: (Ø) 200 mm Mounting: 3x Weight: 1.60 kg"
+  },
+  "EV-12212 UB R": {
+    "name": "Tpu Flexible Delineator - (hxø) 75 Cm X 80 Mm – 12212 UB R",
+    "description": "Tpu Flexible Delineator - (hxø) 75 Cm X 80 Mm.\n\nMaterial: TPU Weight: 1.3 kg Product code: 12212 UB R\n\nBase: (Ø) 200 mm Mounting: 3x Weight: 1.30 kg"
+  },
+  "EV-12214 UB R": {
+    "name": "Tpu Flexible Delineator - (hxø) 45 Cm X 80 Mm – 12214 UB R",
+    "description": "Tpu Flexible Delinator - (hxø) 45 Cm X 80 Mm.\n\nMaterial: TPU Weight: 0.98 kg Product code: 12214 UB R\n\nBase: (Ø) 200 mm Mounting: 3x Weight: 0.98 kg"
+  },
+  "EV-12215 UB R": {
+    "name": "Tpu Flexible Delineator - (hxø) 30 Cm X 80 Mm – 12215 UB R",
+    "description": "Tpu Flexible Delinator - (hxø) 30 Cm X 80 Mm.\n\nMaterial: TPU Weight: 0.72 kg Product code: 12215 UB R\n\nBase: (Ø) 200 mm Mounting: 3x Weight: 0.72 kg"
+  },
+  "EV-12288 UB R": {
+    "name": "Tpu Flexible Delineator - (hxø) 100 Cm X 80 Mm – 12288 UB R",
+    "description": "Tpu Flexible Delinator - (hxø) 100 Cm X 80 Mm.\n\nMaterial: TPU Weight: 1.6 kg Product code: 12288 UB R\n\nBase: (Ø) 200 mm Mounting: 3x Weight: 1.60 kg"
+  },
+  "EV-12286 UB R": {
+    "name": "Tpu Flexible Delineator - (hxø) 75 Cm X 80 Mm – 12286 UB R",
+    "description": "Tpu Flexible Delineator - (hxø) 75 Cm X 80 Mm.\n\nMaterial: TPU Weight: 1.3 kg Product code: 12286 UB R\n\nBase: (Ø) 200 mm Mounting: 3x Weight: 1.30 kg"
+  },
+  "EV-12284 UB R": {
+    "name": "Tpu Flexible Delineator - (hxø) 45 Cm X 80 Mm – 12284 UB R",
+    "description": "Tpu Flexible Delinator - (hxø) 45 Cm X 80 Mm.\n\nMaterial: TPU Weight: 0.98 kg Product code: 12284 UB R\n\nBase: (Ø) 200 mm Mounting: 3x Weight: 0.98 kg"
+  },
+  "EV-12282 UB R": {
+    "name": "Tpu Flexible Delineator - (hxø) 30 Cm X 80 Mm – 12282 UB R",
+    "description": "Tpu Flexible Delinator - (hxø) 30 Cm X 80 Mm.\n\nMaterial: TPU Weight: 0.72 kg Product code: 12282 UB R\n\nBase: (Ø) 200 mm Mounting: 3x Weight: 0.72 kg"
+  },
+  "EV-12245 UB R": {
+    "name": "Tpu Flexible Delineator - (hxø) 30 Cm X 80 Mm – 12245 UB R",
+    "description": "Tpu Flexible Delinator - (hxø) 30 Cm X 80 Mm.\n\nMaterial: TPU Weight: 0.72 kg Product code: 12245 UB R\n\nBase: (Ø) 200 mm Mounting: 3x Weight: 0.72 kg"
+  },
+  "EV-12244 UB R": {
+    "name": "Tpu Flexible Delineator - (hxø) 45 Cm X 80 Mm – 12244 UB R",
+    "description": "Tpu Flexible Delinator - (hxø) 45 Cm X 80 Mm.\n\nMaterial: TPU Weight: 0.98 kg Product code: 12244 UB R\n\nBase: (Ø) 200 mm Mounting: 3x Weight: 0.98 kg"
+  },
+  "EV-12242 UB R": {
+    "name": "Tpu Flexible Delineator - (hxø) 75 Cm X 80 Mm – 12242 UB R",
+    "description": "Tpu Flexible Delineator - (hxø) 75 Cm X 80 Mm.\n\nMaterial: TPU Weight: 1.3 kg Product code: 12242 UB R\n\nBase: (Ø) 200 mm Mounting: 3x Weight: 1.30 kg"
+  },
+  "EV-12241 UB R": {
+    "name": "Tpu Flexible Delineator - (hxø) 100 Cm X 80 Mm – 12241 UB R",
+    "description": "Tpu Flexible Delinator - (hxø) 100 Cm X 80 Mm.\n\nMaterial: TPU Weight: 1.6 kg Product code: 12241 UB R\n\nBase: (Ø) 200 mm Mounting: 3x Weight: 1.60 kg"
+  },
+  "EV-22036 UB R": {
+    "name": "Tpu Flexible Delineator - (hxø) 100 Cm X 80 Mm – 22036 UB R",
+    "description": "Tpu Flexible Delinator - (hxø) 100 Cm X 80 Mm.\n\nMaterial: TPU Weight: 1.6 kg Product code: 22036 UB R\n\nBase: (Ø) 200 mm Mounting: 3x Weight: 1.60 kg"
+  },
+  "EV-22037 UB R": {
+    "name": "Tpu Flexible Delineator - (hxø) 75 Cm X 80 Mm – 22037 UB R",
+    "description": "Tpu Flexible Delineator - (hxø) 75 Cm X 80 Mm.\n\nMaterial: TPU Weight: 1.3 kg Product code: 22037 UB R\n\nBase: (Ø) 200 mm Mounting: 3x Weight: 1.30 kg"
+  },
+  "EV-22038 UB R": {
+    "name": "Tpu Flexible Delineator - (hxø) 45 Cm X 80 Mm – 22038 UB R",
+    "description": "Tpu Flexible Delinator - (hxø) 45 Cm X 80 Mm.\n\nMaterial: TPU Weight: 0.98 kg Product code: 22038 UB R\n\nBase: (Ø) 200 mm Mounting: 3x Weight: 0.98 kg"
+  },
+  "EV-22039 UB R": {
+    "name": "Tpu Flexible Delineator - (hxø) 30 Cm X 80 Mm – 22039 UB R",
+    "description": "Tpu Flexible Delinator - (hxø) 30 Cm X 80 Mm.\n\nMaterial: TPU Weight: 0.72 kg Product code: 22039 UB R\n\nBase: (Ø) 200 mm Mounting: 3x Weight: 0.72 kg"
+  },
+  "EV-22040 UB R": {
+    "name": "Tpe Flexible Delineator (with socket) - (hxø) 100 Cm X 80 Mm – 22040 UB R",
+    "description": "Tpe Flexible Delineator (with socket) - (hxø) 100 Cm X 80 Mm.\n\nMaterial: TPE Weight: 0.94 kg Product code: 22040 UB R\n\nBase: (Ø) 200 mm Mounting: 3x Weight: 0.94 kg"
+  },
+  "EV-22042 UB R": {
+    "name": "Tpe Flexible Delineator (with socket) - (hxø) 75 Cm X 80 Mm – 22042 UB R",
+    "description": "Tpe Flexible Delineator (with socket) - (hxø) 75 Cm X 80 Mm.\n\nMaterial: TPE · Weight: 0.73 kg · Product code: 22042 UB R\n\nBase: (Ø) 200 mm Mounting: 3x Weight: 0.73 kg"
+  },
+  "EV-22044 UB R": {
+    "name": "Tpe Flexible Delineator (with socket) - (hxø) 45 Cm X 80 Mm – 22044 UB R",
+    "description": "Tpe Flexible Delineator (with socket) - (hxø) 45 Cm X 80 Mm.\n\nMaterial: TPE Weight: 0.49 kg Product code: 22044 UB R\n\nBase: (Ø) 200 mm Mounting: 3x Weight: 0.49 kg"
+  },
+  "EV-12275 UB R": {
+    "name": "Tpe Flexible Delinator - (hxø) 30 Cm X 80 Mm – 12275 UB R",
+    "description": "TPE Flexible Delinator - (hxø) 30 Cm X 80 Mm.\n\nMaterial: TPE Weight: 0.53 kg Product code: 12275 UB R\n\nBase: (Ø) 200 mm Mounting: 3x Weight: 0.53 kg"
+  },
+  "EV-12274 UB R": {
+    "name": "Tpe Flexible Delineator (with socket) - (hxø) 40 Cm X 80 Mm – 12274 UB R",
+    "description": "Tpe Flexible Delineator (with socket) - (hxø) 40 Cm X 80 Mm.\n\nMaterial: TPE Weight: 0.52 kg Product code: 12274 UB R\n\nBase: (Ø) 180 mm Mounting: 3x Weight: 0.52 kg"
+  },
+  "EV-12272 UB R": {
+    "name": "Tpe Flexible Delineator (with socket) - (hxø) 70 Cm X 80 Mm – 12272 UB R",
+    "description": "Tpe Flexible Delineator (with socket) - (hxø) 70 Cm X 80 Mm.\n\nMaterial: TPE Weight: 0.74 kg Product code: 12272 UB R\n\nBase: (Ø) 180 mm Mounting: 3x Weight: 0.74 kg"
+  },
+  "EV-22048 UB R": {
+    "name": "Tpe Flexible Delineator (with socket) - (hxø) 100 Cm X 80 Mm – 22048 UB R",
+    "description": "Tpe Flexible Delineator (with socket) - (hxø) 100 Cm X 80 Mm.\n\nMaterial: TPE · Weight: 0.94 kg · Product code: 22048 UB R\n\nBase: (Ø) 200 mm Mounting: 3x Weight: 0.94 kg"
+  },
+  "EV-22050 UB R": {
+    "name": "Tpe Flexible Delineator (with socket) - (hxø) 75 Cm X 80 Mm – 22050 UB R",
+    "description": "Tpe Flexible Delineator (with socket) - (hxø) 75 Cm X 80 Mm.\n\nMaterial: TPE Weight: 0.73 kg Product code: 22050 UB R\n\nBase: (Ø) 200 mm Mounting: 3x Weight: 0.73 kg"
+  },
+  "EV-22052 UB R": {
+    "name": "Tpe Flexible Delineator (with socket) - (hxø) 45 Cm X 80 Mm – 22052 UB R",
+    "description": "Tpe Flexible Delineator (with socket) - (hxø) 45 Cm X 80 Mm.\n\nMaterial: TPE · Weight: 0.49 kg · Product code: 22052 UB R\n\nBase: (Ø) 200 mm Mounting: 3x Weight: 0.49 kg"
+  },
+  "EV-22019 UB R": {
+    "name": "Tpe Flexible Delinator - (hxø) 30 Cm X 80 Mm – 22019 UB R",
+    "description": "TPE Flexible Delinator - (hxø) 30 Cm X 80 Mm.\n\nMaterial: TPE Weight: 0.53 kg Product code: 22019 UB R\n\nBase: (Ø) 200 mm Mounting: 3x Weight: 0.53 kg"
+  },
+  "EV-22029 UB R": {
+    "name": "Tpe Flexible Delinator - (hxø) 30 Cm X 80 Mm – 22029 UB R",
+    "description": "TPE Flexible Delinator - (hxø) 30 Cm X 80 Mm.\n\nMaterial: TPE Weight: 0.53 kg Product code: 22029 UB R\n\nBase: (Ø) 200 mm Mounting: 3x Weight: 0.53 kg"
+  },
+  "EV-22053 UB R": {
+    "name": "Tpe Flexible Delineator (with socket) - (hxø) 45 Cm X 80 Mm – 22053 UB R",
+    "description": "Tpe Flexible Delineator (with socket) - (hxø) 45 Cm X 80 Mm.\n\nMaterial: TPE · Weight: 0.49 kg · Product code: 22053 UB R\n\nBase: (Ø) 200 mm Mounting: 3x Weight: 0.49 kg"
+  },
+  "EV-22051 UB R": {
+    "name": "Tpe Flexible Delineator (with socket) - (hxø) 75 Cm X 80 Mm – 22051 UB R",
+    "description": "Tpe Flexible Delineator (with socket) - (hxø) 75 Cm X 80 Mm.\n\nMaterial: TPE · Weight: 0.73 kg · Product code: 22051 UB R\n\nBase: (Ø) 200 mm Mounting: 3x Weight: 0.73 kg"
+  },
+  "EV-22049 UB R": {
+    "name": "Tpe Flexible Delineator (with socket) - (hxø) 100 Cm X 80 Mm – 22049 UB R",
+    "description": "Tpe Flexible Delineator (with socket) - (hxø) 100 Cm X 80 Mm.\n\nMaterial: TPE Weight: 0.94 kg Product code: 22049 UB R\n\nBase: (Ø) 200 mm Mounting: 3x Weight: 0.94 kg"
+  },
+  "EV-22059 UB R": {
+    "name": "Tpe Flexible Delinator - (hxø) 30 Cm X 80 Mm – 22059 UB R",
+    "description": "TPE Flexible Delinator - (hxø) 30 Cm X 80 Mm.\n\nMaterial: TPE · Weight: 0.53 kg · Product code: 22059 UB R\n\nBase: (Ø) 200 mm Mounting: 3x Weight: 0.53 kg"
+  },
+  "EV-22058 UB R": {
+    "name": "Tpe Flexible Delineator (with socket) - (hxø) 45 Cm X 80 Mm – 22058 UB R",
+    "description": "TPE Flexible Delinator (with socket) - (hxø) 45 Cm X 80 Mm.\n\nMaterial: TPE Weight: 0.49 kg Product code: 22058 UB R\n\nBase: (Ø) 200 mm Mounting: 3x Weight: 0.49 kg"
+  },
+  "EV-22057 UB R": {
+    "name": "Tpe Flexible Delineator (with socket) - (hxø) 75 Cm X 80 Mm – 22057 UB R",
+    "description": "Tpe Flexible Delineator (with socket) - (hxø) 75 Cm X 80 Mm.\n\nMaterial: TPE · Weight: 0.73 kg · Product code: 22057 UB R\n\nBase: (Ø) 200 mm Mounting: 3x Weight: 0.73 kg"
+  },
+  "EV-22056 UB R": {
+    "name": "Tpe Flexible Delineator (with socket) - (hxø) 100 Cm X 80 Mm – 22056 UB R",
+    "description": "Tpe Flexible Delineator (with socket) - (hxø) 100 Cm X 80 Mm.\n\nMaterial: TPE Weight: 0.94 kg Product code: 22056 UB R\n\nBase: (Ø) 200 mm Mounting: 3x Weight: 0.94 kg"
+  },
+  "EV-22021 UB R": {
+    "name": "Tpe S Strip Separator Flexible Delineator - (hxø) 100cmx80mm – 22021 UB R",
+    "description": "Tpe S Strip Separator Flexible Delineator - (hxø) 100cmx80mm.\n\nMaterial: TPE Weight: 1.2 kg Product code: 22021 UB R\n\nBase: (Ø) 200 mm mounting: 3x weight: 1.2 kg"
+  },
+  "EV-22022 UB R": {
+    "name": "Tpe S Strip Separator Flexible Delineator - (hxø) 75cmx80mm – 22022 UB R",
+    "description": "Tpe S Strip Separator Flexible Delineator - (hxø) 75cmx80mm.\n\nMaterial: TPE Weight: 0.95 kg Product code: 22022 UB R\n\nBase: (Ø) 200 mm mounting: 3x weight: 0.95 kg"
+  },
+  "EV-22023 UB R": {
+    "name": "Tpe S Strip Separator Flexible Delineator - (hxø) 45cmx80mm – 22023 UB R",
+    "description": "Tpe S Strip Separator Flexible Delineator - (hxø) 45cmx80mm.\n\nMaterial: TPE Weight: 0.73 kg Product code: 22023 UB R\n\nBase: (Ø) 200 mm mounting: 3x weight: 0.73 kg"
+  },
+  "EV-22024 UB R": {
+    "name": "Tpe S Strip Separator Flexible Delineator - (hxø) 30cmx80mm – 22024 UB R",
+    "description": "Tpe S Strip Separator Flexible Delinator - (hxø) 30cmx80mm.\n\nMaterial: TPE · Weight: 0.53 kg · Product code: 22024 UB R\n\nBase: (Ø) 200 mm mounting: 3x weight: 0.53 kg"
+  },
+  "EV-12251 UB R": {
+    "name": "Ribbon Editing Button with Delineator - (hxlxw)92x100x22cm – 12251 UB R",
+    "description": "Strip Editing Button with Delineator - (hxlxw)92x100x22cm.\n\nDimensions: 92 × 100 × 22 cm · Material: PPC-TPU · Weight: 4.6 kg · Product code: 12251 UB R\n\nMounting: 6x Material:PPC-TPU Weight: 4.6 kg"
+  },
+  "EV-12268 UB R": {
+    "name": "Strip Editing Button with Delineator - (hxlxw)75x100x22cm – 12268 UB R",
+    "description": "Strip Editing Button with Delineator - (hxlxw)75x100x22cm.\n\nSize: 75 × 100 × 22 cm · Material: PPC-TPU · Weight: 4.2 kg · Product code: 12268 UB R\n\nMounting: 6x Material:PPC-TPU Weight: 4.2 kg"
+  },
+  "EV-12270 UB R": {
+    "name": "Ribbon Editing Button with Delineator - (hxlxw)45x100x22cm – 12270 UB R",
+    "description": "Strip Editing Button with Delineator - (hxlxw)45x100x22cm.\n\nSize: 45 × 100 × 22 cm · Material: PPC-TPU · Weight: 3.8 kg · Product code: 12270 UB R\n\nMounting: 6x Material:PPC-TPU Weight: 3.8 kg"
+  },
+  "EV-12297 UB R": {
+    "name": "Strip Editing Button with Delineator - (hxlxw)92x100x20cm – 12297 UB R",
+    "description": "Strip Editing Button with Delineator - (hxlxw)92x100x20cm.\n\nSize: 92 × 100 × 20 cm · Material: PPC-TPU · Weight: 4.8 kg · Product code: 12297 UB R\n\nMounting: 4x Material:PPC-TPU Weight: 4.8 kg"
+  },
+  "EV-12219 UB R": {
+    "name": "Strip Editing Button with Delineator - (hxlxw)75x100x20cm – 12219 UB R",
+    "description": "Strip Editing Button with Delineator - (hxlxw)75x100x20cm.\n\nSize: 75 × 100 × 20 cm · Material: PPC-TPU · Weight: 4.5 kg · Product code: 12219 UB R\n\nMounting: 4x Material:PPC-TPU Weight: 4.5 kg"
+  },
+  "EV-12218 UB R": {
+    "name": "Ribbon Editing Button with Delineator - (hxlxw)45x100x20cm – 12218 UB R",
+    "description": "Strip Editing Button with Delineator - (hxlxw)45x100x20cm.\n\nDimension: 45 × 100 × 20 cm · Material: PPC-TPU · Weight: 4.1 kg · Product code: 12218 UB R\n\nMounting: 4x Material:PPC-TPU Weight: 4.1 kg"
+  },
+  "EV-12262 UB": {
+    "name": "Cat Eye Lane Limiting Button - (hxlxw)7.5x100x22cm – 12262 UB",
+    "description": "Cat Eye Lane Limiting Button - (hxlxw)7.5x100x22cm.\n\nSize: 7.5 × 100 × 22 cm · Material: PPC · Weight: 3.5 kg · Product code: 12262 UB\n\nMounting: 6x Material: PPC Weight: 3.5 kg"
+  },
+  "EV-12266 UB R": {
+    "name": "Plate Strip Regulation Button - (hxlxw) 66x100x22 Cm – 12266 UB R",
+    "description": "Plate Strip Editing Button - (hxlxw) 66x100x22 Cm.\n\nSize: 66 × 100 × 22 cm · Material: PPC · Weight: 3.6 kg · Product code: 12266 UB R\n\nMounting: 6x Material: PPC Weight: 3.6 kg Prismatic Reflective Sheeting"
+  },
+  "EV-12260 UB R": {
+    "name": "Lane Limitation Button - (hxlxw) 6.0x100x15 Cm – 12260 UB R",
+    "description": "Lane Limitation Button - (hxlxw) 6.0x100x15 Cm.\n\nSize: 6 × 100 × 15 cm · Material: PVC · Weight: 6 kg · Product code: 12260 UB R\n\nMounting: 3x Material: PVC Weight: 6.0 kg"
+  },
+  "EV-22203 UB R": {
+    "name": "Plate Strip Regulation Button - (hxlxw) 28.5x18x20cm – 22203 UB R",
+    "description": "Plate Strip Editing Button - (hxlxw) 28.5x18x20cm.\n\nSize: 28.5 × 18 × 20 cm · Material: ABS-TPU · Weight: 0.62 kg · Product code: 22203 UB R\n\nMounting: 2x Material: ABS-TPU Weight: 0.62 kg"
+  },
+  "EV-22202 UB R": {
+    "name": "Plate Strip Regulation Button - (hxlxw) 59x18x20cm – 22202 UB R",
+    "description": "Plate Strip Editing Button - (hxlxw) 59x18x20cm.\n\nSize: 59 × 18 × 20 cm · Material: ABS-TPU · Weight: 0.86 kg · Product code: 22202 UB R\n\nMounting: 2x Material: ABS-TPU Weight: 0.86 kg"
+  },
+  "EV-22206 DB R": {
+    "name": "Plate Strip Editing Button - (hxlxw)71x30x25cm – 22206 DB R",
+    "description": "Plate Strip Editing Button - (hxlxw)71x30x25cm.\n\nDimension: 71 × 30 × 25 cm · Material: PPC · Weight: 2.48 kg · Product code: 22206 DB R\n\nReflective:48x20cm · Mounting:2x · Material:PPC · Weight:2.48kg"
+  },
+  "EV-22205 DB R": {
+    "name": "Plate Strip Editing Button - (hxlxw)102.5x30x25cm – 22205 DB R",
+    "description": "Plate Strip Editing Button - (hxlxw)102.5x30x25cm.\n\nDimension: 102.5 × 30 × 25 cm · Material: PPC · Weight: 2.85 kg · Product code: 22205 DB R\n\nReflective:80x20cm · Mounting:2x · Material:PPC · Weight:2.85kg"
+  },
+  "EV-12206 UB R": {
+    "name": "Plate Strip Regulation Button - (hxlxw) 60x26x16 Cm – 12206 UB R",
+    "description": "Plate Strip Editing Button - (hxlxw) 60x26x16 Cm.\n\nSize: 60 × 26 × 16 cm · Material: PPC-TPU · Weight: 0.9 kg · Product code: 12206 UB R\n\nMounting: 2x Material: PPC-TPU Weight: 0.90 kg"
+  },
+  "EV-12207 UB R": {
+    "name": "Plate Strip Regulation Button - (hxlxw) 30x26x16 Cm – 12207 UB R",
+    "description": "Plate Strip Editing Button - (hxlxw) 30x26x16 Cm.\n\nSize: 30 × 26 × 16 cm · Material: PPC-TPU · Weight: 0.75 kg · Product code: 12207 UB R\n\nMounting: 2x Material: PPC-TPU Weight: 0.75 kg"
+  },
+  "EV-12204 UB R": {
+    "name": "Plate Strip Regulation Button - (hxlxw) 60x118x15 Cm – 12204 UB R",
+    "description": "Plate Strip Editing Button - (hxlxw) 60x118x15 Cm.\n\nSize: 60 × 118 × 15 cm · Material: PPC-TPU · Weight: 2.7 kg · Product code: 12204 UB R\n\nMounting: 3x Material: PPC-TPU Weight: 2.7 kg"
+  },
+  "EV-12203 UB R": {
+    "name": "Plate Strip Regulation Button - (hxlxw) 30x118x15 Cm – 12203 UB R",
+    "description": "Plate Strip Editing Button - (hxlxw) 30x118x15 Cm.\n\nSize: 30 × 118 × 15 cm · Material: PPC-TPU · Weight: 2.5 kg · Product code: 12203 UB R\n\nMounting: 3x Material: PPC-TPU Weight: 2.5 kg"
+  },
+  "EV-12202 UB": {
+    "name": "Lane Limitation Button - (hxlxw) 4.8x118x15 Cm – 12202 UB",
+    "description": "Lane Limitation Button - (hxlxw) 4.8x118x15 Cm.\n\nSize: 4.8 × 118 × 15 cm · Material: PPC · Weight: 2.3 kg · Product code: 12202 UB\n\nMounting: 3x Material: PPC Weight: 2.3 kg"
+  },
+  "EV-12220 UB": {
+    "name": "Lane Limiting Button with Solar Flashing - (hxlxw)8.0x100x20cm – 12220 UB",
+    "description": "Lane Limiting Button with Solar Flashing - (hxlxw)8.0x100x20cm.\n\nSize: 8 × 100 × 20 cm · Material: PPC · Weight: 3.7 kg · Product code: 12220 UB\n\nMounting: 4x Material: PPC Weight: 3.7 kg"
+  },
+  "EV-12217 UB": {
+    "name": "Lane Limiting Button with Glass Reflector - (hxlxw)8.0x100x20cm – 12217 UB",
+    "description": "Lane Limiting Button with Glass Reflector - (hxlxw)8.0x100x20cm.\n\nSize: 8 × 100 × 20 cm · Material: PPC · Weight: 4.1 kg · Product code: 12217 UB\n\nMounting: 4x Material: PPC Weight: 4.1 kg"
+  },
+  "EV-11924 SL K": {
+    "name": "Solar Road Marking Button - 145x125x28 Mm – 11924 SL K",
+    "description": "Solar Road Marking Button - 145x125x28 Mm.\n\nSize: 14.5 × 12.5 × 2.8 cm · Material: AL · Weight: 0.48 kg · Product code: 11924 SL K\n\nMaterial: AL Weight: 0.48 kg Mounting: Epoxy"
+  },
+  "EV-11926 SL S": {
+    "name": "Solar Road Marking Button - 145x125x28 Mm – 11926 SL S",
+    "description": "Solar Road Marking Button - 145x125x28 Mm.\n\nSize: 14.5 × 12.5 × 2.8 cm · Material: AL · Weight: 0.48 kg · Product code: 11926 SL S\n\nMaterial: AL Weight: 0.48 kg Mounting: Epoxy"
+  },
+  "EV-11920 SL K": {
+    "name": "Solar Road Marking Button - 145x125x28 Mm – 11920 SL K",
+    "description": "Solar Road Marking Button - 145x125x28 Mm.\n\nSize: 14.5 × 12.5 × 2.8 cm · Material: AL · Weight: 0.45 kg · Product code: 11920 SL K\n\nMaterial: AL Weight: 0.45 kg Mounting: 2x"
+  },
+  "EV-11922 SL S": {
+    "name": "Solar Road Marking Button - 145x125x28 Mm – 11922 SL S",
+    "description": "Solar Road Marking Button - 145x125x28 Mm.\n\nSize: 14.5 × 12.5 × 2.8 cm · Material: AL · Weight: 0.45 kg · Product code: 11922 SL S\n\nMaterial: AL Weight: 0.45 kg Mounting: 2x"
+  },
+  "EV-11921 SL K": {
+    "name": "Solar Road Marking Button - 135x120x28 Mm – 11921 SL K",
+    "description": "Solar Road Marking Button - 135x120x28 Mm.\n\nSize: 13.5 × 12 × 2.8 cm · Material: AL · Weight: 0.57 kg · Product code: 11921 SL K\n\nMaterial: AL Weight: 0.57 kg Mounting: 2x"
+  },
+  "EV-11923 SL S": {
+    "name": "Solar Road Marking Button - 135x120x28 Mm – 11923 SL S",
+    "description": "Solar Road Marking Button - 135x120x28 Mm.\n\nSize: 13.5 × 12 × 2.8 cm · Material: AL · Weight: 0.57 kg · Product code: 11923 SL S\n\nMaterial: AL Weight: 0.57 kg Mounting: 2x"
+  },
+  "EV-12005-2 YB": {
+    "name": "Path Button with Lens - 100x100x21 Mm – 12005-2 YB",
+    "description": "Path Button with Lens - 100x100x21 Mm.\n\nDimension: 10 × 10 × 2.1 cm · Material: ABS · Weight: 0.15 kg · Product code: 12005-2 YB\n\nMaterial: ABS · Weight: 0.15 kg · Mounting: 2x"
+  },
+  "EV-12005 YB": {
+    "name": "Lensed Road Button - 105x105x20 Mm – 12005 YB",
+    "description": "Path Button with Lens - 105x105x20 Mm.\n\nDimension: 10.5 × 10.5 × 2 cm · Material: ABS · Weight: 0.12 kg · Product code: 12005 YB\n\nMaterial: ABS · Weight: 0.12 kg · Mounting: 2x"
+  },
+  "EV-12000 YB": {
+    "name": "Lensed Road Button - 125x150x32 Mm – 12000 YB",
+    "description": "Path Button with Lens - 125x150x32 Mm.\n\nSize: 12.5 × 15 × 3.2 cm · Material: PPC · Weight: 0.2 kg · Product code: 12000 YB\n\nMaterial: PPC Weight: 0.20 kg Mounting: 4x"
+  },
+  "EV-12006 YB": {
+    "name": "Lensed Road Button - 120x220x28 Mm – 12006 YB",
+    "description": "Path Button with Lens - 120x220x28 Mm.\n\nSize: 12 × 22 × 2.8 cm · Material: PPC · Weight: 0.22 kg · Product code: 12006 YB\n\nMaterial: PPC Weight: 0.22 kg Mounting: 2x"
+  },
+  "EV-12002 YB": {
+    "name": "Lensed Road Button - 120x120x28 Mm – 12002 YB",
+    "description": "Path Button with Lens - 120x120x28 Mm.\n\nSize: 12 × 12 × 2.8 cm · Material: PPC · Weight: 0.18 kg · Product code: 12002 YB\n\nMaterial: PPC Weight: 0.18 kg Mounting: 4x"
+  },
+  "EV-12003 YB": {
+    "name": "Lensed Road Button - 100x220x32 Mm – 12003 YB",
+    "description": "Path Button with Lens - 100x220x32 Mm.\n\nDimension: 10 × 22 × 3.2 cm · Material: PPC · Weight: 0.24 kg · Product code: 12003 YB\n\nMaterial: PPC Weight: 0.24 kg Mounting: 4x"
+  },
+  "EV-12011 YB": {
+    "name": "Glass Cat Eye Road Button - 100x102x21 Mm – 12011 YB",
+    "description": "Glass Cat Eye Road Button - 100x102x21 Mm.\n\nDimension: 10 × 10.2 × 2.1 cm · Material: AL · Weight: 0.4 kg · Product code: 12011 YB\n\nMaterial: AL Weight: 0.40 kg Mounting: Epoxy"
+  },
+  "EV-12007 YB": {
+    "name": "Glass Cat Eye Road Button - 120x120x28 Mm – 12007 YB",
+    "description": "Glass Cat Eye Road Button - 120x120x28 Mm.\n\nSize: 12 × 12 × 2.8 cm · Material: AL · Weight: 0.3 kg · Product code: 12007 YB\n\nMaterial: AL Weight: 0.30 kg Mounting: 2x"
+  },
+  "EV-12009 YB": {
+    "name": "Glass Cat Eye Road Button - 100x100x21 Mm – 12009 YB",
+    "description": "Glass Cat Eye Road Button - 100x100x21 Mm.\n\nDimension: 10 × 10 × 2.1 cm · Material: ABS · Weight: 0.15 kg · Product code: 12009 YB\n\nMaterial: ABS · Weight: 0.15 kg · Mounting: 2x"
+  },
+  "EV-12004 YB": {
+    "name": "Lensed Road Button - 140x120x25 Cm – 12004 YB",
+    "description": "Road Button with Lens - 140x120x25 Cm.\n\nDimension: 140 × 120 × 25 cm · Material: PPC · Weight: 0.12 kg · Product code: 12004 YB\n\nMaterial: PPC Weight: 0.12 kg Mounting: 4x"
+  },
+  "EV-12123 YK": {
+    "name": "Path Button with Lens - (ø) 250x35 Mm – 12123 YK",
+    "description": "Path Button with Lens - (ø) 250x35 Mm.\n\nMaterial: PPC · Weight: 0.45 kg · Product code: 12123 YK\n\nmaterial: PPC weight: 0.45 kg mounting: 4x"
+  },
+  "EV-12124 YK": {
+    "name": "Path Button with Lens - (ø) 250x35 Mm – 12124 YK",
+    "description": "Path Button with Lens - (ø) 250x35 Mm.\n\nMaterial: PPC · Weight: 0.45 kg · Product code: 12124 YK\n\nmaterial: PPC weight: 0.45 kg mounting: 4x"
+  },
+  "EV-12108 YK": {
+    "name": "Rubber Chassis Road Bump - Dimension: 4.5x60x50 Cm – 12108 YK",
+    "description": "Rubber Chassis Road Bump - Dimension: 4.5x60x50 Cm.\n\nDimension: 4.5 × 60 × 50 cm · Material: PVC-PPC · Weight: 9.3 kg · Product code: 12108 YK\n\nMaterial: PVC-PPC · Weight: 9.3 kg · Mounting: 4x"
+  },
+  "EV-12116 YK": {
+    "name": "Rubber Chassis Road Bump - Dimension: 4.5x60x50 Cm – 12116 YK",
+    "description": "Rubber Chassis Road Bump - Dimension: 4.5x60x50 Cm.\n\nDimension: 4.5 × 60 × 50 cm · Material: PVC-PPC · Weight: 9.3 kg · Product code: 12116 YK\n\nMaterial: PVC-PPC · Weight: 9.3 kg · Mounting: 6x"
+  },
+  "EV-12109 YK K": {
+    "name": "Road Bump Cover with Rubber Chassis - Dimension: 4.5x60x30 Cm – 12109 YK K",
+    "description": "Road Bump Cover with Rubber Chassis - Dimension: 4.5x60x30 Cm.\n\nDimension: 4.5 × 60 × 30 cm · Material: PVC-PPC · Weight: 3.4 kg · Product code: 12109 YK K\n\nMaterial: PVC-PPC · Weight: 3.4 kg · Mounting: 2x"
+  },
+  "EV-12110 YK": {
+    "name": "Rubber Chassis Road Bump - Dimension: 4x40x50 Cm – 12110 YK",
+    "description": "Rubber Chassis Road Bump - Dimension: 4x40x50 Cm.\n\nDimension: 4 × 40 × 50 cm · Material: PVC-PPC · Weight: 6.5 kg · Product code: 12110 YK\n\nMaterial: PVC-PPC · Weight: 6.5 kg · Mounting: 4x"
+  },
+  "EV-12111 YK K": {
+    "name": "Road Bump Cover with Rubber Chassis - Dimension: 4.0x40x20 Cm – 12111 YK K",
+    "description": "Road Bump Cover with Rubber Chassis - Dimension: 4.0x40x20 Cm.\n\nDimension: 4 × 40 × 20 cm · Material: PVC-PPC · Weight: 1.7 kg · Product code: 12111 YK K\n\nMaterial: PVC-PPC · Weight: 1.7 kg · Mounting: 2x"
+  },
+  "EV-12106 YK": {
+    "name": "Rubber Chassis Road Bump - Dimension: 4.0x40x50 Cm – 12106 YK",
+    "description": "Rubber Chassis Road Bump - Dimension: 4.0x40x50 Cm.\n\nDimension: 4 × 40 × 50 cm · Material: PVC-PPC · Weight: 6.5 kg · Product code: 12106 YK\n\nMaterial: PVC-PPC · Weight: 6.5 kg · Mounting: 4x"
+  },
+  "EV-12107 YK K": {
+    "name": "Road Bump Cover with Rubber Chassis - Dimension: 4.0x40x20 Cm – 12107 YK K",
+    "description": "Road Bump Cover with Rubber Chassis - Dimension: 4.0x40x20 Cm.\n\nDimension: 4 × 40 × 20 cm · Material: PVC-PPC · Weight: 1.7 kg · Product code: 12107 YK K\n\nMaterial: PVC-PPC · Weight: 1.7 kg · Mounting: 2x"
+  },
+  "EV-12102 YK": {
+    "name": "Road Bump with Lens - Dimension: 4.0x30x33.5 Cm – 12102 YK",
+    "description": "Road Bump with Lens - Dimensions: 4.0x30x33.5 Cm.\n\nSize: 4 × 30 × 33.5 cm · Material: PPC · Weight: 1.35 kg · Product code: 12102 YK\n\nMaterial: PPC · Weight: 1.35 kg · Mounting: 4x"
+  },
+  "EV-12103 YK K": {
+    "name": "Road Bump Cover with Lens - Dimension: 4.0x30x10 Cm – 12103 YK K",
+    "description": "Road Bump Cover with Lens - Dimension: 4.0x30x10 Cm.\n\nSize: 4 × 30 × 10 cm · Material: PPC · Weight: 0.25 kg · Product code: 12103 YK K\n\nMaterial: PPC Weight: 0.25 kg Mounting: 2x"
+  },
+  "EV-12120 YK": {
+    "name": "Road Cross with Lens - Dimension: 3.5x25x50 Cm – 12120 YK",
+    "description": "Road Bump with Lens - Dimension: 3.5x25x50 Cm.\n\nDimension: 3.5 × 25 × 50 cm · Material: PPC · Weight: 1.15 kg · Product code: 12120 YK\n\nMaterial: PPC · Weight: 1.15 kg · Mounting: 4x"
+  },
+  "EV-12121 YK K": {
+    "name": "Road Bump Cover with Lens - Size: 3.5x25x12 Cm – 12121 YK K",
+    "description": "Road Bump Cover with Lens - Dimension: 3.5x25x12 Cm.\n\nSize: 3.5 × 25 × 12 cm · Material: PPC · Weight: 0.26 kg · Product code: 12121 YK K\n\nMaterial: PPC Weight: 0.26 kg Mounting: 2x"
+  },
+  "EV-12100 YK": {
+    "name": "Road Bump with Lens - Dimension: 5.0x25x34.5 Cm – 12100 YK",
+    "description": "Road Bump with Lens - Dimension: 5.0x25x34.5 Cm.\n\nDimension: 5 × 25 × 34.5 cm · Material: PPC · Weight: 1.5 kg · Product code: 12100 YK\n\nMaterial: PPC · Weight: 1.5 kg · Mounting: 4x"
+  },
+  "EV-12101 YK K": {
+    "name": "Road Bump Cover with Lens - Size: 5.0x25x10 Cm – 12101 YK K",
+    "description": "Road Bump Cover with Lens - Dimension: 5.0x25x10 Cm.\n\nSize: 5 × 25 × 10 cm · Material: PPC · Weight: 0.35 kg · Product code: 12101 YK K\n\nMaterial: PPC · Weight: 0.35 kg · Mounting: 2x"
+  },
+  "EV-11938 SL": {
+    "name": "Road Crossing with Solar Flashing - Dimension: 4.5x50x50 Cm – 11938 SL",
+    "description": "Road Crossing with Solar Flashing - Dimension: 4.5x50x50 Cm.\n\nSize: 4.5 × 50 × 50 cm · Material: PPC · Weight: 3.1 kg · Product code: 11938 SL\n\nMaterial: PPC · Weight: 3.1 kg · Mounting: 4x"
+  },
+  "EV-11940 SL K": {
+    "name": "Road Bump Cover with Solar Flashing - Dimension: 4.5x50x25 Cm – 11940 SL K",
+    "description": "Road Bump Cover with Solar Flashing - Dimension: 4.5x50x25 Cm.\n\nSize: 4.5 × 50 × 25 cm · Material: PPC · Weight: 1.1 kg · Product code: 11940 SL K\n\nMaterial: PPC Weight: 1.1 kg Mounting: 2x"
+  },
+  "EV-12112 YK": {
+    "name": "Cat Eye Road Bump - Dimension: 4.5x50x50 Cm – 12112 YK",
+    "description": "Cat Eye Road Bump - Dimension: 4.5x50x50 Cm.\n\nDimension: 4.5 × 50 × 50 cm · Material: PPC · Weight: 3.1 kg · Product code: 12112 YK\n\nMaterial: PPC · Weight: 3.1 kg · Mounting: 4x"
+  },
+  "EV-12113 YK K": {
+    "name": "Cat Eye Road Bump Cover - Size: 4.5x50x25 Cm – 12113 YK K",
+    "description": "Cat Eye Road Bump Cover - Dimension: 4.5x50x25 Cm.\n\nSize: 4.5 × 50 × 25 cm · Material: PPC · Weight: 1.1 kg · Product code: 12113 YK K\n\nMaterial: PPC Weight: 1.1 kg Mounting: 2x"
+  },
+  "EV-12231 UB": {
+    "name": "Vehicle Stopper - (hxl) 10x180 Cm – 12231 UB",
+    "description": "Vehicle Stopper - (hxl) 10x180 Cm.\n\nSize: 10 × 180 cm · Material: PPC · Weight: 6.8 kg · Product code: 12231 UB\n\nMaterial: PPC Weight: 6.8 kg Mounting: 5x"
+  },
+  "EV-12233 UB": {
+    "name": "Vehicle Stopper - (hxl) 10x110 Cm – 12233 UB",
+    "description": "Vehicle Stopper - (hxl) 10x110 Cm.\n\nSize: 10 × 110 cm · Material: PPC · Weight: 4.3 kg · Product code: 12233 UB\n\nMaterial: PPC · Weight: 4.3 kg · Mounting: 3x"
+  },
+  "EV-12235 UB": {
+    "name": "Vehicle Stopper - (hxl) 10x55 Cm – 12235 UB",
+    "description": "Vehicle Stopper - (hxl) 10x55 Cm.\n\nSize: 10 × 55 cm · Material: PPC · Weight: 1.9 kg · Product code: 12235 UB\n\nMaterial: PPC · Weight: 1.9 kg · Mounting: 2x"
+  },
+  "EV-22231 UB R": {
+    "name": "Vehicle Stopper with Reflective Tape - (hxl) 8.5x180 Cm – 22231 UB R",
+    "description": "Vehicle Stopper with Reflective Tape - (hxl) 8.5x180 Cm.\n\nSize: 8.5 × 180 cm · Material: PPC · Weight: 4.3 kg · Product code: 22231 UB R\n\nMaterial: PPC · Weight: 4.3 kg · Mounting: 5x"
+  },
+  "EV-12216 UB R": {
+    "name": "Vehicle Stopper with Reflective Tape - (hxl) 10x50 Cm – 12216 UB R",
+    "description": "Vehicle Stopper with Reflective Tape - (hxl) 10x50 Cm.\n\nSize: 10 × 50 cm · Material: PVC · Weight: 2.4 kg · Product code: 12216 UB R\n\nMaterial: PVC · Weight: 2.4 kg · Mounting: 3x"
+  },
+  "EV-22210 UB ST": {
+    "name": "Locked Parking Barrier - (hxw) 50x38 Cm – 22210 UB ST",
+    "description": "Locked Parking Barrier - (hxw) 50x38 Cm.\n\nSize: 50 × 38 cm · Material: PPC-ST · Weight: 5.4 kg · Product code: 22210 UB ST\n\nMaterial: PPC-ST · Weight: 5.40 kg · Mounting: 3x"
+  },
+  "EV-12290 UB": {
+    "name": "Parking Lot Trap - Dimension: 6.0x50x50 Cm – 12290 UB",
+    "description": "Parking Lot Trap - Dimension: 6.0x50x50 Cm.\n\nSize: 6 × 50 × 50 cm · Material: PPC-ST · Weight: 7.3 kg · Product code: 12290 UB\n\nMaterial: PPC-ST Weight: 7.3 kg Mounting: 6x"
+  },
+  "EV-12291 UB K": {
+    "name": "Car Park Speedway Trap Cover - Dimension: 6.0x50x9.0 Cm – 12291 UB K",
+    "description": "Car Park Speedway Trap Cover - Dimension: 6.0x50x9.0 Cm.\n\nSize: 6 × 50 × 9 cm · Material: PPC · Weight: 0.7 kg · Product code: 12291 UB K\n\nMaterial: PPC Weight: 0.70 kg Mounting: 2x"
+  },
+  "EV-12292 UB R": {
+    "name": "Parking Lot Column Corner Protector - (h) 90 Cm – 12292 UB R",
+    "description": "Parking Lot Column Corner Protector - (h) 90 Cm.\n\nMaterial: PVC · Weight: 1.9 kg · Product code: 12292 UB R\n\nmaterial: PVC weight: 1.9 kg mounting: 6x"
+  },
+  "EV-12295 UB R": {
+    "name": "Parking Lot Column Corner Protector - (h) 80 Cm – 12295 UB R",
+    "description": "Parking Lot Column Corner Protector - (h) 80 Cm.\n\nMaterial: PVC · Weight: 2 kg · Product code: 12295 UB R\n\nmaterial: PVC weight: 2.0 kg mounting: 6x"
+  },
+  "EV-12294 UB R": {
+    "name": "Parking Lot Column Corner Protector - (h) 80 Cm – 12294 UB R",
+    "description": "Parking Lot Column Corner Protector - (h) 80 Cm.\n\nMaterial: PVC · Weight: 1.9 kg · Product code: 12294 UB R\n\nmaterial: PVC weight: 1.9 kg mounting: 6x"
+  },
+  "EV-12296 UB R": {
+    "name": "Parking Lot Column Corner Protector - (h) 80 Cm – 12296 UB R",
+    "description": "Parking Lot Column Corner Protector - (h) 80 Cm.\n\nMaterial: PVC · Weight: 1.9 kg · Product code: 12296 UB R\n\nmaterial: PVC weight: 1.9 kg mounting: 6x"
+  },
+  "EV-12226 TG A": {
+    "name": "Traffic Safety Mirror - Size: (ø) 800 Mm – 12226 TG A",
+    "description": "Traffic Safety Mirror - Dimension: (ø) 800 Mm.\n\nMaterial: PPC · Weight: 5.5 kg · Product code: 12226 TG A\n\nMaterial: PPC Weight: 5.5 kg"
+  },
+  "EV-12227 TG A": {
+    "name": "Traffic Safety Mirror - Size: (ø) 800 Mm – 12227 TG A",
+    "description": "Traffic Safety Mirror - Dimension: (ø) 800 Mm.\n\nMaterial: PPC · Weight: 5.5 kg · Product code: 12227 TG A\n\nMaterial: PPC Weight: 5.5 kg"
+  },
+  "EV-12228 TG A": {
+    "name": "Traffic Safety Mirror - Size: (ø) 600 Mm – 12228 TG A",
+    "description": "Traffic Safety Mirror - Dimension: (ø) 600 Mm.\n\nMaterial: PPC · Weight: 3.8 kg · Product code: 12228 TG A\n\nMaterial: PPC Weight: 3.8 kg"
+  },
+  "EV-12229 TG A": {
+    "name": "Traffic Safety Mirror - Size: (ø) 600 Mm – 12229 TG A",
+    "description": "Traffic Safety Mirror - Dimension: (ø) 600 Mm.\n\nMaterial: PPC · Weight: 3.8 kg · Product code: 12229 TG A\n\nMaterial: PPC Weight: 3.8 kg"
+  },
+  "EV-12248 TG A": {
+    "name": "Traffic Safety Mirror - Size: 60x80 Cm – 12248 TG A",
+    "description": "Traffic Safety Mirror - Dimension: 60x80 Cm.\n\nSize: 60 × 80 cm · Material: ABS · Weight: 6 kg · Product code: 12248 TG A\n\nMaterial: ABS Weight: 6.0 kg"
+  },
+  "EV-12246 TG A": {
+    "name": "Traffic Safety Mirror - Size: 60x80 Cm – 12246 TG A",
+    "description": "Traffic Safety Mirror - Dimension: 60x80 Cm.\n\nSize: 60 × 80 cm · Material: ABS · Weight: 6 kg · Product code: 12246 TG A\n\nMaterial: ABS Weight: 6.0 kg"
+  },
+  "EV-12267 TG A": {
+    "name": "Traffic Safety Mirror - Size: 40x60 Cm – 12267 TG A",
+    "description": "Traffic Safety Mirror - Dimension: 40x60 Cm.\n\nSize: 40 × 60 cm · Material: ABS · Weight: 3.3 kg · Product code: 12267 TG A\n\nMaterial: ABS Weight: 3.3 kg"
+  },
+  "EV-12265 TG A": {
+    "name": "Traffic Safety Mirror - Size: 40x60 Cm – 12265 TG A",
+    "description": "Traffic Safety Mirror - Dimension: 40x60 Cm.\n\nSize: 40 × 60 cm · Material: ABS · Weight: 3.3 kg · Product code: 12265 TG A\n\nMaterial: ABS Weight: 3.3 kg"
+  },
+  "EV-12276 UB D": {
+    "name": "Demountable Pavement Limiting Bollard - (hxø) 87x8 Cm – 12276 UB D",
+    "description": "Demountable Pavement Limiting Bollard - (hxø) 87x8 Cm.\n\nSize: 87 × 8 cm · Material: TPU · Weight: 1.72 kg · Product code: 12276 UB D\n\nBase:(Ø)110mm · Mounting:2x · Material:TPU · Weight:1.72 kg"
+  },
+  "EV-12277 UB D": {
+    "name": "Demountable Pavement Limiting Bollard - (hxø) 68x8 Cm – 12277 UB D",
+    "description": "Demountable Pavement Limiting Bollard - (hxø) 68x8 Cm.\n\nSize: 68 × 8 cm · Material: TPU · Weight: 1.38 kg · Product code: 12277 UB D\n\nBase:(Ø)110mm Mounting:2x Material:TPU Weight:1.38 kg"
+  },
+  "EV-12279 UB D": {
+    "name": "Demountable Pavement Limiting Bollard - (hxø) 81.5x8 Cm – 12279 UB D",
+    "description": "Demountable Pavement Limiting Bollard - (hxø) 81.5x8 Cm.\n\nSize: 81.5 × 8 cm · Material: TPU · Weight: 1.62 kg · Product code: 12279 UB D\n\nBase:(Ø)110mm Mounting:2x Material:TPU Weight:1.62 kg"
+  },
+  "EV-12280 UB D": {
+    "name": "Demountable Pavement Limiting Bollard - (hxø) 62.5x8 Cm – 12280 UB D",
+    "description": "Demountable Pavement Limiting Bollard - (hxø) 62.5x8 Cm.\n\nSize: 62.5 × 8 cm · Material: TPU · Weight: 1.28 kg · Product code: 12280 UB D\n\nBase:(Ø)110mm Mounting:2x Material:TPU Weight:1.28 kg"
+  },
+  "EV-22026 UB R": {
+    "name": "Plate Flexible Median Barrier-(h)120cm Plate Dimension:(ø)300mm – 22026 UB R",
+    "description": "Plate Flexible Median Barrier-(h)120cm Plate Dimension:(ø)300mm.\n\nMaterial: TPU · Weight: 2.1 kg · Product code: 22026 UB R\n\nMounting: 2x Material: TPU Weight: 2.1 kg"
+  },
+  "EV-22028 UB R": {
+    "name": "Plate Flexible Median Barrier-(h)108cm Plate Dimension:210x125mm – 22028 UB R",
+    "description": "Plated Flexible Median Bollard - (h)108cm Plate Dimension: 210x125mm.\n\nMaterial: TPU Weight: 1.9 kg Product code: 22028 UB R\n\nMounting: 2x Material: TPU Weight: 1.9 kg"
+  },
+  "EV-22032 UB R": {
+    "name": "Plate Flexible Median Barrier-(h)103cm Plate Dimension:100x400mm – 22032 UB R",
+    "description": "Plated Flexible Median Barrier-(h)103cm Plate Dimension: 100x400mm.\n\nMaterial: TPU · Weight: 2 kg · Product code: 22032 UB R\n\nMounting: 2x Material: TPU Weight: 2.0 kg"
+  },
+  "EV-22035 UB R": {
+    "name": "Pavement Limiting Bollard - (hxø) 80x9.0 Cm – 22035 UB R",
+    "description": "Pavement Limiting Bollard - (hxø) 80x9.0 Cm.\n\nSize: 80 × 9 cm · Material: PPC · Weight: 1.25 kg · Product code: 22035 UB R\n\nBase:(Ø)200mm Mounting:4x Material:PPC Weight:1.25 kg"
+  },
+  "EV-22031 UB R": {
+    "name": "Pavement Limiting Bollard - (hxø) 50x9.0 Cm – 22031 UB R",
+    "description": "Pavement Limiting Bollard - (hxø) 50x9.0 Cm.\n\nSize: 50 × 9 cm · Material: PPC · Weight: 0.9 kg · Product code: 22031 UB R\n\nBase:(Ø)200mm Mounting:4x Material:PPC Weight:0.90 kg"
+  },
+  "EV-12205 UB R": {
+    "name": "Pavement Limiting Bollard - (h) 50cm / Base: 25x25 Cm – 12205 UB R",
+    "description": "Pavement Limiting Bollard - (h) 50cm / Base: 25x25 Cm.\n\nSize: 25 × 25 cm · Material: PE · Weight: 1.5 kg · Product code: 12205 UB R\n\nMounting: 4x Material: PE Weight:1.5 kg"
+  },
+  "EV-22033 UB R": {
+    "name": "Pavement Limiting Bollard - (h) 50cm / Base: 25x25 Cm – 22033 UB R",
+    "description": "Pavement Limiting Bollard - (h) 50cm / Base: 25x25 Cm.\n\nSize: 25 × 25 cm · Material: PE · Weight: 1.5 kg · Product code: 22033 UB R\n\nMounting: 4x Material: PE Weight:1.5 kg"
+  },
+  "EV-12293 UB ST": {
+    "name": "Anti-parking Pontoon - (hxø)61cmx150mm / Base: 20x20 Cm – 12293 UB ST",
+    "description": "Anti-parking Pontoon - (hxø)61cmx150mm / Base: 20x20 Cm.\n\nSize: 20 × 20 cm · Material: ST · Weight: 6.7 kg · Product code: 12293 UB ST\n\nmounting: 4x material: ST weight: 6.7 kg"
+  },
+  "EV-12289 UB ST": {
+    "name": "Anti-parking Pontoon - (hxø)78cmx150mm / Base: 20x20 Cm – 12289 UB ST",
+    "description": "Anti-parking Pontoon - (hxø)78cmx150mm / Base: 20x20 Cm.\n\nSize: 20 × 20 cm · Material: ST · Weight: 8.3 kg · Product code: 12289 UB ST\n\nmounting: 4x material: ST weight: 8.3 kg"
+  },
+  "EV-22218 UB": {
+    "name": "Cable Protector Ramp - Dimension: 24x100x4.5 Cm - 2 Channels – 22218 UB",
+    "description": "Cable Protector Ramp - Dimension: 24x100x4.5 Cm - 2 Channels.\n\nSize: 24 × 100 × 4.5 cm · Material: Rubber · Weight: 7.5 kg · Product code: 22218 UB\n\nMaterial: Rubber Weight: 7.5 kg"
+  },
+  "EV-12298 UB": {
+    "name": "Cable Protector Ramp - Dimension: 60x50x7.5 Cm - 3 Channels – 12298 UB",
+    "description": "Cable Protector Bumper - Dimension: 60x50x7.5 Cm - 3 Channels.\n\nDimension: 60 × 50 × 7.5 cm · Material: PPC · Weight: 8.7 kg · Product code: 12298 UB\n\nMounting: 2x Material: PPC Weight: 8.7 kg"
+  },
+  "EV-12299 UB": {
+    "name": "Cable Protector Bump Corner - Dimension: 60x7.5 Cm - 3 Channels – 12299 UB",
+    "description": "Cable Protector Bump Corner - Dimension: 60x7.5 Cm - 3 Channels.\n\nSize: 60 × 7.5 cm · Material: PPC · Weight: 3 kg · Product code: 12299 UB\n\nMounting: 2x Material: PPC Weight: 3.0 kg"
+  },
+  "EV-PL 8010": {
+    "name": "Visually Impaired Floor Marking - Size: 40x40 Cm – PL 8010",
+    "description": "Visually Impaired Floor Marking - Dimension: 40x40 Cm.\n\nSize: 40 × 40 cm · Material: TPU · Weight: 0.7 kg · Product code: PL 8010\n\nMaterial: TPU Weight: 0.70 kg"
+  },
+  "EV-PL 8011": {
+    "name": "Visually Impaired Floor Marking - Size: 40x40 Cm – PL 8011",
+    "description": "Visually Impaired Floor Marking - Dimension: 40x40 Cm.\n\nSize: 40 × 40 cm · Material: TPU · Weight: 0.7 kg · Product code: PL 8011\n\nMaterial: TPU Weight: 0.70 kg"
+  },
+  "EV-PL 8012": {
+    "name": "Visually Impaired Floor Marking - Size: 40x40 Cm – PL 8012",
+    "description": "Visually Impaired Floor Marking - Dimension: 40x40 Cm.\n\nSize: 40 × 40 cm · Material: TPU · Weight: 0.85 kg · Product code: PL 8012\n\nMaterial: TPU Weight: 0.85 kg"
+  },
+  "EV-PL 8013": {
+    "name": "Visually Impaired Floor Marking - Size: 40x40 Cm – PL 8013",
+    "description": "Visually Impaired Floor Marking - Dimension: 40x40 Cm.\n\nSize: 40 × 40 cm · Material: TPU · Weight: 0.85 kg · Product code: PL 8013\n\nMaterial: TPU Weight: 0.85 kg"
+  },
+  "EV-PL 8014": {
+    "name": "Visually Impaired Floor Marking - Size: 60x30 Cm – PL 8014",
+    "description": "Visually Impaired Floor Marking - Dimension: 60x30 Cm.\n\nSize: 60 × 30 cm · Material: TPU · Weight: 0.77 kg · Product code: PL 8014\n\nMaterial: TPU Weight: 0.77 kg"
+  },
+  "EV-PL 8015": {
+    "name": "Visually Impaired Floor Marking - Size: 60x30 Cm – PL 8015",
+    "description": "Visually Impaired Floor Marking - Dimension: 60x30 Cm.\n\nSize: 60 × 30 cm · Material: TPU · Weight: 0.77 kg · Product code: PL 8015\n\nMaterial: TPU Weight: 0.77 kg"
+  },
+  "EV-PL 8016": {
+    "name": "Visually Impaired Floor Marking - Size: 60x30 Cm – PL 8016",
+    "description": "Visually Impaired Floor Marking - Dimension: 60x30 Cm.\n\nSize: 60 × 30 cm · Material: TPU · Weight: 0.9 kg · Product code: PL 8016\n\nMaterial: TPU Weight: 0.90 kg"
+  },
+  "EV-PL 8017": {
+    "name": "Visually Impaired Floor Marking - Size: 60x30 Cm – PL 8017",
+    "description": "Visually Impaired Floor Marking - Dimension: 60x30 Cm.\n\nSize: 60 × 30 cm · Material: TPU · Weight: 0.9 kg · Product code: PL 8017\n\nMaterial: TPU Weight: 0.90 kg"
+  },
+  "EV-PL 8018": {
+    "name": "Visually Impaired Floor Marking - Size: 58x58 Cm – PL 8018",
+    "description": "Visually Impaired Floor Marking - Size: 58x58 Cm.\n\nSize: 58 × 58 cm · Material: TPU · Weight: 1.4 kg · Product code: PL 8018\n\nMaterial: TPU Weight: 1.40 kg"
+  },
+  "EV-PL 8019": {
+    "name": "Visually Impaired Floor Marking - Size: 58x58 Cm – PL 8019",
+    "description": "Visually Impaired Floor Marking - Size: 58x58 Cm.\n\nSize: 58 × 58 cm · Material: TPU · Weight: 1.4 kg · Product code: PL 8019\n\nMaterial: TPU Weight: 1.40 kg"
+  },
+  "EV-PL 8020": {
+    "name": "Tpu Non-Slip Stair Covering - Size: 60x30 Cm – PL 8020",
+    "description": "Tpu Non-Slip Stair Covering - Dimension: 60x30 Cm.\n\nSize: 60 × 30 cm · Material: TPU · Weight: 0.9 kg · Product code: PL 8020\n\nMaterial: TPU Weight: 0.90 kg"
+  },
+  "EV-PL 8022": {
+    "name": "Tpu Non-Slip Stair Covering - Size: 60x30 Cm – PL 8022",
+    "description": "Tpu Non-Slip Stair Covering - Dimension: 60x30 Cm.\n\nSize: 60 × 30 cm · Material: TPU · Weight: 0.9 kg · Product code: PL 8022\n\nMaterial: TPU Weight: 0.90 kg"
+  },
+  "EV-111 A": {
+    "name": "Rectangular Warning Sign - Size: 40x34 Cm – 111 A",
+    "description": "Rectangular Warning Sign - Size: 40x34 Cm.\n\nSize: 40 × 34 cm Product code: 111 A"
+  },
+  "EV-196 A": {
+    "name": "Round Warning Sign - Size: Ø370 Mm – 196 A",
+    "description": "Round Warning Sign - Dimension: Ø370 Mm.\n\nProduct code: 196 A"
+  },
+  "EV-222 A R": {
+    "name": "Round Warning Sign - Reflective Size: Ø370 Mm Two-Way Warning – 222 A R",
+    "description": "Round Warning Sign - Reflective Size: Ø370 Mm Two-Way Warning.\n\nProduct code: 222 A R"
+  },
+  "EV-110 A": {
+    "name": "Triangle Warning Sign - Size: 50 Cm – 110 A",
+    "description": "Triangle Warning Sign - Size: 50 Cm.\n\nProduct code: 110 A"
+  },
+  "EV-114 A": {
+    "name": "Warning Sign - Size: 34x31 Cm – 114 A",
+    "description": "Warning Sign - Size: 34x31 Cm.\n\nSize: 34 × 31 cm Product code: 114 A"
+  },
+  "EV-120 A": {
+    "name": "Round Warning Sign - Size: Ø270 Mm – 120 A",
+    "description": "Round Warning Sign - Dimension: Ø270 Mm.\n\nProduct code: 120 A"
+  },
+  "EV-295 A F": {
+    "name": "Round Warning Sign - Foil Size: Ø370 Mm Two-Way Warning – 295 A F",
+    "description": "Round Warning Sign - Foil Dimension: Ø370 Mm Two-Way Warning.\n\nProduct code: 295 A F"
+  },
+  "EV-124 A F": {
+    "name": "Round Warning Sign - Foil Size: Ø270 Mm Two-Way Warning – 124 A F",
+    "description": "Round Warning Sign - Foil Dimension: Ø270 Mm Two-Way Warning.\n\nProduct code: 124 A F"
+  },
+  "EV-ETR 5111": {
+    "name": "Reflective Tape - 5 Cm X 10 M/roll - Red - White – ETR 5111",
+    "description": "Reflective Tape - 5 Cm X 10 M/roll - Red - White.\n\nProduct code: ETR 5111"
+  },
+  "EV-ETR 5112": {
+    "name": "Reflective Tape - 10 Cm X 10 M/roll - Red - White – ETR 5112",
+    "description": "Reflective Tape - 10 Cm X 10 M/roll - Red - White.\n\nProduct code: ETR 5112"
+  },
+  "EV-ETR 5121": {
+    "name": "Reflective Tape - 5 Cm X 10 M/roll - Yellow - Black – ETR 5121",
+    "description": "Reflective Tape - 5 Cm X 10 M/roll - Yellow - Black.\n\nProduct code: ETR 5121"
+  },
+  "EV-ETR 5122": {
+    "name": "Reflective Tape - 10 Cm X 10 M/roll - Yellow - Black – ETR 5122",
+    "description": "Reflective Tape - 10 Cm X 10 M/roll - Yellow - Black.\n\nProduct code: ETR 5122"
+  },
+  "EV-ETR 5131": {
+    "name": "Reflective Tape - 5 Cm X 11 M/roll - White – ETR 5131",
+    "description": "Reflective Tape - 5 Cm X 11 M/roll - White.\n\nProduct code: ETR 5131"
+  },
+  "EV-ETR 5141": {
+    "name": "Reflective Tape - 5 Cm X 11 M/roll - Yellow – ETR 5141",
+    "description": "Reflective Tape - 5 Cm X 11 M/roll - Yellow.\n\nProduct code: ETR 5141"
+  },
+  "EV-ETR 5151": {
+    "name": "Reflective Tape - 5 Cm X 11 M/roll - Red – ETR 5151",
+    "description": "Reflective Tape - 5 Cm X 11 M/roll - Red.\n\nProduct code: ETR 5151"
+  },
+  "EV-ETR 5161": {
+    "name": "Reflective Tape - 5 Cm X 11 M/roll - Blue – ETR 5161",
+    "description": "Reflective Tape - 5 Cm X 11 M/roll - Blue.\n\nProduct code: ETR 5161"
+  },
+  "EV-194 A": {
+    "name": "Delinator Apparatus - (ø) 80 Mm – 194 A",
+    "description": "Delinator Apparatus - (ø) 80 Mm.\n\nProduct code: 194 A"
+  },
+  "EV-126 A": {
+    "name": "Cone Apparatus - (h) 10.5 Cm – 126 A",
+    "description": "Cone Apparatus - (h) 10.5 Cm.\n\nProduct code: 126 A"
+  },
+  "EV-184 A": {
+    "name": "Plate Apparatus - (ø) 40 Mm – 184 A",
+    "description": "Plate Apparatus - (ø) 40 Mm.\n\nProduct code: 184 A"
+  },
+  "EV-204 A": {
+    "name": "Lamp Apparatus - (h) 11 Cm – 204 A",
+    "description": "Lamp Bracket - (h) 11 Cm.\n\nProduct code: 204 A"
+  },
+  "EV-174 A": {
+    "name": "Grooved Socket Hook - (ø) 40 Mm – 174 A",
+    "description": "Grooved Socket Hook - (ø) 40 Mm.\n\nProduct code: 174 A"
+  },
+  "EV-185 A": {
+    "name": "Chain Apparatus - (ø) 85 Mm – 185 A",
+    "description": "Chain Apparatus - (ø) 85 Mm.\n\nProduct code: 185 A"
+  },
+  "EV-188 A": {
+    "name": "Pontoon Wrench - (øxh) 110mm X 0.3 Cm – 188 A",
+    "description": "Pontoon Wrench - (øxh) 110mm X 0.3 Cm.\n\nProduct code: 188 A"
+  },
+  "EV-175 A": {
+    "name": "Chain Clip - Ø 8 Mm – 175 A",
+    "description": "Chain Clip - Ø 8 Mm.\n\nProduct code: 175 A"
+  },
+  "EV-127 A": {
+    "name": "8 Mm Chain - 3 M - Red - White – 127 A",
+    "description": "8 Mm Chain - 3 M - Red - White.\n\nProduct code: 127 A"
+  },
+  "EV-123 A": {
+    "name": "8 Mm Chain - 3 M - Yellow - Black – 123 A",
+    "description": "8 Mm Chain - 3 M - Yellow - Black.\n\nProduct code: 123 A"
+  },
+  "EV-190 A": {
+    "name": "PVC Cone Weight - Dimension: 38.5x38.5x5.0 Cm - 5 Kg – 190 A",
+    "description": "PVC Cone Weight - Dimension: 38.5x38.5x5.0 Cm - 5 Kg.\n\nSize: 38.5 × 38.5 × 5 cm · Material: PVC · Product code: 190 A"
+  },
+  "EV-128 A": {
+    "name": "8 Mm Chain - 25 M Pk - Red - White - 128 A",
+    "description": "8 Mm Chain - 25 M Pk - Red - White.\n\nProduct code: 128 A"
+  },
+  "EV-129 A": {
+    "name": "8 Mm Chain - 25 M Pk - Yellow - Black – 129 A",
+    "description": "8 Mm Chain - 25 M Pk - Yellow - Black.\n\nProduct code: 129 A"
+  },
+  "EV-152 A R": {
+    "name": "Cone And Strut Barricade Profile - (l) 150 Cm – 152 A R",
+    "description": "Cone And Strut Barricade Profile - (l) 150 Cm.\n\nProduct code: 152 A R"
+  },
+  "EV-159 A": {
+    "name": "Flanged Triphone Screw and Dowel - Ø16x90-ø10x100mm – 159 A",
+    "description": "Flanged Triphone Screw and Dowel - Ø16x90-ø10x100mm.\n\nProduct code: 159 A"
+  },
+  "EV-160 A": {
+    "name": "Buldex Screw and Dowel - Ø14x70 - Ø7.5x80 Mm – 160 A",
+    "description": "Buldex Screw and Dowel - Ø14x70 - Ø7.5x80 Mm.\n\nProduct code: 160 A"
+  },
+  "EV-176 A": {
+    "name": "Flanged Triphone Screw - Ø10x100 Mm – 176 A",
+    "description": "Flanged Triphone Screw - Ø10x100 Mm.\n\nProduct code: 176 A"
+  },
+  "EV-161 A": {
+    "name": "Twisted Nail - Ø5.5x105 Mm – 161 A",
+    "description": "Twisted Nail - Ø5.5x105 Mm.\n\nProduct code: 161 A"
+  },
+  "EV-173 A": {
+    "name": "Dowel - Ø14x70xø8mm – 173 A",
+    "description": "Dowel - Ø14x70xø8mm.\n\nProduct code: 173 A"
+  },
+  "EV-172 A": {
+    "name": "Dowel - Ø16x90xø10mm – 172 A",
+    "description": "Dowel - Ø16x90xø10mm.\n\nProduct code: 172 A"
+  }
+}
