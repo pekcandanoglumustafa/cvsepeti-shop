@@ -15,6 +15,7 @@ import {
 import { categories, categorySlug } from "@/lib/products";
 import { useCart } from "@/lib/cart";
 import { FIRMA } from "@/lib/firma";
+import { DilSecici } from "@/components/Ceviri";
 
 /** Üst menüde duran kategoriler — en çok satılan gruplar. */
 const MENU = [
@@ -52,6 +53,7 @@ export default function Header() {
           <span>Bireysel ve kurumsal fatura</span>
           <span>1-2 iş günü kargoda</span>
           <span>iyzico ile güvenli ödeme</span>
+          <DilSecici />
         </div>
       </div>
 

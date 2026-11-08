@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import products from "@/data/products.json";
 import { categorySlug } from "@/lib/products";
+import { ONEK_RE } from "@/lib/diller";
 
 /**
  * Eski siteden kalan URL'ler için 301 yönlendirme.
@@ -11,7 +12,7 @@ import { categorySlug } from "@/lib/products";
 // Yeni sitenin bilinen yolları — bunlara dokunma (segment bazlı: "/urun" ≠ "/urun-kategori")
 const KNOWN_PREFIXES = [
   "/urunler", "/sepet", "/odeme", "/odeme-sonuc", "/ara", "/blog",
-  "/api", "/_next", "/images", "/marka",
+  "/api", "/_next", "/images", "/marka", "/i18n",
   // kurumsal ve yasal sayfalar — bunlar artık gerçekten var, yönlendirilmemeli
   "/iletisim", "/hakkimizda", "/mesafeli-satis-sozlesmesi", "/teslimat-ve-iade", "/gizlilik-ve-kvkk",
 ];
@@ -116,6 +117,20 @@ function benzerlik(t: Set<string>, aday: string) {
 }
 
 export function proxy(req: NextRequest) {
+  // Dil öneki: /en/urun/x → /urun/x sayfası, dil çerezde ve <html lang>'da
+  const dilM = req.nextUrl.pathname.match(ONEK_RE);
+  if (dilM) {
+    const url = req.nextUrl.clone();
+    url.pathname = req.nextUrl.pathname.replace(ONEK_RE, "") || "/";
+    const res = NextResponse.rewrite(url);
+    res.cookies.set("lang", dilM[1], { path: "/", maxAge: 31536000, sameSite: "lax" });
+    return res;
+  }
+  if (req.nextUrl.pathname === "/tr" || req.nextUrl.pathname.startsWith("/tr/")) {
+    const res = NextResponse.redirect(new URL(req.nextUrl.pathname.slice(3) || "/", req.url), 302);
+    res.cookies.set("lang", "tr", { path: "/", maxAge: 31536000, sameSite: "lax" });
+    return res;
+  }
   const path = req.nextUrl.pathname;
   // kendine yönlendirme döngüsüne düşme
   const redirect = (to: string) =>

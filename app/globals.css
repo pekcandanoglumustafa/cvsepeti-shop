@@ -3864,3 +3864,9 @@ h3 {
   color: var(--ink);
   border-color: var(--line);
 }
+
+/* Çeviri: Türkçe olmayan dilde sözlük uygulanana kadar Türkçe metin görünmesin */
+html.i18n-wait body { visibility: hidden; }
+.dil-secici { background: transparent; color: inherit; border: 1px solid currentColor; border-radius: 6px; font: inherit; font-size: 12px; padding: 1px 4px; cursor: pointer; }
+.dil-secici option { color: #111; }
+html[dir="rtl"] body { direction: rtl; }
