@@ -91,7 +91,7 @@
     "slug": "45-cm-delinator-zt8045",
     "name": "45 cm Delinatör – ZT8045",
     "category": "Delinatör",
-    "price": 549.92,
+    "price": 691.58,
     "description": "45 Cm Delinatör.\n\nÖlçü: 45 cm · Ürün kodu: ZT8045",
     "stock": 100,
     "images": [
@@ -122,7 +122,7 @@
       15,
       15
     ],
-    "price_kdv": 659.9,
+    "price_kdv": 829.9,
     "kdv_orani": 0.2,
     "koli_olcu": [
       42,
@@ -241,7 +241,7 @@
     "slug": "75-cm-delinator-zt8075",
     "name": "75 cm Delinatör – ZT8075",
     "category": "Delinatör",
-    "price": 699.92,
+    "price": 833.25,
     "description": "75 Cm Delinatör.\n\nÖlçü: 75 cm · Ürün kodu: ZT8075",
     "stock": 100,
     "images": [
@@ -272,7 +272,7 @@
       20,
       20
     ],
-    "price_kdv": 839.9,
+    "price_kdv": 999.9,
     "kdv_orani": 0.2,
     "koli_olcu": [
       42,
@@ -291,7 +291,7 @@
     "slug": "100-cm-delinator-zt80100",
     "name": "100 cm Delinatör – ZT80100",
     "category": "Delinatör",
-    "price": 999.92,
+    "price": 1133.25,
     "description": "100 Cm Delinatör.\n\nÖlçü: 100 cm · Ürün kodu: ZT80100",
     "stock": 100,
     "images": [
@@ -322,7 +322,7 @@
       20,
       20
     ],
-    "price_kdv": 1199.9,
+    "price_kdv": 1359.9,
     "kdv_orani": 0.2,
     "koli_olcu": [
       42,
@@ -341,7 +341,7 @@
     "slug": "altigen-delinator-zt14060",
     "name": "Altıgen Delinatör – ZT14060",
     "category": "Delinatör",
-    "price": 741.58,
+    "price": 841.58,
     "description": "Altıgen Delinatör.\n\nTaban: altıgen tabanlı · Ürün kodu: ZT14060",
     "stock": 100,
     "images": [
@@ -372,7 +372,7 @@
       12,
       12
     ],
-    "price_kdv": 889.9,
+    "price_kdv": 1009.9,
     "kdv_orani": 0.2,
     "koli_olcu": [
       42,
@@ -531,7 +531,7 @@
     "slug": "45-cm-eko-delinator-8045eco",
     "name": "45 cm Eko Delinatör – 8045ECO",
     "category": "Delinatör",
-    "price": 333.25,
+    "price": 383.25,
     "description": "45 Cm Eko Delinatör.\n\nÖlçü: 45 cm · Seri: Ekonomik (Eko) · Ürün kodu: 8045ECO",
     "stock": 100,
     "images": [
@@ -562,7 +562,7 @@
       15,
       15
     ],
-    "price_kdv": 399.9,
+    "price_kdv": 459.9,
     "kdv_orani": 0.2,
     "koli_olcu": [
       42,
@@ -622,7 +622,7 @@
     "slug": "75cm-eko-delinator-8075eco",
     "name": "75cm Eko Delinatör – 8075ECO",
     "category": "Delinatör",
-    "price": 399.92,
+    "price": 458.25,
     "description": "75cm Eko Delinatör.\n\nÖlçü: 75 cm · Seri: Ekonomik (Eko) · Ürün kodu: 8075ECO",
     "stock": 100,
     "images": [
@@ -653,7 +653,7 @@
       20,
       20
     ],
-    "price_kdv": 479.9,
+    "price_kdv": 549.9,
     "kdv_orani": 0.2,
     "koli_olcu": [
       42,
@@ -2168,7 +2168,7 @@
     "slug": "50-cm-sekizgen-koni-2-reflektifli-zt502808r2",
     "name": "50 cm Sekizgen Koni 2 Reflektifli – ZT502808R2",
     "category": "Trafik Konisi",
-    "price": 699.92,
+    "price": 799.92,
     "description": "50 Cm Sekizgen Koni 2 Reflektifli.\n\nÖlçü: 50 cm · Taban: sekizgen tabanlı · Reflektif: 2 adet reflektif bant · Ürün kodu: ZT502808R2",
     "stock": 100,
     "images": [
@@ -2199,7 +2199,7 @@
       21,
       21
     ],
-    "price_kdv": 839.9,
+    "price_kdv": 959.9,
     "kdv_orani": 0.2,
     "agirlikli": false,
     "renk": "Turuncu",
@@ -2254,7 +2254,7 @@
     "slug": "70-cm-sekizgen-koni-2-reflektifli-zt702808r2",
     "name": "70 cm Sekizgen Koni 2 Reflektifli – ZT702808R2",
     "category": "Trafik Konisi",
-    "price": 1449.92,
+    "price": 1633.25,
     "description": "70 Cm Sekizgen Koni 2 Reflektifli.\n\nÖlçü: 70 cm · Taban: sekizgen tabanlı · Reflektif: 2 adet reflektif bant · Ürün kodu: ZT702808R2",
     "stock": 100,
     "images": [
@@ -2285,7 +2285,7 @@
       29.4,
       29.4
     ],
-    "price_kdv": 1739.9,
+    "price_kdv": 1959.9,
     "kdv_orani": 0.2,
     "agirlikli": false,
     "renk": "Turuncu",
@@ -2340,7 +2340,7 @@
     "slug": "90-cm-sekizgen-koni-2-reflektifli-zt902808r2",
     "name": "90 cm Sekizgen Koni 2 Reflektifli – ZT902808R2",
     "category": "Trafik Konisi",
-    "price": 1733.25,
+    "price": 1949.92,
     "description": "90 Cm Sekizgen Koni 2 Reflektifli.\n\nÖlçü: 90 cm · Taban: sekizgen tabanlı · Reflektif: 2 adet reflektif bant · Ürün kodu: ZT902808R2",
     "stock": 100,
     "images": [
@@ -2371,7 +2371,7 @@
       37.8,
       37.8
     ],
-    "price_kdv": 2079.9,
+    "price_kdv": 2339.9,
     "kdv_orani": 0.2,
     "agirlikli": false,
     "renk": "Turuncu",
@@ -2719,7 +2719,7 @@
     "slug": "50-cm-sekizgen-tabanli-koni-eko-2-reflektifli-502808r2eco",
     "name": "50 cm Sekizgen Tabanlı Koni Eko 2 Reflektifli – 502808R2ECO",
     "category": "Trafik Konisi",
-    "price": 616.58,
+    "price": 699.92,
     "description": "50 Cm Sekizgen Tabanlı Koni Eko 2 Reflektifli.\n\nÖlçü: 50 cm · Taban: sekizgen tabanlı · Reflektif: 2 adet reflektif bant · Seri: Ekonomik (Eko) · Ürün kodu: 502808R2ECO",
     "stock": 100,
     "images": [
@@ -2750,7 +2750,7 @@
       21,
       21
     ],
-    "price_kdv": 739.9,
+    "price_kdv": 839.9,
     "kdv_orani": 0.2,
     "agirlikli": false,
     "renk": "Turuncu",
@@ -2805,7 +2805,7 @@
     "slug": "70-cm-sekizgen-tabanli-koni-eko-2-reflektifli-702808r2eco",
     "name": "70 cm Sekizgen Tabanlı Koni Eko 2 Reflektifli – 702808R2ECO",
     "category": "Trafik Konisi",
-    "price": 1241.58,
+    "price": 1399.92,
     "description": "70 Cm Sekizgen Tabanlı Koni Eko 2 Reflektifli.\n\nÖlçü: 70 cm · Taban: sekizgen tabanlı · Reflektif: 2 adet reflektif bant · Seri: Ekonomik (Eko) · Ürün kodu: 702808R2ECO",
     "stock": 100,
     "images": [
@@ -2836,7 +2836,7 @@
       29.4,
       29.4
     ],
-    "price_kdv": 1489.9,
+    "price_kdv": 1679.9,
     "kdv_orani": 0.2,
     "agirlikli": false,
     "renk": "Turuncu",
@@ -2891,7 +2891,7 @@
     "slug": "90-cm-sekizgen-tabanli-koni-eko-2-reflektifli-902808r2eco",
     "name": "90 cm Sekizgen Tabanlı Koni Eko 2 Reflektifli – 902808R2ECO",
     "category": "Trafik Konisi",
-    "price": 1424.92,
+    "price": 1708.25,
     "description": "90 Cm Sekizgen Tabanlı Koni Eko 2 Reflektifli.\n\nÖlçü: 90 cm · Taban: sekizgen tabanlı · Reflektif: 2 adet reflektif bant · Seri: Ekonomik (Eko) · Ürün kodu: 902808R2ECO",
     "stock": 100,
     "images": [
@@ -2922,7 +2922,7 @@
       37.8,
       37.8
     ],
-    "price_kdv": 1709.9,
+    "price_kdv": 2049.9,
     "kdv_orani": 0.2,
     "agirlikli": false,
     "renk": "Turuncu",
@@ -3106,7 +3106,7 @@
     "slug": "65-cm-kedi-gozlu-koni-agirlik-tabanli-zt650506",
     "name": "65 cm Kedi Gözlü Koni Ağırlık Tabanlı – ZT650506",
     "category": "Trafik Konisi",
-    "price": 883.25,
+    "price": 1508.25,
     "description": "65 Cm Kedi Gözlü Koni Ağırlık Tabanlı.\n\nÖlçü: 65 cm · Reflektif: kedi gözü · Varyant: ağırlık tabanlı · Ürün kodu: ZT650506",
     "stock": 100,
     "images": [
@@ -3137,7 +3137,7 @@
       32.5,
       32.5
     ],
-    "price_kdv": 1059.9,
+    "price_kdv": 1809.9,
     "kdv_orani": 0.2,
     "agirlikli": true,
     "renk": "Kırmızı",
