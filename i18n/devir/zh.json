@@ -1,0 +1,2417 @@
+{
+ "\"+A{0}\" ibaresi standarda sonradan eklenen değişikliği gösterir. Şartnamede \"+A{1}\" yazıyorsa güncel versiyona uygunluk isteniyor demektir.": {
+  "ornek_tr": "\"+A1\" ibaresi standarda sonradan eklenen değişikliği gösterir. Şartnamede \"+A1\" yazıyorsa güncel versiyona uygunluk isteniyor demektir.",
+  "mevcut": "“+A1”表示标准后续增补的修订。技术规格书中如写有“+A1”，即要求符合最新版本。",
+  "yeni": ""
+ },
+ "{0} Adet - Ø{1}x{2} cm Buldex vida": {
+  "ornek_tr": "1 Adet - Ø7,5x80 cm Buldex vida",
+  "mevcut": "1个 - Ø7.5x80 cm Buldex螺丝",
+  "yeni": ""
+ },
+ "{0} Ağustos {1}": {
+  "ornek_tr": "1 Ağustos 2026",
+  "mevcut": "2026年8月1日",
+  "yeni": ""
+ },
+ "{0} Eylül {1}": {
+  "ornek_tr": "1 Eylül 2026",
+  "mevcut": "2026年9月1日",
+  "yeni": ""
+ },
+ "{0} adet {s0} {1} desi tutar, kargo ücreti ₺{2}'dir. Birden fazla adet alındığında ürünler tek koliye istiflendiği için kargo bedeli adet başına orantılı artmaz. Kargoyu ödeme adımında peşin ödeyebilir veya karşı ödemeli gönderebilirsiniz.": {
+  "ornek_tr": "1 adet 100 cm Delinatör – ZT80100 12 desi tutar, kargo ücreti ₺705'dir. Birden fazla adet alındığında ürünler tek koliye istiflendiği için kargo bedeli adet başına orantılı artmaz. Kargoyu ödeme adımında peşin ödeyebilir veya karşı ödemeli gönderebilirsiniz.",
+  "mevcut": "1件100 cm 轮廓标 – ZT80100 计12体积重（desi），运费为₺705。购买多件时，产品叠放装入同一箱内，因此运费不会按件数等比例增加。您可在结算步骤预付运费，或选择货到付款。",
+  "yeni": ""
+ },
+ "{0} adet {s0} – {1} S-LD (SERİSİ) {2} desi tutar, kargo ücreti ₺{3}'dir. Birden fazla adet alındığında ürünler tek koliye istiflendiği için kargo bedeli adet başına orantılı artmaz. Kargoyu ödeme adımında peşin ödeyebilir veya karşı ödemeli gönderebilirsiniz.": {
+  "ornek_tr": "1 adet Solar Ledli Yol Bakım Levhaları - (hxw) 130x100 Cm – 11700 S-LD (SERİSİ) 39 desi tutar, kargo ücreti ₺1.496'dir. Birden fazla adet alındığında ürünler tek koliye istiflendiği için kargo bedeli adet başına orantılı artmaz. Kargoyu ödeme adımında peşin ödeyebilir veya karşı ödemeli gönderebilirsiniz.",
+  "mevcut": "1件太阳能LED道路养护标志牌 - (高x宽) 130x100 cm – 11700 S-LD（系列）计39体积重（desi），运费为₺1.496。购买多件时，产品叠放装入同一箱内，因此运费不会按件数等比例增加。您可在结算步骤预付运费，或选择货到付款。",
+  "yeni": ""
+ },
+ "{0} adet {s0} – {1} FL (SERİSİ) {2} desi tutar, kargo ücreti ₺{3}'dir. Birden fazla adet alındığında ürünler tek koliye istiflendiği için kargo bedeli adet başına orantılı artmaz. Kargoyu ödeme adımında peşin ödeyebilir veya karşı ödemeli gönderebilirsiniz.": {
+  "ornek_tr": "1 adet Solar Ledli Yol Bakım Levhaları - (hxw) 90x60 Cm – 11800 FL (SERİSİ) 17 desi tutar, kargo ücreti ₺880'dir. Birden fazla adet alındığında ürünler tek koliye istiflendiği için kargo bedeli adet başına orantılı artmaz. Kargoyu ödeme adımında peşin ödeyebilir veya karşı ödemeli gönderebilirsiniz.",
+  "mevcut": "1件太阳能LED道路养护标志牌 - (高x宽) 90x60 cm – 11800 FL（系列）计17体积重（desi），运费为₺880。购买多件时，产品叠放装入同一箱内，因此运费不会按件数等比例增加。您可在结算步骤预付运费，或选择货到付款。",
+  "yeni": ""
+ },
+ "{0} × {1} × {2} cm": {
+  "ornek_tr": "10 × 10 × 2.1 cm",
+  "mevcut": "10 × 10 × 2.1 cm",
+  "yeni": ""
+ },
+ "{0} Cm {s0}. Ölçü: {1} cm · Ürün kodu: ZT{2}": {
+  "ornek_tr": "100 Cm Delinatör. Ölçü: 100 cm · Ürün kodu: ZT80100",
+  "mevcut": "100 cm 轮廓标。尺寸：100 cm · 产品代码：ZT80100",
+  "yeni": ""
+ },
+ "{0} Cm {s0}lü {s1}. Ölçü: {1} cm · Ürün kodu: ZT{2}": {
+  "ornek_tr": "100 Cm Delinatörlü Şerit Ayırıcı. Ölçü: 100 cm · Ürün kodu: ZT648100",
+  "mevcut": "100 cm 轮廓标车道分隔器。尺寸：100 cm · 产品代码：ZT648100",
+  "yeni": ""
+ },
+ "{0} Cm Eco {s0}lü {s1}. Ölçü: {1} cm · Seri: Ekonomik (Eko) · Ürün kodu: {2}ECO": {
+  "ornek_tr": "100 Cm Eco Delinatörlü Şerit Ayırıcı. Ölçü: 100 cm · Seri: Ekonomik (Eko) · Ürün kodu: 648100ECO",
+  "mevcut": "100 cm 经济型轮廓标车道分隔器。尺寸：100 cm · 系列：经济型（Eko） · 产品代码：648100ECO",
+  "yeni": ""
+ },
+ "{0} Cm Eko {s0}. Ölçü: {1} cm · Seri: Ekonomik (Eko) · Ürün kodu: {2}ECO": {
+  "ornek_tr": "100 Cm Eko Delinatör. Ölçü: 100 cm · Seri: Ekonomik (Eko) · Ürün kodu: 80100ECO",
+  "mevcut": "100 cm 经济型轮廓标。尺寸：100 cm · 系列：经济型（Eko） · 产品代码：80100ECO",
+  "yeni": ""
+ },
+ "{0} Cm Refüj Başı Levha Baskılı. Ölçü: {1} cm · Ürün kodu: ZT{2}": {
+  "ornek_tr": "100 Cm Refüj Başı Levha Baskılı. Ölçü: 100 cm · Ürün kodu: ZT40100",
+  "mevcut": "100 cm 印刷版隔离带端头标志牌。尺寸：100 cm · 产品代码：ZT40100",
+  "yeni": ""
+ },
+ "{0} Cm Refüj Başı Levha. Ölçü: {1} cm · Ürün kodu: ZT{2}P": {
+  "ornek_tr": "100 Cm Refüj Başı Levha. Ölçü: 100 cm · Ürün kodu: ZT40100P",
+  "mevcut": "100 cm 隔离带端头标志牌。尺寸：100 cm · 产品代码：ZT40100P",
+  "yeni": ""
+ },
+ "{s0} ürününü karşılaştır": {
+  "ornek_tr": "100 cm Delinatör ürününü karşılaştır",
+  "mevcut": "对比100 cm 轮廓标",
+  "yeni": ""
+ },
+ "{s0} (ZT{0}) ₺{1}. {2} cm · TPU. Stokta, {3}-{4} iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.": {
+  "ornek_tr": "100 cm Delinatör – ZT80100 (ZT80100) ₺806. 100 cm · TPU. Stokta, 1-2 iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.",
+  "mevcut": "100 cm 轮廓标 – ZT80100（ZT80100）₺806。100 cm · TPU。现货，1-2个工作日内发货。通过Yurtiçi Kargo发往土耳其全境。",
+  "yeni": ""
+ },
+ "{s0} fiyatı ne kadar?": {
+  "ornek_tr": "100 cm Delinatör – ZT80100 fiyatı ne kadar?",
+  "mevcut": "100 cm 轮廓标 – ZT80100 的价格是多少？",
+  "yeni": ""
+ },
+ "{s0} için fatura kesiliyor mu?": {
+  "ornek_tr": "100 cm Delinatör – ZT80100 için fatura kesiliyor mu?",
+  "mevcut": "100 cm 轮廓标 – ZT80100 是否开具发票？",
+  "yeni": ""
+ },
+ "{s0} kargo ücreti ne kadar?": {
+  "ornek_tr": "100 cm Delinatör – ZT80100 kargo ücreti ne kadar?",
+  "mevcut": "100 cm 轮廓标 – ZT80100 的运费是多少？",
+  "yeni": ""
+ },
+ "{s0} kaç adetlik koli halinde gelir?": {
+  "ornek_tr": "100 cm Delinatör – ZT80100 kaç adetlik koli halinde gelir?",
+  "mevcut": "100 cm 轮廓标 – ZT80100 每箱装多少件？",
+  "yeni": ""
+ },
+ "{s0} kaç günde teslim edilir?": {
+  "ornek_tr": "100 cm Delinatör – ZT80100 kaç günde teslim edilir?",
+  "mevcut": "100 cm 轮廓标 – ZT80100 多久能送达？",
+  "yeni": ""
+ },
+ "{s0} montaj vidası ve dübeli dahil mi?": {
+  "ornek_tr": "100 cm Delinatör – ZT80100 montaj vidası ve dübeli dahil mi?",
+  "mevcut": "100 cm 轮廓标 – ZT80100 是否附带安装螺丝和膨胀管？",
+  "yeni": ""
+ },
+ "{s0} sepete ekle": {
+  "ornek_tr": "100 cm Delinatör – ZT80100 sepete ekle",
+  "mevcut": "将100 cm 轮廓标 – ZT80100 加入购物车",
+  "yeni": ""
+ },
+ "{s0} teknik özellikleri nelerdir?": {
+  "ornek_tr": "100 cm Delinatör – ZT80100 teknik özellikleri nelerdir?",
+  "mevcut": "100 cm 轮廓标 – ZT80100 有哪些技术参数？",
+  "yeni": ""
+ },
+ "{s0} ölçü şeması": {
+  "ornek_tr": "100 cm Delinatör – ZT80100 ölçü şeması",
+  "mevcut": "100 cm 轮廓标 – ZT80100 尺寸图",
+  "yeni": ""
+ },
+ "{s0} ürününün fiyatı ₺{0} + KDV'dir. KDV dahil satış fiyatı ₺{1}. Fiyata kargo dahil değildir. Ürün kodu ZT{2}.": {
+  "ornek_tr": "100 cm Delinatör – ZT80100 ürününün fiyatı ₺806 + KDV'dir. KDV dahil satış fiyatı ₺967. Fiyata kargo dahil değildir. Ürün kodu ZT80100.",
+  "mevcut": "100 cm 轮廓标 – ZT80100 的价格为₺806 + 增值税。含增值税售价为₺967。价格不含运费。产品代码ZT80100。",
+  "yeni": ""
+ },
+ "{s0} (ZT{0}) ₺{1}. {2} cm · PVC-TPU. Stokta, {3}-{4} iş gününde kargoda.": {
+  "ornek_tr": "100 cm Delinatörlü Şerit Ayırıcı – ZT648100 (ZT648100) ₺1.127. 100 cm · PVC-TPU. Stokta, 1-2 iş gününde kargoda.",
+  "mevcut": "100 cm 轮廓标车道分隔器 – ZT648100（ZT648100）₺1.127。100 cm · PVC-TPU。现货，1-2个工作日内发货。",
+  "yeni": ""
+ },
+ "{s0} ({0}ECO) ₺{1}. {2} cm · PVC-TPE. Stokta, {3}-{4} iş gününde kargoda.": {
+  "ornek_tr": "100 cm Eco Delinatörlü Şerit Ayırıcı – 648100ECO (648100ECO) ₺763. 100 cm · PVC-TPE. Stokta, 1-2 iş gününde kargoda.",
+  "mevcut": "100 cm 经济型轮廓标车道分隔器 – 648100ECO（648100ECO）₺763。100 cm · PVC-TPE。现货，1-2个工作日内发货。",
+  "yeni": ""
+ },
+ "{s0} ürününün fiyatı ₺{0} + KDV'dir. KDV dahil satış fiyatı ₺{1}. Fiyata kargo dahil değildir. Ürün kodu {2}ECO.": {
+  "ornek_tr": "100 cm Eco Delinatörlü Şerit Ayırıcı – 648100ECO ürününün fiyatı ₺763 + KDV'dir. KDV dahil satış fiyatı ₺915. Fiyata kargo dahil değildir. Ürün kodu 648100ECO.",
+  "mevcut": "100 cm 经济型轮廓标车道分隔器 – 648100ECO 的价格为₺763 + 增值税。含增值税售价为₺915。价格不含运费。产品代码648100ECO。",
+  "yeni": ""
+ },
+ "{s0} ({0}ECO) ₺{1}. {2} cm · PE. Stokta, {3}-{4} iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.": {
+  "ornek_tr": "100 cm Eko Delinatör – 80100ECO (80100ECO) ₺433. 100 cm · PE. Stokta, 1-2 iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.",
+  "mevcut": "100 cm 经济型轮廓标 – 80100ECO（80100ECO）₺433。100 cm · PE。现货，1-2个工作日内发货。通过Yurtiçi Kargo发往土耳其全境。",
+  "yeni": ""
+ },
+ "{s0} (ZT{0}P) ₺{1}. {2} cm. Stokta, {3}-{4} iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.": {
+  "ornek_tr": "100 cm Refüj Başı Levha – ZT40100P (ZT40100P) ₺1.690. 100 cm. Stokta, 1-2 iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.",
+  "mevcut": "100 cm 隔离带端头标志牌 – ZT40100P（ZT40100P）₺1.690。100 cm。现货，1-2个工作日内发货。通过Yurtiçi Kargo发往土耳其全境。",
+  "yeni": ""
+ },
+ "{s0} ürününün fiyatı ₺{0} + KDV'dir. KDV dahil satış fiyatı ₺{1}. Fiyata kargo dahil değildir. Ürün kodu ZT{2}P.": {
+  "ornek_tr": "100 cm Refüj Başı Levha – ZT40100P ürününün fiyatı ₺1.690 + KDV'dir. KDV dahil satış fiyatı ₺2.028. Fiyata kargo dahil değildir. Ürün kodu ZT40100P.",
+  "mevcut": "100 cm 隔离带端头标志牌 – ZT40100P 的价格为₺1.690 + 增值税。含增值税售价为₺2.028。价格不含运费。产品代码ZT40100P。",
+  "yeni": ""
+ },
+ "{0} A kodlu {s0} ürününün ölçüsü {1} × {2} cm, malzemesi ABS, ağırlığı {3} kgdır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "107 A kodlu Portatif Uyarı Levhası-(hxw) 62x24.5cm – 107 A ürününün ölçüsü 62 × 24.5 cm, malzemesi ABS, ağırlığı 1 kgdır. Ürün Uyarı Levhası kategorisindedir.",
+  "mevcut": "代码107 A 便携式警示牌 - (高x宽) 62x24.5cm – 107 A 尺寸为62 × 24.5 cm，材质ABS，重量1 kg。本产品属于警示牌类别。",
+  "yeni": ""
+ },
+ "{0} A F kodlu {s0} ürününün ölçüsü {1} × {2} cm, malzemesi ABS, ağırlığı {3} kgdır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "108 A F kodlu Portatif Uyarı Levhası-(hxw) 62x24.5cm - İki Yönde Uyarı – 108 A F ürününün ölçüsü 62 × 24.5 cm, malzemesi ABS, ağırlığı 1 kgdır. Ürün Uyarı Levhası kategorisindedir.",
+  "mevcut": "代码108 A F 便携式警示牌 - (高x宽) 62x24.5cm - 双向警示 – 108 A F 尺寸为62 × 24.5 cm，材质ABS，重量1 kg。本产品属于警示牌类别。",
+  "yeni": ""
+ },
+ "{0}x{1} Mm Trifon {s0}. Ölçü: {2} mm · Ürün kodu: ZT{3}A": {
+  "ornek_tr": "10x110 Mm Trifon Vida. Ölçü: 110 mm · Ürün kodu: ZT80A",
+  "mevcut": "10x110 mm 方头木螺钉。尺寸：110 mm · 产品代码：ZT80A",
+  "yeni": ""
+ },
+ "{s0} (ZT{0}A) ₺{1}. {2} mm · ST{3}. Stokta, {4}-{5} iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.": {
+  "ornek_tr": "10x110 mm Trifon Vida – ZT80A (ZT80A) ₺11. 110 mm · ST37. Stokta, 1-2 iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.",
+  "mevcut": "10x110 mm 方头木螺钉 – ZT80A（ZT80A）₺11。110 mm · ST37。现货，1-2个工作日内发货。通过Yurtiçi Kargo发往土耳其全境。",
+  "yeni": ""
+ },
+ "{s0} ürününün fiyatı ₺{0} + KDV'dir. KDV dahil satış fiyatı ₺{1}. Fiyata kargo dahil değildir. Ürün kodu ZT{2}A.": {
+  "ornek_tr": "10x110 mm Trifon Vida – ZT80A ürününün fiyatı ₺11 + KDV'dir. KDV dahil satış fiyatı ₺14. Fiyata kargo dahil değildir. Ürün kodu ZT80A.",
+  "mevcut": "10x110 mm 方头木螺钉 – ZT80A 的价格为₺11 + 增值税。含增值税售价为₺14。价格不含运费。产品代码ZT80A。",
+  "yeni": ""
+ },
+ "{0} Cm {s0} Sarı Siyah. Ölçü: {1} cm · Ürün kodu: ZT{2}Y": {
+  "ornek_tr": "110 Cm Araç Stoperi Sarı Siyah. Ölçü: 110 cm · Ürün kodu: ZT15110Y",
+  "mevcut": "110 cm 车轮挡 黄黑。尺寸：110 cm · 产品代码：ZT15110Y",
+  "yeni": ""
+ },
+ "{0} Cm {s0} Siyah Sarı. Ölçü: {1} cm · Ürün kodu: ZT{2}": {
+  "ornek_tr": "110 Cm Araç Stoperi Siyah Sarı. Ölçü: 110 cm · Ürün kodu: ZT15110",
+  "mevcut": "110 cm 车轮挡 黑黄。尺寸：110 cm · 产品代码：ZT15110",
+  "yeni": ""
+ },
+ "{0} Cm Dikme Dikdörtgen Tabanlı {1} Cm Panel Baskılı. Ölçü: {2} cm · Taban: dikdörtgen tabanlı · Ürün kodu: ZT{3} DA": {
+  "ornek_tr": "110 Cm Dikme Dikdörtgen Tabanlı 32 Cm Panel Baskılı. Ölçü: 110 cm · Taban: dikdörtgen tabanlı · Ürün kodu: ZT32110 DA",
+  "mevcut": "110 cm 立柱 矩形底座 32 cm 面板 印刷版。尺寸：110 cm · 底座：矩形底座 · 产品代码：ZT32110 DA",
+  "yeni": ""
+ },
+ "{0} Cm Dikme Dikdörtgen Tabanlı {1} Cm Panel. Ölçü: {2} cm · Taban: dikdörtgen tabanlı · Ürün kodu: ZT{3} DAR": {
+  "ornek_tr": "110 Cm Dikme Dikdörtgen Tabanlı 32 Cm Panel. Ölçü: 110 cm · Taban: dikdörtgen tabanlı · Ürün kodu: ZT32110 DAR",
+  "mevcut": "110 cm 立柱 矩形底座 32 cm 面板。尺寸：110 cm · 底座：矩形底座 · 产品代码：ZT32110 DAR",
+  "yeni": ""
+ },
+ "{0} Cm {s0}. Ölçü: {1} cm · Ürün kodu: ZT{2}A": {
+  "ornek_tr": "110 Cm Dikme Kelepçesi. Ölçü: 110 cm · Ürün kodu: ZT110A",
+  "mevcut": "110 cm 立柱卡箍。尺寸：110 cm · 产品代码：ZT110A",
+  "yeni": ""
+ },
+ "{0} Cm {s0} Dikdörtgen Tabanlı {1} Reflektifli. Ölçü: {2} cm · Taban: dikdörtgen tabanlı · Reflektif: {3} adet reflektif bant · Ürün kodu: ZT{4}R{5}": {
+  "ornek_tr": "110 Cm Uyarı Dikmesi Dikdörtgen Tabanlı 4 Reflektifli. Ölçü: 110 cm · Taban: dikdörtgen tabanlı · Reflektif: 4 adet reflektif bant · Ürün kodu: ZT110120R4",
+  "mevcut": "110 cm 警示立柱 矩形底座 4道反光。尺寸：110 cm · 底座：矩形底座 · 反光：4条反光带 · 产品代码：ZT110120R4",
+  "yeni": ""
+ },
+ "{0} Cm {s0} Yuvarlak Tabanlı {1} Reflektifli. Ölçü: {2} cm · Taban: yuvarlak tabanlı · Reflektif: {3} adet reflektif bant · Ürün kodu: ZT{4}R{5}": {
+  "ornek_tr": "110 Cm Uyarı Dikmesi Yuvarlak Tabanlı 4 Reflektifli. Ölçü: 110 cm · Taban: yuvarlak tabanlı · Reflektif: 4 adet reflektif bant · Ürün kodu: ZT11015R4",
+  "mevcut": "110 cm 警示立柱 圆形底座 4道反光。尺寸：110 cm · 底座：圆形底座 · 反光：4条反光带 · 产品代码：ZT11015R4",
+  "yeni": ""
+ },
+ "{s0} (ZT{0}Y) ₺{1}. {2} cm · PPC. Stokta, {3}-{4} iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.": {
+  "ornek_tr": "110 cm Araç Stoperi Sarı Siyah – ZT15110Y (ZT15110Y) ₺693. 110 cm · PPC. Stokta, 1-2 iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.",
+  "mevcut": "110 cm 车轮挡 黄黑 – ZT15110Y（ZT15110Y）₺693。110 cm · PPC。现货，1-2个工作日内发货。通过Yurtiçi Kargo发往土耳其全境。",
+  "yeni": ""
+ },
+ "{s0} ürününün fiyatı ₺{0} + KDV'dir. KDV dahil satış fiyatı ₺{1}. Fiyata kargo dahil değildir. Ürün kodu ZT{2}Y.": {
+  "ornek_tr": "110 cm Araç Stoperi Sarı Siyah – ZT15110Y ürününün fiyatı ₺693 + KDV'dir. KDV dahil satış fiyatı ₺832. Fiyata kargo dahil değildir. Ürün kodu ZT15110Y.",
+  "mevcut": "110 cm 车轮挡 黄黑 – ZT15110Y 的价格为₺693 + 增值税。含增值税售价为₺832。价格不含运费。产品代码ZT15110Y。",
+  "yeni": ""
+ },
+ "{s0} (ZT{0}) ₺{1}. {2} cm · PPC. Stokta, {3}-{4} iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.": {
+  "ornek_tr": "110 cm Araç Stoperi Siyah Sarı – ZT15110 (ZT15110) ₺563. 110 cm · PPC. Stokta, 1-2 iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.",
+  "mevcut": "110 cm 车轮挡 黑黄 – ZT15110（ZT15110）₺563。110 cm · PPC。现货，1-2个工作日内发货。通过Yurtiçi Kargo发往土耳其全境。",
+  "yeni": ""
+ },
+ "{s0} (ZT{0} DA) ₺{1}. {2} cm · PPC. Stokta, {3}-{4} iş gününde kargoda.": {
+  "ornek_tr": "110 cm Dikme Dikdörtgen Tabanlı 32 cm Panel Baskılı – ZT32110 DA (ZT32110 DA) ₺2.253. 110 cm · PPC. Stokta, 1-2 iş gününde kargoda.",
+  "mevcut": "110 cm 立柱 矩形底座 32 cm 面板 印刷版 – ZT32110 DA（ZT32110 DA）₺2.253。110 cm · PPC。现货，1-2个工作日内发货。",
+  "yeni": ""
+ },
+ "{s0} ürününün fiyatı ₺{0} + KDV'dir. KDV dahil satış fiyatı ₺{1}. Fiyata kargo dahil değildir. Ürün kodu ZT{2} DA.": {
+  "ornek_tr": "110 cm Dikme Dikdörtgen Tabanlı 32 cm Panel Baskılı – ZT32110 DA ürününün fiyatı ₺2.253 + KDV'dir. KDV dahil satış fiyatı ₺2.704. Fiyata kargo dahil değildir. Ürün kodu ZT32110 DA.",
+  "mevcut": "110 cm 立柱 矩形底座 32 cm 面板 印刷版 – ZT32110 DA 的价格为₺2.253 + 增值税。含增值税售价为₺2.704。价格不含运费。产品代码ZT32110 DA。",
+  "yeni": ""
+ },
+ "{s0} (ZT{0} DAR) ₺{1}. {2} cm · PPC. Stokta, {3}-{4} iş gününde kargoda.": {
+  "ornek_tr": "110 cm Dikme Dikdörtgen Tabanlı 32 cm Panel – ZT32110 DAR (ZT32110 DAR) ₺2.427. 110 cm · PPC. Stokta, 1-2 iş gününde kargoda.",
+  "mevcut": "110 cm 立柱 矩形底座 32 cm 面板 – ZT32110 DAR（ZT32110 DAR）₺2.427。110 cm · PPC。现货，1-2个工作日内发货。",
+  "yeni": ""
+ },
+ "{s0} ürününün fiyatı ₺{0} + KDV'dir. KDV dahil satış fiyatı ₺{1}. Fiyata kargo dahil değildir. Ürün kodu ZT{2} DAR.": {
+  "ornek_tr": "110 cm Dikme Dikdörtgen Tabanlı 32 cm Panel – ZT32110 DAR ürününün fiyatı ₺2.427 + KDV'dir. KDV dahil satış fiyatı ₺2.912. Fiyata kargo dahil değildir. Ürün kodu ZT32110 DAR.",
+  "mevcut": "110 cm 立柱 矩形底座 32 cm 面板 – ZT32110 DAR 的价格为₺2.427 + 增值税。含增值税售价为₺2.912。价格不含运费。产品代码ZT32110 DAR。",
+  "yeni": ""
+ },
+ "{s0} (ZT{0}A) ₺{1}. {2} cm · PPC. Stokta, {3}-{4} iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.": {
+  "ornek_tr": "110 cm Dikme Kelepçesi – ZT110A (ZT110A) ₺173. 110 cm · PPC. Stokta, 1-2 iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.",
+  "mevcut": "110 cm 立柱卡箍 – ZT110A（ZT110A）₺173。110 cm · PPC。现货，1-2个工作日内发货。通过Yurtiçi Kargo发往土耳其全境。",
+  "yeni": ""
+ },
+ "{s0} (ZT{0}R{1}) ₺{2}. {3} cm · PPC · {4} bant. Stokta, {5}-{6} iş gününde kargoda.": {
+  "ornek_tr": "110 cm Uyarı Dikmesi Dikdörtgen Tabanlı 4 Reflektifli – ZT110120R4 (ZT110120R4) ₺780. 110 cm · PPC · 4 bant. Stokta, 1-2 iş gününde kargoda.",
+  "mevcut": "110 cm 警示立柱 矩形底座 4道反光 – ZT110120R4（ZT110120R4）₺780。110 cm · PPC · 4条反光带。现货，1-2个工作日内发货。",
+  "yeni": ""
+ },
+ "{s0} ürününün fiyatı ₺{0} + KDV'dir. KDV dahil satış fiyatı ₺{1}. Fiyata kargo dahil değildir. Ürün kodu ZT{2}R{3}.": {
+  "ornek_tr": "110 cm Uyarı Dikmesi Dikdörtgen Tabanlı 4 Reflektifli – ZT110120R4 ürününün fiyatı ₺780 + KDV'dir. KDV dahil satış fiyatı ₺936. Fiyata kargo dahil değildir. Ürün kodu ZT110120R4.",
+  "mevcut": "110 cm 警示立柱 矩形底座 4道反光 – ZT110120R4 的价格为₺780 + 增值税。含增值税售价为₺936。价格不含运费。产品代码ZT110120R4。",
+  "yeni": ""
+ },
+ "{0} cm {s0} Dikdörtgen Tabanlı {1} – ZT{2}R{3} · PPC": {
+  "ornek_tr": "110 cm Uyarı Dikmesi Dikdörtgen Tabanlı 4 – ZT110120R4 · PPC",
+  "mevcut": "110 cm 警示立柱 矩形底座 4道 – ZT110120R4 · PPC",
+  "yeni": ""
+ },
+ "{0} cm {s0} Yuvarlak Tabanlı {1} – ZT{2}R{3} · PPC": {
+  "ornek_tr": "110 cm Uyarı Dikmesi Yuvarlak Tabanlı 4 – ZT11015R4 · PPC",
+  "mevcut": "110 cm 警示立柱 圆形底座 4道 – ZT11015R4 · PPC",
+  "yeni": ""
+ },
+ "{0} A kodlu {s0} ürününün ölçüsü {1} × {2} cmdır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "111 A kodlu Dikdörtgen Uyarı Levhası - Ölçü: 40x34 Cm – 111 A ürününün ölçüsü 40 × 34 cmdır. Ürün Uyarı Levhası kategorisindedir.",
+  "mevcut": "代码111 A 矩形警示牌 - 尺寸：40x34 cm – 111 A 尺寸为40 × 34 cm。本产品属于警示牌类别。",
+  "yeni": ""
+ },
+ "{0} S-LD (SERİSİ) kodlu {s0} – {1} S-LD (SERİSİ) ürününün ölçüsü {2} × {3} cm, malzemesi AL - Ağırlık: {4} kg, ağırlığı {5} kg, reflektif tipi ledli/solardır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "11600 S-LD (SERİSİ) kodlu Solar Ledli Yol Bakım Levhaları - (hxw) 90x60 Cm – 11600 S-LD (SERİSİ) ürününün ölçüsü 90 × 60 cm, malzemesi AL - Ağırlık: 9.7 kg, ağırlığı 9.7 kg, reflektif tipi ledli/solardır. Ürün Solar & Flaşör Lamba kategorisindedir.",
+  "mevcut": "代码11600 S-LD（系列）太阳能LED道路养护标志牌 - (高x宽) 90x60 cm – 11600 S-LD（系列）尺寸为90 × 60 cm，材质AL - 重量：9.7 kg，重量9.7 kg，反光类型为LED/太阳能。本产品属于太阳能及闪光灯类别。",
+  "yeni": ""
+ },
+ "{0} S-LD (SERİSİ) kodlu {s0} – {1} S-LD (SERİSİ) ürününün ölçüsü {2} × {3} cm, malzemesi AL - Ağırlık: {4}kg, ağırlığı {5} kg, reflektif tipi ledli/solardır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "11700 S-LD (SERİSİ) kodlu Solar Ledli Yol Bakım Levhaları - (hxw) 130x100 Cm – 11700 S-LD (SERİSİ) ürününün ölçüsü 130 × 100 cm, malzemesi AL - Ağırlık: 16.5kg, ağırlığı 16.5 kg, reflektif tipi ledli/solardır. Ürün Solar & Flaşör Lamba kategorisindedir.",
+  "mevcut": "代码11700 S-LD（系列）太阳能LED道路养护标志牌 - (高x宽) 130x100 cm – 11700 S-LD（系列）尺寸为130 × 100 cm，材质AL - 重量：16.5kg，重量16.5 kg，反光类型为LED/太阳能。本产品属于太阳能及闪光灯类别。",
+  "yeni": ""
+ },
+ "{0} S-LD kodlu {s0} ürününün ölçüsü {1} × {2} cm, malzemesi AL - Ağırlık: {3} kg, ağırlığı {4} kg, reflektif tipi ledli/solardır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "11750 S-LD kodlu Solar Ledli Yol Bakım Levhası - (hxw) 80x150 Cm – 11750 S-LD ürününün ölçüsü 80 × 150 cm, malzemesi AL - Ağırlık: 14.0 kg, ağırlığı 14 kg, reflektif tipi ledli/solardır. Ürün Solar & Flaşör Lamba kategorisindedir.",
+  "mevcut": "代码11750 S-LD 太阳能LED道路养护标志牌 - (高x宽) 80x150 cm – 11750 S-LD 尺寸为80 × 150 cm，材质AL - 重量：14.0 kg，重量14 kg，反光类型为LED/太阳能。本产品属于太阳能及闪光灯类别。",
+  "yeni": ""
+ },
+ "{0} FL (SERİSİ) kodlu {s0} – {1} FL (SERİSİ) ürününün ölçüsü {2} × {3} cm, malzemesi PC - Ağırlık: {4} kg, ağırlığı {5} kg, reflektif tipi ledli/solardır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "11800 FL (SERİSİ) kodlu Solar Ledli Yol Bakım Levhaları - (hxw) 90x60 Cm – 11800 FL (SERİSİ) ürününün ölçüsü 90 × 60 cm, malzemesi PC - Ağırlık: 9.8 kg, ağırlığı 9.8 kg, reflektif tipi ledli/solardır. Ürün Solar & Flaşör Lamba kategorisindedir.",
+  "mevcut": "代码11800 FL（系列）太阳能LED道路养护标志牌 - (高x宽) 90x60 cm – 11800 FL（系列）尺寸为90 × 60 cm，材质PC - 重量：9.8 kg，重量9.8 kg，反光类型为LED/太阳能。本产品属于太阳能及闪光灯类别。",
+  "yeni": ""
+ },
+ "{0} FL S kodlu {s0} ürününün ölçüsü {1} × {2} cm, malzemesi ABS, ağırlığı {3} kg, reflektif tipi ledli/solardır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "11811 FL S kodlu Solar Flaşörlü Ledli Lamba - (hxw) 30x24 Cm - Sarı Led – 11811 FL S ürününün ölçüsü 30 × 24 cm, malzemesi ABS, ağırlığı 0.84 kg, reflektif tipi ledli/solardır. Ürün Solar & Flaşör Lamba kategorisindedir.",
+  "mevcut": "代码11811 FL S 太阳能LED闪光灯 - (高x宽) 30x24 cm - 黄色LED – 11811 FL S 尺寸为30 × 24 cm，材质ABS，重量0.84 kg，反光类型为LED/太阳能。本产品属于太阳能及闪光灯类别。",
+  "yeni": ""
+ },
+ "{0} FL K kodlu {s0} ürününün ölçüsü {1} × {2} cm, malzemesi ABS, ağırlığı {3} kg, reflektif tipi ledli/solardır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "11813 FL K kodlu Solar Flaşörlü Ledli Lamba - (hxw) 30x24 Cm - Kırmızı Led – 11813 FL K ürününün ölçüsü 30 × 24 cm, malzemesi ABS, ağırlığı 0.84 kg, reflektif tipi ledli/solardır. Ürün Solar & Flaşör Lamba kategorisindedir.",
+  "mevcut": "代码11813 FL K 太阳能LED闪光灯 - (高x宽) 30x24 cm - 红色LED – 11813 FL K 尺寸为30 × 24 cm，材质ABS，重量0.84 kg，反光类型为LED/太阳能。本产品属于太阳能及闪光灯类别。",
+  "yeni": ""
+ },
+ "{0} FL K kodlu {s0} ürününün malzemesi PC, ağırlığı {1} kg, reflektif tipi ledli/solardır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "11817 FL K kodlu Solar Flaşörlü Ledli Lamba-(hxø)14.5cmx128mm-kırmızı Led – 11817 FL K ürününün malzemesi PC, ağırlığı 0.35 kg, reflektif tipi ledli/solardır. Ürün Solar & Flaşör Lamba kategorisindedir.",
+  "mevcut": "代码11817 FL K 太阳能LED闪光灯-(高xø)14.5cmx128mm-红色LED – 11817 FL K 材质PC，重量0.35 kg，反光类型为LED/太阳能。本产品属于太阳能及闪光灯类别。",
+  "yeni": ""
+ },
+ "{0} FL S kodlu {s0} ürününün malzemesi PC, ağırlığı {1} kg, reflektif tipi ledli/solardır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "11819 FL S kodlu Solar Flaşörlü Ledli Lamba-(hxø)14.5cmx128mm-sarı Led – 11819 FL S ürününün malzemesi PC, ağırlığı 0.35 kg, reflektif tipi ledli/solardır. Ürün Solar & Flaşör Lamba kategorisindedir.",
+  "mevcut": "代码11819 FL S 太阳能LED闪光灯-(高xø)14.5cmx128mm-黄色LED – 11819 FL S 材质PC，重量0.35 kg，反光类型为LED/太阳能。本产品属于太阳能及闪光灯类别。",
+  "yeni": ""
+ },
+ "{0} FL M kodlu {s0} ürününün malzemesi PC, ağırlığı {1} kg, reflektif tipi ledli/solardır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "11821 FL M kodlu Solar Flaşörlü Ledli Lamba-(hxø)14.5cmx128mm-mavi Led – 11821 FL M ürününün malzemesi PC, ağırlığı 0.35 kg, reflektif tipi ledli/solardır. Ürün Solar & Flaşör Lamba kategorisindedir.",
+  "mevcut": "代码11821 FL M 太阳能LED闪光灯-(高xø)14.5cmx128mm-蓝色LED – 11821 FL M 材质PC，重量0.35 kg，反光类型为LED/太阳能。本产品属于太阳能及闪光灯类别。",
+  "yeni": ""
+ },
+ "{0} FL S kodlu {s0} ürününün ölçüsü {1} × {2} cm, malzemesi PC, ağırlığı {3} kg, reflektif tipi ledli/solardır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "11850 FL S kodlu Solar Ledli Flaşör Uyarı Lambası - (hxw) 70x40 Cm - Sarı Led – 11850 FL S ürününün ölçüsü 70 × 40 cm, malzemesi PC, ağırlığı 7.3 kg, reflektif tipi ledli/solardır. Ürün Solar & Flaşör Lamba kategorisindedir.",
+  "mevcut": "代码11850 FL S 太阳能LED闪光警示灯 - (高x宽) 70x40 cm - 黄色LED – 11850 FL S 尺寸为70 × 40 cm，材质PC，重量7.3 kg，反光类型为LED/太阳能。本产品属于太阳能及闪光灯类别。",
+  "yeni": ""
+ },
+ "{0} FL K kodlu {s0} ürününün ölçüsü {1} × {2} cm, malzemesi PC, ağırlığı {3} kg, reflektif tipi ledli/solardır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "11852 FL K kodlu Solar Ledli Flaşör Uyarı Lambası - (hxw) 70x40 Cm - Kırmızı Led – 11852 FL K ürününün ölçüsü 70 × 40 cm, malzemesi PC, ağırlığı 7.3 kg, reflektif tipi ledli/solardır. Ürün Solar & Flaşör Lamba kategorisindedir.",
+  "mevcut": "代码11852 FL K 太阳能LED闪光警示灯 - (高x宽) 70x40 cm - 红色LED – 11852 FL K 尺寸为70 × 40 cm，材质PC，重量7.3 kg，反光类型为LED/太阳能。本产品属于太阳能及闪光灯类别。",
+  "yeni": ""
+ },
+ "{0} FL KM kodlu {s0} ürününün ölçüsü {1} × {2} cm, malzemesi ABS, ağırlığı {3} kg, reflektif tipi ledli/solardır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "11855 FL KM kodlu Çakar Flaşörlü Solar Lamba - (hxw) 17x30 Cm - Kırmızı-mavi Led – 11855 FL KM ürününün ölçüsü 17 × 30 cm, malzemesi ABS, ağırlığı 0.46 kg, reflektif tipi ledli/solardır. Ürün Solar & Flaşör Lamba kategorisindedir.",
+  "mevcut": "代码11855 FL KM 爆闪太阳能灯 - (高x宽) 17x30 cm - 红蓝LED – 11855 FL KM 尺寸为17 × 30 cm，材质ABS，重量0.46 kg，反光类型为LED/太阳能。本产品属于太阳能及闪光灯类别。",
+  "yeni": ""
+ },
+ "{0} FL A kodlu {s0} ürününün ölçüsü {1} × {2} cm, malzemesi PC, ağırlığı {3} kg, reflektif tipi ledli/solardır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "11882 FL A kodlu Ac Ledli Levha - (hxw) 40x40 Cm - Sarı Led – 11882 FL A ürününün ölçüsü 40 × 40 cm, malzemesi PC, ağırlığı 2.8 kg, reflektif tipi ledli/solardır. Ürün Solar & Flaşör Lamba kategorisindedir.",
+  "mevcut": "代码11882 FL A 交流电LED标志牌 - (高x宽) 40x40 cm - 黄色LED – 11882 FL A 尺寸为40 × 40 cm，材质PC，重量2.8 kg，反光类型为LED/太阳能。本产品属于太阳能及闪光灯类别。",
+  "yeni": ""
+ },
+ "{0} FL A kodlu {s0} ürününün ölçüsü {1} × {2} cm, reflektif tipi ledli/solardır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "11884 FL A kodlu Ac Ledli Yol Bakım Levhaları - (hxw) 60x60 Cm Led Panel: 60x60 Cm Malzeme: Pc - Ağırlık: 5.5 Kg – 11884 FL A ürününün ölçüsü 60 × 60 cm, reflektif tipi ledli/solardır. Ürün Solar & Flaşör Lamba kategorisindedir.",
+  "mevcut": "代码11884 FL A 交流电LED道路养护标志牌 - (高x宽) 60x60 cm LED面板：60x60 cm 材质：PC - 重量：5.5 kg – 11884 FL A 尺寸为60 × 60 cm，反光类型为LED/太阳能。本产品属于太阳能及闪光灯类别。",
+  "yeni": ""
+ },
+ "{0} SL K kodlu {s0} ürününün ölçüsü {1} × {2} × {3} cm, malzemesi AL, ağırlığı {4} kg, reflektif tipi ledli/solardır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "11920 SL K kodlu Solar Yol İşaretleme Butonu - 145x125x28 Mm – 11920 SL K ürününün ölçüsü 14.5 × 12.5 × 2.8 cm, malzemesi AL, ağırlığı 0.45 kg, reflektif tipi ledli/solardır. Ürün Solar & Flaşör Lamba kategorisindedir.",
+  "mevcut": "代码11920 SL K 太阳能道钉 - 145x125x28 mm – 11920 SL K 尺寸为14.5 × 12.5 × 2.8 cm，材质AL，重量0.45 kg，反光类型为LED/太阳能。本产品属于太阳能及闪光灯类别。",
+  "yeni": ""
+ },
+ "{0} SL S kodlu {s0} ürününün ölçüsü {1} × {2} × {3} cm, malzemesi AL, ağırlığı {4} kg, reflektif tipi ledli/solardır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "11922 SL S kodlu Solar Yol İşaretleme Butonu - 145x125x28 Mm – 11922 SL S ürününün ölçüsü 14.5 × 12.5 × 2.8 cm, malzemesi AL, ağırlığı 0.45 kg, reflektif tipi ledli/solardır. Ürün Solar & Flaşör Lamba kategorisindedir.",
+  "mevcut": "代码11922 SL S 太阳能道钉 - 145x125x28 mm – 11922 SL S 尺寸为14.5 × 12.5 × 2.8 cm，材质AL，重量0.45 kg，反光类型为LED/太阳能。本产品属于太阳能及闪光灯类别。",
+  "yeni": ""
+ },
+ "{0} SL kodlu {s0} ürününün ölçüsü {1} × {2} × {3} cm, malzemesi PPC, ağırlığı {4} kg, reflektif tipi ledli/solardır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "11938 SL kodlu Solar Flaşörlü Yol Kasisi - Ölçü: 4.5x50x50 Cm – 11938 SL ürününün ölçüsü 4.5 × 50 × 50 cm, malzemesi PPC, ağırlığı 3.1 kg, reflektif tipi ledli/solardır. Ürün Solar & Flaşör Lamba kategorisindedir.",
+  "mevcut": "代码11938 SL 太阳能闪光减速带 - 尺寸：4.5x50x50 cm – 11938 SL 尺寸为4.5 × 50 × 50 cm，材质PPC，重量3.1 kg，反光类型为LED/太阳能。本产品属于太阳能及闪光灯类别。",
+  "yeni": ""
+ },
+ "{0} SL K kodlu {s0} ürününün ölçüsü {1} × {2} × {3} cm, malzemesi PPC, ağırlığı {4} kg, reflektif tipi ledli/solardır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "11940 SL K kodlu Solar Flaşörlü Yol Kasis Kapağı - Ölçü: 4.5x50x25 Cm – 11940 SL K ürününün ölçüsü 4.5 × 50 × 25 cm, malzemesi PPC, ağırlığı 1.1 kg, reflektif tipi ledli/solardır. Ürün Solar & Flaşör Lamba kategorisindedir.",
+  "mevcut": "代码11940 SL K 太阳能闪光减速带端盖 - 尺寸：4.5x50x25 cm – 11940 SL K 尺寸为4.5 × 50 × 25 cm，材质PPC，重量1.1 kg，反光类型为LED/太阳能。本产品属于太阳能及闪光灯类别。",
+  "yeni": ""
+ },
+ "{0} YB kodlu {s0} ürününün ölçüsü {1} × {2} × {3} cm, malzemesi PPC, ağırlığı {4} kg, reflektif tipi merceklidır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "12000 YB kodlu Mercekli Yol Butonu - 125x150x32 Mm – 12000 YB ürününün ölçüsü 12.5 × 15 × 3.2 cm, malzemesi PPC, ağırlığı 0.2 kg, reflektif tipi merceklidır. Ürün Yol Butonu kategorisindedir.",
+  "mevcut": "代码12000 YB 透镜道钉 - 125x150x32 mm – 12000 YB 尺寸为12.5 × 15 × 3.2 cm，材质PPC，重量0.2 kg，反光类型为透镜。本产品属于道钉类别。",
+  "yeni": ""
+ },
+ "{0} YB kodlu {s0} ürününün ölçüsü {1} × {2} × {3} cm, malzemesi ABS, ağırlığı {4} kg, reflektif tipi merceklidır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "12005 YB kodlu Mercekli Yol Butonu - 105x105x20 Mm – 12005 YB ürününün ölçüsü 10.5 × 10.5 × 2 cm, malzemesi ABS, ağırlığı 0.12 kg, reflektif tipi merceklidır. Ürün Yol Butonu kategorisindedir.",
+  "mevcut": "代码12005 YB 透镜道钉 - 105x105x20 mm – 12005 YB 尺寸为10.5 × 10.5 × 2 cm，材质ABS，重量0.12 kg，反光类型为透镜。本产品属于道钉类别。",
+  "yeni": ""
+ },
+ "{0}-{1} YB kodlu {s0} ürününün ölçüsü {2} × {3} × {4} cm, malzemesi ABS, ağırlığı {5} kg, reflektif tipi merceklidır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "12005-2 YB kodlu Mercekli Yol Butonu - 100x100x21 Mm – 12005-2 YB ürününün ölçüsü 10 × 10 × 2.1 cm, malzemesi ABS, ağırlığı 0.15 kg, reflektif tipi merceklidır. Ürün Yol Butonu kategorisindedir.",
+  "mevcut": "代码12005-2 YB 透镜道钉 - 100x100x21 mm – 12005-2 YB 尺寸为10 × 10 × 2.1 cm，材质ABS，重量0.15 kg，反光类型为透镜。本产品属于道钉类别。",
+  "yeni": ""
+ },
+ "{0} YB kodlu {s0} ürününün ölçüsü {1} × {2} × {3} cm, malzemesi AL, ağırlığı {4} kg, reflektif tipi kedi gözüdır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "12007 YB kodlu Cam Kedi Gözlü Yol Butonu - 120x120x28 Mm – 12007 YB ürününün ölçüsü 12 × 12 × 2.8 cm, malzemesi AL, ağırlığı 0.3 kg, reflektif tipi kedi gözüdır. Ürün Yol Butonu kategorisindedir.",
+  "mevcut": "代码12007 YB 玻璃猫眼道钉 - 120x120x28 mm – 12007 YB 尺寸为12 × 12 × 2.8 cm，材质AL，重量0.3 kg，反光类型为猫眼。本产品属于道钉类别。",
+  "yeni": ""
+ },
+ "{0} YB kodlu {s0} ürününün ölçüsü {1} × {2} × {3} cm, malzemesi ABS, ağırlığı {4} kg, reflektif tipi kedi gözüdır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "12009 YB kodlu Cam Kedi Gözlü Yol Butonu - 100x100x21 Mm – 12009 YB ürününün ölçüsü 10 × 10 × 2.1 cm, malzemesi ABS, ağırlığı 0.15 kg, reflektif tipi kedi gözüdır. Ürün Yol Butonu kategorisindedir.",
+  "mevcut": "代码12009 YB 玻璃猫眼道钉 - 100x100x21 mm – 12009 YB 尺寸为10 × 10 × 2.1 cm，材质ABS，重量0.15 kg，反光类型为猫眼。本产品属于道钉类别。",
+  "yeni": ""
+ },
+ "{0} YK kodlu {s0} ürününün ölçüsü {1} × {2} × {3} cm, malzemesi PPC, ağırlığı {4} kg, reflektif tipi merceklidır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "12100 YK kodlu Mercekli Yol Kasisi - Ölçü: 5.0x25x34.5 Cm – 12100 YK ürününün ölçüsü 5 × 25 × 34.5 cm, malzemesi PPC, ağırlığı 1.5 kg, reflektif tipi merceklidır. Ürün Hız Kesici Kasis kategorisindedir.",
+  "mevcut": "代码12100 YK 透镜减速带 - 尺寸：5.0x25x34.5 cm – 12100 YK 尺寸为5 × 25 × 34.5 cm，材质PPC，重量1.5 kg，反光类型为透镜。本产品属于减速带类别。",
+  "yeni": ""
+ },
+ "{0} YK K kodlu {s0} ürününün ölçüsü {1} × {2} × {3} cm, malzemesi PPC, ağırlığı {4} kg, reflektif tipi merceklidır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "12101 YK K kodlu Mercekli Yol Kasis Kapağı - Ölçü: 5.0x25x10 Cm – 12101 YK K ürününün ölçüsü 5 × 25 × 10 cm, malzemesi PPC, ağırlığı 0.35 kg, reflektif tipi merceklidır. Ürün Hız Kesici Kasis kategorisindedir.",
+  "mevcut": "代码12101 YK K 透镜减速带端盖 - 尺寸：5.0x25x10 cm – 12101 YK K 尺寸为5 × 25 × 10 cm，材质PPC，重量0.35 kg，反光类型为透镜。本产品属于减速带类别。",
+  "yeni": ""
+ },
+ "{0} YK kodlu {s0} ürününün ölçüsü {1} × {2} × {3} cm, malzemesi PVC-PPC, ağırlığı {4} kgdır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "12106 YK kodlu Kauçuk Şaseli Yol Kasisi - Ölçü: 4.0x40x50 Cm – 12106 YK ürününün ölçüsü 4 × 40 × 50 cm, malzemesi PVC-PPC, ağırlığı 6.5 kgdır. Ürün Hız Kesici Kasis kategorisindedir.",
+  "mevcut": "代码12106 YK 橡胶底座减速带 - 尺寸：4.0x40x50 cm – 12106 YK 尺寸为4 × 40 × 50 cm，材质PVC-PPC，重量6.5 kg。本产品属于减速带类别。",
+  "yeni": ""
+ },
+ "{0} YK K kodlu {s0} ürününün ölçüsü {1} × {2} × {3} cm, malzemesi PVC-PPC, ağırlığı {4} kgdır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "12107 YK K kodlu Kauçuk Şaseli Yol Kasis Kapağı - Ölçü: 4.0x40x20 Cm – 12107 YK K ürününün ölçüsü 4 × 40 × 20 cm, malzemesi PVC-PPC, ağırlığı 1.7 kgdır. Ürün Hız Kesici Kasis kategorisindedir.",
+  "mevcut": "代码12107 YK K 橡胶底座减速带端盖 - 尺寸：4.0x40x20 cm – 12107 YK K 尺寸为4 × 40 × 20 cm，材质PVC-PPC，重量1.7 kg。本产品属于减速带类别。",
+  "yeni": ""
+ },
+ "{0} YK kodlu {s0} ürününün ölçüsü {1} × {2} × {3} cm, malzemesi PPC, ağırlığı {4} kg, reflektif tipi kedi gözüdır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "12112 YK kodlu Kedi Gözlü Yol Kasisi - Ölçü: 4.5x50x50 Cm – 12112 YK ürününün ölçüsü 4.5 × 50 × 50 cm, malzemesi PPC, ağırlığı 3.1 kg, reflektif tipi kedi gözüdır. Ürün Hız Kesici Kasis kategorisindedir.",
+  "mevcut": "代码12112 YK 猫眼减速带 - 尺寸：4.5x50x50 cm – 12112 YK 尺寸为4.5 × 50 × 50 cm，材质PPC，重量3.1 kg，反光类型为猫眼。本产品属于减速带类别。",
+  "yeni": ""
+ },
+ "{0} YK K kodlu {s0} ürününün ölçüsü {1} × {2} × {3} cm, malzemesi PPC, ağırlığı {4} kg, reflektif tipi kedi gözüdır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "12113 YK K kodlu Kedi Gözlü Yol Kasis Kapağı - Ölçü: 4.5x50x25 Cm – 12113 YK K ürününün ölçüsü 4.5 × 50 × 25 cm, malzemesi PPC, ağırlığı 1.1 kg, reflektif tipi kedi gözüdır. Ürün Hız Kesici Kasis kategorisindedir.",
+  "mevcut": "代码12113 YK K 猫眼减速带端盖 - 尺寸：4.5x50x25 cm – 12113 YK K 尺寸为4.5 × 50 × 25 cm，材质PPC，重量1.1 kg，反光类型为猫眼。本产品属于减速带类别。",
+  "yeni": ""
+ },
+ "{0} YK kodlu {s0} ürününün malzemesi PPC, ağırlığı {1} kg, reflektif tipi merceklidır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "12123 YK kodlu Mercekli Yol Butonu - (ø) 250x35 Mm – 12123 YK ürününün malzemesi PPC, ağırlığı 0.45 kg, reflektif tipi merceklidır. Ürün Yol Butonu kategorisindedir.",
+  "mevcut": "代码12123 YK 透镜道钉 - (ø) 250x35 mm – 12123 YK 材质PPC，重量0.45 kg，反光类型为透镜。本产品属于道钉类别。",
+  "yeni": ""
+ },
+ "{0} UB kodlu {s0} ürününün ölçüsü {1} × {2} × {3} cm, malzemesi PPC, ağırlığı {4} kgdır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "12202 UB kodlu Şerit Sınırlama Butonu - (hxlxw) 4.8x118x15 Cm – 12202 UB ürününün ölçüsü 4.8 × 118 × 15 cm, malzemesi PPC, ağırlığı 2.3 kgdır. Ürün Şerit Ayırıcı kategorisindedir.",
+  "mevcut": "代码12202 UB 车道限界道钉 - (高x长x宽) 4.8x118x15 cm – 12202 UB 尺寸为4.8 × 118 × 15 cm，材质PPC，重量2.3 kg。本产品属于车道分隔器类别。",
+  "yeni": ""
+ },
+ "{0} UB R kodlu {s0} ürününün ölçüsü {1} × {2} × {3} cm, malzemesi PPC-TPU, ağırlığı {4} kgdır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "12203 UB R kodlu Levhalı Şerit Düzenleme Butonu - (hxlxw) 30x118x15 Cm – 12203 UB R ürününün ölçüsü 30 × 118 × 15 cm, malzemesi PPC-TPU, ağırlığı 2.5 kgdır. Ürün Şerit Ayırıcı kategorisindedir.",
+  "mevcut": "代码12203 UB R 带标志牌车道导向道钉 - (高x长x宽) 30x118x15 cm – 12203 UB R 尺寸为30 × 118 × 15 cm，材质PPC-TPU，重量2.5 kg。本产品属于车道分隔器类别。",
+  "yeni": ""
+ },
+ "{0} UB R kodlu {s0} ürününün ölçüsü {1} × {2} cm, malzemesi PE, ağırlığı {3} kgdır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "12205 UB R kodlu Kaldırım Sınırlama Dubası - (h) 50cm / Taban:25x25 Cm – 12205 UB R ürününün ölçüsü 25 × 25 cm, malzemesi PE, ağırlığı 1.5 kgdır. Ürün Duba & Kaldırım Sınırlama kategorisindedir.",
+  "mevcut": "代码12205 UB R 路缘限界锥墩 - (高) 50cm / 底座：25x25 cm – 12205 UB R 尺寸为25 × 25 cm，材质PE，重量1.5 kg。本产品属于锥墩及路缘限界类别。",
+  "yeni": ""
+ },
+ "{0} UB R kodlu {s0} ürününün malzemesi TPU, ağırlığı {1} kgdır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "12211 UB R kodlu Tpu Esnek Delinatör - (hxø) 100 Cm X 80 Mm – 12211 UB R ürününün malzemesi TPU, ağırlığı 1.6 kgdır. Ürün Delinatör kategorisindedir.",
+  "mevcut": "代码12211 UB R TPU弹性轮廓标 - (高xø) 100 cm x 80 mm – 12211 UB R 材质TPU，重量1.6 kg。本产品属于轮廓标类别。",
+  "yeni": ""
+ },
+ "{0} UB R kodlu {s0} ürününün ölçüsü {1} × {2} cm, malzemesi PVC, ağırlığı {3} kg, reflektif tipi reflektiflidır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "12216 UB R kodlu Reflektif Bantlı Araç Stoperi - (hxl) 10x50 Cm – 12216 UB R ürününün ölçüsü 10 × 50 cm, malzemesi PVC, ağırlığı 2.4 kg, reflektif tipi reflektiflidır. Ürün Araç Stoperi kategorisindedir.",
+  "mevcut": "代码12216 UB R 反光带车轮挡 - (高x长) 10x50 cm – 12216 UB R 尺寸为10 × 50 cm，材质PVC，重量2.4 kg，反光类型为反光型。本产品属于车轮挡类别。",
+  "yeni": ""
+ },
+ "{0} UB kodlu {s0} ürününün ölçüsü {1} × {2} × {3} cm, malzemesi PPC, ağırlığı {4} kg, reflektif tipi ledli/solardır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "12220 UB kodlu Solar Flaşörlü Şerit Sınırlama Butonu-(hxlxw)8.0x100x20cm – 12220 UB ürününün ölçüsü 8 × 100 × 20 cm, malzemesi PPC, ağırlığı 3.7 kg, reflektif tipi ledli/solardır. Ürün Şerit Ayırıcı kategorisindedir.",
+  "mevcut": "代码12220 UB 太阳能闪光车道限界道钉-(高x长x宽)8.0x100x20cm – 12220 UB 尺寸为8 × 100 × 20 cm，材质PPC，重量3.7 kg，反光类型为LED/太阳能。本产品属于车道分隔器类别。",
+  "yeni": ""
+ },
+ "{0} TG A kodlu {s0} ürününün malzemesi PPC, ağırlığı {1} kgdır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "12226 TG A kodlu Trafik Güvenlik Aynası - Ölçü: (ø) 800 Mm – 12226 TG A ürününün malzemesi PPC, ağırlığı 5.5 kgdır. Ürün Güvenlik Aynası kategorisindedir.",
+  "mevcut": "代码12226 TG A 交通安全凸面镜 - 尺寸：(ø) 800 mm – 12226 TG A 材质PPC，重量5.5 kg。本产品属于安全凸面镜类别。",
+  "yeni": ""
+ },
+ "{0} UB kodlu {s0} ürününün ölçüsü {1} × {2} cm, malzemesi PPC, ağırlığı {3} kgdır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "12231 UB kodlu Araç Stoperi - (hxl) 10x180 Cm – 12231 UB ürününün ölçüsü 10 × 180 cm, malzemesi PPC, ağırlığı 6.8 kgdır. Ürün Araç Stoperi kategorisindedir.",
+  "mevcut": "代码12231 UB 车轮挡 - (高x长) 10x180 cm – 12231 UB 尺寸为10 × 180 cm，材质PPC，重量6.8 kg。本产品属于车轮挡类别。",
+  "yeni": ""
+ },
+ "{0} UB R kodlu {s0} ürününün ağırlığı {1} kgdır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "12232 UB R kodlu Demonte Esnek Delinatörler - (hxø) 75 Cm X 80 Mm – 12232 UB R ürününün ağırlığı 1.48 kgdır. Ürün Delinatör kategorisindedir.",
+  "mevcut": "代码12232 UB R 可拆卸弹性轮廓标 - (高xø) 75 cm x 80 mm – 12232 UB R 重量1.48 kg。本产品属于轮廓标类别。",
+  "yeni": ""
+ },
+ "{0} UB R kodlu {s0} ürününün malzemesi TPU, ağırlığı {1} kg, tabanı soketlidır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "12237 UB R kodlu Tpu Esnek Delinatörler(soketli)-(hxø)75cmx110mm – 12237 UB R ürününün malzemesi TPU, ağırlığı 2.1 kg, tabanı soketlidır. Ürün Delinatör kategorisindedir.",
+  "mevcut": "代码12237 UB R TPU弹性轮廓标（带插座）-(高xø)75cmx110mm – 12237 UB R 材质TPU，重量2.1 kg，底座为插座式。本产品属于轮廓标类别。",
+  "yeni": ""
+ },
+ "{0} TG A kodlu {s0} ürününün ölçüsü {1} × {2} cm, malzemesi ABS, ağırlığı {3} kgdır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "12246 TG A kodlu Trafik Güvenlik Aynası - Ölçü: 60x80 Cm – 12246 TG A ürününün ölçüsü 60 × 80 cm, malzemesi ABS, ağırlığı 6 kgdır. Ürün Güvenlik Aynası kategorisindedir.",
+  "mevcut": "代码12246 TG A 交通安全凸面镜 - 尺寸：60x80 cm – 12246 TG A 尺寸为60 × 80 cm，材质ABS，重量6 kg。本产品属于安全凸面镜类别。",
+  "yeni": ""
+ },
+ "{0} UB R kodlu {s0} ürününün malzemesi TPU, ağırlığı {1} kg, reflektif tipi reflektiflidır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "12250 UB R kodlu Esnek Refüj Başı Levhası - (hxø) 100cmx300mm(reflektif) – 12250 UB R ürününün malzemesi TPU, ağırlığı 3.25 kg, reflektif tipi reflektiflidır. Ürün Refüj Başı Dubası kategorisindedir.",
+  "mevcut": "代码12250 UB R 弹性隔离带端头标志牌 - (高xø) 100cmx300mm（反光） – 12250 UB R 材质TPU，重量3.25 kg，反光类型为反光型。本产品属于隔离带端头锥墩类别。",
+  "yeni": ""
+ },
+ "{0} UB R kodlu {s0} ürününün ölçüsü {1} × {2} cm, malzemesi TPU, ağırlığı {3} kgdır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "12256 UB R kodlu Levhalı Esnek Delinatör - (hxl)75x12 Cm/taban:(ø)200 Mm – 12256 UB R ürününün ölçüsü 75 × 12 cm, malzemesi TPU, ağırlığı 1.4 kgdır. Ürün Delinatör kategorisindedir.",
+  "mevcut": "代码12256 UB R 带标志牌弹性轮廓标 - (高x长)75x12 cm/底座：(ø)200 mm – 12256 UB R 尺寸为75 × 12 cm，材质TPU，重量1.4 kg。本产品属于轮廓标类别。",
+  "yeni": ""
+ },
+ "{0} UB R kodlu {s0} ürününün ölçüsü {1} × {2} × {3} cm, malzemesi PVC, ağırlığı {4} kgdır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "12260 UB R kodlu Şerit Sınırlama Butonu - (hxlxw) 6.0x100x15 Cm – 12260 UB R ürününün ölçüsü 6 × 100 × 15 cm, malzemesi PVC, ağırlığı 6 kgdır. Ürün Şerit Ayırıcı kategorisindedir.",
+  "mevcut": "代码12260 UB R 车道限界道钉 - (高x长x宽) 6.0x100x15 cm – 12260 UB R 尺寸为6 × 100 × 15 cm，材质PVC，重量6 kg。本产品属于车道分隔器类别。",
+  "yeni": ""
+ },
+ "{0} UB kodlu {s0} ürününün ölçüsü {1} × {2} × {3} cm, malzemesi PPC, ağırlığı {4} kg, reflektif tipi kedi gözüdır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "12262 UB kodlu Kedi Gözlü Şerit Sınırlama Butonu-(hxlxw)7.5x100x22cm – 12262 UB ürününün ölçüsü 7.5 × 100 × 22 cm, malzemesi PPC, ağırlığı 3.5 kg, reflektif tipi kedi gözüdır. Ürün Şerit Ayırıcı kategorisindedir.",
+  "mevcut": "代码12262 UB 猫眼车道限界道钉-(高x长x宽)7.5x100x22cm – 12262 UB 尺寸为7.5 × 100 × 22 cm，材质PPC，重量3.5 kg，反光类型为猫眼。本产品属于车道分隔器类别。",
+  "yeni": ""
+ },
+ "{0} UB R kodlu {s0} ürününün ölçüsü {1} × {2} × {3} cm, malzemesi PPC, ağırlığı {4} kgdır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "12266 UB R kodlu Levhalı Şerit Düzenleme Butonu - (hxlxw) 66x100x22 Cm – 12266 UB R ürününün ölçüsü 66 × 100 × 22 cm, malzemesi PPC, ağırlığı 3.6 kgdır. Ürün Şerit Ayırıcı kategorisindedir.",
+  "mevcut": "代码12266 UB R 带标志牌车道导向道钉 - (高x长x宽) 66x100x22 cm – 12266 UB R 尺寸为66 × 100 × 22 cm，材质PPC，重量3.6 kg。本产品属于车道分隔器类别。",
+  "yeni": ""
+ },
+ "{0} UB R kodlu {s0} ürününün malzemesi TPE, ağırlığı {1} kg, tabanı soketlidır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "12272 UB R kodlu Tpe Esnek Delinatör(soketli)- (hxø) 70 Cm X 80 Mm – 12272 UB R ürününün malzemesi TPE, ağırlığı 0.74 kg, tabanı soketlidır. Ürün Delinatör kategorisindedir.",
+  "mevcut": "代码12272 UB R TPE弹性轮廓标（带插座）- (高xø) 70 cm x 80 mm – 12272 UB R 材质TPE，重量0.74 kg，底座为插座式。本产品属于轮廓标类别。",
+  "yeni": ""
+ },
+ "{0} UB R kodlu {s0} ürününün malzemesi TPE, ağırlığı {1} kgdır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "12275 UB R kodlu Tpe Esnek Delinatör - (hxø) 30 Cm X 80 Mm – 12275 UB R ürününün malzemesi TPE, ağırlığı 0.53 kgdır. Ürün Delinatör kategorisindedir.",
+  "mevcut": "代码12275 UB R TPE弹性轮廓标 - (高xø) 30 cm x 80 mm – 12275 UB R 材质TPE，重量0.53 kg。本产品属于轮廓标类别。",
+  "yeni": ""
+ },
+ "{0} UB D kodlu {s0} ürününün ölçüsü {1} × {2} cm, malzemesi TPU, ağırlığı {3} kgdır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "12276 UB D kodlu Demonte Kaldırım Sınırlama Dubası - (hxø) 87x8 Cm – 12276 UB D ürününün ölçüsü 87 × 8 cm, malzemesi TPU, ağırlığı 1.72 kgdır. Ürün Duba & Kaldırım Sınırlama kategorisindedir.",
+  "mevcut": "代码12276 UB D 可拆卸路缘限界锥墩 - (高xø) 87x8 cm – 12276 UB D 尺寸为87 × 8 cm，材质TPU，重量1.72 kg。本产品属于锥墩及路缘限界类别。",
+  "yeni": ""
+ },
+ "{0} UB ST kodlu {s0} ürününün ölçüsü {1} × {2} cm, malzemesi ST, ağırlığı {3} kgdır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "12289 UB ST kodlu Anti-park Dubası - (hxø)78cmx150mm / Taban: 20x20 Cm – 12289 UB ST ürününün ölçüsü 20 × 20 cm, malzemesi ST, ağırlığı 8.3 kgdır. Ürün Duba & Kaldırım Sınırlama kategorisindedir.",
+  "mevcut": "代码12289 UB ST 防停车桩 - (高xø)78cmx150mm / 底座：20x20 cm – 12289 UB ST 尺寸为20 × 20 cm，材质ST，重量8.3 kg。本产品属于锥墩及路缘限界类别。",
+  "yeni": ""
+ },
+ "{0} UB kodlu {s0} ürününün ölçüsü {1} × {2} × {3} cm, malzemesi PPC-ST, ağırlığı {4} kgdır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "12290 UB kodlu Otopark Kasis Kapanı - Ölçü: 6.0x50x50 Cm – 12290 UB ürününün ölçüsü 6 × 50 × 50 cm, malzemesi PPC-ST, ağırlığı 7.3 kgdır. Ürün Hız Kesici Kasis kategorisindedir.",
+  "mevcut": "代码12290 UB 停车场减速带式拦车器 - 尺寸：6.0x50x50 cm – 12290 UB 尺寸为6 × 50 × 50 cm，材质PPC-ST，重量7.3 kg。本产品属于减速带类别。",
+  "yeni": ""
+ },
+ "{0} UB K kodlu {s0} ürününün ölçüsü {1} × {2} × {3} cm, malzemesi PPC, ağırlığı {4} kgdır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "12291 UB K kodlu Otopark Kasis Kapan Kapağı - Ölçü: 6.0x50x9.0 Cm – 12291 UB K ürününün ölçüsü 6 × 50 × 9 cm, malzemesi PPC, ağırlığı 0.7 kgdır. Ürün Hız Kesici Kasis kategorisindedir.",
+  "mevcut": "代码12291 UB K 停车场减速带式拦车器端盖 - 尺寸：6.0x50x9.0 cm – 12291 UB K 尺寸为6 × 50 × 9 cm，材质PPC，重量0.7 kg。本产品属于减速带类别。",
+  "yeni": ""
+ },
+ "{0} UB R kodlu {s0} ürününün malzemesi PVC, ağırlığı {1} kgdır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "12292 UB R kodlu Otopark Kolon Köşe Koruyucu - (h) 90 Cm – 12292 UB R ürününün malzemesi PVC, ağırlığı 1.9 kgdır. Ürün Kolon Köşe Koruyucu kategorisindedir.",
+  "mevcut": "代码12292 UB R 停车场立柱护角 - (高) 90 cm – 12292 UB R 材质PVC，重量1.9 kg。本产品属于立柱护角类别。",
+  "yeni": ""
+ },
+ "{0} TK kodlu {s0} ürününün malzemesi PPC, ağırlığı {1} kg, reflektif tipi kedi gözüdır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "12300 TK kodlu Klasik Kedi Gözlü Koni - (h) 50 Cm – 12300 TK ürününün malzemesi PPC, ağırlığı 1.2 kg, reflektif tipi kedi gözüdır. Ürün Trafik Konisi kategorisindedir.",
+  "mevcut": "代码12300 TK 经典猫眼交通锥 - (高) 50 cm – 12300 TK 材质PPC，重量1.2 kg，反光类型为猫眼。本产品属于交通锥类别。",
+  "yeni": ""
+ },
+ "{0} TK A kodlu {s0} ürününün malzemesi PPC, ağırlığı {1} kg, reflektif tipi kedi gözüdır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "12301 TK A kodlu Klasik Kedi Gözlü Koni - (h) 50 Cm – 12301 TK A ürününün malzemesi PPC, ağırlığı 4 kg, reflektif tipi kedi gözüdır. Ürün Trafik Konisi kategorisindedir.",
+  "mevcut": "代码12301 TK A 经典猫眼交通锥 - (高) 50 cm – 12301 TK A 材质PPC，重量4 kg，反光类型为猫眼。本产品属于交通锥类别。",
+  "yeni": ""
+ },
+ "{0} TK kodlu {s0} ürününün malzemesi PPC, ağırlığı {1} kgdır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "12302 TK kodlu Eko Trafik Konisi - (h) 50 Cm – 12302 TK ürününün malzemesi PPC, ağırlığı 0.9 kgdır. Ürün Trafik Konisi kategorisindedir.",
+  "mevcut": "代码12302 TK 经济型交通锥 - (高) 50 cm – 12302 TK 材质PPC，重量0.9 kg。本产品属于交通锥类别。",
+  "yeni": ""
+ },
+ "{0} TK R{1} kodlu {s0} ürününün malzemesi PVC, ağırlığı {2} kgdır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "12303 TK R1 kodlu Pvc Trafik Konisi - (h) 32 Cm – 12303 TK R1 ürününün malzemesi PVC, ağırlığı 0.65 kgdır. Ürün Trafik Konisi kategorisindedir.",
+  "mevcut": "代码12303 TK R1 PVC交通锥 - (高) 32 cm – 12303 TK R1 材质PVC，重量0.65 kg。本产品属于交通锥类别。",
+  "yeni": ""
+ },
+ "{0} TK A R{1} kodlu {s0} ürününün malzemesi PVC, ağırlığı {2} kgdır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "12315 TK A R2 kodlu Pvc Trafik Konisi - (h) 75 Cm – 12315 TK A R2 ürününün malzemesi PVC, ağırlığı 6.5 kgdır. Ürün Trafik Konisi kategorisindedir.",
+  "mevcut": "代码12315 TK A R2 PVC交通锥 - (高) 75 cm – 12315 TK A R2 材质PVC，重量6.5 kg。本产品属于交通锥类别。",
+  "yeni": ""
+ },
+ "{0} TK R{1} kodlu {s0} ürününün malzemesi PVC, ağırlığı {2} kg, reflektif tipi reflektiflidır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "12318 TK R1 kodlu Pvc Trafik Konisi - (h) 50 Cm - Reflektif: (type İv) – 12318 TK R1 ürününün malzemesi PVC, ağırlığı 1.8 kg, reflektif tipi reflektiflidır. Ürün Trafik Konisi kategorisindedir.",
+  "mevcut": "代码12318 TK R1 PVC交通锥 - (高) 50 cm - 反光：(Type IV) – 12318 TK R1 材质PVC，重量1.8 kg，反光类型为反光型。本产品属于交通锥类别。",
+  "yeni": ""
+ },
+ "{0} TK R{1} kodlu {s0} ürününün malzemesi TPE, ağırlığı {2} kgdır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "12362 TK R1 kodlu Tpe Trafik Konisi - (h) 32 Cm – 12362 TK R1 ürününün malzemesi TPE, ağırlığı 0.54 kgdır. Ürün Trafik Konisi kategorisindedir.",
+  "mevcut": "代码12362 TK R1 TPE交通锥 - (高) 32 cm – 12362 TK R1 材质TPE，重量0.54 kg。本产品属于交通锥类别。",
+  "yeni": ""
+ },
+ "{0} TK A R{1} kodlu {s0} ürününün malzemesi TPE, ağırlığı {2} kgdır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "12384 TK A R1 kodlu Tpe Trafik Konisi - (h) 50 Cm – 12384 TK A R1 ürününün malzemesi TPE, ağırlığı 2.5 kgdır. Ürün Trafik Konisi kategorisindedir.",
+  "mevcut": "代码12384 TK A R1 TPE交通锥 - (高) 50 cm – 12384 TK A R1 材质TPE，重量2.5 kg。本产品属于交通锥类别。",
+  "yeni": ""
+ },
+ "{0}-{1} DB R kodlu {s0} ürününün malzemesi PPC, ağırlığı {2} kg, tabanı dubalıdır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "12403-1 DB R kodlu Dubalı Uyarı Dikmesi - (hxø) - 100 Cm X 63 Mm – 12403-1 DB R ürününün malzemesi PPC, ağırlığı 4 kg, tabanı dubalıdır. Ürün Duba & Kaldırım Sınırlama kategorisindedir.",
+  "mevcut": "代码12403-1 DB R 锥墩式警示立柱 - (高xø) - 100 cm x 63 mm – 12403-1 DB R 材质PPC，重量4 kg，底座为锥墩式。本产品属于锥墩及路缘限界类别。",
+  "yeni": ""
+ },
+ "{0} DB R kodlu {s0} ürününün malzemesi PPC, ağırlığı {1} kg, tabanı dubalıdır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "12404 DB R kodlu Dubalı Uyarı Dikmesi - (hxø) - 120 Cm X 110 Mm – 12404 DB R ürününün malzemesi PPC, ağırlığı 12 kg, tabanı dubalıdır. Ürün Duba & Kaldırım Sınırlama kategorisindedir.",
+  "mevcut": "代码12404 DB R 锥墩式警示立柱 - (高xø) - 120 cm x 110 mm – 12404 DB R 材质PPC，重量12 kg，底座为锥墩式。本产品属于锥墩及路缘限界类别。",
+  "yeni": ""
+ },
+ "{0} DB R kodlu {s0} ürününün ölçüsü {1} × {2} cm, malzemesi PPC, ağırlığı {3} kg, tabanı dubalıdır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "12405 DB R kodlu Dubalı Uyarı Levhalı Bariyer - (hxl) 120x180 Cm – 12405 DB R ürününün ölçüsü 120 × 180 cm, malzemesi PPC, ağırlığı 31 kg, tabanı dubalıdır. Ürün Güvenlik Bariyeri kategorisindedir.",
+  "mevcut": "代码12405 DB R 锥墩式警示牌护栏 - (高x长) 120x180 cm – 12405 DB R 尺寸为120 × 180 cm，材质PPC，重量31 kg，底座为锥墩式。本产品属于安全护栏类别。",
+  "yeni": ""
+ },
+ "{0} DB R kodlu {s0} ürününün ölçüsü {1} × {2} cm, malzemesi PPC, ağırlığı {3} kgdır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "12410 DB R kodlu Katlanır Uyarı Levhası - (h) 120 Cm / Taban: 31x48 Cm – 12410 DB R ürününün ölçüsü 31 × 48 cm, malzemesi PPC, ağırlığı 12 kgdır. Ürün Uyarı Levhası kategorisindedir.",
+  "mevcut": "代码12410 DB R 折叠式警示牌 - (高) 120 cm / 底座：31x48 cm – 12410 DB R 尺寸为31 × 48 cm，材质PPC，重量12 kg。本产品属于警示牌类别。",
+  "yeni": ""
+ },
+ "{0} DB F A kodlu {s0} ürününün ölçüsü {1} × {2} cm, malzemesi PPC, ağırlığı {3} kgdır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "12421 DB F A kodlu Levhalı Reklam Dubası - (hxw) 90x49 Cm - İki Yönde Uyarı – 12421 DB F A ürününün ölçüsü 90 × 49 cm, malzemesi PPC, ağırlığı 7.5 kgdır. Ürün Duba & Kaldırım Sınırlama kategorisindedir.",
+  "mevcut": "代码12421 DB F A 带标志牌广告锥墩 - (高x宽) 90x49 cm - 双向警示 – 12421 DB F A 尺寸为90 × 49 cm，材质PPC，重量7.5 kg。本产品属于锥墩及路缘限界类别。",
+  "yeni": ""
+ },
+ "{0} DB R A kodlu {s0} ürününün ölçüsü {1} × {2} cm, malzemesi PPC, ağırlığı {3} kgdır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "12423 DB R A kodlu Ultra Levhalı Uyarı Dubası - (hxw) 90x49 Cm – 12423 DB R A ürününün ölçüsü 90 × 49 cm, malzemesi PPC, ağırlığı 7.5 kgdır. Ürün Duba & Kaldırım Sınırlama kategorisindedir.",
+  "mevcut": "代码12423 DB R A Ultra带标志牌警示锥墩 - (高x宽) 90x49 cm – 12423 DB R A 尺寸为90 × 49 cm，材质PPC，重量7.5 kg。本产品属于锥墩及路缘限界类别。",
+  "yeni": ""
+ },
+ "{0} DB A kodlu {s0} ürününün ölçüsü {1} × {2} cm, malzemesi PPC, ağırlığı {3} kgdır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "12426 DB A kodlu Levhalı Reklam Dubası - (hxw) 90x49 Cm – 12426 DB A ürününün ölçüsü 90 × 49 cm, malzemesi PPC, ağırlığı 7.5 kgdır. Ürün Duba & Kaldırım Sınırlama kategorisindedir.",
+  "mevcut": "代码12426 DB A 带标志牌广告锥墩 - (高x宽) 90x49 cm – 12426 DB A 尺寸为90 × 49 cm，材质PPC，重量7.5 kg。本产品属于锥墩及路缘限界类别。",
+  "yeni": ""
+ },
+ "{0} DB kodlu {s0} ürününün ölçüsü {1} × {2} cm, malzemesi PPC, ağırlığı {3} kgdır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "12431 DB kodlu Katlanır Reklam Levhası - (hxw) 90x60 Cm – 12431 DB ürününün ölçüsü 90 × 60 cm, malzemesi PPC, ağırlığı 12 kgdır. Ürün Uyarı Levhası kategorisindedir.",
+  "mevcut": "代码12431 DB 折叠式广告牌 - (高x宽) 90x60 cm – 12431 DB 尺寸为90 × 60 cm，材质PPC，重量12 kg。本产品属于警示牌类别。",
+  "yeni": ""
+ },
+ "{0} DB kodlu {s0} ürününün malzemesi PE, ağırlığı {1} kg, tabanı dubalıdır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "12435 DB kodlu Dubalı Uyarı Dikmesi - (hxø) - 90 Cm X 40 Mm – 12435 DB ürününün malzemesi PE, ağırlığı 1.9 kg, tabanı dubalıdır. Ürün Duba & Kaldırım Sınırlama kategorisindedir.",
+  "mevcut": "代码12435 DB 锥墩式警示立柱 - (高xø) - 90 cm x 40 mm – 12435 DB 材质PE，重量1.9 kg，底座为锥墩式。本产品属于锥墩及路缘限界类别。",
+  "yeni": ""
+ },
+ "{0} FB R kodlu {s0} ürününün ölçüsü {1} × {2} cm, malzemesi PPC, ağırlığı {3} kgdır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "12500 FB R kodlu Katlanır Uyarı Levhalı Bariyer - (hxw) 150x110 Cm – 12500 FB R ürününün ölçüsü 150 × 110 cm, malzemesi PPC, ağırlığı 18 kgdır. Ürün Güvenlik Bariyeri kategorisindedir.",
+  "mevcut": "代码12500 FB R 折叠式警示牌护栏 - (高x宽) 150x110 cm – 12500 FB R 尺寸为150 × 110 cm，材质PPC，重量18 kg。本产品属于安全护栏类别。",
+  "yeni": ""
+ },
+ "{0} FB R kodlu {s0} ürününün ölçüsü {1} × {2} × {3} cm, malzemesi PPC, ağırlığı {4} kg, reflektif tipi kedi gözüdır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "12520 FB R kodlu Kedi Gözlü Güvenlik Bariyeri - (hxlxw) 60x100x40 Cm – 12520 FB R ürününün ölçüsü 60 × 100 × 40 cm, malzemesi PPC, ağırlığı 20 kg, reflektif tipi kedi gözüdır. Ürün Güvenlik Bariyeri kategorisindedir.",
+  "mevcut": "代码12520 FB R 猫眼安全护栏 - (高x长x宽) 60x100x40 cm – 12520 FB R 尺寸为60 × 100 × 40 cm，材质PPC，重量20 kg，反光类型为猫眼。本产品属于安全护栏类别。",
+  "yeni": ""
+ },
+ "{0} FB R kodlu {s0} ürününün ölçüsü {1} × {2} × {3} cm, malzemesi PPC, ağırlığı {4} kgdır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "12522 FB R kodlu Levhalı Güvenlik Bariyeri - (hxlxw) 120x100x40 Cm – 12522 FB R ürününün ölçüsü 120 × 100 × 40 cm, malzemesi PPC, ağırlığı 20 kgdır. Ürün Güvenlik Bariyeri kategorisindedir.",
+  "mevcut": "代码12522 FB R 带标志牌安全护栏 - (高x长x宽) 120x100x40 cm – 12522 FB R 尺寸为120 × 100 × 40 cm，材质PPC，重量20 kg。本产品属于安全护栏类别。",
+  "yeni": ""
+ },
+ "{0} FB R kodlu {s0} ürününün ölçüsü {1} × {2} × {3} cm, malzemesi PPC, ağırlığı {4} kg, reflektif tipi ledli/solardır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "12526 FB R kodlu Solar Flaşörlü Güvenlik Bariyeri -(hxlxw) 60x100x40 Cm – 12526 FB R ürününün ölçüsü 60 × 100 × 40 cm, malzemesi PPC, ağırlığı 20 kg, reflektif tipi ledli/solardır. Ürün Güvenlik Bariyeri kategorisindedir.",
+  "mevcut": "代码12526 FB R 太阳能闪光安全护栏 -(高x长x宽) 60x100x40 cm – 12526 FB R 尺寸为60 × 100 × 40 cm，材质PPC，重量20 kg，反光类型为LED/太阳能。本产品属于安全护栏类别。",
+  "yeni": ""
+ },
+ "{0} FB ST kodlu {s0} ürününün ölçüsü {1} × {2} cm, malzemesi Metal-Ø{3}x{4}mm Yuvarlak Boru, ağırlığı {5} kgdır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "12534 FB ST kodlu Metal Güvenlik Barikatı - (hxl) 110x200 Cm – 12534 FB ST ürününün ölçüsü 110 × 200 cm, malzemesi Metal-Ø32x2mm Yuvarlak Boru, ağırlığı 15 kgdır. Ürün Güvenlik Bariyeri kategorisindedir.",
+  "mevcut": "代码12534 FB ST 金属安全路障 - (高x长) 110x200 cm – 12534 FB ST 尺寸为110 × 200 cm，材质金属-Ø32x2mm圆管，重量15 kg。本产品属于安全护栏类别。",
+  "yeni": ""
+ },
+ "{0}ECO kodlu {s0} ürününün ölçüsü {1} cmdır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "12845ECO kodlu 45 cm Delinatörlü Şerit Ayırıcı Eko – 12845ECO ürününün ölçüsü 45 cmdır. Ürün Şerit Ayırıcı kategorisindedir.",
+  "mevcut": "代码12845ECO 45 cm 经济型轮廓标车道分隔器 – 12845ECO 尺寸为45 cm。本产品属于车道分隔器类别。",
+  "yeni": ""
+ },
+ "{0}ECOB kodlu {s0} ürününün malzemesi PE, ağırlığı {1} kg, tabanı altıgendır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "14060ECOB kodlu Altıgen Eko Delinatör (siyah) TPE – 14060ECOB ürününün malzemesi PE, ağırlığı 1 kg, tabanı altıgendır. Ürün Delinatör kategorisindedir.",
+  "mevcut": "代码14060ECOB 六角经济型轮廓标（黑色）TPE – 14060ECOB 材质PE，重量1 kg，底座为六角形。本产品属于轮廓标类别。",
+  "yeni": ""
+ },
+ "{0}ECO kodlu {s0} ürününün ölçüsü {1} cm, malzemesi PVCdır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "16045ECO kodlu 45 cm Delinatörlü PVC Şerit Ayırıcı Eko – 16045ECO ürününün ölçüsü 45 cm, malzemesi PVCdır. Ürün Şerit Ayırıcı kategorisindedir.",
+  "mevcut": "代码16045ECO 45 cm 经济型轮廓标PVC车道分隔器 – 16045ECO 尺寸为45 cm，材质PVC。本产品属于车道分隔器类别。",
+  "yeni": ""
+ },
+ "{s0} (ZT{0}A) ₺{1}. PE. Stokta, {2}-{3} iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.": {
+  "ornek_tr": "16x90mm Plastik Dübel – ZT90A (ZT90A) ₺5. PE. Stokta, 1-2 iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.",
+  "mevcut": "16x90mm 塑料膨胀管 – ZT90A（ZT90A）₺5。PE。现货，1-2个工作日内发货。通过Yurtiçi Kargo发往土耳其全境。",
+  "yeni": ""
+ },
+ "{s0}. Malzeme: Plastik · Ürün kodu: ZT{0}A": {
+  "ornek_tr": "16x90mm Plastik Dübel. Malzeme: Plastik · Ürün kodu: ZT90A",
+  "mevcut": "16x90mm 塑料膨胀管。材质：塑料 · 产品代码：ZT90A",
+  "yeni": ""
+ },
+ "{0} A kodlu {s0} ürününün ölçüsü {1} × {2} × {3} cm, malzemesi PVCdır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "190 A kodlu Pvc Koni Ağırlığı - Ölçü: 38.5x38.5x5.0 Cm - 5 Kg – 190 A ürününün ölçüsü 38.5 × 38.5 × 5 cm, malzemesi PVCdır. Ürün Trafik Konisi kategorisindedir.",
+  "mevcut": "代码190 A PVC锥桶配重 - 尺寸：38.5x38.5x5.0 cm - 5 kg – 190 A 尺寸为38.5 × 38.5 × 5 cm，材质PVC。本产品属于交通锥类别。",
+  "yeni": ""
+ },
+ "{0} Trifon {s0} - {1} Dubel": {
+  "ornek_tr": "2 Trifon Vida - 2 Dubel",
+  "mevcut": "2颗方头木螺钉 - 2个膨胀管",
+  "yeni": ""
+ },
+ "{0} Trifon {s0} - {1} {s1}": {
+  "ornek_tr": "2 Trifon Vida - 2 Dübel",
+  "mevcut": "2颗方头木螺钉 - 2个膨胀管",
+  "yeni": ""
+ },
+ "{0}. {s0} veya şerit ayırıcı": {
+  "ornek_tr": "2. Delinatör veya şerit ayırıcı",
+  "mevcut": "2. 轮廓标或车道分隔器",
+  "yeni": ""
+ },
+ "{0} UB R kodlu {s0} ürününün ölçüsü {1} × {2} cm, malzemesi PPC, ağırlığı {3} kgdır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "22031 UB R kodlu Kaldırım Sınırlama Dubası - (hxø) 50x9.0 Cm – 22031 UB R ürününün ölçüsü 50 × 9 cm, malzemesi PPC, ağırlığı 0.9 kgdır. Ürün Duba & Kaldırım Sınırlama kategorisindedir.",
+  "mevcut": "代码22031 UB R 路缘限界锥墩 - (高xø) 50x9.0 cm – 22031 UB R 尺寸为50 × 9 cm，材质PPC，重量0.9 kg。本产品属于锥墩及路缘限界类别。",
+  "yeni": ""
+ },
+ "{0} A R kodlu {s0} ürününün reflektif tipi reflektiflidır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "222 A R kodlu Yuvarlak Uyarı Levhası - Reflektif Ölçü: Ø370 Mm İki Yönlü Uyarı – 222 A R ürününün reflektif tipi reflektiflidır. Ürün Uyarı Levhası kategorisindedir.",
+  "mevcut": "代码222 A R 圆形警示牌 - 反光 尺寸：Ø370 mm 双向警示 – 222 A R 反光类型为反光型。本产品属于警示牌类别。",
+  "yeni": ""
+ },
+ "{0} UB R kodlu {s0} ürününün ölçüsü {1} × {2} × {3} cm, malzemesi ABS-TPU, ağırlığı {4} kgdır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "22202 UB R kodlu Levhalı Şerit Düzenleme Butonu - (hxlxw) 59x18x20cm – 22202 UB R ürününün ölçüsü 59 × 18 × 20 cm, malzemesi ABS-TPU, ağırlığı 0.86 kgdır. Ürün Şerit Ayırıcı kategorisindedir.",
+  "mevcut": "代码22202 UB R 带标志牌车道导向道钉 - (高x长x宽) 59x18x20cm – 22202 UB R 尺寸为59 × 18 × 20 cm，材质ABS-TPU，重量0.86 kg。本产品属于车道分隔器类别。",
+  "yeni": ""
+ },
+ "{0} DB R kodlu {s0} ürününün ölçüsü {1} × {2} × {3} cm, malzemesi PPC, ağırlığı {4} kgdır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "22205 DB R kodlu Levhalı Şerit Düzenleme Butonu - (hxlxw)102.5x30x25cm – 22205 DB R ürününün ölçüsü 102.5 × 30 × 25 cm, malzemesi PPC, ağırlığı 2.85 kgdır. Ürün Şerit Ayırıcı kategorisindedir.",
+  "mevcut": "代码22205 DB R 带标志牌车道导向道钉 - (高x长x宽)102.5x30x25cm – 22205 DB R 尺寸为102.5 × 30 × 25 cm，材质PPC，重量2.85 kg。本产品属于车道分隔器类别。",
+  "yeni": ""
+ },
+ "{0} UB ST kodlu {s0} ürününün ölçüsü {1} × {2} cm, malzemesi PPC-ST, ağırlığı {3} kgdır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "22210 UB ST kodlu Kilitli Otopark Bariyeri - (hxw) 50x38 Cm – 22210 UB ST ürününün ölçüsü 50 × 38 cm, malzemesi PPC-ST, ağırlığı 5.4 kgdır. Ürün Güvenlik Bariyeri kategorisindedir.",
+  "mevcut": "代码22210 UB ST 带锁停车位地锁 - (高x宽) 50x38 cm – 22210 UB ST 尺寸为50 × 38 cm，材质PPC-ST，重量5.4 kg。本产品属于安全护栏类别。",
+  "yeni": ""
+ },
+ "{0} UB kodlu {s0} ürününün ölçüsü {1} × {2} × {3} cm, malzemesi Kauçuk, ağırlığı {4} kgdır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "22218 UB kodlu Kablo Koruyucu Kasis - Ölçü: 24x100x4.5 Cm - 2 Kanallı – 22218 UB ürününün ölçüsü 24 × 100 × 4.5 cm, malzemesi Kauçuk, ağırlığı 7.5 kgdır. Ürün Hız Kesici Kasis kategorisindedir.",
+  "mevcut": "代码22218 UB 线缆保护减速带 - 尺寸：24x100x4.5 cm - 双槽 – 22218 UB 尺寸为24 × 100 × 4.5 cm，材质橡胶，重量7.5 kg。本产品属于减速带类别。",
+  "yeni": ""
+ },
+ "{0} UB R kodlu {s0} ürününün ölçüsü {1} × {2} cm, malzemesi PPC, ağırlığı {3} kg, reflektif tipi reflektiflidır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "22231 UB R kodlu Reflektif Bantlı Araç Stoperi - (hxl) 8.5x180 Cm – 22231 UB R ürününün ölçüsü 8.5 × 180 cm, malzemesi PPC, ağırlığı 4.3 kg, reflektif tipi reflektiflidır. Ürün Araç Stoperi kategorisindedir.",
+  "mevcut": "代码22231 UB R 反光带车轮挡 - (高x长) 8.5x180 cm – 22231 UB R 尺寸为8.5 × 180 cm，材质PPC，重量4.3 kg，反光类型为反光型。本产品属于车轮挡类别。",
+  "yeni": ""
+ },
+ "{0} Mm {s0}. Ölçü: {1} mm · Ürün kodu: ZT{2}": {
+  "ornek_tr": "280 Mm Yuvarlak Levha. Ölçü: 280 mm · Ürün kodu: ZT537",
+  "mevcut": "280 mm 圆形标志牌。尺寸：280 mm · 产品代码：ZT537",
+  "yeni": ""
+ },
+ "{s0} (ZT{0}) ₺{1}. {2} mm · PPC. Stokta, {3}-{4} iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.": {
+  "ornek_tr": "280 mm Yuvarlak Levha – ZT537 (ZT537) ₺87. 280 mm · PPC. Stokta, 1-2 iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.",
+  "mevcut": "280 mm 圆形标志牌 – ZT537（ZT537）₺87。280 mm · PPC。现货，1-2个工作日内发货。通过Yurtiçi Kargo发往土耳其全境。",
+  "yeni": ""
+ },
+ "{0} Trifon vida - {1} {s0}": {
+  "ornek_tr": "3 Trifon vida - 3 Dübel",
+  "mevcut": "3颗方头木螺钉 - 3个膨胀管",
+  "yeni": ""
+ },
+ "{0}x{1} Mm {s0}. Ölçü: {2}x{3} mm · Ürün kodu: ZT{4}": {
+  "ornek_tr": "300x300 Mm Kare Levha. Ölçü: 300x300 mm · Ürün kodu: ZT945",
+  "mevcut": "300x300 mm 方形标志牌。尺寸：300x300 mm · 产品代码：ZT945",
+  "yeni": ""
+ },
+ "{0}x{1} mm": {
+  "ornek_tr": "300x300 mm",
+  "mevcut": "300x300 mm",
+  "yeni": ""
+ },
+ "{s0} (ZT{0}) ₺{1}. {2}x{3} mm · PPC. Stokta, {4}-{5} iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.": {
+  "ornek_tr": "300x300 mm Kare Levha – ZT945 (ZT945) ₺113. 300x300 mm · PPC. Stokta, 1-2 iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.",
+  "mevcut": "300x300 mm 方形标志牌 – ZT945（ZT945）₺113。300x300 mm · PPC。现货，1-2个工作日内发货。通过Yurtiçi Kargo发往土耳其全境。",
+  "yeni": ""
+ },
+ "{0} Cm Panel Basklı. Ölçü: {1} cm · Ürün kodu: ZT{2}R": {
+  "ornek_tr": "32 Cm Panel Basklı. Ölçü: 32 cm · Ürün kodu: ZT90315R",
+  "mevcut": "32 cm 印刷版面板。尺寸：32 cm · 产品代码：ZT90315R",
+  "yeni": ""
+ },
+ "{0} Cm Panel. Ölçü: {1} cm · Ürün kodu: ZT{2}": {
+  "ornek_tr": "32 Cm Panel. Ölçü: 32 cm · Ürün kodu: ZT90315",
+  "mevcut": "32 cm 面板。尺寸：32 cm · 产品代码：ZT90315",
+  "yeni": ""
+ },
+ "{s0} (ZT{0}R) ₺{1}. {2} cm · PPC. Stokta, {3}-{4} iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.": {
+  "ornek_tr": "32 cm Panel Basklı – ZT90315R (ZT90315R) ₺1.127. 32 cm · PPC. Stokta, 1-2 iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.",
+  "mevcut": "32 cm 印刷版面板 – ZT90315R（ZT90315R）₺1.127。32 cm · PPC。现货，1-2个工作日内发货。通过Yurtiçi Kargo发往土耳其全境。",
+  "yeni": ""
+ },
+ "{s0} ürününün fiyatı ₺{0} + KDV'dir. KDV dahil satış fiyatı ₺{1}. Fiyata kargo dahil değildir. Ürün kodu ZT{2}R.": {
+  "ornek_tr": "32 cm Panel Basklı – ZT90315R ürününün fiyatı ₺1.127 + KDV'dir. KDV dahil satış fiyatı ₺1.352. Fiyata kargo dahil değildir. Ürün kodu ZT90315R.",
+  "mevcut": "32 cm 印刷版面板 – ZT90315R 的价格为₺1.127 + 增值税。含增值税售价为₺1.352。价格不含运费。产品代码ZT90315R。",
+  "yeni": ""
+ },
+ "{s0} (ZT{0}A) ₺{1}. {2} cm · PPC-PC. Stokta, {3}-{4} iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.": {
+  "ornek_tr": "32 cm Panel Levhası – ZT32A (ZT32A) ₺217. 32 cm · PPC-PC. Stokta, 1-2 iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.",
+  "mevcut": "32 cm 面板标志牌 – ZT32A（ZT32A）₺217。32 cm · PPC-PC。现货，1-2个工作日内发货。通过Yurtiçi Kargo发往土耳其全境。",
+  "yeni": ""
+ },
+ "{0}x{1} cm Ağırlık: {2} gr ±%{3} gr": {
+  "ornek_tr": "36x36 cm Ağırlık: 3500 gr ±%10 gr",
+  "mevcut": "36x36 cm 重量：3500 g ±10%",
+  "yeni": ""
+ },
+ "{0} Cm Altıgen {s0}. Ölçü: {1} cm · Taban: altıgen tabanlı · Ürün kodu: ZT{2}A": {
+  "ornek_tr": "38 Cm Altıgen Ağırlık Tabanı. Ölçü: 38 cm · Taban: altıgen tabanlı · Ürün kodu: ZT202A",
+  "mevcut": "38 cm 六角配重底座。尺寸：38 cm · 底座：六角底座 · 产品代码：ZT202A",
+  "yeni": ""
+ },
+ "{s0} (ZT{0}A) ₺{1}. {2} cm · PVC. Stokta, {3}-{4} iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.": {
+  "ornek_tr": "38 cm Altıgen Ağırlık Tabanı – ZT202A (ZT202A) ₺156. 38 cm · PVC. Stokta, 1-2 iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.",
+  "mevcut": "38 cm 六角配重底座 – ZT202A（ZT202A）₺156。38 cm · PVC。现货，1-2个工作日内发货。通过Yurtiçi Kargo发往土耳其全境。",
+  "yeni": ""
+ },
+ "{s0} (ZT{0}) ₺{1}. {2} mm. Stokta, {3}-{4} iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.": {
+  "ornek_tr": "380 mm Ekstra Yuvarlak Levha – ZT637 (ZT637) ₺121. 380 mm. Stokta, 1-2 iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.",
+  "mevcut": "380 mm 加大圆形标志牌 – ZT637（ZT637）₺121。380 mm。现货，1-2个工作日内发货。通过Yurtiçi Kargo发往土耳其全境。",
+  "yeni": ""
+ },
+ "{0}x{1} Cm Kauçuk Kasis. Ölçü: {2} cm · Malzeme: Kauçuk · Ürün kodu: ZTR{3}": {
+  "ornek_tr": "40x50 Cm Kauçuk Kasis. Ölçü: 50 cm · Malzeme: Kauçuk · Ürün kodu: ZTR400",
+  "mevcut": "40x50 cm 橡胶减速带。尺寸：50 cm · 材质：橡胶 · 产品代码：ZTR400",
+  "yeni": ""
+ },
+ "{s0} (ZTR{0}) ₺{1}. {2} cm · Kauçuk. Stokta, {3}-{4} iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.": {
+  "ornek_tr": "40x50 cm Kauçuk Kasis – ZTR400 (ZTR400) ₺780. 50 cm · Kauçuk. Stokta, 1-2 iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.",
+  "mevcut": "40x50 cm 橡胶减速带 – ZTR400（ZTR400）₺780。50 cm · 橡胶。现货，1-2个工作日内发货。通过Yurtiçi Kargo发往土耳其全境。",
+  "yeni": ""
+ },
+ "{s0} ürününün fiyatı ₺{0} + KDV'dir. KDV dahil satış fiyatı ₺{1}. Fiyata kargo dahil değildir. Ürün kodu ZTR{2}.": {
+  "ornek_tr": "40x50 cm Kauçuk Kasis – ZTR400 ürününün fiyatı ₺780 + KDV'dir. KDV dahil satış fiyatı ₺936. Fiyata kargo dahil değildir. Ürün kodu ZTR400.",
+  "mevcut": "40x50 cm 橡胶减速带 – ZTR400 的价格为₺780 + 增值税。含增值税售价为₺936。价格不含运费。产品代码ZTR400。",
+  "yeni": ""
+ },
+ "{0} Cm {s0}lü Pvc {s1} Eko. Ölçü: {1} cm · Malzeme: PVC · Seri: Ekonomik (Eko) · Ürün kodu: {2}ECO": {
+  "ornek_tr": "45 Cm Delinatörlü Pvc Şerit Ayırıcı Eko. Ölçü: 45 cm · Malzeme: PVC · Seri: Ekonomik (Eko) · Ürün kodu: 16045ECO",
+  "mevcut": "45 cm 经济型轮廓标PVC车道分隔器。尺寸：45 cm · 材质：PVC · 系列：经济型（Eko） · 产品代码：16045ECO",
+  "yeni": ""
+ },
+ "{0} Cm {s0}lü Pvc {s1}. Ölçü: {1} cm · Malzeme: PVC · Ürün kodu: ZT{2}": {
+  "ornek_tr": "45 Cm Delinatörlü Pvc Şerit Ayırıcı. Ölçü: 45 cm · Malzeme: PVC · Ürün kodu: ZT16045",
+  "mevcut": "45 cm 轮廓标PVC车道分隔器。尺寸：45 cm · 材质：PVC · 产品代码：ZT16045",
+  "yeni": ""
+ },
+ "{0} Cm {s0}lü {s1} Eko. Ölçü: {1} cm · Seri: Ekonomik (Eko) · Ürün kodu: {2}ECO": {
+  "ornek_tr": "45 Cm Delinatörlü Şerit Ayırıcı Eko. Ölçü: 45 cm · Seri: Ekonomik (Eko) · Ürün kodu: 12845ECO",
+  "mevcut": "45 cm 经济型轮廓标车道分隔器。尺寸：45 cm · 系列：经济型（Eko） · 产品代码：12845ECO",
+  "yeni": ""
+ },
+ "{s0} ({0}ECO) ₺{1}. {2} cm · PVC. Stokta, {3}-{4} iş gününde kargoda.": {
+  "ornek_tr": "45 cm Delinatörlü PVC Şerit Ayırıcı Eko – 16045ECO (16045ECO) ₺867. 45 cm · PVC. Stokta, 1-2 iş gününde kargoda.",
+  "mevcut": "45 cm 经济型轮廓标PVC车道分隔器 – 16045ECO（16045ECO）₺867。45 cm · PVC。现货，1-2个工作日内发货。",
+  "yeni": ""
+ },
+ "{s0} (ZT{0}) ₺{1}. {2} cm · PVC. Stokta, {3}-{4} iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.": {
+  "ornek_tr": "45 cm Delinatörlü PVC Şerit Ayırıcı – ZT16045 (ZT16045) ₺971. 45 cm · PVC. Stokta, 1-2 iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.",
+  "mevcut": "45 cm 轮廓标PVC车道分隔器 – ZT16045（ZT16045）₺971。45 cm · PVC。现货，1-2个工作日内发货。通过Yurtiçi Kargo发往土耳其全境。",
+  "yeni": ""
+ },
+ "{s0} ({0}ECO) ₺{1}. {2} cm. Stokta, {3}-{4} iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.": {
+  "ornek_tr": "45 cm Delinatörlü Şerit Ayırıcı Eko – 12845ECO (12845ECO) ₺1.040. 45 cm. Stokta, 1-2 iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.",
+  "mevcut": "45 cm 经济型轮廓标车道分隔器 – 12845ECO（12845ECO）₺1.040。45 cm。现货，1-2个工作日内发货。通过Yurtiçi Kargo发往土耳其全境。",
+  "yeni": ""
+ },
+ "{s0} (ZT{0}) ₺{1}. {2} cm. Stokta, {3}-{4} iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.": {
+  "ornek_tr": "45 cm Delinatörlü Şerit Ayırıcı – ZT12845 (ZT12845) ₺1.148. 45 cm. Stokta, 1-2 iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.",
+  "mevcut": "45 cm 轮廓标车道分隔器 – ZT12845（ZT12845）₺1.148。45 cm。现货，1-2个工作日内发货。通过Yurtiçi Kargo发往土耳其全境。",
+  "yeni": ""
+ },
+ "{0} Cm Benekli Kon Ağırlık Tabanlı. Ölçü: {1} cm · Reflektif: benekli · Varyant: ağırlık tabanlı · Ürün kodu: ZT{2}A{3}": {
+  "ornek_tr": "50 Cm Benekli Kon Ağırlık Tabanlı. Ölçü: 50 cm · Reflektif: benekli · Varyant: ağırlık tabanlı · Ürün kodu: ZT503208A6",
+  "mevcut": "50 cm 斑点交通锥 带配重底座。尺寸：50 cm · 反光：斑点 · 款式：配重底座 · 产品代码：ZT503208A6",
+  "yeni": ""
+ },
+ "{0} Cm Benekli Koni Kare Tabanlı. Ölçü: {1} cm · Taban: kare tabanlı · Reflektif: benekli · Ürün kodu: ZT{2}": {
+  "ornek_tr": "50 Cm Benekli Koni Kare Tabanlı. Ölçü: 50 cm · Taban: kare tabanlı · Reflektif: benekli · Ürün kodu: ZT503204",
+  "mevcut": "50 cm 斑点交通锥 方形底座。尺寸：50 cm · 底座：方形底座 · 反光：斑点 · 产品代码：ZT503204",
+  "yeni": ""
+ },
+ "{0} Cm Benekli Koni. Ölçü: {1} cm · Reflektif: benekli · Ürün kodu: ZT{2}": {
+  "ornek_tr": "50 Cm Benekli Koni. Ölçü: 50 cm · Reflektif: benekli · Ürün kodu: ZT503208",
+  "mevcut": "50 cm 斑点交通锥。尺寸：50 cm · 反光：斑点 · 产品代码：ZT503208",
+  "yeni": ""
+ },
+ "{0} Cm Kare Tabanlı Koni {1} Reflektifli ({2} Kg). Ölçü: {3} cm · Taban: kare tabanlı · Reflektif: {4} adet reflektif bant · Ürün kodu: ZT{5}R{6}": {
+  "ornek_tr": "50 Cm Kare Tabanlı Koni 2 Reflektifli (1,25 Kg). Ölçü: 50 cm · Taban: kare tabanlı · Reflektif: 2 adet reflektif bant · Ürün kodu: ZT502805R2",
+  "mevcut": "50 cm 方形底座交通锥 2道反光（1,25 kg）。尺寸：50 cm · 底座：方形底座 · 反光：2条反光带 · 产品代码：ZT502805R2",
+  "yeni": ""
+ },
+ "{0} Cm Kare Tabanlı Koni Eko {1} Reflektifli. Ölçü: {2} cm · Taban: kare tabanlı · Reflektif: {3} adet reflektif bant · Seri: Ekonomik (Eko) · Ürün kodu: {4}R{5}ECO": {
+  "ornek_tr": "50 Cm Kare Tabanlı Koni Eko 2 Reflektifli. Ölçü: 50 cm · Taban: kare tabanlı · Reflektif: 2 adet reflektif bant · Seri: Ekonomik (Eko) · Ürün kodu: 502804R2ECO",
+  "mevcut": "50 cm 方形底座经济型交通锥 2道反光。尺寸：50 cm · 底座：方形底座 · 反光：2条反光带 · 系列：经济型（Eko） · 产品代码：502804R2ECO",
+  "yeni": ""
+ },
+ "{0} Cm {s0}. Ölçü: {1} cm · Reflektif: kedi gözü · Ürün kodu: ZT{2}Y": {
+  "ornek_tr": "50 Cm Kedi Gözlü Kasis Sarı Gövde Başlığı. Ölçü: 50 cm · Reflektif: kedi gözü · Ürün kodu: ZT50501Y",
+  "mevcut": "50 cm 猫眼减速带 黄色主体端头。尺寸：50 cm · 反光：猫眼 · 产品代码：ZT50501Y",
+  "yeni": ""
+ },
+ "{0} Cm {s0}. Ölçü: {1} cm · Reflektif: kedi gözü · Ürün kodu: ZT{2}": {
+  "ornek_tr": "50 Cm Kedi Gözlü Kasis Siyah Gövde Başlığı. Ölçü: 50 cm · Reflektif: kedi gözü · Ürün kodu: ZT50501",
+  "mevcut": "50 cm 猫眼减速带 黑色主体端头。尺寸：50 cm · 反光：猫眼 · 产品代码：ZT50501",
+  "yeni": ""
+ },
+ "{0} Cm Sekizgen Koni {1} Reflektifli. Ölçü: {2} cm · Taban: sekizgen tabanlı · Reflektif: {3} adet reflektif bant · Ürün kodu: ZT{4}R{5}": {
+  "ornek_tr": "50 Cm Sekizgen Koni 1 Reflektifli. Ölçü: 50 cm · Taban: sekizgen tabanlı · Reflektif: 1 adet reflektif bant · Ürün kodu: ZT502808R1",
+  "mevcut": "50 cm 八角交通锥 1道反光。尺寸：50 cm · 底座：八角底座 · 反光：1条反光带 · 产品代码：ZT502808R1",
+  "yeni": ""
+ },
+ "{0} Cm Sekizgen Koni Ağırlık Tabanlı {1} Reflektifli. Ölçü: {2} cm · Taban: sekizgen tabanlı · Reflektif: {3} adet reflektif bant · Varyant: ağırlık tabanlı · Ürün kodu: ZT{4}A{5}R{6}": {
+  "ornek_tr": "50 Cm Sekizgen Koni Ağırlık Tabanlı 2 Reflektifli. Ölçü: 50 cm · Taban: sekizgen tabanlı · Reflektif: 2 adet reflektif bant · Varyant: ağırlık tabanlı · Ürün kodu: ZT502808A6R2",
+  "mevcut": "50 cm 八角交通锥 带配重底座 2道反光。尺寸：50 cm · 底座：八角底座 · 反光：2条反光带 · 款式：配重底座 · 产品代码：ZT502808A6R2",
+  "yeni": ""
+ },
+ "{0} Cm Sekizgen Tabanlı Koni Ağırlıklı Eko {1} Reflektifli. Ölçü: {2} cm · Taban: sekizgen tabanlı · Reflektif: {3} adet reflektif bant · Varyant: ağırlık tabanlı · Seri: Ekonomik (Eko) · Ürün kodu: {4}A{5}R{6}ECO": {
+  "ornek_tr": "50 Cm Sekizgen Tabanlı Koni Ağırlıklı Eko 2 Reflektifli. Ölçü: 50 cm · Taban: sekizgen tabanlı · Reflektif: 2 adet reflektif bant · Varyant: ağırlık tabanlı · Seri: Ekonomik (Eko) · Ürün kodu: 502808A6R2ECO",
+  "mevcut": "50 cm 八角底座带配重经济型交通锥 2道反光。尺寸：50 cm · 底座：八角底座 · 反光：2条反光带 · 款式：配重底座 · 系列：经济型（Eko） · 产品代码：502808A6R2ECO",
+  "yeni": ""
+ },
+ "{0} Cm Sekizgen Tabanlı Koni Eko {1} Reflektifli. Ölçü: {2} cm · Taban: sekizgen tabanlı · Reflektif: {3} adet reflektif bant · Seri: Ekonomik (Eko) · Ürün kodu: {4}R{5}ECO": {
+  "ornek_tr": "50 Cm Sekizgen Tabanlı Koni Eko 2 Reflektifli. Ölçü: 50 cm · Taban: sekizgen tabanlı · Reflektif: 2 adet reflektif bant · Seri: Ekonomik (Eko) · Ürün kodu: 502808R2ECO",
+  "mevcut": "50 cm 八角底座经济型交通锥 2道反光。尺寸：50 cm · 底座：八角底座 · 反光：2条反光带 · 系列：经济型（Eko） · 产品代码：502808R2ECO",
+  "yeni": ""
+ },
+ "{s0} (ZT{0}A{1}) ₺{2}. {3} cm · PPC · benekli. Stokta, {4}-{5} iş gününde kargoda.": {
+  "ornek_tr": "50 cm Benekli Kon Ağırlık Tabanlı – ZT503208A6 (ZT503208A6) ₺368. 50 cm · PPC · benekli. Stokta, 1-2 iş gününde kargoda.",
+  "mevcut": "50 cm 斑点交通锥 带配重底座 – ZT503208A6（ZT503208A6）₺368。50 cm · PPC · 斑点。现货，1-2个工作日内发货。",
+  "yeni": ""
+ },
+ "{s0} ürününün fiyatı ₺{0} + KDV'dir. KDV dahil satış fiyatı ₺{1}. Fiyata kargo dahil değildir. Ürün kodu ZT{2}A{3}.": {
+  "ornek_tr": "50 cm Benekli Kon Ağırlık Tabanlı – ZT503208A6 ürününün fiyatı ₺368 + KDV'dir. KDV dahil satış fiyatı ₺442. Fiyata kargo dahil değildir. Ürün kodu ZT503208A6.",
+  "mevcut": "50 cm 斑点交通锥 带配重底座 – ZT503208A6 的价格为₺368 + 增值税。含增值税售价为₺442。价格不含运费。产品代码ZT503208A6。",
+  "yeni": ""
+ },
+ "{s0} (ZT{0}) ₺{1}. {2} cm · benekli. Stokta, {3}-{4} iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.": {
+  "ornek_tr": "50 cm Benekli Koni Kare Tabanlı – ZT503204 (ZT503204) ₺282. 50 cm · benekli. Stokta, 1-2 iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.",
+  "mevcut": "50 cm 斑点交通锥 方形底座 – ZT503204（ZT503204）₺282。50 cm · 斑点。现货，1-2个工作日内发货。通过Yurtiçi Kargo发往土耳其全境。",
+  "yeni": ""
+ },
+ "{s0} (ZT{0}) ₺{1}. {2} cm · PPC · benekli. Stokta, {3}-{4} iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.": {
+  "ornek_tr": "50 cm Benekli Koni – ZT503208 (ZT503208) ₺269. 50 cm · PPC · benekli. Stokta, 1-2 iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.",
+  "mevcut": "50 cm 斑点交通锥 – ZT503208（ZT503208）₺269。50 cm · PPC · 斑点。现货，1-2个工作日内发货。通过Yurtiçi Kargo发往土耳其全境。",
+  "yeni": ""
+ },
+ "{s0} (ZT{0}R{1}) ₺{2}. {3} cm · {4} bant. Stokta, {5}-{6} iş gününde kargoda.": {
+  "ornek_tr": "50 cm Kare Tabanlı Koni 2 Reflektifli (1,25 kg) – ZT502805R2 (ZT502805R2) ₺390. 50 cm · 2 bant. Stokta, 1-2 iş gününde kargoda.",
+  "mevcut": "50 cm 方形底座交通锥 2道反光（1,25 kg） – ZT502805R2（ZT502805R2）₺390。50 cm · 2条反光带。现货，1-2个工作日内发货。",
+  "yeni": ""
+ },
+ "{s0} (ZT{0}R{1}) ₺{2}. {3} cm · PVC · {4} bant. Stokta, {5}-{6} iş gününde kargoda.": {
+  "ornek_tr": "50 cm Kare Tabanlı Koni 2 Reflektifli (1,60 kg) – ZT502804R2 (ZT502804R2) ₺494. 50 cm · PVC · 2 bant. Stokta, 1-2 iş gününde kargoda.",
+  "mevcut": "50 cm 方形底座交通锥 2道反光（1,60 kg） – ZT502804R2（ZT502804R2）₺494。50 cm · PVC · 2条反光带。现货，1-2个工作日内发货。",
+  "yeni": ""
+ },
+ "{s0} ({0}R{1}ECO) ₺{2}. {3} cm · PE · {4} bant. Stokta, {5}-{6} iş gününde kargoda.": {
+  "ornek_tr": "50 cm Kare Tabanlı Koni Eko 2 Reflektifli – 502804R2ECO (502804R2ECO) ₺303. 50 cm · PE · 2 bant. Stokta, 1-2 iş gününde kargoda.",
+  "mevcut": "50 cm 方形底座经济型交通锥 2道反光 – 502804R2ECO（502804R2ECO）₺303。50 cm · PE · 2条反光带。现货，1-2个工作日内发货。",
+  "yeni": ""
+ },
+ "{s0} ürününün fiyatı ₺{0} + KDV'dir. KDV dahil satış fiyatı ₺{1}. Fiyata kargo dahil değildir. Ürün kodu {2}R{3}ECO.": {
+  "ornek_tr": "50 cm Kare Tabanlı Koni Eko 2 Reflektifli – 502804R2ECO ürününün fiyatı ₺303 + KDV'dir. KDV dahil satış fiyatı ₺364. Fiyata kargo dahil değildir. Ürün kodu 502804R2ECO.",
+  "mevcut": "50 cm 方形底座经济型交通锥 2道反光 – 502804R2ECO 的价格为₺303 + 增值税。含增值税售价为₺364。价格不含运费。产品代码502804R2ECO。",
+  "yeni": ""
+ },
+ "{s0} (ZT{0}Y) ₺{1}. {2} cm · PPC · kedi gözü. Stokta, {3}-{4} iş gününde kargoda.": {
+  "ornek_tr": "50 cm Kedi Gözlü Kasis Sarı Gövde Başlığı – ZT50501Y (ZT50501Y) ₺260. 50 cm · PPC · kedi gözü. Stokta, 1-2 iş gününde kargoda.",
+  "mevcut": "50 cm 猫眼减速带 黄色主体端头 – ZT50501Y（ZT50501Y）₺260。50 cm · PPC · 猫眼。现货，1-2个工作日内发货。",
+  "yeni": ""
+ },
+ "{s0} · PPC · kedi gözü": {
+  "ornek_tr": "50 cm Kedi Gözlü Kasis Sarı – ZT50500Y · PPC · kedi gözü",
+  "mevcut": "50 cm 猫眼减速带 黄色 – ZT50500Y · PPC · 猫眼",
+  "yeni": ""
+ },
+ "{s0} (ZT{0}) ₺{1}. {2} cm · PPC · kedi gözü. Stokta, {3}-{4} iş gününde kargoda.": {
+  "ornek_tr": "50 cm Kedi Gözlü Kasis Siyah Gövde Başlığı – ZT50501 (ZT50501) ₺260. 50 cm · PPC · kedi gözü. Stokta, 1-2 iş gününde kargoda.",
+  "mevcut": "50 cm 猫眼减速带 黑色主体端头 – ZT50501（ZT50501）₺260。50 cm · PPC · 猫眼。现货，1-2个工作日内发货。",
+  "yeni": ""
+ },
+ "{s0} (ZT{0}A{1}R{2}) ₺{3}. {4} cm · PVC · {5} bant. Stokta, {6}-{7} iş gününde kargoda.": {
+  "ornek_tr": "50 cm Sekizgen Koni Ağırlık Tabanlı 2 Reflektifli – ZT502808A6R2 (ZT502808A6R2) ₺477. 50 cm · PVC · 2 bant. Stokta, 1-2 iş gününde kargoda.",
+  "mevcut": "50 cm 八角交通锥 带配重底座 2道反光 – ZT502808A6R2（ZT502808A6R2）₺477。50 cm · PVC · 2条反光带。现货，1-2个工作日内发货。",
+  "yeni": ""
+ },
+ "{s0} ürününün fiyatı ₺{0} + KDV'dir. KDV dahil satış fiyatı ₺{1}. Fiyata kargo dahil değildir. Ürün kodu ZT{2}A{3}R{4}.": {
+  "ornek_tr": "50 cm Sekizgen Koni Ağırlık Tabanlı 2 Reflektifli – ZT502808A6R2 ürününün fiyatı ₺477 + KDV'dir. KDV dahil satış fiyatı ₺572. Fiyata kargo dahil değildir. Ürün kodu ZT502808A6R2.",
+  "mevcut": "50 cm 八角交通锥 带配重底座 2道反光 – ZT502808A6R2 的价格为₺477 + 增值税。含增值税售价为₺572。价格不含运费。产品代码ZT502808A6R2。",
+  "yeni": ""
+ },
+ "{0} cm Sekizgen Koni Ağırlık Tabanlı {1} – ZT{2}A{3}R{4} · PVC": {
+  "ornek_tr": "50 cm Sekizgen Koni Ağırlık Tabanlı 2 – ZT502808A6R2 · PVC",
+  "mevcut": "50 cm 八角交通锥 带配重底座 2道 – ZT502808A6R2 · PVC",
+  "yeni": ""
+ },
+ "{s0} ({0}A{1}R{2}ECO) ₺{3}. {4} cm · PE-PVC · {5} bant. Stokta, {6}-{7} iş gününde kargoda.": {
+  "ornek_tr": "50 cm Sekizgen Tabanlı Koni Ağırlıklı Eko 2 Reflektifli – 502808A6R2ECO (502808A6R2ECO) ₺390. 50 cm · PE-PVC · 2 bant. Stokta, 1-2 iş gününde kargoda.",
+  "mevcut": "50 cm 八角底座带配重经济型交通锥 2道反光 – 502808A6R2ECO（502808A6R2ECO）₺390。50 cm · PE-PVC · 2条反光带。现货，1-2个工作日内发货。",
+  "yeni": ""
+ },
+ "{s0} ürününün fiyatı ₺{0} + KDV'dir. KDV dahil satış fiyatı ₺{1}. Fiyata kargo dahil değildir. Ürün kodu {2}A{3}R{4}ECO.": {
+  "ornek_tr": "50 cm Sekizgen Tabanlı Koni Ağırlıklı Eko 2 Reflektifli – 502808A6R2ECO ürününün fiyatı ₺390 + KDV'dir. KDV dahil satış fiyatı ₺468. Fiyata kargo dahil değildir. Ürün kodu 502808A6R2ECO.",
+  "mevcut": "50 cm 八角底座带配重经济型交通锥 2道反光 – 502808A6R2ECO 的价格为₺390 + 增值税。含增值税售价为₺468。价格不含运费。产品代码502808A6R2ECO。",
+  "yeni": ""
+ },
+ "{0} cm Sekizgen Tabanlı Koni Ağırlıklı Eko {1} – {2}A{3}R{4}ECO": {
+  "ornek_tr": "50 cm Sekizgen Tabanlı Koni Ağırlıklı Eko 2 – 502808A6R2ECO",
+  "mevcut": "50 cm 八角底座带配重经济型交通锥 2道 – 502808A6R2ECO",
+  "yeni": ""
+ },
+ "{0}R{1}ECO kodlu {s0} ürününün ölçüsü {2} cm, malzemesi PE, ağırlığı {3} kg, reflektif tipi {4} bant, tabanı karedır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "502804R2ECO kodlu 50 cm Kare Tabanlı Koni Eko 2 Reflektifli – 502804R2ECO ürününün ölçüsü 50 cm, malzemesi PE, ağırlığı 1.1 kg, reflektif tipi 2 bant, tabanı karedır. Ürün Trafik Konisi kategorisindedir.",
+  "mevcut": "代码502804R2ECO 50 cm 方形底座经济型交通锥 2道反光 – 502804R2ECO 尺寸为50 cm，材质PE，重量1.1 kg，反光类型为2条反光带，底座为方形。本产品属于交通锥类别。",
+  "yeni": ""
+ },
+ "{0}A{1}R{2}ECO kodlu {s0} ürününün ölçüsü {3} cm, malzemesi PE-PVC, ağırlığı {4} kg, reflektif tipi {5} bant, tabanı sekizgendır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "502808A6R2ECO kodlu 50 cm Sekizgen Tabanlı Koni Ağırlıklı Eko 2 Reflektifli – 502808A6R2ECO ürününün ölçüsü 50 cm, malzemesi PE-PVC, ağırlığı 2.7 kg, reflektif tipi 2 bant, tabanı sekizgendır. Ürün Trafik Konisi kategorisindedir.",
+  "mevcut": "代码502808A6R2ECO 50 cm 八角底座带配重经济型交通锥 2道反光 – 502808A6R2ECO 尺寸为50 cm，材质PE-PVC，重量2.7 kg，反光类型为2条反光带，底座为八角形。本产品属于交通锥类别。",
+  "yeni": ""
+ },
+ "{0}R{1}ECO kodlu {s0} ürününün ölçüsü {2} cm, malzemesi PE, ağırlığı {3} kg, reflektif tipi {4} bant, tabanı sekizgendır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "502808R2ECO kodlu 50 cm Sekizgen Tabanlı Koni Eko 2 Reflektifli – 502808R2ECO ürününün ölçüsü 50 cm, malzemesi PE, ağırlığı 0.9 kg, reflektif tipi 2 bant, tabanı sekizgendır. Ürün Trafik Konisi kategorisindedir.",
+  "mevcut": "代码502808R2ECO 50 cm 八角底座经济型交通锥 2道反光 – 502808R2ECO 尺寸为50 cm，材质PE，重量0.9 kg，反光类型为2条反光带，底座为八角形。本产品属于交通锥类别。",
+  "yeni": ""
+ },
+ "{s0} (ZT{0}) ₺{1}. {2} cm · PPC-Akrilik. Stokta, {3}-{4} iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.": {
+  "ornek_tr": "60 cm Güvenlik Aynası – ZT6060 (ZT6060) ₺2.947. 60 cm · PPC-Akrilik. Stokta, 1-2 iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.",
+  "mevcut": "60 cm 安全凸面镜 – ZT6060（ZT6060）₺2.947。60 cm · PPC-亚克力。现货，1-2个工作日内发货。通过Yurtiçi Kargo发往土耳其全境。",
+  "yeni": ""
+ },
+ "{s0} · PPC-Akrilik": {
+  "ornek_tr": "60 cm Güvenlik Aynası – ZT6060 · PPC-Akrilik",
+  "mevcut": "60 cm 安全凸面镜 – ZT6060 · PPC-亚克力",
+  "yeni": ""
+ },
+ "{0} Cm Dikme Dikdörtgen Tabanlı {1} Cm Panel Baskılı. Ölçü: {2} cm · Taban: dikdörtgen tabanlı · Ürün kodu: ZT{3} DAR": {
+  "ornek_tr": "63 Cm Dikme Dikdörtgen Tabanlı 32 Cm Panel Baskılı. Ölçü: 63 cm · Taban: dikdörtgen tabanlı · Ürün kodu: ZT3263 DAR",
+  "mevcut": "63 cm 立柱 矩形底座 32 cm 面板 印刷版。尺寸：63 cm · 底座：矩形底座 · 产品代码：ZT3263 DAR",
+  "yeni": ""
+ },
+ "{0} Cm Dikme Dikdörtgen Tabanlı {1} Cm Panel. Ölçü: {2} cm · Taban: dikdörtgen tabanlı · Ürün kodu: ZT{3} DA": {
+  "ornek_tr": "63 Cm Dikme Dikdörtgen Tabanlı 32 Cm Panel. Ölçü: 63 cm · Taban: dikdörtgen tabanlı · Ürün kodu: ZT3263 DA",
+  "mevcut": "63 cm 立柱 矩形底座 32 cm 面板。尺寸：63 cm · 底座：矩形底座 · 产品代码：ZT3263 DA",
+  "yeni": ""
+ },
+ "{s0}. Ölçü: {0} cm · Taban: yuvarlak tabanlı · Reflektif: {1} adet reflektif bant · Ürün kodu: ZT{2}R{3}": {
+  "ornek_tr": "63cm Uyarı Dikmesi Yuvarlak Tabanlı 2 Reflektifli. Ölçü: 63 cm · Taban: yuvarlak tabanlı · Reflektif: 2 adet reflektif bant · Ürün kodu: ZT63315R2",
+  "mevcut": "63cm 警示立柱 圆形底座 2道反光。尺寸：63 cm · 底座：圆形底座 · 反光：2条反光带 · 产品代码：ZT63315R2",
+  "yeni": ""
+ },
+ "{0}cm {s0} Yuvarlak Tabanlı {1} – ZT{2}R{3} · {4} cm": {
+  "ornek_tr": "63cm Uyarı Dikmesi Yuvarlak Tabanlı 2 – ZT63315R2 · 63 cm",
+  "mevcut": "63cm 警示立柱 圆形底座 2道 – ZT63315R2 · 63 cm",
+  "yeni": ""
+ },
+ "{0}ECO kodlu {s0} ürününün ölçüsü {1} cm, malzemesi PVC-TPE, ağırlığı {2} kgdır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "648100ECO kodlu 100 cm Eco Delinatörlü Şerit Ayırıcı – 648100ECO ürününün ölçüsü 100 cm, malzemesi PVC-TPE, ağırlığı 9 kgdır. Ürün Şerit Ayırıcı kategorisindedir.",
+  "mevcut": "代码648100ECO 100 cm 经济型轮廓标车道分隔器 – 648100ECO 尺寸为100 cm，材质PVC-TPE，重量9 kg。本产品属于车道分隔器类别。",
+  "yeni": ""
+ },
+ "{0} Cm Kedi Gözlü Koni Ağırlık Tabanlı. Ölçü: {1} cm · Reflektif: kedi gözü · Varyant: ağırlık tabanlı · Ürün kodu: ZT{2}": {
+  "ornek_tr": "65 Cm Kedi Gözlü Koni Ağırlık Tabanlı. Ölçü: 65 cm · Reflektif: kedi gözü · Varyant: ağırlık tabanlı · Ürün kodu: ZT650506",
+  "mevcut": "65 cm 猫眼交通锥 带配重底座。尺寸：65 cm · 反光：猫眼 · 款式：配重底座 · 产品代码：ZT650506",
+  "yeni": ""
+ },
+ "{0} Cm Kedi Gözlü Koni Ağırlık Tabanlı. Ölçü: {1} cm · Reflektif: kedi gözü · Varyant: ağırlık tabanlı · Ürün kodu: ZT{2}B": {
+  "ornek_tr": "65 Cm Kedi Gözlü Koni Ağırlık Tabanlı. Ölçü: 65 cm · Reflektif: kedi gözü · Varyant: ağırlık tabanlı · Ürün kodu: ZT650506B",
+  "mevcut": "65 cm 猫眼交通锥 带配重底座。尺寸：65 cm · 反光：猫眼 · 款式：配重底座 · 产品代码：ZT650506B",
+  "yeni": ""
+ },
+ "{s0} (ZT{0}B) ₺{1}. {2} cm · PPC · kedi gözü. Stokta, {3}-{4} iş gününde kargoda.": {
+  "ornek_tr": "65 cm Kedi Gözlü Koni Ağırlık Tabanlı – ZT650506B (ZT650506B) ₺607. 65 cm · PPC · kedi gözü. Stokta, 1-2 iş gününde kargoda.",
+  "mevcut": "65 cm 猫眼交通锥 带配重底座 – ZT650506B（ZT650506B）₺607。65 cm · PPC · 猫眼。现货，1-2个工作日内发货。",
+  "yeni": ""
+ },
+ "{s0} ürününün fiyatı ₺{0} + KDV'dir. KDV dahil satış fiyatı ₺{1}. Fiyata kargo dahil değildir. Ürün kodu ZT{2}B.": {
+  "ornek_tr": "65 cm Kedi Gözlü Koni Ağırlık Tabanlı – ZT650506B ürününün fiyatı ₺607 + KDV'dir. KDV dahil satış fiyatı ₺728. Fiyata kargo dahil değildir. Ürün kodu ZT650506B.",
+  "mevcut": "65 cm 猫眼交通锥 带配重底座 – ZT650506B 的价格为₺607 + 增值税。含增值税售价为₺728。价格不含运费。产品代码ZT650506B。",
+  "yeni": ""
+ },
+ "{s0} ({0}A{1}R{2}ECO) ₺{3}. {4} cm · PE · {5} bant. Stokta, {6}-{7} iş gününde kargoda.": {
+  "ornek_tr": "70 cm Sekizgen Tabanlı Koni Ağırlıklı Eko 2 Reflektifli – 702808A6R2ECO (702808A6R2ECO) ₺650. 70 cm · PE · 2 bant. Stokta, 1-2 iş gününde kargoda.",
+  "mevcut": "70 cm 八角底座带配重经济型交通锥 2道反光 – 702808A6R2ECO（702808A6R2ECO）₺650。70 cm · PE · 2条反光带。现货，1-2个工作日内发货。",
+  "yeni": ""
+ },
+ "{0}A{1}R{2}ECO kodlu {s0} ürününün ölçüsü {3} cm, malzemesi PE, ağırlığı {4} kg, reflektif tipi {5} bant, tabanı sekizgendır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "702808A6R2ECO kodlu 70 cm Sekizgen Tabanlı Koni Ağırlıklı Eko 2 Reflektifli – 702808A6R2ECO ürününün ölçüsü 70 cm, malzemesi PE, ağırlığı 4.8 kg, reflektif tipi 2 bant, tabanı sekizgendır. Ürün Trafik Konisi kategorisindedir.",
+  "mevcut": "代码702808A6R2ECO 70 cm 八角底座带配重经济型交通锥 2道反光 – 702808A6R2ECO 尺寸为70 cm，材质PE，重量4.8 kg，反光类型为2条反光带，底座为八角形。本产品属于交通锥类别。",
+  "yeni": ""
+ },
+ "{0} Cm Panel Baskılı. Ölçü: {1} cm · Ürün kodu: ZT{2}R": {
+  "ornek_tr": "75 Cm Panel Baskılı. Ölçü: 75 cm · Ürün kodu: ZT12575R",
+  "mevcut": "75 cm 印刷版面板。尺寸：75 cm · 产品代码：ZT12575R",
+  "yeni": ""
+ },
+ "{s0} · TPU | Trafik Ürünleri": {
+  "ornek_tr": "75 cm Delinatör – ZT8075 · TPU | Trafik Ürünleri",
+  "mevcut": "75 cm 轮廓标 – ZT8075 · TPU | Trafik Ürünleri",
+  "yeni": ""
+ },
+ "{s0} — Teknik Özellikler, Kullanım ve Montaj": {
+  "ornek_tr": "75 cm Delinatör — Teknik Özellikler, Kullanım ve Montaj",
+  "mevcut": "75 cm 轮廓标——技术参数、用途及安装",
+  "yeni": ""
+ },
+ "{s0} — Teknik Özellikler, Kullanım ve Montaj Rehberi": {
+  "ornek_tr": "75 cm Delinatör — Teknik Özellikler, Kullanım ve Montaj Rehberi",
+  "mevcut": "75 cm 轮廓标——技术参数、用途及安装指南",
+  "yeni": ""
+ },
+ "{0} cm delinatör, ana arter ve yoğun trafikte en çok tercih edilen boydur. TPU gövde, Ø{1}-{2} cm taban flanşı ve genellikle üç reflektif banttan oluşur. Ağırlığı yaklaşık {3} gramdır ve {4} trifon vida ile zemine sabitlenir. Üretici kolisinde {5} adet bulunur. Şerit ayrımında {6}-{7} metre aralıkla dizilir.": {
+  "ornek_tr": "75 cm delinatör, ana arter ve yoğun trafikte en çok tercih edilen boydur. TPU gövde, Ø18-20 cm taban flanşı ve genellikle üç reflektif banttan oluşur. Ağırlığı yaklaşık 950 gramdır ve 3 trifon vida ile zemine sabitlenir. Üretici kolisinde 10 adet bulunur. Şerit ayrımında 3-6 metre aralıkla dizilir.",
+  "mevcut": "75 cm 轮廓标是城市主干道和繁忙路段最常选用的高度。由TPU柱体、Ø18-20 cm底座法兰和通常三条反光带组成。重量约950克，用3颗方头木螺钉固定于地面。厂家原装箱每箱10件。用于车道分隔时，按3-6米间距排列。",
+  "yeni": ""
+ },
+ "{s0} · {0} cm · PE": {
+  "ornek_tr": "75cm Eko Delinatör – 8075ECO · 75 cm · PE",
+  "mevcut": "75cm 经济型轮廓标 – 8075ECO · 75 cm · PE",
+  "yeni": ""
+ },
+ "{s0}. Ölçü: {0} cm · Seri: Ekonomik (Eko) · Ürün kodu: {1}ECO": {
+  "ornek_tr": "75cm Eko Delinatör. Ölçü: 75 cm · Seri: Ekonomik (Eko) · Ürün kodu: 8075ECO",
+  "mevcut": "75cm 经济型轮廓标。尺寸：75 cm · 系列：经济型（Eko） · 产品代码：8075ECO",
+  "yeni": ""
+ },
+ "{s0} ({0} A) ₺{1}. Stokta, {2}-{3} iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.": {
+  "ornek_tr": "8 Mm Zincir - 25 M Pk - Kırmızı - Beyaz – 128 A (128 A) ₺1.944. Stokta, 1-2 iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.",
+  "mevcut": "8 mm 链条 - 25 m/包 - 红白 – 128 A（128 A）₺1.944。现货，1-2个工作日内发货。通过Yurtiçi Kargo发往土耳其全境。",
+  "yeni": ""
+ },
+ "{s0} ürününün fiyatı ₺{0} + KDV'dir. KDV dahil satış fiyatı ₺{1}. Fiyata kargo dahil değildir. Ürün kodu {2} A.": {
+  "ornek_tr": "8 Mm Zincir - 25 M Pk - Kırmızı - Beyaz – 128 A ürününün fiyatı ₺1.944 + KDV'dir. KDV dahil satış fiyatı ₺2.333. Fiyata kargo dahil değildir. Ürün kodu 128 A.",
+  "mevcut": "8 mm 链条 - 25 m/包 - 红白 – 128 A 的价格为₺1.944 + 增值税。含增值税售价为₺2.333。价格不含运费。产品代码128 A。",
+  "yeni": ""
+ },
+ "{s0}. Ürün kodu: {0} A": {
+  "ornek_tr": "8 Mm Zincir - 25 M Pk - Kırmızı - Beyaz. Ürün kodu: 128 A",
+  "mevcut": "8 mm 链条 - 25 m/包 - 红白。产品代码：128 A",
+  "yeni": ""
+ },
+ "{0}ECO kodlu {s0} ürününün ölçüsü {1} cm, malzemesi PE, ağırlığı {2} kgdır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "80100ECO kodlu 100 cm Eko Delinatör – 80100ECO ürününün ölçüsü 100 cm, malzemesi PE, ağırlığı 1.2 kgdır. Ürün Delinatör kategorisindedir.",
+  "mevcut": "代码80100ECO 100 cm 经济型轮廓标 – 80100ECO 尺寸为100 cm，材质PE，重量1.2 kg。本产品属于轮廓标类别。",
+  "yeni": ""
+ },
+ "{s0} (ZT{0}) ₺{1}. PVC. Stokta, {2}-{3} iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.": {
+  "ornek_tr": "9 kg Hız Kesici Kasis İçin Gövde Başlığı – ZT45601 (ZT45601) ₺390. PVC. Stokta, 1-2 iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.",
+  "mevcut": "9 kg 减速带用主体端头 – ZT45601（ZT45601）₺390。PVC。现货，1-2个工作日内发货。通过Yurtiçi Kargo发往土耳其全境。",
+  "yeni": ""
+ },
+ "{0} Cm Sekizgen Tabanlı Koni Eko Ağırlıklı {1} Reflektifli. Ölçü: {2} cm · Taban: sekizgen tabanlı · Reflektif: {3} adet reflektif bant · Varyant: ağırlık tabanlı · Seri: Ekonomik (Eko) · Ürün kodu: {4}A{5}R{6}ECO": {
+  "ornek_tr": "90 Cm Sekizgen Tabanlı Koni Eko Ağırlıklı 2 Reflektifli. Ölçü: 90 cm · Taban: sekizgen tabanlı · Reflektif: 2 adet reflektif bant · Varyant: ağırlık tabanlı · Seri: Ekonomik (Eko) · Ürün kodu: 902808A6R2ECO",
+  "mevcut": "90 cm 八角底座带配重经济型交通锥 2道反光。尺寸：90 cm · 底座：八角底座 · 反光：2条反光带 · 款式：配重底座 · 系列：经济型（Eko） · 产品代码：902808A6R2ECO",
+  "yeni": ""
+ },
+ "{0} cm Sekizgen Tabanlı Koni Eko Ağırlıklı {1} – {2}A{3}R{4}ECO": {
+  "ornek_tr": "90 cm Sekizgen Tabanlı Koni Eko Ağırlıklı 2 – 902808A6R2ECO",
+  "mevcut": "90 cm 八角底座带配重经济型交通锥 2道 – 902808A6R2ECO",
+  "yeni": ""
+ },
+ "{s0} ({0} FL A) ₺{1}. {2} × {3} cm · PC · ledli/solar. Stokta, {4}-{5} iş gününde kargoda.": {
+  "ornek_tr": "Ac Ledli Levha - (hxw) 40x40 Cm - Sarı Led – 11882 FL A (11882 FL A) ₺7.836. 40 × 40 cm · PC · ledli/solar. Stokta, 1-2 iş gününde kargoda.",
+  "mevcut": "交流电LED标志牌 - (高x宽) 40x40 cm - 黄色LED – 11882 FL A（11882 FL A）₺7.836。40 × 40 cm · PC · LED/太阳能。现货，1-2个工作日内发货。",
+  "yeni": ""
+ },
+ "{s0} ürününün fiyatı ₺{0} + KDV'dir. KDV dahil satış fiyatı ₺{1}. Fiyata kargo dahil değildir. Ürün kodu {2} FL A.": {
+  "ornek_tr": "Ac Ledli Levha - (hxw) 40x40 Cm - Sarı Led – 11882 FL A ürününün fiyatı ₺7.836 + KDV'dir. KDV dahil satış fiyatı ₺9.403. Fiyata kargo dahil değildir. Ürün kodu 11882 FL A.",
+  "mevcut": "交流电LED标志牌 - (高x宽) 40x40 cm - 黄色LED – 11882 FL A 的价格为₺7.836 + 增值税。含增值税售价为₺9.403。价格不含运费。产品代码11882 FL A。",
+  "yeni": ""
+ },
+ "{s0}. Ölçü: {0} × {1} cm · Malzeme: PC · Ağırlık: {2} kg · Ürün kodu: {3} FL A Led Panel: {4}x{5} cm · Malzeme: PC · Ağırlık: {6} kg": {
+  "ornek_tr": "Ac Ledli Levha - (hxw) 40x40 Cm - Sarı Led. Ölçü: 40 × 40 cm · Malzeme: PC · Ağırlık: 2.8 kg · Ürün kodu: 11882 FL A Led Panel: 40x40 cm · Malzeme: PC · Ağırlık: 2.8 kg",
+  "mevcut": "交流电LED标志牌 - (高x宽) 40x40 cm - 黄色LED。尺寸：40 × 40 cm · 材质：PC · 重量：2.8 kg · 产品代码：11882 FL A LED面板：40x40 cm · 材质：PC · 重量：2.8 kg",
+  "yeni": ""
+ },
+ "{s0} ({0} FL A) ₺{1}. {2} × {3} cm · ledli/solar.": {
+  "ornek_tr": "Ac Ledli Yol Bakım Levhaları - (hxw) 60x60 Cm Led Panel: 60x60 Cm Malzeme: Pc - Ağırlık: 5.5 Kg – 11884 FL A (11884 FL A) ₺9.636. 60 × 60 cm · ledli/solar.",
+  "mevcut": "交流电LED道路养护标志牌 - (高x宽) 60x60 cm LED面板：60x60 cm 材质：PC - 重量：5.5 kg – 11884 FL A（11884 FL A）₺9.636。60 × 60 cm · LED/太阳能。",
+  "yeni": ""
+ },
+ "{s0}. Ölçü: {0} × {1} cm · Ürün kodu: {2} FL A": {
+  "ornek_tr": "Ac Ledli Yol Bakım Levhaları - (hxw) 60x60 Cm Led Panel: 60x60 Cm Malzeme: Pc - Ağırlık: 5.5 Kg. Ölçü: 60 × 60 cm · Ürün kodu: 11884 FL A",
+  "mevcut": "交流电LED道路养护标志牌 - (高x宽) 60x60 cm LED面板：60x60 cm 材质：PC - 重量：5.5 kg。尺寸：60 × 60 cm · 产品代码：11884 FL A",
+  "yeni": ""
+ },
+ "Ac Ledli Yol Bakım Levhaları - (hxw) {0}x{1} Cm – {2} FL A": {
+  "ornek_tr": "Ac Ledli Yol Bakım Levhaları - (hxw) 60x60 Cm – 11884 FL A",
+  "mevcut": "交流电LED道路养护标志牌 - (高x宽) 60x60 cm – 11884 FL A",
+  "yeni": ""
+ },
+ "{s0} (ZT{0}B) ₺{1}. TPU. Stokta, {2}-{3} iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.": {
+  "ornek_tr": "Altıgen Delinatör (siyah) TPU – ZT14060B (ZT14060B) ₺581. TPU. Stokta, 1-2 iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.",
+  "mevcut": "六角轮廓标（黑色）TPU – ZT14060B（ZT14060B）₺581。TPU。现货，1-2个工作日内发货。通过Yurtiçi Kargo发往土耳其全境。",
+  "yeni": ""
+ },
+ "{s0} (siyah) Tpu. Malzeme: TPU · Taban: altıgen tabanlı · Ürün kodu: ZT{0}B": {
+  "ornek_tr": "Altıgen Delinatör (siyah) Tpu. Malzeme: TPU · Taban: altıgen tabanlı · Ürün kodu: ZT14060B",
+  "mevcut": "六角轮廓标（黑色）TPU。材质：TPU · 底座：六角底座 · 产品代码：ZT14060B",
+  "yeni": ""
+ },
+ "{s0} (ZTR{0}) ₺{1}. Stokta, {2}-{3} iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.": {
+  "ornek_tr": "Altıgen Delinatör Siyah – ZTR102 (ZTR102) ₺1.387. Stokta, 1-2 iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.",
+  "mevcut": "六角轮廓标 黑色 – ZTR102（ZTR102）₺1.387。现货，1-2个工作日内发货。通过Yurtiçi Kargo发往土耳其全境。",
+  "yeni": ""
+ },
+ "{s0}. Taban: altıgen tabanlı · Ürün kodu: ZTR{0}": {
+  "ornek_tr": "Altıgen Delinatör Siyah. Taban: altıgen tabanlı · Ürün kodu: ZTR102",
+  "mevcut": "六角轮廓标 黑色。底座：六角底座 · 产品代码：ZTR102",
+  "yeni": ""
+ },
+ "{s0} (ZT{0}) ₺{1}. TPU. Stokta, {2}-{3} iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.": {
+  "ornek_tr": "Altıgen Delinatör – ZT14060 (ZT14060) ₺607. TPU. Stokta, 1-2 iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.",
+  "mevcut": "六角轮廓标 – ZT14060（ZT14060）₺607。TPU。现货，1-2个工作日内发货。通过Yurtiçi Kargo发往土耳其全境。",
+  "yeni": ""
+ },
+ "{s0}. Taban: altıgen tabanlı · Ürün kodu: ZT{0}": {
+  "ornek_tr": "Altıgen Delinatör. Taban: altıgen tabanlı · Ürün kodu: ZT14060",
+  "mevcut": "六角轮廓标。底座：六角底座 · 产品代码：ZT14060",
+  "yeni": ""
+ },
+ "{s0} ({0}ECOB) ₺{1}. PE. Stokta, {2}-{3} iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.": {
+  "ornek_tr": "Altıgen Eko Delinatör (siyah) TPE – 14060ECOB (14060ECOB) ₺407. PE. Stokta, 1-2 iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.",
+  "mevcut": "六角经济型轮廓标（黑色）TPE – 14060ECOB（14060ECOB）₺407。PE。现货，1-2个工作日内发货。通过Yurtiçi Kargo发往土耳其全境。",
+  "yeni": ""
+ },
+ "{s0} ürününün fiyatı ₺{0} + KDV'dir. KDV dahil satış fiyatı ₺{1}. Fiyata kargo dahil değildir. Ürün kodu {2}ECOB.": {
+  "ornek_tr": "Altıgen Eko Delinatör (siyah) TPE – 14060ECOB ürününün fiyatı ₺407 + KDV'dir. KDV dahil satış fiyatı ₺489. Fiyata kargo dahil değildir. Ürün kodu 14060ECOB.",
+  "mevcut": "六角经济型轮廓标（黑色）TPE – 14060ECOB 的价格为₺407 + 增值税。含增值税售价为₺489。价格不含运费。产品代码14060ECOB。",
+  "yeni": ""
+ },
+ "Altıgen Eko {s0} (siyah) Tpe. Malzeme: TPE · Taban: altıgen tabanlı · Seri: Ekonomik (Eko) · Ürün kodu: {0}ECOB": {
+  "ornek_tr": "Altıgen Eko Delinatör (siyah) Tpe. Malzeme: TPE · Taban: altıgen tabanlı · Seri: Ekonomik (Eko) · Ürün kodu: 14060ECOB",
+  "mevcut": "六角经济型轮廓标（黑色）TPE。材质：TPE · 底座：六角底座 · 系列：经济型（Eko） · 产品代码：14060ECOB",
+  "yeni": ""
+ },
+ "{s0} ({0} UB ST) ₺{1}. {2} × {3} cm · ST. Stokta, {4}-{5} iş gününde kargoda.": {
+  "ornek_tr": "Anti-park Dubası - (hxø)61cmx150mm / Taban: 20x20 Cm – 12293 UB ST (12293 UB ST) ₺4.272. 20 × 20 cm · ST. Stokta, 1-2 iş gününde kargoda.",
+  "mevcut": "防停车桩 - (高xø)61cmx150mm / 底座：20x20 cm – 12293 UB ST（12293 UB ST）₺4.272。20 × 20 cm · ST。现货，1-2个工作日内发货。",
+  "yeni": ""
+ },
+ "{s0} ürününün fiyatı ₺{0} + KDV'dir. KDV dahil satış fiyatı ₺{1}. Fiyata kargo dahil değildir. Ürün kodu {2} UB ST.": {
+  "ornek_tr": "Anti-park Dubası - (hxø)61cmx150mm / Taban: 20x20 Cm – 12293 UB ST ürününün fiyatı ₺4.272 + KDV'dir. KDV dahil satış fiyatı ₺5.126. Fiyata kargo dahil değildir. Ürün kodu 12293 UB ST.",
+  "mevcut": "防停车桩 - (高xø)61cmx150mm / 底座：20x20 cm – 12293 UB ST 的价格为₺4.272 + 增值税。含增值税售价为₺5.126。价格不含运费。产品代码12293 UB ST。",
+  "yeni": ""
+ },
+ "{s0}. Ölçü: {0} × {1} cm · Malzeme: ST · Ağırlık: {2} kg · Ürün kodu: {3} UB ST montaj: {4}x · malzeme: ST · ağırlık: {5} kg": {
+  "ornek_tr": "Anti-park Dubası - (hxø)61cmx150mm / Taban: 20x20 Cm. Ölçü: 20 × 20 cm · Malzeme: ST · Ağırlık: 6.7 kg · Ürün kodu: 12293 UB ST montaj: 4x · malzeme: ST · ağırlık: 6.7 kg",
+  "mevcut": "防停车桩 - (高xø)61cmx150mm / 底座：20x20 cm。尺寸：20 × 20 cm · 材质：ST · 重量：6.7 kg · 产品代码：12293 UB ST 安装：4x · 材质：ST · 重量：6.7 kg",
+  "yeni": ""
+ },
+ "{s0} ({0} UB) ₺{1}. {2} × {3} cm · PPC. Stokta, {4}-{5} iş gününde kargoda.": {
+  "ornek_tr": "Araç Stoperi - (hxl) 10x110 Cm – 12233 UB (12233 UB) ₺1.236. 10 × 110 cm · PPC. Stokta, 1-2 iş gününde kargoda.",
+  "mevcut": "车轮挡 - (高x长) 10x110 cm – 12233 UB（12233 UB）₺1.236。10 × 110 cm · PPC。现货，1-2个工作日内发货。",
+  "yeni": ""
+ },
+ "{s0} · {0} × {1} cm": {
+  "ornek_tr": "Araç Stoperi - (hxl) 10x110 Cm – 12233 UB · 10 × 110 cm",
+  "mevcut": "车轮挡 - (高x长) 10x110 cm – 12233 UB · 10 × 110 cm",
+  "yeni": ""
+ },
+ "{s0} ürününün fiyatı ₺{0} + KDV'dir. KDV dahil satış fiyatı ₺{1}. Fiyata kargo dahil değildir. Ürün kodu {2} UB.": {
+  "ornek_tr": "Araç Stoperi - (hxl) 10x110 Cm – 12233 UB ürününün fiyatı ₺1.236 + KDV'dir. KDV dahil satış fiyatı ₺1.483. Fiyata kargo dahil değildir. Ürün kodu 12233 UB.",
+  "mevcut": "车轮挡 - (高x长) 10x110 cm – 12233 UB 的价格为₺1.236 + 增值税。含增值税售价为₺1.483。价格不含运费。产品代码12233 UB。",
+  "yeni": ""
+ },
+ "{s0}. Ölçü: {0} × {1} cm · Malzeme: PPC · Ağırlık: {2} kg · Ürün kodu: {3} UB Malzeme: PPC · Ağırlık: {4} kg · Montaj: {5}x": {
+  "ornek_tr": "Araç Stoperi - (hxl) 10x110 Cm. Ölçü: 10 × 110 cm · Malzeme: PPC · Ağırlık: 4.3 kg · Ürün kodu: 12233 UB Malzeme: PPC · Ağırlık: 4.3 kg · Montaj: 3x",
+  "mevcut": "车轮挡 - (高x长) 10x110 cm。尺寸：10 × 110 cm · 材质：PPC · 重量：4.3 kg · 产品代码：12233 UB 材质：PPC · 重量：4.3 kg · 安装：3x",
+  "yeni": ""
+ },
+ "{s0} ({0} UB) ₺{1}. {2} × {3} cm · PPC. Stokta, {4}-{5} iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.": {
+  "ornek_tr": "Araç Stoperi - (hxl) 10x55 Cm – 12235 UB (12235 UB) ₺690. 10 × 55 cm · PPC. Stokta, 1-2 iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.",
+  "mevcut": "车轮挡 - (高x长) 10x55 cm – 12235 UB（12235 UB）₺690。10 × 55 cm · PPC。现货，1-2个工作日内发货。通过Yurtiçi Kargo发往土耳其全境。",
+  "yeni": ""
+ },
+ "{s0} · {0} × {1} cm · PPC": {
+  "ornek_tr": "Araç Stoperi - (hxl) 10x55 Cm – 12235 UB · 10 × 55 cm · PPC",
+  "mevcut": "车轮挡 - (高x长) 10x55 cm – 12235 UB · 10 × 55 cm · PPC",
+  "yeni": ""
+ },
+ "{s0} Seçimi ve Montajı — Kauçuk, Metal, Ölçü ve": {
+  "ornek_tr": "Araç Stoperi Seçimi ve Montajı — Kauçuk, Metal, Ölçü ve",
+  "mevcut": "车轮挡的选型与安装——橡胶、金属、尺寸及",
+  "yeni": ""
+ },
+ "{s0} Seçimi ve Montajı — Kauçuk, Metal, Ölçü ve {s1} Rehberi": {
+  "ornek_tr": "Araç Stoperi Seçimi ve Montajı — Kauçuk, Metal, Ölçü ve Vida Rehberi",
+  "mevcut": "车轮挡的选型与安装——橡胶、金属、尺寸及螺丝指南",
+  "yeni": ""
+ },
+ "{s0} — {0} ürün": {
+  "ornek_tr": "Araç Stoperi — 15 ürün",
+  "mevcut": "车轮挡——15件产品",
+  "yeni": ""
+ },
+ "{s0} — {0} ürün | Trafik Ürünleri": {
+  "ornek_tr": "Araç Stoperi — 15 ürün | Trafik Ürünleri",
+  "mevcut": "车轮挡——15件产品 | Trafik Ürünleri",
+  "yeni": ""
+ },
+ "Araç stoperi park sınırını belirleyen ve aracın fazla ilerlemesini önleyen üründür. Kauçuk modeller {0}-{1} cm arası uzunlukta, {2} cm yüksekliğindedir ve binek araç için standarttır. Metal park stoperleri ağır vasıta ve yüksek darbe riski olan yerlerde kullanılır. Montaj Ø{3}×{4} mm trifon vida ve Ø{5} dübelle yapılır, segment başına dört nokta sabitlenir.": {
+  "ornek_tr": "Araç stoperi park sınırını belirleyen ve aracın fazla ilerlemesini önleyen üründür. Kauçuk modeller 60-190 cm arası uzunlukta, 10 cm yüksekliğindedir ve binek araç için standarttır. Metal park stoperleri ağır vasıta ve yüksek darbe riski olan yerlerde kullanılır. Montaj Ø10×110 mm trifon vida ve Ø16 dübelle yapılır, segment başına dört nokta sabitlenir.",
+  "mevcut": "车轮挡是用于标定停车界限、防止车辆前进过多的产品。橡胶款长度为60-190 cm，高度10 cm，是乘用车的标准规格。金属车轮挡用于重型车辆及高撞击风险场所。安装使用Ø10×110 mm方头木螺钉和Ø16膨胀管，每段固定四个点。",
+  "yeni": ""
+ },
+ "{s0} ({0} FL S) ₺{1}. {2} × {3} cm · ABS · ledli/solar. Stokta, {4}-{5} iş gününde kargoda.": {
+  "ornek_tr": "Bataryalı Flaşörlü Lamba - (hxw) 32x18 Cm - Sarı Led – 11858 FL S (11858 FL S) ₺642. 32 × 18 cm · ABS · ledli/solar. Stokta, 1-2 iş gününde kargoda.",
+  "mevcut": "电池供电闪光灯 - (高x宽) 32x18 cm - 黄色LED – 11858 FL S（11858 FL S）₺642。32 × 18 cm · ABS · LED/太阳能。现货，1-2个工作日内发货。",
+  "yeni": ""
+ },
+ "{s0} ürününün fiyatı ₺{0} + KDV'dir. KDV dahil satış fiyatı ₺{1}. Fiyata kargo dahil değildir. Ürün kodu {2} FL S.": {
+  "ornek_tr": "Bataryalı Flaşörlü Lamba - (hxw) 32x18 Cm - Sarı Led – 11858 FL S ürününün fiyatı ₺642 + KDV'dir. KDV dahil satış fiyatı ₺770. Fiyata kargo dahil değildir. Ürün kodu 11858 FL S.",
+  "mevcut": "电池供电闪光灯 - (高x宽) 32x18 cm - 黄色LED – 11858 FL S 的价格为₺642 + 增值税。含增值税售价为₺770。价格不含运费。产品代码11858 FL S。",
+  "yeni": ""
+ },
+ "{s0}. Ölçü: {0} × {1} cm · Malzeme: ABS · Ağırlık: {2} kg · Ürün kodu: {3} FL S Flaş Lens: Ø{4} mm · Malzeme: ABS · Ağırlık: {5} kg": {
+  "ornek_tr": "Bataryalı Flaşörlü Lamba - (hxw) 32x18 Cm - Sarı Led. Ölçü: 32 × 18 cm · Malzeme: ABS · Ağırlık: 0.42 kg · Ürün kodu: 11858 FL S Flaş Lens: Ø180 mm · Malzeme: ABS · Ağırlık: 0.42 kg",
+  "mevcut": "电池供电闪光灯 - (高x宽) 32x18 cm - 黄色LED。尺寸：32 × 18 cm · 材质：ABS · 重量：0.42 kg · 产品代码：11858 FL S 闪光透镜：Ø180 mm · 材质：ABS · 重量：0.42 kg",
+  "yeni": ""
+ },
+ "{s0} (ZT{0}A-W) ₺{1}. Stokta, {2}-{3} iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.": {
+  "ornek_tr": "Beyaz Kulp – ZT102A-W (ZT102A-W) ₺11. Stokta, 1-2 iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.",
+  "mevcut": "白色提手 – ZT102A-W（ZT102A-W）₺11。现货，1-2个工作日内发货。通过Yurtiçi Kargo发往土耳其全境。",
+  "yeni": ""
+ },
+ "{s0} ürününün fiyatı ₺{0} + KDV'dir. KDV dahil satış fiyatı ₺{1}. Fiyata kargo dahil değildir. Ürün kodu ZT{2}A-W.": {
+  "ornek_tr": "Beyaz Kulp – ZT102A-W ürününün fiyatı ₺11 + KDV'dir. KDV dahil satış fiyatı ₺14. Fiyata kargo dahil değildir. Ürün kodu ZT102A-W.",
+  "mevcut": "白色提手 – ZT102A-W 的价格为₺11 + 增值税。含增值税售价为₺14。价格不含运费。产品代码ZT102A-W。",
+  "yeni": ""
+ },
+ "{s0} ({0} YB) ₺{1}. {2} × {3} × {4} cm · ABS · kedi gözü. Stokta, {5}-{6} iş gününde kargoda.": {
+  "ornek_tr": "Cam Kedi Gözlü Yol Butonu - 100x100x21 Mm – 12009 YB (12009 YB) ₺494. 10 × 10 × 2.1 cm · ABS · kedi gözü. Stokta, 1-2 iş gününde kargoda.",
+  "mevcut": "玻璃猫眼道钉 - 100x100x21 mm – 12009 YB（12009 YB）₺494。10 × 10 × 2.1 cm · ABS · 猫眼。现货，1-2个工作日内发货。",
+  "yeni": ""
+ },
+ "{s0} ürününün fiyatı ₺{0} + KDV'dir. KDV dahil satış fiyatı ₺{1}. Fiyata kargo dahil değildir. Ürün kodu {2} YB.": {
+  "ornek_tr": "Cam Kedi Gözlü Yol Butonu - 100x100x21 Mm – 12009 YB ürününün fiyatı ₺494 + KDV'dir. KDV dahil satış fiyatı ₺593. Fiyata kargo dahil değildir. Ürün kodu 12009 YB.",
+  "mevcut": "玻璃猫眼道钉 - 100x100x21 mm – 12009 YB 的价格为₺494 + 增值税。含增值税售价为₺593。价格不含运费。产品代码12009 YB。",
+  "yeni": ""
+ },
+ "{s0}. Ölçü: {0} × {1} × {2} cm · Malzeme: ABS · Ağırlık: {3} kg · Ürün kodu: {4} YB Malzeme: ABS · Ağırlık: {5} kg · Montaj: {6}x": {
+  "ornek_tr": "Cam Kedi Gözlü Yol Butonu - 100x100x21 Mm. Ölçü: 10 × 10 × 2.1 cm · Malzeme: ABS · Ağırlık: 0.15 kg · Ürün kodu: 12009 YB Malzeme: ABS · Ağırlık: 0.15 kg · Montaj: 2x",
+  "mevcut": "玻璃猫眼道钉 - 100x100x21 mm。尺寸：10 × 10 × 2.1 cm · 材质：ABS · 重量：0.15 kg · 产品代码：12009 YB 材质：ABS · 重量：0.15 kg · 安装：2x",
+  "yeni": ""
+ },
+ "{s0} ({0} YB) ₺{1}. {2} × {3} × {4} cm · AL · kedi gözü. Stokta, {5}-{6} iş gününde kargoda.": {
+  "ornek_tr": "Cam Kedi Gözlü Yol Butonu - 100x102x21 Mm – 12011 YB (12011 YB) ₺780. 10 × 10.2 × 2.1 cm · AL · kedi gözü. Stokta, 1-2 iş gününde kargoda.",
+  "mevcut": "玻璃猫眼道钉 - 100x102x21 mm – 12011 YB（12011 YB）₺780。10 × 10.2 × 2.1 cm · AL · 猫眼。现货，1-2个工作日内发货。",
+  "yeni": ""
+ },
+ "{s0}. Ölçü: {0} × {1} × {2} cm · Malzeme: AL · Ağırlık: {3} kg · Ürün kodu: {4} YB Malzeme: AL · Ağırlık: {5} kg · Montaj: Epoksi": {
+  "ornek_tr": "Cam Kedi Gözlü Yol Butonu - 100x102x21 Mm. Ölçü: 10 × 10.2 × 2.1 cm · Malzeme: AL · Ağırlık: 0.4 kg · Ürün kodu: 12011 YB Malzeme: AL · Ağırlık: 0.40 kg · Montaj: Epoksi",
+  "mevcut": "玻璃猫眼道钉 - 100x102x21 mm。尺寸：10 × 10.2 × 2.1 cm · 材质：AL · 重量：0.4 kg · 产品代码：12011 YB 材质：AL · 重量：0.40 kg · 安装：环氧胶",
+  "yeni": ""
+ },
+ "{s0}. Ölçü: {0} × {1} × {2} cm · Malzeme: AL · Ağırlık: {3} kg · Ürün kodu: {4} YB Malzeme: AL · Ağırlık: {5} kg · Montaj: {6}x": {
+  "ornek_tr": "Cam Kedi Gözlü Yol Butonu - 120x120x28 Mm. Ölçü: 12 × 12 × 2.8 cm · Malzeme: AL · Ağırlık: 0.3 kg · Ürün kodu: 12007 YB Malzeme: AL · Ağırlık: 0.30 kg · Montaj: 2x",
+  "mevcut": "玻璃猫眼道钉 - 120x120x28 mm。尺寸：12 × 12 × 2.8 cm · 材质：AL · 重量：0.3 kg · 产品代码：12007 YB 材质：AL · 重量：0.30 kg · 安装：2x",
+  "yeni": ""
+ },
+ "{s0} ({0} UB) ₺{1}. {2} × {3} × {4} cm · PPC. Stokta, {5}-{6} iş gününde kargoda.": {
+  "ornek_tr": "Cam Reflektörlü Şerit Sınırlama Butonu-(hxlxw)8.0x100x20cm – 12217 UB (12217 UB) ₺2.616. 8 × 100 × 20 cm · PPC. Stokta, 1-2 iş gününde kargoda.",
+  "mevcut": "玻璃反光车道限界道钉-(高x长x宽)8.0x100x20cm – 12217 UB（12217 UB）₺2.616。8 × 100 × 20 cm · PPC。现货，1-2个工作日内发货。",
+  "yeni": ""
+ },
+ "{s0}. Ölçü: {0} × {1} × {2} cm · Malzeme: PPC · Ağırlık: {3} kg · Ürün kodu: {4} UB Montaj: {5}x · Malzeme: PPC · Ağırlık: {6} kg": {
+  "ornek_tr": "Cam Reflektörlü Şerit Sınırlama Butonu-(hxlxw)8.0x100x20cm. Ölçü: 8 × 100 × 20 cm · Malzeme: PPC · Ağırlık: 4.1 kg · Ürün kodu: 12217 UB Montaj: 4x · Malzeme: PPC · Ağırlık: 4.1 kg",
+  "mevcut": "玻璃反光车道限界道钉-(高x长x宽)8.0x100x20cm。尺寸：8 × 100 × 20 cm · 材质：PPC · 重量：4.1 kg · 产品代码：12217 UB 安装：4x · 材质：PPC · 重量：4.1 kg",
+  "yeni": ""
+ },
+ "{s0} {0} cm": {
+  "ornek_tr": "Delinatör 45 cm",
+  "mevcut": "轮廓标 45 cm",
+  "yeni": ""
+ },
+ "{s0} (ZT{0}A) ₺{1}. PPC. Stokta, {2}-{3} iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.": {
+  "ornek_tr": "Delinatör Bağlantı Aparatı – ZT100A (ZT100A) ₺35. PPC. Stokta, 1-2 iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.",
+  "mevcut": "轮廓标连接件 – ZT100A（ZT100A）₺35。PPC。现货，1-2个工作日内发货。通过Yurtiçi Kargo发往土耳其全境。",
+  "yeni": ""
+ },
+ "{s0}. Ürün kodu: ZT{0}A": {
+  "ornek_tr": "Delinatör Bağlantı Aparatı. Ürün kodu: ZT100A",
+  "mevcut": "轮廓标连接件。产品代码：ZT100A",
+  "yeni": ""
+ },
+ "{s0} Fiyatları {0} — Boy, Malzeme ve Adede Göre Rehber": {
+  "ornek_tr": "Delinatör Fiyatları 2026 — Boy, Malzeme ve Adede Göre Rehber",
+  "mevcut": "2026年轮廓标价格——按高度、材质和数量的指南",
+  "yeni": ""
+ },
+ "{s0} Kaç Metre Aralıkla Dikilir? Hıza Göre Yerleşim": {
+  "ornek_tr": "Delinatör Kaç Metre Aralıkla Dikilir? Hıza Göre Yerleşim",
+  "mevcut": "轮廓标间距多少米？按车速布设",
+  "yeni": ""
+ },
+ "{s0} Kaç Metre Aralıkla Dikilir? Hıza Göre Yerleşim Hesabı": {
+  "ornek_tr": "Delinatör Kaç Metre Aralıkla Dikilir? Hıza Göre Yerleşim Hesabı",
+  "mevcut": "轮廓标间距多少米？按车速计算布设",
+  "yeni": ""
+ },
+ "{s0} Montajı Adım Adım — Matkap Ucu, {s1} ve {s2}": {
+  "ornek_tr": "Delinatör Montajı Adım Adım — Matkap Ucu, Dübel ve Vida",
+  "mevcut": "轮廓标安装步骤——钻头、膨胀管和螺丝",
+  "yeni": ""
+ },
+ "{s0} Montajı Adım Adım — Matkap Ucu, {s1} ve {s2} Rehberi": {
+  "ornek_tr": "Delinatör Montajı Adım Adım — Matkap Ucu, Dübel ve Vida Rehberi",
+  "mevcut": "轮廓标安装步骤——钻头、膨胀管和螺丝指南",
+  "yeni": ""
+ },
+ "{s0} Nedir, Nerede Kullanılır? Boy ve Malzeme Seçimi": {
+  "ornek_tr": "Delinatör Nedir, Nerede Kullanılır? Boy ve Malzeme Seçimi",
+  "mevcut": "什么是轮廓标？用于哪里？高度与材质选择",
+  "yeni": ""
+ },
+ "{s0} aralığı hıza ve amaca göre değişir. Şerit ayrımında şehir içi {0}-{1} metre, ana arterde {2}-{3} metre, otoyolda {4}-{5} metre aralık uygulanır. Otopark ve yaya alanı sınırlamasında {6}-{7} metre yeterlidir. Genel kural: aralık arttıkça malzeme maliyeti düşer ama sürücünün algıladığı sınır zayıflar. Kavşak ve dönüş noktalarında aralık daraltılır.": {
+  "ornek_tr": "Delinatör aralığı hıza ve amaca göre değişir. Şerit ayrımında şehir içi 2-3 metre, ana arterde 4-6 metre, otoyolda 8-12 metre aralık uygulanır. Otopark ve yaya alanı sınırlamasında 1,5-2 metre yeterlidir. Genel kural: aralık arttıkça malzeme maliyeti düşer ama sürücünün algıladığı sınır zayıflar. Kavşak ve dönüş noktalarında aralık daraltılır.",
+  "mevcut": "轮廓标的间距随车速和用途而变化。用于车道分隔时，市区道路间距2-3米，主干道4-6米，高速公路8-12米。用于停车场和步行区限界时，1,5-2米即可。一般规律：间距越大，材料成本越低，但驾驶员感知到的边界越弱。在路口和转弯处应缩小间距。",
+  "yeni": ""
+ },
+ "{s0} fiyatı boy, malzeme ve reflektif sayısına göre değişir. {0}'da {1} cm modeller {2} TL, {3}-{4} cm modeller {5}-{6} TL, {7}-{8} cm modeller {9}-{10} TL, {11} cm modeller {12} TL civarındadır (KDV hariç). TPU malzemeli olanlar PE'ye göre yaklaşık %{13} pahalıdır ama üç kat uzun ömürlüdür. {14} adet üzeri alımlarda proje fiyatı uygulanır.": {
+  "ornek_tr": "Delinatör fiyatı boy, malzeme ve reflektif sayısına göre değişir. 2026'da 30 cm modeller 330 TL, 45-50 cm modeller 420-470 TL, 70-75 cm modeller 480-550 TL, 100 cm modeller 700 TL civarındadır (KDV hariç). TPU malzemeli olanlar PE'ye göre yaklaşık %25 pahalıdır ama üç kat uzun ömürlüdür. 50 adet üzeri alımlarda proje fiyatı uygulanır.",
+  "mevcut": "轮廓标价格因高度、材质和反光带数量而异。2026年，30 cm款约330 TL，45-50 cm款约420-470 TL，70-75 cm款约480-550 TL，100 cm款约700 TL（不含增值税）。TPU材质款比PE贵约25%，但使用寿命长三倍。采购50件以上适用项目价格。",
+  "yeni": ""
+ },
+ "{s0} halk arasında duba, hacıyatmaz duba, plastik duba, trafik dubası, esnek duba, trafik babası, refüj dubası ve turuncu duba olarak anılır. Teknik olarak delinatör esnek ve zemine sabitlenen dikmedir; duba genel bir terimdir ve koniyi de kapsar; baba ise sabit ve rijit bir engeldir. Sipariş verirken ölçü, malzeme ve montaj tipi belirtmek karışıklığı önler.": {
+  "ornek_tr": "Delinatör halk arasında duba, hacıyatmaz duba, plastik duba, trafik dubası, esnek duba, trafik babası, refüj dubası ve turuncu duba olarak anılır. Teknik olarak delinatör esnek ve zemine sabitlenen dikmedir; duba genel bir terimdir ve koniyi de kapsar; baba ise sabit ve rijit bir engeldir. Sipariş verirken ölçü, malzeme ve montaj tipi belirtmek karışıklığı önler.",
+  "mevcut": "在土耳其，轮廓标俗称有duba、hacıyatmaz duba、塑料duba、交通duba、弹性duba、trafik babası、隔离带duba和橙色duba等。从技术上讲，轮廓标是固定于地面的弹性立柱；duba是泛称，也包括交通锥；baba则是固定的刚性障碍物。下单时注明尺寸、材质和安装方式可避免混淆。",
+  "yeni": ""
+ },
+ "{s0} montajı üç noktadan yapılır. Ø{0} matkap ucuyla {1}-{2} mm derinliğinde delik açılır, moloz temizlenir, plastik dübel zemine sıfır hizada çakılır, trifon vida lokma anahtarla sıkılır. Matkap ucu {3} mm'den küçük veya büyük olmamalıdır — küçükse dübel girmez, büyükse dübel boşluk yapar. Bir delinatörün montajı ortalama {4}-{5} dakika sürer.": {
+  "ornek_tr": "Delinatör montajı üç noktadan yapılır. Ø16 matkap ucuyla 90-100 mm derinliğinde delik açılır, moloz temizlenir, plastik dübel zemine sıfır hizada çakılır, trifon vida lokma anahtarla sıkılır. Matkap ucu 16 mm'den küçük veya büyük olmamalıdır — küçükse dübel girmez, büyükse dübel boşluk yapar. Bir delinatörün montajı ortalama 8-10 dakika sürer.",
+  "mevcut": "轮廓标采用三点安装。用Ø16钻头钻出90-100 mm深的孔，清除碎屑，将塑料膨胀管敲入至与地面齐平，再用套筒扳手拧紧方头木螺钉。钻头不得小于或大于16 mm——太小膨胀管打不进去，太大膨胀管会松动。安装一个轮廓标平均需要8-10分钟。",
+  "yeni": ""
+ },
+ "{s0} mü {s1} mi? Hangi Durumda Hangisi": {
+  "ornek_tr": "Delinatör mü Trafik Konisi mi? Hangi Durumda Hangisi",
+  "mevcut": "轮廓标还是交通锥？什么情况下用哪个",
+  "yeni": ""
+ },
+ "{s0} mü {s1} mi? Hangi Durumda Hangisi Kullanılır": {
+  "ornek_tr": "Delinatör mü Trafik Konisi mi? Hangi Durumda Hangisi Kullanılır",
+  "mevcut": "轮廓标还是交通锥？什么情况下该用哪个",
+  "yeni": ""
+ },
+ "{s0} nedir, nerede kullanılır?": {
+  "ornek_tr": "Delinatör nedir, nerede kullanılır?",
+  "mevcut": "什么是轮廓标？用于哪里？",
+  "yeni": ""
+ },
+ "{s0}, Duba, Hacıyatmaz, Baba — Terimler Neyi Anlatıyor": {
+  "ornek_tr": "Delinatör, Duba, Hacıyatmaz, Baba — Terimler Neyi Anlatıyor",
+  "mevcut": "轮廓标、Duba、Hacıyatmaz、Baba——这些术语分别指什么",
+  "yeni": ""
+ },
+ "{s0}, yol kenarını ve şerit ayrımını sürücüye gece gündüz gösteren esnek dikmedir. {0} ürün, ölçü ve malzemesiyle listeli.": {
+  "ornek_tr": "Delinatör, yol kenarını ve şerit ayrımını sürücüye gece gündüz gösteren esnek dikmedir. 63 ürün, ölçü ve malzemesiyle listeli.",
+  "mevcut": "轮廓标是日夜向驾驶员标示路缘和车道分隔的弹性立柱。共列出63件产品及其尺寸和材质。",
+  "yeni": ""
+ },
+ "{s0}, yol kenarını ve şerit ayrımını sürücüye gece gündüz gösteren esnek dikmedir. Araç çarptığında kırılmaz, yatar ve eski hâline döner — bu yüzden refüj, viraj ve şantiye girişlerinde kalıcı çözüm olarak kullanılır.": {
+  "ornek_tr": "Delinatör, yol kenarını ve şerit ayrımını sürücüye gece gündüz gösteren esnek dikmedir. Araç çarptığında kırılmaz, yatar ve eski hâline döner — bu yüzden refüj, viraj ve şantiye girişlerinde kalıcı çözüm olarak kullanılır.",
+  "mevcut": "轮廓标是日夜向驾驶员标示路缘和车道分隔的弹性立柱。被车辆撞击时不会折断，而是倒下后恢复原状——因此作为长期方案用于隔离带、弯道和工地出入口。",
+  "yeni": ""
+ },
+ "{s0}, yolun kenarını veya iki şeridin ayrımını işaretleyen, üzerinde reflektif bant bulunan esnek bir dikmedir. Gündüz görünürlüğü gövde rengiyle, gece görünürlüğü farların ışığını geri yansıtan reflektif bantla sağlanır. En sık refüj ve orta kaldırım üstünde, keskin virajların dış kenarında, otopark giriş-çıkışlarında, şantiye ve yol çalışması sınırlarında, fabrika sahalarında yaya-araç ayrımında kullanılır. Kalıcı bariyerden farkı, çarpmaya karşı kırılmak yerine esnemesidir: araç hasarı ve ürün hasarı ikisi de azalır.": {
+  "ornek_tr": "Delinatör, yolun kenarını veya iki şeridin ayrımını işaretleyen, üzerinde reflektif bant bulunan esnek bir dikmedir. Gündüz görünürlüğü gövde rengiyle, gece görünürlüğü farların ışığını geri yansıtan reflektif bantla sağlanır. En sık refüj ve orta kaldırım üstünde, keskin virajların dış kenarında, otopark giriş-çıkışlarında, şantiye ve yol çalışması sınırlarında, fabrika sahalarında yaya-araç ayrımında kullanılır. Kalıcı bariyerden farkı, çarpmaya karşı kırılmak yerine esnemesidir: araç hasarı ve ürün hasarı ikisi de azalır.",
+  "mevcut": "轮廓标是一种带反光带的弹性立柱，用于标示道路边缘或两条车道的分界。白天依靠柱体颜色保证可见性，夜间依靠将车灯光线反射回去的反光带保证可见性。最常用于隔离带和中央分隔带上、急弯外侧、停车场出入口、工地及道路施工边界，以及厂区的人车分隔。它与永久性护栏的区别在于受撞击时弯曲而不是断裂：车辆损伤和产品损伤都会减少。",
+  "yeni": ""
+ },
+ "{s0}ler": {
+  "ornek_tr": "Delinatörler",
+  "mevcut": "轮廓标",
+  "yeni": ""
+ },
+ "{s0}ler.": {
+  "ornek_tr": "Delinatörler.",
+  "mevcut": "轮廓标。",
+  "yeni": ""
+ },
+ "{s0}leri bir hat hâlinde birbirine bağlamak, zincir geçirmek veya elemanı tabana sabitlemek için kullanılır. Ürüne özel olduğu için, kullandığınız delinatör veya duba modeliyle uyumlu aparatı seçmeniz gerekir. Toplu alımlarda aparatı ana üründen ayrı saymak, sahada eksik kalmanın önüne geçer.": {
+  "ornek_tr": "Delinatörleri bir hat hâlinde birbirine bağlamak, zincir geçirmek veya elemanı tabana sabitlemek için kullanılır. Ürüne özel olduğu için, kullandığınız delinatör veya duba modeliyle uyumlu aparatı seçmeniz gerekir. Toplu alımlarda aparatı ana üründen ayrı saymak, sahada eksik kalmanın önüne geçer.",
+  "mevcut": "用于将轮廓标连成一条线、穿接链条或将部件固定到底座上。由于连接件为产品专用，须选择与所用轮廓标或锥墩型号相匹配的连接件。批量采购时将连接件与主产品分开计数，可避免现场缺件。",
+  "yeni": ""
+ },
+ "{s0} ({0} FB R) ₺{1}. {2} × {3} × {4} cm · PPC. Stokta, {5}-{6} iş gününde kargoda.": {
+  "ornek_tr": "Delinatörlü Güvenlik Bariyeri - (hxlxw) 100x100x40 Cm – 12524 FB R (12524 FB R) ₺4.296. 100 × 100 × 40 cm · PPC. Stokta, 1-2 iş gününde kargoda.",
+  "mevcut": "带轮廓标安全护栏 - (高x长x宽) 100x100x40 cm – 12524 FB R（12524 FB R）₺4.296。100 × 100 × 40 cm · PPC。现货，1-2个工作日内发货。",
+  "yeni": ""
+ },
+ "{s0} ürününün fiyatı ₺{0} + KDV'dir. KDV dahil satış fiyatı ₺{1}. Fiyata kargo dahil değildir. Ürün kodu {2} FB R.": {
+  "ornek_tr": "Delinatörlü Güvenlik Bariyeri - (hxlxw) 100x100x40 Cm – 12524 FB R ürününün fiyatı ₺4.296 + KDV'dir. KDV dahil satış fiyatı ₺5.155. Fiyata kargo dahil değildir. Ürün kodu 12524 FB R.",
+  "mevcut": "带轮廓标安全护栏 - (高x长x宽) 100x100x40 cm – 12524 FB R 的价格为₺4.296 + 增值税。含增值税售价为₺5.155。价格不含运费。产品代码12524 FB R。",
+  "yeni": ""
+ },
+ "{s0}. Ölçü: {0} × {1} × {2} cm · Malzeme: PPC · Ağırlık: {3} kg · Ürün kodu: {4} FB R Del.:(HxØ){5} cmx{6} mm · Malzeme:PPC · Ağırlık:{7} kg": {
+  "ornek_tr": "Delinatörlü Güvenlik Bariyeri - (hxlxw) 100x100x40 Cm. Ölçü: 100 × 100 × 40 cm · Malzeme: PPC · Ağırlık: 20 kg · Ürün kodu: 12524 FB R Del.:(HxØ)40 cmx80 mm · Malzeme:PPC · Ağırlık:20.0 kg",
+  "mevcut": "带轮廓标安全护栏 - (高x长x宽) 100x100x40 cm。尺寸：100 × 100 × 40 cm · 材质：PPC · 重量：20 kg · 产品代码：12524 FB R 轮廓标：(高xØ)40 cmx80 mm · 材质：PPC · 重量：20.0 kg",
+  "yeni": ""
+ },
+ "{s0}lü {s1} - (hxlxw) – {0} FB R": {
+  "ornek_tr": "Delinatörlü Güvenlik Bariyeri - (hxlxw) – 12524 FB R",
+  "mevcut": "带轮廓标安全护栏 - (高x长x宽) – 12524 FB R",
+  "yeni": ""
+ },
+ "{s0}lü modeller": {
+  "ornek_tr": "Delinatörlü modeller",
+  "mevcut": "带轮廓标款",
+  "yeni": ""
+ },
+ "{s0}lü Şerit Düzenleme Butonu-(hxlxw){0}x{1} – {2} UB R": {
+  "ornek_tr": "Delinatörlü Şerit Düzenleme Butonu-(hxlxw)45x10 – 12218 UB R",
+  "mevcut": "带轮廓标车道导向道钉-(高x长x宽)45x10 – 12218 UB R",
+  "yeni": ""
+ },
+ "{s0} ({0} UB R) ₺{1}. {2} × {3} × {4} cm · PPC-TPU. Stokta, {5}-{6} iş gününde kargoda.": {
+  "ornek_tr": "Delinatörlü Şerit Düzenleme Butonu-(hxlxw)45x100x20cm – 12218 UB R (12218 UB R) ₺2.004. 45 × 100 × 20 cm · PPC-TPU. Stokta, 1-2 iş gününde kargoda.",
+  "mevcut": "带轮廓标车道导向道钉-(高x长x宽)45x100x20cm – 12218 UB R（12218 UB R）₺2.004。45 × 100 × 20 cm · PPC-TPU。现货，1-2个工作日内发货。",
+  "yeni": ""
+ },
+ "{s0} ürününün fiyatı ₺{0} + KDV'dir. KDV dahil satış fiyatı ₺{1}. Fiyata kargo dahil değildir. Ürün kodu {2} UB R.": {
+  "ornek_tr": "Delinatörlü Şerit Düzenleme Butonu-(hxlxw)45x100x20cm – 12218 UB R ürününün fiyatı ₺2.004 + KDV'dir. KDV dahil satış fiyatı ₺2.405. Fiyata kargo dahil değildir. Ürün kodu 12218 UB R.",
+  "mevcut": "带轮廓标车道导向道钉-(高x长x宽)45x100x20cm – 12218 UB R 的价格为₺2.004 + 增值税。含增值税售价为₺2.405。价格不含运费。产品代码12218 UB R。",
+  "yeni": ""
+ },
+ "{s0}. Ölçü: {0} × {1} × {2} cm · Malzeme: PPC-TPU · Ağırlık: {3} kg · Ürün kodu: {4} UB R Montaj: {5}x · Malzeme:PPC-TPU · Ağırlık: {6} kg": {
+  "ornek_tr": "Delinatörlü Şerit Düzenleme Butonu-(hxlxw)45x100x20cm. Ölçü: 45 × 100 × 20 cm · Malzeme: PPC-TPU · Ağırlık: 4.1 kg · Ürün kodu: 12218 UB R Montaj: 4x · Malzeme:PPC-TPU · Ağırlık: 4.1 kg",
+  "mevcut": "带轮廓标车道导向道钉-(高x长x宽)45x100x20cm。尺寸：45 × 100 × 20 cm · 材质：PPC-TPU · 重量：4.1 kg · 产品代码：12218 UB R 安装：4x · 材质：PPC-TPU · 重量：4.1 kg",
+  "yeni": ""
+ },
+ "{s0}ü araç geçiş hattına koymak.": {
+  "ornek_tr": "Delinatörü araç geçiş hattına koymak.",
+  "mevcut": "把轮廓标放在车辆通行线上。",
+  "yeni": ""
+ },
+ "{s0}ün Ağırlık Montajı için {0} adet vida ile beraber gönderilir.": {
+  "ornek_tr": "Delinatörün Ağırlık Montajı için 3 adet vida ile beraber gönderilir.",
+  "mevcut": "轮廓标随附3颗用于配重安装的螺丝。",
+  "yeni": ""
+ },
+ "{s0} (ZTM{0}Y) ₺{1}. Stokta, {2}-{3} iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.": {
+  "ornek_tr": "Demir Delinatör – ZTM7583Y (ZTM7583Y) ₺1.560. Stokta, 1-2 iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.",
+  "mevcut": "铁制轮廓标 – ZTM7583Y（ZTM7583Y）₺1.560。现货，1-2个工作日内发货。通过Yurtiçi Kargo发往土耳其全境。",
+  "yeni": ""
+ },
+ "{s0} ürününün fiyatı ₺{0} + KDV'dir. KDV dahil satış fiyatı ₺{1}. Fiyata kargo dahil değildir. Ürün kodu ZTM{2}Y.": {
+  "ornek_tr": "Demir Delinatör – ZTM7583Y ürününün fiyatı ₺1.560 + KDV'dir. KDV dahil satış fiyatı ₺1.872. Fiyata kargo dahil değildir. Ürün kodu ZTM7583Y.",
+  "mevcut": "铁制轮廓标 – ZTM7583Y 的价格为₺1.560 + 增值税。含增值税售价为₺1.872。价格不含运费。产品代码ZTM7583Y。",
+  "yeni": ""
+ },
+ "{s0}. Ürün kodu: ZTM{0}Y": {
+  "ornek_tr": "Demir Delinatör. Ürün kodu: ZTM7583Y",
+  "mevcut": "铁制轮廓标。产品代码：ZTM7583Y",
+  "yeni": ""
+ },
+ "{s0} (ZTM{0}) ₺{1}. Stokta, {2}-{3} iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.": {
+  "ornek_tr": "Demir Stoper – ZTM18012 (ZTM18012) ₺1.690. Stokta, 1-2 iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.",
+  "mevcut": "铁制车轮挡 – ZTM18012（ZTM18012）₺1.690。现货，1-2个工作日内发货。通过Yurtiçi Kargo发往土耳其全境。",
+  "yeni": ""
+ },
+ "{s0} ürününün fiyatı ₺{0} + KDV'dir. KDV dahil satış fiyatı ₺{1}. Fiyata kargo dahil değildir. Ürün kodu ZTM{2}.": {
+  "ornek_tr": "Demir Stoper – ZTM18012 ürününün fiyatı ₺1.690 + KDV'dir. KDV dahil satış fiyatı ₺2.028. Fiyata kargo dahil değildir. Ürün kodu ZTM18012.",
+  "mevcut": "铁制车轮挡 – ZTM18012 的价格为₺1.690 + 增值税。含增值税售价为₺2.028。价格不含运费。产品代码ZTM18012。",
+  "yeni": ""
+ },
+ "{s0} (ZTM{0}B) ₺{1}. Stokta, {2}-{3} iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.": {
+  "ornek_tr": "Demir Stoper – ZTM18012B (ZTM18012B) ₺1.690. Stokta, 1-2 iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.",
+  "mevcut": "铁制车轮挡 – ZTM18012B（ZTM18012B）₺1.690。现货，1-2个工作日内发货。通过Yurtiçi Kargo发往土耳其全境。",
+  "yeni": ""
+ },
+ "{s0} ürününün fiyatı ₺{0} + KDV'dir. KDV dahil satış fiyatı ₺{1}. Fiyata kargo dahil değildir. Ürün kodu ZTM{2}B.": {
+  "ornek_tr": "Demir Stoper – ZTM18012B ürününün fiyatı ₺1.690 + KDV'dir. KDV dahil satış fiyatı ₺2.028. Fiyata kargo dahil değildir. Ürün kodu ZTM18012B.",
+  "mevcut": "铁制车轮挡 – ZTM18012B 的价格为₺1.690 + 增值税。含增值税售价为₺2.028。价格不含运费。产品代码ZTM18012B。",
+  "yeni": ""
+ },
+ "{s0}. Ürün kodu: ZTM{0}": {
+  "ornek_tr": "Demir Stoper. Ürün kodu: ZTM18012",
+  "mevcut": "铁制车轮挡。产品代码：ZTM18012",
+  "yeni": ""
+ },
+ "{s0}. Ürün kodu: ZTM{0}B": {
+  "ornek_tr": "Demir Stoper. Ürün kodu: ZTM18012B",
+  "mevcut": "铁制车轮挡。产品代码：ZTM18012B",
+  "yeni": ""
+ },
+ "{s0} ({0} UB R) ₺{1}. Stokta, {2}-{3} iş gününde kargoda.": {
+  "ornek_tr": "Demonte Esnek Delinatörler - (hxø) 45 Cm X 80 Mm – 12236 UB R (12236 UB R) ₺1.002. Stokta, 1-2 iş gününde kargoda.",
+  "mevcut": "可拆卸弹性轮廓标 - (高xø) 45 cm x 80 mm – 12236 UB R（12236 UB R）₺1.002。现货，1-2个工作日内发货。",
+  "yeni": ""
+ },
+ "{s0}. Ağırlık: {0} kg · Ürün kodu: {1} UB R Taban: (Ø) {2} mm · Montaj: Epoksi · Ağırlık: {3} kg": {
+  "ornek_tr": "Demonte Esnek Delinatörler - (hxø) 45 Cm X 80 Mm. Ağırlık: 1.1 kg · Ürün kodu: 12236 UB R Taban: (Ø) 200 mm · Montaj: Epoksi · Ağırlık: 1.1 kg",
+  "mevcut": "可拆卸弹性轮廓标 - (高xø) 45 cm x 80 mm。重量：1.1 kg · 产品代码：12236 UB R 底座：(Ø) 200 mm · 安装：环氧胶 · 重量：1.1 kg",
+  "yeni": ""
+ },
+ "Demonte Esnek {s0}ler - (hxø) {0} Cm X {1} – {2} UB R": {
+  "ornek_tr": "Demonte Esnek Delinatörler - (hxø) 45 Cm X 80 – 12236 UB R",
+  "mevcut": "可拆卸弹性轮廓标 - (高xø) 45 cm x 80 – 12236 UB R",
+  "yeni": ""
+ },
+ "{s0}. Ağırlık: {0} kg · Ürün kodu: {1} UB R Taban: (Ø) {2} mm · Montaj: {3}x · Ağırlık: {4} kg": {
+  "ornek_tr": "Demonte Esnek Delinatörler - (hxø) 92 Cm X 80 Mm. Ağırlık: 1.65 kg · Ürün kodu: 22008 UB R Taban: (Ø) 120 mm · Montaj: 1x · Ağırlık: 1.65 kg",
+  "mevcut": "可拆卸弹性轮廓标 - (高xø) 92 cm x 80 mm。重量：1.65 kg · 产品代码：22008 UB R 底座：(Ø) 120 mm · 安装：1x · 重量：1.65 kg",
+  "yeni": ""
+ },
+ "{s0} ({0} UB D) ₺{1}. {2} × {3} cm · TPU. Stokta, {4}-{5} iş gününde kargoda.": {
+  "ornek_tr": "Demonte Kaldırım Sınırlama Dubası - (hxø) 62.5x8 Cm – 12280 UB D (12280 UB D) ₺1.188. 62.5 × 8 cm · TPU. Stokta, 1-2 iş gününde kargoda.",
+  "mevcut": "可拆卸路缘限界锥墩 - (高xø) 62.5x8 cm – 12280 UB D（12280 UB D）₺1.188。62.5 × 8 cm · TPU。现货，1-2个工作日内发货。",
+  "yeni": ""
+ },
+ "{s0} ürününün fiyatı ₺{0} + KDV'dir. KDV dahil satış fiyatı ₺{1}. Fiyata kargo dahil değildir. Ürün kodu {2} UB D.": {
+  "ornek_tr": "Demonte Kaldırım Sınırlama Dubası - (hxø) 62.5x8 Cm – 12280 UB D ürününün fiyatı ₺1.188 + KDV'dir. KDV dahil satış fiyatı ₺1.426. Fiyata kargo dahil değildir. Ürün kodu 12280 UB D.",
+  "mevcut": "可拆卸路缘限界锥墩 - (高xø) 62.5x8 cm – 12280 UB D 的价格为₺1.188 + 增值税。含增值税售价为₺1.426。价格不含运费。产品代码12280 UB D。",
+  "yeni": ""
+ },
+ "{s0}. Ölçü: {0} × {1} cm · Malzeme: TPU · Ağırlık: {2} kg · Ürün kodu: {3} UB D Taban:(Ø){4}mm · Montaj:{5}x · Malzeme:TPU · Ağırlık:{6} kg": {
+  "ornek_tr": "Demonte Kaldırım Sınırlama Dubası - (hxø) 62.5x8 Cm. Ölçü: 62.5 × 8 cm · Malzeme: TPU · Ağırlık: 1.28 kg · Ürün kodu: 12280 UB D Taban:(Ø)110mm · Montaj:2x · Malzeme:TPU · Ağırlık:1.28 kg",
+  "mevcut": "可拆卸路缘限界锥墩 - (高xø) 62.5x8 cm。尺寸：62.5 × 8 cm · 材质：TPU · 重量：1.28 kg · 产品代码：12280 UB D 底座：(Ø)110mm · 安装：2x · 材质：TPU · 重量：1.28 kg",
+  "yeni": ""
+ },
+ "{s0} (ZT{0}) ₺{1}. PPC. Stokta, {2}-{3} iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.": {
+  "ornek_tr": "Dikdörtgen Ağırlık – ZT60408 (ZT60408) ₺433. PPC. Stokta, 1-2 iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.",
+  "mevcut": "矩形配重 – ZT60408（ZT60408）₺433。PPC。现货，1-2个工作日内发货。通过Yurtiçi Kargo发往土耳其全境。",
+  "yeni": ""
+ },
+ "{s0} (ZT{0}S) ₺{1}. Stokta, {2}-{3} iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.": {
+  "ornek_tr": "Dikdörtgen Levha Tek Yön Özel Baskı – ZT345S (ZT345S) ₺251. Stokta, 1-2 iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.",
+  "mevcut": "矩形标志牌 单面定制印刷 – ZT345S（ZT345S）₺251。现货，1-2个工作日内发货。通过Yurtiçi Kargo发往土耳其全境。",
+  "yeni": ""
+ },
+ "{s0} ürününün fiyatı ₺{0} + KDV'dir. KDV dahil satış fiyatı ₺{1}. Fiyata kargo dahil değildir. Ürün kodu ZT{2}S.": {
+  "ornek_tr": "Dikdörtgen Levha Tek Yön Özel Baskı – ZT345S ürününün fiyatı ₺251 + KDV'dir. KDV dahil satış fiyatı ₺302. Fiyata kargo dahil değildir. Ürün kodu ZT345S.",
+  "mevcut": "矩形标志牌 单面定制印刷 – ZT345S 的价格为₺251 + 增值税。含增值税售价为₺302。价格不含运费。产品代码ZT345S。",
+  "yeni": ""
+ },
+ "{s0}. Ürün kodu: ZT{0}S": {
+  "ornek_tr": "Dikdörtgen Levha Tek Yön Özel Baskı. Ürün kodu: ZT345S",
+  "mevcut": "矩形标志牌 单面定制印刷。产品代码：ZT345S",
+  "yeni": ""
+ },
+ "{s0} (ZT{0}D) ₺{1}. Stokta, {2}-{3} iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.": {
+  "ornek_tr": "Dikdörtgen Levha Çift Yön Özel Baskı – ZT345D (ZT345D) ₺347. Stokta, 1-2 iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.",
+  "mevcut": "矩形标志牌 双面定制印刷 – ZT345D（ZT345D）₺347。现货，1-2个工作日内发货。通过Yurtiçi Kargo发往土耳其全境。",
+  "yeni": ""
+ },
+ "{s0} ürününün fiyatı ₺{0} + KDV'dir. KDV dahil satış fiyatı ₺{1}. Fiyata kargo dahil değildir. Ürün kodu ZT{2}D.": {
+  "ornek_tr": "Dikdörtgen Levha Çift Yön Özel Baskı – ZT345D ürününün fiyatı ₺347 + KDV'dir. KDV dahil satış fiyatı ₺416. Fiyata kargo dahil değildir. Ürün kodu ZT345D.",
+  "mevcut": "矩形标志牌 双面定制印刷 – ZT345D 的价格为₺347 + 增值税。含增值税售价为₺416。价格不含运费。产品代码ZT345D。",
+  "yeni": ""
+ },
+ "{s0}. Ürün kodu: ZT{0}D": {
+  "ornek_tr": "Dikdörtgen Levha Çift Yön Özel Baskı. Ürün kodu: ZT345D",
+  "mevcut": "矩形标志牌 双面定制印刷。产品代码：ZT345D",
+  "yeni": ""
+ },
+ "{s0} ({0} A) ₺{1}. {2} × {3} cm. Stokta, {4}-{5} iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.": {
+  "ornek_tr": "Dikdörtgen Uyarı Levhası - Ölçü: 40x34 Cm – 111 A (111 A) ₺264. 40 × 34 cm. Stokta, 1-2 iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.",
+  "mevcut": "矩形警示牌 - 尺寸：40x34 cm – 111 A（111 A）₺264。40 × 34 cm。现货，1-2个工作日内发货。通过Yurtiçi Kargo发往土耳其全境。",
+  "yeni": ""
+ },
+ "{s0}. Ölçü: {0} × {1} cm · Ürün kodu: {2} A": {
+  "ornek_tr": "Dikdörtgen Uyarı Levhası - Ölçü: 40x34 Cm. Ölçü: 40 × 34 cm · Ürün kodu: 111 A",
+  "mevcut": "矩形警示牌 - 尺寸：40x34 cm。尺寸：40 × 34 cm · 产品代码：111 A",
+  "yeni": ""
+ },
+ "Dikme kelepçesi, delinatör veya uyarı dikmesinin gövdesine geçirilen plastik bir halkadır. Üzerindeki kulaklara zincir, şerit veya levha takılır. Böylece tek tek duran dikmeler birbirine bağlanarak kesintisiz bir sınır oluşturur. Kelepçe dikmenin çapına göre seçilir — Ø{0} mm dikmeye Ø{1} kelepçe, Ø{2} mm dikmeye Ø{3} kelepçe takılır.": {
+  "ornek_tr": "Dikme kelepçesi, delinatör veya uyarı dikmesinin gövdesine geçirilen plastik bir halkadır. Üzerindeki kulaklara zincir, şerit veya levha takılır. Böylece tek tek duran dikmeler birbirine bağlanarak kesintisiz bir sınır oluşturur. Kelepçe dikmenin çapına göre seçilir — Ø63 mm dikmeye Ø63 kelepçe, Ø110 mm dikmeye Ø110 kelepçe takılır.",
+  "mevcut": "立柱卡箍是套在轮廓标或警示立柱柱体上的塑料环。其上的挂耳可挂接链条、警示带或标志牌。这样，单独竖立的立柱便可相互连接，形成连续的边界。卡箍按立柱直径选择——Ø63 mm立柱配Ø63卡箍，Ø110 mm立柱配Ø110卡箍。",
+  "yeni": ""
+ },
+ "Dubaların arasına plastik trafik zinciri geçirilerek kesintisiz bir sınır oluşturulur. {s0}, dubaların arasından araç veya yayanın geçmesini engeller ve sınırı uzaktan görünür kılar. Bu kullanım için zincir geçirme deliği olan duba modellerini ve uygun zincir kancasını birlikte seçmek gerekir.": {
+  "ornek_tr": "Dubaların arasına plastik trafik zinciri geçirilerek kesintisiz bir sınır oluşturulur. Zincir, dubaların arasından araç veya yayanın geçmesini engeller ve sınırı uzaktan görünür kılar. Bu kullanım için zincir geçirme deliği olan duba modellerini ve uygun zincir kancasını birlikte seçmek gerekir.",
+  "mevcut": "在锥墩之间穿接塑料交通链条，即可形成连续的边界。链条可阻止车辆或行人从锥墩之间穿过，并使边界从远处即可看到。此用法需同时选择带穿链孔的锥墩型号和配套的链条挂钩。",
+  "yeni": ""
+ },
+ "{s0} ({0} DB R) ₺{1}. PPC. Stokta, {2}-{3} iş gününde kargoda.": {
+  "ornek_tr": "Dubalı Ultra Uyarı Dikmesi - (hxø) - 120 Cm X 140 Mm – 12430 DB R (12430 DB R) ₺1.428. PPC. Stokta, 1-2 iş gününde kargoda.",
+  "mevcut": "锥墩式Ultra警示立柱 - (高xø) - 120 cm x 140 mm – 12430 DB R（12430 DB R）₺1.428。PPC。现货，1-2个工作日内发货。",
+  "yeni": ""
+ },
+ "{s0} ürününün fiyatı ₺{0} + KDV'dir. KDV dahil satış fiyatı ₺{1}. Fiyata kargo dahil değildir. Ürün kodu {2} DB R.": {
+  "ornek_tr": "Dubalı Ultra Uyarı Dikmesi - (hxø) - 120 Cm X 140 Mm – 12430 DB R ürününün fiyatı ₺1.428 + KDV'dir. KDV dahil satış fiyatı ₺1.714. Fiyata kargo dahil değildir. Ürün kodu 12430 DB R.",
+  "mevcut": "锥墩式Ultra警示立柱 - (高xø) - 120 cm x 140 mm – 12430 DB R 的价格为₺1.428 + 增值税。含增值税售价为₺1.714。价格不含运费。产品代码12430 DB R。",
+  "yeni": ""
+ },
+ "{s0}. Malzeme: PPC · Ağırlık: {0} kg · Ürün kodu: {1} DB R Taban:( ){2} mm · Malzeme: PPC · Ağırlık : {3} kg": {
+  "ornek_tr": "Dubalı Ultra Uyarı Dikmesi - (hxø) - 120 Cm X 140 Mm. Malzeme: PPC · Ağırlık: 8.7 kg · Ürün kodu: 12430 DB R Taban:( )450 mm · Malzeme: PPC · Ağırlık : 8.7 kg",
+  "mevcut": "锥墩式Ultra警示立柱 - (高xø) - 120 cm x 140 mm。材质：PPC · 重量：8.7 kg · 产品代码：12430 DB R 底座：( )450 mm · 材质：PPC · 重量：8.7 kg",
+  "yeni": ""
+ },
+ "{s0} ({0}-{1} DB R) ₺{2}. PPC. Stokta, {3}-{4} iş gününde kargoda.": {
+  "ornek_tr": "Dubalı Uyarı Dikmesi - (hxø) - 100 Cm X 63 Mm – 12403-1 DB R (12403-1 DB R) ₺720. PPC. Stokta, 1-2 iş gününde kargoda.",
+  "mevcut": "锥墩式警示立柱 - (高xø) - 100 cm x 63 mm – 12403-1 DB R（12403-1 DB R）₺720。PPC。现货，1-2个工作日内发货。",
+  "yeni": ""
+ },
+ "{s0} ürününün fiyatı ₺{0} + KDV'dir. KDV dahil satış fiyatı ₺{1}. Fiyata kargo dahil değildir. Ürün kodu {2}-{3} DB R.": {
+  "ornek_tr": "Dubalı Uyarı Dikmesi - (hxø) - 100 Cm X 63 Mm – 12403-1 DB R ürününün fiyatı ₺720 + KDV'dir. KDV dahil satış fiyatı ₺864. Fiyata kargo dahil değildir. Ürün kodu 12403-1 DB R.",
+  "mevcut": "锥墩式警示立柱 - (高xø) - 100 cm x 63 mm – 12403-1 DB R 的价格为₺720 + 增值税。含增值税售价为₺864。价格不含运费。产品代码12403-1 DB R。",
+  "yeni": ""
+ },
+ "{s0}. Malzeme: PPC · Ağırlık: {0} kg · Ürün kodu: {1}-{2} DB R Taban:( ){3} mm · Malzeme: PPC · Ağırlık: {4} kg": {
+  "ornek_tr": "Dubalı Uyarı Dikmesi - (hxø) - 100 Cm X 63 Mm. Malzeme: PPC · Ağırlık: 4 kg · Ürün kodu: 12403-1 DB R Taban:( )400 mm · Malzeme: PPC · Ağırlık: 4.0 kg",
+  "mevcut": "锥墩式警示立柱 - (高xø) - 100 cm x 63 mm。材质：PPC · 重量：4 kg · 产品代码：12403-1 DB R 底座：( )400 mm · 材质：PPC · 重量：4.0 kg",
+  "yeni": ""
+ },
+ "{s0}. Malzeme: PPC · Ağırlık: {0} kg · Ürün kodu: {1} DB R Taban:(Ø){2} mm · Malzeme: PPC · Ağırlık: {3} kg": {
+  "ornek_tr": "Dubalı Uyarı Dikmesi - (hxø) - 110 Cm X 80 Mm. Malzeme: PPC · Ağırlık: 6.5 kg · Ürün kodu: 12420 DB R Taban:(Ø)400 mm · Malzeme: PPC · Ağırlık: 6.5 kg",
+  "mevcut": "锥墩式警示立柱 - (高xø) - 110 cm x 80 mm。材质：PPC · 重量：6.5 kg · 产品代码：12420 DB R 底座：(Ø)400 mm · 材质：PPC · 重量：6.5 kg",
+  "yeni": ""
+ },
+ "{s0} ({0} DB) ₺{1}. PE. Stokta, {2}-{3} iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.": {
+  "ornek_tr": "Dubalı Uyarı Dikmesi - (hxø) - 90 Cm X 40 Mm – 12435 DB (12435 DB) ₺564. PE. Stokta, 1-2 iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.",
+  "mevcut": "锥墩式警示立柱 - (高xø) - 90 cm x 40 mm – 12435 DB（12435 DB）₺564。PE。现货，1-2个工作日内发货。通过Yurtiçi Kargo发往土耳其全境。",
+  "yeni": ""
+ },
+ "{s0} ürününün fiyatı ₺{0} + KDV'dir. KDV dahil satış fiyatı ₺{1}. Fiyata kargo dahil değildir. Ürün kodu {2} DB.": {
+  "ornek_tr": "Dubalı Uyarı Dikmesi - (hxø) - 90 Cm X 40 Mm – 12435 DB ürününün fiyatı ₺564 + KDV'dir. KDV dahil satış fiyatı ₺677. Fiyata kargo dahil değildir. Ürün kodu 12435 DB.",
+  "mevcut": "锥墩式警示立柱 - (高xø) - 90 cm x 40 mm – 12435 DB 的价格为₺564 + 增值税。含增值税售价为₺677。价格不含运费。产品代码12435 DB。",
+  "yeni": ""
+ },
+ "{s0}. Malzeme: PE · Ağırlık: {0} kg · Ürün kodu: {1} DB Taban:( ){2} mm · Malzeme: PE · Ağırlık : {3} kg": {
+  "ornek_tr": "Dubalı Uyarı Dikmesi - (hxø) - 90 Cm X 40 Mm. Malzeme: PE · Ağırlık: 1.9 kg · Ürün kodu: 12435 DB Taban:( )300 mm · Malzeme: PE · Ağırlık : 1.9 kg",
+  "mevcut": "锥墩式警示立柱 - (高xø) - 90 cm x 40 mm。材质：PE · 重量：1.9 kg · 产品代码：12435 DB 底座：( )300 mm · 材质：PE · 重量：1.9 kg",
+  "yeni": ""
+ },
+ "{s0} ({0} DB R) ₺{1}. {2} × {3} cm · PPC. Stokta, {4}-{5} iş gününde kargoda.": {
+  "ornek_tr": "Dubalı Uyarı Levhalı Bariyer - (hxl) 120x180 Cm – 12405 DB R (12405 DB R) ₺4.596. 120 × 180 cm · PPC. Stokta, 1-2 iş gününde kargoda.",
+  "mevcut": "锥墩式警示牌护栏 - (高x长) 120x180 cm – 12405 DB R（12405 DB R）₺4.596。120 × 180 cm · PPC。现货，1-2个工作日内发货。",
+  "yeni": ""
+ },
+ "{s0}. Ölçü: {0} × {1} cm · Malzeme: PPC · Ağırlık: {2} kg · Ürün kodu: {3} DB R Levha: {4}x{5} cm · Malzeme: PPC · Ağırlık: {6} kg": {
+  "ornek_tr": "Dubalı Uyarı Levhalı Bariyer - (hxl) 120x180 Cm. Ölçü: 120 × 180 cm · Malzeme: PPC · Ağırlık: 27 kg · Ürün kodu: 12407 DB R Levha: 31.5x90 cm · Malzeme: PPC · Ağırlık: 27.0 kg",
+  "mevcut": "锥墩式警示牌护栏 - (高x长) 120x180 cm。尺寸：120 × 180 cm · 材质：PPC · 重量：27 kg · 产品代码：12407 DB R 标志牌：31.5x90 cm · 材质：PPC · 重量：27.0 kg",
+  "yeni": ""
+ },
+ "{s0} (ZT{0}Y) ₺{1}. PPC. Stokta, {2}-{3} iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.": {
+  "ornek_tr": "Dur Geç Kasis Sarı Gövde Başlığı – ZT50251Y (ZT50251Y) ₺173. PPC. Stokta, 1-2 iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.",
+  "mevcut": "“停-行”减速带 黄色主体端头 – ZT50251Y（ZT50251Y）₺173。PPC。现货，1-2个工作日内发货。通过Yurtiçi Kargo发往土耳其全境。",
+  "yeni": ""
+ },
+ "{s0}. Ürün kodu: ZT{0}Y": {
+  "ornek_tr": "Dur Geç Kasis Sarı Gövde Başlığı. Ürün kodu: ZT50251Y",
+  "mevcut": "“停-行”减速带 黄色主体端头。产品代码：ZT50251Y",
+  "yeni": ""
+ },
+ "ETR {0} kodlu {s0} ürününün reflektif tipi reflektiflidır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "ETR 5111 kodlu Reflektif Bant - 5 Cm X 10 M/roll - Kırmızı - Beyaz – ETR 5111 ürününün reflektif tipi reflektiflidır. Ürün Diğer Trafik Ekipmanı kategorisindedir.",
+  "mevcut": "代码ETR 5111 反光带 - 5 cm x 10 m/卷 - 红白 – ETR 5111 反光类型为反光型。本产品属于其他交通设施类别。",
+  "yeni": ""
+ },
+ "{s0} ({0} TK) ₺{1}. PPC. Stokta, {2}-{3} iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.": {
+  "ornek_tr": "Eko Trafik Konisi - (h) 50 Cm – 12302 TK (12302 TK) ₺336. PPC. Stokta, 1-2 iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.",
+  "mevcut": "经济型交通锥 - (高) 50 cm – 12302 TK（12302 TK）₺336。PPC。现货，1-2个工作日内发货。通过Yurtiçi Kargo发往土耳其全境。",
+  "yeni": ""
+ },
+ "{s0} ürününün fiyatı ₺{0} + KDV'dir. KDV dahil satış fiyatı ₺{1}. Fiyata kargo dahil değildir. Ürün kodu {2} TK.": {
+  "ornek_tr": "Eko Trafik Konisi - (h) 50 Cm – 12302 TK ürününün fiyatı ₺336 + KDV'dir. KDV dahil satış fiyatı ₺403. Fiyata kargo dahil değildir. Ürün kodu 12302 TK.",
+  "mevcut": "经济型交通锥 - (高) 50 cm – 12302 TK 的价格为₺336 + 增值税。含增值税售价为₺403。价格不含运费。产品代码12302 TK。",
+  "yeni": ""
+ },
+ "{s0}. Malzeme: PPC · Ağırlık: {0} kg · Ürün kodu: {1} TK Taban:( ) {2} cm · Malzeme: PPC · Ağırlık: {3} kg": {
+  "ornek_tr": "Eko Trafik Konisi - (h) 50 Cm. Malzeme: PPC · Ağırlık: 0.9 kg · Ürün kodu: 12302 TK Taban:( ) 35 cm · Malzeme: PPC · Ağırlık: 0.90 kg",
+  "mevcut": "经济型交通锥 - (高) 50 cm。材质：PPC · 重量：0.9 kg · 产品代码：12302 TK 底座：( ) 35 cm · 材质：PPC · 重量：0.90 kg",
+  "yeni": ""
+ },
+ "{s0} (ZT{0}) ₺{1}. Stokta, {2}-{3} iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.": {
+  "ornek_tr": "Ekstra Yuvarlak Levha Dur – ZT646 (ZT646) ₺173. Stokta, 1-2 iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.",
+  "mevcut": "加大圆形标志牌 停 – ZT646（ZT646）₺173。现货，1-2个工作日内发货。通过Yurtiçi Kargo发往土耳其全境。",
+  "yeni": ""
+ },
+ "{s0} ({0} UB R) ₺{1}. TPU · reflektifli. Stokta, {2}-{3} iş gününde kargoda.": {
+  "ornek_tr": "Esnek Refüj Başı Levhası - (hxø) 100cmx300mm(reflektif) – 12250 UB R (12250 UB R) ₺2.196. TPU · reflektifli. Stokta, 1-2 iş gününde kargoda.",
+  "mevcut": "弹性隔离带端头标志牌 - (高xø) 100cmx300mm（反光） – 12250 UB R（12250 UB R）₺2.196。TPU · 反光型。现货，1-2个工作日内发货。",
+  "yeni": ""
+ },
+ "{s0}. Malzeme: TPU · Ağırlık: {0} kg · Ürün kodu: {1} UB R Montaj: {2}x · Malzeme: TPU · Ağırlık: {3} kg": {
+  "ornek_tr": "Esnek Refüj Başı Levhası - (hxø) 100cmx300mm(reflektif). Malzeme: TPU · Ağırlık: 3.25 kg · Ürün kodu: 12250 UB R Montaj: 4x · Malzeme: TPU · Ağırlık: 3.25 kg",
+  "mevcut": "弹性隔离带端头标志牌 - (高xø) 100cmx300mm（反光）。材质：TPU · 重量：3.25 kg · 产品代码：12250 UB R 安装：4x · 材质：TPU · 重量：3.25 kg",
+  "yeni": ""
+ },
+ "Evet. {s0} ürününe montaj için gereken trifon vida ve plastik dübel dahildir, ayrıca satın almanıza gerek yoktur. Montaj: {0} Trifon vida - {1} {s1}. Ayrı vida ve dübel de katalogdan temin edilebilir.": {
+  "ornek_tr": "Evet. 100 cm Delinatör – ZT80100 ürününe montaj için gereken trifon vida ve plastik dübel dahildir, ayrıca satın almanıza gerek yoktur. Montaj: 3 Trifon vida - 3 Dübel. Ayrı vida ve dübel de katalogdan temin edilebilir.",
+  "mevcut": "是的。100 cm 轮廓标 – ZT80100 附带安装所需的方头木螺钉和塑料膨胀管，无需另行购买。安装：3颗方头木螺钉 - 3个膨胀管。螺丝和膨胀管也可单独从产品目录中选购。",
+  "yeni": ""
+ },
+ "Evet. {s0} ürününe montaj için gereken trifon vida ve plastik dübel dahildir, ayrıca satın almanıza gerek yoktur. Montaj: {s1}ün Ağırlık Montajı için {0} adet vida ile beraber gönderilir.. Ayrı vida ve dübel de katalogdan temin edilebilir.": {
+  "ornek_tr": "Evet. 100 cm Delinatörlü Şerit Ayırıcı – ZT648100 ürününe montaj için gereken trifon vida ve plastik dübel dahildir, ayrıca satın almanıza gerek yoktur. Montaj: Delinatörün Ağırlık Montajı için 3 adet vida ile beraber gönderilir.. Ayrı vida ve dübel de katalogdan temin edilebilir.",
+  "mevcut": "是的。100 cm 轮廓标车道分隔器 – ZT648100 附带安装所需的方头木螺钉和塑料膨胀管，无需另行购买。安装：轮廓标随附3颗用于配重安装的螺丝。螺丝和膨胀管也可单独从产品目录中选购。",
+  "yeni": ""
+ },
+ "Evet. {s0} ürününe montaj için gereken trifon vida ve plastik dübel dahildir, ayrıca satın almanıza gerek yoktur. Montaj: {0} Trifon {s1} - {1} {s2}. Ayrı vida ve dübel de katalogdan temin edilebilir.": {
+  "ornek_tr": "Evet. 100 cm Eko Delinatör – 80100ECO ürününe montaj için gereken trifon vida ve plastik dübel dahildir, ayrıca satın almanıza gerek yoktur. Montaj: 3 Trifon Vida - 3 Dübel. Ayrı vida ve dübel de katalogdan temin edilebilir.",
+  "mevcut": "是的。100 cm 经济型轮廓标 – 80100ECO 附带安装所需的方头木螺钉和塑料膨胀管，无需另行购买。安装：3颗方头木螺钉 - 3个膨胀管。螺丝和膨胀管也可单独从产品目录中选购。",
+  "yeni": ""
+ },
+ "Evet. {s0} ürününe montaj için gereken trifon vida ve plastik dübel dahildir, ayrıca satın almanıza gerek yoktur. Montaj: Trifon vida ve plastik dübel dahildir. Ayrı vida ve dübel de katalogdan temin edilebilir.": {
+  "ornek_tr": "Evet. 100 cm Refüj Başı Levha – ZT40100P ürününe montaj için gereken trifon vida ve plastik dübel dahildir, ayrıca satın almanıza gerek yoktur. Montaj: Trifon vida ve plastik dübel dahildir. Ayrı vida ve dübel de katalogdan temin edilebilir.",
+  "mevcut": "是的。100 cm 隔离带端头标志牌 – ZT40100P 附带安装所需的方头木螺钉和塑料膨胀管，无需另行购买。安装：含方头木螺钉和塑料膨胀管。螺丝和膨胀管也可单独从产品目录中选购。",
+  "yeni": ""
+ },
+ "Evet. {s0} ürününe montaj için gereken trifon vida ve plastik dübel dahildir, ayrıca satın almanıza gerek yoktur. Montaj: {0} Trifon {s1} - {1} Dubel. Ayrı vida ve dübel de katalogdan temin edilebilir.": {
+  "ornek_tr": "Evet. 110 cm Araç Stoperi Sarı Siyah – ZT15110Y ürününe montaj için gereken trifon vida ve plastik dübel dahildir, ayrıca satın almanıza gerek yoktur. Montaj: 3 Trifon Vida - 3 Dubel. Ayrı vida ve dübel de katalogdan temin edilebilir.",
+  "mevcut": "是的。110 cm 车轮挡 黄黑 – ZT15110Y 附带安装所需的方头木螺钉和塑料膨胀管，无需另行购买。安装：3颗方头木螺钉 - 3个膨胀管。螺丝和膨胀管也可单独从产品目录中选购。",
+  "yeni": ""
+ },
+ "Evet. {s0} ürününe montaj için gereken trifon vida ve plastik dübel dahildir, ayrıca satın almanıza gerek yoktur. Montaj: Ürün yere monte edilebilir. Ayrı vida ve dübel de katalogdan temin edilebilir.": {
+  "ornek_tr": "Evet. 110 cm Uyarı Dikmesi Dikdörtgen Tabanlı 4 Reflektifli – ZT110120R4 ürününe montaj için gereken trifon vida ve plastik dübel dahildir, ayrıca satın almanıza gerek yoktur. Montaj: Ürün yere monte edilebilir. Ayrı vida ve dübel de katalogdan temin edilebilir.",
+  "mevcut": "是的。110 cm 警示立柱 矩形底座 4道反光 – ZT110120R4 附带安装所需的方头木螺钉和塑料膨胀管，无需另行购买。安装：产品可固定安装于地面。螺丝和膨胀管也可单独从产品目录中选购。",
+  "yeni": ""
+ },
+ "Evet. {s0} ürününe montaj için gereken trifon vida ve plastik dübel dahildir, ayrıca satın almanıza gerek yoktur. Montaj: Ø{0} {s1} Ø{1}x{2} {s2} ile montaj. Ayrı vida ve dübel de katalogdan temin edilebilir.": {
+  "ornek_tr": "Evet. Kolon Köşe Koruyucu Eko – ZT90141 ürününe montaj için gereken trifon vida ve plastik dübel dahildir, ayrıca satın almanıza gerek yoktur. Montaj: Ø8 Dübel Ø4x38 Vida ile montaj. Ayrı vida ve dübel de katalogdan temin edilebilir.",
+  "mevcut": "是的。经济型立柱护角 – ZT90141 附带安装所需的方头木螺钉和塑料膨胀管，无需另行购买。安装：使用Ø8膨胀管和Ø4x38螺丝安装。螺丝和膨胀管也可单独从产品目录中选购。",
+  "yeni": ""
+ },
+ "{s0} (PL {0}) ₺{1}. {2} × {3} cm · TPU. Stokta, {4}-{5} iş gününde kargoda.": {
+  "ornek_tr": "Görme Engelli Zemin İşaretleme - Ölçü: 40x40 Cm – PL 8010 (PL 8010) ₺538. 40 × 40 cm · TPU. Stokta, 1-2 iş gününde kargoda.",
+  "mevcut": "盲道地面标识 - 尺寸：40x40 cm – PL 8010（PL 8010）₺538。40 × 40 cm · TPU。现货，1-2个工作日内发货。",
+  "yeni": ""
+ },
+ "{s0} ürününün fiyatı ₺{0} + KDV'dir. KDV dahil satış fiyatı ₺{1}. Fiyata kargo dahil değildir. Ürün kodu PL {2}.": {
+  "ornek_tr": "Görme Engelli Zemin İşaretleme - Ölçü: 40x40 Cm – PL 8010 ürününün fiyatı ₺538 + KDV'dir. KDV dahil satış fiyatı ₺645. Fiyata kargo dahil değildir. Ürün kodu PL 8010.",
+  "mevcut": "盲道地面标识 - 尺寸：40x40 cm – PL 8010 的价格为₺538 + 增值税。含增值税售价为₺645。价格不含运费。产品代码PL 8010。",
+  "yeni": ""
+ },
+ "{s0}. Ölçü: {0} × {1} cm · Malzeme: TPU · Ağırlık: {2} kg · Ürün kodu: PL {3} Malzeme: TPU · Ağırlık: {4} kg": {
+  "ornek_tr": "Görme Engelli Zemin İşaretleme - Ölçü: 40x40 Cm. Ölçü: 40 × 40 cm · Malzeme: TPU · Ağırlık: 0.7 kg · Ürün kodu: PL 8010 Malzeme: TPU · Ağırlık: 0.70 kg",
+  "mevcut": "盲道地面标识 - 尺寸：40x40 cm。尺寸：40 × 40 cm · 材质：TPU · 重量：0.7 kg · 产品代码：PL 8010 材质：TPU · 重量：0.70 kg",
+  "yeni": ""
+ },
+ "Güneş ışığı prizmatik yapıyı ve yapıştırıcıyı zamanla bozar. Kaliteli bantlar {0}-{1} yıl performansını korur, ucuz olanlar {2}-{3} yılda belirgin düşüş gösterir.": {
+  "ornek_tr": "Güneş ışığı prizmatik yapıyı ve yapıştırıcıyı zamanla bozar. Kaliteli bantlar 5-7 yıl performansını korur, ucuz olanlar 1-2 yılda belirgin düşüş gösterir.",
+  "mevcut": "阳光会随时间破坏棱镜结构和胶层。优质反光带可保持性能5-7年，廉价产品1-2年内就会明显衰减。",
+  "yeni": ""
+ },
+ "{s0} ({0} FB R) ₺{1}. {2} × {3} cm · PPC. Stokta, {4}-{5} iş gününde kargoda.": {
+  "ornek_tr": "Güvenlik Barikatı - (hxl) 100x150 Cm – 12510 FB R (12510 FB R) ₺2.832. 100 × 150 cm · PPC. Stokta, 1-2 iş gününde kargoda.",
+  "mevcut": "安全路障 - (高x长) 100x150 cm – 12510 FB R（12510 FB R）₺2.832。100 × 150 cm · PPC。现货，1-2个工作日内发货。",
+  "yeni": ""
+ },
+ "{s0}. Ölçü: {0} × {1} cm · Malzeme: PPC · Ağırlık: {2} kg · Ürün kodu: {3} FB R Malzeme: PPC · Ağırlık: {4} kg": {
+  "ornek_tr": "Güvenlik Barikatı - (hxl) 100x150 Cm. Ölçü: 100 × 150 cm · Malzeme: PPC · Ağırlık: 10.5 kg · Ürün kodu: 12511 FB R Malzeme: PPC · Ağırlık: 10.5 kg",
+  "mevcut": "安全路障 - (高x长) 100x150 cm。尺寸：100 × 150 cm · 材质：PPC · 重量：10.5 kg · 产品代码：12511 FB R 材质：PPC · 重量：10.5 kg",
+  "yeni": ""
+ },
+ "{s0}. Ölçü: {0} × {1} cm · Malzeme: PPC · Ağırlık: {2} kg · Ürün kodu: {3} FB R Renk: Kırmızı · Malzeme: PPC · Ağırlık: {4} kg": {
+  "ornek_tr": "Güvenlik Barikatı - (hxl) 100x150 Cm. Ölçü: 100 × 150 cm · Malzeme: PPC · Ağırlık: 12 kg · Ürün kodu: 12510 FB R Renk: Kırmızı · Malzeme: PPC · Ağırlık: 12.0 kg",
+  "mevcut": "安全路障 - (高x长) 100x150 cm。尺寸：100 × 150 cm · 材质：PPC · 重量：12 kg · 产品代码：12510 FB R 颜色：红色 · 材质：PPC · 重量：12.0 kg",
+  "yeni": ""
+ },
+ "{s0}. Ölçü: {0} × {1} cm · Malzeme: PPC · Ağırlık: {2} kg · Ürün kodu: {3} FB R Renk: Sarı · Malzeme: PPC · Ağırlık: {4} kg": {
+  "ornek_tr": "Güvenlik Barikatı - (hxl) 100x150 Cm. Ölçü: 100 × 150 cm · Malzeme: PPC · Ağırlık: 12 kg · Ürün kodu: 12514 FB R Renk: Sarı · Malzeme: PPC · Ağırlık: 12.0 kg",
+  "mevcut": "安全路障 - (高x长) 100x150 cm。尺寸：100 × 150 cm · 材质：PPC · 重量：12 kg · 产品代码：12514 FB R 颜色：黄色 · 材质：PPC · 重量：12.0 kg",
+  "yeni": ""
+ },
+ "{s0}. Ölçü: {0} × {1} cm · Malzeme: PPC · Ağırlık: {2} kg · Ürün kodu: {3} FB R Renk: Mavi · Malzeme: PPC · Ağırlık: {4} kg": {
+  "ornek_tr": "Güvenlik Barikatı - (hxl) 100x150 Cm. Ölçü: 100 × 150 cm · Malzeme: PPC · Ağırlık: 12 kg · Ürün kodu: 12516 FB R Renk: Mavi · Malzeme: PPC · Ağırlık: 12.0 kg",
+  "mevcut": "安全路障 - (高x长) 100x150 cm。尺寸：100 × 150 cm · 材质：PPC · 重量：12 kg · 产品代码：12516 FB R 颜色：蓝色 · 材质：PPC · 重量：12.0 kg",
+  "yeni": ""
+ },
+ "{s0}. Ölçü: {0} × {1} cm · Malzeme: PPC · Ağırlık: {2} kg · Ürün kodu: {3} FB R Renk: Beyaz · Malzeme: PPC · Ağırlık: {4} kg": {
+  "ornek_tr": "Güvenlik Barikatı - (hxl) 100x150 Cm. Ölçü: 100 × 150 cm · Malzeme: PPC · Ağırlık: 12 kg · Ürün kodu: 12518 FB R Renk: Beyaz · Malzeme: PPC · Ağırlık: 12.0 kg",
+  "mevcut": "安全路障 - (高x长) 100x150 cm。尺寸：100 × 150 cm · 材质：PPC · 重量：12 kg · 产品代码：12518 FB R 颜色：白色 · 材质：PPC · 重量：12.0 kg",
+  "yeni": ""
+ },
+ "{s0} (ZT{0}R FBP) ₺{1}. PPC-PVC. Stokta, {2}-{3} iş gününde kargoda.": {
+  "ornek_tr": "Güvenlik Bariyeri Dekota Baskılı – ZT80150R FBP (ZT80150R FBP) ₺2.600. PPC-PVC. Stokta, 1-2 iş gününde kargoda.",
+  "mevcut": "安全护栏 贴膜印刷 – ZT80150R FBP（ZT80150R FBP）₺2.600。PPC-PVC。现货，1-2个工作日内发货。",
+  "yeni": ""
+ },
+ "{s0} ürününün fiyatı ₺{0} + KDV'dir. KDV dahil satış fiyatı ₺{1}. Fiyata kargo dahil değildir. Ürün kodu ZT{2}R FBP.": {
+  "ornek_tr": "Güvenlik Bariyeri Dekota Baskılı – ZT80150R FBP ürününün fiyatı ₺2.600 + KDV'dir. KDV dahil satış fiyatı ₺3.120. Fiyata kargo dahil değildir. Ürün kodu ZT80150R FBP.",
+  "mevcut": "安全护栏 贴膜印刷 – ZT80150R FBP 的价格为₺2.600 + 增值税。含增值税售价为₺3.120。价格不含运费。产品代码ZT80150R FBP。",
+  "yeni": ""
+ },
+ "{s0}. Seri: Ekonomik (Eko) · Ürün kodu: ZT{0}R FBP": {
+  "ornek_tr": "Güvenlik Bariyeri Dekota Baskılı. Seri: Ekonomik (Eko) · Ürün kodu: ZT80150R FBP",
+  "mevcut": "安全护栏 贴膜印刷。系列：经济型（Eko） · 产品代码：ZT80150R FBP",
+  "yeni": ""
+ },
+ "{s0} (ZT{0}R FB) ₺{1}. PPC+PVC. Stokta, {2}-{3} iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.": {
+  "ornek_tr": "Güvenlik Bariyeri Dekotalı – ZT80150R FB (ZT80150R FB) ₺2.253. PPC+PVC. Stokta, 1-2 iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.",
+  "mevcut": "安全护栏 带贴膜 – ZT80150R FB（ZT80150R FB）₺2.253。PPC+PVC。现货，1-2个工作日内发货。通过Yurtiçi Kargo发往土耳其全境。",
+  "yeni": ""
+ },
+ "{s0} ürününün fiyatı ₺{0} + KDV'dir. KDV dahil satış fiyatı ₺{1}. Fiyata kargo dahil değildir. Ürün kodu ZT{2}R FB.": {
+  "ornek_tr": "Güvenlik Bariyeri Dekotalı – ZT80150R FB ürününün fiyatı ₺2.253 + KDV'dir. KDV dahil satış fiyatı ₺2.704. Fiyata kargo dahil değildir. Ürün kodu ZT80150R FB.",
+  "mevcut": "安全护栏 带贴膜 – ZT80150R FB 的价格为₺2.253 + 增值税。含增值税售价为₺2.704。价格不含运费。产品代码ZT80150R FB。",
+  "yeni": ""
+ },
+ "{s0}. Seri: Ekonomik (Eko) · Ürün kodu: ZT{0}R FB": {
+  "ornek_tr": "Güvenlik Bariyeri Dekotalı. Seri: Ekonomik (Eko) · Ürün kodu: ZT80150R FB",
+  "mevcut": "安全护栏 带贴膜。系列：经济型（Eko） · 产品代码：ZT80150R FB",
+  "yeni": ""
+ },
+ "{s0}. Taban: dikdörtgen tabanlı · Seri: Ekonomik (Eko) · Ürün kodu: ZT{0}R FBP": {
+  "ornek_tr": "Güvenlik Bariyeri Dikdörtgen Tabanlı Dekota Baskılı. Taban: dikdörtgen tabanlı · Seri: Ekonomik (Eko) · Ürün kodu: ZT60150R FBP",
+  "mevcut": "安全护栏 矩形底座 贴膜印刷。底座：矩形底座 · 系列：经济型（Eko） · 产品代码：ZT60150R FBP",
+  "yeni": ""
+ },
+ "{s0} (ZT{0}R FB) ₺{1}. PPC-PVC. Stokta, {2}-{3} iş gününde kargoda.": {
+  "ornek_tr": "Güvenlik Bariyeri Dikdörtgen Tabanlı Dekotalı – ZT60150R FB (ZT60150R FB) ₺2.687. PPC-PVC. Stokta, 1-2 iş gününde kargoda.",
+  "mevcut": "安全护栏 矩形底座 带贴膜 – ZT60150R FB（ZT60150R FB）₺2.687。PPC-PVC。现货，1-2个工作日内发货。",
+  "yeni": ""
+ },
+ "{s0}. Taban: dikdörtgen tabanlı · Seri: Ekonomik (Eko) · Ürün kodu: ZT{0}R FB": {
+  "ornek_tr": "Güvenlik Bariyeri Dikdörtgen Tabanlı Dekotalı. Taban: dikdörtgen tabanlı · Seri: Ekonomik (Eko) · Ürün kodu: ZT60150R FB",
+  "mevcut": "安全护栏 矩形底座 带贴膜。底座：矩形底座 · 系列：经济型（Eko） · 产品代码：ZT60150R FB",
+  "yeni": ""
+ },
+ "{s0} (ZT{0}R) ₺{1}. PPC-PVC. Stokta, {2}-{3} iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.": {
+  "ornek_tr": "Güvenlik Bariyeri Dikdörtgen Tabanlı – ZT60150R (ZT60150R) ₺2.340. PPC-PVC. Stokta, 1-2 iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.",
+  "mevcut": "安全护栏 矩形底座 – ZT60150R（ZT60150R）₺2.340。PPC-PVC。现货，1-2个工作日内发货。通过Yurtiçi Kargo发往土耳其全境。",
+  "yeni": ""
+ },
+ "{s0} (ZT{0}B) ₺{1}. Stokta, {2}-{3} iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.": {
+  "ornek_tr": "Güvenlik Bariyeri Mavi – ZT80150B (ZT80150B) ₺1.950. Stokta, 1-2 iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.",
+  "mevcut": "安全护栏 蓝色 – ZT80150B（ZT80150B）₺1.950。现货，1-2个工作日内发货。通过Yurtiçi Kargo发往土耳其全境。",
+  "yeni": ""
+ },
+ "{s0} (ZT{0}Y) ₺{1}. Stokta, {2}-{3} iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.": {
+  "ornek_tr": "Güvenlik Bariyeri Sarı – ZT80150Y (ZT80150Y) ₺1.950. Stokta, 1-2 iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.",
+  "mevcut": "安全护栏 黄色 – ZT80150Y（ZT80150Y）₺1.950。现货，1-2个工作日内发货。通过Yurtiçi Kargo发往土耳其全境。",
+  "yeni": ""
+ },
+ "{s0} · PPC-PVC | Trafik Ürünleri": {
+  "ornek_tr": "Güvenlik Bariyeri – ZT80150R · PPC-PVC | Trafik Ürünleri",
+  "mevcut": "安全护栏 – ZT80150R · PPC-PVC | Trafik Ürünleri",
+  "yeni": ""
+ },
+ "Güvenlik aynası kör noktaları görünür kılan dışbükey aynadır. {0} cm çap {1}-{2} metre, {3} cm çap {4}-{5} metre mesafeye kadar etkilidir. Montaj yüksekliği zeminden {6}-{7} metre olmalı, ayna gözlemcinin bakış açısına {8}-{9} derece eğimle yerleştirilmelidir. İç mekânda akrilik, dış mekânda polikarbon gövde tercih edilir. Rampa çıkışı, keskin dönüş ve depo koridoru başlıca kullanım noktalarıdır.": {
+  "ornek_tr": "Güvenlik aynası kör noktaları görünür kılan dışbükey aynadır. 60 cm çap 10-15 metre, 80 cm çap 15-20 metre mesafeye kadar etkilidir. Montaj yüksekliği zeminden 2,2-2,5 metre olmalı, ayna gözlemcinin bakış açısına 30-45 derece eğimle yerleştirilmelidir. İç mekânda akrilik, dış mekânda polikarbon gövde tercih edilir. Rampa çıkışı, keskin dönüş ve depo koridoru başlıca kullanım noktalarıdır.",
+  "mevcut": "安全凸面镜是使盲区变得可见的凸面镜。直径60 cm的有效距离为10-15米，80 cm为15-20米。安装高度应距地面2,2-2,5米，镜面应相对观察者视线倾斜30-45度。室内宜选亚克力，室外宜选聚碳酸酯外壳。坡道出口、急转弯和仓库通道是主要使用位置。",
+  "yeni": ""
+ },
+ "Güvenlik aynası, görüş açısının kısıtlı olduğu noktalarda kör alanı görünür kılan dışbükey aynadır. Otopark rampa çıkışları, keskin dönüşler, depo koridorları ve kavşaklarda kullanılır. {0} cm ayna {1}-{2} metre, {3} cm ayna {4}-{5} metre mesafeye kadar etkilidir.": {
+  "ornek_tr": "Güvenlik aynası, görüş açısının kısıtlı olduğu noktalarda kör alanı görünür kılan dışbükey aynadır. Otopark rampa çıkışları, keskin dönüşler, depo koridorları ve kavşaklarda kullanılır. 60 cm ayna 10-15 metre, 80 cm ayna 15-20 metre mesafeye kadar etkilidir.",
+  "mevcut": "安全凸面镜是在视角受限位置使盲区变得可见的凸面镜。用于停车场坡道出口、急转弯、仓库通道和路口。60 cm凸面镜有效距离可达10-15米，80 cm可达15-20米。",
+  "yeni": ""
+ },
+ "{s0} · PVC | Trafik Ürünleri": {
+  "ornek_tr": "Hız Kesici Kasis – ZT40400 · PVC | Trafik Ürünleri",
+  "mevcut": "减速带 – ZT40400 · PVC | Trafik Ürünleri",
+  "yeni": ""
+ },
+ "Hız kesici kasis seçiminde yükseklik hedef hızı belirler. {0} cm kasis aracı {1} km/s, {2} cm kasis {3} km/s hıza indirir. Kauçuk kasisler ağır trafiğe, plastik olanlar hafif trafiğe uygundur. Site içi ve otoparkta {4}-{5} cm, okul çevresinde ve fabrika sahasında {6} cm tercih edilir. Modüler yapı sayesinde yol genişliğine göre uzatılabilir.": {
+  "ornek_tr": "Hız kesici kasis seçiminde yükseklik hedef hızı belirler. 3 cm kasis aracı 20 km/s, 5 cm kasis 10 km/s hıza indirir. Kauçuk kasisler ağır trafiğe, plastik olanlar hafif trafiğe uygundur. Site içi ve otoparkta 3-4 cm, okul çevresinde ve fabrika sahasında 5 cm tercih edilir. Modüler yapı sayesinde yol genişliğine göre uzatılabilir.",
+  "mevcut": "选择减速带时，高度决定目标车速。3 cm减速带可将车速降至20 km/h，5 cm减速带可降至10 km/h。橡胶减速带适合重载交通，塑料款适合轻载交通。小区内部和停车场宜选3-4 cm，学校周边和厂区宜选5 cm。模块化结构可根据道路宽度延长。",
+  "yeni": ""
+ },
+ "{s0} ({0} UB) ₺{1}. {2} × {3} × {4} cm · Kauçuk. Stokta, {5}-{6} iş gününde kargoda.": {
+  "ornek_tr": "Kablo Koruyucu Kasis - Ölçü: 24x100x4.5 Cm - 2 Kanallı – 22218 UB (22218 UB) ₺1.752. 24 × 100 × 4.5 cm · Kauçuk. Stokta, 1-2 iş gününde kargoda.",
+  "mevcut": "线缆保护减速带 - 尺寸：24x100x4.5 cm - 双槽 – 22218 UB（22218 UB）₺1.752。24 × 100 × 4.5 cm · 橡胶。现货，1-2个工作日内发货。",
+  "yeni": ""
+ },
+ "{s0}. Ölçü: {0} × {1} × {2} cm · Malzeme: Kauçuk · Ağırlık: {3} kg · Ürün kodu: {4} UB Malzeme: Kauçuk · Ağırlık: {5} kg": {
+  "ornek_tr": "Kablo Koruyucu Kasis - Ölçü: 24x100x4.5 Cm - 2 Kanallı. Ölçü: 24 × 100 × 4.5 cm · Malzeme: Kauçuk · Ağırlık: 7.5 kg · Ürün kodu: 22218 UB Malzeme: Kauçuk · Ağırlık: 7.5 kg",
+  "mevcut": "线缆保护减速带 - 尺寸：24x100x4.5 cm - 双槽。尺寸：24 × 100 × 4.5 cm · 材质：橡胶 · 重量：7.5 kg · 产品代码：22218 UB 材质：橡胶 · 重量：7.5 kg",
+  "yeni": ""
+ },
+ "{s0} Kasis - Ölçü: {0}x{1}x{2} Cm - {3} – {4} UB": {
+  "ornek_tr": "Kablo Koruyucu Kasis - Ölçü: 24x100x4.5 Cm - 2 – 22218 UB",
+  "mevcut": "线缆保护减速带 - 尺寸：24x100x4.5 cm - 2 – 22218 UB",
+  "yeni": ""
+ },
+ "{s0}. Ölçü: {0} × {1} cm · Malzeme: PPC · Ağırlık: {2} kg · Ürün kodu: {3} UB Montaj: {4}x · Malzeme: PPC · Ağırlık: {5} kg": {
+  "ornek_tr": "Kablo Koruyucu Kasis Köşe - Ölçü: 60x7.5 Cm - 3 Kanallı. Ölçü: 60 × 7.5 cm · Malzeme: PPC · Ağırlık: 3 kg · Ürün kodu: 12299 UB Montaj: 2x · Malzeme: PPC · Ağırlık: 3.0 kg",
+  "mevcut": "线缆保护减速带 转角件 - 尺寸：60x7.5 cm - 三槽。尺寸：60 × 7.5 cm · 材质：PPC · 重量：3 kg · 产品代码：12299 UB 安装：2x · 材质：PPC · 重量：3.0 kg",
+  "yeni": ""
+ },
+ "{s0} Kasis Köşe - Ölçü: {0}x{1} Cm - {2} – {3} UB": {
+  "ornek_tr": "Kablo Koruyucu Kasis Köşe - Ölçü: 60x7.5 Cm - 3 – 12299 UB",
+  "mevcut": "线缆保护减速带 转角件 - 尺寸：60x7.5 cm - 3 – 12299 UB",
+  "yeni": ""
+ },
+ "{s0}. Ürün kodu: ZTR{0}": {
+  "ornek_tr": "Kablo Koruyucu. Ürün kodu: ZTR105",
+  "mevcut": "线缆保护器。产品代码：ZTR105",
+  "yeni": ""
+ },
+ "{s0} ({0} UB R) ₺{1}. {2} × {3} cm · PE. Stokta, {4}-{5} iş gününde kargoda.": {
+  "ornek_tr": "Kaldırım Sınırlama Dubası - (h) 50cm / Taban:25x25 Cm – 12205 UB R (12205 UB R) ₺852. 25 × 25 cm · PE. Stokta, 1-2 iş gününde kargoda.",
+  "mevcut": "路缘限界锥墩 - (高) 50cm / 底座：25x25 cm – 12205 UB R（12205 UB R）₺852。25 × 25 cm · PE。现货，1-2个工作日内发货。",
+  "yeni": ""
+ },
+ "{s0}. Ölçü: {0} × {1} cm · Malzeme: PE · Ağırlık: {2} kg · Ürün kodu: {3} UB R Montaj: {4}x · Malzeme: PE · Ağırlık:{5} kg": {
+  "ornek_tr": "Kaldırım Sınırlama Dubası - (h) 50cm / Taban:25x25 Cm. Ölçü: 25 × 25 cm · Malzeme: PE · Ağırlık: 1.5 kg · Ürün kodu: 12205 UB R Montaj: 4x · Malzeme: PE · Ağırlık:1.5 kg",
+  "mevcut": "路缘限界锥墩 - (高) 50cm / 底座：25x25 cm。尺寸：25 × 25 cm · 材质：PE · 重量：1.5 kg · 产品代码：12205 UB R 安装：4x · 材质：PE · 重量：1.5 kg",
+  "yeni": ""
+ },
+ "{s0} ({0} UB R) ₺{1}. {2} × {3} cm · PPC. Stokta, {4}-{5} iş gününde kargoda.": {
+  "ornek_tr": "Kaldırım Sınırlama Dubası - (hxø) 50x9.0 Cm – 22031 UB R (22031 UB R) ₺750. 50 × 9 cm · PPC. Stokta, 1-2 iş gününde kargoda.",
+  "mevcut": "路缘限界锥墩 - (高xø) 50x9.0 cm – 22031 UB R（22031 UB R）₺750。50 × 9 cm · PPC。现货，1-2个工作日内发货。",
+  "yeni": ""
+ },
+ "{s0}. Ölçü: {0} × {1} cm · Malzeme: PPC · Ağırlık: {2} kg · Ürün kodu: {3} UB R Taban:(Ø){4}mm · Montaj:{5}x · Malzeme:PPC · Ağırlık:{6} kg": {
+  "ornek_tr": "Kaldırım Sınırlama Dubası - (hxø) 50x9.0 Cm. Ölçü: 50 × 9 cm · Malzeme: PPC · Ağırlık: 0.9 kg · Ürün kodu: 22031 UB R Taban:(Ø)200mm · Montaj:4x · Malzeme:PPC · Ağırlık:0.90 kg",
+  "mevcut": "路缘限界锥墩 - (高xø) 50x9.0 cm。尺寸：50 × 9 cm · 材质：PPC · 重量：0.9 kg · 产品代码：22031 UB R 底座：(Ø)200mm · 安装：4x · 材质：PPC · 重量：0.90 kg",
+  "yeni": ""
+ },
+ "Kanca, kullanacağınız zincirin kalınlığına uygun olmalıdır — ince kanca kalın zinciri almaz, gevşek kanca ilk temasta çıkar. {s0} siparişinde kanca adedini de hesaplayın: her duba bağlantısı için en az bir kanca gerekir.": {
+  "ornek_tr": "Kanca, kullanacağınız zincirin kalınlığına uygun olmalıdır — ince kanca kalın zinciri almaz, gevşek kanca ilk temasta çıkar. Zincir siparişinde kanca adedini de hesaplayın: her duba bağlantısı için en az bir kanca gerekir.",
+  "mevcut": "挂钩必须与所用链条的粗细相匹配——细挂钩挂不上粗链条，松挂钩一碰就会脱落。订购链条时请一并计算挂钩数量：每个锥墩连接点至少需要一个挂钩。",
+  "yeni": ""
+ },
+ "Katalogdaki delinatörler {0} cm ile {1} cm arasında değişiyor. {2}-{3} cm olanlar otopark içi yönlendirme, yaya yolu ayrımı ve hız düşük olan iç sahalarda tercih edilir. {4}-{5} cm, şehir içi refüj ve yol kenarı için en yaygın boydur; sürücünün göz hizasına yakın kalır. {6} cm ve üzeri, araç hızının yüksek olduğu çevre yolu, viraj ve şantiye girişlerinde kullanılır — uzaktan görünmesi gerekir.": {
+  "ornek_tr": "Katalogdaki delinatörler 30 cm ile 100 cm arasında değişiyor. 30-45 cm olanlar otopark içi yönlendirme, yaya yolu ayrımı ve hız düşük olan iç sahalarda tercih edilir. 70-75 cm, şehir içi refüj ve yol kenarı için en yaygın boydur; sürücünün göz hizasına yakın kalır. 100 cm ve üzeri, araç hızının yüksek olduğu çevre yolu, viraj ve şantiye girişlerinde kullanılır — uzaktan görünmesi gerekir.",
+  "mevcut": "目录中的轮廓标高度在30 cm至100 cm之间。30-45 cm款适用于停车场内导向、人行道分隔以及车速较低的内部场地。70-75 cm是市区隔离带和路边最常用的高度，接近驾驶员视线高度。100 cm及以上用于车速较高的环城公路、弯道和工地出入口——需要从远处就能看到。",
+  "yeni": ""
+ },
+ "{s0} ({0} DB) ₺{1}. {2} × {3} cm · PPC. Stokta, {4}-{5} iş gününde kargoda.": {
+  "ornek_tr": "Katlanır Reklam Levhası - (hxw) 90x60 Cm – 12431 DB (12431 DB) ₺2.988. 90 × 60 cm · PPC. Stokta, 1-2 iş gününde kargoda.",
+  "mevcut": "折叠式广告牌 - (高x宽) 90x60 cm – 12431 DB（12431 DB）₺2.988。90 × 60 cm · PPC。现货，1-2个工作日内发货。",
+  "yeni": ""
+ },
+ "{s0}. Ölçü: {0} × {1} cm · Malzeme: PPC · Ağırlık: {2} kg · Ürün kodu: {3} DB Malzeme: PPC · Levha Dekota: {4}x{5} cm · Ağırlık:{6} kg": {
+  "ornek_tr": "Katlanır Reklam Levhası - (hxw) 90x60 Cm. Ölçü: 90 × 60 cm · Malzeme: PPC · Ağırlık: 12 kg · Ürün kodu: 12431 DB Malzeme: PPC · Levha Dekota: 60x60 cm · Ağırlık:12.0 kg",
+  "mevcut": "折叠式广告牌 - (高x宽) 90x60 cm。尺寸：90 × 60 cm · 材质：PPC · 重量：12 kg · 产品代码：12431 DB 材质：PPC · 标志牌贴膜：60x60 cm · 重量：12.0 kg",
+  "yeni": ""
+ },
+ "{s0}. Ölçü: {0} × {1} cm · Malzeme: PPC · Ağırlık: {2} kg · Ürün kodu: {3} FB R Levha: {4}x{5} cm · Malzeme: PPC · Ağırlık: {6} kg": {
+  "ornek_tr": "Katlanır Uyarı Levhalı Bariyer - (hxw) 110x250 Cm. Ölçü: 110 × 250 cm · Malzeme: PPC · Ağırlık: 37 kg · Ürün kodu: 12504 FB R Levha: 125x75 cm · Malzeme: PPC · Ağırlık: 37.0 kg",
+  "mevcut": "折叠式警示牌护栏 - (高x宽) 110x250 cm。尺寸：110 × 250 cm · 材质：PPC · 重量：37 kg · 产品代码：12504 FB R 标志牌：125x75 cm · 材质：PPC · 重量：37.0 kg",
+  "yeni": ""
+ },
+ "{s0}. Ölçü: {0} × {1} cm · Malzeme: PPC · Ağırlık: {2} kg · Ürün kodu: {3} DB R reflektif: {4}x{5} cm · malzeme: PPC · ağırlık: {6} kg": {
+  "ornek_tr": "Katlanır Uyarı Levhası - (h) 104 Cm / Taban: 31x48 Cm. Ölçü: 31 × 48 cm · Malzeme: PPC · Ağırlık: 11 kg · Ürün kodu: 12415 DB R reflektif: 80x20 cm · malzeme: PPC · ağırlık: 11.0 kg",
+  "mevcut": "折叠式警示牌 - (高) 104 cm / 底座：31x48 cm。尺寸：31 × 48 cm · 材质：PPC · 重量：11 kg · 产品代码：12415 DB R 反光：80x20 cm · 材质：PPC · 重量：11.0 kg",
+  "yeni": ""
+ },
+ "{s0}. Ölçü: {0} × {1} cm · Malzeme: PPC · Ağırlık: {2} kg · Ürün kodu: {3} DB R reflektif: {4}x{5} cm · malzeme: PPC · ağırlık:{6} kg": {
+  "ornek_tr": "Katlanır Uyarı Levhası - (h) 120 Cm / Taban: 31x48 Cm. Ölçü: 31 × 48 cm · Malzeme: PPC · Ağırlık: 12 kg · Ürün kodu: 12410 DB R reflektif: 100x25 cm · malzeme: PPC · ağırlık:12.0 kg",
+  "mevcut": "折叠式警示牌 - (高) 120 cm / 底座：31x48 cm。尺寸：31 × 48 cm · 材质：PPC · 重量：12 kg · 产品代码：12410 DB R 反光：100x25 cm · 材质：PPC · 重量：12.0 kg",
+  "yeni": ""
+ },
+ "{s0} (ZTR{0}) ₺{1}. Kauçuk. Stokta, {2}-{3} iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.": {
+  "ornek_tr": "Kauçuk Kasis Başlık – ZTR401 (ZTR401) ₺390. Kauçuk. Stokta, 1-2 iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.",
+  "mevcut": "橡胶减速带端头 – ZTR401（ZTR401）₺390。橡胶。现货，1-2个工作日内发货。通过Yurtiçi Kargo发往土耳其全境。",
+  "yeni": ""
+ },
+ "{s0} ({0} YK K) ₺{1}. {2} × {3} × {4} cm · PVC-PPC. Stokta, {5}-{6} iş gününde kargoda.": {
+  "ornek_tr": "Kauçuk Şaseli Yol Kasis Kapağı - Ölçü: 4.0x40x20 Cm – 12107 YK K (12107 YK K) ₺684. 4 × 40 × 20 cm · PVC-PPC. Stokta, 1-2 iş gününde kargoda.",
+  "mevcut": "橡胶底座减速带端盖 - 尺寸：4.0x40x20 cm – 12107 YK K（12107 YK K）₺684。4 × 40 × 20 cm · PVC-PPC。现货，1-2个工作日内发货。",
+  "yeni": ""
+ },
+ "{s0} ürününün fiyatı ₺{0} + KDV'dir. KDV dahil satış fiyatı ₺{1}. Fiyata kargo dahil değildir. Ürün kodu {2} YK K.": {
+  "ornek_tr": "Kauçuk Şaseli Yol Kasis Kapağı - Ölçü: 4.0x40x20 Cm – 12107 YK K ürününün fiyatı ₺684 + KDV'dir. KDV dahil satış fiyatı ₺821. Fiyata kargo dahil değildir. Ürün kodu 12107 YK K.",
+  "mevcut": "橡胶底座减速带端盖 - 尺寸：4.0x40x20 cm – 12107 YK K 的价格为₺684 + 增值税。含增值税售价为₺821。价格不含运费。产品代码12107 YK K。",
+  "yeni": ""
+ },
+ "{s0}. Ölçü: {0} × {1} × {2} cm · Malzeme: PVC-PPC · Ağırlık: {3} kg · Ürün kodu: {4} YK K Malzeme: PVC-PPC · Ağırlık: {5} kg · Montaj: {6}x": {
+  "ornek_tr": "Kauçuk Şaseli Yol Kasis Kapağı - Ölçü: 4.0x40x20 Cm. Ölçü: 4 × 40 × 20 cm · Malzeme: PVC-PPC · Ağırlık: 1.7 kg · Ürün kodu: 12107 YK K Malzeme: PVC-PPC · Ağırlık: 1.7 kg · Montaj: 2x",
+  "mevcut": "橡胶底座减速带端盖 - 尺寸：4.0x40x20 cm。尺寸：4 × 40 × 20 cm · 材质：PVC-PPC · 重量：1.7 kg · 产品代码：12107 YK K 材质：PVC-PPC · 重量：1.7 kg · 安装：2x",
+  "yeni": ""
+ },
+ "{s0} ({0} YK) ₺{1}. {2} × {3} × {4} cm · PVC-PPC. Stokta, {5}-{6} iş gününde kargoda.": {
+  "ornek_tr": "Kauçuk Şaseli Yol Kasisi - Ölçü: 4.0x40x50 Cm – 12106 YK (12106 YK) ₺1.608. 4 × 40 × 50 cm · PVC-PPC. Stokta, 1-2 iş gününde kargoda.",
+  "mevcut": "橡胶底座减速带 - 尺寸：4.0x40x50 cm – 12106 YK（12106 YK）₺1.608。4 × 40 × 50 cm · PVC-PPC。现货，1-2个工作日内发货。",
+  "yeni": ""
+ },
+ "{s0} ürününün fiyatı ₺{0} + KDV'dir. KDV dahil satış fiyatı ₺{1}. Fiyata kargo dahil değildir. Ürün kodu {2} YK.": {
+  "ornek_tr": "Kauçuk Şaseli Yol Kasisi - Ölçü: 4.0x40x50 Cm – 12106 YK ürününün fiyatı ₺1.608 + KDV'dir. KDV dahil satış fiyatı ₺1.930. Fiyata kargo dahil değildir. Ürün kodu 12106 YK.",
+  "mevcut": "橡胶底座减速带 - 尺寸：4.0x40x50 cm – 12106 YK 的价格为₺1.608 + 增值税。含增值税售价为₺1.930。价格不含运费。产品代码12106 YK。",
+  "yeni": ""
+ },
+ "{s0}. Ölçü: {0} × {1} × {2} cm · Malzeme: PVC-PPC · Ağırlık: {3} kg · Ürün kodu: {4} YK Malzeme: PVC-PPC · Ağırlık: {5} kg · Montaj: {6}x": {
+  "ornek_tr": "Kauçuk Şaseli Yol Kasisi - Ölçü: 4.0x40x50 Cm. Ölçü: 4 × 40 × 50 cm · Malzeme: PVC-PPC · Ağırlık: 6.5 kg · Ürün kodu: 12106 YK Malzeme: PVC-PPC · Ağırlık: 6.5 kg · Montaj: 4x",
+  "mevcut": "橡胶底座减速带 - 尺寸：4.0x40x50 cm。尺寸：4 × 40 × 50 cm · 材质：PVC-PPC · 重量：6.5 kg · 产品代码：12106 YK 材质：PVC-PPC · 重量：6.5 kg · 安装：4x",
+  "yeni": ""
+ },
+ "{s0} (ZT{0}) ₺{1}. Kauçuk. Stokta, {2}-{3} iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.": {
+  "ornek_tr": "Kauçuk Şerit Ayırıcı – ZT16015 (ZT16015) ₺737. Kauçuk. Stokta, 1-2 iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.",
+  "mevcut": "橡胶车道分隔器 – ZT16015（ZT16015）₺737。橡胶。现货，1-2个工作日内发货。通过Yurtiçi Kargo发往土耳其全境。",
+  "yeni": ""
+ },
+ "{s0} ({0} FB R) ₺{1}. {2} × {3} × {4} cm · PPC · kedi gözü. Stokta, {5}-{6} iş gününde kargoda.": {
+  "ornek_tr": "Kedi Gözlü Güvenlik Bariyeri - (hxlxw) 60x100x40 Cm – 12520 FB R (12520 FB R) ₺4.008. 60 × 100 × 40 cm · PPC · kedi gözü. Stokta, 1-2 iş gününde kargoda.",
+  "mevcut": "猫眼安全护栏 - (高x长x宽) 60x100x40 cm – 12520 FB R（12520 FB R）₺4.008。60 × 100 × 40 cm · PPC · 猫眼。现货，1-2个工作日内发货。",
+  "yeni": ""
+ },
+ "{s0}. Ölçü: {0} × {1} × {2} cm · Malzeme: PPC · Ağırlık: {3} kg · Ürün kodu: {4} FB R Malzeme: PPC · Ağırlık: {5} kg": {
+  "ornek_tr": "Kedi Gözlü Güvenlik Bariyeri - (hxlxw) 60x100x40 Cm. Ölçü: 60 × 100 × 40 cm · Malzeme: PPC · Ağırlık: 20 kg · Ürün kodu: 12520 FB R Malzeme: PPC · Ağırlık: 20.0 kg",
+  "mevcut": "猫眼安全护栏 - (高x长x宽) 60x100x40 cm。尺寸：60 × 100 × 40 cm · 材质：PPC · 重量：20 kg · 产品代码：12520 FB R 材质：PPC · 重量：20.0 kg",
+  "yeni": ""
+ },
+ "{s0} (ZT{0}Y) ₺{1}. PPC · kedi gözü. Stokta, {2}-{3} iş gününde kargoda.": {
+  "ornek_tr": "Kedi Gözlü Kasis Sarı Gövde Başlığı – ZT40301Y (ZT40301Y) ₺104. PPC · kedi gözü. Stokta, 1-2 iş gününde kargoda.",
+  "mevcut": "猫眼减速带 黄色主体端头 – ZT40301Y（ZT40301Y）₺104。PPC · 猫眼。现货，1-2个工作日内发货。",
+  "yeni": ""
+ },
+ "{s0}. Reflektif: kedi gözü · Ürün kodu: ZT{0}Y": {
+  "ornek_tr": "Kedi Gözlü Kasis Sarı Gövde Başlığı. Reflektif: kedi gözü · Ürün kodu: ZT40301Y",
+  "mevcut": "猫眼减速带 黄色主体端头。反光：猫眼 · 产品代码：ZT40301Y",
+  "yeni": ""
+ },
+ "{s0} (ZT{0}Y) ₺{1}. PPC · kedi gözü. Stokta, {2}-{3} iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.": {
+  "ornek_tr": "Kedi Gözlü Kasis Sarı – ZT40300Y (ZT40300Y) ₺321. PPC · kedi gözü. Stokta, 1-2 iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.",
+  "mevcut": "猫眼减速带 黄色 – ZT40300Y（ZT40300Y）₺321。PPC · 猫眼。现货，1-2个工作日内发货。通过Yurtiçi Kargo发往土耳其全境。",
+  "yeni": ""
+ },
+ "{s0} (ZT{0}) ₺{1}. PPC · kedi gözü. Stokta, {2}-{3} iş gününde kargoda.": {
+  "ornek_tr": "Kedi Gözlü Kasis Siyah Gövde Başlığı – ZT40301 (ZT40301) ₺104. PPC · kedi gözü. Stokta, 1-2 iş gününde kargoda.",
+  "mevcut": "猫眼减速带 黑色主体端头 – ZT40301（ZT40301）₺104。PPC · 猫眼。现货，1-2个工作日内发货。",
+  "yeni": ""
+ },
+ "{s0}. Reflektif: kedi gözü · Ürün kodu: ZT{0}": {
+  "ornek_tr": "Kedi Gözlü Kasis Siyah Gövde Başlığı. Reflektif: kedi gözü · Ürün kodu: ZT40301",
+  "mevcut": "猫眼减速带 黑色主体端头。反光：猫眼 · 产品代码：ZT40301",
+  "yeni": ""
+ },
+ "{s0} (ZT{0}) ₺{1}. PPC · kedi gözü. Stokta, {2}-{3} iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.": {
+  "ornek_tr": "Kedi Gözlü Kasis Siyah – ZT40300 (ZT40300) ₺321. PPC · kedi gözü. Stokta, 1-2 iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.",
+  "mevcut": "猫眼减速带 黑色 – ZT40300（ZT40300）₺321。PPC · 猫眼。现货，1-2个工作日内发货。通过Yurtiçi Kargo发往土耳其全境。",
+  "yeni": ""
+ },
+ "{s0} (ZT{0}) ₺{1}. PPC-PC · kedi gözü. Stokta, {2}-{3} iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.": {
+  "ornek_tr": "Kedi Gözlü Yol Butonu Dikdörtgen – ZT8002 (ZT8002) ₺87. PPC-PC · kedi gözü. Stokta, 1-2 iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.",
+  "mevcut": "猫眼道钉 矩形 – ZT8002（ZT8002）₺87。PPC-PC · 猫眼。现货，1-2个工作日内发货。通过Yurtiçi Kargo发往土耳其全境。",
+  "yeni": ""
+ },
+ "{s0} · PPC-PC · kedi gözü": {
+  "ornek_tr": "Kedi Gözlü Yol Butonu Yuvarlak – ZT8001 · PPC-PC · kedi gözü",
+  "mevcut": "猫眼道钉 圆形 – ZT8001 · PPC-PC · 猫眼",
+  "yeni": ""
+ },
+ "{s0} ({0} YK K) ₺{1}. {2} × {3} × {4} cm · PPC · kedi gözü. Stokta, {5}-{6} iş gününde kargoda.": {
+  "ornek_tr": "Kedi Gözlü Yol Kasis Kapağı - Ölçü: 4.5x50x25 Cm – 12113 YK K (12113 YK K) ₺487. 4.5 × 50 × 25 cm · PPC · kedi gözü. Stokta, 1-2 iş gününde kargoda.",
+  "mevcut": "猫眼减速带端盖 - 尺寸：4.5x50x25 cm – 12113 YK K（12113 YK K）₺487。4.5 × 50 × 25 cm · PPC · 猫眼。现货，1-2个工作日内发货。",
+  "yeni": ""
+ },
+ "{s0}. Ölçü: {0} × {1} × {2} cm · Malzeme: PPC · Ağırlık: {3} kg · Ürün kodu: {4} YK K Malzeme: PPC · Ağırlık: {5} kg · Montaj: {6}x": {
+  "ornek_tr": "Kedi Gözlü Yol Kasis Kapağı - Ölçü: 4.5x50x25 Cm. Ölçü: 4.5 × 50 × 25 cm · Malzeme: PPC · Ağırlık: 1.1 kg · Ürün kodu: 12113 YK K Malzeme: PPC · Ağırlık: 1.1 kg · Montaj: 2x",
+  "mevcut": "猫眼减速带端盖 - 尺寸：4.5x50x25 cm。尺寸：4.5 × 50 × 25 cm · 材质：PPC · 重量：1.1 kg · 产品代码：12113 YK K 材质：PPC · 重量：1.1 kg · 安装：2x",
+  "yeni": ""
+ },
+ "{s0} ({0} YK) ₺{1}. {2} × {3} × {4} cm · PPC · kedi gözü. Stokta, {5}-{6} iş gününde kargoda.": {
+  "ornek_tr": "Kedi Gözlü Yol Kasisi - Ölçü: 4.5x50x50 Cm – 12112 YK (12112 YK) ₺1.404. 4.5 × 50 × 50 cm · PPC · kedi gözü. Stokta, 1-2 iş gününde kargoda.",
+  "mevcut": "猫眼减速带 - 尺寸：4.5x50x50 cm – 12112 YK（12112 YK）₺1.404。4.5 × 50 × 50 cm · PPC · 猫眼。现货，1-2个工作日内发货。",
+  "yeni": ""
+ },
+ "{s0}. Ölçü: {0} × {1} × {2} cm · Malzeme: PPC · Ağırlık: {3} kg · Ürün kodu: {4} YK Malzeme: PPC · Ağırlık: {5} kg · Montaj: {6}x": {
+  "ornek_tr": "Kedi Gözlü Yol Kasisi - Ölçü: 4.5x50x50 Cm. Ölçü: 4.5 × 50 × 50 cm · Malzeme: PPC · Ağırlık: 3.1 kg · Ürün kodu: 12112 YK Malzeme: PPC · Ağırlık: 3.1 kg · Montaj: 4x",
+  "mevcut": "猫眼减速带 - 尺寸：4.5x50x50 cm。尺寸：4.5 × 50 × 50 cm · 材质：PPC · 重量：3.1 kg · 产品代码：12112 YK 材质：PPC · 重量：3.1 kg · 安装：4x",
+  "yeni": ""
+ },
+ "{s0} ({0} UB) ₺{1}. {2} × {3} × {4} cm · PPC · kedi gözü. Stokta, {5}-{6} iş gününde kargoda.": {
+  "ornek_tr": "Kedi Gözlü Şerit Sınırlama Butonu-(hxlxw)7.5x100x22cm – 12262 UB (12262 UB) ₺2.172. 7.5 × 100 × 22 cm · PPC · kedi gözü. Stokta, 1-2 iş gününde kargoda.",
+  "mevcut": "猫眼车道限界道钉-(高x长x宽)7.5x100x22cm – 12262 UB（12262 UB）₺2.172。7.5 × 100 × 22 cm · PPC · 猫眼。现货，1-2个工作日内发货。",
+  "yeni": ""
+ },
+ "Kelepçe, dikmenin çapına göre seçilir — Ø{0} dikme için Ø{1} kelepçe, Ø{2} dikme için Ø{3} kelepçe gerekir. Yanlış çap takılmaz veya gevşek kalır. Bir panel levhası genellikle iki kelepçe ile sabitlenir; sipariş adedini buna göre hesaplayın.": {
+  "ornek_tr": "Kelepçe, dikmenin çapına göre seçilir — Ø63 dikme için Ø63 kelepçe, Ø110 dikme için Ø110 kelepçe gerekir. Yanlış çap takılmaz veya gevşek kalır. Bir panel levhası genellikle iki kelepçe ile sabitlenir; sipariş adedini buna göre hesaplayın.",
+  "mevcut": "卡箍按立柱直径选择——Ø63立柱需配Ø63卡箍，Ø110立柱需配Ø110卡箍。直径不对则装不上或会松动。一块面板标志牌通常用两个卡箍固定；请据此计算订购数量。",
+  "yeni": ""
+ },
+ "{s0} ({0} UB ST) ₺{1}. {2} × {3} cm · PPC-ST. Stokta, {4}-{5} iş gününde kargoda.": {
+  "ornek_tr": "Kilitli Otopark Bariyeri - (hxw) 50x38 Cm – 22210 UB ST (22210 UB ST) ₺1.920. 50 × 38 cm · PPC-ST. Stokta, 1-2 iş gününde kargoda.",
+  "mevcut": "带锁停车位地锁 - (高x宽) 50x38 cm – 22210 UB ST（22210 UB ST）₺1.920。50 × 38 cm · PPC-ST。现货，1-2个工作日内发货。",
+  "yeni": ""
+ },
+ "{s0}. Ölçü: {0} × {1} cm · Malzeme: PPC-ST · Ağırlık: {2} kg · Ürün kodu: {3} UB ST Malzeme: PPC-ST · Ağırlık: {4} kg · Montaj: {5}x": {
+  "ornek_tr": "Kilitli Otopark Bariyeri - (hxw) 50x38 Cm. Ölçü: 50 × 38 cm · Malzeme: PPC-ST · Ağırlık: 5.4 kg · Ürün kodu: 22210 UB ST Malzeme: PPC-ST · Ağırlık: 5.40 kg · Montaj: 3x",
+  "mevcut": "带锁停车位地锁 - (高x宽) 50x38 cm。尺寸：50 × 38 cm · 材质：PPC-ST · 重量：5.4 kg · 产品代码：22210 UB ST 材质：PPC-ST · 重量：5.40 kg · 安装：3x",
+  "yeni": ""
+ },
+ "{s0} ({0} TK) ₺{1}. PPC · kedi gözü. Stokta, {2}-{3} iş gününde kargoda.": {
+  "ornek_tr": "Klasik Kedi Gözlü Koni - (h) 50 Cm – 12300 TK (12300 TK) ₺559. PPC · kedi gözü. Stokta, 1-2 iş gününde kargoda.",
+  "mevcut": "经典猫眼交通锥 - (高) 50 cm – 12300 TK（12300 TK）₺559。PPC · 猫眼。现货，1-2个工作日内发货。",
+  "yeni": ""
+ },
+ "{s0} ({0} TK A) ₺{1}. PPC · kedi gözü. Stokta, {2}-{3} iş gününde kargoda.": {
+  "ornek_tr": "Klasik Kedi Gözlü Koni - (h) 50 Cm – 12301 TK A (12301 TK A) ₺810. PPC · kedi gözü. Stokta, 1-2 iş gününde kargoda.",
+  "mevcut": "经典猫眼交通锥 - (高) 50 cm – 12301 TK A（12301 TK A）₺810。PPC · 猫眼。现货，1-2个工作日内发货。",
+  "yeni": ""
+ },
+ "{s0} ürününün fiyatı ₺{0} + KDV'dir. KDV dahil satış fiyatı ₺{1}. Fiyata kargo dahil değildir. Ürün kodu {2} TK A.": {
+  "ornek_tr": "Klasik Kedi Gözlü Koni - (h) 50 Cm – 12301 TK A ürününün fiyatı ₺810 + KDV'dir. KDV dahil satış fiyatı ₺972. Fiyata kargo dahil değildir. Ürün kodu 12301 TK A.",
+  "mevcut": "经典猫眼交通锥 - (高) 50 cm – 12301 TK A 的价格为₺810 + 增值税。含增值税售价为₺972。价格不含运费。产品代码12301 TK A。",
+  "yeni": ""
+ },
+ "{s0}. Malzeme: PPC · Ağırlık: {0} kg · Ürün kodu: {1} TK A Taban:( ) {2} cm · Malzeme: PPC · Ağırlık: {3} kg": {
+  "ornek_tr": "Klasik Kedi Gözlü Koni - (h) 50 Cm. Malzeme: PPC · Ağırlık: 4 kg · Ürün kodu: 12301 TK A Taban:( ) 35 cm · Malzeme: PPC · Ağırlık: 4.0 kg",
+  "mevcut": "经典猫眼交通锥 - (高) 50 cm。材质：PPC · 重量：4 kg · 产品代码：12301 TK A 底座：( ) 35 cm · 材质：PPC · 重量：4.0 kg",
+  "yeni": ""
+ },
+ "{s0}. Seri: Ekonomik (Eko) · Ürün kodu: ZT{0}": {
+  "ornek_tr": "Kolon Köşe Koruyucu Eko. Seri: Ekonomik (Eko) · Ürün kodu: ZT90141",
+  "mevcut": "经济型立柱护角。系列：经济型（Eko） · 产品代码：ZT90141",
+  "yeni": ""
+ },
+ "{s0} — Kapalı Otoparkta Hasarı Önleme Rehberi": {
+  "ornek_tr": "Kolon Köşe Koruyucu — Kapalı Otoparkta Hasarı Önleme Rehberi",
+  "mevcut": "立柱护角——室内停车场防损指南",
+  "yeni": ""
+ },
+ "{s0} ({0} A R) ₺{1}. Stokta, {2}-{3} iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.": {
+  "ornek_tr": "Koni Ve Dikme Barikat Profili - (l) 150 Cm – 152 A R (152 A R) ₺852. Stokta, 1-2 iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.",
+  "mevcut": "交通锥及立柱路障横杆 - (长) 150 cm – 152 A R（152 A R）₺852。现货，1-2个工作日内发货。通过Yurtiçi Kargo发往土耳其全境。",
+  "yeni": ""
+ },
+ "{s0} ürününün fiyatı ₺{0} + KDV'dir. KDV dahil satış fiyatı ₺{1}. Fiyata kargo dahil değildir. Ürün kodu {2} A R.": {
+  "ornek_tr": "Koni Ve Dikme Barikat Profili - (l) 150 Cm – 152 A R ürününün fiyatı ₺852 + KDV'dir. KDV dahil satış fiyatı ₺1.022. Fiyata kargo dahil değildir. Ürün kodu 152 A R.",
+  "mevcut": "交通锥及立柱路障横杆 - (长) 150 cm – 152 A R 的价格为₺852 + 增值税。含增值税售价为₺1.022。价格不含运费。产品代码152 A R。",
+  "yeni": ""
+ },
+ "{s0}. Ürün kodu: {0} A R": {
+  "ornek_tr": "Koni Ve Dikme Barikat Profili - (l) 150 Cm. Ürün kodu: 152 A R",
+  "mevcut": "交通锥及立柱路障横杆 - (长) 150 cm。产品代码：152 A R",
+  "yeni": ""
+ },
+ "{s0} (ZTMB{0}) ₺{1}. Stokta, {2}-{3} iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.": {
+  "ornek_tr": "Krom Şerit Bariyer – ZTMB01 (ZTMB01) ₺3.207. Stokta, 1-2 iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.",
+  "mevcut": "镀铬伸缩带隔离柱 – ZTMB01（ZTMB01）₺3.207。现货，1-2个工作日内发货。通过Yurtiçi Kargo发往土耳其全境。",
+  "yeni": ""
+ },
+ "{s0} ürününün fiyatı ₺{0} + KDV'dir. KDV dahil satış fiyatı ₺{1}. Fiyata kargo dahil değildir. Ürün kodu ZTMB{2}.": {
+  "ornek_tr": "Krom Şerit Bariyer – ZTMB01 ürününün fiyatı ₺3.207 + KDV'dir. KDV dahil satış fiyatı ₺3.848. Fiyata kargo dahil değildir. Ürün kodu ZTMB01.",
+  "mevcut": "镀铬伸缩带隔离柱 – ZTMB01 的价格为₺3.207 + 增值税。含增值税售价为₺3.848。价格不含运费。产品代码ZTMB01。",
+  "yeni": ""
+ },
+ "{s0}. Ürün kodu: ZTMB{0}": {
+  "ornek_tr": "Krom Şerit Bariyer. Ürün kodu: ZTMB01",
+  "mevcut": "镀铬伸缩带隔离柱。产品代码：ZTMB01",
+  "yeni": ""
+ },
+ "{s0} (ZT{0}A) ₺{1}. PP. Stokta, {2}-{3} iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.": {
+  "ornek_tr": "Kırmızı Beyaz Zincir 6 mm – ZT511A (ZT511A) ₺650. PP. Stokta, 1-2 iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.",
+  "mevcut": "红白链条 6 mm – ZT511A（ZT511A）₺650。PP。现货，1-2个工作日内发货。通过Yurtiçi Kargo发往土耳其全境。",
+  "yeni": ""
+ },
+ "{s0}. Ölçü: {0} × {1} cm · Malzeme: PC · Ağırlık: {2} kg · Ürün kodu: {3} FL A Flaş Lens: Ø{4} mm · Malzeme: PC · Ağırlık: {5} kg": {
+  "ornek_tr": "Ledli Lamba - (hxw) 40x40 Cm - Sarı Led. Ölçü: 40 × 40 cm · Malzeme: PC · Ağırlık: 3.1 kg · Ürün kodu: 11885 FL A Flaş Lens: Ø300 mm · Malzeme: PC · Ağırlık: 3.1 kg",
+  "mevcut": "LED灯 - (高x宽) 40x40 cm - 黄色LED。尺寸：40 × 40 cm · 材质：PC · 重量：3.1 kg · 产品代码：11885 FL A 闪光透镜：Ø300 mm · 材质：PC · 重量：3.1 kg",
+  "yeni": ""
+ },
+ "{s0} ({0} UB R) ₺{1}. {2} × {3} cm · TPU. Stokta, {4}-{5} iş gününde kargoda.": {
+  "ornek_tr": "Levhalı Esnek Delinatör - (hxl)45x12 Cm/taban:(ø)200 Mm – 22068 UB R (22068 UB R) ₺816. 45 × 12 cm · TPU. Stokta, 1-2 iş gününde kargoda.",
+  "mevcut": "带标志牌弹性轮廓标 - (高x长)45x12 cm/底座：(ø)200 mm – 22068 UB R（22068 UB R）₺816。45 × 12 cm · TPU。现货，1-2个工作日内发货。",
+  "yeni": ""
+ },
+ "{s0}. Ölçü: {0} × {1} cm · Malzeme: TPU · Ağırlık: {2} kg · Ürün kodu: {3} UB R Montaj: {4}x · Malzeme: TPU · Ağırlık: {5} kg": {
+  "ornek_tr": "Levhalı Esnek Delinatör - (hxl)45x12 Cm/taban:(ø)200 Mm. Ölçü: 45 × 12 cm · Malzeme: TPU · Ağırlık: 0.95 kg · Ürün kodu: 22068 UB R Montaj: 4x · Malzeme: TPU · Ağırlık: 0.95 kg",
+  "mevcut": "带标志牌弹性轮廓标 - (高x长)45x12 cm/底座：(ø)200 mm。尺寸：45 × 12 cm · 材质：TPU · 重量：0.95 kg · 产品代码：22068 UB R 安装：4x · 材质：TPU · 重量：0.95 kg",
+  "yeni": ""
+ },
+ "Levhalı Esnek {s0} - (hxl){0}x{1} – {2} UB R": {
+  "ornek_tr": "Levhalı Esnek Delinatör - (hxl)45x12 – 22068 UB R",
+  "mevcut": "带标志牌弹性轮廓标 - (高x长)45x12 – 22068 UB R",
+  "yeni": ""
+ },
+ "{s0} ({0} UB R) ₺{1}. TPU. Stokta, {2}-{3} iş gününde kargoda.": {
+  "ornek_tr": "Levhalı Esnek Refüj Dubası-(h)103cm Levha Ölçü:100x400mm – 22032 UB R (22032 UB R) ₺2.340. TPU. Stokta, 1-2 iş gününde kargoda.",
+  "mevcut": "带标志牌弹性隔离带锥墩-(高)103cm 标志牌尺寸：100x400mm – 22032 UB R（22032 UB R）₺2.340。TPU。现货，1-2个工作日内发货。",
+  "yeni": ""
+ },
+ "{s0}. Ölçü: {0} × {1} cm · Malzeme: PPC · Ağırlık: {2} kg · Ürün kodu: {3} FB R Levha: {4}x{5} cm · Malzeme:PPC · Ağırlık:{6} kg": {
+  "ornek_tr": "Levhalı Güvenlik Barikatı - (hxl) 100x150 Cm. Ölçü: 100 × 150 cm · Malzeme: PPC · Ağırlık: 12.3 kg · Ürün kodu: 12513 FB R Levha: 100x50 cm · Malzeme:PPC · Ağırlık:12.3 kg",
+  "mevcut": "带标志牌安全路障 - (高x长) 100x150 cm。尺寸：100 × 150 cm · 材质：PPC · 重量：12.3 kg · 产品代码：12513 FB R 标志牌：100x50 cm · 材质：PPC · 重量：12.3 kg",
+  "yeni": ""
+ },
+ "{s0}. Ölçü: {0} × {1} × {2} cm · Malzeme: PPC · Ağırlık: {3} kg · Ürün kodu: {4} FB R Reflektif:(HxW) {5}x{6} cm · Malzeme:PPC · Ağırlık:{7} kg": {
+  "ornek_tr": "Levhalı Güvenlik Bariyeri - (hxlxw) 120x100x40 Cm. Ölçü: 120 × 100 × 40 cm · Malzeme: PPC · Ağırlık: 20 kg · Ürün kodu: 12522 FB R Reflektif:(HxW) 50x12 cm · Malzeme:PPC · Ağırlık:20.0 kg",
+  "mevcut": "带标志牌安全护栏 - (高x长x宽) 120x100x40 cm。尺寸：120 × 100 × 40 cm · 材质：PPC · 重量：20 kg · 产品代码：12522 FB R 反光：(高x宽) 50x12 cm · 材质：PPC · 重量：20.0 kg",
+  "yeni": ""
+ },
+ "{s0} ({0} DB F A) ₺{1}. {2} × {3} cm · PPC. Stokta, {4}-{5} iş gününde kargoda.": {
+  "ornek_tr": "Levhalı Reklam Dubası - (hxw) 90x49 Cm - İki Yönde Uyarı – 12421 DB F A (12421 DB F A) ₺1.944. 90 × 49 cm · PPC. Stokta, 1-2 iş gününde kargoda.",
+  "mevcut": "带标志牌广告锥墩 - (高x宽) 90x49 cm - 双向警示 – 12421 DB F A（12421 DB F A）₺1.944。90 × 49 cm · PPC。现货，1-2个工作日内发货。",
+  "yeni": ""
+ },
+ "{s0} ürününün fiyatı ₺{0} + KDV'dir. KDV dahil satış fiyatı ₺{1}. Fiyata kargo dahil değildir. Ürün kodu {2} DB F A.": {
+  "ornek_tr": "Levhalı Reklam Dubası - (hxw) 90x49 Cm - İki Yönde Uyarı – 12421 DB F A ürününün fiyatı ₺1.944 + KDV'dir. KDV dahil satış fiyatı ₺2.333. Fiyata kargo dahil değildir. Ürün kodu 12421 DB F A.",
+  "mevcut": "带标志牌广告锥墩 - (高x宽) 90x49 cm - 双向警示 – 12421 DB F A 的价格为₺1.944 + 增值税。含增值税售价为₺2.333。价格不含运费。产品代码12421 DB F A。",
+  "yeni": ""
+ },
+ "{s0}. Ölçü: {0} × {1} cm · Malzeme: PPC · Ağırlık: {2} kg · Ürün kodu: {3} DB F A Folyo: {4}x{5} cm · malzeme: PPC · ağırlık: {6} kg": {
+  "ornek_tr": "Levhalı Reklam Dubası - (hxw) 90x49 Cm - İki Yönde Uyarı. Ölçü: 90 × 49 cm · Malzeme: PPC · Ağırlık: 7.5 kg · Ürün kodu: 12421 DB F A Folyo: 60x40 cm · malzeme: PPC · ağırlık: 7.5 kg",
+  "mevcut": "带标志牌广告锥墩 - (高x宽) 90x49 cm - 双向警示。尺寸：90 × 49 cm · 材质：PPC · 重量：7.5 kg · 产品代码：12421 DB F A 贴膜：60x40 cm · 材质：PPC · 重量：7.5 kg",
+  "yeni": ""
+ },
+ "{s0}. Ölçü: {0} × {1} cm · Malzeme: PPC · Ağırlık: {2} kg · Ürün kodu: {3} DB F A Renk:Kırmızı · Folyo:{4}x{5}cm · Malzeme:PPC · Ağırlık:{6}kg": {
+  "ornek_tr": "Levhalı Reklam Dubası - (hxw) 90x49 Cm - İki Yönde Uyarı. Ölçü: 90 × 49 cm · Malzeme: PPC · Ağırlık: 7.5 kg · Ürün kodu: 12424 DB F A Renk:Kırmızı · Folyo:60x40cm · Malzeme:PPC · Ağırlık:7.5kg",
+  "mevcut": "带标志牌广告锥墩 - (高x宽) 90x49 cm - 双向警示。尺寸：90 × 49 cm · 材质：PPC · 重量：7.5 kg · 产品代码：12424 DB F A 颜色：红色 · 贴膜：60x40cm · 材质：PPC · 重量：7.5kg",
+  "yeni": ""
+ },
+ "{s0} - İki – {0} DB F A": {
+  "ornek_tr": "Levhalı Reklam Dubası - (hxw) 90x49 Cm - İki – 12421 DB F A",
+  "mevcut": "带标志牌广告锥墩 - (高x宽) 90x49 cm - 双 – 12421 DB F A",
+  "yeni": ""
+ },
+ "{s0} ({0} DB A) ₺{1}. {2} × {3} cm · PPC. Stokta, {4}-{5} iş gününde kargoda.": {
+  "ornek_tr": "Levhalı Reklam Dubası - (hxw) 90x49 Cm – 12426 DB A (12426 DB A) ₺1.512. 90 × 49 cm · PPC. Stokta, 1-2 iş gününde kargoda.",
+  "mevcut": "带标志牌广告锥墩 - (高x宽) 90x49 cm – 12426 DB A（12426 DB A）₺1.512。90 × 49 cm · PPC。现货，1-2个工作日内发货。",
+  "yeni": ""
+ },
+ "{s0} ürününün fiyatı ₺{0} + KDV'dir. KDV dahil satış fiyatı ₺{1}. Fiyata kargo dahil değildir. Ürün kodu {2} DB A.": {
+  "ornek_tr": "Levhalı Reklam Dubası - (hxw) 90x49 Cm – 12426 DB A ürününün fiyatı ₺1.512 + KDV'dir. KDV dahil satış fiyatı ₺1.814. Fiyata kargo dahil değildir. Ürün kodu 12426 DB A.",
+  "mevcut": "带标志牌广告锥墩 - (高x宽) 90x49 cm – 12426 DB A 的价格为₺1.512 + 增值税。含增值税售价为₺1.814。价格不含运费。产品代码12426 DB A。",
+  "yeni": ""
+ },
+ "{s0}. Ölçü: {0} × {1} cm · Malzeme: PPC · Ağırlık: {2} kg · Ürün kodu: {3} DB A Renk: Gri · Malzeme: PPC · Ağırlık: {4} kg": {
+  "ornek_tr": "Levhalı Reklam Dubası - (hxw) 90x49 Cm. Ölçü: 90 × 49 cm · Malzeme: PPC · Ağırlık: 7.5 kg · Ürün kodu: 12426 DB A Renk: Gri · Malzeme: PPC · Ağırlık: 7.5 kg",
+  "mevcut": "带标志牌广告锥墩 - (高x宽) 90x49 cm。尺寸：90 × 49 cm · 材质：PPC · 重量：7.5 kg · 产品代码：12426 DB A 颜色：灰色 · 材质：PPC · 重量：7.5 kg",
+  "yeni": ""
+ },
+ "{s0}. Ölçü: {0} × {1} cm · Malzeme: PPC · Ağırlık: {2} kg · Ürün kodu: {3} DB A Renk: Sarı · Malzeme: PPC · Ağırlık: {4} kg": {
+  "ornek_tr": "Levhalı Reklam Dubası - (hxw) 90x49 Cm. Ölçü: 90 × 49 cm · Malzeme: PPC · Ağırlık: 7.5 kg · Ürün kodu: 12427 DB A Renk: Sarı · Malzeme: PPC · Ağırlık: 7.5 kg",
+  "mevcut": "带标志牌广告锥墩 - (高x宽) 90x49 cm。尺寸：90 × 49 cm · 材质：PPC · 重量：7.5 kg · 产品代码：12427 DB A 颜色：黄色 · 材质：PPC · 重量：7.5 kg",
+  "yeni": ""
+ },
+ "{s0}. Ölçü: {0} × {1} cm · Malzeme: PPC · Ağırlık: {2} kg · Ürün kodu: {3} DB A Malzeme: PPC · Ağırlık: {4} kg": {
+  "ornek_tr": "Levhalı Reklam Dubası - (hxw) 90x49 Cm. Ölçü: 90 × 49 cm · Malzeme: PPC · Ağırlık: 7.5 kg · Ürün kodu: 12429 DB A Malzeme: PPC · Ağırlık: 7.5 kg",
+  "mevcut": "带标志牌广告锥墩 - (高x宽) 90x49 cm。尺寸：90 × 49 cm · 材质：PPC · 重量：7.5 kg · 产品代码：12429 DB A 材质：PPC · 重量：7.5 kg",
+  "yeni": ""
+ },
+ "{s0} ({0} UB R) ₺{1}. {2} × {3} × {4} cm · ABS-TPU. Stokta, {5}-{6} iş gününde kargoda.": {
+  "ornek_tr": "Levhalı Şerit Düzenleme Butonu - (hxlxw) 28.5x18x20cm – 22203 UB R (22203 UB R) ₺684. 28.5 × 18 × 20 cm · ABS-TPU. Stokta, 1-2 iş gününde kargoda.",
+  "mevcut": "带标志牌车道导向道钉 - (高x长x宽) 28.5x18x20cm – 22203 UB R（22203 UB R）₺684。28.5 × 18 × 20 cm · ABS-TPU。现货，1-2个工作日内发货。",
+  "yeni": ""
+ },
+ "{s0}. Ölçü: {0} × {1} × {2} cm · Malzeme: ABS-TPU · Ağırlık: {3} kg · Ürün kodu: {4} UB R Montaj: {5}x · Malzeme: ABS-TPU · Ağırlık: {6} kg": {
+  "ornek_tr": "Levhalı Şerit Düzenleme Butonu - (hxlxw) 28.5x18x20cm. Ölçü: 28.5 × 18 × 20 cm · Malzeme: ABS-TPU · Ağırlık: 0.62 kg · Ürün kodu: 22203 UB R Montaj: 2x · Malzeme: ABS-TPU · Ağırlık: 0.62 kg",
+  "mevcut": "带标志牌车道导向道钉 - (高x长x宽) 28.5x18x20cm。尺寸：28.5 × 18 × 20 cm · 材质：ABS-TPU · 重量：0.62 kg · 产品代码：22203 UB R 安装：2x · 材质：ABS-TPU · 重量：0.62 kg",
+  "yeni": ""
+ },
+ "{s0}. Ölçü: {0} × {1} × {2} cm · Malzeme: PPC-TPU · Ağırlık: {3} kg · Ürün kodu: {4} UB R Montaj: {5}x · Malzeme: PPC-TPU · Ağırlık: {6} kg": {
+  "ornek_tr": "Levhalı Şerit Düzenleme Butonu - (hxlxw) 30x118x15 Cm. Ölçü: 30 × 118 × 15 cm · Malzeme: PPC-TPU · Ağırlık: 2.5 kg · Ürün kodu: 12203 UB R Montaj: 3x · Malzeme: PPC-TPU · Ağırlık: 2.5 kg",
+  "mevcut": "带标志牌车道导向道钉 - (高x长x宽) 30x118x15 cm。尺寸：30 × 118 × 15 cm · 材质：PPC-TPU · 重量：2.5 kg · 产品代码：12203 UB R 安装：3x · 材质：PPC-TPU · 重量：2.5 kg",
+  "yeni": ""
+ },
+ "{s0} ({0} UB R) ₺{1}. {2} × {3} × {4} cm · PPC. Stokta, {5}-{6} iş gününde kargoda.": {
+  "ornek_tr": "Levhalı Şerit Düzenleme Butonu - (hxlxw) 66x100x22 Cm – 12266 UB R (12266 UB R) ₺2.100. 66 × 100 × 22 cm · PPC. Stokta, 1-2 iş gününde kargoda.",
+  "mevcut": "带标志牌车道导向道钉 - (高x长x宽) 66x100x22 cm – 12266 UB R（12266 UB R）₺2.100。66 × 100 × 22 cm · PPC。现货，1-2个工作日内发货。",
+  "yeni": ""
+ },
+ "{s0}. Ölçü: {0} × {1} × {2} cm · Malzeme: PPC · Ağırlık: {3} kg · Ürün kodu: {4} UB R Montaj: {5}x · Malzeme: PPC · Ağırlık: {6} kg Prismatic Reflective Sheeting": {
+  "ornek_tr": "Levhalı Şerit Düzenleme Butonu - (hxlxw) 66x100x22 Cm. Ölçü: 66 × 100 × 22 cm · Malzeme: PPC · Ağırlık: 3.6 kg · Ürün kodu: 12266 UB R Montaj: 6x · Malzeme: PPC · Ağırlık: 3.6 kg Prismatic Reflective Sheeting",
+  "mevcut": "带标志牌车道导向道钉 - (高x长x宽) 66x100x22 cm。尺寸：66 × 100 × 22 cm · 材质：PPC · 重量：3.6 kg · 产品代码：12266 UB R 安装：6x · 材质：PPC · 重量：3.6 kg 棱镜型反光膜",
+  "yeni": ""
+ },
+ "{s0} ({0} DB R) ₺{1}. {2} × {3} × {4} cm · PPC. Stokta, {5}-{6} iş gününde kargoda.": {
+  "ornek_tr": "Levhalı Şerit Düzenleme Butonu - (hxlxw)102.5x30x25cm – 22205 DB R (22205 DB R) ₺2.004. 102.5 × 30 × 25 cm · PPC. Stokta, 1-2 iş gününde kargoda.",
+  "mevcut": "带标志牌车道导向道钉 - (高x长x宽)102.5x30x25cm – 22205 DB R（22205 DB R）₺2.004。102.5 × 30 × 25 cm · PPC。现货，1-2个工作日内发货。",
+  "yeni": ""
+ },
+ "{s0}. Ölçü: {0} × {1} × {2} cm · Malzeme: PPC · Ağırlık: {3} kg · Ürün kodu: {4} DB R Reflektif:{5}x{6}cm · Montaj:{7}x · Malzeme:PPC · Ağırlık:{8}kg": {
+  "ornek_tr": "Levhalı Şerit Düzenleme Butonu - (hxlxw)102.5x30x25cm. Ölçü: 102.5 × 30 × 25 cm · Malzeme: PPC · Ağırlık: 2.85 kg · Ürün kodu: 22205 DB R Reflektif:80x20cm · Montaj:2x · Malzeme:PPC · Ağırlık:2.85kg",
+  "mevcut": "带标志牌车道导向道钉 - (高x长x宽)102.5x30x25cm。尺寸：102.5 × 30 × 25 cm · 材质：PPC · 重量：2.85 kg · 产品代码：22205 DB R 反光：80x20cm · 安装：2x · 材质：PPC · 重量：2.85kg",
+  "yeni": ""
+ },
+ "{s0} ({0} YK) ₺{1}. PPC · mercekli. Stokta, {2}-{3} iş gününde kargoda.": {
+  "ornek_tr": "Mercekli Yol Butonu - (ø) 250x35 Mm – 12123 YK (12123 YK) ₺590. PPC · mercekli. Stokta, 1-2 iş gününde kargoda.",
+  "mevcut": "透镜道钉 - (ø) 250x35 mm – 12123 YK（12123 YK）₺590。PPC · 透镜。现货，1-2个工作日内发货。",
+  "yeni": ""
+ },
+ "{s0}. Malzeme: PPC · Ağırlık: {0} kg · Ürün kodu: {1} YK malzeme: PPC · ağırlık: {2} kg · montaj: {3}x": {
+  "ornek_tr": "Mercekli Yol Butonu - (ø) 250x35 Mm. Malzeme: PPC · Ağırlık: 0.45 kg · Ürün kodu: 12123 YK malzeme: PPC · ağırlık: 0.45 kg · montaj: 4x",
+  "mevcut": "透镜道钉 - (ø) 250x35 mm。材质：PPC · 重量：0.45 kg · 产品代码：12123 YK 材质：PPC · 重量：0.45 kg · 安装：4x",
+  "yeni": ""
+ },
+ "{s0} ({0}-{1} YB) ₺{2}. {3} × {4} × {5} cm · ABS · mercekli. Stokta, {6}-{7} iş gününde kargoda.": {
+  "ornek_tr": "Mercekli Yol Butonu - 100x100x21 Mm – 12005-2 YB (12005-2 YB) ₺259. 10 × 10 × 2.1 cm · ABS · mercekli. Stokta, 1-2 iş gününde kargoda.",
+  "mevcut": "透镜道钉 - 100x100x21 mm – 12005-2 YB（12005-2 YB）₺259。10 × 10 × 2.1 cm · ABS · 透镜。现货，1-2个工作日内发货。",
+  "yeni": ""
+ },
+ "{s0} ürününün fiyatı ₺{0} + KDV'dir. KDV dahil satış fiyatı ₺{1}. Fiyata kargo dahil değildir. Ürün kodu {2}-{3} YB.": {
+  "ornek_tr": "Mercekli Yol Butonu - 100x100x21 Mm – 12005-2 YB ürününün fiyatı ₺259 + KDV'dir. KDV dahil satış fiyatı ₺311. Fiyata kargo dahil değildir. Ürün kodu 12005-2 YB.",
+  "mevcut": "透镜道钉 - 100x100x21 mm – 12005-2 YB 的价格为₺259 + 增值税。含增值税售价为₺311。价格不含运费。产品代码12005-2 YB。",
+  "yeni": ""
+ },
+ "{s0}. Ölçü: {0} × {1} × {2} cm · Malzeme: ABS · Ağırlık: {3} kg · Ürün kodu: {4}-{5} YB Malzeme: ABS · Ağırlık: {6} kg · Montaj: {7}x": {
+  "ornek_tr": "Mercekli Yol Butonu - 100x100x21 Mm. Ölçü: 10 × 10 × 2.1 cm · Malzeme: ABS · Ağırlık: 0.15 kg · Ürün kodu: 12005-2 YB Malzeme: ABS · Ağırlık: 0.15 kg · Montaj: 2x",
+  "mevcut": "透镜道钉 - 100x100x21 mm。尺寸：10 × 10 × 2.1 cm · 材质：ABS · 重量：0.15 kg · 产品代码：12005-2 YB 材质：ABS · 重量：0.15 kg · 安装：2x",
+  "yeni": ""
+ },
+ "{s0} ({0} YB) ₺{1}. {2} × {3} × {4} cm · PPC · mercekli. Stokta, {5}-{6} iş gününde kargoda.": {
+  "ornek_tr": "Mercekli Yol Butonu - 100x220x32 Mm – 12003 YB (12003 YB) ₺271. 10 × 22 × 3.2 cm · PPC · mercekli. Stokta, 1-2 iş gününde kargoda.",
+  "mevcut": "透镜道钉 - 100x220x32 mm – 12003 YB（12003 YB）₺271。10 × 22 × 3.2 cm · PPC · 透镜。现货，1-2个工作日内发货。",
+  "yeni": ""
+ },
+ "{s0}. Ölçü: {0} × {1} × {2} cm · Malzeme: PPC · Ağırlık: {3} kg · Ürün kodu: {4} YB Malzeme: PPC · Ağırlık: {5} kg · Montaj: {6}x": {
+  "ornek_tr": "Mercekli Yol Butonu - 100x220x32 Mm. Ölçü: 10 × 22 × 3.2 cm · Malzeme: PPC · Ağırlık: 0.24 kg · Ürün kodu: 12003 YB Malzeme: PPC · Ağırlık: 0.24 kg · Montaj: 4x",
+  "mevcut": "透镜道钉 - 100x220x32 mm。尺寸：10 × 22 × 3.2 cm · 材质：PPC · 重量：0.24 kg · 产品代码：12003 YB 材质：PPC · 重量：0.24 kg · 安装：4x",
+  "yeni": ""
+ },
+ "{s0} ({0} YB) ₺{1}. {2} × {3} × {4} cm · ABS · mercekli. Stokta, {5}-{6} iş gününde kargoda.": {
+  "ornek_tr": "Mercekli Yol Butonu - 105x105x20 Mm – 12005 YB (12005 YB) ₺190. 10.5 × 10.5 × 2 cm · ABS · mercekli. Stokta, 1-2 iş gününde kargoda.",
+  "mevcut": "透镜道钉 - 105x105x20 mm – 12005 YB（12005 YB）₺190。10.5 × 10.5 × 2 cm · ABS · 透镜。现货，1-2个工作日内发货。",
+  "yeni": ""
+ },
+ "{s0} ({0} YK K) ₺{1}. {2} × {3} × {4} cm · PPC · mercekli. Stokta, {5}-{6} iş gününde kargoda.": {
+  "ornek_tr": "Mercekli Yol Kasis Kapağı - Ölçü: 3.5x25x12 Cm – 12121 YK K (12121 YK K) ₺202. 3.5 × 25 × 12 cm · PPC · mercekli. Stokta, 1-2 iş gününde kargoda.",
+  "mevcut": "透镜减速带端盖 - 尺寸：3.5x25x12 cm – 12121 YK K（12121 YK K）₺202。3.5 × 25 × 12 cm · PPC · 透镜。现货，1-2个工作日内发货。",
+  "yeni": ""
+ },
+ "{s0} ({0} YK) ₺{1}. {2} × {3} × {4} cm · PPC · mercekli. Stokta, {5}-{6} iş gününde kargoda.": {
+  "ornek_tr": "Mercekli Yol Kasisi - Ölçü: 3.5x25x50 Cm – 12120 YK (12120 YK) ₺606. 3.5 × 25 × 50 cm · PPC · mercekli. Stokta, 1-2 iş gününde kargoda.",
+  "mevcut": "透镜减速带 - 尺寸：3.5x25x50 cm – 12120 YK（12120 YK）₺606。3.5 × 25 × 50 cm · PPC · 透镜。现货，1-2个工作日内发货。",
+  "yeni": ""
+ },
+ "{s0} ({0} FB ST) ₺{1}. {2} × {3} cm · Metal-Ø{4}x{5}mm Yuvarlak Boru. Stokta, {6}-{7} iş gününde kargoda.": {
+  "ornek_tr": "Metal Güvenlik Barikatı - (hxl) 110x200 Cm – 12534 FB ST (12534 FB ST) ₺4.632. 110 × 200 cm · Metal-Ø32x2mm Yuvarlak Boru. Stokta, 1-2 iş gününde kargoda.",
+  "mevcut": "金属安全路障 - (高x长) 110x200 cm – 12534 FB ST（12534 FB ST）₺4.632。110 × 200 cm · 金属-Ø32x2mm圆管。现货，1-2个工作日内发货。",
+  "yeni": ""
+ },
+ "{s0} ürününün fiyatı ₺{0} + KDV'dir. KDV dahil satış fiyatı ₺{1}. Fiyata kargo dahil değildir. Ürün kodu {2} FB ST.": {
+  "ornek_tr": "Metal Güvenlik Barikatı - (hxl) 110x200 Cm – 12534 FB ST ürününün fiyatı ₺4.632 + KDV'dir. KDV dahil satış fiyatı ₺5.558. Fiyata kargo dahil değildir. Ürün kodu 12534 FB ST.",
+  "mevcut": "金属安全路障 - (高x长) 110x200 cm – 12534 FB ST 的价格为₺4.632 + 增值税。含增值税售价为₺5.558。价格不含运费。产品代码12534 FB ST。",
+  "yeni": ""
+ },
+ "{s0}. Ölçü: {0} × {1} cm · Malzeme: Metal-Ø{2}x{3}mm Yuvarlak Boru · Ağırlık: {4} kg · Ürün kodu: {5} FB ST Malzeme:Metal-Ø{6}x{7}mm Yuvarlak Boru · Ağırlık:{8} kg": {
+  "ornek_tr": "Metal Güvenlik Barikatı - (hxl) 110x200 Cm. Ölçü: 110 × 200 cm · Malzeme: Metal-Ø32x2mm Yuvarlak Boru · Ağırlık: 15 kg · Ürün kodu: 12534 FB ST Malzeme:Metal-Ø32x2mm Yuvarlak Boru · Ağırlık:15.0 kg",
+  "mevcut": "金属安全路障 - (高x长) 110x200 cm。尺寸：110 × 200 cm · 材质：金属-Ø32x2mm圆管 · 重量：15 kg · 产品代码：12534 FB ST 材质：金属-Ø32x2mm圆管 · 重量：15.0 kg",
+  "yeni": ""
+ },
+ "{s0} {0} Cm. Ölçü: {1} cm · Ürün kodu: ZT{2}": {
+  "ornek_tr": "Noktalı Yer Zemini Sarı 40 Cm. Ölçü: 40 cm · Ürün kodu: ZT9006",
+  "mevcut": "圆点盲道地砖 黄色 40 cm。尺寸：40 cm · 产品代码：ZT9006",
+  "yeni": ""
+ }
+}

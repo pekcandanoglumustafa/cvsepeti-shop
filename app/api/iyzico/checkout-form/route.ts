@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { iyzicoRequest, iyzicoConfigured } from "@/lib/iyzico";
-import { toplamDesi, kargoUcreti } from "@/lib/kargo";
+import { toplamDesi, kargoUcreti, KARGO_DAHIL } from "@/lib/kargo";
 import { getProduct } from "@/lib/products";
 
 type GelenSatir = { slug: string; qty: number };
@@ -19,7 +19,7 @@ type Alici = {
 
 export async function POST(req: NextRequest) {
   try {
-    const { items, buyer, kargoOdeme } = (await req.json()) as {
+    const { items, buyer, kargoOdeme: istenen } = (await req.json()) as {
       items: GelenSatir[];
       buyer: Alici;
       kargoOdeme?: "pesin" | "karsi";
@@ -62,6 +62,8 @@ export async function POST(req: NextRequest) {
     })));
     const kargoTutar = kargoUcreti(desi);
     // Karşı ödemeli seçildiyse kargo bedeli sepete eklenmez, kuryeye ödenir.
+    // Kargo fiyata dahilken kuryeye ödeme yok — istemci ne gönderirse göndersin peşin sayılır.
+    const kargoOdeme = KARGO_DAHIL ? "pesin" : istenen;
     const kargo = kargoOdeme === "karsi" ? 0 : kargoTutar;
     if (kargo > 0) {
       basketItems.push({

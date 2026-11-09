@@ -86,7 +86,7 @@ export default async function Yazi({ params }: { params: Promise<{ slug: string 
         <p style={{ fontSize: 15.5, lineHeight: 1.65 }}>{y.ozet}</p>
       </div>
 
-      <article className="yazi" dangerouslySetInnerHTML={{ __html: mdToHtml(y.icerik) }} />
+      <article className="yazi" data-blog-govde dangerouslySetInnerHTML={{ __html: mdToHtml(y.icerik) }} />
 
       {urunler.length > 0 && (
         <section style={{ marginTop: 56 }}>

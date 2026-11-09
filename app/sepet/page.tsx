@@ -6,7 +6,7 @@ import Image from "next/image";
 import { useEffect, useState } from "react";
 import { Trash2 } from "lucide-react";
 import { useCart } from "@/lib/cart";
-import { formatTL } from "@/lib/kargo";
+import { formatTL, KARGO_DAHIL } from "@/lib/kargo";
 
 export default function Sepet() {
   const { items, remove, setQty, total, totalKdv, kdvTutar, kargoDesi, kargo, genelToplam,
@@ -63,9 +63,9 @@ export default function Sepet() {
           <Row k="Ara toplam (KDV hariç)" v={formatTL(total())} />
           <Row k="KDV %20" v={formatTL(kdvTutar())} />
           <Row k={desi > 0 ? `Kargo · ${desi} desi` : "Kargo"}
-               v={desi === 0 ? "Ücretsiz" : kargoOdeme === "karsi" ? "Kuryeye ödenecek" : formatTL(kargo())} />
+               v={desi === 0 || KARGO_DAHIL ? "Ücretsiz" : kargoOdeme === "karsi" ? "Kuryeye ödenecek" : formatTL(kargo())} />
 
-          {desi > 0 && (
+          {desi > 0 && !KARGO_DAHIL && (
             <div style={{ marginTop: 10, display: "grid", gap: 7 }}>
               <p className="eyebrow" style={{ color: "var(--dim)" }}>Kargoyu nasıl ödersiniz</p>
               {([["pesin", "Şimdi öde", `Kargo bedeli ${formatTL(kargo())} sipariş toplamına eklenir`],
@@ -89,7 +89,7 @@ export default function Sepet() {
           <Link href="/odeme" className="btn btn-solid" style={{ width: "100%", marginTop: 20 }}>Ödemeye geç</Link>
 
           <div style={{ marginTop: 18, padding: 14, background: "var(--tile)" }}>
-            <p className="eyebrow" style={{ marginBottom: 8 }}>Kargo nasıl hesaplanır</p>
+            <p className="eyebrow" style={{ marginBottom: 8 }}>{KARGO_DAHIL ? "Kargo" : "Kargo nasıl hesaplanır"}</p>
             <p style={{ fontSize: 12, color: "var(--muted)", lineHeight: 1.65 }}>
               Yurtiçi Kargo ile gönderilir. Kargo ücreti ürün fiyatlarına dahildir, ayrıca kargo bedeli alınmaz.
             </p>

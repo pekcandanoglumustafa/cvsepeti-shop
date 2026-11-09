@@ -1,4 +1,6 @@
 import CompareBar from "@/components/CompareBar";
+import Ceviri from "@/components/Ceviri";
+import { DIL_BETIGI } from "@/lib/diller";
 import type { Metadata } from "next";
 import { GoogleAnalytics } from "@next/third-parties/google";
 import "./globals.css";
@@ -155,8 +157,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="tr">
+    <html lang="tr" suppressHydrationWarning>
       <head>
+        <script dangerouslySetInnerHTML={{ __html: DIL_BETIGI }} />
         {/* Gövde metninin ve ilk başlığın fontu önden yükleniyor: yoksa yazı
             önce sistem fontuyla çizilip sonra Barlow'a atlıyor ve göz alıyor.
             Yalnızca her sayfada kesin kullanılan üç dosya — gerisi gerektiğinde. */}
@@ -186,6 +189,7 @@ export default function RootLayout({
         <FloatingContact />
         <CartDrawer />
         <CompareBar />
+        <Ceviri />
       </body>
       {GA_GECERLI && <GoogleAnalytics gaId={GA_ID!} />}
     </html>

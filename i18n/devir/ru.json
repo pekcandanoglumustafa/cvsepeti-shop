@@ -1,0 +1,957 @@
+{
+ "Sarı Siyah {s0} {0} Mm. Ürün kodu: ZT{1}A": {
+  "ornek_tr": "Sarı Siyah Zincir 6 Mm. Ürün kodu: ZT513A",
+  "mevcut": "Жёлто-чёрная цепь 6 мм. Код товара: ZT513A",
+  "yeni": ""
+ },
+ "{s0} (ZT{0}A-B) ₺{1}. Stokta, {2}-{3} iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.": {
+  "ornek_tr": "Siyah Kulp – ZT102A-B (ZT102A-B) ₺11. Stokta, 1-2 iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.",
+  "mevcut": "Чёрная ручка – ZT102A-B (ZT102A-B) ₺11. В наличии, отгрузка за 1–2 рабочих дня. Доставка по всей Турции службой Yurtiçi Kargo.",
+  "yeni": ""
+ },
+ "{s0} ürününün fiyatı ₺{0} + KDV'dir. KDV dahil satış fiyatı ₺{1}. Fiyata kargo dahil değildir. Ürün kodu ZT{2}A-B.": {
+  "ornek_tr": "Siyah Kulp – ZT102A-B ürününün fiyatı ₺11 + KDV'dir. KDV dahil satış fiyatı ₺14. Fiyata kargo dahil değildir. Ürün kodu ZT102A-B.",
+  "mevcut": "Цена товара «Чёрная ручка – ZT102A-B» — ₺11 + НДС. Цена с НДС — ₺14. Доставка в цену не входит. Код товара ZT102A-B.",
+  "yeni": ""
+ },
+ "{s0} (ZT{0}R) ₺{1}. ABS-PC · ledli/solar. Stokta, {2}-{3} iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.": {
+  "ornek_tr": "Solar Flaşör LED Lambası Kırmızı – ZT404R (ZT404R) ₺997. ABS-PC · ledli/solar. Stokta, 1-2 iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.",
+  "mevcut": "Солнечная светодиодная мигающая лампа, красная – ZT404R (ZT404R) ₺997. ABS-PC · светодиоды/солнечная батарея. В наличии, отгрузка за 1–2 рабочих дня. Доставка по всей Турции службой Yurtiçi Kargo.",
+  "yeni": ""
+ },
+ "{s0} (ZT{0}Y) ₺{1}. ABS-PC · ledli/solar. Stokta, {2}-{3} iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.": {
+  "ornek_tr": "Solar Flaşör LED Lambası Sarı – ZT404Y (ZT404Y) ₺997. ABS-PC · ledli/solar. Stokta, 1-2 iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.",
+  "mevcut": "Солнечная светодиодная мигающая лампа, жёлтая – ZT404Y (ZT404Y) ₺997. ABS-PC · светодиоды/солнечная батарея. В наличии, отгрузка за 1–2 рабочих дня. Доставка по всей Турции службой Yurtiçi Kargo.",
+  "yeni": ""
+ },
+ "Solar {s0} Seçimi — Lens Çapı, Batarya ve Yanma Modu": {
+  "ornek_tr": "Solar Flaşör Lamba Seçimi — Lens Çapı, Batarya ve Yanma Modu",
+  "mevcut": "Выбор солнечной мигающей лампы — диаметр линзы, аккумулятор и режим работы",
+  "yeni": ""
+ },
+ "{s0} ({0} FB R) ₺{1}. {2} × {3} × {4} cm · PPC · ledli/solar.": {
+  "ornek_tr": "Solar Flaşörlü Güvenlik Bariyeri -(hxlxw) 60x100x40 Cm – 12526 FB R (12526 FB R) ₺4.356. 60 × 100 × 40 cm · PPC · ledli/solar.",
+  "mevcut": "Защитный барьер с солнечной мигающей лампой (ВxДxШ) 60x100x40 см – 12526 FB R (12526 FB R) ₺4.356. 60 × 100 × 40 см · PPC · светодиоды/солнечная батарея.",
+  "yeni": ""
+ },
+ "{s0}. Ölçü: {0} × {1} × {2} cm · Malzeme: PPC · Ağırlık: {3} kg · Ürün kodu: {4} FB R Lens Ölçüsü: (Ø) {5} mm · Malzeme:PPC · Ağırlık: {6}kg": {
+  "ornek_tr": "Solar Flaşörlü Güvenlik Bariyeri -(hxlxw) 60x100x40 Cm. Ölçü: 60 × 100 × 40 cm · Malzeme: PPC · Ağırlık: 20 kg · Ürün kodu: 12526 FB R Lens Ölçüsü: (Ø) 100 mm · Malzeme:PPC · Ağırlık: 20.0kg",
+  "mevcut": "Защитный барьер с солнечной мигающей лампой (ВxДxШ) 60x100x40 см. Размер: 60 × 100 × 40 см · Материал: PPC · Вес: 20 кг · Код товара: 12526 FB R Размер линзы: (Ø) 100 мм · Материал: PPC · Вес: 20.0 кг",
+  "yeni": ""
+ },
+ "{s0} ({0} FL K) ₺{1}. {2} × {3} cm · ABS · ledli/solar. Stokta, {4}-{5} iş gününde kargoda.": {
+  "ornek_tr": "Solar Flaşörlü Ledli Lamba - (hxw) 27x22 Cm - Kırmızı Led – 11816 FL K (11816 FL K) ₺1.020. 27 × 22 cm · ABS · ledli/solar. Stokta, 1-2 iş gününde kargoda.",
+  "mevcut": "Светодиодная сигнальная лампа на солнечной батарее (ВxШ) 27x22 см, красные светодиоды – 11816 FL K (11816 FL K) ₺1.020. 27 × 22 см · ABS · светодиоды/солнечная батарея. В наличии, отгрузка за 1–2 рабочих дня.",
+  "yeni": ""
+ },
+ "{s0} ürününün fiyatı ₺{0} + KDV'dir. KDV dahil satış fiyatı ₺{1}. Fiyata kargo dahil değildir. Ürün kodu {2} FL K.": {
+  "ornek_tr": "Solar Flaşörlü Ledli Lamba - (hxw) 27x22 Cm - Kırmızı Led – 11816 FL K ürününün fiyatı ₺1.020 + KDV'dir. KDV dahil satış fiyatı ₺1.224. Fiyata kargo dahil değildir. Ürün kodu 11816 FL K.",
+  "mevcut": "Цена товара «Светодиодная сигнальная лампа на солнечной батарее (ВxШ) 27x22 см, красные светодиоды – 11816 FL K» — ₺1.020 + НДС. Цена с НДС — ₺1.224. Доставка в цену не входит. Код товара 11816 FL K.",
+  "yeni": ""
+ },
+ "{s0}. Ölçü: {0} × {1} cm · Malzeme: ABS · Ağırlık: {2} kg · Ürün kodu: {3} FL K Flaş Lens: Ø{4} mm · Malzeme: ABS · Ağırlık: {5} kg": {
+  "ornek_tr": "Solar Flaşörlü Ledli Lamba - (hxw) 27x22 Cm - Kırmızı Led. Ölçü: 27 × 22 cm · Malzeme: ABS · Ağırlık: 0.5 kg · Ürün kodu: 11816 FL K Flaş Lens: Ø160 mm · Malzeme: ABS · Ağırlık: 0.50 kg",
+  "mevcut": "Светодиодная сигнальная лампа на солнечной батарее (ВxШ) 27x22 см, красные светодиоды. Размер: 27 × 22 см · Материал: ABS · Вес: 0.5 кг · Код товара: 11816 FL K Линза: Ø160 мм · Материал: ABS · Вес: 0.50 кг",
+  "yeni": ""
+ },
+ "{s0} ({0} FL K) ₺{1}. PC · ledli/solar. Stokta, {2}-{3} iş gününde kargoda.": {
+  "ornek_tr": "Solar Flaşörlü Ledli Lamba-(hxø)14.5cmx128mm-kırmızı Led – 11817 FL K (11817 FL K) ₺984. PC · ledli/solar. Stokta, 1-2 iş gününde kargoda.",
+  "mevcut": "Светодиодная сигнальная лампа на солнечной батарее (Вxø) 14.5 см x 128 мм, красные светодиоды – 11817 FL K (11817 FL K) ₺984. PC · светодиоды/солнечная батарея. В наличии, отгрузка за 1–2 рабочих дня.",
+  "yeni": ""
+ },
+ "{s0}. Malzeme: PC · Ağırlık: {0} kg · Ürün kodu: {1} FL K Flaş Lens: Ø{2} mm · Malzeme: PC · Ağırlık: {3} kg": {
+  "ornek_tr": "Solar Flaşörlü Ledli Lamba-(hxø)14.5cmx128mm-kırmızı Led. Malzeme: PC · Ağırlık: 0.35 kg · Ürün kodu: 11817 FL K Flaş Lens: Ø120 mm · Malzeme: PC · Ağırlık: 0.35 kg",
+  "mevcut": "Светодиодная сигнальная лампа на солнечной батарее (Вxø) 14.5 см x 128 мм, красные светодиоды. Материал: PC · Вес: 0.35 кг · Код товара: 11817 FL K Линза: Ø120 мм · Материал: PC · Вес: 0.35 кг",
+  "yeni": ""
+ },
+ "{s0} ({0} FL M) ₺{1}. PC · ledli/solar. Stokta, {2}-{3} iş gününde kargoda.": {
+  "ornek_tr": "Solar Flaşörlü Ledli Lamba-(hxø)14.5cmx128mm-mavi Led – 11821 FL M (11821 FL M) ₺984. PC · ledli/solar. Stokta, 1-2 iş gününde kargoda.",
+  "mevcut": "Светодиодная сигнальная лампа на солнечной батарее (Вxø) 14.5 см x 128 мм, синие светодиоды – 11821 FL M (11821 FL M) ₺984. PC · светодиоды/солнечная батарея. В наличии, отгрузка за 1–2 рабочих дня.",
+  "yeni": ""
+ },
+ "{s0} ürününün fiyatı ₺{0} + KDV'dir. KDV dahil satış fiyatı ₺{1}. Fiyata kargo dahil değildir. Ürün kodu {2} FL M.": {
+  "ornek_tr": "Solar Flaşörlü Ledli Lamba-(hxø)14.5cmx128mm-mavi Led – 11821 FL M ürününün fiyatı ₺984 + KDV'dir. KDV dahil satış fiyatı ₺1.181. Fiyata kargo dahil değildir. Ürün kodu 11821 FL M.",
+  "mevcut": "Цена товара «Светодиодная сигнальная лампа на солнечной батарее (Вxø) 14.5 см x 128 мм, синие светодиоды – 11821 FL M» — ₺984 + НДС. Цена с НДС — ₺1.181. Доставка в цену не входит. Код товара 11821 FL M.",
+  "yeni": ""
+ },
+ "{s0}. Malzeme: PC · Ağırlık: {0} kg · Ürün kodu: {1} FL M Flaş Lens: Ø{2} mm · Malzeme: PC · Ağırlık:{3} kg": {
+  "ornek_tr": "Solar Flaşörlü Ledli Lamba-(hxø)14.5cmx128mm-mavi Led. Malzeme: PC · Ağırlık: 0.35 kg · Ürün kodu: 11821 FL M Flaş Lens: Ø120 mm · Malzeme: PC · Ağırlık:0.35 kg",
+  "mevcut": "Светодиодная сигнальная лампа на солнечной батарее (Вxø) 14.5 см x 128 мм, синие светодиоды. Материал: PC · Вес: 0.35 кг · Код товара: 11821 FL M Линза: Ø120 мм · Материал: PC · Вес: 0.35 кг",
+  "yeni": ""
+ },
+ "{s0} ({0} FL S) ₺{1}. PC · ledli/solar. Stokta, {2}-{3} iş gününde kargoda.": {
+  "ornek_tr": "Solar Flaşörlü Ledli Lamba-(hxø)14.5cmx128mm-sarı Led – 11819 FL S (11819 FL S) ₺984. PC · ledli/solar. Stokta, 1-2 iş gününde kargoda.",
+  "mevcut": "Светодиодная сигнальная лампа на солнечной батарее (Вxø) 14.5 см x 128 мм, жёлтые светодиоды – 11819 FL S (11819 FL S) ₺984. PC · светодиоды/солнечная батарея. В наличии, отгрузка за 1–2 рабочих дня.",
+  "yeni": ""
+ },
+ "{s0}. Malzeme: PC · Ağırlık: {0} kg · Ürün kodu: {1} FL S Flaş Lens: Ø{2} mm · Malzeme: PC · Ağırlık:{3} kg": {
+  "ornek_tr": "Solar Flaşörlü Ledli Lamba-(hxø)14.5cmx128mm-sarı Led. Malzeme: PC · Ağırlık: 0.35 kg · Ürün kodu: 11819 FL S Flaş Lens: Ø120 mm · Malzeme: PC · Ağırlık:0.35 kg",
+  "mevcut": "Светодиодная сигнальная лампа на солнечной батарее (Вxø) 14.5 см x 128 мм, жёлтые светодиоды. Материал: PC · Вес: 0.35 кг · Код товара: 11819 FL S Линза: Ø120 мм · Материал: PC · Вес: 0.35 кг",
+  "yeni": ""
+ },
+ "{s0} ({0} SL K) ₺{1}. {2} × {3} × {4} cm · PPC · ledli/solar. Stokta, {5}-{6} iş gününde kargoda.": {
+  "ornek_tr": "Solar Flaşörlü Yol Kasis Kapağı - Ölçü: 4.5x50x25 Cm – 11940 SL K (11940 SL K) ₺487. 4.5 × 50 × 25 cm · PPC · ledli/solar. Stokta, 1-2 iş gününde kargoda.",
+  "mevcut": "Торцевая заглушка искусственной неровности с солнечной мигалкой, размер: 4.5x50x25 см – 11940 SL K (11940 SL K) ₺487. 4.5 × 50 × 25 см · PPC · светодиоды/солнечная батарея. В наличии, отгрузка за 1–2 рабочих дня.",
+  "yeni": ""
+ },
+ "{s0} ürününün fiyatı ₺{0} + KDV'dir. KDV dahil satış fiyatı ₺{1}. Fiyata kargo dahil değildir. Ürün kodu {2} SL K.": {
+  "ornek_tr": "Solar Flaşörlü Yol Kasis Kapağı - Ölçü: 4.5x50x25 Cm – 11940 SL K ürününün fiyatı ₺487 + KDV'dir. KDV dahil satış fiyatı ₺585. Fiyata kargo dahil değildir. Ürün kodu 11940 SL K.",
+  "mevcut": "Цена товара «Торцевая заглушка искусственной неровности с солнечной мигалкой, размер: 4.5x50x25 см – 11940 SL K» — ₺487 + НДС. Цена с НДС — ₺585. Доставка в цену не входит. Код товара 11940 SL K.",
+  "yeni": ""
+ },
+ "{s0}. Ölçü: {0} × {1} × {2} cm · Malzeme: PPC · Ağırlık: {3} kg · Ürün kodu: {4} SL K Malzeme: PPC · Ağırlık: {5} kg · Montaj: {6}x": {
+  "ornek_tr": "Solar Flaşörlü Yol Kasis Kapağı - Ölçü: 4.5x50x25 Cm. Ölçü: 4.5 × 50 × 25 cm · Malzeme: PPC · Ağırlık: 1.1 kg · Ürün kodu: 11940 SL K Malzeme: PPC · Ağırlık: 1.1 kg · Montaj: 2x",
+  "mevcut": "Торцевая заглушка искусственной неровности с солнечной мигалкой, размер: 4.5x50x25 см. Размер: 4.5 × 50 × 25 см · Материал: PPC · Вес: 1.1 кг · Код товара: 11940 SL K Материал: PPC · Вес: 1.1 кг · Крепление: 2x",
+  "yeni": ""
+ },
+ "{s0} ({0} SL) ₺{1}. {2} × {3} × {4} cm · PPC · ledli/solar. Stokta, {5}-{6} iş gününde kargoda.": {
+  "ornek_tr": "Solar Flaşörlü Yol Kasisi - Ölçü: 4.5x50x50 Cm – 11938 SL (11938 SL) ₺2.208. 4.5 × 50 × 50 cm · PPC · ledli/solar. Stokta, 1-2 iş gününde kargoda.",
+  "mevcut": "Искусственная неровность с солнечной мигалкой, размер: 4.5x50x50 см – 11938 SL (11938 SL) ₺2.208. 4.5 × 50 × 50 см · PPC · светодиоды/солнечная батарея. В наличии, отгрузка за 1–2 рабочих дня.",
+  "yeni": ""
+ },
+ "{s0} ürününün fiyatı ₺{0} + KDV'dir. KDV dahil satış fiyatı ₺{1}. Fiyata kargo dahil değildir. Ürün kodu {2} SL.": {
+  "ornek_tr": "Solar Flaşörlü Yol Kasisi - Ölçü: 4.5x50x50 Cm – 11938 SL ürününün fiyatı ₺2.208 + KDV'dir. KDV dahil satış fiyatı ₺2.650. Fiyata kargo dahil değildir. Ürün kodu 11938 SL.",
+  "mevcut": "Цена товара «Искусственная неровность с солнечной мигалкой, размер: 4.5x50x50 см – 11938 SL» — ₺2.208 + НДС. Цена с НДС — ₺2.650. Доставка в цену не входит. Код товара 11938 SL.",
+  "yeni": ""
+ },
+ "{s0}. Ölçü: {0} × {1} × {2} cm · Malzeme: PPC · Ağırlık: {3} kg · Ürün kodu: {4} SL Malzeme: PPC · Ağırlık: {5} kg · Montaj: {6}x": {
+  "ornek_tr": "Solar Flaşörlü Yol Kasisi - Ölçü: 4.5x50x50 Cm. Ölçü: 4.5 × 50 × 50 cm · Malzeme: PPC · Ağırlık: 3.1 kg · Ürün kodu: 11938 SL Malzeme: PPC · Ağırlık: 3.1 kg · Montaj: 4x",
+  "mevcut": "Искусственная неровность с солнечной мигалкой, размер: 4.5x50x50 см. Размер: 4.5 × 50 × 50 см · Материал: PPC · Вес: 3.1 кг · Код товара: 11938 SL Материал: PPC · Вес: 3.1 кг · Крепление: 4x",
+  "yeni": ""
+ },
+ "{s0} ({0} UB) ₺{1}. {2} × {3} × {4} cm · PPC · ledli/solar.": {
+  "ornek_tr": "Solar Flaşörlü Şerit Sınırlama Butonu-(hxlxw)8.0x100x20cm – 12220 UB (12220 UB) ₺2.904. 8 × 100 × 20 cm · PPC · ledli/solar.",
+  "mevcut": "Разделитель полос с солнечной мигалкой (ВxДxШ) 8.0x100x20 см – 12220 UB (12220 UB) ₺2.904. 8 × 100 × 20 см · PPC · светодиоды/солнечная батарея.",
+  "yeni": ""
+ },
+ "{s0} ({0} FL K) ₺{1}. {2} × {3} cm · PC · ledli/solar.": {
+  "ornek_tr": "Solar Ledli Flaşör Uyarı Lambası - (hxw) 70x40 Cm - Kırmızı Led – 11852 FL K (11852 FL K) ₺9.792. 70 × 40 cm · PC · ledli/solar.",
+  "mevcut": "Солнечная светодиодная предупреждающая мигающая лампа (ВxШ) 70x40 см, красные светодиоды – 11852 FL K (11852 FL K) ₺9.792. 70 × 40 см · PC · светодиоды/солнечная батарея.",
+  "yeni": ""
+ },
+ "{s0}. Ölçü: {0} × {1} cm · Malzeme: PC · Ağırlık: {2} kg · Ürün kodu: {3} FL K Flaş Lens: Ø{4} mm · Malzeme: PC · Ağırlık: {5} kg": {
+  "ornek_tr": "Solar Ledli Flaşör Uyarı Lambası - (hxw) 70x40 Cm - Kırmızı Led. Ölçü: 70 × 40 cm · Malzeme: PC · Ağırlık: 7.3 kg · Ürün kodu: 11852 FL K Flaş Lens: Ø300 mm · Malzeme: PC · Ağırlık: 7.3 kg",
+  "mevcut": "Солнечная светодиодная предупреждающая мигающая лампа (ВxШ) 70x40 см, красные светодиоды. Размер: 70 × 40 см · Материал: PC · Вес: 7.3 кг · Код товара: 11852 FL K Линза: Ø300 мм · Материал: PC · Вес: 7.3 кг",
+  "yeni": ""
+ },
+ "{s0} ({0} FL S) ₺{1}. {2} × {3} cm · PC · ledli/solar.": {
+  "ornek_tr": "Solar Ledli Flaşör Uyarı Lambası - (hxw) 70x40 Cm - Sarı Led – 11850 FL S (11850 FL S) ₺9.792. 70 × 40 cm · PC · ledli/solar.",
+  "mevcut": "Солнечная светодиодная предупреждающая мигающая лампа (ВxШ) 70x40 см, жёлтые светодиоды – 11850 FL S (11850 FL S) ₺9.792. 70 × 40 см · PC · светодиоды/солнечная батарея.",
+  "yeni": ""
+ },
+ "{s0}. Ölçü: {0} × {1} cm · Malzeme: PC · Ağırlık: {2} kg · Ürün kodu: {3} FL S Flaş Lens: Ø{4} mm · Malzeme: PC · Ağırlık: {5} kg": {
+  "ornek_tr": "Solar Ledli Flaşör Uyarı Lambası - (hxw) 70x40 Cm - Sarı Led. Ölçü: 70 × 40 cm · Malzeme: PC · Ağırlık: 7.3 kg · Ürün kodu: 11850 FL S Flaş Lens: Ø300 mm · Malzeme: PC · Ağırlık: 7.3 kg",
+  "mevcut": "Солнечная светодиодная предупреждающая мигающая лампа (ВxШ) 70x40 см, жёлтые светодиоды. Размер: 70 × 40 см · Материал: PC · Вес: 7.3 кг · Код товара: 11850 FL S Линза: Ø300 мм · Материал: PC · Вес: 7.3 кг",
+  "yeni": ""
+ },
+ "Solar Ledli Siperlikli {s0} - (hxw) – {0} FL S": {
+  "ornek_tr": "Solar Ledli Siperlikli Flaşör Lamba - (hxw) – 11851 FL S",
+  "mevcut": "Солнечная светодиодная мигающая лампа с козырьком (ВxШ) – 11851 FL S",
+  "yeni": ""
+ },
+ "Solar Ledli Siperlikli {s0} - (hxw) – {0} FL K": {
+  "ornek_tr": "Solar Ledli Siperlikli Flaşör Lamba - (hxw) – 11853 FL K",
+  "mevcut": "Солнечная светодиодная мигающая лампа с козырьком (ВxШ) – 11853 FL K",
+  "yeni": ""
+ },
+ "{s0} ({0} FL S) ₺{1}. {2} × {3} cm · PC · ledli/solar. Stokta, {4}-{5} iş gününde kargoda.": {
+  "ornek_tr": "Solar Ledli Uyarı Levhası - (hxw) 70x40 Cm - Sarı Led – 11860 FL S (11860 FL S) ₺8.856. 70 × 40 cm · PC · ledli/solar. Stokta, 1-2 iş gününde kargoda.",
+  "mevcut": "Солнечный светодиодный предупреждающий знак (ВxШ) 70x40 см, жёлтые светодиоды – 11860 FL S (11860 FL S) ₺8.856. 70 × 40 см · PC · светодиоды/солнечная батарея. В наличии, отгрузка за 1–2 рабочих дня.",
+  "yeni": ""
+ },
+ "{s0}. Ölçü: {0} × {1} cm · Malzeme: PC · Ağırlık: {2} kg · Ürün kodu: {3} FL S Led Panel: {4}x{5} cm · Malzeme: PC · Ağırlık: {6} kg": {
+  "ornek_tr": "Solar Ledli Uyarı Levhası - (hxw) 70x40 Cm - Sarı Led. Ölçü: 70 × 40 cm · Malzeme: PC · Ağırlık: 7 kg · Ürün kodu: 11860 FL S Led Panel: 40x40 cm · Malzeme: PC · Ağırlık: 7.0 kg",
+  "mevcut": "Солнечный светодиодный предупреждающий знак (ВxШ) 70x40 см, жёлтые светодиоды. Размер: 70 × 40 см · Материал: PC · Вес: 7 кг · Код товара: 11860 FL S Светодиодная панель: 40x40 см · Материал: PC · Вес: 7.0 кг",
+  "yeni": ""
+ },
+ "Solar Ledli {s0} - (hxw) {0}x{1} Cm – {2} FL S": {
+  "ornek_tr": "Solar Ledli Uyarı Levhası - (hxw) 70x40 Cm – 11860 FL S",
+  "mevcut": "Солнечный светодиодный предупреждающий знак (ВxШ) 70x40 см – 11860 FL S",
+  "yeni": ""
+ },
+ "{s0} – {0} S-LD (SERİSİ)": {
+  "ornek_tr": "Solar Ledli Yol Bakım Levhaları - (hxw) 130x100 Cm – 11700 S-LD (SERİSİ)",
+  "mevcut": "Солнечные светодиодные знаки дорожных работ (ВxШ) 130x100 см – 11700 S-LD (SERİSİ)",
+  "yeni": ""
+ },
+ "{s0} – {0} S-LD (SERİSİ) ({1} S-LD (SERİSİ)) ₺{2}. {3} × {4} cm · AL - Ağırlık: {5}kg · ledli/solar.": {
+  "ornek_tr": "Solar Ledli Yol Bakım Levhaları - (hxw) 130x100 Cm – 11700 S-LD (SERİSİ) (11700 S-LD (SERİSİ)) ₺14.496. 130 × 100 cm · AL - Ağırlık: 16.5kg · ledli/solar.",
+  "mevcut": "Солнечные светодиодные знаки дорожных работ (ВxШ) 130x100 см – 11700 S-LD (SERİSİ) (11700 S-LD (SERİSİ)) ₺14.496. 130 × 100 см · AL - Вес: 16.5 кг · светодиоды/солнечная батарея.",
+  "yeni": ""
+ },
+ "{s0} – {0} S-LD (SERİSİ) fiyatı ne kadar?": {
+  "ornek_tr": "Solar Ledli Yol Bakım Levhaları - (hxw) 130x100 Cm – 11700 S-LD (SERİSİ) fiyatı ne kadar?",
+  "mevcut": "Сколько стоит товар «Солнечные светодиодные знаки дорожных работ (ВxШ) 130x100 см – 11700 S-LD (SERİSİ)»?",
+  "yeni": ""
+ },
+ "{s0} – {0} S-LD (SERİSİ) için fatura kesiliyor mu?": {
+  "ornek_tr": "Solar Ledli Yol Bakım Levhaları - (hxw) 130x100 Cm – 11700 S-LD (SERİSİ) için fatura kesiliyor mu?",
+  "mevcut": "Выставляется ли счёт на товар «Солнечные светодиодные знаки дорожных работ (ВxШ) 130x100 см – 11700 S-LD (SERİSİ)»?",
+  "yeni": ""
+ },
+ "{s0} – {0} S-LD (SERİSİ) kargo ücreti ne kadar?": {
+  "ornek_tr": "Solar Ledli Yol Bakım Levhaları - (hxw) 130x100 Cm – 11700 S-LD (SERİSİ) kargo ücreti ne kadar?",
+  "mevcut": "Сколько стоит доставка товара «Солнечные светодиодные знаки дорожных работ (ВxШ) 130x100 см – 11700 S-LD (SERİSİ)»?",
+  "yeni": ""
+ },
+ "{s0} – {0} S-LD (SERİSİ) kaç günde teslim edilir?": {
+  "ornek_tr": "Solar Ledli Yol Bakım Levhaları - (hxw) 130x100 Cm – 11700 S-LD (SERİSİ) kaç günde teslim edilir?",
+  "mevcut": "За сколько дней доставляется товар «Солнечные светодиодные знаки дорожных работ (ВxШ) 130x100 см – 11700 S-LD (SERİSİ)»?",
+  "yeni": ""
+ },
+ "{s0} – {0} S-LD (SERİSİ) teknik özellikleri nelerdir?": {
+  "ornek_tr": "Solar Ledli Yol Bakım Levhaları - (hxw) 130x100 Cm – 11700 S-LD (SERİSİ) teknik özellikleri nelerdir?",
+  "mevcut": "Каковы технические характеристики товара «Солнечные светодиодные знаки дорожных работ (ВxШ) 130x100 см – 11700 S-LD (SERİSİ)»?",
+  "yeni": ""
+ },
+ "{s0} – {0} S-LD (SERİSİ) ölçü şeması": {
+  "ornek_tr": "Solar Ledli Yol Bakım Levhaları - (hxw) 130x100 Cm – 11700 S-LD (SERİSİ) ölçü şeması",
+  "mevcut": "Солнечные светодиодные знаки дорожных работ (ВxШ) 130x100 см – 11700 S-LD (SERİSİ): схема размеров",
+  "yeni": ""
+ },
+ "{s0} – {0} S-LD (SERİSİ) ürününün fiyatı ₺{1} + KDV'dir. KDV dahil satış fiyatı ₺{2}. Fiyata kargo dahil değildir. Ürün kodu {3} S-LD (SERİSİ).": {
+  "ornek_tr": "Solar Ledli Yol Bakım Levhaları - (hxw) 130x100 Cm – 11700 S-LD (SERİSİ) ürününün fiyatı ₺14.496 + KDV'dir. KDV dahil satış fiyatı ₺17.395. Fiyata kargo dahil değildir. Ürün kodu 11700 S-LD (SERİSİ).",
+  "mevcut": "Цена товара «Солнечные светодиодные знаки дорожных работ (ВxШ) 130x100 см – 11700 S-LD (SERİSİ)» — ₺14.496 + НДС. Цена с НДС — ₺17.395. Доставка в цену не входит. Код товара 11700 S-LD (SERİSİ).",
+  "yeni": ""
+ },
+ "{s0}. Ölçü: {0} × {1} cm · Malzeme: AL - Ağırlık: {2}kg · Ağırlık: {3} kg · Ürün kodu: {4} S-LD (SERİSİ) Led Panel: {5}x{6}cm - Gövde Malzeme: AL - Ağırlık: {7}kg": {
+  "ornek_tr": "Solar Ledli Yol Bakım Levhaları - (hxw) 130x100 Cm. Ölçü: 130 × 100 cm · Malzeme: AL - Ağırlık: 16.5kg · Ağırlık: 16.5 kg · Ürün kodu: 11700 S-LD (SERİSİ) Led Panel: 100x100cm - Gövde Malzeme: AL - Ağırlık: 16.5kg",
+  "mevcut": "Солнечные светодиодные знаки дорожных работ (ВxШ) 130x100 см. Размер: 130 × 100 см · Материал: AL - Вес: 16.5 кг · Вес: 16.5 кг · Код товара: 11700 S-LD (SERİSİ) Светодиодная панель: 100x100 см - Материал корпуса: AL - Вес: 16.5 кг",
+  "yeni": ""
+ },
+ "{s0} – {0} S-LD (SERİSİ) ({1} S-LD (SERİSİ)) ₺{2}. {3} × {4} cm · AL - Ağırlık: {5} kg · ledli/solar.": {
+  "ornek_tr": "Solar Ledli Yol Bakım Levhaları - (hxw) 90x60 Cm – 11600 S-LD (SERİSİ) (11600 S-LD (SERİSİ)) ₺12.540. 90 × 60 cm · AL - Ağırlık: 9.7 kg · ledli/solar.",
+  "mevcut": "Солнечные светодиодные знаки дорожных работ (ВxШ) 90x60 см – 11600 S-LD (SERİSİ) (11600 S-LD (SERİSİ)) ₺12.540. 90 × 60 см · AL - Вес: 9.7 кг · светодиоды/солнечная батарея.",
+  "yeni": ""
+ },
+ "{s0} – {0} FL (SERİSİ)": {
+  "ornek_tr": "Solar Ledli Yol Bakım Levhaları - (hxw) 90x60 Cm – 11800 FL (SERİSİ)",
+  "mevcut": "Солнечные светодиодные знаки дорожных работ (ВxШ) 90x60 см – 11800 FL (SERİSİ)",
+  "yeni": ""
+ },
+ "{s0} – {0} FL (SERİSİ) ({1} FL (SERİSİ)) ₺{2}. {3} × {4} cm · PC - Ağırlık: {5} kg · ledli/solar.": {
+  "ornek_tr": "Solar Ledli Yol Bakım Levhaları - (hxw) 90x60 Cm – 11800 FL (SERİSİ) (11800 FL (SERİSİ)) ₺10.944. 90 × 60 cm · PC - Ağırlık: 9.8 kg · ledli/solar.",
+  "mevcut": "Солнечные светодиодные знаки дорожных работ (ВxШ) 90x60 см – 11800 FL (SERİSİ) (11800 FL (SERİSİ)) ₺10.944. 90 × 60 см · PC - Вес: 9.8 кг · светодиоды/солнечная батарея.",
+  "yeni": ""
+ },
+ "{s0} – {0} FL (SERİSİ) fiyatı ne kadar?": {
+  "ornek_tr": "Solar Ledli Yol Bakım Levhaları - (hxw) 90x60 Cm – 11800 FL (SERİSİ) fiyatı ne kadar?",
+  "mevcut": "Сколько стоит товар «Солнечные светодиодные знаки дорожных работ (ВxШ) 90x60 см – 11800 FL (SERİSİ)»?",
+  "yeni": ""
+ },
+ "{s0} – {0} FL (SERİSİ) için fatura kesiliyor mu?": {
+  "ornek_tr": "Solar Ledli Yol Bakım Levhaları - (hxw) 90x60 Cm – 11800 FL (SERİSİ) için fatura kesiliyor mu?",
+  "mevcut": "Выставляется ли счёт на товар «Солнечные светодиодные знаки дорожных работ (ВxШ) 90x60 см – 11800 FL (SERİSİ)»?",
+  "yeni": ""
+ },
+ "{s0} – {0} FL (SERİSİ) kargo ücreti ne kadar?": {
+  "ornek_tr": "Solar Ledli Yol Bakım Levhaları - (hxw) 90x60 Cm – 11800 FL (SERİSİ) kargo ücreti ne kadar?",
+  "mevcut": "Сколько стоит доставка товара «Солнечные светодиодные знаки дорожных работ (ВxШ) 90x60 см – 11800 FL (SERİSİ)»?",
+  "yeni": ""
+ },
+ "{s0} – {0} FL (SERİSİ) kaç günde teslim edilir?": {
+  "ornek_tr": "Solar Ledli Yol Bakım Levhaları - (hxw) 90x60 Cm – 11800 FL (SERİSİ) kaç günde teslim edilir?",
+  "mevcut": "За сколько дней доставляется товар «Солнечные светодиодные знаки дорожных работ (ВxШ) 90x60 см – 11800 FL (SERİSİ)»?",
+  "yeni": ""
+ },
+ "{s0} – {0} FL (SERİSİ) sepete ekle": {
+  "ornek_tr": "Solar Ledli Yol Bakım Levhaları - (hxw) 90x60 Cm – 11800 FL (SERİSİ) sepete ekle",
+  "mevcut": "Добавить в корзину: Солнечные светодиодные знаки дорожных работ (ВxШ) 90x60 см – 11800 FL (SERİSİ)",
+  "yeni": ""
+ },
+ "{s0} – {0} FL (SERİSİ) teknik özellikleri nelerdir?": {
+  "ornek_tr": "Solar Ledli Yol Bakım Levhaları - (hxw) 90x60 Cm – 11800 FL (SERİSİ) teknik özellikleri nelerdir?",
+  "mevcut": "Каковы технические характеристики товара «Солнечные светодиодные знаки дорожных работ (ВxШ) 90x60 см – 11800 FL (SERİSİ)»?",
+  "yeni": ""
+ },
+ "{s0} – {0} FL (SERİSİ) ölçü şeması": {
+  "ornek_tr": "Solar Ledli Yol Bakım Levhaları - (hxw) 90x60 Cm – 11800 FL (SERİSİ) ölçü şeması",
+  "mevcut": "Солнечные светодиодные знаки дорожных работ (ВxШ) 90x60 см – 11800 FL (SERİSİ): схема размеров",
+  "yeni": ""
+ },
+ "{s0} – {0} FL (SERİSİ) ürününün fiyatı ₺{1} + KDV'dir. KDV dahil satış fiyatı ₺{2}. Fiyata kargo dahil değildir. Ürün kodu {3} FL (SERİSİ).": {
+  "ornek_tr": "Solar Ledli Yol Bakım Levhaları - (hxw) 90x60 Cm – 11800 FL (SERİSİ) ürününün fiyatı ₺10.944 + KDV'dir. KDV dahil satış fiyatı ₺13.133. Fiyata kargo dahil değildir. Ürün kodu 11800 FL (SERİSİ).",
+  "mevcut": "Цена товара «Солнечные светодиодные знаки дорожных работ (ВxШ) 90x60 см – 11800 FL (SERİSİ)» — ₺10.944 + НДС. Цена с НДС — ₺13.133. Доставка в цену не входит. Код товара 11800 FL (SERİSİ).",
+  "yeni": ""
+ },
+ "{s0}. Ölçü: {0} × {1} cm · Malzeme: AL - Ağırlık: {2} kg · Ağırlık: {3} kg · Ürün kodu: {4} S-LD (SERİSİ) Led Panel: {5}x{6} cm - Gövde Malzeme: AL - Ağırlık: {7} kg": {
+  "ornek_tr": "Solar Ledli Yol Bakım Levhaları - (hxw) 90x60 Cm. Ölçü: 90 × 60 cm · Malzeme: AL - Ağırlık: 9.7 kg · Ağırlık: 9.7 kg · Ürün kodu: 11600 S-LD (SERİSİ) Led Panel: 60x60 cm - Gövde Malzeme: AL - Ağırlık: 9.7 kg",
+  "mevcut": "Солнечные светодиодные знаки дорожных работ (ВxШ) 90x60 см. Размер: 90 × 60 см · Материал: AL - Вес: 9.7 кг · Вес: 9.7 кг · Код товара: 11600 S-LD (SERİSİ) Светодиодная панель: 60x60 см - Материал корпуса: AL - Вес: 9.7 кг",
+  "yeni": ""
+ },
+ "{s0}. Ölçü: {0} × {1} cm · Malzeme: PC - Ağırlık: {2} kg · Ağırlık: {3} kg · Ürün kodu: {4} FL (SERİSİ) Led Panel: {5}x{6} cm - Gövde Malzeme: PC - Ağırlık: {7} kg": {
+  "ornek_tr": "Solar Ledli Yol Bakım Levhaları - (hxw) 90x60 Cm. Ölçü: 90 × 60 cm · Malzeme: PC - Ağırlık: 9.8 kg · Ağırlık: 9.8 kg · Ürün kodu: 11800 FL (SERİSİ) Led Panel: 60x60 cm - Gövde Malzeme: PC - Ağırlık: 9.8 kg",
+  "mevcut": "Солнечные светодиодные знаки дорожных работ (ВxШ) 90x60 см. Размер: 90 × 60 см · Материал: PC - Вес: 9.8 кг · Вес: 9.8 кг · Код товара: 11800 FL (SERİSİ) Светодиодная панель: 60x60 см - Материал корпуса: PC - Вес: 9.8 кг",
+  "yeni": ""
+ },
+ "{s0} ({0} S-LD) ₺{1}. {2} × {3} cm · AL - Ağırlık: {4} kg · ledli/solar.": {
+  "ornek_tr": "Solar Ledli Yol Bakım Levhası - (hxw) 130x100 Cm – 11778 S-LD (11778 S-LD) ₺14.496. 130 × 100 cm · AL - Ağırlık: 16.5 kg · ledli/solar.",
+  "mevcut": "Солнечный светодиодный знак дорожных работ (ВxШ) 130x100 см – 11778 S-LD (11778 S-LD) ₺14.496. 130 × 100 см · AL - Вес: 16.5 кг · светодиоды/солнечная батарея.",
+  "yeni": ""
+ },
+ "{s0} ürününün fiyatı ₺{0} + KDV'dir. KDV dahil satış fiyatı ₺{1}. Fiyata kargo dahil değildir. Ürün kodu {2} S-LD.": {
+  "ornek_tr": "Solar Ledli Yol Bakım Levhası - (hxw) 130x100 Cm – 11778 S-LD ürününün fiyatı ₺14.496 + KDV'dir. KDV dahil satış fiyatı ₺17.395. Fiyata kargo dahil değildir. Ürün kodu 11778 S-LD.",
+  "mevcut": "Цена товара «Солнечный светодиодный знак дорожных работ (ВxШ) 130x100 см – 11778 S-LD» — ₺14.496 + НДС. Цена с НДС — ₺17.395. Доставка в цену не входит. Код товара 11778 S-LD.",
+  "yeni": ""
+ },
+ "{s0}. Ölçü: {0} × {1} cm · Malzeme: AL - Ağırlık: {2} kg · Ağırlık: {3} kg · Ürün kodu: {4} S-LD Led Panel: {5}x{6} cm - Gövde Malzeme: AL - Ağırlık: {7} kg": {
+  "ornek_tr": "Solar Ledli Yol Bakım Levhası - (hxw) 130x100 Cm. Ölçü: 130 × 100 cm · Malzeme: AL - Ağırlık: 16.5 kg · Ağırlık: 16.5 kg · Ürün kodu: 11778 S-LD Led Panel: 100x100 cm - Gövde Malzeme: AL - Ağırlık: 16.5 kg",
+  "mevcut": "Солнечный светодиодный знак дорожных работ (ВxШ) 130x100 см. Размер: 130 × 100 см · Материал: AL - Вес: 16.5 кг · Вес: 16.5 кг · Код товара: 11778 S-LD Светодиодная панель: 100x100 см - Материал корпуса: AL - Вес: 16.5 кг",
+  "yeni": ""
+ },
+ "{s0} ({0} SL K) ₺{1}. {2} × {3} × {4} cm · AL · ledli/solar. Stokta, {5}-{6} iş gününde kargoda.": {
+  "ornek_tr": "Solar Yol İşaretleme Butonu - 135x120x28 Mm – 11921 SL K (11921 SL K) ₺1.140. 13.5 × 12 × 2.8 cm · AL · ledli/solar. Stokta, 1-2 iş gününde kargoda.",
+  "mevcut": "Солнечный дорожный маркер 135x120x28 мм – 11921 SL K (11921 SL K) ₺1.140. 13.5 × 12 × 2.8 см · AL · светодиоды/солнечная батарея. В наличии, отгрузка за 1–2 рабочих дня.",
+  "yeni": ""
+ },
+ "{s0} ({0} SL S) ₺{1}. {2} × {3} × {4} cm · AL · ledli/solar. Stokta, {5}-{6} iş gününde kargoda.": {
+  "ornek_tr": "Solar Yol İşaretleme Butonu - 135x120x28 Mm – 11923 SL S (11923 SL S) ₺1.140. 13.5 × 12 × 2.8 cm · AL · ledli/solar. Stokta, 1-2 iş gününde kargoda.",
+  "mevcut": "Солнечный дорожный маркер 135x120x28 мм – 11923 SL S (11923 SL S) ₺1.140. 13.5 × 12 × 2.8 см · AL · светодиоды/солнечная батарея. В наличии, отгрузка за 1–2 рабочих дня.",
+  "yeni": ""
+ },
+ "{s0} ürününün fiyatı ₺{0} + KDV'dir. KDV dahil satış fiyatı ₺{1}. Fiyata kargo dahil değildir. Ürün kodu {2} SL S.": {
+  "ornek_tr": "Solar Yol İşaretleme Butonu - 135x120x28 Mm – 11923 SL S ürününün fiyatı ₺1.140 + KDV'dir. KDV dahil satış fiyatı ₺1.368. Fiyata kargo dahil değildir. Ürün kodu 11923 SL S.",
+  "mevcut": "Цена товара «Солнечный дорожный маркер 135x120x28 мм – 11923 SL S» — ₺1.140 + НДС. Цена с НДС — ₺1.368. Доставка в цену не входит. Код товара 11923 SL S.",
+  "yeni": ""
+ },
+ "{s0}. Ölçü: {0} × {1} × {2} cm · Malzeme: AL · Ağırlık: {3} kg · Ürün kodu: {4} SL K Malzeme: AL · Ağırlık: {5} kg · Montaj: {6}x": {
+  "ornek_tr": "Solar Yol İşaretleme Butonu - 135x120x28 Mm. Ölçü: 13.5 × 12 × 2.8 cm · Malzeme: AL · Ağırlık: 0.57 kg · Ürün kodu: 11921 SL K Malzeme: AL · Ağırlık: 0.57 kg · Montaj: 2x",
+  "mevcut": "Солнечный дорожный маркер 135x120x28 мм. Размер: 13.5 × 12 × 2.8 см · Материал: AL · Вес: 0.57 кг · Код товара: 11921 SL K Материал: AL · Вес: 0.57 кг · Крепление: 2x",
+  "yeni": ""
+ },
+ "{s0}. Ölçü: {0} × {1} × {2} cm · Malzeme: AL · Ağırlık: {3} kg · Ürün kodu: {4} SL S Malzeme: AL · Ağırlık: {5} kg · Montaj: {6}x": {
+  "ornek_tr": "Solar Yol İşaretleme Butonu - 135x120x28 Mm. Ölçü: 13.5 × 12 × 2.8 cm · Malzeme: AL · Ağırlık: 0.57 kg · Ürün kodu: 11923 SL S Malzeme: AL · Ağırlık: 0.57 kg · Montaj: 2x",
+  "mevcut": "Солнечный дорожный маркер 135x120x28 мм. Размер: 13.5 × 12 × 2.8 см · Материал: AL · Вес: 0.57 кг · Код товара: 11923 SL S Материал: AL · Вес: 0.57 кг · Крепление: 2x",
+  "yeni": ""
+ },
+ "{s0}. Ölçü: {0} × {1} × {2} cm · Malzeme: AL · Ağırlık: {3} kg · Ürün kodu: {4} SL K Malzeme: AL · Ağırlık: {5} kg · Montaj: Epoksi": {
+  "ornek_tr": "Solar Yol İşaretleme Butonu - 145x125x28 Mm. Ölçü: 14.5 × 12.5 × 2.8 cm · Malzeme: AL · Ağırlık: 0.48 kg · Ürün kodu: 11924 SL K Malzeme: AL · Ağırlık: 0.48 kg · Montaj: Epoksi",
+  "mevcut": "Солнечный дорожный маркер 145x125x28 мм. Размер: 14.5 × 12.5 × 2.8 см · Материал: AL · Вес: 0.48 кг · Код товара: 11924 SL K Материал: AL · Вес: 0.48 кг · Крепление: эпоксидный клей",
+  "yeni": ""
+ },
+ "{s0}. Ölçü: {0} × {1} × {2} cm · Malzeme: AL · Ağırlık: {3} kg · Ürün kodu: {4} SL S Malzeme: AL · Ağırlık: {5} kg · Montaj: Epoksi": {
+  "ornek_tr": "Solar Yol İşaretleme Butonu - 145x125x28 Mm. Ölçü: 14.5 × 12.5 × 2.8 cm · Malzeme: AL · Ağırlık: 0.48 kg · Ürün kodu: 11926 SL S Malzeme: AL · Ağırlık: 0.48 kg · Montaj: Epoksi",
+  "mevcut": "Солнечный дорожный маркер 145x125x28 мм. Размер: 14.5 × 12.5 × 2.8 см · Материал: AL · Вес: 0.48 кг · Код товара: 11926 SL S Материал: AL · Вес: 0.48 кг · Крепление: эпоксидный клей",
+  "yeni": ""
+ },
+ "Solar flaşör lamba, güneş enerjisiyle şarj olan ve gece otomatik yanan uyarı ışığıdır. Lens çapı {0} mm ve {1} mm olarak iki ana ölçüde üretilir. {2} mm lens {3} kilometreye kadar görünür, {4} mm lens {5}-{6} metre etkilidir. Işık sensörü karanlıkta otomatik devreye girer, tam şarjla {7}-{8} saat çalışır. Kablo ve elektrik tesisatı gerektirmez.": {
+  "ornek_tr": "Solar flaşör lamba, güneş enerjisiyle şarj olan ve gece otomatik yanan uyarı ışığıdır. Lens çapı 100 mm ve 200 mm olarak iki ana ölçüde üretilir. 200 mm lens 1 kilometreye kadar görünür, 100 mm lens 400-600 metre etkilidir. Işık sensörü karanlıkta otomatik devreye girer, tam şarjla 60-100 saat çalışır. Kablo ve elektrik tesisatı gerektirmez.",
+  "mevcut": "Солнечная мигающая лампа — это предупреждающий фонарь, который заряжается от солнца и автоматически включается ночью. Выпускается в двух основных размерах линзы: 100 мм и 200 мм. Линза 200 мм видна на расстоянии до 1 километра, линза 100 мм эффективна на 400–600 метрах. Датчик освещённости включает лампу в темноте автоматически; при полном заряде она работает 60–100 часов. Кабели и электропроводка не нужны.",
+  "yeni": ""
+ },
+ "Stoktaki ürünler {0}-{1} iş günü içinde kargoya verilir, Yurtiçi Kargo ile Türkiye geneline {2}-{3} iş gününde teslim edilir. Sevkiyat Konya'dan yapılır.": {
+  "ornek_tr": "Stoktaki ürünler 1-2 iş günü içinde kargoya verilir, Yurtiçi Kargo ile Türkiye geneline 1-3 iş gününde teslim edilir. Sevkiyat Konya'dan yapılır.",
+  "mevcut": "Товары в наличии передаются в доставку в течение 1–2 рабочих дней и доставляются службой Yurtiçi Kargo по всей Турции за 1–3 рабочих дня. Отгрузка производится из Коньи.",
+  "yeni": ""
+ },
+ "{s0} ürününün fiyatı ₺{0} + KDV'dir. KDV dahil satış fiyatı ₺{1}. Fiyata kargo dahil değildir. Ürün kodu TEST-{2}.": {
+  "ornek_tr": "TEST ÜRÜNÜ – Satın Almayın ürününün fiyatı ₺1 + KDV'dir. KDV dahil satış fiyatı ₺1. Fiyata kargo dahil değildir. Ürün kodu TEST-1.",
+  "mevcut": "Цена товара «ТЕСТОВЫЙ ТОВАР – не покупать» — ₺1 + НДС. Цена с НДС — ₺1. Доставка в цену не входит. Код товара TEST-1.",
+  "yeni": ""
+ },
+ "TPU, TPE ve PE {s0} Farkı — Hangi Malzeme Ne Zaman": {
+  "ornek_tr": "TPU, TPE ve PE Delinatör Farkı — Hangi Malzeme Ne Zaman",
+  "mevcut": "Разница между делинаторами из TPU, TPE и PE — какой материал когда",
+  "yeni": ""
+ },
+ "TPU, TPE ve PE {s0} Farkı — Hangi Malzeme Ne Zaman Doğru": {
+  "ornek_tr": "TPU, TPE ve PE Delinatör Farkı — Hangi Malzeme Ne Zaman Doğru",
+  "mevcut": "Разница между делинаторами из TPU, TPE и PE — какой материал когда подходит",
+  "yeni": ""
+ },
+ "TS EN {0}, taşınabilir trafik uyarı cihazlarının Avrupa standardıdır ve trafik konileri bu kapsamdadır. Reflektif malzeme EN {1}'a göre RA{2} ve RA{3} sınıflarına ayrılır. RA{4} sınıfı, RA{5}'in yaklaşık üç katı geri yansıtma değerine sahiptir ve gece görünürlüğü belirgin şekilde yüksektir. Kamu ihalelerinde genellikle RA{6} istenir, özel sektörde RA{7} çoğu durumda yeterlidir.": {
+  "ornek_tr": "TS EN 13422, taşınabilir trafik uyarı cihazlarının Avrupa standardıdır ve trafik konileri bu kapsamdadır. Reflektif malzeme EN 12899'a göre RA1 ve RA2 sınıflarına ayrılır. RA2 sınıfı, RA1'in yaklaşık üç katı geri yansıtma değerine sahiptir ve gece görünürlüğü belirgin şekilde yüksektir. Kamu ihalelerinde genellikle RA2 istenir, özel sektörde RA1 çoğu durumda yeterlidir.",
+  "mevcut": "TS EN 13422 — европейский стандарт на переносные устройства предупреждения дорожного движения, и дорожные конусы входят в его область. Световозвращающий материал по EN 12899 делится на классы RA1 и RA2. Коэффициент световозвращения у класса RA2 примерно в три раза выше, чем у RA1, и ночная видимость заметно лучше. В государственных тендерах обычно требуют RA2, в частном секторе в большинстве случаев достаточно RA1.",
+  "yeni": ""
+ },
+ "{s0} ({0} UB R) ₺{1}. TPE. Stokta, {2}-{3} iş gününde kargoda.": {
+  "ornek_tr": "Tpe Esnek Delinatör (soketli) - (hxø) 45 Cm X 80 Mm – 22058 UB R (22058 UB R) ₺449. TPE. Stokta, 1-2 iş gününde kargoda.",
+  "mevcut": "Гибкий делинатор из TPE (с гнездом) (Вxø) 45 см x 80 мм – 22058 UB R (22058 UB R) ₺449. TPE. В наличии, отгрузка за 1–2 рабочих дня.",
+  "yeni": ""
+ },
+ "{s0}. Malzeme: TPE · Ağırlık: {0} kg · Ürün kodu: {1} UB R Taban: (Ø) {2} mm · Montaj: {3}x · Ağırlık: {4} kg": {
+  "ornek_tr": "Tpe Esnek Delinatör (soketli) - (hxø) 45 Cm X 80 Mm. Malzeme: TPE · Ağırlık: 0.49 kg · Ürün kodu: 22058 UB R Taban: (Ø) 200 mm · Montaj: 3x · Ağırlık: 0.49 kg",
+  "mevcut": "Гибкий делинатор из TPE (с гнездом) (Вxø) 45 см x 80 мм. Материал: TPE · Вес: 0.49 кг · Код товара: 22058 UB R Основание: (Ø) 200 мм · Крепление: 3x · Вес: 0.49 кг",
+  "yeni": ""
+ },
+ "Tpe Esnek {s0} (soketli) - (hxø) {0} Cm X – {1} UB R": {
+  "ornek_tr": "Tpe Esnek Delinatör (soketli) - (hxø) 45 Cm X – 22058 UB R",
+  "mevcut": "Гибкий делинатор из TPE (с гнездом) (Вxø) 45 см x – 22058 UB R",
+  "yeni": ""
+ },
+ "Tpe Esnek {s0} (soketli)- (hxø) {0} Cm X – {1} UB R": {
+  "ornek_tr": "Tpe Esnek Delinatör (soketli)- (hxø) 100 Cm X – 22056 UB R",
+  "mevcut": "Гибкий делинатор из TPE (с гнездом) (Вxø) 100 см x – 22056 UB R",
+  "yeni": ""
+ },
+ "{s0} ({0} UB R) ₺{1}. TPE. Stokta, {2}-{3} iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.": {
+  "ornek_tr": "Tpe Esnek Delinatör - (hxø) 30 Cm X 80 Mm – 12275 UB R (12275 UB R) ₺355. TPE. Stokta, 1-2 iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.",
+  "mevcut": "Гибкий делинатор из TPE (Вxø) 30 см x 80 мм – 12275 UB R (12275 UB R) ₺355. TPE. В наличии, отгрузка за 1–2 рабочих дня. Доставка по всей Турции службой Yurtiçi Kargo.",
+  "yeni": ""
+ },
+ "Tpe Esnek {s0}(soketli) - (hxø) {0} Cm X – {1} UB R": {
+  "ornek_tr": "Tpe Esnek Delinatör(soketli) - (hxø) 100 Cm X – 22040 UB R",
+  "mevcut": "Гибкий делинатор из TPE (с гнездом) (Вxø) 100 см x – 22040 UB R",
+  "yeni": ""
+ },
+ "Tpe Esnek {s0}(soketli)- (hxø) {0} Cm X {1} – {2} UB R": {
+  "ornek_tr": "Tpe Esnek Delinatör(soketli)- (hxø) 70 Cm X 80 – 12272 UB R",
+  "mevcut": "Гибкий делинатор из TPE (с гнездом) (Вxø) 70 см x 80 – 12272 UB R",
+  "yeni": ""
+ },
+ "{s0}. Malzeme: TPE · Ağırlık: {0} kg · Ürün kodu: {1} UB R Taban: (Ø) {2} mm · montaj: {3}x · ağırlık: {4} kg": {
+  "ornek_tr": "Tpe S Şerit Ayırıcı Esnek Delinatör - (hxø) 100cmx80mm. Malzeme: TPE · Ağırlık: 1.2 kg · Ürün kodu: 22021 UB R Taban: (Ø) 200 mm · montaj: 3x · ağırlık: 1.2 kg",
+  "mevcut": "Гибкий S-образный делинатор-разделитель полос из TPE (Вxø) 100 см x 80 мм. Материал: TPE · Вес: 1.2 кг · Код товара: 22021 UB R Основание: (Ø) 200 мм · крепление: 3x · вес: 1.2 кг",
+  "yeni": ""
+ },
+ "Tpe S {s0} Esnek {s1} - (hxø) – {0} UB R": {
+  "ornek_tr": "Tpe S Şerit Ayırıcı Esnek Delinatör - (hxø) – 22021 UB R",
+  "mevcut": "Гибкий S-образный делинатор-разделитель полос из TPE (Вxø) – 22021 UB R",
+  "yeni": ""
+ },
+ "{s0} ({0} TK R{1}) ₺{2}. TPE. Stokta, {3}-{4} iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.": {
+  "ornek_tr": "Tpe Trafik Konisi - (h) 32 Cm – 12362 TK R1 (12362 TK R1) ₺355. TPE. Stokta, 1-2 iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.",
+  "mevcut": "Дорожный конус из TPE (В) 32 см – 12362 TK R1 (12362 TK R1) ₺355. TPE. В наличии, отгрузка за 1–2 рабочих дня. Доставка по всей Турции службой Yurtiçi Kargo.",
+  "yeni": ""
+ },
+ "{s0}. Malzeme: TPE · Ağırlık: {0} kg · Ürün kodu: {1} TK R{2} Taban:( ) {3} cm · Malzeme: TPE · Ağırlık: {4} kg": {
+  "ornek_tr": "Tpe Trafik Konisi - (h) 32 Cm. Malzeme: TPE · Ağırlık: 0.54 kg · Ürün kodu: 12362 TK R1 Taban:( ) 22 cm · Malzeme: TPE · Ağırlık: 0.54 kg",
+  "mevcut": "Дорожный конус из TPE (В) 32 см. Материал: TPE · Вес: 0.54 кг · Код товара: 12362 TK R1 Основание:( ) 22 см · Материал: TPE · Вес: 0.54 кг",
+  "yeni": ""
+ },
+ "{s0} ({0} TK A R{1}) ₺{2}. TPE. Stokta, {3}-{4} iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.": {
+  "ornek_tr": "Tpe Trafik Konisi - (h) 50 Cm – 12384 TK A R1 (12384 TK A R1) ₺630. TPE. Stokta, 1-2 iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.",
+  "mevcut": "Дорожный конус из TPE (В) 50 см – 12384 TK A R1 (12384 TK A R1) ₺630. TPE. В наличии, отгрузка за 1–2 рабочих дня. Доставка по всей Турции службой Yurtiçi Kargo.",
+  "yeni": ""
+ },
+ "{s0}. Malzeme: TPE · Ağırlık: {0} kg · Ürün kodu: {1} TK A R{2} Taban:( ) {3} cm · Malzeme: TPE · Ağırlık: {4} kg": {
+  "ornek_tr": "Tpe Trafik Konisi - (h) 50 Cm. Malzeme: TPE · Ağırlık: 2.5 kg · Ürün kodu: 12384 TK A R1 Taban:( ) 38.5 cm · Malzeme: TPE · Ağırlık: 2.5 kg",
+  "mevcut": "Дорожный конус из TPE (В) 50 см. Материал: TPE · Вес: 2.5 кг · Код товара: 12384 TK A R1 Основание:( ) 38.5 см · Материал: TPE · Вес: 2.5 кг",
+  "yeni": ""
+ },
+ "{s0}. Malzeme: TPU · Ağırlık: {0} kg · Ürün kodu: {1} UB R Taban: (Ø) {2} mm · Montaj: {3}x · Ağırlık: {4} kg": {
+  "ornek_tr": "Tpu Esnek Delinatör - (hxø) 100 Cm X 80 Mm. Malzeme: TPU · Ağırlık: 1.6 kg · Ürün kodu: 12211 UB R Taban: (Ø) 200 mm · Montaj: 3x · Ağırlık: 1.60 kg",
+  "mevcut": "Гибкий делинатор из TPU (Вxø) 100 см x 80 мм. Материал: TPU · Вес: 1.6 кг · Код товара: 12211 UB R Основание: (Ø) 200 мм · Крепление: 3x · Вес: 1.60 кг",
+  "yeni": ""
+ },
+ "{s0} ({0} UB R) ₺{1}. TPU. Stokta, {2}-{3} iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.": {
+  "ornek_tr": "Tpu Esnek Delinatör - (hxø) 30 Cm X 80 Mm – 12215 UB R (12215 UB R) ₺540. TPU. Stokta, 1-2 iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.",
+  "mevcut": "Гибкий делинатор из TPU (Вxø) 30 см x 80 мм – 12215 UB R (12215 UB R) ₺540. TPU. В наличии, отгрузка за 1–2 рабочих дня. Доставка по всей Турции службой Yurtiçi Kargo.",
+  "yeni": ""
+ },
+ "Tpu Esnek {s0}ler(soketli)-(hxø){0}cmx{1}m – {2} UB R": {
+  "ornek_tr": "Tpu Esnek Delinatörler(soketli)-(hxø)100cmx100m – 12249 UB R",
+  "mevcut": "Гибкие делинаторы из TPU (с гнездом) (Вxø) 100 см x 100 м – 12249 UB R",
+  "yeni": ""
+ },
+ "{s0} ({0} TG A) ₺{1}. PPC. Stokta, {2}-{3} iş gününde kargoda.": {
+  "ornek_tr": "Trafik Güvenlik Aynası - Ölçü: (ø) 600 Mm – 12228 TG A (12228 TG A) ₺3.348. PPC. Stokta, 1-2 iş gününde kargoda.",
+  "mevcut": "Зеркало дорожной безопасности, размер: (ø) 600 мм – 12228 TG A (12228 TG A) ₺3.348. PPC. В наличии, отгрузка за 1–2 рабочих дня.",
+  "yeni": ""
+ },
+ "{s0} ürününün fiyatı ₺{0} + KDV'dir. KDV dahil satış fiyatı ₺{1}. Fiyata kargo dahil değildir. Ürün kodu {2} TG A.": {
+  "ornek_tr": "Trafik Güvenlik Aynası - Ölçü: (ø) 600 Mm – 12228 TG A ürününün fiyatı ₺3.348 + KDV'dir. KDV dahil satış fiyatı ₺4.018. Fiyata kargo dahil değildir. Ürün kodu 12228 TG A.",
+  "mevcut": "Цена товара «Зеркало дорожной безопасности, размер: (ø) 600 мм – 12228 TG A» — ₺3.348 + НДС. Цена с НДС — ₺4.018. Доставка в цену не входит. Код товара 12228 TG A.",
+  "yeni": ""
+ },
+ "{s0}. Malzeme: PPC · Ağırlık: {0} kg · Ürün kodu: {1} TG A Malzeme: PPC · Ağırlık: {2} kg": {
+  "ornek_tr": "Trafik Güvenlik Aynası - Ölçü: (ø) 600 Mm. Malzeme: PPC · Ağırlık: 3.8 kg · Ürün kodu: 12228 TG A Malzeme: PPC · Ağırlık: 3.8 kg",
+  "mevcut": "Зеркало дорожной безопасности, размер: (ø) 600 мм. Материал: PPC · Вес: 3.8 кг · Код товара: 12228 TG A Материал: PPC · Вес: 3.8 кг",
+  "yeni": ""
+ },
+ "{s0} ({0} TG A) ₺{1}. {2} × {3} cm · ABS. Stokta, {4}-{5} iş gününde kargoda.": {
+  "ornek_tr": "Trafik Güvenlik Aynası - Ölçü: 40x60 Cm – 12265 TG A (12265 TG A) ₺4.872. 40 × 60 cm · ABS. Stokta, 1-2 iş gününde kargoda.",
+  "mevcut": "Зеркало дорожной безопасности, размер: 40x60 см – 12265 TG A (12265 TG A) ₺4.872. 40 × 60 см · ABS. В наличии, отгрузка за 1–2 рабочих дня.",
+  "yeni": ""
+ },
+ "{s0}. Ölçü: {0} × {1} cm · Malzeme: ABS · Ağırlık: {2} kg · Ürün kodu: {3} TG A Malzeme: ABS · Ağırlık: {4} kg": {
+  "ornek_tr": "Trafik Güvenlik Aynası - Ölçü: 40x60 Cm. Ölçü: 40 × 60 cm · Malzeme: ABS · Ağırlık: 3.3 kg · Ürün kodu: 12265 TG A Malzeme: ABS · Ağırlık: 3.3 kg",
+  "mevcut": "Зеркало дорожной безопасности, размер: 40x60 см. Размер: 40 × 60 см · Материал: ABS · Вес: 3.3 кг · Код товара: 12265 TG A Материал: ABS · Вес: 3.3 кг",
+  "yeni": ""
+ },
+ "{s0} Fiyatları {0} — Boy, Ağırlık ve Reflektife": {
+  "ornek_tr": "Trafik Konisi Fiyatları 2026 — Boy, Ağırlık ve Reflektife",
+  "mevcut": "Цены на дорожные конусы 2026 — по высоте, весу и световозвращению",
+  "yeni": ""
+ },
+ "{s0} Fiyatları {0} — Boy, Ağırlık ve Reflektife Göre": {
+  "ornek_tr": "Trafik Konisi Fiyatları 2026 — Boy, Ağırlık ve Reflektife Göre",
+  "mevcut": "Цены на дорожные конусы 2026 — по высоте, весу и световозвращающим полосам",
+  "yeni": ""
+ },
+ "{s0} Nasıl Seçilir? Boy, Ağırlık ve Reflektif": {
+  "ornek_tr": "Trafik Konisi Nasıl Seçilir? Boy, Ağırlık ve Reflektif",
+  "mevcut": "Как выбрать дорожный конус? Высота, вес и световозвращение",
+  "yeni": ""
+ },
+ "{s0} Nasıl Seçilir? Boy, Ağırlık ve Reflektif Rehberi": {
+  "ornek_tr": "Trafik Konisi Nasıl Seçilir? Boy, Ağırlık ve Reflektif Rehberi",
+  "mevcut": "Как выбрать дорожный конус? Руководство по высоте, весу и световозвращению",
+  "yeni": ""
+ },
+ "Trafik konisi fiyatı boy, taban ağırlığı ve reflektif bant sayısına göre değişir. {0}'da {1} cm koniler {2}-{3} TL, {4}-{5} cm koniler {6}-{7} TL, {8} cm koniler {9}-{10} TL aralığındadır (KDV hariç). Ağırlık tabanlı modeller standarda göre yaklaşık %{11} pahalıdır. Kamu şartnamelerinde genellikle {12} cm ve {13} kg ağırlık istenir.": {
+  "ornek_tr": "Trafik konisi fiyatı boy, taban ağırlığı ve reflektif bant sayısına göre değişir. 2026'da 50 cm koniler 330-550 TL, 70-75 cm koniler 400-1.000 TL, 90 cm koniler 730-1.250 TL aralığındadır (KDV hariç). Ağırlık tabanlı modeller standarda göre yaklaşık %30 pahalıdır. Kamu şartnamelerinde genellikle 75 cm ve 4 kg ağırlık istenir.",
+  "mevcut": "Цена дорожного конуса зависит от высоты, веса основания и количества световозвращающих полос. В 2026 году конусы 50 см стоят 330–550 TL, 70–75 см — 400–1.000 TL, 90 см — 730–1.250 TL (без НДС). Модели с утяжелённым основанием примерно на 30% дороже стандартных. В государственных технических спецификациях обычно требуют высоту 75 см и вес 4 кг.",
+  "yeni": ""
+ },
+ "Trafik konisi geçici uygulamalar, delinatör kalıcı uygulamalar içindir. Koni taşınabilir ve toplanabilir, zemine sabitlenmez. {s0} dübelle zemine vidalanır ve aylarca yerinde kalır. Bir günlük yol çalışmasında koni, kalıcı şerit ayrımında delinatör kullanılır. Yanlış seçim yapıldığında koniler rüzgârda dağılır, delinatörler ise gereksiz montaj maliyeti yaratır.": {
+  "ornek_tr": "Trafik konisi geçici uygulamalar, delinatör kalıcı uygulamalar içindir. Koni taşınabilir ve toplanabilir, zemine sabitlenmez. Delinatör dübelle zemine vidalanır ve aylarca yerinde kalır. Bir günlük yol çalışmasında koni, kalıcı şerit ayrımında delinatör kullanılır. Yanlış seçim yapıldığında koniler rüzgârda dağılır, delinatörler ise gereksiz montaj maliyeti yaratır.",
+  "mevcut": "Дорожный конус предназначен для временного применения, делинатор — для постоянного. Конус переносной и легко убирается, к покрытию не крепится. Делинатор прикручивается к покрытию на дюбелях и стоит на месте месяцами. Для однодневных дорожных работ используют конус, для постоянного разделения полос — делинатор. При неверном выборе конусы разлетаются на ветру, а делинаторы создают лишние затраты на монтаж.",
+  "yeni": ""
+ },
+ "Trafik Ürünleri — {s0}, {s1}, Levha, Bariyer": {
+  "ornek_tr": "Trafik Ürünleri — Trafik Konisi, Delinatör, Levha, Bariyer",
+  "mevcut": "Trafik Ürünleri — дорожные конусы, делинаторы, знаки, барьеры",
+  "yeni": ""
+ },
+ "Turuncu {s0} - Siyah Ağırlık": {
+  "ornek_tr": "Turuncu Delinatör - Siyah Ağırlık",
+  "mevcut": "Оранжевый делинатор — чёрный утяжелитель",
+  "yeni": ""
+ },
+ "{s0} ({0} TK) ₺{1}. PPC · kedi gözü. Stokta, {2}-{3} iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.": {
+  "ornek_tr": "Ultra Kedi Gözlü Koni - (h) 60 Cm – 12350 TK (12350 TK) ₺624. PPC · kedi gözü. Stokta, 1-2 iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.",
+  "mevcut": "Конус Ultra с катафотами (В) 60 см – 12350 TK (12350 TK) ₺624. PPC · катафоты. В наличии, отгрузка за 1–2 рабочих дня. Доставка по всей Турции службой Yurtiçi Kargo.",
+  "yeni": ""
+ },
+ "{s0} ({0} DB R A) ₺{1}. {2} × {3} cm · PPC. Stokta, {4}-{5} iş gününde kargoda.": {
+  "ornek_tr": "Ultra Levhalı Uyarı Dubası - (hxw) 90x49 Cm – 12423 DB R A (12423 DB R A) ₺1.788. 90 × 49 cm · PPC. Stokta, 1-2 iş gününde kargoda.",
+  "mevcut": "Предупреждающий буфер Ultra со щитом (ВxШ) 90x49 см – 12423 DB R A (12423 DB R A) ₺1.788. 90 × 49 см · PPC. В наличии, отгрузка за 1–2 рабочих дня.",
+  "yeni": ""
+ },
+ "{s0} ürününün fiyatı ₺{0} + KDV'dir. KDV dahil satış fiyatı ₺{1}. Fiyata kargo dahil değildir. Ürün kodu {2} DB R A.": {
+  "ornek_tr": "Ultra Levhalı Uyarı Dubası - (hxw) 90x49 Cm – 12423 DB R A ürününün fiyatı ₺1.788 + KDV'dir. KDV dahil satış fiyatı ₺2.146. Fiyata kargo dahil değildir. Ürün kodu 12423 DB R A.",
+  "mevcut": "Цена товара «Предупреждающий буфер Ultra со щитом (ВxШ) 90x49 см – 12423 DB R A» — ₺1.788 + НДС. Цена с НДС — ₺2.146. Доставка в цену не входит. Код товара 12423 DB R A.",
+  "yeni": ""
+ },
+ "{s0}. Ölçü: {0} × {1} cm · Malzeme: PPC · Ağırlık: {2} kg · Ürün kodu: {3} DB R A Reflektif: {4}x{5} cm · Malzeme: PPC · Ağırlık: {6} kg": {
+  "ornek_tr": "Ultra Levhalı Uyarı Dubası - (hxw) 90x49 Cm. Ölçü: 90 × 49 cm · Malzeme: PPC · Ağırlık: 7.5 kg · Ürün kodu: 12423 DB R A Reflektif: 60x40 cm · Malzeme: PPC · Ağırlık: 7.5 kg",
+  "mevcut": "Предупреждающий буфер Ultra со щитом (ВxШ) 90x49 см. Размер: 90 × 49 см · Материал: PPC · Вес: 7.5 кг · Код товара: 12423 DB R A Световозвращатель: 60x40 см · Материал: PPC · Вес: 7.5 кг",
+  "yeni": ""
+ },
+ "{s0} tek başına değil, zemin tipine uygun dübelle birlikte seçilir. Asfalt, beton ve parke taşı farklı dübel gerektirir. {s1} boyu, sabitlenecek ürünün taban kalınlığı ile zemine girmesi gereken derinliğin toplamına göre belirlenir. Bazı ürünlerde montaj gereçleri kutuya dahildir — sipariş öncesi ürün sayfasındaki montaj bilgisini kontrol edin.": {
+  "ornek_tr": "Vida tek başına değil, zemin tipine uygun dübelle birlikte seçilir. Asfalt, beton ve parke taşı farklı dübel gerektirir. Vida boyu, sabitlenecek ürünün taban kalınlığı ile zemine girmesi gereken derinliğin toplamına göre belirlenir. Bazı ürünlerde montaj gereçleri kutuya dahildir — sipariş öncesi ürün sayfasındaki montaj bilgisini kontrol edin.",
+  "mevcut": "Шуруп выбирается не сам по себе, а вместе с дюбелем, подходящим под тип покрытия. Асфальт, бетон и брусчатка требуют разных дюбелей. Длина шурупа определяется как сумма толщины основания закрепляемого изделия и глубины, на которую он должен войти в покрытие. У некоторых товаров монтажный комплект входит в коробку — перед заказом проверьте информацию о монтаже на странице товара.",
+  "yeni": ""
+ },
+ "Yapıştırmalı modeller zemine delik açılamayan yerlerde — mermer, granit, ıslak hacim, kiralık alan — kullanılır; montajı hızlıdır. {s0}li modeller yoğun yaya trafiğinde ve dış mekânda daha güvenli tutunur. Zemin düzgün ve temiz değilse yapıştırmalı modelin ömrü kısalır; montajdan önce yüzeyin kuru ve yağsız olması gerekir.": {
+  "ornek_tr": "Yapıştırmalı modeller zemine delik açılamayan yerlerde — mermer, granit, ıslak hacim, kiralık alan — kullanılır; montajı hızlıdır. Dübelli modeller yoğun yaya trafiğinde ve dış mekânda daha güvenli tutunur. Zemin düzgün ve temiz değilse yapıştırmalı modelin ömrü kısalır; montajdan önce yüzeyin kuru ve yağsız olması gerekir.",
+  "mevcut": "Клеевые модели используются там, где в покрытии нельзя сверлить, — мрамор, гранит, влажные помещения, арендуемые площади; монтаж быстрый. Модели на дюбелях надёжнее держатся при интенсивном пешеходном потоке и на улице. Если покрытие неровное или грязное, срок службы клеевой модели сокращается; перед монтажом поверхность должна быть сухой и обезжиренной.",
+  "yeni": ""
+ },
+ "Yeşil Beyaz {s0} {0} Mm. Ürün kodu: ZT{1}A": {
+  "ornek_tr": "Yeşil Beyaz Zincir 6 Mm. Ürün kodu: ZT512A",
+  "mevcut": "Зелёно-белая цепь 6 мм. Код товара: ZT512A",
+  "yeni": ""
+ },
+ "{s0} ve Kedi Gözü — Tipler, Montaj ve Yerleşim Aralığı": {
+  "ornek_tr": "Yol Butonu ve Kedi Gözü — Tipler, Montaj ve Yerleşim Aralığı",
+  "mevcut": "Дорожные маркеры и катафоты — типы, монтаж и шаг установки",
+  "yeni": ""
+ },
+ "Yol butonu, asfalta gömülü veya yapıştırılan reflektörlü işaretleme elemanıdır. Cam küreli ve mercekli olmak üzere iki tip vardır; mercekli tip {0}-{1} kat daha uzaktan görünür. Şerit ayrımında {2}-{3} metre, viraj ve kavşakta {4}-{5} metre aralıkla yerleştirilir. Renk kodu yön ve şerit tipini belirtir: beyaz normal şerit, sarı orta refüj, kırmızı yanlış yön, mavi yangın hidrantı.": {
+  "ornek_tr": "Yol butonu, asfalta gömülü veya yapıştırılan reflektörlü işaretleme elemanıdır. Cam küreli ve mercekli olmak üzere iki tip vardır; mercekli tip 3-5 kat daha uzaktan görünür. Şerit ayrımında 6-12 metre, viraj ve kavşakta 3-6 metre aralıkla yerleştirilir. Renk kodu yön ve şerit tipini belirtir: beyaz normal şerit, sarı orta refüj, kırmızı yanlış yön, mavi yangın hidrantı.",
+  "mevcut": "Дорожный маркер — световозвращающий элемент разметки, утапливаемый в асфальт или наклеиваемый на него. Есть два типа: со стеклянными шариками и с линзами; линзовый виден в 3–5 раз дальше. Для разделения полос устанавливается с шагом 6–12 метров, на поворотах и перекрёстках — 3–6 метров. Цвет указывает направление и тип полосы: белый — обычная полоса, жёлтый — центральный разделитель, красный — встречное направление, синий — пожарный гидрант.",
+  "yeni": ""
+ },
+ "{s0} (ZT{0}D) ₺{1}. PPC. Stokta, {2}-{3} iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.": {
+  "ornek_tr": "Yuvarlak Levha Park Yapılmaz Çift Taraflı – ZT545D (ZT545D) ₺208. PPC. Stokta, 1-2 iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.",
+  "mevcut": "Круглый знак «Стоянка запрещена», двусторонний – ZT545D (ZT545D) ₺208. PPC. В наличии, отгрузка за 1–2 рабочих дня. Доставка по всей Турции службой Yurtiçi Kargo.",
+  "yeni": ""
+ },
+ "{s0} ({0} A F) ₺{1}. Stokta, {2}-{3} iş gününde kargoda.": {
+  "ornek_tr": "Yuvarlak Uyarı Levhası - Folyo Ölçü: Ø270 Mm İki Yönlü Uyarı – 124 A F (124 A F) ₺403. Stokta, 1-2 iş gününde kargoda.",
+  "mevcut": "Круглый предупреждающий знак, плёнка, размер: Ø270 мм, двусторонний – 124 A F (124 A F) ₺403. В наличии, отгрузка за 1–2 рабочих дня.",
+  "yeni": ""
+ },
+ "{s0}. Ürün kodu: {0} A F": {
+  "ornek_tr": "Yuvarlak Uyarı Levhası - Folyo Ölçü: Ø270 Mm İki Yönlü Uyarı. Ürün kodu: 124 A F",
+  "mevcut": "Круглый предупреждающий знак, плёнка, размер: Ø270 мм, двусторонний. Код товара: 124 A F",
+  "yeni": ""
+ },
+ "Yuvarlak {s0} - Folyo Ölçü: Ø{0} Mm İki – {1} A F": {
+  "ornek_tr": "Yuvarlak Uyarı Levhası - Folyo Ölçü: Ø270 Mm İki – 124 A F",
+  "mevcut": "Круглый предупреждающий знак, плёнка, размер: Ø270 мм, дв. – 124 A F",
+  "yeni": ""
+ },
+ "{s0} ({0} A R) ₺{1}. reflektifli. Stokta, {2}-{3} iş gününde kargoda.": {
+  "ornek_tr": "Yuvarlak Uyarı Levhası - Reflektif Ölçü: Ø370 Mm İki Yönlü Uyarı – 222 A R (222 A R) ₺528. reflektifli. Stokta, 1-2 iş gününde kargoda.",
+  "mevcut": "Круглый предупреждающий знак, световозвращающий, размер: Ø370 мм, двусторонний – 222 A R (222 A R) ₺528. световозвращающий. В наличии, отгрузка за 1–2 рабочих дня.",
+  "yeni": ""
+ },
+ "Yuvarlak {s0} - Reflektif Ölçü: Ø{0} Mm – {1} A R": {
+  "ornek_tr": "Yuvarlak Uyarı Levhası - Reflektif Ölçü: Ø370 Mm – 222 A R",
+  "mevcut": "Круглый предупреждающий знак, световозвращающий, размер: Ø370 мм – 222 A R",
+  "yeni": ""
+ },
+ "ZT{0}A kodlu {s0} ürününün malzemesi PPC, ağırlığı {1} kgdır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "ZT100A kodlu Delinatör Bağlantı Aparatı – ZT100A ürününün malzemesi PPC, ağırlığı 0.09 kgdır. Ürün Bağlantı Aparatı kategorisindedir.",
+  "mevcut": "Соединительный элемент для делинатора – ZT100A (код ZT100A): материал PPC, вес 0.09 кг. Категория товара — «Соединительный элемент».",
+  "yeni": ""
+ },
+ "ZT{0}R{1} kodlu {s0} ürününün ölçüsü {2} cm, malzemesi PPC, ağırlığı {3} kg, reflektif tipi {4} bant, tabanı dikdörtgendır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "ZT110120R4 kodlu 110 cm Uyarı Dikmesi Dikdörtgen Tabanlı 4 Reflektifli – ZT110120R4 ürününün ölçüsü 110 cm, malzemesi PPC, ağırlığı 9 kg, reflektif tipi 4 bant, tabanı dikdörtgendır. Ürün Uyarı Dikmesi kategorisindedir.",
+  "mevcut": "Предупреждающий столбик 110 см с прямоугольным основанием, 4 световозвращающие полосы – ZT110120R4 (код ZT110120R4): размер 110 см, материал PPC, вес 9 кг, световозвращение — 4 полосы, основание прямоугольное. Категория товара — «Предупреждающий столбик».",
+  "yeni": ""
+ },
+ "ZT{0}R{1} kodlu {s0} ürününün ölçüsü {2} cm, malzemesi PPC, ağırlığı {3} kg, reflektif tipi {4} bant, tabanı yuvarlakdır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "ZT11015R4 kodlu 110 cm Uyarı Dikmesi Yuvarlak Tabanlı 4 Reflektifli – ZT11015R4 ürününün ölçüsü 110 cm, malzemesi PPC, ağırlığı 5.6 kg, reflektif tipi 4 bant, tabanı yuvarlakdır. Ürün Uyarı Dikmesi kategorisindedir.",
+  "mevcut": "Предупреждающий столбик 110 см с круглым основанием, 4 световозвращающие полосы – ZT11015R4 (код ZT11015R4): размер 110 см, материал PPC, вес 5.6 кг, световозвращение — 4 полосы, основание круглое. Категория товара — «Предупреждающий столбик».",
+  "yeni": ""
+ },
+ "ZT{0}A kodlu {s0} ürününün ölçüsü {1} cm, malzemesi PPC, ağırlığı {2} kgdır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "ZT110A kodlu 110 cm Dikme Kelepçesi – ZT110A ürününün ölçüsü 110 cm, malzemesi PPC, ağırlığı 0.12 kgdır. Ürün Dikme Kelepçesi kategorisindedir.",
+  "mevcut": "Хомут для стойки 110 см – ZT110A (код ZT110A): размер 110 см, материал PPC, вес 0.12 кг. Категория товара — «Хомут для стойки».",
+  "yeni": ""
+ },
+ "ZT{0} kodlu {s0} ürününün ölçüsü {1} cm, malzemesi PPC, ağırlığı {2} kgdır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "ZT12575 kodlu 75 cm Panel – ZT12575 ürününün ölçüsü 75 cm, malzemesi PPC, ağırlığı 2 kgdır. Ürün Panel Levhası kategorisindedir.",
+  "mevcut": "Панель 75 см – ZT12575 (код ZT12575): размер 75 см, материал PPC, вес 2 кг. Категория товара — «Панель».",
+  "yeni": ""
+ },
+ "ZT{0}R kodlu {s0} ürününün ölçüsü {1} cm, malzemesi PPC, ağırlığı {2} kgdır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "ZT12575R kodlu 75 cm Panel Baskılı – ZT12575R ürününün ölçüsü 75 cm, malzemesi PPC, ağırlığı 2 kgdır. Ürün Panel Levhası kategorisindedir.",
+  "mevcut": "Панель 75 см с печатью – ZT12575R (код ZT12575R): размер 75 см, материал PPC, вес 2 кг. Категория товара — «Панель».",
+  "yeni": ""
+ },
+ "ZT{0} kodlu {s0} ürününün ölçüsü {1} cmdır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "ZT12845 kodlu 45 cm Delinatörlü Şerit Ayırıcı – ZT12845 ürününün ölçüsü 45 cmdır. Ürün Şerit Ayırıcı kategorisindedir.",
+  "mevcut": "Разделитель полос 45 см с делинатором – ZT12845 (код ZT12845): размер 45 см. Категория товара — «Разделитель полос».",
+  "yeni": ""
+ },
+ "ZT{0} kodlu {s0} ürününün malzemesi TPU, ağırlığı {1} kg, tabanı altıgendır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "ZT14060 kodlu Altıgen Delinatör – ZT14060 ürününün malzemesi TPU, ağırlığı 1.3 kg, tabanı altıgendır. Ürün Delinatör kategorisindedir.",
+  "mevcut": "Шестигранный делинатор – ZT14060 (код ZT14060): материал TPU, вес 1.3 кг, основание шестигранное. Категория товара — «Делинатор».",
+  "yeni": ""
+ },
+ "ZT{0}B kodlu {s0} ürününün malzemesi TPU, tabanı altıgendır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "ZT14060B kodlu Altıgen Delinatör (siyah) TPU – ZT14060B ürününün malzemesi TPU, tabanı altıgendır. Ürün Delinatör kategorisindedir.",
+  "mevcut": "Шестигранный делинатор (чёрный) TPU – ZT14060B (код ZT14060B): материал TPU, основание шестигранное. Категория товара — «Делинатор».",
+  "yeni": ""
+ },
+ "ZT{0}Y kodlu {s0} ürününün ölçüsü {1} cm, malzemesi PPC, ağırlığı {2} kgdır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "ZT15110Y kodlu 110 cm Araç Stoperi Sarı Siyah – ZT15110Y ürününün ölçüsü 110 cm, malzemesi PPC, ağırlığı 3.6 kgdır. Ürün Araç Stoperi kategorisindedir.",
+  "mevcut": "Колесоотбойник 110 см жёлто-чёрный – ZT15110Y (код ZT15110Y): размер 110 см, материал PPC, вес 3.6 кг. Категория товара — «Колесоотбойник».",
+  "yeni": ""
+ },
+ "ZT{0} kodlu {s0} ürününün malzemesi Kauçukdır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "ZT16015 kodlu Kauçuk Şerit Ayırıcı – ZT16015 ürününün malzemesi Kauçukdır. Ürün Şerit Ayırıcı kategorisindedir.",
+  "mevcut": "Резиновый разделитель полос – ZT16015 (код ZT16015): материал резина. Категория товара — «Разделитель полос».",
+  "yeni": ""
+ },
+ "ZT{0} kodlu {s0} ürününün ölçüsü {1} cm, malzemesi PVCdır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "ZT16045 kodlu 45 cm Delinatörlü PVC Şerit Ayırıcı – ZT16045 ürününün ölçüsü 45 cm, malzemesi PVCdır. Ürün Şerit Ayırıcı kategorisindedir.",
+  "mevcut": "Разделитель полос из PVC 45 см с делинатором – ZT16045 (код ZT16045): размер 45 см, материал PVC. Категория товара — «Разделитель полос».",
+  "yeni": ""
+ },
+ "ZT{0}A kodlu {s0} ürününün ölçüsü {1} cm, malzemesi PVC, ağırlığı {2} kg, tabanı altıgendır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "ZT202A kodlu 38 cm Altıgen Ağırlık Tabanı – ZT202A ürününün ölçüsü 38 cm, malzemesi PVC, ağırlığı 1.7 kg, tabanı altıgendır. Ürün Ağırlık Tabanı kategorisindedir.",
+  "mevcut": "Шестигранное утяжелённое основание 38 см – ZT202A (код ZT202A): размер 38 см, материал PVC, вес 1.7 кг, основание шестигранное. Категория товара — «Утяжелённое основание».",
+  "yeni": ""
+ },
+ "ZT{0} DA kodlu {s0} ürününün ölçüsü {1} cm, malzemesi PPC, ağırlığı {2} kg, tabanı dikdörtgendır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "ZT32110 DA kodlu 110 cm Dikme Dikdörtgen Tabanlı 32 cm Panel Baskılı – ZT32110 DA ürününün ölçüsü 110 cm, malzemesi PPC, ağırlığı 23 kg, tabanı dikdörtgendır. Ürün Dikme + Panel Sistemi kategorisindedir.",
+  "mevcut": "Стойка 110 см с прямоугольным основанием и панелью 32 см с печатью – ZT32110 DA (код ZT32110 DA): размер 110 см, материал PPC, вес 23 кг, основание прямоугольное. Категория товара — «Система «стойка + панель»».",
+  "yeni": ""
+ },
+ "ZT{0} DAR kodlu {s0} ürününün ölçüsü {1} cm, malzemesi PPC, ağırlığı {2} kg, tabanı dikdörtgendır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "ZT32110 DAR kodlu 110 cm Dikme Dikdörtgen Tabanlı 32 cm Panel – ZT32110 DAR ürününün ölçüsü 110 cm, malzemesi PPC, ağırlığı 23 kg, tabanı dikdörtgendır. Ürün Dikme + Panel Sistemi kategorisindedir.",
+  "mevcut": "Стойка 110 см с прямоугольным основанием и панелью 32 см – ZT32110 DAR (код ZT32110 DAR): размер 110 см, материал PPC, вес 23 кг, основание прямоугольное. Категория товара — «Система «стойка + панель»».",
+  "yeni": ""
+ },
+ "ZT{0}A kodlu {s0} ürününün ölçüsü {1} cm, malzemesi PPC-PC, ağırlığı {2} kgdır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "ZT32A kodlu 32 cm Panel Levhası – ZT32A ürününün ölçüsü 32 cm, malzemesi PPC-PC, ağırlığı 0.23 kgdır. Ürün Panel Levhası kategorisindedir.",
+  "mevcut": "Панель 32 см – ZT32A (код ZT32A): размер 32 см, материал PPC-PC, вес 0.23 кг. Категория товара — «Панель».",
+  "yeni": ""
+ },
+ "ZT{0}A-W kodlu {s0} ürününün malzemesi Plastikdır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "ZT330A-W kodlu Zincir Kancası Plastik Beyaz – ZT330A-W ürününün malzemesi Plastikdır. Ürün Zincir Kancası kategorisindedir.",
+  "mevcut": "Крючок для цепи пластиковый белый – ZT330A-W (код ZT330A-W): материал пластик. Категория товара — «Крючок для цепи».",
+  "yeni": ""
+ },
+ "ZT{0} kodlu {s0} ürününün ölçüsü {1}x{2} mm, malzemesi PPC, ağırlığı {3} kgdır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "ZT345 kodlu 340x400 mm Dikdörtgen Levha – ZT345 ürününün ölçüsü 340x400 mm, malzemesi PPC, ağırlığı 0.65 kgdır. Ürün Dikdörtgen Levha kategorisindedir.",
+  "mevcut": "Прямоугольный знак 340x400 мм – ZT345 (код ZT345): размер 340x400 мм, материал PPC, вес 0.65 кг. Категория товара — «Прямоугольный знак».",
+  "yeni": ""
+ },
+ "ZT{0} kodlu {s0} ürününün malzemesi PPC, ağırlığı {1} kgdır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "ZT346 kodlu Dikdötgen Levha Çalışma Var – ZT346 ürününün malzemesi PPC, ağırlığı 0.65 kgdır. Ürün Dikdörtgen Levha kategorisindedir.",
+  "mevcut": "Прямоугольный знак «Ведутся работы» – ZT346 (код ZT346): материал PPC, вес 0.65 кг. Категория товара — «Прямоугольный знак».",
+  "yeni": ""
+ },
+ "ZT{0} kodlu {s0} ürününün ölçüsü {1} cm, malzemesi TPU, ağırlığı {2} kgdır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "ZT40100 kodlu 100 cm Refüj Başı Levha Baskılı – ZT40100 ürününün ölçüsü 100 cm, malzemesi TPU, ağırlığı 3.5 kgdır. Ürün Refüj Başı Dubası kategorisindedir.",
+  "mevcut": "Островковый буфер 100 см со знаком с печатью – ZT40100 (код ZT40100): размер 100 см, материал TPU, вес 3.5 кг. Категория товара — «Островковый буфер».",
+  "yeni": ""
+ },
+ "ZT{0}P kodlu {s0} ürününün ölçüsü {1} cmdır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "ZT40100P kodlu 100 cm Refüj Başı Levha – ZT40100P ürününün ölçüsü 100 cmdır. Ürün Refüj Başı Dubası kategorisindedir.",
+  "mevcut": "Островковый буфер 100 см со знаком – ZT40100P (код ZT40100P): размер 100 см. Категория товара — «Островковый буфер».",
+  "yeni": ""
+ },
+ "ZT{0} kodlu {s0} ürününün malzemesi PPC, ağırlığı {1} kg, reflektif tipi kedi gözüdır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "ZT40300 kodlu Kedi Gözlü Kasis Siyah – ZT40300 ürününün malzemesi PPC, ağırlığı 1.3 kg, reflektif tipi kedi gözüdır. Ürün Hız Kesici Kasis kategorisindedir.",
+  "mevcut": "Искусственная неровность с катафотами чёрная – ZT40300 (код ZT40300): материал PPC, вес 1.3 кг, световозвращение — катафоты. Категория товара — «Искусственная неровность».",
+  "yeni": ""
+ },
+ "ZT{0}Y kodlu {s0} ürününün malzemesi PPC, ağırlığı {1} kg, reflektif tipi kedi gözüdır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "ZT40300Y kodlu Kedi Gözlü Kasis Sarı – ZT40300Y ürününün malzemesi PPC, ağırlığı 1.3 kg, reflektif tipi kedi gözüdır. Ürün Hız Kesici Kasis kategorisindedir.",
+  "mevcut": "Искусственная неровность с катафотами жёлтая – ZT40300Y (код ZT40300Y): материал PPC, вес 1.3 кг, световозвращение — катафоты. Категория товара — «Искусственная неровность».",
+  "yeni": ""
+ },
+ "ZT{0} kodlu {s0} ürününün malzemesi PVC, ağırlığı {1} kgdır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "ZT40400 kodlu Hız Kesici Kasis – ZT40400 ürününün malzemesi PVC, ağırlığı 5.8 kgdır. Ürün Hız Kesici Kasis kategorisindedir.",
+  "mevcut": "Искусственная неровность – ZT40400 (код ZT40400): материал PVC, вес 5.8 кг. Категория товара — «Искусственная неровность».",
+  "yeni": ""
+ },
+ "ZT{0}R kodlu {s0} ürününün malzemesi ABS-PC, ağırlığı {1} kg, reflektif tipi ledli/solardır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "ZT404R kodlu Solar Flaşör LED Lambası Kırmızı – ZT404R ürününün malzemesi ABS-PC, ağırlığı 0.9 kg, reflektif tipi ledli/solardır. Ürün Flaşör Lamba kategorisindedir.",
+  "mevcut": "Солнечная светодиодная мигающая лампа, красная – ZT404R (код ZT404R): материал ABS-PC, вес 0.9 кг, тип — светодиоды/солнечная батарея. Категория товара — «Мигающая лампа».",
+  "yeni": ""
+ },
+ "ZT{0}Y kodlu {s0} ürününün malzemesi ABS-PC, ağırlığı {1} kg, reflektif tipi ledli/solardır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "ZT404Y kodlu Solar Flaşör LED Lambası Sarı – ZT404Y ürününün malzemesi ABS-PC, ağırlığı 0.9 kg, reflektif tipi ledli/solardır. Ürün Flaşör Lamba kategorisindedir.",
+  "mevcut": "Солнечная светодиодная мигающая лампа, жёлтая – ZT404Y (код ZT404Y): материал ABS-PC, вес 0.9 кг, тип — светодиоды/солнечная батарея. Категория товара — «Мигающая лампа».",
+  "yeni": ""
+ },
+ "ZT{0}A kodlu {s0} ürününün malzemesi PP, ağırlığı {1} kgdır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "ZT501A kodlu Kırmızı Beyaz Zincir 8 mm – ZT501A ürününün malzemesi PP, ağırlığı 2.5 kgdır. Ürün Zincir kategorisindedir.",
+  "mevcut": "Красно-белая цепь 8 мм – ZT501A (код ZT501A): материал PP, вес 2.5 кг. Категория товара — «Цепь».",
+  "yeni": ""
+ },
+ "ZT{0}Y kodlu {s0} ürününün malzemesi PPC, ağırlığı {1} kgdır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "ZT50250Y kodlu Dur Geç Kasis Sarı – ZT50250Y ürününün malzemesi PPC, ağırlığı 1.5 kgdır. Ürün Hız Kesici Kasis kategorisindedir.",
+  "mevcut": "Искусственная неровность «Стоп-проезд» жёлтая – ZT50250Y (код ZT50250Y): материал PPC, вес 1.5 кг. Категория товара — «Искусственная неровность».",
+  "yeni": ""
+ },
+ "ZT{0}R{1} kodlu {s0} ürününün ölçüsü {2} cm, malzemesi PVC, ağırlığı {3} kg, reflektif tipi {4} bant, tabanı karedır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "ZT502804R2 kodlu 50 cm Kare Tabanlı Koni 2 Reflektifli (1,60 kg) – ZT502804R2 ürününün ölçüsü 50 cm, malzemesi PVC, ağırlığı 1.6 kg, reflektif tipi 2 bant, tabanı karedır. Ürün Trafik Konisi kategorisindedir.",
+  "mevcut": "Конус 50 см с квадратным основанием, 2 световозвращающие полосы (1,60 кг) – ZT502804R2 (код ZT502804R2): размер 50 см, материал PVC, вес 1.6 кг, световозвращение — 2 полосы, основание квадратное. Категория товара — «Дорожный конус».",
+  "yeni": ""
+ },
+ "ZT{0}R{1} kodlu {s0} ürününün ölçüsü {2} cm, reflektif tipi {3} bant, tabanı karedır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "ZT502805R2 kodlu 50 cm Kare Tabanlı Koni 2 Reflektifli (1,25 kg) – ZT502805R2 ürününün ölçüsü 50 cm, reflektif tipi 2 bant, tabanı karedır. Ürün Trafik Konisi kategorisindedir.",
+  "mevcut": "Конус 50 см с квадратным основанием, 2 световозвращающие полосы (1,25 кг) – ZT502805R2 (код ZT502805R2): размер 50 см, световозвращение — 2 полосы, основание квадратное. Категория товара — «Дорожный конус».",
+  "yeni": ""
+ },
+ "ZT{0}A{1}R{2} kodlu {s0} ürününün ölçüsü {3} cm, malzemesi PVC, ağırlığı {4} kg, reflektif tipi {5} bant, tabanı sekizgendır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "ZT502808A6R2 kodlu 50 cm Sekizgen Koni Ağırlık Tabanlı 2 Reflektifli – ZT502808A6R2 ürününün ölçüsü 50 cm, malzemesi PVC, ağırlığı 2.7 kg, reflektif tipi 2 bant, tabanı sekizgendır. Ürün Trafik Konisi kategorisindedir.",
+  "mevcut": "Восьмигранный конус 50 см с утяжелённым основанием, 2 световозвращающие полосы – ZT502808A6R2 (код ZT502808A6R2): размер 50 см, материал PVC, вес 2.7 кг, световозвращение — 2 полосы, основание восьмигранное. Категория товара — «Дорожный конус».",
+  "yeni": ""
+ },
+ "ZT{0}R{1} kodlu {s0} ürününün ölçüsü {2} cm, malzemesi PVC, ağırlığı {3} kg, reflektif tipi {4} bant, tabanı sekizgendır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "ZT502808R1 kodlu 50 cm Sekizgen Koni 1 Reflektifli – ZT502808R1 ürününün ölçüsü 50 cm, malzemesi PVC, ağırlığı 1.2 kg, reflektif tipi 1 bant, tabanı sekizgendır. Ürün Trafik Konisi kategorisindedir.",
+  "mevcut": "Восьмигранный конус 50 см, 1 световозвращающая полоса – ZT502808R1 (код ZT502808R1): размер 50 см, материал PVC, вес 1.2 кг, световозвращение — 1 полоса, основание восьмигранное. Категория товара — «Дорожный конус».",
+  "yeni": ""
+ },
+ "ZT{0} kodlu {s0} ürününün ölçüsü {1} cm, reflektif tipi benekli, tabanı karedır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "ZT503204 kodlu 50 cm Benekli Koni Kare Tabanlı – ZT503204 ürününün ölçüsü 50 cm, reflektif tipi benekli, tabanı karedır. Ürün Trafik Konisi kategorisindedir.",
+  "mevcut": "Конус 50 см с точечным световозвращением, квадратное основание – ZT503204 (код ZT503204): размер 50 см, световозвращение — точечное, основание квадратное. Категория товара — «Дорожный конус».",
+  "yeni": ""
+ },
+ "ZT{0} kodlu {s0} ürününün ölçüsü {1} cm, malzemesi PPC, ağırlığı {2} kg, reflektif tipi beneklidır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "ZT503208 kodlu 50 cm Benekli Koni – ZT503208 ürününün ölçüsü 50 cm, malzemesi PPC, ağırlığı 0.9 kg, reflektif tipi beneklidır. Ürün Trafik Konisi kategorisindedir.",
+  "mevcut": "Конус 50 см с точечным световозвращением – ZT503208 (код ZT503208): размер 50 см, материал PPC, вес 0.9 кг, световозвращение — точечное. Категория товара — «Дорожный конус».",
+  "yeni": ""
+ },
+ "ZT{0}A{1} kodlu {s0} ürününün ölçüsü {2} cm, malzemesi PPC, ağırlığı {3} kg, reflektif tipi benekli, tabanı ağırlık tabanlıdır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "ZT503208A6 kodlu 50 cm Benekli Kon Ağırlık Tabanlı – ZT503208A6 ürününün ölçüsü 50 cm, malzemesi PPC, ağırlığı 0.9 kg, reflektif tipi benekli, tabanı ağırlık tabanlıdır. Ürün Trafik Konisi kategorisindedir.",
+  "mevcut": "Конус 50 см с точечным световозвращением и утяжелённым основанием – ZT503208A6 (код ZT503208A6): размер 50 см, материал PPC, вес 0.9 кг, световозвращение — точечное, основание утяжелённое. Категория товара — «Дорожный конус».",
+  "yeni": ""
+ },
+ "ZT{0} kodlu {s0} ürününün ölçüsü {1} cm, malzemesi PPC, ağırlığı {2} kg, reflektif tipi kedi gözüdır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "ZT50500 kodlu 50 cm Kedi Gözlü Kasis Siyah – ZT50500 ürününün ölçüsü 50 cm, malzemesi PPC, ağırlığı 3.2 kg, reflektif tipi kedi gözüdır. Ürün Hız Kesici Kasis kategorisindedir.",
+  "mevcut": "Искусственная неровность 50 см с катафотами чёрная – ZT50500 (код ZT50500): размер 50 см, материал PPC, вес 3.2 кг, световозвращение — катафоты. Категория товара — «Искусственная неровность».",
+  "yeni": ""
+ },
+ "ZT{0}Y kodlu {s0} ürününün ölçüsü {1} cm, malzemesi PPC, ağırlığı {2} kg, reflektif tipi kedi gözüdır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "ZT50500Y kodlu 50 cm Kedi Gözlü Kasis Sarı – ZT50500Y ürününün ölçüsü 50 cm, malzemesi PPC, ağırlığı 3.2 kg, reflektif tipi kedi gözüdır. Ürün Hız Kesici Kasis kategorisindedir.",
+  "mevcut": "Искусственная неровность 50 см с катафотами жёлтая – ZT50500Y (код ZT50500Y): размер 50 см, материал PPC, вес 3.2 кг, световозвращение — катафоты. Категория товара — «Искусственная неровность».",
+  "yeni": ""
+ },
+ "ZT{0} kodlu {s0} ürününün ölçüsü {1} mm, malzemesi PPC, ağırlığı {2} kgdır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "ZT537 kodlu 280 mm Yuvarlak Levha – ZT537 ürününün ölçüsü 280 mm, malzemesi PPC, ağırlığı 0.34 kgdır. Ürün Yuvarlak Levha kategorisindedir.",
+  "mevcut": "Круглый знак 280 мм – ZT537 (код ZT537): размер 280 мм, материал PPC, вес 0.34 кг. Категория товара — «Круглый знак».",
+  "yeni": ""
+ },
+ "ZT{0}D kodlu {s0} ürününün malzemesi PPC, ağırlığı {1} kgdır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "ZT545D kodlu Yuvarlak Levha Park Yapılmaz Çift Taraflı – ZT545D ürününün malzemesi PPC, ağırlığı 0.34 kgdır. Ürün Yuvarlak Levha kategorisindedir.",
+  "mevcut": "Круглый знак «Стоянка запрещена», двусторонний – ZT545D (код ZT545D): материал PPC, вес 0.34 кг. Категория товара — «Круглый знак».",
+  "yeni": ""
+ },
+ "ZT{0}R FB kodlu {s0} ürününün malzemesi PPC-PVC, ağırlığı {1} kg, tabanı dikdörtgendır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "ZT60150R FB kodlu Güvenlik Bariyeri Dikdörtgen Tabanlı Dekotalı – ZT60150R FB ürününün malzemesi PPC-PVC, ağırlığı 23 kg, tabanı dikdörtgendır. Ürün Güvenlik Bariyeri kategorisindedir.",
+  "mevcut": "Защитный барьер с прямоугольным основанием и световозвращающей плёнкой – ZT60150R FB (код ZT60150R FB): материал PPC-PVC, вес 23 кг, основание прямоугольное. Категория товара — «Защитный барьер».",
+  "yeni": ""
+ },
+ "ZT{0}R FBP kodlu {s0} ürününün malzemesi PPC-PVC, ağırlığı {1} kg, tabanı dikdörtgendır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "ZT60150R FBP kodlu Güvenlik Bariyeri Dikdörtgen Tabanlı Dekota Baskılı – ZT60150R FBP ürününün malzemesi PPC-PVC, ağırlığı 23 kg, tabanı dikdörtgendır. Ürün Güvenlik Bariyeri kategorisindedir.",
+  "mevcut": "Защитный барьер с прямоугольным основанием и печатной световозвращающей плёнкой – ZT60150R FBP (код ZT60150R FBP): материал PPC-PVC, вес 23 кг, основание прямоугольное. Категория товара — «Защитный барьер».",
+  "yeni": ""
+ },
+ "ZT{0}R kodlu {s0} ürününün malzemesi PPC-PVC, ağırlığı {1} kg, tabanı dikdörtgendır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "ZT60150R kodlu Güvenlik Bariyeri Dikdörtgen Tabanlı – ZT60150R ürününün malzemesi PPC-PVC, ağırlığı 23 kg, tabanı dikdörtgendır. Ürün Güvenlik Bariyeri kategorisindedir.",
+  "mevcut": "Защитный барьер с прямоугольным основанием – ZT60150R (код ZT60150R): материал PPC-PVC, вес 23 кг, основание прямоугольное. Категория товара — «Защитный барьер».",
+  "yeni": ""
+ },
+ "ZT{0} kodlu {s0} ürününün ölçüsü {1} cm, malzemesi PPC-Akrilik, ağırlığı {2} kgdır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "ZT6060 kodlu 60 cm Güvenlik Aynası – ZT6060 ürününün ölçüsü 60 cm, malzemesi PPC-Akrilik, ağırlığı 4.5 kgdır. Ürün Güvenlik Aynası kategorisindedir.",
+  "mevcut": "Зеркало безопасности 60 см – ZT6060 (код ZT6060): размер 60 см, материал PPC-акрил, вес 4.5 кг. Категория товара — «Зеркало безопасности».",
+  "yeni": ""
+ },
+ "ZT{0} kodlu {s0} ürününün ölçüsü {1} mmdır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "ZT637 kodlu 380 mm Ekstra Yuvarlak Levha – ZT637 ürününün ölçüsü 380 mmdır. Ürün Ekstra Yuvarlak Levha kategorisindedir.",
+  "mevcut": "Круглый знак Extra 380 мм – ZT637 (код ZT637): размер 380 мм. Категория товара — «Круглый знак Extra».",
+  "yeni": ""
+ },
+ "ZT{0} kodlu {s0} ürününün ölçüsü {1} cm, malzemesi PVC-TPU, ağırlığı {2} kgdır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "ZT648100 kodlu 100 cm Delinatörlü Şerit Ayırıcı – ZT648100 ürününün ölçüsü 100 cm, malzemesi PVC-TPU, ağırlığı 9.5 kgdır. Ürün Şerit Ayırıcı kategorisindedir.",
+  "mevcut": "Разделитель полос 100 см с делинатором – ZT648100 (код ZT648100): размер 100 см, материал PVC-TPU, вес 9.5 кг. Категория товара — «Разделитель полос».",
+  "yeni": ""
+ },
+ "ZT{0} kodlu {s0} ürününün ölçüsü {1} cm, malzemesi PPC, ağırlığı {2} kg, reflektif tipi kedi gözü, tabanı ağırlık tabanlıdır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "ZT650506 kodlu 65 cm Kedi Gözlü Koni Ağırlık Tabanlı – ZT650506 ürününün ölçüsü 65 cm, malzemesi PPC, ağırlığı 5.2 kg, reflektif tipi kedi gözü, tabanı ağırlık tabanlıdır. Ürün Trafik Konisi kategorisindedir.",
+  "mevcut": "Конус 65 см с катафотами и утяжелённым основанием – ZT650506 (код ZT650506): размер 65 см, материал PPC, вес 5.2 кг, световозвращение — катафоты, основание утяжелённое. Категория товара — «Дорожный конус».",
+  "yeni": ""
+ },
+ "ZT{0}B kodlu {s0} ürününün ölçüsü {1} cm, malzemesi PPC, ağırlığı {2} kg, reflektif tipi kedi gözü, tabanı ağırlık tabanlıdır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "ZT650506B kodlu 65 cm Kedi Gözlü Koni Ağırlık Tabanlı – ZT650506B ürününün ölçüsü 65 cm, malzemesi PPC, ağırlığı 5.2 kg, reflektif tipi kedi gözü, tabanı ağırlık tabanlıdır. Ürün Trafik Konisi kategorisindedir.",
+  "mevcut": "Конус 65 см с катафотами и утяжелённым основанием – ZT650506B (код ZT650506B): размер 65 см, материал PPC, вес 5.2 кг, световозвращение — катафоты, основание утяжелённое. Категория товара — «Дорожный конус».",
+  "yeni": ""
+ },
+ "ZT{0} kodlu {s0} ürününün malzemesi PPC-PC, ağırlığı {1} kg, reflektif tipi kedi gözüdır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "ZT8001 kodlu Kedi Gözlü Yol Butonu Yuvarlak – ZT8001 ürününün malzemesi PPC-PC, ağırlığı 0.11 kg, reflektif tipi kedi gözüdır. Ürün Yol Butonu kategorisindedir.",
+  "mevcut": "Круглый дорожный маркер с катафотом – ZT8001 (код ZT8001): материал PPC-PC, вес 0.11 кг, световозвращение — катафот. Категория товара — «Дорожный маркер».",
+  "yeni": ""
+ },
+ "ZT{0}R FB kodlu {s0} ürününün malzemesi PPC+PVC, ağırlığı {1} kgdır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "ZT80150R FB kodlu Güvenlik Bariyeri Dekotalı – ZT80150R FB ürününün malzemesi PPC+PVC, ağırlığı 12.5 kgdır. Ürün Güvenlik Bariyeri kategorisindedir.",
+  "mevcut": "Защитный барьер со световозвращающей плёнкой – ZT80150R FB (код ZT80150R FB): материал PPC+PVC, вес 12.5 кг. Категория товара — «Защитный барьер».",
+  "yeni": ""
+ },
+ "ZT{0}R FBP kodlu {s0} ürününün malzemesi PPC-PVC, ağırlığı {1} kgdır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "ZT80150R FBP kodlu Güvenlik Bariyeri Dekota Baskılı – ZT80150R FBP ürününün malzemesi PPC-PVC, ağırlığı 12.5 kgdır. Ürün Güvenlik Bariyeri kategorisindedir.",
+  "mevcut": "Защитный барьер с печатной световозвращающей плёнкой – ZT80150R FBP (код ZT80150R FBP): материал PPC-PVC, вес 12.5 кг. Категория товара — «Защитный барьер».",
+  "yeni": ""
+ },
+ "ZT{0}R kodlu {s0} ürününün malzemesi PPC-PVC, ağırlığı {1} kgdır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "ZT80150R kodlu Güvenlik Bariyeri – ZT80150R ürününün malzemesi PPC-PVC, ağırlığı 12 kgdır. Ürün Güvenlik Bariyeri kategorisindedir.",
+  "mevcut": "Защитный барьер – ZT80150R (код ZT80150R): материал PPC-PVC, вес 12 кг. Категория товара — «Защитный барьер».",
+  "yeni": ""
+ },
+ "ZT{0}A kodlu {s0} ürününün ölçüsü {1} mm, malzemesi ST{2}, ağırlığı {3} kgdır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "ZT80A kodlu 10x110 mm Trifon Vida – ZT80A ürününün ölçüsü 110 mm, malzemesi ST37, ağırlığı 0.06 kgdır. Ürün Vida kategorisindedir.",
+  "mevcut": "Шуруп с шестигранной головкой 10x110 мм – ZT80A (код ZT80A): размер 110 мм, материал ST37, вес 0.06 кг. Категория товара — «Шуруп».",
+  "yeni": ""
+ },
+ "ZT{0} kodlu {s0} ürününün malzemesi TPU, ağırlığı {1} kgdır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "ZT9003 kodlu Çizgili Yer Zemini Sarı – ZT9003 ürününün malzemesi TPU, ağırlığı 0.35 kgdır. Ürün Zemin İşaretleme kategorisindedir.",
+  "mevcut": "Рифлёное напольное покрытие жёлтое – ZT9003 (код ZT9003): материал TPU, вес 0.35 кг. Категория товара — «Напольная разметка».",
+  "yeni": ""
+ },
+ "ZT{0}B kodlu {s0} ürününün ölçüsü {1} cmdır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "ZT9005B kodlu Çizgili Yer Zemini Siyah 40 cm – ZT9005B ürününün ölçüsü 40 cmdır. Ürün Zemin İşaretleme kategorisindedir.",
+  "mevcut": "Рифлёное напольное покрытие чёрное 40 см – ZT9005B (код ZT9005B): размер 40 см. Категория товара — «Напольная разметка».",
+  "yeni": ""
+ },
+ "ZT{0}A kodlu {s0} ürününün malzemesi PE, ağırlığı {1} kgdır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "ZT90A kodlu 16x90mm Plastik Dübel – ZT90A ürününün malzemesi PE, ağırlığı 0.01 kgdır. Ürün Dübel kategorisindedir.",
+  "mevcut": "Пластиковый дюбель 16x90 мм – ZT90A (код ZT90A): материал PE, вес 0.01 кг. Категория товара — «Дюбель».",
+  "yeni": ""
+ },
+ "ZTR{0} kodlu {s0} ürününün tabanı altıgendır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "ZTR102 kodlu Altıgen Delinatör Siyah – ZTR102 ürününün tabanı altıgendır. Ürün Delinatör kategorisindedir.",
+  "mevcut": "Шестигранный делинатор чёрный – ZTR102 (код ZTR102): основание шестигранное. Категория товара — «Делинатор».",
+  "yeni": ""
+ },
+ "ZTR{0} kodlu {s0} ürününün malzemesi Kauçukdır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "ZTR1280 kodlu Kauçuk Kolon Koruyucu – ZTR1280 ürününün malzemesi Kauçukdır. Ürün Kolon Köşe Koruyucu kategorisindedir.",
+  "mevcut": "Резиновая защита колонн – ZTR1280 (код ZTR1280): материал резина. Категория товара — «Угловая защита колонн».",
+  "yeni": ""
+ },
+ "ZTR{0} kodlu {s0} ürününün ölçüsü {1} cm, malzemesi Kauçukdır. Ürün {s1} kategorisindedir.": {
+  "ornek_tr": "ZTR400 kodlu 40x50 cm Kauçuk Kasis – ZTR400 ürününün ölçüsü 50 cm, malzemesi Kauçukdır. Ürün Hız Kesici Kasis kategorisindedir.",
+  "mevcut": "Резиновая искусственная неровность 40x50 см – ZTR400 (код ZTR400): размер 50 см, материал резина. Категория товара — «Искусственная неровность».",
+  "yeni": ""
+ },
+ "{s0} (ZT{0}A-W) ₺{1}. Plastik. Stokta, {2}-{3} iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.": {
+  "ornek_tr": "Zincir Kancası Plastik Beyaz – ZT330A-W (ZT330A-W) ₺4. Plastik. Stokta, 1-2 iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.",
+  "mevcut": "Крючок для цепи пластиковый белый – ZT330A-W (ZT330A-W) ₺4. Пластик. В наличии, отгрузка за 1–2 рабочих дня. Доставка по всей Турции службой Yurtiçi Kargo.",
+  "yeni": ""
+ },
+ "{s0} kalınlığı hem görünürlüğü hem dayanımı belirler. İnce zincirler yaya yönlendirmesi ve iç mekân sınırlaması için yeterlidir. {0} mm ve üzeri kalın zincirler dış mekânda, araç trafiğinin yanında ve rüzgâra maruz yerlerde kullanılır — hem sarkmaz hem uzaktan görünür. Sarı-siyah renkli zincirler uyarı amacını kendiliğinden taşır.": {
+  "ornek_tr": "Zincir kalınlığı hem görünürlüğü hem dayanımı belirler. İnce zincirler yaya yönlendirmesi ve iç mekân sınırlaması için yeterlidir. 8 mm ve üzeri kalın zincirler dış mekânda, araç trafiğinin yanında ve rüzgâra maruz yerlerde kullanılır — hem sarkmaz hem uzaktan görünür. Sarı-siyah renkli zincirler uyarı amacını kendiliğinden taşır.",
+  "mevcut": "Толщина цепи определяет и заметность, и прочность. Тонких цепей достаточно для направления пешеходов и ограждения внутри помещений. Толстые цепи 8 мм и более используют на улице, рядом с проезжей частью и в местах, открытых ветру, — они не провисают и видны издалека. Жёлто-чёрные цепи сами по себе несут предупреждающий смысл.",
+  "yeni": ""
+ },
+ "{s0} kancası, plastik trafik zincirini dikmeye, kelepçeye veya koni kulpuna bağlayan S veya karabina biçimli parçadır. {s1}in gerektiğinde hızlıca sökülüp takılmasını sağlar.": {
+  "ornek_tr": "Zincir kancası, plastik trafik zincirini dikmeye, kelepçeye veya koni kulpuna bağlayan S veya karabina biçimli parçadır. Zincirin gerektiğinde hızlıca sökülüp takılmasını sağlar.",
+  "mevcut": "Крючок для цепи — деталь S-образной или карабинной формы, которая крепит пластиковую дорожную цепь к стойке, хомуту или ручке конуса. Позволяет быстро снимать и устанавливать цепь при необходимости.",
+  "yeni": ""
+ },
+ "{s0} kancası, plastik trafik zincirini dubaya veya dikmeye tutturan küçük bağlantı parçasıdır.": {
+  "ornek_tr": "Zincir kancası, plastik trafik zincirini dubaya veya dikmeye tutturan küçük bağlantı parçasıdır.",
+  "mevcut": "Крючок для цепи — небольшой соединительный элемент, крепящий пластиковую дорожную цепь к буферу или стойке.",
+  "yeni": ""
+ },
+ "{s0} kancası, plastik trafik zincirini dubaya veya dikmeye tutturan küçük bağlantı parçasıdır.. {0} ürün, ölçü ve malzemesiyle listeli.": {
+  "ornek_tr": "Zincir kancası, plastik trafik zincirini dubaya veya dikmeye tutturan küçük bağlantı parçasıdır.. 2 ürün, ölçü ve malzemesiyle listeli.",
+  "mevcut": "Крючок для цепи — небольшой соединительный элемент, крепящий пластиковую дорожную цепь к буферу или стойке. 2 товара с указанием размеров и материала.",
+  "yeni": ""
+ },
+ "{s0}le birlikte kullanım": {
+  "ornek_tr": "Zincirle birlikte kullanım",
+  "mevcut": "Использование вместе с цепью",
+  "yeni": ""
+ },
+ "{s0} ({0} FL KM) ₺{1}. {2} × {3} cm · ABS · ledli/solar.": {
+  "ornek_tr": "Çakar Flaşörlü Solar Lamba - (hxw) 17x30 Cm - Kırmızı-mavi Led – 11855 FL KM (11855 FL KM) ₺1.284. 17 × 30 cm · ABS · ledli/solar.",
+  "mevcut": "Солнечная проблесковая лампа-мигалка (ВxШ) 17x30 см, красно-синие светодиоды – 11855 FL KM (11855 FL KM) ₺1.284. 17 × 30 см · ABS · светодиоды/солнечная батарея.",
+  "yeni": ""
+ },
+ "{s0} ürününün fiyatı ₺{0} + KDV'dir. KDV dahil satış fiyatı ₺{1}. Fiyata kargo dahil değildir. Ürün kodu {2} FL KM.": {
+  "ornek_tr": "Çakar Flaşörlü Solar Lamba - (hxw) 17x30 Cm - Kırmızı-mavi Led – 11855 FL KM ürününün fiyatı ₺1.284 + KDV'dir. KDV dahil satış fiyatı ₺1.541. Fiyata kargo dahil değildir. Ürün kodu 11855 FL KM.",
+  "mevcut": "Цена товара «Солнечная проблесковая лампа-мигалка (ВxШ) 17x30 см, красно-синие светодиоды – 11855 FL KM» — ₺1.284 + НДС. Цена с НДС — ₺1.541. Доставка в цену не входит. Код товара 11855 FL KM.",
+  "yeni": ""
+ },
+ "{s0}. Ölçü: {0} × {1} cm · Malzeme: ABS · Ağırlık: {2} kg · Ürün kodu: {3} FL KM Flaş Lens: {4}x{5} cm · Malzeme: ABS · Ağırlık: {6} kg": {
+  "ornek_tr": "Çakar Flaşörlü Solar Lamba - (hxw) 17x30 Cm - Kırmızı-mavi Led. Ölçü: 17 × 30 cm · Malzeme: ABS · Ağırlık: 0.46 kg · Ürün kodu: 11855 FL KM Flaş Lens: 30x11 cm · Malzeme: ABS · Ağırlık: 0.46 kg",
+  "mevcut": "Солнечная проблесковая лампа-мигалка (ВxШ) 17x30 см, красно-синие светодиоды. Размер: 17 × 30 см · Материал: ABS · Вес: 0.46 кг · Код товара: 11855 FL KM Линза: 30x11 см · Материал: ABS · Вес: 0.46 кг",
+  "yeni": ""
+ },
+ "{s0}. Ölçü: {0} × {1} cm · Malzeme: ABS · Ağırlık: {2} kg · Ürün kodu: {3} FL S Flaş Lens: {4}x{5} cm · Malzeme: ABS · Ağırlık: {6} kg": {
+  "ornek_tr": "Çakar Flaşörlü Solar Lamba - (hxw) 17x30 Cm - Sarı Led. Ölçü: 17 × 30 cm · Malzeme: ABS · Ağırlık: 0.46 kg · Ürün kodu: 11856 FL S Flaş Lens: 30x11 cm · Malzeme: ABS · Ağırlık: 0.46 kg",
+  "mevcut": "Солнечная проблесковая лампа-мигалка (ВxШ) 17x30 см, жёлтые светодиоды. Размер: 17 × 30 см · Материал: ABS · Вес: 0.46 кг · Код товара: 11856 FL S Линза: 30x11 см · Материал: ABS · Вес: 0.46 кг",
+  "yeni": ""
+ },
+ "Çizgilil Yer Zemini Sarı {0} Cm. Ölçü: {1} cm · Ürün kodu: ZT{2}": {
+  "ornek_tr": "Çizgilil Yer Zemini Sarı 40 Cm. Ölçü: 40 cm · Ürün kodu: ZT9005",
+  "mevcut": "Рифлёное напольное покрытие жёлтое 40 см. Размер: 40 см · Код товара: ZT9005",
+  "yeni": ""
+ },
+ "Ø{0} {s0} Ø{1}x{2} {s1} ile montaj": {
+  "ornek_tr": "Ø8 Dübel Ø4x38 Vida ile montaj",
+  "mevcut": "Монтаж на дюбель Ø8 и шуруп Ø4x38",
+  "yeni": ""
+ },
+ "Üretici kolisinde {0} adet bulunur, koli ölçüsü {1} × {2} × {3} cm'dir. {4} adet ve katlarında sipariş verildiğinde ürünler orijinal kolisinde gönderilir; kargo maliyeti adet başına düşer.": {
+  "ornek_tr": "Üretici kolisinde 1 adet bulunur, koli ölçüsü 62 × 62 × 13 cm'dir. 1 adet ve katlarında sipariş verildiğinde ürünler orijinal kolisinde gönderilir; kargo maliyeti adet başına düşer.",
+  "mevcut": "В заводской коробке 1 шт., размер коробки 62 × 62 × 13 см. При заказе 1 шт. и кратного количества товары отправляются в оригинальной коробке; стоимость доставки распределяется на каждую единицу.",
+  "yeni": ""
+ },
+ "Şartnamelerde genellikle \"Tip {0}\", \"Tip {1}\" veya \"yüksek yoğunluklu prizmatik\" gibi tanımlar geçer. Bu tanımlar EN {2} standardındaki sınıflara karşılık gelir.": {
+  "ornek_tr": "Şartnamelerde genellikle \"Tip 1\", \"Tip 2\" veya \"yüksek yoğunluklu prizmatik\" gibi tanımlar geçer. Bu tanımlar EN 12899 standardındaki sınıflara karşılık gelir.",
+  "mevcut": "В технических спецификациях обычно встречаются определения вроде «Тип 1», «Тип 2» или «призматический высокой интенсивности». Они соответствуют классам стандарта EN 12899.",
+  "yeni": ""
+ },
+ "{s0} ({0} UB R) ₺{1}. {2} × {3} × {4} cm · PVC. Stokta, {5}-{6} iş gününde kargoda.": {
+  "ornek_tr": "Şerit Sınırlama Butonu - (hxlxw) 6.0x100x15 Cm – 12260 UB R (12260 UB R) ₺1.140. 6 × 100 × 15 cm · PVC. Stokta, 1-2 iş gününde kargoda.",
+  "mevcut": "Разделитель полос (ВxДxШ) 6.0x100x15 см – 12260 UB R (12260 UB R) ₺1.140. 6 × 100 × 15 см · PVC. В наличии, отгрузка за 1–2 рабочих дня.",
+  "yeni": ""
+ },
+ "{s0}. Ölçü: {0} × {1} × {2} cm · Malzeme: PVC · Ağırlık: {3} kg · Ürün kodu: {4} UB R Montaj: {5}x · Malzeme: PVC · Ağırlık: {6} kg": {
+  "ornek_tr": "Şerit Sınırlama Butonu - (hxlxw) 6.0x100x15 Cm. Ölçü: 6 × 100 × 15 cm · Malzeme: PVC · Ağırlık: 6 kg · Ürün kodu: 12260 UB R Montaj: 3x · Malzeme: PVC · Ağırlık: 6.0 kg",
+  "mevcut": "Разделитель полос (ВxДxШ) 6.0x100x15 см. Размер: 6 × 100 × 15 см · Материал: PVC · Вес: 6 кг · Код товара: 12260 UB R Крепление: 3x · Материал: PVC · Вес: 6.0 кг",
+  "yeni": ""
+ }
+}

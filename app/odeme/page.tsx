@@ -8,6 +8,7 @@ import Image from "next/image";
 import { Lock, ArrowRight, Check, AlertCircle, Truck, Building2, User } from "lucide-react";
 import { useCart } from "@/lib/cart";
 import { formatPrice } from "@/lib/products";
+import { KARGO_DAHIL } from "@/lib/kargo";
 
 const CITIES = ["Adana","Adıyaman","Afyonkarahisar","Ağrı","Aksaray","Amasya","Ankara","Antalya","Ardahan","Artvin","Aydın","Balıkesir","Bartın","Batman","Bayburt","Bilecik","Bingöl","Bitlis","Bolu","Burdur","Bursa","Çanakkale","Çankırı","Çorum","Denizli","Diyarbakır","Düzce","Edirne","Elazığ","Erzincan","Erzurum","Eskişehir","Gaziantep","Giresun","Gümüşhane","Hakkari","Hatay","Iğdır","Isparta","İstanbul","İzmir","Kahramanmaraş","Karabük","Karaman","Kars","Kastamonu","Kayseri","Kilis","Kırıkkale","Kırklareli","Kırşehir","Kocaeli","Konya","Kütahya","Malatya","Manisa","Mardin","Mersin","Muğla","Muş","Nevşehir","Niğde","Ordu","Osmaniye","Rize","Sakarya","Samsun","Şanlıurfa","Siirt","Sinop","Şırnak","Sivas","Tekirdağ","Tokat","Trabzon","Tunceli","Uşak","Van","Yalova","Yozgat","Zonguldak"];
 
@@ -16,7 +17,9 @@ type KargoOdeme = "pesin" | "karsi";
 
 export default function Odeme() {
   const { items, total, totalKdv, kdvTutar, kargoDesi, kargo,
-          kargoOdeme, setKargoOdeme } = useCart();
+          kargoOdeme: secilenKargoOdeme, setKargoOdeme } = useCart();
+  // Kargo fiyata dahilken kuryeye ödeme seçeneği yok; eski oturumdan kalan "karsi" seçimi yok sayılır.
+  const kargoOdeme: KargoOdeme = KARGO_DAHIL ? "pesin" : secilenKargoOdeme;
   const router = useRouter();
   const [mounted, setMounted] = useState(false);
   const [loading, setLoading] = useState(false);
@@ -256,7 +259,8 @@ export default function Odeme() {
             </div>
           </Bolum>
 
-          {/* 5 — KARGO ÖDEME */}
+          {/* 5 — KARGO ÖDEME (kargo fiyata dahilse gösterilmez) */}
+          {!KARGO_DAHIL && (
           <Bolum no="5" baslik="Kargo ödemesi">
             <div style={{ display: "grid", gap: 12 }}>
               <Secim genis aktif={kargoOdeme === "pesin"} onClick={() => setKargoOdeme("pesin")}
@@ -267,6 +271,7 @@ export default function Odeme() {
                      alt="Kargoyu teslim alırken kuryeye ödersiniz. Tutar Yurtiçi Kargo tarifesine göre belirlenir." />
             </div>
           </Bolum>
+          )}
 
           {error && (
             <div role="alert" style={{ display: "flex", gap: 10, padding: 14, border: "2px solid #C4271A", background: "#FFF3F1" }}>
@@ -336,7 +341,7 @@ export default function Odeme() {
             <Satir k="Ara toplam (KDV hariç)" v={formatPrice(total())} />
             <Satir k="KDV %20" v={formatPrice(kdvTutar())} />
             <Satir k={desi > 0 ? `Kargo · ${desi} desi` : "Kargo"}
-                   v={kargoOdeme === "karsi" ? "Kuryeye ödenecek" : (desi > 0 ? formatPrice(kargoTutar) : "Ücretsiz")}
+                   v={KARGO_DAHIL || desi === 0 ? "Ücretsiz" : kargoOdeme === "karsi" ? "Kuryeye ödenecek" : formatPrice(kargoTutar)}
                    vurgu={kargoOdeme === "karsi"} />
             <div className="hair" style={{ margin: "13px 0" }} />
             <div style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline" }}>

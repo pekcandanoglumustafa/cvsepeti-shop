@@ -1,0 +1,307 @@
+{
+ "Levhalı Esnek {s0} - (hxl){0}x{1} – {2} UB R": {
+  "ornek_tr": "Levhalı Esnek Delinatör - (hxl)45x12 – 22068 UB R",
+  "mevcut": "Lövhəli elastik delineator - (hxl)45x12 – 22068 UB R",
+  "yeni": ""
+ },
+ "Levhalı {s0} - (hxlxw) {0}x{1}x{2} – {3} FB R": {
+  "ornek_tr": "Levhalı Güvenlik Bariyeri - (hxlxw) 120x100x40 – 12522 FB R",
+  "mevcut": "Lövhəli təhlükəsizlik bariyeri - (hxlxw) 120x100x40 – 12522 FB R",
+  "yeni": ""
+ },
+ "{s0} - İki – {0} DB F A": {
+  "ornek_tr": "Levhalı Reklam Dubası - (hxw) 90x49 Cm - İki – 12421 DB F A",
+  "mevcut": "Lövhəli reklam dubası - (hxw) 90x49 sm - İki – 12421 DB F A",
+  "yeni": ""
+ },
+ "Park yeri {0}-{1} m ise {2} cm stoper tam oturur ama maliyeti yüksektir. {3} cm model ortaya konur, çoğu durumda yeterlidir. Dar araçların yan geçmesi sorun oluyorsa {4} cm'e çıkın.": {
+  "ornek_tr": "Park yeri 2,3-2,5 m ise 180 cm stoper tam oturur ama maliyeti yüksektir. 110 cm model ortaya konur, çoğu durumda yeterlidir. Dar araçların yan geçmesi sorun oluyorsa 180 cm'e çıkın.",
+  "mevcut": "Park yeri 2,3-2,5 m-dirsə, 180 sm stoper tam oturur, lakin dəyəri yüksəkdir. 110 sm model ortaya qoyulur, əksər hallarda kifayətdir. Dar avtomobillərin yandan keçməsi problem yaradırsa, 180 sm-ə keçin.",
+  "yeni": ""
+ },
+ "Plastik dübel, asfalt veya betona açılan deliğe çakılan ve vidanın tutunmasını sağlayan parçadır. Standart ölçü Ø{0}×{1} mm'dir. Delik Ø{2} mm matkap ucuyla açılır — daha küçük uçta dübel girmez, daha büyük uçta boşluk yapar.": {
+  "ornek_tr": "Plastik dübel, asfalt veya betona açılan deliğe çakılan ve vidanın tutunmasını sağlayan parçadır. Standart ölçü Ø16×90 mm'dir. Delik Ø16 mm matkap ucuyla açılır — daha küçük uçta dübel girmez, daha büyük uçta boşluk yapar.",
+  "mevcut": "Plastik dübel asfalt və ya betonda açılan deşiyə vurulan və vintin tutmasını təmin edən hissədir. Standart ölçü Ø16×90 mm-dir. Deşik Ø16 mm burğu ucu ilə açılır — daha kiçik ucda dübel girmir, daha böyük ucda boşluq yaranır.",
+  "yeni": ""
+ },
+ "{s0} - İki – {0} A F": {
+  "ornek_tr": "Portatif Uyarı Levhası-(hxw) 62x24.5cm - İki – 108 A F",
+  "mevcut": "Portativ xəbərdarlıq lövhəsi-(hxw) 62x24.5cm - İki – 108 A F",
+  "yeni": ""
+ },
+ "{s0} - Reflektif – {0} TK R{1}": {
+  "ornek_tr": "Pvc Trafik Konisi - (h) 50 Cm - Reflektif – 12318 TK R1",
+  "mevcut": "PVC yol konusu - (h) 50 sm - Reflektiv – 12318 TK R1",
+  "yeni": ""
+ },
+ "RA{0} malzeme RA{1}'e göre yaklaşık iki-üç kat pahalıdır. Gerekmeyen yerde RA{2} kullanmak bütçeyi gereksiz zorlar; gereken yerde RA{3} kullanmak ise şartname ihlalidir.": {
+  "ornek_tr": "RA2 malzeme RA1'e göre yaklaşık iki-üç kat pahalıdır. Gerekmeyen yerde RA2 kullanmak bütçeyi gereksiz zorlar; gereken yerde RA1 kullanmak ise şartname ihlalidir.",
+  "mevcut": "RA2 material RA1-ə nisbətən təxminən iki-üç dəfə bahadır. Lazım olmayan yerdə RA2 istifadə etmək büdcəyə əbəs yük yaradır; lazım olan yerdə RA1 istifadə etmək isə texniki şərtnamənin pozulmasıdır.",
+  "yeni": ""
+ },
+ "Reflektif Bant - {0} Cm X {1} M/roll - Kırmızı – ETR {2}": {
+  "ornek_tr": "Reflektif Bant - 10 Cm X 10 M/roll - Kırmızı – ETR 5112",
+  "mevcut": "Reflektiv lent - 10 sm X 10 m/rulon - Qırmızı – ETR 5112",
+  "yeni": ""
+ },
+ "Reflektif Bantlı {s0} - (hxl) {0}x{1} – {2} UB R": {
+  "ornek_tr": "Reflektif Bantlı Araç Stoperi - (hxl) 8.5x180 – 22231 UB R",
+  "mevcut": "Reflektiv lentli avtomobil stoperi - (hxl) 8.5x180 – 22231 UB R",
+  "yeni": ""
+ },
+ "Solar {s0} Seçimi — Lens Çapı, Batarya ve Yanma Modu": {
+  "ornek_tr": "Solar Flaşör Lamba Seçimi — Lens Çapı, Batarya ve Yanma Modu",
+  "mevcut": "Solar flaşer lampasının seçimi — Linza diametri, batareya və yanma rejimi",
+  "yeni": ""
+ },
+ "{s0} ({0} FB R) ₺{1}. {2} × {3} × {4} cm · PPC · ledli/solar.": {
+  "ornek_tr": "Solar Flaşörlü Güvenlik Bariyeri -(hxlxw) 60x100x40 Cm – 12526 FB R (12526 FB R) ₺4.356. 60 × 100 × 40 cm · PPC · ledli/solar.",
+  "mevcut": "Solar flaşerli təhlükəsizlik bariyeri -(hxlxw) 60x100x40 sm – 12526 FB R (12526 FB R) ₺4.356. 60 × 100 × 40 sm · PPC · LED/solar.",
+  "yeni": ""
+ },
+ "Solar Flaşörlü {s0} -(hxlxw) – {0} FB R": {
+  "ornek_tr": "Solar Flaşörlü Güvenlik Bariyeri -(hxlxw) – 12526 FB R",
+  "mevcut": "Solar flaşerli təhlükəsizlik bariyeri -(hxlxw) – 12526 FB R",
+  "yeni": ""
+ },
+ "{s0} ({0} UB) ₺{1}. {2} × {3} × {4} cm · PPC · ledli/solar.": {
+  "ornek_tr": "Solar Flaşörlü Şerit Sınırlama Butonu-(hxlxw)8.0x100x20cm – 12220 UB (12220 UB) ₺2.904. 8 × 100 × 20 cm · PPC · ledli/solar.",
+  "mevcut": "Solar flaşerli zolaq məhdudlaşdırma düyməsi-(hxlxw)8.0x100x20cm – 12220 UB (12220 UB) ₺2.904. 8 × 100 × 20 sm · PPC · LED/solar.",
+  "yeni": ""
+ },
+ "{s0} ({0} FL K) ₺{1}. {2} × {3} cm · PC · ledli/solar.": {
+  "ornek_tr": "Solar Ledli Flaşör Uyarı Lambası - (hxw) 70x40 Cm - Kırmızı Led – 11852 FL K (11852 FL K) ₺9.792. 70 × 40 cm · PC · ledli/solar.",
+  "mevcut": "Solar LED flaşerli xəbərdarlıq lampası - (hxw) 70x40 sm - Qırmızı LED – 11852 FL K (11852 FL K) ₺9.792. 70 × 40 sm · PC · LED/solar.",
+  "yeni": ""
+ },
+ "{s0} ({0} FL S) ₺{1}. {2} × {3} cm · PC · ledli/solar.": {
+  "ornek_tr": "Solar Ledli Flaşör Uyarı Lambası - (hxw) 70x40 Cm - Sarı Led – 11850 FL S (11850 FL S) ₺9.792. 70 × 40 cm · PC · ledli/solar.",
+  "mevcut": "Solar LED flaşerli xəbərdarlıq lampası - (hxw) 70x40 sm - Sarı LED – 11850 FL S (11850 FL S) ₺9.792. 70 × 40 sm · PC · LED/solar.",
+  "yeni": ""
+ },
+ "Solar Ledli Siperlikli {s0} - (hxw) – {0} FL S": {
+  "ornek_tr": "Solar Ledli Siperlikli Flaşör Lamba - (hxw) – 11851 FL S",
+  "mevcut": "Solar LED günlüklü flaşer lampa - (hxw) – 11851 FL S",
+  "yeni": ""
+ },
+ "Solar Ledli Siperlikli {s0} - (hxw) – {0} FL K": {
+  "ornek_tr": "Solar Ledli Siperlikli Flaşör Lamba - (hxw) – 11853 FL K",
+  "mevcut": "Solar LED günlüklü flaşer lampa - (hxw) – 11853 FL K",
+  "yeni": ""
+ },
+ "Solar Ledli {s0} - (hxw) {0}x{1} Cm – {2} FL S": {
+  "ornek_tr": "Solar Ledli Uyarı Levhası - (hxw) 70x40 Cm – 11860 FL S",
+  "mevcut": "Solar LED xəbərdarlıq lövhəsi - (hxw) 70x40 sm – 11860 FL S",
+  "yeni": ""
+ },
+ "{s0} – {0} S-LD (SERİSİ)": {
+  "ornek_tr": "Solar Ledli Yol Bakım Levhaları - (hxw) 130x100 Cm – 11700 S-LD (SERİSİ)",
+  "mevcut": "Solar LED yol təmiri lövhələri - (hxw) 130x100 sm – 11700 S-LD (SERİSİ)",
+  "yeni": ""
+ },
+ "{s0} – {0} S-LD (SERİSİ) ({1} S-LD (SERİSİ)) ₺{2}. {3} × {4} cm · AL - Ağırlık: {5}kg · ledli/solar.": {
+  "ornek_tr": "Solar Ledli Yol Bakım Levhaları - (hxw) 130x100 Cm – 11700 S-LD (SERİSİ) (11700 S-LD (SERİSİ)) ₺14.496. 130 × 100 cm · AL - Ağırlık: 16.5kg · ledli/solar.",
+  "mevcut": "Solar LED yol təmiri lövhələri - (hxw) 130x100 sm – 11700 S-LD (SERİSİ) (11700 S-LD (SERİSİ)) ₺14.496. 130 × 100 sm · AL - Çəki: 16.5kq · LED/solar.",
+  "yeni": ""
+ },
+ "{s0} – {0} S-LD (SERİSİ) fiyatı ne kadar?": {
+  "ornek_tr": "Solar Ledli Yol Bakım Levhaları - (hxw) 130x100 Cm – 11700 S-LD (SERİSİ) fiyatı ne kadar?",
+  "mevcut": "Solar LED yol təmiri lövhələri - (hxw) 130x100 sm – 11700 S-LD (SERİSİ) qiyməti nə qədərdir?",
+  "yeni": ""
+ },
+ "{s0} – {0} S-LD (SERİSİ) için fatura kesiliyor mu?": {
+  "ornek_tr": "Solar Ledli Yol Bakım Levhaları - (hxw) 130x100 Cm – 11700 S-LD (SERİSİ) için fatura kesiliyor mu?",
+  "mevcut": "Solar LED yol təmiri lövhələri - (hxw) 130x100 sm – 11700 S-LD (SERİSİ) üçün faktura kəsilirmi?",
+  "yeni": ""
+ },
+ "{s0} – {0} S-LD (SERİSİ) kargo ücreti ne kadar?": {
+  "ornek_tr": "Solar Ledli Yol Bakım Levhaları - (hxw) 130x100 Cm – 11700 S-LD (SERİSİ) kargo ücreti ne kadar?",
+  "mevcut": "Solar LED yol təmiri lövhələri - (hxw) 130x100 sm – 11700 S-LD (SERİSİ) üçün çatdırılma haqqı nə qədərdir?",
+  "yeni": ""
+ },
+ "{s0} – {0} S-LD (SERİSİ) kaç günde teslim edilir?": {
+  "ornek_tr": "Solar Ledli Yol Bakım Levhaları - (hxw) 130x100 Cm – 11700 S-LD (SERİSİ) kaç günde teslim edilir?",
+  "mevcut": "Solar LED yol təmiri lövhələri - (hxw) 130x100 sm – 11700 S-LD (SERİSİ) neçə günə çatdırılır?",
+  "yeni": ""
+ },
+ "{s0} – {0} S-LD (SERİSİ) teknik özellikleri nelerdir?": {
+  "ornek_tr": "Solar Ledli Yol Bakım Levhaları - (hxw) 130x100 Cm – 11700 S-LD (SERİSİ) teknik özellikleri nelerdir?",
+  "mevcut": "Solar LED yol təmiri lövhələri - (hxw) 130x100 sm – 11700 S-LD (SERİSİ) texniki xüsusiyyətləri hansılardır?",
+  "yeni": ""
+ },
+ "{s0} – {0} S-LD (SERİSİ) ölçü şeması": {
+  "ornek_tr": "Solar Ledli Yol Bakım Levhaları - (hxw) 130x100 Cm – 11700 S-LD (SERİSİ) ölçü şeması",
+  "mevcut": "Solar LED yol təmiri lövhələri - (hxw) 130x100 sm – 11700 S-LD (SERİSİ) ölçü sxemi",
+  "yeni": ""
+ },
+ "{s0} – {0} S-LD (SERİSİ) ({1} S-LD (SERİSİ)) ₺{2}. {3} × {4} cm · AL - Ağırlık: {5} kg · ledli/solar.": {
+  "ornek_tr": "Solar Ledli Yol Bakım Levhaları - (hxw) 90x60 Cm – 11600 S-LD (SERİSİ) (11600 S-LD (SERİSİ)) ₺12.540. 90 × 60 cm · AL - Ağırlık: 9.7 kg · ledli/solar.",
+  "mevcut": "Solar LED yol təmiri lövhələri - (hxw) 90x60 sm – 11600 S-LD (SERİSİ) (11600 S-LD (SERİSİ)) ₺12.540. 90 × 60 sm · AL - Çəki: 9.7 kq · LED/solar.",
+  "yeni": ""
+ },
+ "{s0} – {0} FL (SERİSİ)": {
+  "ornek_tr": "Solar Ledli Yol Bakım Levhaları - (hxw) 90x60 Cm – 11800 FL (SERİSİ)",
+  "mevcut": "Solar LED yol təmiri lövhələri - (hxw) 90x60 sm – 11800 FL (SERİSİ)",
+  "yeni": ""
+ },
+ "{s0} – {0} FL (SERİSİ) ({1} FL (SERİSİ)) ₺{2}. {3} × {4} cm · PC - Ağırlık: {5} kg · ledli/solar.": {
+  "ornek_tr": "Solar Ledli Yol Bakım Levhaları - (hxw) 90x60 Cm – 11800 FL (SERİSİ) (11800 FL (SERİSİ)) ₺10.944. 90 × 60 cm · PC - Ağırlık: 9.8 kg · ledli/solar.",
+  "mevcut": "Solar LED yol təmiri lövhələri - (hxw) 90x60 sm – 11800 FL (SERİSİ) (11800 FL (SERİSİ)) ₺10.944. 90 × 60 sm · PC - Çəki: 9.8 kq · LED/solar.",
+  "yeni": ""
+ },
+ "{s0} – {0} FL (SERİSİ) fiyatı ne kadar?": {
+  "ornek_tr": "Solar Ledli Yol Bakım Levhaları - (hxw) 90x60 Cm – 11800 FL (SERİSİ) fiyatı ne kadar?",
+  "mevcut": "Solar LED yol təmiri lövhələri - (hxw) 90x60 sm – 11800 FL (SERİSİ) qiyməti nə qədərdir?",
+  "yeni": ""
+ },
+ "{s0} – {0} FL (SERİSİ) için fatura kesiliyor mu?": {
+  "ornek_tr": "Solar Ledli Yol Bakım Levhaları - (hxw) 90x60 Cm – 11800 FL (SERİSİ) için fatura kesiliyor mu?",
+  "mevcut": "Solar LED yol təmiri lövhələri - (hxw) 90x60 sm – 11800 FL (SERİSİ) üçün faktura kəsilirmi?",
+  "yeni": ""
+ },
+ "{s0} – {0} FL (SERİSİ) kargo ücreti ne kadar?": {
+  "ornek_tr": "Solar Ledli Yol Bakım Levhaları - (hxw) 90x60 Cm – 11800 FL (SERİSİ) kargo ücreti ne kadar?",
+  "mevcut": "Solar LED yol təmiri lövhələri - (hxw) 90x60 sm – 11800 FL (SERİSİ) üçün çatdırılma haqqı nə qədərdir?",
+  "yeni": ""
+ },
+ "{s0} – {0} FL (SERİSİ) kaç günde teslim edilir?": {
+  "ornek_tr": "Solar Ledli Yol Bakım Levhaları - (hxw) 90x60 Cm – 11800 FL (SERİSİ) kaç günde teslim edilir?",
+  "mevcut": "Solar LED yol təmiri lövhələri - (hxw) 90x60 sm – 11800 FL (SERİSİ) neçə günə çatdırılır?",
+  "yeni": ""
+ },
+ "{s0} – {0} FL (SERİSİ) sepete ekle": {
+  "ornek_tr": "Solar Ledli Yol Bakım Levhaları - (hxw) 90x60 Cm – 11800 FL (SERİSİ) sepete ekle",
+  "mevcut": "Solar LED yol təmiri lövhələri - (hxw) 90x60 sm – 11800 FL (SERİSİ) səbətə əlavə et",
+  "yeni": ""
+ },
+ "{s0} – {0} FL (SERİSİ) teknik özellikleri nelerdir?": {
+  "ornek_tr": "Solar Ledli Yol Bakım Levhaları - (hxw) 90x60 Cm – 11800 FL (SERİSİ) teknik özellikleri nelerdir?",
+  "mevcut": "Solar LED yol təmiri lövhələri - (hxw) 90x60 sm – 11800 FL (SERİSİ) texniki xüsusiyyətləri hansılardır?",
+  "yeni": ""
+ },
+ "{s0} – {0} FL (SERİSİ) ölçü şeması": {
+  "ornek_tr": "Solar Ledli Yol Bakım Levhaları - (hxw) 90x60 Cm – 11800 FL (SERİSİ) ölçü şeması",
+  "mevcut": "Solar LED yol təmiri lövhələri - (hxw) 90x60 sm – 11800 FL (SERİSİ) ölçü sxemi",
+  "yeni": ""
+ },
+ "{s0} ({0} S-LD) ₺{1}. {2} × {3} cm · AL - Ağırlık: {4} kg · ledli/solar.": {
+  "ornek_tr": "Solar Ledli Yol Bakım Levhası - (hxw) 130x100 Cm – 11778 S-LD (11778 S-LD) ₺14.496. 130 × 100 cm · AL - Ağırlık: 16.5 kg · ledli/solar.",
+  "mevcut": "Solar LED yol təmiri lövhəsi - (hxw) 130x100 sm – 11778 S-LD (11778 S-LD) ₺14.496. 130 × 100 sm · AL - Çəki: 16.5 kq · LED/solar.",
+  "yeni": ""
+ },
+ "Solar flaşör lamba, güneş enerjisiyle şarj olan ve gece otomatik yanan uyarı ışığıdır. Lens çapı {0} mm ve {1} mm olarak iki ana ölçüde üretilir. {2} mm lens {3} kilometreye kadar görünür, {4} mm lens {5}-{6} metre etkilidir. Işık sensörü karanlıkta otomatik devreye girer, tam şarjla {7}-{8} saat çalışır. Kablo ve elektrik tesisatı gerektirmez.": {
+  "ornek_tr": "Solar flaşör lamba, güneş enerjisiyle şarj olan ve gece otomatik yanan uyarı ışığıdır. Lens çapı 100 mm ve 200 mm olarak iki ana ölçüde üretilir. 200 mm lens 1 kilometreye kadar görünür, 100 mm lens 400-600 metre etkilidir. Işık sensörü karanlıkta otomatik devreye girer, tam şarjla 60-100 saat çalışır. Kablo ve elektrik tesisatı gerektirmez.",
+  "mevcut": "Solar flaşer lampası günəş enerjisi ilə şarj olan və gecə avtomatik yanan xəbərdarlıq işığıdır. Linza diametri 100 mm və 200 mm olmaqla iki əsas ölçüdə istehsal olunur. 200 mm linza 1 kilometrədək görünür, 100 mm linza 400-600 metr effektivdir. İşıq sensoru qaranlıqda avtomatik işə düşür, tam şarjla 60-100 saat işləyir. Kabel və elektrik xətti tələb etmir.",
+  "yeni": ""
+ },
+ "Stoktaki ürünler {0}-{1} iş günü içinde kargoya verilir, Yurtiçi Kargo ile Türkiye geneline {2}-{3} iş gününde teslim edilir. Sevkiyat Konya'dan yapılır.": {
+  "ornek_tr": "Stoktaki ürünler 1-2 iş günü içinde kargoya verilir, Yurtiçi Kargo ile Türkiye geneline 1-3 iş gününde teslim edilir. Sevkiyat Konya'dan yapılır.",
+  "mevcut": "Anbarda olan məhsullar 1-2 iş günü ərzində kargoya verilir, Yurtiçi Kargo ilə bütün Türkiyə üzrə 1-3 iş günündə çatdırılır. Göndəriş Konyadan həyata keçirilir.",
+  "yeni": ""
+ },
+ "TPU, TPE ve PE {s0} Farkı — Hangi Malzeme Ne Zaman": {
+  "ornek_tr": "TPU, TPE ve PE Delinatör Farkı — Hangi Malzeme Ne Zaman",
+  "mevcut": "TPU, TPE və PE delineator fərqi — Hansı material nə vaxt",
+  "yeni": ""
+ },
+ "TPU, TPE ve PE {s0} Farkı — Hangi Malzeme Ne Zaman Doğru": {
+  "ornek_tr": "TPU, TPE ve PE Delinatör Farkı — Hangi Malzeme Ne Zaman Doğru",
+  "mevcut": "TPU, TPE və PE delineator fərqi — Hansı material nə vaxt doğrudur",
+  "yeni": ""
+ },
+ "TS EN {0}, taşınabilir trafik uyarı cihazlarının Avrupa standardıdır ve trafik konileri bu kapsamdadır. Reflektif malzeme EN {1}'a göre RA{2} ve RA{3} sınıflarına ayrılır. RA{4} sınıfı, RA{5}'in yaklaşık üç katı geri yansıtma değerine sahiptir ve gece görünürlüğü belirgin şekilde yüksektir. Kamu ihalelerinde genellikle RA{6} istenir, özel sektörde RA{7} çoğu durumda yeterlidir.": {
+  "ornek_tr": "TS EN 13422, taşınabilir trafik uyarı cihazlarının Avrupa standardıdır ve trafik konileri bu kapsamdadır. Reflektif malzeme EN 12899'a göre RA1 ve RA2 sınıflarına ayrılır. RA2 sınıfı, RA1'in yaklaşık üç katı geri yansıtma değerine sahiptir ve gece görünürlüğü belirgin şekilde yüksektir. Kamu ihalelerinde genellikle RA2 istenir, özel sektörde RA1 çoğu durumda yeterlidir.",
+  "mevcut": "TS EN 13422 portativ yol hərəkəti xəbərdarlıq qurğularının Avropa standartıdır və yol konusları bu əhatəyə daxildir. Reflektiv material EN 12899-a görə RA1 və RA2 siniflərinə bölünür. RA2 sinfi RA1-dən təxminən üç dəfə yüksək geri əksetmə dəyərinə malikdir və gecə görünürlüyü nəzərəçarpacaq dərəcədə yüksəkdir. Dövlət tenderlərində adətən RA2 tələb olunur, özəl sektorda isə əksər hallarda RA1 kifayətdir.",
+  "yeni": ""
+ },
+ "Tpe Esnek {s0} (soketli) - (hxø) {0} Cm X – {1} UB R": {
+  "ornek_tr": "Tpe Esnek Delinatör (soketli) - (hxø) 45 Cm X – 22058 UB R",
+  "mevcut": "TPE elastik delineator (soketli) - (hxø) 45 sm X – 22058 UB R",
+  "yeni": ""
+ },
+ "Tpe Esnek {s0} (soketli)- (hxø) {0} Cm X – {1} UB R": {
+  "ornek_tr": "Tpe Esnek Delinatör (soketli)- (hxø) 100 Cm X – 22056 UB R",
+  "mevcut": "TPE elastik delineator (soketli)- (hxø) 100 sm X – 22056 UB R",
+  "yeni": ""
+ },
+ "Tpe Esnek {s0}(soketli) - (hxø) {0} Cm X – {1} UB R": {
+  "ornek_tr": "Tpe Esnek Delinatör(soketli) - (hxø) 100 Cm X – 22040 UB R",
+  "mevcut": "TPE elastik delineator (soketli) - (hxø) 100 sm X – 22040 UB R",
+  "yeni": ""
+ },
+ "Tpe Esnek {s0}(soketli)- (hxø) {0} Cm X {1} – {2} UB R": {
+  "ornek_tr": "Tpe Esnek Delinatör(soketli)- (hxø) 70 Cm X 80 – 12272 UB R",
+  "mevcut": "TPE elastik delineator (soketli)- (hxø) 70 sm X 80 – 12272 UB R",
+  "yeni": ""
+ },
+ "Tpe S {s0} Esnek {s1} - (hxø) – {0} UB R": {
+  "ornek_tr": "Tpe S Şerit Ayırıcı Esnek Delinatör - (hxø) – 22021 UB R",
+  "mevcut": "TPE S zolaq ayırıcı elastik delineator - (hxø) – 22021 UB R",
+  "yeni": ""
+ },
+ "Tpu Esnek {s0}ler(soketli)-(hxø){0}cmx{1}m – {2} UB R": {
+  "ornek_tr": "Tpu Esnek Delinatörler(soketli)-(hxø)100cmx100m – 12249 UB R",
+  "mevcut": "TPU elastik delineatorlar (soketli)-(hxø)100cmx100m – 12249 UB R",
+  "yeni": ""
+ },
+ "Trafik konisi fiyatı boy, taban ağırlığı ve reflektif bant sayısına göre değişir. {0}'da {1} cm koniler {2}-{3} TL, {4}-{5} cm koniler {6}-{7} TL, {8} cm koniler {9}-{10} TL aralığındadır (KDV hariç). Ağırlık tabanlı modeller standarda göre yaklaşık %{11} pahalıdır. Kamu şartnamelerinde genellikle {12} cm ve {13} kg ağırlık istenir.": {
+  "ornek_tr": "Trafik konisi fiyatı boy, taban ağırlığı ve reflektif bant sayısına göre değişir. 2026'da 50 cm koniler 330-550 TL, 70-75 cm koniler 400-1.000 TL, 90 cm koniler 730-1.250 TL aralığındadır (KDV hariç). Ağırlık tabanlı modeller standarda göre yaklaşık %30 pahalıdır. Kamu şartnamelerinde genellikle 75 cm ve 4 kg ağırlık istenir.",
+  "mevcut": "Yol konusunun qiyməti hündürlüyə, əsasın çəkisinə və reflektiv lentlərin sayına görə dəyişir. 2026-cı ildə 50 sm konuslar 330-550 TL, 70-75 sm konuslar 400-1.000 TL, 90 sm konuslar 730-1.250 TL aralığındadır (ƏDV xaric). Ağırlıqlı əsaslı modellər standart modellərdən təxminən 30% bahadır. Dövlət şərtnamələrində adətən 75 sm və 4 kq çəki tələb olunur.",
+  "yeni": ""
+ },
+ "Trafik Ürünleri — {s0}, {s1}, Levha, Bariyer": {
+  "ornek_tr": "Trafik Ürünleri — Trafik Konisi, Delinatör, Levha, Bariyer",
+  "mevcut": "Trafik Ürünleri — Yol konusu, delineator, lövhə, bariyer",
+  "yeni": ""
+ },
+ "Turuncu {s0} - Siyah Ağırlık": {
+  "ornek_tr": "Turuncu Delinatör - Siyah Ağırlık",
+  "mevcut": "Narıncı delineator - Qara ağırlıq",
+  "yeni": ""
+ },
+ "{s0} tek başına değil, zemin tipine uygun dübelle birlikte seçilir. Asfalt, beton ve parke taşı farklı dübel gerektirir. {s1} boyu, sabitlenecek ürünün taban kalınlığı ile zemine girmesi gereken derinliğin toplamına göre belirlenir. Bazı ürünlerde montaj gereçleri kutuya dahildir — sipariş öncesi ürün sayfasındaki montaj bilgisini kontrol edin.": {
+  "ornek_tr": "Vida tek başına değil, zemin tipine uygun dübelle birlikte seçilir. Asfalt, beton ve parke taşı farklı dübel gerektirir. Vida boyu, sabitlenecek ürünün taban kalınlığı ile zemine girmesi gereken derinliğin toplamına göre belirlenir. Bazı ürünlerde montaj gereçleri kutuya dahildir — sipariş öncesi ürün sayfasındaki montaj bilgisini kontrol edin.",
+  "mevcut": "Vint tək başına deyil, döşəmə növünə uyğun dübellə birlikdə seçilir. Asfalt, beton və səki daşı fərqli dübel tələb edir. Vintin uzunluğu bərkidiləcək məhsulun əsas qalınlığı ilə döşəməyə girməli olduğu dərinliyin cəminə görə müəyyən edilir. Bəzi məhsullarda montaj ləvazimatı qutuya daxildir — sifarişdən əvvəl məhsul səhifəsindəki montaj məlumatını yoxlayın.",
+  "yeni": ""
+ },
+ "Yol butonu, asfalta gömülü veya yapıştırılan reflektörlü işaretleme elemanıdır. Cam küreli ve mercekli olmak üzere iki tip vardır; mercekli tip {0}-{1} kat daha uzaktan görünür. Şerit ayrımında {2}-{3} metre, viraj ve kavşakta {4}-{5} metre aralıkla yerleştirilir. Renk kodu yön ve şerit tipini belirtir: beyaz normal şerit, sarı orta refüj, kırmızı yanlış yön, mavi yangın hidrantı.": {
+  "ornek_tr": "Yol butonu, asfalta gömülü veya yapıştırılan reflektörlü işaretleme elemanıdır. Cam küreli ve mercekli olmak üzere iki tip vardır; mercekli tip 3-5 kat daha uzaktan görünür. Şerit ayrımında 6-12 metre, viraj ve kavşakta 3-6 metre aralıkla yerleştirilir. Renk kodu yön ve şerit tipini belirtir: beyaz normal şerit, sarı orta refüj, kırmızı yanlış yön, mavi yangın hidrantı.",
+  "mevcut": "Yol düyməsi asfalta basdırılan və ya yapışdırılan reflektorlu nişanlama elementidir. Şüşə kürəli və linzalı olmaqla iki növü var; linzalı növ 3-5 dəfə daha uzaqdan görünür. Zolaq ayrılmasında 6-12 metr, döngə və kəsişmədə 3-6 metr aralıqla yerləşdirilir. Rəng kodu istiqaməti və zolaq növünü göstərir: ağ adi zolaq, sarı orta ayırıcı zolaq, qırmızı səhv istiqamət, mavi yanğın hidrantı.",
+  "yeni": ""
+ },
+ "Yuvarlak {s0} - Folyo Ölçü: Ø{0} Mm İki – {1} A F": {
+  "ornek_tr": "Yuvarlak Uyarı Levhası - Folyo Ölçü: Ø270 Mm İki – 124 A F",
+  "mevcut": "Dairəvi xəbərdarlıq lövhəsi - Folqa Ölçü: Ø270 mm İki – 124 A F",
+  "yeni": ""
+ },
+ "Yuvarlak {s0} - Reflektif Ölçü: Ø{0} Mm – {1} A R": {
+  "ornek_tr": "Yuvarlak Uyarı Levhası - Reflektif Ölçü: Ø370 Mm – 222 A R",
+  "mevcut": "Dairəvi xəbərdarlıq lövhəsi - Reflektiv Ölçü: Ø370 mm – 222 A R",
+  "yeni": ""
+ },
+ "{s0} kancası, plastik trafik zincirini dikmeye, kelepçeye veya koni kulpuna bağlayan S veya karabina biçimli parçadır. {s1}in gerektiğinde hızlıca sökülüp takılmasını sağlar.": {
+  "ornek_tr": "Zincir kancası, plastik trafik zincirini dikmeye, kelepçeye veya koni kulpuna bağlayan S veya karabina biçimli parçadır. Zincirin gerektiğinde hızlıca sökülüp takılmasını sağlar.",
+  "mevcut": "Zəncir qarmağı plastik yol zəncirini dirəyə, xamuta və ya konus tutacağına bağlayan S və ya karabin formalı hissədir. Zəncirin lazım olduqda tez sökülüb taxılmasını təmin edir.",
+  "yeni": ""
+ },
+ "{s0} ({0} FL KM) ₺{1}. {2} × {3} cm · ABS · ledli/solar.": {
+  "ornek_tr": "Çakar Flaşörlü Solar Lamba - (hxw) 17x30 Cm - Kırmızı-mavi Led – 11855 FL KM (11855 FL KM) ₺1.284. 17 × 30 cm · ABS · ledli/solar.",
+  "mevcut": "Çaxarlı flaşerli solar lampa - (hxw) 17x30 sm - Qırmızı-mavi LED – 11855 FL KM (11855 FL KM) ₺1.284. 17 × 30 sm · ABS · LED/solar.",
+  "yeni": ""
+ },
+ "Ø{0} {s0} Ø{1}x{2} {s1} ile montaj": {
+  "ornek_tr": "Ø8 Dübel Ø4x38 Vida ile montaj",
+  "mevcut": "Ø8 dübel Ø4x38 vint ilə montaj",
+  "yeni": ""
+ },
+ "Üretici kolisinde {0} adet bulunur, koli ölçüsü {1} × {2} × {3} cm'dir. {4} adet ve katlarında sipariş verildiğinde ürünler orijinal kolisinde gönderilir; kargo maliyeti adet başına düşer.": {
+  "ornek_tr": "Üretici kolisinde 1 adet bulunur, koli ölçüsü 62 × 62 × 13 cm'dir. 1 adet ve katlarında sipariş verildiğinde ürünler orijinal kolisinde gönderilir; kargo maliyeti adet başına düşer.",
+  "mevcut": "İstehsalçı qutusunda 1 ədəd olur, qutunun ölçüsü 62 × 62 × 13 sm-dir. 1 ədəd və onun misilləri ilə sifariş verildikdə məhsullar orijinal qutusunda göndərilir; kargo xərci hər ədədə bölünür.",
+  "yeni": ""
+ },
+ "Şartnamelerde genellikle \"Tip {0}\", \"Tip {1}\" veya \"yüksek yoğunluklu prizmatik\" gibi tanımlar geçer. Bu tanımlar EN {2} standardındaki sınıflara karşılık gelir.": {
+  "ornek_tr": "Şartnamelerde genellikle \"Tip 1\", \"Tip 2\" veya \"yüksek yoğunluklu prizmatik\" gibi tanımlar geçer. Bu tanımlar EN 12899 standardındaki sınıflara karşılık gelir.",
+  "mevcut": "Şərtnamələrdə adətən \"Tip 1\", \"Tip 2\" və ya \"yüksək intensivlikli prizmatik\" kimi təriflər keçir. Bu təriflər EN 12899 standartındakı siniflərə uyğun gəlir.",
+  "yeni": ""
+ }
+}

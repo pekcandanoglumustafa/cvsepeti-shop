@@ -3,6 +3,7 @@ import Logo from "@/components/Logo";
 import { MapPin } from "lucide-react";
 import { categories, categorySlug, allProducts } from "@/lib/products";
 import { FIRMA } from "@/lib/firma";
+import { KARGO_DAHIL } from "@/lib/kargo";
 
 const KATALOG = [
   "Trafik Konisi",
@@ -84,7 +85,9 @@ export default function Footer() {
             <p>
               Yurtiçi Kargo ile gönderim.
               <br />
-              Kargo ücreti desi üzerinden ödeme adımında hesaplanır.
+              {KARGO_DAHIL
+                ? "Kargo ücreti fiyatlara dahildir."
+                : "Kargo ücreti desi üzerinden ödeme adımında hesaplanır."}
             </p>
             <a href={FIRMA.whatsapp} target="_blank" rel="noopener noreferrer">
               WhatsApp (teknik soru) ↗
@@ -115,7 +118,7 @@ export default function Footer() {
           </span>
           {/* Fiyatlar KDV dahile çevrildi; bu satır bir dönem "KDV hariçtir"
               diyerek kataloğu yalanlıyordu. */}
-          <span>Fiyatlar KDV dahildir. Kargo ödeme adımında hesaplanır.</span>
+          <span>{KARGO_DAHIL ? "Fiyatlar KDV ve kargo dahildir." : "Fiyatlar KDV dahildir. Kargo ödeme adımında hesaplanır."}</span>
           <div className="footer-pay">
             <b>iyzico</b>
             <span>VISA</span>
