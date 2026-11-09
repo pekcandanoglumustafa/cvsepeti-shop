@@ -63,6 +63,7 @@ export default function Gizlilik() {
         <li><strong>Ödeme kuruluşu</strong> ({FIRMA.odeme}) — ödemenin alınabilmesi için işlem bilgileri</li>
         <li><strong>Mali müşavir ve e-fatura entegratörü</strong> — fatura düzenlenebilmesi için fatura bilgileri</li>
         <li><strong>Yetkili kamu kurum ve kuruluşları</strong> — mevzuattan doğan talep hâlinde</li>
+        <li><strong>Meta Platforms</strong> — reklam ölçümü için Meta Pikseli aracılığıyla site içi hareket verileri</li>
       </ul>
       <p>Kişisel verileriniz pazarlama amacıyla üçüncü taraflara satılmaz veya kiralanmaz.</p>
 
@@ -78,7 +79,13 @@ export default function Gizlilik() {
       <p>
         Sitede çalışması için zorunlu çerezler (sepet içeriğinin korunması, oturum güvenliği) ve
         ziyaret istatistiği için Google Analytics çerezleri kullanılır. Analitik çerezler
-        kimliğinizi belirlemek için kullanılmaz. Tarayıcınızın ayarlarından çerezleri
+        kimliğinizi belirlemek için kullanılmaz.
+      </p>
+      <p>
+        Reklamlarımızın etkisini ölçmek ve Facebook, Instagram ve WhatsApp'ta ilgili ürünleri gösterebilmek için Meta Pikseli kullanılır. Bu araç; görüntülenen ürünler, sepete eklenen ürünler ve tamamlanan siparişlerin ürün kodu ve tutarı gibi bilgileri Meta Platforms'a iletir ve verilerin yurt dışına aktarılmasına yol açabilir. Ad, adres, telefon ve ödeme bilgileriniz Meta'ya gönderilmez.
+      </p>
+      <p>
+        Tarayıcınızın ayarlarından çerezleri
         engelleyebilirsiniz; bu durumda sepet gibi bazı işlevler çalışmayabilir.
       </p>
 
