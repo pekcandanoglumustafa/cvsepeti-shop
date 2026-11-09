@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
-import { metaOdemeBasla } from "@/components/MetaPiksel";
+import { metaOdemeBasla, gaOlay } from "@/components/MetaPiksel";
 import { kartGorseli } from "@/lib/gorsel";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
@@ -25,6 +25,8 @@ export default function Odeme() {
   const [mounted, setMounted] = useState(false);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
+  // Ödeme sayfasında yaşanan her hatayı Analytics'e bildir (hangi adımda takıldıklarını görmek için)
+  useEffect(() => { if (error) gaOlay("odeme_hatasi", { hata: error.slice(0, 100) }); }, [error]);
   const [showForm, setShowForm] = useState(false);
   const [touched, setTouched] = useState<Record<string, boolean>>({});
 
@@ -129,6 +131,7 @@ export default function Odeme() {
       if (d.status !== "success") { setError(d.message || "Ödeme başlatılamadı."); setLoading(false); return; }
       if (!d.checkoutFormContent) { setError("Ödeme formu alınamadı. Lütfen tekrar deneyin."); setLoading(false); return; }
       setShowForm(true);
+      gaOlay("add_shipping_info", { currency: "TRY", items: items.map((i) => ({ item_id: i.kod || i.slug, item_name: i.name, price: i.price_kdv, quantity: i.qty })) });
       setTimeout(() => {
         const host = document.getElementById("iyzipay-checkout-form");
         if (!host) return;

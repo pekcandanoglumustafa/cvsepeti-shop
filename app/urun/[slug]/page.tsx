@@ -155,7 +155,7 @@ export default async function Urun({
             </div>
           </div>
           <AddToCart product={p} />
-          <MetaUrunGoruntule kod={p.kod || p.slug} ad={p.name} fiyat={p.price_kdv} />
+          <MetaUrunGoruntule kod={p.kod || p.slug} ad={p.name} fiyat={p.price_kdv} kategori={p.category} />
 
           <p
             style={{

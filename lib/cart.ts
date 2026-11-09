@@ -67,8 +67,13 @@ export const useCart = create<CartState>()(
           window.dispatchEvent(new CustomEvent("cart:added", { detail: { name: item.name, kod: item.kod || item.slug, qty, fiyat: item.price_kdv } }));
         }
       },
-      remove: (slug) =>
-        set({ items: get().items.filter((i) => i.slug !== slug) }),
+      remove: (slug) => {
+        const r = get().items.find((i) => i.slug === slug);
+        if (r && typeof window !== "undefined") {
+          window.dispatchEvent(new CustomEvent("cart:removed", { detail: { slug, kod: r.kod, name: r.name, qty: r.qty, fiyat: r.price_kdv } }));
+        }
+        set({ items: get().items.filter((i) => i.slug !== slug) });
+      },
       setQty: (slug, qty) =>
         set({
           items: get()

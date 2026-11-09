@@ -1,5 +1,5 @@
 "use client";
-import { metaSatin } from "@/components/MetaPiksel";
+import { metaSatin, gaOlay } from "@/components/MetaPiksel";
 
 import { Suspense, useEffect } from "react";
 import { useSearchParams } from "next/navigation";
@@ -14,8 +14,9 @@ function Result() {
   const clear = useCart((s) => s.clear);
 
   useEffect(() => {
-    if (status === "success") { metaSatin(useCart.getState().items); clear(); }
-  }, [status, clear]);
+    if (status === "success") { metaSatin(useCart.getState().items, ref); clear(); }
+    else if (status) gaOlay("odeme_basarisiz", { durum: status });
+  }, [status, clear, ref]);
 
   const ok = status === "success";
 
