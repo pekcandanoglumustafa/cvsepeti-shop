@@ -20,6 +20,7 @@ export type CartItem = {
   agirlikli?: boolean;
   koli_olcu?: number[];
   koli_adet?: number;
+  kod?: string;         // ürün kodu (Merchant/Meta akışındaki g:id)
 };
 
 export type KargoOdeme = "pesin" | "karsi";
@@ -63,7 +64,7 @@ export const useCart = create<CartState>()(
         }
         // sepet çekmecesini aç
         if (typeof window !== "undefined") {
-          window.dispatchEvent(new CustomEvent("cart:added", { detail: { name: item.name } }));
+          window.dispatchEvent(new CustomEvent("cart:added", { detail: { name: item.name, kod: item.kod || item.slug, qty, fiyat: item.price_kdv } }));
         }
       },
       remove: (slug) =>

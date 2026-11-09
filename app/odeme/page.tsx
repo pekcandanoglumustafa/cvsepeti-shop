@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
+import { metaOdemeBasla } from "@/components/MetaPiksel";
 import { kartGorseli } from "@/lib/gorsel";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
@@ -46,6 +47,7 @@ export default function Odeme() {
   });
 
   useEffect(() => setMounted(true), []);
+  useEffect(() => { if (mounted) metaOdemeBasla(items); }, [mounted]); // eslint-disable-line react-hooks/exhaustive-deps
   useEffect(() => {
     if (mounted && items.length === 0 && !showForm) router.push("/sepet");
   }, [mounted, items, showForm, router]);

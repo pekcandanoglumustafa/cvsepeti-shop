@@ -1,4 +1,5 @@
 "use client";
+import { metaSatin } from "@/components/MetaPiksel";
 
 import { Suspense, useEffect } from "react";
 import { useSearchParams } from "next/navigation";
@@ -13,7 +14,7 @@ function Result() {
   const clear = useCart((s) => s.clear);
 
   useEffect(() => {
-    if (status === "success") clear();
+    if (status === "success") { metaSatin(useCart.getState().items); clear(); }
   }, [status, clear]);
 
   const ok = status === "success";

@@ -8,6 +8,7 @@ import {
   kisiyeOzel,
 } from "@/lib/products";
 import AddToCart from "@/components/AddToCart";
+import { MetaUrunGoruntule } from "@/components/MetaPiksel";
 import ProductGallery from "@/components/ProductGallery";
 import ProductCard from "@/components/ProductCard";
 import StickyBuyBar from "@/components/StickyBuyBar";
@@ -154,6 +155,7 @@ export default async function Urun({
             </div>
           </div>
           <AddToCart product={p} />
+          <MetaUrunGoruntule kod={p.kod || p.slug} ad={p.name} fiyat={p.price_kdv} />
 
           <p
             style={{

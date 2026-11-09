@@ -31,6 +31,7 @@ export default function AddToCart({ product }: { product: Product }) {
         agirlikli: (product as any).agirlikli,
         koli_olcu: (product as any).koli_olcu,
         koli_adet: koli,
+        kod: product.kod,
       },
       adet,
     );

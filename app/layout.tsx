@@ -1,5 +1,6 @@
 import CompareBar from "@/components/CompareBar";
 import Ceviri from "@/components/Ceviri";
+import MetaPiksel from "@/components/MetaPiksel";
 import { DIL_BETIGI } from "@/lib/diller";
 import type { Metadata } from "next";
 import { GoogleAnalytics } from "@next/third-parties/google";
@@ -192,6 +193,7 @@ export default function RootLayout({
         <CartDrawer />
         <CompareBar />
         <Ceviri />
+        <MetaPiksel />
       </body>
       {GA_GECERLI && <GoogleAnalytics gaId={GA_ID!} />}
     </html>

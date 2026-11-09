@@ -66,6 +66,7 @@ export default function ProductCard({
         agirlikli: p.agirlikli,
         koli_olcu: p.koli_olcu,
         koli_adet: p.koli_adet,
+        kod: p.kod,
       },
       1,
     );
