@@ -24,3 +24,6 @@ export const breadcrumbLd = (items: [name: string, path: string][]) => ({
   "@type": "BreadcrumbList",
   itemListElement: items.map(([name, path], i) => ({ "@type": "ListItem", position: i + 1, name, item: abs(path) })),
 });
+
+/** Katalog/piksel ürün kimliği: kodlardaki satır sonu ve fazla boşluklar Meta tarafından reddedilir. */
+export const akisKimligi = (k: string) => k.replace(/\s+/g, " ").trim();

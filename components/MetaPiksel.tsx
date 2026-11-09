@@ -8,6 +8,7 @@ import Script from "next/script";
 import { usePathname } from "next/navigation";
 import { useEffect, useRef } from "react";
 import type { CartItem } from "@/lib/cart";
+import { akisKimligi } from "@/lib/site";
 
 export const META_PIKSEL_ID = process.env.NEXT_PUBLIC_META_PIXEL_ID || "29277488965215797";
 
@@ -18,7 +19,7 @@ function fbq(...a: unknown[]) {
   if (f) f(...a);
 }
 
-const id = (i: Pick<CartItem, "kod" | "slug">) => i.kod || i.slug;
+const id = (i: Pick<CartItem, "kod" | "slug">) => akisKimligi(i.kod || i.slug);
 
 export function metaSatin(items: CartItem[]) {
   if (!items.length) return;
@@ -47,7 +48,7 @@ export function metaOdemeBasla(items: CartItem[]) {
 export function MetaUrunGoruntule({ kod, ad, fiyat }: { kod: string; ad: string; fiyat: number }) {
   useEffect(() => {
     const t = setTimeout(
-      () => fbq("track", "ViewContent", { content_ids: [kod], content_name: ad, content_type: "product", value: fiyat, currency: "TRY" }),
+      () => fbq("track", "ViewContent", { content_ids: [akisKimligi(kod)], content_name: ad, content_type: "product", value: fiyat, currency: "TRY" }),
       300,
     );
     return () => clearTimeout(t);
@@ -69,6 +70,7 @@ export default function MetaPiksel() {
     const dinle = (e: Event) => {
       const d = (e as CustomEvent).detail || {};
       if (!d.kod) return;
+      d.kod = akisKimligi(d.kod);
       fbq("track", "AddToCart", {
         content_ids: [d.kod],
         content_name: d.name,

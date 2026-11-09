@@ -1,3 +1,4 @@
+import { akisKimligi } from "@/lib/site";
 import { allProducts } from "@/lib/products";
 import { urunDesi, KARGO_DAHIL } from "@/lib/kargo";
 
@@ -40,7 +41,7 @@ export async function GET() {
       ].filter(Boolean) as [string, string][];
 
       return `    <item>
-      <g:id>${esc(p.kod || p.slug)}</g:id>
+      <g:id>${esc(akisKimligi(p.kod || p.slug))}</g:id>
       <title>${esc(p.name.slice(0, 150))}</title>
       <link>${BASE}/urun/${p.slug}</link>
       <description>${esc(aciklama.slice(0, 5000))}</description>
@@ -49,7 +50,7 @@ export async function GET() {
       <g:price>${p.price_kdv.toFixed(2)} TRY</g:price>
       <g:condition>new</g:condition>
       <g:brand>Trafik Ürünleri</g:brand>
-      <g:mpn>${esc(p.kod)}</g:mpn>
+      <g:mpn>${esc(akisKimligi(p.kod))}</g:mpn>
       <g:identifier_exists>no</g:identifier_exists>
       <g:product_type>${esc(p.category)}</g:product_type>
       <g:google_product_category>2496</g:google_product_category>
