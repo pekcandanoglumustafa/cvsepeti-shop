@@ -1,0 +1,15 @@
+{
+  "{s0} – {0} Adetlik Toplu Paket": "{s0} – Bulk pack of {0}",
+  "{s0} {0} Metre Komple Set ({1} Gövde + {2} Başlık)": "{s0} {0}-metre complete set ({1} sections + {2} end caps)",
+  "Zeplin Hız Kesici Kasis {0} cm": "Zeplin Speed Bump {0} cm",
+  "Zeplin Hız Kesici Kasis {0} cm ({1} kg)": "Zeplin Speed Bump {0} cm ({1} kg)",
+  "Zeplin {0} cm Kedi Gözlü Kasis Siyah": "Zeplin {0} cm Speed Bump with Cat’s Eyes, Black",
+  "Zeplin {0} cm Kedi Gözlü Kasis Sarı": "Zeplin {0} cm Speed Bump with Cat’s Eyes, Yellow",
+  "Zeplin Kauçuk Kasis {0}x{1} cm": "Zeplin Rubber Speed Bump {0}x{1} cm",
+  "{0} adet {s0}. Adet başı {1} TL. Toplu tek gönderim, kargo dahil.": "{0} units of {s0}. Unit price: {1} TL. One consolidated shipment, shipping included.",
+  "{0} metrelik komple hız kesici kasis seti: {1} adet {2} cm gövde + {3} adet uç başlık. Montaj vida ve dübelleri dahil. Toplu tek gönderim, kargo dahil.": "{0}-metre complete speed bump set: {1} sections of {2} cm + {3} end caps. Mounting screws and wall plugs included. One consolidated shipment, shipping included.",
+  "TOPLU PAKET": "BULK PACK",
+  "KOMPLE SET": "COMPLETE SET",
+  "{0} adet {s0}. Adet başı {1} TL. Toplu tek gönderim, kargo dahil. Ürün kodu: {s1}": "{0} units of {s0}. Unit price: {1} TL. One consolidated shipment, shipping included. Product code: {s1}",
+  "{0} metrelik komple hız kesici kasis seti: {1} adet {2} cm gövde + {3} adet uç başlık. Montaj vida ve dübelleri dahil. Toplu tek gönderim, kargo dahil. Ürün kodu: {s0}": "{0}-metre complete speed bump set: {1} sections of {2} cm + {3} end caps. Mounting screws and wall plugs included. One consolidated shipment, shipping included. Product code: {s0}"
+}

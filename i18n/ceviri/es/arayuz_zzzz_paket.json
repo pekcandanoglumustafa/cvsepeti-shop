@@ -1,0 +1,15 @@
+{
+  "{s0} – {0} Adetlik Toplu Paket": "{s0} – Paquete de {0} unidades",
+  "{s0} {0} Metre Komple Set ({1} Gövde + {2} Başlık)": "{s0} Kit completo de {0} metros ({1} módulos centrales + {2} terminales)",
+  "Zeplin Hız Kesici Kasis {0} cm": "Reductor de velocidad Zeplin {0} cm",
+  "Zeplin Hız Kesici Kasis {0} cm ({1} kg)": "Reductor de velocidad Zeplin {0} cm ({1} kg)",
+  "Zeplin {0} cm Kedi Gözlü Kasis Siyah": "Reductor de velocidad Zeplin con reflectores, {0} cm, negro",
+  "Zeplin {0} cm Kedi Gözlü Kasis Sarı": "Reductor de velocidad Zeplin con reflectores, {0} cm, amarillo",
+  "Zeplin Kauçuk Kasis {0}x{1} cm": "Reductor de velocidad de caucho Zeplin {0}x{1} cm",
+  "{0} adet {s0}. Adet başı {1} TL. Toplu tek gönderim, kargo dahil.": "{0} unidades de {s0}. Precio unitario: {1} TL. Un único envío agrupado, transporte incluido.",
+  "{0} metrelik komple hız kesici kasis seti: {1} adet {2} cm gövde + {3} adet uç başlık. Montaj vida ve dübelleri dahil. Toplu tek gönderim, kargo dahil.": "Kit completo de reductor de velocidad de {0} metros: {1} módulos centrales de {2} cm + {3} terminales. Tornillos y tacos de montaje incluidos. Un único envío agrupado, transporte incluido.",
+  "TOPLU PAKET": "PAQUETE DE VARIAS UNIDADES",
+  "KOMPLE SET": "KIT COMPLETO",
+  "{0} adet {s0}. Adet başı {1} TL. Toplu tek gönderim, kargo dahil. Ürün kodu: {s1}": "{0} unidades de {s0}. Precio unitario: {1} TL. Un único envío agrupado, transporte incluido. Código de producto: {s1}",
+  "{0} metrelik komple hız kesici kasis seti: {1} adet {2} cm gövde + {3} adet uç başlık. Montaj vida ve dübelleri dahil. Toplu tek gönderim, kargo dahil. Ürün kodu: {s0}": "Kit completo de reductor de velocidad de {0} metros: {1} módulos centrales de {2} cm + {3} terminales. Tornillos y tacos de montaje incluidos. Un único envío agrupado, transporte incluido. Código de producto: {s0}"
+}

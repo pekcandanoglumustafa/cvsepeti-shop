@@ -1,0 +1,15 @@
+{
+  "{s0} – {0} Adetlik Toplu Paket": "{s0} – Großpackung mit {0} Stück",
+  "{s0} {0} Metre Komple Set ({1} Gövde + {2} Başlık)": "{s0} Komplettset, {0} Meter ({1} Mittelteile + {2} Endstücke)",
+  "Zeplin Hız Kesici Kasis {0} cm": "Zeplin Bremsschwelle {0} cm",
+  "Zeplin Hız Kesici Kasis {0} cm ({1} kg)": "Zeplin Bremsschwelle {0} cm ({1} kg)",
+  "Zeplin {0} cm Kedi Gözlü Kasis Siyah": "Zeplin Bremsschwelle mit Katzenaugen, {0} cm, Schwarz",
+  "Zeplin {0} cm Kedi Gözlü Kasis Sarı": "Zeplin Bremsschwelle mit Katzenaugen, {0} cm, Gelb",
+  "Zeplin Kauçuk Kasis {0}x{1} cm": "Zeplin Gummi-Bremsschwelle {0}x{1} cm",
+  "{0} adet {s0}. Adet başı {1} TL. Toplu tek gönderim, kargo dahil.": "{0} Stück {s0}. Stückpreis: {1} TL. Eine Sammelsendung, Versand inklusive.",
+  "{0} metrelik komple hız kesici kasis seti: {1} adet {2} cm gövde + {3} adet uç başlık. Montaj vida ve dübelleri dahil. Toplu tek gönderim, kargo dahil.": "Komplettes Bremsschwellen-Set mit {0} Metern: {1} Mittelteile à {2} cm + {3} Endstücke. Montageschrauben und Dübel inklusive. Eine Sammelsendung, Versand inklusive.",
+  "TOPLU PAKET": "GROSSPACKUNG",
+  "KOMPLE SET": "KOMPLETTSET",
+  "{0} adet {s0}. Adet başı {1} TL. Toplu tek gönderim, kargo dahil. Ürün kodu: {s1}": "{0} Stück {s0}. Stückpreis: {1} TL. Eine Sammelsendung, Versand inklusive. Produktcode: {s1}",
+  "{0} metrelik komple hız kesici kasis seti: {1} adet {2} cm gövde + {3} adet uç başlık. Montaj vida ve dübelleri dahil. Toplu tek gönderim, kargo dahil. Ürün kodu: {s0}": "Komplettes Bremsschwellen-Set mit {0} Metern: {1} Mittelteile à {2} cm + {3} Endstücke. Montageschrauben und Dübel inklusive. Eine Sammelsendung, Versand inklusive. Produktcode: {s0}"
+}

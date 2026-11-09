@@ -1,0 +1,15 @@
+{
+  "{s0} – {0} Adetlik Toplu Paket": "{s0} – Упаковка из {0} шт.",
+  "{s0} {0} Metre Komple Set ({1} Gövde + {2} Başlık)": "{s0} Полный комплект длиной {0} м ({1} средних секций + {2} концевых элемента)",
+  "Zeplin Hız Kesici Kasis {0} cm": "Искусственная неровность Zeplin {0} см",
+  "Zeplin Hız Kesici Kasis {0} cm ({1} kg)": "Искусственная неровность Zeplin {0} см ({1} кг)",
+  "Zeplin {0} cm Kedi Gözlü Kasis Siyah": "Искусственная неровность Zeplin со светоотражателями, {0} см, чёрная",
+  "Zeplin {0} cm Kedi Gözlü Kasis Sarı": "Искусственная неровность Zeplin со светоотражателями, {0} см, жёлтая",
+  "Zeplin Kauçuk Kasis {0}x{1} cm": "Резиновая искусственная неровность Zeplin {0}x{1} см",
+  "{0} adet {s0}. Adet başı {1} TL. Toplu tek gönderim, kargo dahil.": "{0} шт.: {s0}. Цена за единицу: {1} TL. Одна объединённая отправка, доставка включена.",
+  "{0} metrelik komple hız kesici kasis seti: {1} adet {2} cm gövde + {3} adet uç başlık. Montaj vida ve dübelleri dahil. Toplu tek gönderim, kargo dahil.": "Полный комплект искусственной неровности длиной {0} м: {1} средних секций по {2} см + {3} концевых элемента. Крепёжные винты и дюбели включены. Одна объединённая отправка, доставка включена.",
+  "TOPLU PAKET": "ОПТОВАЯ УПАКОВКА",
+  "KOMPLE SET": "ПОЛНЫЙ КОМПЛЕКТ",
+  "{0} adet {s0}. Adet başı {1} TL. Toplu tek gönderim, kargo dahil. Ürün kodu: {s1}": "{0} шт.: {s0}. Цена за единицу: {1} TL. Одна объединённая отправка, доставка включена. Код товара: {s1}",
+  "{0} metrelik komple hız kesici kasis seti: {1} adet {2} cm gövde + {3} adet uç başlık. Montaj vida ve dübelleri dahil. Toplu tek gönderim, kargo dahil. Ürün kodu: {s0}": "Полный комплект искусственной неровности длиной {0} м: {1} средних секций по {2} см + {3} концевых элемента. Крепёжные винты и дюбели включены. Одна объединённая отправка, доставка включена. Код товара: {s0}"
+}

@@ -1,0 +1,15 @@
+{
+  "{s0} – {0} Adetlik Toplu Paket": "{s0} – {0} ədədlik toplu paket",
+  "{s0} {0} Metre Komple Set ({1} Gövde + {2} Başlık)": "{s0} {0} metrlik tam dəst ({1} gövdə + {2} başlıq)",
+  "Zeplin Hız Kesici Kasis {0} cm": "Zeplin sürət azaldıcı yol maneəsi {0} sm",
+  "Zeplin Hız Kesici Kasis {0} cm ({1} kg)": "Zeplin sürət azaldıcı yol maneəsi {0} sm ({1} kq)",
+  "Zeplin {0} cm Kedi Gözlü Kasis Siyah": "Zeplin reflektorlu yol maneəsi {0} sm, qara",
+  "Zeplin {0} cm Kedi Gözlü Kasis Sarı": "Zeplin reflektorlu yol maneəsi {0} sm, sarı",
+  "Zeplin Kauçuk Kasis {0}x{1} cm": "Zeplin rezin yol maneəsi {0}x{1} sm",
+  "{0} adet {s0}. Adet başı {1} TL. Toplu tek gönderim, kargo dahil.": "{0} ədəd {s0}. Ədəd qiyməti: {1} TL. Bir toplu göndəriş, çatdırılma daxildir.",
+  "{0} metrelik komple hız kesici kasis seti: {1} adet {2} cm gövde + {3} adet uç başlık. Montaj vida ve dübelleri dahil. Toplu tek gönderim, kargo dahil.": "{0} metrlik tam sürət azaldıcı yol maneəsi dəsti: {1} ədəd {2} sm gövdə + {3} ədəd uc başlıq. Montaj vintləri və dübelləri daxildir. Bir toplu göndəriş, çatdırılma daxildir.",
+  "TOPLU PAKET": "TOPLU PAKET",
+  "KOMPLE SET": "TAM DƏST",
+  "{0} adet {s0}. Adet başı {1} TL. Toplu tek gönderim, kargo dahil. Ürün kodu: {s1}": "{0} ədəd {s0}. Ədəd qiyməti: {1} TL. Bir toplu göndəriş, çatdırılma daxildir. Məhsul kodu: {s1}",
+  "{0} metrelik komple hız kesici kasis seti: {1} adet {2} cm gövde + {3} adet uç başlık. Montaj vida ve dübelleri dahil. Toplu tek gönderim, kargo dahil. Ürün kodu: {s0}": "{0} metrlik tam sürət azaldıcı yol maneəsi dəsti: {1} ədəd {2} sm gövdə + {3} ədəd uc başlıq. Montaj vintləri və dübelləri daxildir. Bir toplu göndəriş, çatdırılma daxildir. Məhsul kodu: {s0}"
+}

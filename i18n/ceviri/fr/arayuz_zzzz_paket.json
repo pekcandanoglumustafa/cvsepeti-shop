@@ -1,0 +1,15 @@
+{
+  "{s0} – {0} Adetlik Toplu Paket": "{s0} – Lot de {0} unités",
+  "{s0} {0} Metre Komple Set ({1} Gövde + {2} Başlık)": "{s0} Kit complet de {0} mètres ({1} éléments centraux + {2} embouts)",
+  "Zeplin Hız Kesici Kasis {0} cm": "Ralentisseur Zeplin {0} cm",
+  "Zeplin Hız Kesici Kasis {0} cm ({1} kg)": "Ralentisseur Zeplin {0} cm ({1} kg)",
+  "Zeplin {0} cm Kedi Gözlü Kasis Siyah": "Ralentisseur Zeplin à réflecteurs, {0} cm, noir",
+  "Zeplin {0} cm Kedi Gözlü Kasis Sarı": "Ralentisseur Zeplin à réflecteurs, {0} cm, jaune",
+  "Zeplin Kauçuk Kasis {0}x{1} cm": "Ralentisseur Zeplin en caoutchouc {0}x{1} cm",
+  "{0} adet {s0}. Adet başı {1} TL. Toplu tek gönderim, kargo dahil.": "{0} unités de {s0}. Prix unitaire : {1} TL. Un seul envoi groupé, livraison incluse.",
+  "{0} metrelik komple hız kesici kasis seti: {1} adet {2} cm gövde + {3} adet uç başlık. Montaj vida ve dübelleri dahil. Toplu tek gönderim, kargo dahil.": "Kit complet de ralentisseur de {0} mètres : {1} éléments centraux de {2} cm + {3} embouts. Vis et chevilles de fixation incluses. Un seul envoi groupé, livraison incluse.",
+  "TOPLU PAKET": "LOT GROUPÉ",
+  "KOMPLE SET": "KIT COMPLET",
+  "{0} adet {s0}. Adet başı {1} TL. Toplu tek gönderim, kargo dahil. Ürün kodu: {s1}": "{0} unités de {s0}. Prix unitaire : {1} TL. Un seul envoi groupé, livraison incluse. Code produit : {s1}",
+  "{0} metrelik komple hız kesici kasis seti: {1} adet {2} cm gövde + {3} adet uç başlık. Montaj vida ve dübelleri dahil. Toplu tek gönderim, kargo dahil. Ürün kodu: {s0}": "Kit complet de ralentisseur de {0} mètres : {1} éléments centraux de {2} cm + {3} embouts. Vis et chevilles de fixation incluses. Un seul envoi groupé, livraison incluse. Code produit : {s0}"
+}

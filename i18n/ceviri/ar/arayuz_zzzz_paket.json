@@ -1,0 +1,15 @@
+{
+  "{s0} – {0} Adetlik Toplu Paket": "{s0} – عبوة بالجملة من {0} قطع",
+  "{s0} {0} Metre Komple Set ({1} Gövde + {2} Başlık)": "{s0} طقم كامل بطول {0} متر ({1} أجزاء وسطية + {2} نهايات)",
+  "Zeplin Hız Kesici Kasis {0} cm": "مطب تهدئة السرعة Zeplin {0} سم",
+  "Zeplin Hız Kesici Kasis {0} cm ({1} kg)": "مطب تهدئة السرعة Zeplin {0} سم ({1} كغ)",
+  "Zeplin {0} cm Kedi Gözlü Kasis Siyah": "مطب Zeplin بعاكسات عين القط {0} سم، أسود",
+  "Zeplin {0} cm Kedi Gözlü Kasis Sarı": "مطب Zeplin بعاكسات عين القط {0} سم، أصفر",
+  "Zeplin Kauçuk Kasis {0}x{1} cm": "مطب مطاطي Zeplin {0}x{1} سم",
+  "{0} adet {s0}. Adet başı {1} TL. Toplu tek gönderim, kargo dahil.": "{0} قطع من {s0}. سعر القطعة: {1} TL. شحنة واحدة مجمعة، والشحن مشمول.",
+  "{0} metrelik komple hız kesici kasis seti: {1} adet {2} cm gövde + {3} adet uç başlık. Montaj vida ve dübelleri dahil. Toplu tek gönderim, kargo dahil.": "طقم كامل لمطب تهدئة السرعة بطول {0} متر: {1} أجزاء وسطية بطول {2} سم + {3} نهايات. براغي التثبيت والخوابير مشمولة. شحنة واحدة مجمعة، والشحن مشمول.",
+  "TOPLU PAKET": "عبوة بالجملة",
+  "KOMPLE SET": "طقم كامل",
+  "{0} adet {s0}. Adet başı {1} TL. Toplu tek gönderim, kargo dahil. Ürün kodu: {s1}": "{0} قطع من {s0}. سعر القطعة: {1} TL. شحنة واحدة مجمعة، والشحن مشمول. رمز المنتج: {s1}",
+  "{0} metrelik komple hız kesici kasis seti: {1} adet {2} cm gövde + {3} adet uç başlık. Montaj vida ve dübelleri dahil. Toplu tek gönderim, kargo dahil. Ürün kodu: {s0}": "طقم كامل لمطب تهدئة السرعة بطول {0} متر: {1} أجزاء وسطية بطول {2} سم + {3} نهايات. براغي التثبيت والخوابير مشمولة. شحنة واحدة مجمعة، والشحن مشمول. رمز المنتج: {s0}"
+}

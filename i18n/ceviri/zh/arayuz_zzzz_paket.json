@@ -1,0 +1,15 @@
+{
+  "{s0} – {0} Adetlik Toplu Paket": "{s0} – {0}件批量装",
+  "{s0} {0} Metre Komple Set ({1} Gövde + {2} Başlık)": "{s0} {0}米完整套装（{1}块主体 + {2}个端头）",
+  "Zeplin Hız Kesici Kasis {0} cm": "Zeplin 减速带 {0} cm",
+  "Zeplin Hız Kesici Kasis {0} cm ({1} kg)": "Zeplin 减速带 {0} cm（{1} kg）",
+  "Zeplin {0} cm Kedi Gözlü Kasis Siyah": "Zeplin 猫眼反光减速带 {0} cm，黑色",
+  "Zeplin {0} cm Kedi Gözlü Kasis Sarı": "Zeplin 猫眼反光减速带 {0} cm，黄色",
+  "Zeplin Kauçuk Kasis {0}x{1} cm": "Zeplin 橡胶减速带 {0}x{1} cm",
+  "{0} adet {s0}. Adet başı {1} TL. Toplu tek gönderim, kargo dahil.": "{0}件{s0}。单价：{1} TL。合并一次发货，含运费。",
+  "{0} metrelik komple hız kesici kasis seti: {1} adet {2} cm gövde + {3} adet uç başlık. Montaj vida ve dübelleri dahil. Toplu tek gönderim, kargo dahil.": "{0}米完整减速带套装：{1}块{2} cm主体 + {3}个端头。含安装螺钉和膨胀管。合并一次发货，含运费。",
+  "TOPLU PAKET": "批量装",
+  "KOMPLE SET": "完整套装",
+  "{0} adet {s0}. Adet başı {1} TL. Toplu tek gönderim, kargo dahil. Ürün kodu: {s1}": "{0}件{s0}。单价：{1} TL。合并一次发货，含运费。 产品代码： {s1}",
+  "{0} metrelik komple hız kesici kasis seti: {1} adet {2} cm gövde + {3} adet uç başlık. Montaj vida ve dübelleri dahil. Toplu tek gönderim, kargo dahil. Ürün kodu: {s0}": "{0}米完整减速带套装：{1}块{2} cm主体 + {3}个端头。含安装螺钉和膨胀管。合并一次发货，含运费。 产品代码： {s0}"
+}
