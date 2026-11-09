@@ -24,6 +24,8 @@ const GA_GECERLI = !!GA_ID && /^G-[A-Z0-9]{6,}$/.test(GA_ID);
 
 export const metadata: Metadata = {
   metadataBase: new URL(BASE),
+  // Google Merchant Center / Search Console site doğrulaması (trafikurunleri.com) — kaldırmayın
+  verification: { google: "GuCRezhaiKvKCo49hrXDuzK9kIKDIJEcmAGzSXjlsrI" },
   title: {
     // Google ~60 karakterde kesiyor; eski başlık 86 karakterdi ve sonu görünmüyordu
     default: `${MARKA} — Trafik Konisi, Delinatör, Levha, Bariyer`,
