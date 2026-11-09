@@ -1,5 +1,5 @@
 import { allProducts } from "@/lib/products";
-import { urunDesi } from "@/lib/kargo";
+import { urunDesi, KARGO_DAHIL } from "@/lib/kargo";
 
 import { SITE_URL as BASE } from "@/lib/site";
 
@@ -14,7 +14,8 @@ export async function GET() {
   const esc = (s: unknown) =>
     String(s ?? "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
 
-  const kargo = (desi: number) =>
+  // Kargo fiyata dahilse Google'a 0 bildirilir — sepette de kargo alınmıyor.
+  const kargo = (desi: number) => KARGO_DAHIL ? 0 :
     desi <= 3 ? 250 : 250 + (Math.min(desi, 10) - 3) * 55 + Math.max(0, Math.min(desi, 25) - 10) * 35;
 
   const items = allProducts
@@ -28,7 +29,8 @@ export async function GET() {
       const aciklama =
         `${p.name}. ${ozet ? ozet + ". " : ""}Ürün kodu ${p.kod}. ` +
         `${p.agirlik_kg ? `Ağırlık ${p.agirlik_kg} kg. ` : ""}` +
-        `Kargo desisi ${desi}. Stokta, 1-2 iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.`;
+        (KARGO_DAHIL ? `Kargo ücreti fiyata dahildir. ` : `Kargo desisi ${desi}. `) +
+        `Stokta, 1-2 iş gününde kargoda. Yurtiçi Kargo ile Türkiye geneline gönderim.`;
 
       const detay = [
         p.boyut && ["Ölçü", p.boyut],
