@@ -1,7 +1,7 @@
 {
- "Sitede çalışması için zorunlu çerezler (sepet içeriğinin korunması, oturum güvenliği) ve ziyaret istatistiği için Google Analytics çerezleri kullanılır. Analitik çerezler kimliğinizi belirlemek için kullanılmaz.": "本网站使用运行所必需的Cookie（保存购物车内容、会话安全）以及用于访问统计的Google Analytics Cookie。分析类Cookie不用于识别您的身份。",
  "Reklamlarımızın etkisini ölçmek ve Facebook, Instagram ve WhatsApp'ta ilgili ürünleri gösterebilmek için Meta Pikseli kullanılır. Bu araç; görüntülenen ürünler, sepete eklenen ürünler ve tamamlanan siparişlerin ürün kodu ve tutarı gibi bilgileri Meta Platforms'a iletir ve verilerin yurt dışına aktarılmasına yol açabilir. Ad, adres, telefon ve ödeme bilgileriniz Meta'ya gönderilmez.": "我们使用Meta像素来衡量广告效果，并在Facebook、Instagram和WhatsApp上展示相关产品。该工具会将已浏览商品、加入购物车的商品及已完成订单的商品编码和金额等信息发送给Meta Platforms，并可能导致数据传输至境外。您的姓名、地址、电话和付款信息不会发送给Meta。",
  "Tarayıcınızın ayarlarından çerezleri engelleyebilirsiniz; bu durumda sepet gibi bazı işlevler çalışmayabilir.": "您可以在浏览器设置中禁用Cookie；在这种情况下，购物车等部分功能可能无法使用。",
  "— reklam ölçümü için Meta Pikseli aracılığıyla site içi hareket verileri": "— 通过Meta像素收集的站内活动数据，用于广告效果衡量",
- "Meta Platforms": "Meta Platforms"
+ "Meta Platforms": "Meta Platforms",
+ "Sitede çalışması için zorunlu çerezler (sepet içeriğinin korunması, oturum güvenliği) ve ziyaret istatistiği için Google Analytics ve Microsoft Clarity çerezleri kullanılır. Analitik çerezler kimliğinizi belirlemek için kullanılmaz.": "本网站使用运行所必需的Cookie（保存购物车内容、会话安全）以及用于访问统计的Google Analytics和Microsoft Clarity Cookie。分析类Cookie不用于识别您的身份。"
 }
