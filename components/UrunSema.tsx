@@ -1,6 +1,8 @@
 import type { Product } from "@/lib/products";
 
-import { SITE_URL as BASE } from "@/lib/site";
+import { SITE_URL as BASE, akisKimligi } from "@/lib/site";
+import { KARGO_DAHIL } from "@/lib/kargo";
+import { FIRMA } from "@/lib/firma";
 import { urunDesi } from "@/lib/kargo";
 
 /** Product + Offer + BreadcrumbList + FAQPage — Google AI Overviews için */
@@ -27,8 +29,9 @@ export default function UrunSema({ p, kategoriSlug, sss }: {
         "@type": "Product",
         "@id": `${url}/#urun`,
         name: p.name,
-        sku: p.kod,
-        mpn: p.kod,
+        // katalog/Merchant akışıyla aynı kimlik (satır sonu ve fazla boşluk temizlenmiş)
+        sku: akisKimligi(p.kod || p.slug),
+        mpn: akisKimligi(p.kod || p.slug),
         description: p.description?.replace(/\n+/g, " ").slice(0, 500),
         image: gorsel ? [gorsel] : undefined,
         category: p.category,
@@ -46,6 +49,7 @@ export default function UrunSema({ p, kategoriSlug, sss }: {
             valueAddedTaxIncluded: true,
           },
           inventoryLevel: { "@type": "QuantitativeValue", value: Math.max(0, p.stock) },
+          validFrom: "2026-11-01",
           priceValidUntil: `${new Date().getFullYear() + 1}-12-31`,
           availability: p.stock > 0 ? "https://schema.org/InStock" : "https://schema.org/OutOfStock",
           itemCondition: "https://schema.org/NewCondition",
@@ -53,11 +57,20 @@ export default function UrunSema({ p, kategoriSlug, sss }: {
           shippingDetails: {
             "@type": "OfferShippingDetails",
             shippingDestination: { "@type": "DefinedRegion", addressCountry: "TR" },
+            ...(KARGO_DAHIL ? { shippingRate: { "@type": "MonetaryAmount", value: 0, currency: "TRY" } } : {}),
             deliveryTime: {
               "@type": "ShippingDeliveryTime",
               handlingTime: { "@type": "QuantitativeValue", minValue: 1, maxValue: 2, unitCode: "DAY" },
               transitTime: { "@type": "QuantitativeValue", minValue: 1, maxValue: 3, unitCode: "DAY" },
             },
+          },
+          hasMerchantReturnPolicy: {
+            "@type": "MerchantReturnPolicy",
+            applicableCountry: "TR",
+            returnPolicyCategory: "https://schema.org/MerchantReturnFiniteReturnWindow",
+            merchantReturnDays: FIRMA.caymaGun,
+            returnMethod: "https://schema.org/ReturnByMail",
+            merchantReturnLink: `${BASE}/teslimat-ve-iade`,
           },
         },
       },
