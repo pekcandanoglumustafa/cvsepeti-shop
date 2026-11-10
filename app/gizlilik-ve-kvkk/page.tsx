@@ -78,7 +78,7 @@ export default function Gizlilik() {
       <h2>7. Çerezler</h2>
       <p>
         Sitede çalışması için zorunlu çerezler (sepet içeriğinin korunması, oturum güvenliği) ve
-        ziyaret istatistiği için Google Analytics çerezleri kullanılır. Analitik çerezler
+        ziyaret istatistiği için Google Analytics ve Microsoft Clarity çerezleri kullanılır. Analitik çerezler
         kimliğinizi belirlemek için kullanılmaz.
       </p>
       <p>
